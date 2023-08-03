@@ -1,0 +1,175 @@
+{
+  "id": "starfinder-field-test-for-pf2e",
+  "title": "Starfinder Field Test for PF2e",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "compatibility": {}
+    }]
+  },
+  "description": "A module to implement the Starfinder Field Test in the Pathfinder 2nd edition system for Foundry VTT.",
+  "authors": [{
+    "name": "Tikael",
+    "discord": "Tikael",
+    "flags": {}
+  }],
+  "packs": [{
+    "name": "classes",
+    "label": "Classes",
+    "path": "packs/classes",
+    "type": "Item",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "system": "pf2e",
+    "flags": {}
+  }, {
+    "name": "class-features",
+    "label": "Class Features",
+    "path": "packs/class-features",
+    "type": "Item",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "system": "pf2e",
+    "flags": {}
+  }, {
+    "name": "feats",
+    "label": "Feats",
+    "path": "packs/feats",
+    "type": "Item",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "system": "pf2e",
+    "flags": {}
+  }, {
+    "name": "actions",
+    "label": "Actions",
+    "path": "packs/actions",
+    "type": "Item",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "system": "pf2e",
+    "flags": {}
+  }, {
+    "name": "equipment",
+    "label": "Equipment",
+    "path": "packs/equipment",
+    "type": "Item",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "system": "pf2e",
+    "flags": {}
+  }, {
+    "name": "conditions",
+    "label": "Conditions",
+    "path": "packs/conditions",
+    "type": "Item",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "system": "pf2e",
+    "flags": {}
+  }, {
+    "name": "creatures",
+    "label": "Creatures",
+    "path": "packs/creatures",
+    "type": "Actor",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "system": "pf2e",
+    "flags": {}
+  }],
+  "media": [{
+    "type": "setup",
+    "caption": "Battlezoo Year of Monsters",
+    "thumbnail": "modules/battlezoo-ancestries-year-of-monsters-pf2e/assets/preview.webp"
+  }],
+  "packFolders": [{
+    "name": "Starfinder Field Test",
+    "sorting": "m",
+    "packs": [
+      "classes",
+      "class-features",
+      "feats",
+      "actions",
+      "equipment",
+      "conditions",
+      "creatures"
+    ]
+  }],
+  "flags": {
+    "starfinder-field-test-for-pf2e": {
+      "pf2e-homebrew": {
+        "baseWeapons": {
+          "laser-pistol": "Laser Pistol",
+          "scattergun": "Scattergun",
+          "rotolaser": "Rotolaser",
+          "stellar-cannon": "Stellar Cannon"
+        },
+        "weaponGroups": {
+          "laser": "Laser",
+          "projectile": "Projectile"
+        },
+        "creatureTraits": {
+          "tech": "Tech"
+        },
+        "featTraits": {
+          "area": "Area",
+          "soldier": "Soldier"
+        },
+        "weaponTraits": {
+          "analog": {
+            "label": "Analog",
+            "description": "This weapon eschews advanced electronics, computers systems, and electric power sources, but was manufactured and calibrated using advanced technology. This weapon is immune to abilities that target technology. Weapon runes (as found in Pathfinder) don't function on this weapon unless this weapon also has the archaic trait. While this use of the word \"analog\" is not technically correct when referring to technology, use of the term in this way has become common throughout the Pact Worlds."
+          },
+          "archaic": {
+            "label": "Archaic",
+            "description": "This weapon is crafted using traditional methods and materials but is not suitable for striking modern armor. All weapons from Pathfinder Second Edition have the archaic trait. Weapon runes (as found in Pathfinder) function normally with archaic weapons. When a creature with non-archaic armor takes damage from an archaic weapon, that creature gains resistance 10 against the attack."
+          },
+          "area-burst-10-ft": {
+            "label": "Area (Burst 10 ft.)",
+            "description": "Weapons with this trait can only fire using the Area Fire action."
+          },
+          "area-cone": {
+            "label": "Area (Cone)",
+            "description": "Weapons with this trait can only fire using the Area Fire action."
+          },
+          "automatic": {
+            "label": "Automatic",
+            "description": "In addition to a normal Strike, you can fire this weapon using the Automatic Fire action."
+          },
+          "tech": {
+            "label": "Tech",
+            "description": "Weapons with the tech trait incorporate electronics, computer systems, and power sources. Sometimes the weapons use such little energy that they can rely on integrated power sources (such as melee weapons that don't have a capacity), while others drain batteries with attacks. Weapon runes (as found in Pathfinder) don't function on these weapons."
+          },
+          "tracking": {
+            "label": "Tracking",
+            "description": "This weapon has been developed with several integrated targeting, stabilizing, and homing systems. Attack rolls with this weapon gain an item bonus equal to the listed value."
+          },
+          "unwieldy": {
+            "label": "Unwieldy",
+            "description": "Weapons with this trait are large and awkward, can't be fired without cooling down first, or are otherwise difficult to use with repeated attacks. You can't use an unwieldy weapon more than once per round and can't use it to Strike as part of a reaction, such as Punitive Strike."
+          }
+        }
+      }
+    }
+  }
+}
