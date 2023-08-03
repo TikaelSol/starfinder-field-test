@@ -100,11 +100,6 @@
     "system": "pf2e",
     "flags": {}
   }],
-  "media": [{
-    "type": "setup",
-    "caption": "Battlezoo Year of Monsters",
-    "thumbnail": "modules/battlezoo-ancestries-year-of-monsters-pf2e/assets/preview.webp"
-  }],
   "packFolders": [{
     "name": "Starfinder Field Test",
     "sorting": "m",
