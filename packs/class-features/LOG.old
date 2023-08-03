@@ -1,5 +1,3 @@
-2023/08/03-03:57:28.860 2ce0 Recovering log #10
-2023/08/03-03:57:28.860 2ce0 Level-0 table #12: started
-2023/08/03-03:57:28.865 2ce0 Level-0 table #12: 4322 bytes OK
-2023/08/03-03:57:28.872 2ce0 Delete type=0 #10
-2023/08/03-03:57:28.872 2ce0 Delete type=3 #8
+2023/08/03-13:34:22.203 38ac Recovering log #13
+2023/08/03-13:34:22.213 38ac Delete type=0 #13
+2023/08/03-13:34:22.214 38ac Delete type=3 #11

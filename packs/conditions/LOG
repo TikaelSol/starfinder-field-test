@@ -1,3 +1,5 @@
-2023/08/03-13:34:22.295 3bc Recovering log #11
-2023/08/03-13:34:22.302 3bc Delete type=0 #11
-2023/08/03-13:34:22.303 3bc Delete type=3 #10
+2023/08/03-13:51:58.517 18cc Recovering log #13
+2023/08/03-13:51:58.517 18cc Level-0 table #15: started
+2023/08/03-13:51:58.534 18cc Level-0 table #15: 1657 bytes OK
+2023/08/03-13:51:58.540 18cc Delete type=0 #13
+2023/08/03-13:51:58.540 18cc Delete type=3 #12
