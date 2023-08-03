@@ -1,6 +1,9 @@
 {
   "id": "starfinder-field-test-for-pf2e",
   "title": "Starfinder Field Test for PF2e",
+  "url": "https://github.com/TikaelSol/starfinder-field-test",
+  "manifest": "https://raw.githubusercontent.com/TikaelSol/starfinder-field-test/master/module.json",
+  "download": "https://github.com/TikaelSol/starfinder-field-test/archive/refs/heads/main.zip",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "11",
