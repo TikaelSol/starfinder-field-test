@@ -4,7 +4,7 @@
   "url": "https://github.com/TikaelSol/starfinder-field-test",
   "manifest": "https://raw.githubusercontent.com/TikaelSol/starfinder-field-test/master/module.json",
   "download": "https://github.com/TikaelSol/starfinder-field-test/archive/refs/heads/main.zip",
-  "version": "1.0.1",
+  "version": "2.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -14,7 +14,7 @@
       "id": "pf2e",
       "type": "system",
       "compatibility": {
-        "minimum": "5.3"
+        "minimum": "5.6.2"
       }
     }]
   },
@@ -80,8 +80,19 @@
     "system": "pf2e",
     "flags": {}
   }, {
+    "name": "spells",
+    "label": "Spells",
+    "path": "packs/spells",
+    "type": "Item",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "system": "pf2e",
+    "flags": {}
+  }, {
     "name": "conditions",
-    "label": "Conditions",
+    "label": "Effects and Conditions",
     "path": "packs/conditions",
     "type": "Item",
     "ownership": {
@@ -111,6 +122,7 @@
       "feats",
       "actions",
       "equipment",
+      "spells",
       "conditions",
       "creatures"
     ]
@@ -133,7 +145,12 @@
         },
         "featTraits": {
           "area": "Area",
+          "mystic": "Mystic",
           "soldier": "Soldier"
+        },
+        "spellTraits": {
+          "mystic": "Mystic",
+          "subtle": "Subtle"
         },
         "weaponTraits": {
           "analog": {

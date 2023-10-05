@@ -7,6 +7,7 @@ Attribution: This product is original game content and is not based on a license
 If you use our Licensed Material in your own published work, please credit us in your product as follows:
 
 * Starfinder Field Test #1 © 2023 Paizo Inc. Authors: Jessica Catalan, Jenny Jarzabski, Dustin Knight, and Thurston Hillman
+* Starfinder Field Test #2 © 2023 Paizo Inc. Authors: Jessica Catalan, Jenny Jarzabski, Dustin Knight, and Thurston Hillman
 
 RESERVED MATERIAL: Reserved Material elements in this product include all elements designated as Reserved Material under the ORC License. To avoid confusion, such items include: All trademarks, registered trademarks, proper nouns (characters, deities, locations, etc., as well as all adjectives, names, titles, and descriptive terms derived from proper nouns), artworks, characters, dialogue, locations, organizations, plots, storylines, and trade dress.
 
