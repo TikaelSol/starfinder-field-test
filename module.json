@@ -4,17 +4,17 @@
   "url": "https://github.com/TikaelSol/starfinder-field-test",
   "manifest": "https://raw.githubusercontent.com/TikaelSol/starfinder-field-test/master/module.json",
   "download": "https://github.com/TikaelSol/starfinder-field-test/archive/refs/heads/main.zip",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "compatibility": {
     "minimum": "11",
-    "verified": "11.314"
+    "verified": "11.315"
   },
   "relationships": {
     "systems": [{
       "id": "pf2e",
       "type": "system",
       "compatibility": {
-        "minimum": "5.8.0"
+        "minimum": "5.11.5"
       }
     }]
   },
@@ -24,99 +24,146 @@
     "discord": "Tikael",
     "flags": {}
   }],
-  "packs": [{
-    "name": "classes",
-    "label": "Classes",
-    "path": "packs/classes",
-    "type": "Item",
-    "ownership": {
-      "PLAYER": "OBSERVER",
-      "ASSISTANT": "OWNER"
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
     },
-    "system": "pf2e",
-    "flags": {}
-  }, {
-    "name": "class-features",
-    "label": "Class Features",
-    "path": "packs/class-features",
-    "type": "Item",
-    "ownership": {
-      "PLAYER": "OBSERVER",
-      "ASSISTANT": "OWNER"
+    {
+      "name": "class-features",
+      "label": "Class Features",
+      "path": "packs/class-features",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
     },
-    "system": "pf2e",
-    "flags": {}
-  }, {
-    "name": "feats",
-    "label": "Feats",
-    "path": "packs/feats",
-    "type": "Item",
-    "ownership": {
-      "PLAYER": "OBSERVER",
-      "ASSISTANT": "OWNER"
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
     },
-    "system": "pf2e",
-    "flags": {}
-  }, {
-    "name": "actions",
-    "label": "Actions",
-    "path": "packs/actions",
-    "type": "Item",
-    "ownership": {
-      "PLAYER": "OBSERVER",
-      "ASSISTANT": "OWNER"
+    {
+      "name": "actions",
+      "label": "Actions",
+      "path": "packs/actions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
     },
-    "system": "pf2e",
-    "flags": {}
-  }, {
-    "name": "equipment",
-    "label": "Equipment",
-    "path": "packs/equipment",
-    "type": "Item",
-    "ownership": {
-      "PLAYER": "OBSERVER",
-      "ASSISTANT": "OWNER"
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
     },
-    "system": "pf2e",
-    "flags": {}
-  }, {
-    "name": "spells",
-    "label": "Spells",
-    "path": "packs/spells",
-    "type": "Item",
-    "ownership": {
-      "PLAYER": "OBSERVER",
-      "ASSISTANT": "OWNER"
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
     },
-    "system": "pf2e",
-    "flags": {}
-  }, {
-    "name": "conditions",
-    "label": "Effects and Conditions",
-    "path": "packs/conditions",
-    "type": "Item",
-    "ownership": {
-      "PLAYER": "OBSERVER",
-      "ASSISTANT": "OWNER"
+    {
+      "name": "conditions",
+      "label": "Effects and Conditions",
+      "path": "packs/conditions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
     },
-    "system": "pf2e",
-    "flags": {}
-  }, {
-    "name": "creatures",
-    "label": "Creatures",
-    "path": "packs/creatures",
-    "type": "Actor",
-    "ownership": {
-      "PLAYER": "OBSERVER",
-      "ASSISTANT": "OWNER"
+    {
+      "name": "creatures",
+      "label": "Creatures",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
     },
-    "system": "pf2e",
-    "flags": {}
-  }],
+    {
+      "name": "ancestries",
+      "label": "Ancestries",
+      "path": "packs/ancestries",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "heritages",
+      "label": "Heritages",
+      "path": "packs/heritages",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "sf2e-journals",
+      "label": "SF2e Jounals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
   "packFolders": [{
     "name": "Starfinder Field Test",
     "sorting": "m",
     "packs": [
+      "ancestries",
+      "heritages",
       "classes",
       "class-features",
       "feats",
@@ -124,7 +171,8 @@
       "equipment",
       "spells",
       "conditions",
-      "creatures"
+      "creatures",
+      "sf2e-journals"
     ]
   }],
   "flags": {
@@ -136,17 +184,22 @@
           "rotolaser": "Rotolaser",
           "stellar-cannon": "Stellar Cannon"
         },
+        "languages": {
+          "vesk": "Vesk"
+        },
         "weaponGroups": {
           "laser": "Laser",
           "projectile": "Projectile"
         },
         "creatureTraits": {
-          "tech": "Tech"
+          "tech": "Tech",
+          "vesk": "Vesk"
         },
         "featTraits": {
           "area": "Area",
           "mystic": "Mystic",
-          "soldier": "Soldier"
+          "soldier": "Soldier",
+          "vesk": "Vesk"
         },
         "spellTraits": {
           "mystic": "Mystic",

@@ -1,14 +1,14 @@
-2023/10/08-10:43:11.591 103c Recovering log #80
-2023/10/08-10:43:11.599 103c Delete type=0 #80
-2023/10/08-10:43:11.599 103c Delete type=3 #79
-2023/10/08-10:48:48.331 2e90 Level-0 table #84: started
-2023/10/08-10:48:48.332 2e90 Level-0 table #84: 0 bytes OK
-2023/10/08-10:48:48.335 2e90 Delete type=0 #82
-2023/10/08-10:48:48.335 2e90 Manual compaction at level-0 from '!items!6ctkxUnVwqooSvgg' @ 72057594037927935 : 1 .. '!items!y9tYChycW6xcdT7J' @ 0 : 0; will stop at '!items!y9tYChycW6xcdT7J' @ 5 : 1
-2023/10/08-10:48:48.335 2e90 Compacting 1@0 + 1@1 files
-2023/10/08-10:48:48.349 2e90 Generated table #85@0: 5 keys, 3503 bytes
-2023/10/08-10:48:48.349 2e90 Compacted 1@0 + 1@1 files => 3503 bytes
-2023/10/08-10:48:48.352 2e90 compacted to: files[ 0 1 0 0 0 0 0 ]
-2023/10/08-10:48:48.352 2e90 Delete type=2 #27
-2023/10/08-10:48:48.352 2e90 Delete type=2 #41
-2023/10/08-10:48:48.352 2e90 Manual compaction at level-0 from '!items!y9tYChycW6xcdT7J' @ 5 : 1 .. '!items!y9tYChycW6xcdT7J' @ 0 : 0; will stop at (end)
+2024/01/03-18:18:52.121 3c60 Recovering log #106
+2024/01/03-18:18:52.128 3c60 Delete type=0 #106
+2024/01/03-18:18:52.128 3c60 Delete type=3 #104
+2024/01/03-18:19:38.482 2704 Level-0 table #110: started
+2024/01/03-18:19:38.482 2704 Level-0 table #110: 0 bytes OK
+2024/01/03-18:19:38.484 2704 Delete type=0 #108
+2024/01/03-18:19:38.493 2704 Manual compaction at level-0 from '!items!6ctkxUnVwqooSvgg' @ 72057594037927935 : 1 .. '!items!y9tYChycW6xcdT7J' @ 0 : 0; will stop at '!items!ptYH7wT8RIxBj6mM' @ 11 : 1
+2024/01/03-18:19:38.493 2704 Compacting 1@0 + 1@1 files
+2024/01/03-18:19:38.510 2704 Generated table #111@0: 6 keys, 3913 bytes
+2024/01/03-18:19:38.510 2704 Compacted 1@0 + 1@1 files => 3913 bytes
+2024/01/03-18:19:38.512 2704 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/01/03-18:19:38.512 2704 Delete type=2 #85
+2024/01/03-18:19:38.513 2704 Delete type=2 #105
+2024/01/03-18:19:38.522 2704 Manual compaction at level-0 from '!items!ptYH7wT8RIxBj6mM' @ 11 : 1 .. '!items!y9tYChycW6xcdT7J' @ 0 : 0; will stop at (end)
