@@ -4,7 +4,7 @@
   "url": "https://github.com/TikaelSol/starfinder-field-test",
   "manifest": "https://raw.githubusercontent.com/TikaelSol/starfinder-field-test/master/module.json",
   "download": "https://github.com/TikaelSol/starfinder-field-test/archive/refs/heads/main.zip",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
@@ -14,7 +14,7 @@
       "id": "pf2e",
       "type": "system",
       "compatibility": {
-        "minimum": "5.11.5"
+        "minimum": "5.14.3"
       }
     }]
   },
@@ -197,6 +197,8 @@
         },
         "featTraits": {
           "area": "Area",
+          "directive": "Directive",
+          "envoy": "Envoy",
           "mystic": "Mystic",
           "soldier": "Soldier",
           "vesk": "Vesk"
