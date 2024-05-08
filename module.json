@@ -4,7 +4,7 @@
   "url": "https://github.com/TikaelSol/starfinder-field-test",
   "manifest": "https://raw.githubusercontent.com/TikaelSol/starfinder-field-test/master/module.json",
   "download": "https://github.com/TikaelSol/starfinder-field-test/archive/refs/heads/main.zip",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
@@ -14,7 +14,7 @@
       "id": "pf2e",
       "type": "system",
       "compatibility": {
-        "minimum": "5.14.3"
+        "minimum": "5.15.0"
       }
     }]
   },
@@ -185,6 +185,7 @@
           "stellar-cannon": "Stellar Cannon"
         },
         "languages": {
+          "eoxian": "Eoxian",
           "vesk": "Vesk"
         },
         "weaponGroups": {
@@ -192,6 +193,7 @@
           "projectile": "Projectile"
         },
         "creatureTraits": {
+          "cosmic": "Cosmic",
           "tech": "Tech",
           "vesk": "Vesk"
         },
@@ -208,10 +210,12 @@
           "subtle": "Subtle"
         },
         "weaponTraits": {
+          "aeon": "Aeon",
           "analog": {
             "label": "Analog",
             "description": "This weapon eschews advanced electronics, computers systems, and electric power sources, but was manufactured and calibrated using advanced technology. This weapon is immune to abilities that target technology. Weapon runes (as found in Pathfinder) don't function on this weapon unless this weapon also has the archaic trait. While this use of the word \"analog\" is not technically correct when referring to technology, use of the term in this way has become common throughout the Pact Worlds."
           },
+          "arc": "Arc",
           "archaic": {
             "label": "Archaic",
             "description": "This weapon is crafted using traditional methods and materials but is not suitable for striking modern armor. All weapons from Pathfinder Second Edition have the archaic trait. Weapon runes (as found in Pathfinder) function normally with archaic weapons. When a creature with non-archaic armor takes damage from an archaic weapon, that creature gains resistance 10 against the attack."
@@ -228,6 +232,10 @@
             "label": "Automatic",
             "description": "In addition to a normal Strike, you can fire this weapon using the Automatic Fire action."
           },
+          "caster": "Caster",
+          "critical-brawling": "Critical (Brawling)",
+          "modular-void-slashing": "Modular (Void and Slashing)",
+          "powered": "Powered",
           "tech": {
             "label": "Tech",
             "description": "Weapons with the tech trait incorporate electronics, computer systems, and power sources. Sometimes the weapons use such little energy that they can rely on integrated power sources (such as melee weapons that don't have a capacity), while others drain batteries with attacks. Weapon runes (as found in Pathfinder) don't function on these weapons."
