@@ -1,31 +1,3 @@
-2024/05/12-19:16:13.444 1b38 Log #13: 0 ops saved to Table #226 OK
-2024/05/12-19:16:13.445 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/000013.log: OK
-2024/05/12-19:16:13.445 1b38 Log #15: 0 ops saved to Table #227 OK
-2024/05/12-19:16:13.445 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/000015.log: OK
-2024/05/12-19:16:13.455 1b38 Log #19: 62 ops saved to Table #228 OK
-2024/05/12-19:16:13.455 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/000019.log: OK
-2024/05/12-19:16:13.455 1b38 Log #43: 0 ops saved to Table #229 OK
-2024/05/12-19:16:13.456 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/000043.log: OK
-2024/05/12-19:16:13.456 1b38 Log #45: 0 ops saved to Table #230 OK
-2024/05/12-19:16:13.456 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/000045.log: OK
-2024/05/12-19:16:13.456 1b38 Log #85: 0 ops saved to Table #231 OK
-2024/05/12-19:16:13.457 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/000085.log: OK
-2024/05/12-19:16:13.457 1b38 Log #109: 0 ops saved to Table #232 OK
-2024/05/12-19:16:13.457 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/000109.log: OK
-2024/05/12-19:16:13.457 1b38 Log #209: 0 ops saved to Table #233 OK
-2024/05/12-19:16:13.458 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/000209.log: OK
-2024/05/12-19:16:13.467 1b38 Log #225: 65 ops saved to Table #234 OK
-2024/05/12-19:16:13.468 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/000225.log: OK
-2024/05/12-19:16:13.469 1b38 Table #27: 38 entries OK
-2024/05/12-19:16:13.469 1b38 Table #228: 62 entries OK
-2024/05/12-19:16:13.469 1b38 Table #234: 65 entries OK
-2024/05/12-19:16:13.472 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/MANIFEST-000012: OK
-2024/05/12-19:16:13.472 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/MANIFEST-000014: OK
-2024/05/12-19:16:13.473 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/MANIFEST-000018: OK
-2024/05/12-19:16:13.473 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/MANIFEST-000042: OK
-2024/05/12-19:16:13.474 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/MANIFEST-000044: OK
-2024/05/12-19:16:13.474 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/MANIFEST-000084: OK
-2024/05/12-19:16:13.475 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/MANIFEST-000108: OK
-2024/05/12-19:16:13.475 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/MANIFEST-000208: OK
-2024/05/12-19:16:13.476 1b38 Archiving C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures/MANIFEST-000224: OK
-2024/05/12-19:16:13.480 1b38 **** Repaired leveldb C:\Users\User\AppData\Local\FoundryVTT\Data\modules\starfinder-field-test-for-pf2e\packs\creatures; recovered 3 files; 112204 bytes. Some data may have been lost. ****
+2024/06/05-18:36:18.326 4544 Recovering log #296
+2024/06/05-18:36:18.333 4544 Delete type=0 #296
+2024/06/05-18:36:18.333 4544 Delete type=3 #294
