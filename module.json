@@ -4,7 +4,7 @@
   "url": "https://github.com/TikaelSol/starfinder-field-test",
   "manifest": "https://raw.githubusercontent.com/TikaelSol/starfinder-field-test/master/module.json",
   "download": "https://github.com/TikaelSol/starfinder-field-test/archive/refs/heads/main.zip",
-  "version": "5.0.1",
+  "version": "5.1.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
@@ -26,6 +26,18 @@
     "flags": {}
   }],
   "packs": [
+    {
+      "name": "adventures",
+      "label": "Adventures",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
     {
       "name": "classes",
       "label": "Classes",
@@ -163,6 +175,7 @@
     "name": "Starfinder Field Test",
     "sorting": "m",
     "packs": [
+      "adventures",
       "ancestries",
       "heritages",
       "classes",
