@@ -1,0 +1,7 @@
+2024/08/01-01:29:56.272 d64 Recovering log #222
+2024/08/01-01:29:56.280 d64 Delete type=0 #222
+2024/08/01-01:29:56.280 d64 Delete type=3 #221
+2024/08/01-01:30:13.175 7f4 Level-0 table #226: started
+2024/08/01-01:30:13.175 7f4 Level-0 table #226: 0 bytes OK
+2024/08/01-01:30:13.177 7f4 Delete type=0 #224
+2024/08/01-01:30:13.188 7f4 Manual compaction at level-0 from '!items!32ACVCEVfdtEA3I4' @ 72057594037927935 : 1 .. '!items!w0cw9QgZaycis3OG' @ 0 : 0; will stop at (end)

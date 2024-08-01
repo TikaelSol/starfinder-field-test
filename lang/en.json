@@ -1,0 +1,490 @@
+{
+    "PF2E": {
+        "ActionsCheck": {
+            "computers": "Computers Check",
+            "piloting": "Piloting Check"
+        },
+        "TraitRatfolk": "Ysoki"
+    },
+    "SF2E": {
+        "BaseArmor": {
+            "AbadarcorpTravelSuit": "Abadarcorp Travel Suit",
+            "ArmoredCoat": "Armored Coat",
+            "CarbonSkin": "Carbon Skin",
+            "EstexSuit": "Estex Suit",
+            "HardlightSeries": "Hardlight Series",
+            "MicrocordArmor": "Microcord Armor",
+            "QuiltedArmor": "Quilted Armor",
+            "SecondSkin": "Second Skin",
+            "Tempweave": "Tempweave",
+            "DefrexHide": "Defrex Hide",
+            "FreebooterArmor": "Freebooter Armor",
+            "LatticeArmor": "Lattice Armor",
+            "SholashuArmor": "Sholashu Armor",
+            "SkyfireArmor": "Skyfire Armor",
+            "Swarmsuit": "Swarmsuit",
+            "AegisSeries": "Aegis Series",
+            "DefianceSeries": "Defiance Series",
+            "HiddenSoldierArmor": "Hidden Soldier Armor",
+            "KyokorPlating": "Kyokor Plating",
+            "Thinplate": "Thinplate",
+            "VeskariumImperialPlate": "Veskarium Imperial Plate"
+        },
+        "BaseWeapon": {
+            "Baton": "Baton",
+            "Battleglove": "Battleglove",
+            "BioCannon": "Bio-Cannon",
+            "Knife": "Knife",
+            "Puzzleblade": "Puzzleblade",
+            "ShockPad": "Shock Pad",
+            "ZeroKnife": "Zero Knife",
+            "AucturniteChakram": "Aucturnite Chakram",
+            "BattleRibbon": "Battle Ribbon",
+            "BoneScepter": "Bone Scepter",
+            "Cryopike": "Cryopike",
+            "Doshko": "Doshko",
+            "DuelingSword": "Dueling Sword",
+            "Fangblade": "Fangblade",
+            "ForceNeedle": "Force Needle",
+            "Grindblade": "Grindblade",
+            "Hammer": "Hammer",
+            "NanoEdgeRapier": "Nano-edge Rapier",
+            "NeuralLash": "Neural Lash",
+            "PhaseCutlass": "Phase Cutlass",
+            "PlasmaDoshko": "Plasma Doshko",
+            "PlasmaSword": "Plasma Sword",
+            "Polyglove": "Polyglove",
+            "PulseGauntlet": "Pulse Gauntlet",
+            "ShockTruncheon": "Shock Truncheon",
+            "ShootingStarknife": "Shooting Starknife",
+            "SingingSpear": "Singing Spear",
+            "Tailblade": "Tailblade",
+            "Talon": "Talon",
+            "DisintegrationLash": "Disintegration Lash",
+            "Painglaive": "Painglaive",
+            "SkyfireSword": "Skyfire Sword",
+            "ThermalDynafan": "Thermal Dynafan",
+            "AcidDartRifle": "Acid Dart Rifle",
+            "ArcPistol": "Arc Pistol",
+            "ArcRifle": "Arc Rifle",
+            "AutotargetRifle": "Autotarget Rifle",
+            "Crossbolter": "Crossbolter",
+            "LaserPistol": "Laser Pistol",
+            "LaserRifle": "Laser Rifle",
+            "MissileLauncher": "Missile Launcher",
+            "NeedlerPistol": "Needler Pistol",
+            "PulsecasterPistol": "Pulsecaster Pistol",
+            "ReactionBreacher": "Reaction Breacher",
+            "Scattergun": "Scattergun",
+            "SeekerRifle": "Seeker Rifle",
+            "SemiAutoPistol": "Semi-Auto Pistol",
+            "SonicRifle": "Sonic Rifle",
+            "ZeroPistol": "Zero Pistol",
+            "ArcEmitter": "Arc Emitter",
+            "AssassinRifle": "Assassin Rifle",
+            "BoomPistol": "Boom Pistol",
+            "BreachingGun": "Breaching Gun",
+            "Flamethrower": "Flamethrower",
+            "GrenadeLauncher": "Grenade Launcher",
+            "InjectionRifle": "Injection Rifle",
+            "MachineGun": "Machine Gun",
+            "Launcher": "Launcher",
+            "PlasmaCaster": "Plasma Caster",
+            "Rotolaser": "Rotolaser",
+            "ShirrenEyeRifle": "Shirren-eye Rifle",
+            "SingingCoil": "Singing Coil",
+            "StellarCannon": "Stellar Cannon",
+            "ZeroCannon": "Zero Cannon",
+            "AeonRifle": "Aeon Rifle",
+            "ArtilleryLaser": "Artillery Laser",
+            "CardSlinger": "Card Slinger",
+            "GyrojetPistol": "Gyrojet Pistol",
+            "MagnetarRifle": "Magnetar Rifle",
+            "PlasmaCannon": "Plasma Cannon",
+            "Screamer": "Screamer",
+            "StarfallPistol": "Starfall Pistol",
+            "Streetsweeper": "Streetsweeper"
+        },
+        "IWR": {
+            "Custom": {
+                "Radiation": "Radiation",
+                "Suppressed": "Vs. Suppressed"
+            }
+        },
+        "Language": {
+            "Brethedan": "Brethedan",
+            "Castrovelian": "Castrovelian",
+            "Diasporan": "Diasporan",
+            "Eoxian": "Eoxian",
+            "Kasatha": "Kasatha",
+            "PactCommon": "Pact Common",
+            "Pahtra": "Pahtra",
+            "Shirren": "Shirren",
+            "Triaxian": "Triaxian",
+            "Vercite": "Vercite",
+            "Vesk": "Vesk",
+            "Lashunta": "Lashunta",
+            "Morandomandranan": "Morandomandranan"
+        },
+        "NPCAbility": {
+            "Hardlight": {
+                "TouchingProjectorLabel": "Touching Projector"
+            }
+        },
+        "Skill": {
+            "Computers": "Computers",
+            "Piloting": "Piloting"
+        },
+        "SpecificRule": {
+            "AreaFire": {
+                "TrackingLabel": "Tracking Value",
+                "Zero": "0",
+                "One": "1",
+                "Two": "2",
+                "Three": "3"
+            },
+            "Barathu": {
+                "AdaptativeLocomotion": {
+                    "Flippers": "Flippers",
+                    "HookedPseudopods": "Hooked Pseudopods",
+                    "Prompt": "Select an adaptation"
+                },
+                "ConvergentEvolution": {
+                    "Prompt": "Select a 5th-level or lower ancestry feat."
+                },
+                "ManifoldEvolution": {
+                    "Prompt": "Select a 17th-level or lower ancestry feat."
+                }
+            },
+            "Envoy": {
+                "EffortlessInfluencer": {
+                    "Note": "<p>When you succeed at a check with Deception, Diplomacy, or Intimidation, allies within 60 feet who witnessed your success gain a +1 status bonus to the next check they attempt with that skill within 1 minute (or a +2 bonus if your check was a critical success).</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.ZQM4vfHEKgxvNJik]{Effect: Effortless Influencer}</p>"
+                },
+                "Directive": {
+                    "LeadByExample": {
+                        "DescriptionAlteration": "When you use an act of leadership after issuing one or more envoy directives earlier that turn, you can choose one envoy directive you activated. You grant the lead by example benefits for that directive even if you didn't meet the usual requirements to lead by example. You can do this once per turn.",
+                        "Prompt": "Activate Lead by Example?"
+                    }
+                },
+                "HangInThere": {
+                    "Prompt": "What proficiency DC was used?"
+                },
+                "LeadershipStyle": {
+                    "Prompt": "Select a leadership style"
+                },
+                "SavvyInfluencer": {
+                    "Note": "<p>The first time per day when you roll a natural 1 on a Deception, Diplomacy, or Intimidation check, you don't automatically reduce your degree of success (you get a critical failure only if your result is 10 lower than the DC).</p>"
+                }
+            },
+            "Equipment": {
+                "Augmentations": {
+                    "VenomSpur": {
+                        "Label" "Venom Spur"
+                    }
+                },
+                "SolarianCrystals": {
+                    "Gluon": {
+                        "Note": "On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until it recovers from the persistent bleed damage.",
+                        "Title": "Gluon Solarian Crystal"
+                    },
+                    "Graviton": {
+                        "Note": {
+                            "Commercial": "On a critical hit while you're graviton attuned, the target must succeed at a @Check[type:fortitude|dc:23] save or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the end of your next turn.",
+                            "Tactical": {
+                                "Hit": "When you hit an @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} creature with your solar weapon while graviton attuned, the target must succeed at a @Check[type:fortitude|dc:31] save or be knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.",
+                                "CriticalHit": "On a critical hit while you're graviton attuned, the target must succeed at a @Check[type:fortitude|dc:31] save or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 2 rounds."
+                            }
+                        },
+                        "Title": "Graviton Solarian Crystal"
+                    },
+                    "Photon": {
+                        "Note": {
+                            "Commercial": "On a critical hit while you're photon attuned, the target must succeed at a @Check[type:fortitude|dc:23] save or be @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.",
+                            "Tactical": "On a critical hit while you're photon attuned, the target must succeed at a @Check[type:fortitude|dc:31] save or be @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 2 rounds."
+                        },
+                        "Title": "Photon Solarian Crystal"
+                    }
+                }
+            },
+            "Kasatha": {
+                "WeaponFamiliarity": {
+                    "AdvancedWeapons": "Advanced Kasathan Weapons",
+                    "MartialWeapons": "Martial Kasathan Weapons"
+                }
+            },
+            "Mystic": {
+                "Connection": {
+                    "Akashic": {
+                        "AdvancedEphiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.4qXeaZLAtTxd5tNq] focus spell.",
+                        "GreaterEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.qYzqKP4Plw6jgjGL] focus spell.",
+                        "Harmony": "Whenever you Transfer Vitality, the target receives a psychic download from the Akashic Record and can immediately attempt a @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo] action. This doesn't trigger any special abilities, reactions, or free actions that trigger when a creature uses Recall Knowledge.",
+                        "InitialEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.YDkb4zUM5pJRs9SH] focus spell.",
+                        "PerfectHarmony": "You create an extradimensional memory palace that functions as @UUID[Compendium.pf2e.spells-srd.Item.vPWMEyVTreMOoFnm]. Creating a door to the demiplane takes 1 minute. The memory palace keeps the same layout each time you access it, adjustable during daily preparations. Each phantasmal minion in your memory palace functions as an akashic assistant (like those created by the *akashic assistant* spell)."
+                    },
+                    "Elemental": {
+                        "AdvancedEphiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ufwuEqjIg3yALnLL] epiphany spell.",
+                        "GreaterEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5zWyADC0jPsAlvcd] epiphany spell.",
+                        "Harmony": "When you heal a bonded creature with your vitality network, choose an elemental trait: air, earth, fire, metal, water, or wood. If one or more of your elemental epiphanies are active, you must select the elemental trait you chose as part of casting those spells. Until the end of their next turn, the target's next Strike deals 1d4 persistent damage based on the chosen trait: electricity or sonic for air, bludgeoning or piercing for earth, acid or slashing for metal, fire for fire, cold for water, or poison for wood. This increases to 1d6 when you learn your advanced epiphany and 1d8 when you learn your greater epiphany.",
+                        "InitialEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.bS8Au4zlZG3RR78G] epiphany spell.",
+                        "PerfectHarmony": "Chosen during your daily preparations, you gain resistance equal to half your mystic level to two damage types based on two elements you select (as listed in Harmony). When you heal a bonded ally with Transfer Vitality, your ally gains these resistances until the beginning of your next turn. These effects last until your next preparations.",
+                        "PerfectHarmonyLabelOne": "Perfect Harmony Resistance",
+                        "PerfectHarmonyLabelTwo": "Second Perfect Harmony Resistance",
+                        "PerfectHarmonyTransfer": "When you heal a bonded ally with Transfer Vitality, your ally gains resistance equal to half your mystic level to the two damage types chosen during your daily preparations until the beginning of your next turn."
+                    },
+                    "Healing": {
+                        "AdvancedEphiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.yJptJQTlhMfkiBxn] focus spell.",
+                        "GreaterEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.FLFaUv6AJ9FlK7h3] focus spell.",
+                        "Harmony": "You can choose for your healing spells and abilities to restore Hit Points to creatures with void healing as though the action had the void trait. Whenever you heal a bonded creature and restore them to their maximum Hit Points, your vitality network regains the excess Hit Points the spell could have restored, up to your character level. Temporary Hit Points do not trigger this harmony.",
+                        "InitialEpiphany": "ou learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.eASNMXfMHlT8HksK] focus spell.",
+                        "PerfectHarmony": "Whenever you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J]{Transfer Vitality} to a single target, attempt to counteract any one affliction affecting that ally, or attempt to counteract an effect of your choice imposing one of these conditions: @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}, @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned}. If you didn't counteract the effect, but you would have if its counteract rank were 2 lower, instead suppress the effect until the beginning of your next turn. The effect's duration doesn't elapse while it's suppressed."
+                    },
+                    "Rhythm": {
+                        "AdvancedEphiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.Mofxnqsy0x8ZKyk2] focus spell.",
+                        "GreaterEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.cRDGqRtelPj5UTAJ] focus spell.",
+                        "Harmony": "When you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J]{Transfer Vitality}, you can extend the duration of any active epiphany from the rhythm connection by 1 round. If there are no active focus spells and you have a Focus Point remaining, you can instead cast a 1-action focus spell as part of this action.",
+                        "InitialEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BKVIofy6uT5s6S9L] focus spell.",
+                        "PerfectHarmony": "Whenever you Transfer Vitality, attempt to counteract any one affliction affecting your ally, or attempt to counteract an effect of your choice imposing one of these conditions: @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed}, @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing}, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened}, @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned}, and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied}. If you didn't counteract the effect, but you would have if its counteract rank were 2 lower, instead suppress the effect until the beginning of your next turn. The effect's duration doesn't elapse while it's suppressed."
+                    },
+                    "Shadow": {
+                        "AdvancedEphiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5LnRNXlbQsh6SVXa] focus spell.",
+                        "GreaterEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5pF9Dv1b6A7U7sGt] focus spell.",
+                        "Harmony": "When you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J], the target's shadow darkens and swells, reducing bright light within a @Template[type:emanation|distance:10] of the target to dim light. This is a form of magical darkness and can overcome non-magical light sources or attempts to counteract magical light. The target becomes @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W] while in this dim light, and can use the concealed condition to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]. This lasts until the end of your next turn.",
+                        "InitialEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.0MQUicYsr9diBI11] focus spell.",
+                        "PerfectHarmony": "You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.Px0wiqFEiQdPLvou] action. Whenever you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J], the healed creature can use this action once before the end of their next turn."
+                    }
+                },
+                "HarmonyLabel": "Harmony",
+                "PerfectHarmonyLabel": "Perfect Harmony",
+                "XenodruidBond": {
+                    "Order": {
+                        "Animal": "Animal Order",
+                        "Elemental": "Elemental Order",
+                        "Plant": "Plant Order",
+                        "Viral": "Viral Order"
+                    },
+                    "Prompt": "Select a Bond"
+                }
+            },
+            "Operative": {
+                "Proficiency": {
+                    "AdvancedGuns": "Advanced Guns",
+                    "MartialAndSimpleGuns": "Martial and Simple Guns"
+                },
+                "Specialization": {
+                    "Prompt": "Select a specialization"
+                }
+            },
+            "Skittermander": {
+                "ClingingBite": {
+                    "GrabAlteration": "You can only use Grab following a successful critical hit with your jaws (rather than on a hit) or when you have a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}."
+                }
+            },
+            "Solarian": {
+                "Arrangement": {
+                    "Prompt": "Select an Arrangement"
+                },
+                "Attunement": {
+                    "Graviton": "Graviton",
+                    "Label": "Current Attunement",
+                    "Photon": "Photon",
+                    "Unattuned": "Unattuned"
+                },
+                "HarmonicConvergence": {
+                    "Alteration": "When you use an action with the disharmony trait, you gain a number of temporary Hit Points equal to half your level."
+                },
+                "IndomitableBodyAndMind": "When you roll a success at a Fortitude or Will save against a mental or incapacitation effect, you can choose to change your current attunement. @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.mzW6zQ1SPEVq8yA9]",
+                "SolarShot": {
+                    "Label": "Solar Shot"
+                },
+                "SolarWeapon": {
+                    "Label": "Solar Weapon",
+                    "TwinLabel": "Twin Solar Weapon"
+                }
+            },
+            "Soldier": {
+                "FightingStyle": {
+                    "Prompt": "Select a fighting style."
+                }
+            },
+            "Witchwarper": {
+                "Anchor": {
+                    "Prompt": "Select an anchor."
+                },
+                "Paradox": {
+                    "Analyst": {
+                        "QuantumField": "You see and understand infinite possibilities and complex theoretical equations as clearly as though they were etched into your surroundings. When you @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} or @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}, you can apply the result against two related creatures, hazards, unattended objects, and effects in your quantum field. Whenever you sustain your quantum field, you can Seek or Recall Knowledge against an appropriate target in your quantum field as a free action."
+                    },
+                    "Anomaly": {
+                        "QuantumField": "Your movements blur as images of alternate iterations of you flicker around your current form, and your speech echoes with a chorus of otherworldly sounds. Any time an enemy within the quantum field attempts an action with the concentrate trait, the action is disrupted unless they succeed at a @Check[type:flat|dc:5]."
+                    },
+                    "GapInfluenced": {
+                        "QuantumField": "Supernatural static swirls around you, making thoughts slippery for those unaccustomed to your presence. You are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to creatures within your quantum field. When a creature within your quantum field hits you with an attack, you lose this benefit against that creature until the start of your next turn."
+                    },
+                    "Precog": {
+                        "QuantumField": "You have a modicum of control of the flow of time that surrounds you, allowing you to speed yourself and others up, or decrease the flow of time for others. An enemy creature that uses a move action inside your quantum field takes a –5-foot status penalty to its Speed during that action. You and your allies gain a +5-foot status bonus to Speed when you use a move action inside your quantum field during that action."
+                    },
+                    "Prompt": "Select a paradox."
+                },
+                "QuantumField": {
+                    "AdjacentLabel": "Inside or Adjacent to Your Quantum Field"
+                },
+                "ZoneOverlap": {
+                    "DebrisZone": "The quantum field becomes greater difficult terrain.",
+                    "RadiantZone": "The zone overlap forces creatures to attempt another saving throw.",
+                    "TwistedDarkZone": "The zone overlap ignores the temporary immunity of creatures who previously attempted a save for 1 round."
+                }
+            },
+            "Vesk": {
+                "WeaponFamiliarity": {
+                    "AdvancedWeapons": "Advanced Vesk Weapons",
+                    "MartialWeapons": "Martial Vesk Weapons"
+                }
+            }
+        },
+        "Trait": {
+            "Aeon": "Aeon",
+            "Analog": "Analog",
+            "Anchoring": "Anchoring",
+            "Arc": "Arc",
+            "Archaic": "Archaic",
+            "Area": "Area",
+            "AreaBurst10Ft": "Area (Burst 10 ft.)",
+            "AreaCone": "Area (Cone)",
+            "AreaLine": "Area (Line)",
+            "Attuned": "Attuned",
+            "Automatic": "Automatic",
+            "Barathu": "Barathu",
+            "Biotech": "Biotech",
+            "Borai": "Borai",
+            "Boost1": "Boost 1",
+            "Boost1d4": "Boost 1d4",
+            "Breakdown": "Breakdown",
+            "Caster": "Caster",
+            "Ceramic": "Ceramic",
+            "Compact": "Compact",
+            "Cosmic": "Cosmic",
+            "CriticalBrawling": "Critical (Brawling)",
+            "CriticalCorrosive": "Critical (Corrosive)",
+            "CriticalCryo": "Critical (Cryo)",
+            "CriticalFlame": "Critical (Flame)",
+            "CriticalMental": "Critical (Mental)",
+            "CriticalKnife": "Critical (Knife)",
+            "CriticalPlasma": "Critical (Plasma)",
+            "CriticalShock": "Critical (Shock)",
+            "CriticalSonic": "Critical (Sonic)",
+            "Cycle": "Cycle",
+            "Directive": "Directive",
+            "Disharmony": "Disharmony",
+            "Envoy": "Envoy",
+            "Expend1": "Expend 1",
+            "Expend10": "Expend 10",
+            "Expend2": "Expend 2",
+            "Expend5": "Expend 5",
+            "Exposed": "Exposed",
+            "Gravity": "Gravity",
+            "Grenade": "Grenade",
+            "Installed": "Installed",
+            "Kasatha": "Kasatha",
+            "Kasatha": "Kasatha",
+            "Lashunta": "Lashunta",
+            "Magitech": "Magitech",
+            "Manifestation": "Manifestation",
+            "Midwife": "Midwife",
+            "Missile": "Missile",
+            "ModularArcOrNonlethal": "Modular (Arc or Nonlethal)",
+            "ModularCOrF": "Modular (C or F)",
+            "ModularCOrVoid": "Modular (C or Void)",
+            "ModularSOrVoid": "Modular (S or Void)",
+            "Mystic": "Mystic",
+            "Nanite": "Nanite",
+            "Operative": "Operative",
+            "Pahtra": "Pahtra",
+            "Pahtra": "Pahtra",
+            "Polymer": "Polymer",
+            "Ponderous": "Ponderous",
+            "Powered": "Powered",
+            "Prismeni": "Prismeni",
+            "ProfessionalCrafting": "Professional (Crafting)",
+            "ProfessionalComputers": "Professional (Computers)",
+            "ProfessionalDeception": "Professional (Deception)",
+            "ProfessionalPerformance": "Professional (Performance)",
+            "RangedShove": "Ranged Shove",
+            "Retractable": "Retractable",
+            "Robot": "Robot",
+            "Serum": "Serum",
+            "Shirren": "Shirren",
+            "Skittermander": "Skittermander",
+            "Solarian": "Solarian",
+            "Soldier": "Soldier",
+            "Tech": "Tech",
+            "Thought": "Thought",
+            "Tracking": "Tracking",
+            "Tracking1": "Tracking +1",
+            "Tracking2": "Tracking +2",
+            "Tracking3": "Tracking +3",
+            "Transfer": "Transfer",
+            "Unwieldy": "Unwieldy",
+            "Upgrade": "Upgrade",
+            "Vesk": "Vesk",
+            "Virtual": "Virtual",
+            "Witchwarper": "Witchwarper",
+            "Zone": "Zone"
+        },
+        "TraitDescription": {
+            "Aeon": "You can fit one aeon stone or spell gem into this weapon as a single action with the interact trait. While you possess the weapon with an aeon stone in its indentation, you gain all the benefits of the aeon stone as if it were orbiting your head. While the weapon has a spell gem attached, you gain a number of bonus battery charges equal to the spell gem's item level × 5. These charges regenerate during your daily preparations. In addition, you can use the spell gem while wielding the weapon, though using the gem in this manner still destroys it.",
+            "Analog": "This weapon eschews advanced electronics, computers systems, and electric power sources, but was manufactured and calibrated using advanced technology. This weapon is immune to abilities that target technology. Weapon runes don't function on this weapon unless this weapon also has the archaic trait.",
+            "Anchoring": "You can use abilities with the anchoring trait only while your quantum field is activated. If you use the ability on your turn, in addition to their stated effects, they automatically Sustain your quantum field.",
+            "Arc": "The attack arcs to the closest enemy creature within 10 feet of the initial target. If the secondary target's AC is lower than your attack roll result, you deal electricity damage to that creature equal to 1 per weapon damage die.",
+            "Archaic": "This weapon is crafted using traditional methods and materials but is not suitable for striking modern armor. All weapons from the Pathfinder Roleplaying Game have the archaic trait. Weapon runes function normally with archaic weapons.",
+            "Area": "Weapons with this trait can only fire using the Area Fire action.",
+            "Attuned": "You can't use abilities with the attuned trait while you're unattuned. Many attuned abilities require you to be specifically graviton-attuned or photon-attuned, while others can grant additional benefits based on your current stellar attunement.",
+            "Automatic": "In addition to a normal Strike, you can fire this weapon using the Auto-Fire action.",
+            "Biotech": "Biotech augmentations include modifications to your DNA combined with implants of biological origin that integrate into your physiology. Biotech augmentations aren't magical, though many originate from (or imitate) creatures that are magical in nature.",
+            "Boost": "You can charge up a weapon with this special property with an Interact action by spending 1 expend of the weapon's magazine. If the boost trait lists one or more traits, apply the traits listed to the next attack you make with this weapon. If the boost trait lists a value, increase the weapon's damage by the listed amount for each weapon die on the next attack you make with the weapon. This increases the weapon's damage and is multiplied on a critical hit. Boosting this weapon more than once before firing it doesn't have any extra effect, and the extra charge dissipates if the weapon is not fired by the end of your next turn.",
+            "Breakdown": "This weapon can be taken apart into multiple small pieces. While broken down, the weapon is treated as small object with light bulk. Breaking down or reassembling a breakdown weapon is a 3-action activity, which has the manipulate trait and requires two hands.",
+            "Caster": "This weapon can be powered by casting a spell (including a cantrip) with two or more actions. If you do, resolve the spell normally. Once the spell is cast, if it had the acid, cold, fire, electricity, spirit, sonic, vitality, or void trait, the weapon deals damage of that type instead of its usual damage until the end of your next turn or until you cast another spell. If the spell deals more than one type of damage, choose one when you fire the weapon. If the weapon has the Aeon trait and a spell gem installed, you can use one of the previously listed traits if the spell of the spell gem slotted in the weapon has that trait, and this does not require you to cast the spell and is a constant effect.",
+            "Compact": "You can Raise a Shield with your compact shield as long as you have that hand free or are holding a light object that's not a weapon in that hand.",
+            "Critical": "This weapon uses the critical weapon specialization of the listed weapon type rather than its own.",
+            "Cycle": "Actions with the cycle trait change your current stellar attunement to its opposite state. When you take such an action with this trait, you benefit from the additional effect of your current attunement if the action had the attuned trait, but once you complete the action, your attunement changes to its counterpart (so graviton-attuned if you were photon-attuned before taking the action, or vice versa).",
+            "Directive": "Actions with this trait are special orders that provide benefits for your allies if they follow them. Your allies must be able to sense you to benefit from your directives. This action has the auditory or visual trait depending on how you inspire your allies.",
+            "Disharmony": "Actions with the disharmony trait change your current stellar attunement to being unattuned. When you take such an action with this trait, you benefit from the additional effect of your current attunement if the action had the attuned trait, but once you complete the action, you become unattuned.",
+            "Expend": "This indicates how much ammunition is consumed with each ranged Strike you make with the weapon. Anytime the weapon is fired, the ammunition in its magazine is lowered by the number indicated. Other abilities might cite the use of Expend as the amount of ammo required to complete the action.",
+            "Exposed": "This armor doesn't come with environmental protections. All armor from Pathfinder has the exposed trait.",
+            "Grenade": "Weapons with this trait can be thrown as a single action using the Area Fire action as though it had the area (burst) trait.",
+            "Installed": "Some shields aren't held but are installed as armor or weapon upgrades. You can Raise a Shield installed as an armor upgrade as normal. Shields can be installed only into weapons with the parry trait. When you use a parry weapon with a shield upgrade to get a bonus to your AC, the shield upgrade emits an inertial dampening barrier and you automatically Raise a Shield. If you use the weapon for any other purpose, the shield is no longer raised, and you no longer receive a bonus to your AC. You can't Raise a Shield installed as an upgrade in any other way.",
+            "Magitech": "Magitech augmentations are a combination of cybernetic and magical components, containing elements such as mystically charged crystals, starmetal alloys, and rune-engraved microchips. Magitech augmentations are magical, but they can't be dispelled unless the effect or attack specifies that it affects augmentations.",
+            "Manifestation": "Feats with this trait enhance or alter your solar manifestations (flare, nimbus, and weapon), or allow you to create a new type of solar manifestation.",
+            "Missile": "Missiles are ammunition that can be loaded into and fired from missile launchers. Missiles have a single target and use an attack roll to deal damage, dealing the listed splash damage to anyone in the radius of the intended target (even if you miss your attack roll). Missiles are consumable items that are always expended when used. If you roll a critical hit against the target of a missile and apply the critical specialization effect of missiles, apply the effect only to the target of the attack.",
+            "Ponderous": "The armor has moving parts or other complications that lengthen the wearer's initial reaction time. While wearing the armor, you take a –1 item penalty to initiative rolls. If you don't meet the armor's required Strength score, this penalty increases to be equal to the armor's check penalty if it's worse.",
+            "Powered": "This melee weapon uses a battery. You can activate or deactivate a powered weapon with an Interact action or as part of drawing or stowing it. This weapon comes with a commercial battery installed and uses 1 charge per day (rather than 1 charge per attack). If you try to attack with a powered weapon that's out of charges or is deactivated, it functions as an improvised weapon.",
+            "Professional": "A weapon with this trait can be used as a tool for the listed skill. Add the weapon's item bonus to attack rolls as an item bonus to skill checks using the listed skill. Your proficiency with this weapon is equal to your proficiency with the listed skill (up to your proficiency in simple weapons).",
+            "RangedShove": "This weapon can be used to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} with the Athletics skill at a distance up to the weapon's first range increment. The skill check takes a –2 circumstance penalty. You can add the weapon's item bonus to attack rolls as a bonus to the check.",
+            "Retractable": "This shield can collapse into a smaller form attached to an armguard, gauntlet, glove, or jewelry for ease of travel and to free up hands. You can use an Interact action to deploy or retract the shield. You can't Raise a Shield if the shield is retracted. While it's deployed, you can Raise the Shield as long as you have that hand free or are holding an object of light Bulk that's not a weapon in that hand. The shield impedes the use of your hand while it's deployed. Though you can still hold items in that hand, you can't wield weapons in that hand or operate anything that takes two hands.",
+            "Serum": "These are pharmaceutical serums; they are technological, or perhaps hybrid in some cases, but can be crafted using a laboratory and don't incorporate significant magic. You can activate a serum with an Interact action as you drink it or feed it to another creature. You can feed a serum only to a creature that is within reach and willing or otherwise so helpless that it can't resist. You usually need only one appendage to activate a serum.",
+            "Tech": "Items with the tech trait can be crafted by anyone, but if they also have the magical trait, they are hybrid items and require the Machine Magic feat to craft.",
+            "Thought": "Weapons with this trait are living creatures that can be communicated with using telepathy. When you wield this weapon and are capable of communicating with it, you can ignore any of the other traits the weapon normally has; this only applies to the other traits listed in the weapon entry, not traits the weapon or actions receive from the use of other abilities or effects. If you can communicate with this weapon, your proficiency with this weapon is equal to your proficiency with simple weapons.",
+            "Tracking": "This weapon has been developed with several integrated targeting, stabilizing, and homing systems. Attack rolls with this weapon gain an item bonus equal to the listed value. Area attacks with this weapon gain an item bonus equal to the listed value to the class DCs of saves.",
+            "Transfer": "These actions reduce Hit Points from your vitality network. You must have Hit Points in your vitality network equal to or greater than the transfer cost to use these actions. If you can't pay the cost, the action is disrupted.",
+            "Unwieldy": "Weapons with this trait are large and awkward, can't be fired without cooling down first, or are otherwise difficult to use with repeated attacks. You can't use an unwieldy weapon more than once per round and can't use it to Strike as part of a reaction, such as Reactive Strike.",
+            "Upgrade": "Weapons can be customized with upgrades, which include technological weapon modifications and weapon fusions. This indicates how many upgrades the weapon can utilize.",
+            "Virtual": "Items with the virtual trait are programs that must be installed on other computers, such as comm units. They require the Programmer feat to craft.",
+            "Zone": "These actions apply an additional effect to your quantum field. You may apply the effects of a zone only to a quantum field that doesn't have a zone effect."
+        },
+        "WeaponGroups": {
+            "Corrosive": "Corrosive",
+            "Cryo": "Cryo",
+            "Flame": "Flame",
+            "Grenade": "Grenade",
+            "Laser": "Laser",
+            "Mental": "Mental",
+            "Missile": "Missile",
+            "Plasma": "Plasma",
+            "Poison": "Poison",
+            "Projectile": "Projectile",
+            "Shock": "Shock",
+            "Sniper": "Sniper",
+            "Sonic": "Sonic",
+            "Tech": "Tech"
+        }
+    }
+}
