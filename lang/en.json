@@ -179,7 +179,7 @@
             "Equipment": {
                 "Augmentations": {
                     "VenomSpur": {
-                        "Label" "Venom Spur"
+                        "Label": "Venom Spur"
                     }
                 },
                 "SolarianCrystals": {
@@ -385,7 +385,7 @@
             "Grenade": "Grenade",
             "Installed": "Installed",
             "Kasatha": "Kasatha",
-            "Kasatha": "Kasatha",
+            "Kucharn": "Kucharn",
             "Lashunta": "Lashunta",
             "Magitech": "Magitech",
             "Manifestation": "Manifestation",
