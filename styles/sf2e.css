@@ -1,0 +1,23 @@
+.app.sheet.character form {
+  --color-bg-trait: #2d4f6a;
+  --color-border-trait: #9edae6;
+
+  filter: hue-rotate(315deg);
+
+  > aside {
+    img.logo {
+      content: url("../art/sheet/logo.webp");
+      filter: hue-rotate(45deg);
+      position: relative;
+      left: -6px;
+    }
+
+    .sidebar {
+      filter: hue-rotate(45deg);
+    }
+  }
+
+  > header, > nav, > .sheet-body {
+    filter: hue-rotate(45deg);
+  }
+}
