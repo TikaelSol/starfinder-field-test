@@ -4,7 +4,7 @@
     "url": "https://github.com/TikaelSol/starfinder-field-test",
     "manifest": "https://raw.githubusercontent.com/TikaelSol/starfinder-field-test/master/module.json",
     "download": "https://github.com/TikaelSol/starfinder-field-test/archive/refs/heads/main.zip",
-    "version": "6.0.2",
+    "version": "6.0.3",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
@@ -13,6 +13,7 @@
         "systems": [{
             "id": "pf2e",
             "type": "system",
+            "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
             "compatibility": {
                 "minimum": "6.2"
             }
