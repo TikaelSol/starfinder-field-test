@@ -1,5 +1,5 @@
-2024/08/01-23:56:03.435 18e4 Recovering log #405
-2024/08/01-23:56:03.435 18e4 Level-0 table #407: started
-2024/08/01-23:56:03.445 18e4 Level-0 table #407: 1685 bytes OK
-2024/08/01-23:56:03.451 18e4 Delete type=0 #405
-2024/08/01-23:56:03.451 18e4 Delete type=3 #404
+2024/08/03-13:01:02.388 e6c Recovering log #412
+2024/08/03-13:01:02.388 e6c Level-0 table #414: started
+2024/08/03-13:01:02.391 e6c Level-0 table #414: 9276 bytes OK
+2024/08/03-13:01:02.397 e6c Delete type=0 #412
+2024/08/03-13:01:02.398 e6c Delete type=3 #411
