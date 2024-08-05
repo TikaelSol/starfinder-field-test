@@ -1,23 +1,200 @@
-.app.sheet.character form {
-  --color-bg-trait: #2d4f6a;
-  --color-border-trait: #9edae6;
+@font-face {
+	font-family: "Raleway";
+	src: local("Raleway"), url("../fonts/Raleway.woff2") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
 
-  filter: hue-rotate(315deg);
+@font-face {
+	font-family: "Raleway";
+	src: local("Raleway"), url("../fonts/Raleway.woff2") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
 
-  > aside {
-    img.logo {
-      content: url("../art/sheet/logo.webp");
-      filter: hue-rotate(45deg);
-      position: relative;
-      left: -6px;
-    }
+@font-face {
+	font-family: "Raleway";
+	src: local("Raleway"), url("../fonts/Raleway-Italic.woff2") format("woff");
+	font-weight: normal;
+	font-style: italic;
+}
 
-    .sidebar {
-      filter: hue-rotate(45deg);
-    }
-  }
+@font-face {
+	font-family: "Raleway";
+	src: local("Raleway"), url("../fonts/Raleway-Italic.woff2") format("woff");
+	font-weight: bold;
+	font-style: italic;
+}
 
-  > header, > nav, > .sheet-body {
-    filter: hue-rotate(45deg);
-  }
+
+.sf2e-playtest.actor.app.sheet.character section.window-content form.crb-style {
+		        
+	/* Color Definitions */
+	--color-bg-trait: #2d4f6a;
+	--color-border-trait: #9edae6;
+	--c-primary: #2c4e69;    /* teal */
+	--c-secondary: #5b3a96;  /* purple */
+  --c-tertiary: #b9519e;   /* pink */
+	--c-accent: #9dd9e5;     /* baby blue */
+	--c-emphasis:#ec2026;    /* red */
+	--c-secondary-light: hsl(262, 44%, calc( 41% / 0.6 ));
+	--c-tertiary-light:  hsl(316, calc( 43% / 0.7 ), calc( 52% / 0.6 ));
+	--c-accent-light:    hsl(190, 58%, calc(76% / 0.7 ));
+	--c-primary-dark:    hsl(207, 41%, calc( 29% / 1.7 ));
+
+	/* Font Overrides */
+	--serif: Raleway, sans-serif;
+	--body-serif: Raleway, sans-serif;
+	
+	
+	/* Color Overrides */
+	--sidebar-title: var(--c-accent);
+	--sidebar-label: var(--c-tertiary-light);
+	--color-pf-primary: var(--c-primary) !important;
+	--color-pf-secondary: var(--c-secondary-light) !important;
+	--color-pf-tertiary: var(--c-tertiary-light) !important;
+	--primary: var(--c-primary) !important;
+	--sub: #576293;
+	--alt: #3a7b59;
+	--color-pf-alternate: var(--alt);
+	--bg-dark: #bcdcd8;
+
+	background: linear-gradient( to right, var(--c-secondary), var(--c-secondary) 70%, var(--c-tertiary) ), 
+		        linear-gradient( to bottom, var(--c-accent-light) 0%, var(--c-accent-light) 100%) !important;
+	background-size: auto 5.625rem, auto !important;
+	background-repeat: no-repeat, repeat !important;
+	background-attachment: local !important;
+	
+	.pf-rank[data-rank="1"] {
+		background: var(--c-primary);
+	}
+	
+	.pf-rank[data-rank="2"] {
+		background: var(--c-secondary);
+	}
+	
+	.pf-rank[data-rank="3"] {
+		background: #3a7b59;
+	}
+	
+	.pf-rank[data-rank="4"] {
+		background: #98503d;
+	}
+	
+	div.data-value {
+		input {
+			position: relative;
+			top: -0.3rem !important;	
+		}
+	}
+	
+	> header.char-header .char-level .level {
+		filter: hue-rotate(65deg) brightness(1.6) !important;
+		 input {		 
+			 font-size: 1rem;
+			 position: relative;
+			 top: -0.2rem;
+		 }
+	}
+	
+	ol.spell-list > li.header-row {
+		background-color: rgba(58, 123, 89, 0.1) !important;	
+	}
+	
+	ul.items > li:nth-of-type(even),
+	ol.feats-list li.slot:nth-child(odd),
+	ol.spell-list li:nth-child(odd):not(.header-row) {
+		background-color: rgba( 113, 127, 127, 0.1) !important;	
+	}
+	
+	> nav.sheet-navigation {
+		z-index: 2 !important;
+		filter: brightness(1.2);
+		background: linear-gradient( to right, var(--c-primary), var(--c-primary) ) !important; 
+		
+		.item {
+			box-shadow: 0 0 0 1px var(--color-pf-tertiary), 
+						0 0 0 2px var(--c-accent), 
+						inset 0 0 4px rgba(0, 0, 0, 0.25) !important;
+			&.active {
+				background-image: radial-gradient( circle at center, var(--c-secondary), var(--c-secondary) ) !important;
+				box-shadow: 0 0 0 1px var(--color-pf-tertiary), 
+							0 0 0 2px var(--c-accent), 
+							inset 0 0 4px rgba(0, 0, 0, 0.25), 
+							0 0 8px var(--color-pf-tertiary) !important;
+			}
+			
+			&:hover, 
+			&.active:hover {
+				background-image: radial-gradient( circle at center, var(--c-secondary), var(--c-tertiary) ) !important;
+				box-shadow: 0 0 0 1px var(--color-pf-tertiary), 
+							0 0 0 2px var(--c-accent), 
+							inset 0 0 4px rgba(0, 0, 0, 0.25), 
+							0 0 8px var(--color-pf-tertiary) !important;
+			}			
+			
+		}
+		
+	}
+	
+	> .sheet-body .sheet-content .tab {
+		&.active.character .subsection.details .image-container .actor-image {
+			box-shadow: 0 0 0 1px #888e91, 
+						0 0 0 2px #D0E0E2, 
+						0 0 0 3px var(--c-accent), 
+						inset 0 0 8px rgba(0, 0, 0, 0.5), 
+						0 0 8px black !important;
+		}
+	}
+		
+	> aside {
+		filter: brightness(1.2);
+		background-image: linear-gradient( to right, var(--c-accent), var(--c-primary) 5%, var(--c-primary) 95%, var(--c-accent) ) !important;
+		background-repeat: repeat !important;		
+		
+		&::before {
+			content: '';
+			float: left;
+			opacity: 1;
+			background-image: url("../art/sheet/sf_logo.webp");
+			background-size: contain;
+			width: 234px;
+			height: 56px;
+			position: relative;
+			left: -0.5rem;
+			top: 0;
+		}
+		
+		.sidebar {
+			select {
+				border: 1px solid var(--c-accent);
+			}	
+			.data-value h2 {
+				color: var(--c-secondary-light) !important;	
+			}
+			a.modifier {
+				color: var(--c-accent-light) !important;
+				text-decoration: underline var(--c-accent-light) !important;
+			}
+			button {
+				color: var(--c-emphasis) !important;
+				background: var(--c-accent-light) !important;
+			}
+			.hitpoints .hp-big .container.current-hp {
+				background-image: linear-gradient( to right, var(--c-primary-dark), var(--c-primary), var(--c-primary-dark)) !important;
+			}
+			.armor-class {
+				.ac {
+					filter: hue-rotate(65deg) brightness(1.6);
+				}
+				.shield.hp {
+					filter: hue-rotate(225deg) brightness(1.6);
+				}
+			}
+		}
+
+		img.logo {
+			display: none;
+		}
+	}
 }
