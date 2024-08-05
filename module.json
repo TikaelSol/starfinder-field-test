@@ -22,239 +22,263 @@
         ]
     },
     "description": "A module to implement the Starfinder 2nd Edition Playtest in the Pathfinder 2nd edition system for Foundry VTT.",
-    "authors": [{
-        "name": "Ian Blackstone",
-        "discord": "Tikael",
-        "flags": {}
-    }],
-    "languages": [{
-        "lang": "en",
-        "name": "English",
-        "path": "lang/en.json",
-        "flags": {}
-    }],
-    "media": [{
-        "type": "setup",
-        "caption": "Starfinder Second Edition",
-        "thumbnail": "modules/starfinder-field-test-for-pf2e/art/banner.webp"
-    }],
-    "styles": [
-        "styles/sf2e.css"
+    "authors": [
+        {
+            "name": "Ian Blackstone",
+            "discord": "Tikael",
+            "flags": {}
+        }
     ],
-    "packs": [{
-        "name": "adventures",
-        "label": "Adventures",
-        "path": "packs/adventures",
-        "type": "Adventure",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_0.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json",
+            "flags": {}
+        }
+    ],
+    "media": [
+        {
+            "type": "setup",
+            "caption": "World of Indigo Isles",
+            "thumbnail": "modules/starfinder-field-test-for-pf2e/art/banner.webp"
+        }
+    ],
+    "packs": [
+        {
+            "name": "adventures",
+            "label": "Adventures",
+            "path": "packs/adventures",
+            "type": "Adventure",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_0.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "conditions",
-        "label": "Effects and Conditions",
-        "path": "packs/conditions",
-        "type": "Item",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_1.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "conditions",
+            "label": "Effects and Conditions",
+            "path": "packs/conditions",
+            "type": "Item",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_1.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "creatures",
-        "label": "Creatures",
-        "path": "packs/creatures",
-        "type": "Actor",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_2.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "creatures",
+            "label": "Creatures",
+            "path": "packs/creatures",
+            "type": "Actor",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_2.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "sf2e-journals",
-        "label": "SF2e Journals",
-        "path": "packs/journals",
-        "type": "JournalEntry",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_3.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "sf2e-journals",
+            "label": "SF2e Journals",
+            "path": "packs/journals",
+            "type": "JournalEntry",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_3.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "actions",
-        "label": "Actions",
-        "path": "packs/actions",
-        "type": "Item",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_0.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "actions",
+            "label": "Actions",
+            "path": "packs/actions",
+            "type": "Item",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_0.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "ancestries",
-        "label": "Ancestries",
-        "path": "packs/ancestries",
-        "type": "Item",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_1.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "ancestries",
+            "label": "Ancestries",
+            "path": "packs/ancestries",
+            "type": "Item",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_1.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "backgrounds",
-        "label": "Backgrounds",
-        "path": "packs/backgrounds",
-        "type": "Item",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_2.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "backgrounds",
+            "label": "Backgrounds",
+            "path": "packs/backgrounds",
+            "type": "Item",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_2.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "classes",
-        "label": "Classes",
-        "path": "packs/classes",
-        "type": "Item",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_3.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "classes",
+            "label": "Classes",
+            "path": "packs/classes",
+            "type": "Item",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_3.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "class-features",
-        "label": "Features",
-        "path": "packs/class-features",
-        "type": "Item",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_4.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "class-features",
+            "label": "Features",
+            "path": "packs/class-features",
+            "type": "Item",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_4.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "deities",
-        "label": "Deities",
-        "path": "packs/deities",
-        "type": "Item",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_5.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "deities",
+            "label": "Deities",
+            "path": "packs/deities",
+            "type": "Item",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_5.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "feats",
-        "label": "Feats",
-        "path": "packs/feats",
-        "type": "Item",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_6.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "feats",
+            "label": "Feats",
+            "path": "packs/feats",
+            "type": "Item",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_6.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "equipment",
-        "label": "Equipment",
-        "path": "packs/equipment",
-        "type": "Item",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_7.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "equipment",
+            "label": "Equipment",
+            "path": "packs/equipment",
+            "type": "Item",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_7.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "heritages",
-        "label": "Heritages",
-        "path": "packs/heritages",
-        "type": "Item",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_8.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "heritages",
+            "label": "Heritages",
+            "path": "packs/heritages",
+            "type": "Item",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_8.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "iconics",
-        "label": "Iconics",
-        "path": "packs/iconics",
-        "type": "Actor",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_9.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
+        {
+            "name": "iconics",
+            "label": "Iconics",
+            "path": "packs/iconics",
+            "type": "Actor",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_9.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
         },
-        "system": "pf2e",
-        "flags": {}
-    }, {
-        "name": "spells",
-        "label": "Spells",
-        "path": "packs/spells",
-        "type": "Item",
-        "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_10.webp",
-        "ownership": {
-            "PLAYER": "OBSERVER",
-            "ASSISTANT": "OWNER"
-        },
-        "system": "pf2e",
-        "flags": {}
-    }],
-    "packFolders": [{
-        "name": "Starfinder 2e Playtest",
-        "color": "#2C4E69",
-        "sorting": "m",
-        "folders": [{
-            "name": "Effects & GM Tools",
+        {
+            "name": "spells",
+            "label": "Spells",
+            "path": "packs/spells",
+            "type": "Item",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_10.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Starfinder 2e Playtest",
+            "color": "#2C4E69",
             "sorting": "m",
-            "color": "#B9519E",
-            "packs": [
-                "adventures",
-                "conditions",
-                "creatures",
-                "sf2e-journals"
+            "folders": [
+                {
+                    "name": "Effects & GM Tools",
+                    "sorting": "m",
+                    "color": "#B9519E",
+                    "packs": [
+                        "adventures",
+                        "conditions",
+                        "creatures",
+                        "sf2e-journals"
+                    ]
+                },
+                {
+                    "name": "Character Options",
+                    "sorting": "m",
+                    "color": "#9DD9E5",
+                    "packs": [
+                        "actions",
+                        "ancestries",
+                        "backgrounds",
+                        "classes",
+                        "class-features",
+                        "deities",
+                        "feats",
+                        "equipment",
+                        "heritages",
+                        "iconics",
+                        "spells"
+                    ]
+                }
             ]
-        }, {
-            "name": "Character Options",
-            "sorting": "m",
-            "color": "#9DD9E5",
-            "packs": [
-                "actions",
-                "ancestries",
-                "backgrounds",
-                "classes",
-                "class-features",
-                "deities",
-                "feats",
-                "equipment",
-                "heritages",
-                "iconics",
-                "spells"
-            ]
-        }]
-    }],
+        }
+    ],
     "flags": {
         "starfinder-field-test-for-pf2e": {
             "pf2e-homebrew": {
