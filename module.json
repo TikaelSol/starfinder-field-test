@@ -29,6 +29,9 @@
             "flags": {}
         }
     ],
+    "esmodules": [
+        "scripts/sf2e-playtest.mjs"
+    ],
     "languages": [
         {
             "lang": "en",
