@@ -550,10 +550,6 @@
                     },
                     "nanite": "SF2E.Trait.Nanite",
                     "polymer": "SF2E.Trait.Polymer",
-                    "ponderous": {
-                        "label": "SF2E.Trait.Ponderous",
-                        "description": "SF2E.TraitDescription.Ponderous"
-                    },
                     "retractable": {
                         "label": "SF2E.Trait.Retractable",
                         "description": "SF2E.TraitDescription.Retractable"
