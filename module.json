@@ -36,6 +36,8 @@
         "caption": "World of Indigo Isles",
         "thumbnail": "modules/starfinder-field-test-for-pf2e/art/banner.webp"
     }],
+    "styles": ["styles/sf2e-stylesheet.css"],
+    "scripts": ["scripts/sf2e-logo-replacer.js"],
     "packs": [{
         "name": "adventures",
         "label": "Adventures",

@@ -1,0 +1,503 @@
+/* Character Sheet Image Replacements */
+/* Header and Background */
+.actor.sheet section.window-content form.crb-style {
+  display: grid;
+  grid: "sidebar header" 4.625rem "sidebar nav" minmax(min-content, max-content) "sidebar content" 1fr/14.375rem 1fr;
+  font-family: var(--body-serif);
+  background: url("../img/header.webp"), url("../img/background.webp");
+  background-repeat: repeat-x, no-repeat;
+  background-size: auto 5.625rem, cover;
+  background-attachment: local;
+  height: 100%;
+  /* Navigation */
+  /** White background navigation with little decorations on the left and right */
+  /* Read-Only Sheet */
+}
+
+.actor.sheet.character section.window-content .crb-style aside {
+  background-image: url("../img/red_sidebar_top.webp"), url("../img/red_sidebar_bottom.webp");
+}
+
+
+.actor.sheet section.window-content form.crb-style header.char-header .char-level .level {
+  background: url("../img/level-badge.webp") no-repeat;
+}
+
+.actor.sheet.character section.window-content .crb-style aside .sidebar .armor-class .ac.hp,
+.actor.sheet.character section.window-content .crb-style aside .sidebar .armor-class .shield.hp {
+  background: url("../img/shield-red.webp") no-repeat center center;
+  grid-area: shield-hp;
+}
+
+.actor.sheet.vehicle .crb-style aside {
+  background-image: url("../img/red_sidebar_top.webp"), url("../img/red_sidebar_bottom.webp");
+}
+
+header.char-header .char-level .level,
+header.char-header .char-details h1.char-name input[type=text],
+header.char-header .char-details h1.char-name span.non-editable,
+header.char-header .char-level .level input,
+header.char-header .char-level .exp-data input,
+header.char-header .char-details .dots h4,
+header.char-header .char-level .level label {
+  color: white;
+}
+
+section.tab.character {
+  color: white;
+}
+
+/* Ensure readability for specific elements */
+section.tab.character .details-label,
+section.tab.character .value,
+section.tab.character .tags li.tag,
+section.tab.character h3,
+section.tab.character h2,
+section.tab.character h1,
+section.tab.character label,
+section.tab.character input,
+section.tab.character .attribute .label {
+  color: rgb(255, 255, 255); /* Ensure all these specific elements have white text */
+}
+section.tab.character h3 {
+  color: rgba(255, 255, 255, 0.662);
+
+}
+
+/* Attributes heading text colour */
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.attributes ul .abbreviation {
+  color: rgb(255, 255, 255);
+}
+
+/* Attributes underneath text colour */
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.attributes ul .label {
+  color: rgb(255, 255, 255);
+  opacity: 0.65;
+}
+
+/* Languages, Speed and Attribute Modifiers heading text colour */
+.actor.sheet section.window-content form.crb-style section.major > header,
+.actor.sheet section.window-content form.crb-style section.major > .subsection > header {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+/* Replace Frame Image */
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.proficiencies ul.proficiencies-list li,
+.actor.sheet section.window-content .item-summary .description .addendum,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.attributes ul h3.modifier {
+  border-image-source: url("../assets/sheet/elegant-frame.webp");
+  border-image-slice: 0;
+  border-image-width: 0;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-top-width: 0.01em;
+  border-left-style: solid; 
+  border-right-style: solid;  
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-color: rgba(255, 255, 255, 0.604);
+}
+
+/* Land, Swim, Slimb, Fly and Burrow heading text colour */
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.speeds .speed .label {
+  color: rgb(255, 255, 255);
+}
+
+/* Speed numbers text value colour */
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.speeds .speed .value {
+  color: rgb(255, 255, 255);
+}
+
+/* Hero Points text value colour */
+.actor.sheet.character section.window-content .crb-style header.char-header .char-details .dots .label {
+  color: rgb(255, 255, 255);
+}
+
+/* Edit button text colour */
+.actor.sheet section.window-content form.crb-style section.major > header button,
+.actor.sheet section.window-content form.crb-style section.major > .subsection > header button {
+  color: rgb(255, 255, 255);
+  border-left-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(255, 255, 255);
+  border-right-color: rgb(255, 255, 255);
+  border-top-color: rgb(255, 255, 255);
+}
+
+/* Climb and Swim dice symbol */
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.speeds .speed .value.rollable svg path {
+  fill: rgb(255, 255, 255);
+  opacity: 0.85;
+}
+
+/* Ancestry, Heritage, Background, Class and Deity edit button colour */
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.details .abcd .detail h3 {
+  color: rgb(255, 255, 255);
+}
+
+/* Ancestry, Heritage, Background, Class and Deity background colour */
+.crb-style .details-input,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.details .image-container,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.details .abcd .detail h3 {
+  background-color: rgba(0, 0, 0, 0.337);
+}
+
+/* Running Symbol - Land Speed*/
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.speeds .speed .value i {
+  color: rgb(255, 255, 255);
+  opacity: 0.85;
+}
+
+/* Languages Background and Border colour */
+.tags.light > .tag,
+.tags > .tag.light {
+  background-color: rgba(0, 0, 0, 0.337);
+  border-bottom-color: rgba(255, 255, 255, 0.389);
+  border-left-color: rgba(255, 255, 255, 0.389);
+  border-right-color: rgba(255, 255, 255, 0.389);
+  border-top-color: rgba(255, 255, 255, 0.389);
+  padding-bottom: 0.1em;
+}
+
+/* Standard Lists - Languages Background and Border bottom margin */
+ul,
+ol {
+  margin: 0.5em 0;
+  padding: 0 0 0.5em 1.5em;
+}
+
+.actor.sheet section.window-content form.crb-style nav.sheet-navigation .item {
+  color: rgb(255, 255, 255);
+  fill: rgb(255, 255, 255);
+  box-shadow: 0 0 0 1px #d777ce, 0 0 0 2px #d777ce, inset 0 0 4px rgba(93, 0, 185, 0.25);
+}
+
+/* Navigation background */
+.actor.sheet section.window-content form.crb-style nav.sheet-navigation {
+  background: url("../assets/sheet/border-pattern.webp") repeat-x top, url("../assets/sheet/border-pattern.webp") repeat-x bottom, var(--color-pf-secondary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+  background-color: rgb(12, 25, 43);
+}
+
+/* Current HP Colour*/
+.actor.sheet.character section.window-content .crb-style aside .sidebar .hitpoints .hp-big .container.current-hp {
+  background-color: #14364f;
+  background-image: linear-gradient(90deg, #14364f 0%, rgb(40, 98, 138) 50%, #14364f 100%);
+  border: 1px solid rgb(255, 255, 255);
+}
+/* Max HP Colour*/
+.actor.sheet.character section.window-content .crb-style aside .sidebar .data-value h2 {
+  color: rgb(200, 222, 255);
+}
+
+/* Sidebar Text Heading Colour*/
+.actor.sheet.character section.window-content .crb-style aside .sidebar header h2 {
+  color: rgb(255, 255, 255);
+}
+.actor.sheet.character section.window-content .crb-style aside .sidebar header button,
+.actor.sheet.character section.window-content .crb-style aside .sidebar header h2 {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+/* Fort, Wis, Will Save Text Colour*/
+.actor.sheet.character section.window-content .crb-style aside .sidebar .sidebar_label {
+  color: rgb(255, 255, 255);
+}
+
+/* Fort, Wis, Will Save modifier Text Colour*/
+.actor.sheet.character section.window-content .crb-style aside .sidebar .roll-data .modifier,
+.actor.sheet.character section.window-content .crb-style aside .sidebar .roll-data h3 {
+  color: rgb(255, 255, 255);
+}
+.actor.sheet.character section.window-content .crb-style aside .sidebar .roll-data a.modifier.hover {
+  text-decoration: underline rgb(255, 255, 255);
+}
+
+/* Sidebar Perception Symbols Colour*/
+.actor.sheet.character section.window-content .crb-style aside .sidebar a.roll-icon svg path {
+  fill: rgb(255, 255, 255);
+}
+.actor.sheet.character section.window-content .crb-style aside,
+.actor.sheet.character section.window-content .crb-style aside .sidebar a.roll-icon i {
+  color: rgb(255, 255, 255);
+}
+
+/* selection box colour*/
+.actor.sheet.character section.window-content .crb-style aside select {
+  border: 1px solid #ffffff;
+  background-color: rgb(20, 54, 79);
+  color: rgb(255, 255, 255);
+}
+.crb-style select option {
+  background-color: rgb(20, 54, 79);
+}
+
+/* Trait tag box colour*/
+.tags.paizo-style tag,
+.tags.paizo-style .tag,
+.tags.paizo-style select.tag {
+  background-color: rgb(45, 79, 106);
+  border: solid rgb(135, 189, 204);
+}
+
+/* Level Text colour*/
+.actor.sheet section.window-content form.crb-style header.char-header .char-level .level label {
+  color: rgb(255, 255, 255);
+}
+
+/* Actions Tab*/
+/* Level Text colour*/
+.actor.sheet section.window-content form.crb-style .sheet-body .sheet-content {
+  color: rgb(255, 255, 255) !important;
+}
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.actions ol.actions-list li.strike:not(.ready) h4.name {
+  color: rgb(195, 195, 195);
+}
+
+/* Dropdown colour*/
+.crb-style select {
+  background-color: rgba(255, 255, 255, 0.489);
+  border: 1px solid rgba(255, 255, 255, 0.701);
+  color: rgb(0, 0, 0);
+}
+
+/* Encounter, Exploration, Downtime Background colour*/
+.actor.sheet section.window-content form.crb-style nav.sub-nav {
+  background-color: rgb(12, 25, 43);
+}
+
+/* Encounter, Exploration, Downtime Text colour*/
+.actor.sheet section.window-content form.crb-style nav.sub-nav a:hover, .actor.sheet section.window-content form.crb-style nav.sub-nav a.active {
+  color: rgb(255, 255, 255);
+}
+.actor.sheet section.window-content form.crb-style nav.sub-nav a {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgb(195, 195, 195);
+}
+
+/* Strike, Map, Crit etc Text colour*/
+.tags .tag,
+.tags .tag option {
+  background-color: var(--color-pf-primary);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.299);
+  color: var(--color-text-trait);
+}
+
+.tags .tag.tag_secondary,
+.tags .tag option.tag_secondary {
+  background-color: rgb(20, 54, 79);
+}
+
+/* Sheath, Drop, etc Text colour*/
+.actor.sheet section.window-content form.crb-style .sheet-body .sheet-content .tab.actions ol.actions-list li.action button.use-action:not(:disabled), .actor.sheet section.window-content form.crb-style .sheet-body .sheet-content .tab.actions ol.actions-list li.strike button.use-action:not(:disabled) {
+  background: rgba(255, 255, 255, 0.489);
+  cursor: pointer;
+}
+.actor.sheet section.window-content form.crb-style .sheet-body .sheet-content .tab.actions ol.actions-list li.action button.use-action:not(:disabled):hover, .actor.sheet section.window-content form.crb-style .sheet-body .sheet-content .tab.actions ol.actions-list li.strike button.use-action:not(:disabled):hover {
+  box-shadow: inset 0 0 0 1px rgb(255, 255, 255), inset 0 0 0 2px rgba(255, 255, 255, 0.701);
+}
+
+/* Inventory Tab*/
+/* Inventory Background Header Text colour*/
+.actor.sheet section.window-content .currency,
+.actor.sheet section.window-content .inventory .inventory-list > header,
+.actor.sheet section.window-content .inventory .total-bulk,
+.actor.sheet section.window-content .wealth {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.096), inset 0 0 0 2px rgba(255, 255, 255, 0.096);
+  background-color: rgb(20, 54, 79);
+}
+
+/* Equip icons colour - edit, bin*/
+.actor.sheet section.window-content .inventory ul.items > li > .data .item-controls {
+  color: rgb(255, 255, 255);
+}
+/* Equip icons colour - equiped*/
+.actor.sheet section.window-content .inventory ul.items > li > .data .item-controls > a.toggle-invested.active, .actor.sheet section.window-content .inventory ul.items > li > .data .item-controls > a.item-carry-type.active {
+  color: rgba(255, 255, 255, 0.336);
+}
+.actor.sheet section.window-content .inventory ul.items > li > .data .item-controls > a.toggle-invested, .actor.sheet section.window-content .inventory ul.items > li > .data .item-controls > a.item-carry-type {
+  color: rgba(255, 255, 255, 0.336);
+}
+
+/* Quantity Text colour*/
+.actor.sheet section.window-content .inventory ul.items > li > .data .item-name .uses {
+  color: rgb(255, 255, 255);
+}
+
+/* Currency Buttons*/
+.actor.sheet section.window-content .currency li > button {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25), inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 3px rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.75);
+}
+
+/* Currency Images*/
+.actor.sheet section.window-content .currency .denomination .currency-image {
+  box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 2px var(--tertiary), 0 0 0 3px rgb(255, 255, 255);
+  height: 1.5rem;
+  width: 1.5rem;
+  background-size: cover !important;
+}
+
+/* Encumberance Images*/
+.actor.sheet section.window-content .inventory .encumbrance img {
+  box-shadow: 0 0 0 1px var(--tertiary), 0 0 0 2px #ffffff, inset 0 0 var(--inset-shadow-length) rgba(0, 0, 0, 0.5);
+}
+
+/* Encumberance Bar Colour*/
+.actor.sheet section.window-content .inventory .encumbrance .encumbrance-bar {
+  background-color: rgb(12, 25, 43);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5), inset 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+/* Spellcasting Tab*/
+/* Spell Header*/
+.actor.sheet section.window-content form.crb-style .sheet-body .sheet-content .directory-list .action-header {
+  background: rgb(20, 54, 79);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.3), inset 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+/* DC Text Colour*/
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.spellcasting .spellcasting-entry .spell-ability-data .skill-score {
+  color: rgb(213, 239, 255);
+}
+
+/* Cast Spell Button */
+.actor.sheet section.window-content button.blue {
+  background: rgb(148, 37, 93);
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+/* Spell Count background colour*/
+.actor.sheet section.window-content form.crb-style .sheet-body .sheet-content ol.spell-list > li.header-row input,
+.actor.sheet section.window-content form.crb-style .sheet-body .sheet-content ol.spell-list > li .uses input {
+  background: rgba(148, 37, 92, 0.753);
+  border: 1px solid rgb(255, 255, 255);
+  color: var(--text-light);
+}
+
+/* Spell Rank Header Background colour */
+.actor.sheet section.window-content form.crb-style .sheet-body .sheet-content ol.spell-list > li.header-row {
+  background: rgba(96, 88, 86, 0.25);
+  border: 1px solid var(--color-border-light-2);
+}
+
+/* Spell DC Dice colour */
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.spellcasting .spellcasting-entry .rollable .d20-svg path {
+  fill: rgb(255, 255, 255);
+}
+
+/* Crafting Tab*/
+/* Text Colour*/
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-level-header.formula-level-header,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-item.formula-level-header,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-level-header.formula-level-header,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-item.formula-level-header {
+  background: rgba(96, 88, 86, 0.25);
+  color: rgb(255, 255, 255);
+}
+
+/* Proficiencies Tab*/
+/* Modifier Colour*/
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.proficiencies ul.proficiencies-list li a.hover,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.proficiencies ul.proficiencies-list li .modifier,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.proficiencies ul.proficiencies-list li .dc {
+  color: rgb(213, 239, 255);
+  text-decoration-color: rgb(213, 239, 255);
+}
+
+/* Input Text Colour*/
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+input[type="search"] {
+  background: rgba(255, 255, 255, 0.025);
+  color: rgb(255, 255, 255);
+}
+
+/* Trained, Expert, Master etc Colour*/
+.actor.sheet.character section.window-content .crb-style .pf-rank {
+  background: var(--color-proficiency-untrained);
+  border: 1px solid rgba(255, 255, 255, 0.712);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+  color: var(--text-light);
+}
+
+/* Feats Tab*/
+/* Text Level Colour*/
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.feats ol.feats-list li.slot .item-name .feat-slot-title {
+  color: rgb(255, 255, 255);
+}
+
+.actor.sheet.character section.window-content .crb-style aside .sidebar header button {
+  background: rgb(20, 54, 79);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  color: rgb(255, 255, 255);
+}
+
+a.content-link,
+a.inline-roll {
+  background: rgb(45, 79, 106);
+  border: 1px solid rgb(135, 189, 204);
+}
+
+/* Spell, Effects Inline Colour*/
+.actor.sheet section.window-content .item-summary .description .addendum {
+  background: rgba(68, 55, 48, 0.1);
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+}
+
+/* Biography Tab*/
+/* Text Colour*/
+.crb-style .details-label {
+  color: rgb(255, 255, 255);
+}
+/* Hover Colour*/
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.feats ol.feats-list li.slot .item-name h4:hover {
+  color: rgba(255, 255, 255, 0.616);
+  text-shadow: 0 0 3px var(--color-pf-tertiary);
+}
+
+/* Text Input Background Colour*/
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.biography section.editable .editor,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.biography section.editable input {
+  background: rgba(0, 0, 0, 0.337);
+}
+
+/* Text Edit Header Background Colour*/
+.prosemirror menu {
+  background: rgba(255, 255, 255, 0.273);
+}
+
+/* styles/custom-ui.css */
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 71px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0;
+  position: relative;
+  z-index: 11;
+}
