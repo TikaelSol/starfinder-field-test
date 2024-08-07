@@ -37,6 +37,8 @@
             "flags": {}
         }
     ],
+    "styles": ["styles/sf2e-stylesheet.css"],
+    "scripts": ["scripts/sf2e-logo-replacer.js"],
     "media": [
         {
             "type": "setup",
