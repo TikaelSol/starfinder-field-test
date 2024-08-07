@@ -4,33 +4,30 @@
   display: grid;
   grid: "sidebar header" 4.625rem "sidebar nav" minmax(min-content, max-content) "sidebar content" 1fr/14.375rem 1fr;
   font-family: var(--body-serif);
-  background: url("../img/header.webp"), url("../img/background.webp");
+  background: url("../art/character-sheet/header.webp"), url("../art/character-sheet/background.webp");
   background-repeat: repeat-x, no-repeat;
   background-size: auto 5.625rem, cover;
   background-attachment: local;
   height: 100%;
-  /* Navigation */
-  /** White background navigation with little decorations on the left and right */
-  /* Read-Only Sheet */
 }
 
 .actor.sheet.character section.window-content .crb-style aside {
-  background-image: url("../img/red_sidebar_top.webp"), url("../img/red_sidebar_bottom.webp");
+  background-image: url("../art/character-sheet/red_sidebar_top.webp"), url("../art/character-sheet/red_sidebar_bottom.webp");
 }
 
 
 .actor.sheet section.window-content form.crb-style header.char-header .char-level .level {
-  background: url("../img/level-badge.webp") no-repeat;
+  background: url("../art/character-sheet/level-badge.webp") no-repeat;
 }
 
 .actor.sheet.character section.window-content .crb-style aside .sidebar .armor-class .ac.hp,
 .actor.sheet.character section.window-content .crb-style aside .sidebar .armor-class .shield.hp {
-  background: url("../img/shield-red.webp") no-repeat center center;
+  background: url("../art/character-sheet/shield-red.webp") no-repeat center center;
   grid-area: shield-hp;
 }
 
 .actor.sheet.vehicle .crb-style aside {
-  background-image: url("../img/red_sidebar_top.webp"), url("../img/red_sidebar_bottom.webp");
+  background-image: url("../art/character-sheet/red_sidebar_top.webp"), url("../art/character-sheet/red_sidebar_bottom.webp");
 }
 
 header.char-header .char-level .level,
@@ -154,6 +151,7 @@ section.tab.character h3 {
 .tags.light > .tag,
 .tags > .tag.light {
   background-color: rgba(0, 0, 0, 0.337);
+  color: rgb(255, 255, 255);
   border-bottom-color: rgba(255, 255, 255, 0.389);
   border-left-color: rgba(255, 255, 255, 0.389);
   border-right-color: rgba(255, 255, 255, 0.389);
@@ -258,6 +256,11 @@ ol {
   color: rgb(195, 195, 195);
 }
 
+/* Actions Text Hovor colour*/
+.actor.sheet section.window-content form.crb-style .sheet-body .sheet-content .tab.actions ol.actions-list li.action .name > a:hover {
+  color: rgb(255, 255, 255, 0.616);
+}
+
 /* Dropdown colour*/
 .crb-style select {
   background-color: rgba(255, 255, 255, 0.489);
@@ -290,7 +293,7 @@ ol {
 
 .tags .tag.tag_secondary,
 .tags .tag option.tag_secondary {
-  background-color: rgb(20, 54, 79);
+  background-color: rgb(45, 79, 106);
 }
 
 /* Sheath, Drop, etc Text colour*/
@@ -310,6 +313,12 @@ ol {
 .actor.sheet section.window-content .wealth {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.096), inset 0 0 0 2px rgba(255, 255, 255, 0.096);
   background-color: rgb(20, 54, 79);
+}
+
+/* Inventory Text Hovor colour*/
+.actor.sheet section.window-content .inventory ul.items > li > .data .item-name h3:hover,
+.actor.sheet section.window-content .inventory ul.items > li > .data .item-name h4:hover {
+  color: rgb(255, 255, 255, 0.616);
 }
 
 /* Equip icons colour - edit, bin*/
@@ -344,6 +353,13 @@ ol {
   background-size: cover !important;
 }
 
+/* Inventory Expanded Description Background Colour */
+.actor.sheet section.window-content .inventory ul.items > li .item-summary {
+  background: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid var(--color-pf-alternate);
+  border-top: 1px solid var(--color-pf-alternate);
+}
+
 /* Encumberance Images*/
 .actor.sheet section.window-content .inventory .encumbrance img {
   box-shadow: 0 0 0 1px var(--tertiary), 0 0 0 2px #ffffff, inset 0 0 var(--inset-shadow-length) rgba(0, 0, 0, 0.5);
@@ -365,6 +381,12 @@ ol {
 /* DC Text Colour*/
 .actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.spellcasting .spellcasting-entry .spell-ability-data .skill-score {
   color: rgb(213, 239, 255);
+}
+
+/* Spell Text Hovor Color Button */
+.actor.sheet section.window-content form.crb-style .sheet-body .sheet-content ol.spell-list > li .item-name h4 > a:hover {
+  color: rgba(255, 255, 255, 0.616);
+  text-shadow: none;
 }
 
 /* Cast Spell Button */
@@ -393,6 +415,11 @@ ol {
   fill: rgb(255, 255, 255);
 }
 
+/* Spell Used Text colour */
+.actor.sheet section.window-content form.crb-style .sheet-body .sheet-content ol.spell-list > li.spell[data-slot-expended] h4 {
+  color: rgba(255, 255, 255, 0.616);
+}
+
 /* Crafting Tab*/
 /* Text Colour*/
 .actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-level-header.formula-level-header,
@@ -401,6 +428,18 @@ ol {
 .actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-item.formula-level-header {
   background: rgba(96, 88, 86, 0.25);
   color: rgb(255, 255, 255);
+}
+
+/* Text Hovor Colour*/
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-level-header .level-name h4:hover,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-level-header .item-name h4:hover,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-item .level-name h4:hover,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-item .item-name h4:hover,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-level-header .level-name h4:hover,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-level-header .item-name h4:hover,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-item .level-name h4:hover,
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-item .item-name h4:hover {
+  color: rgb(255, 255, 255, 0.616);
 }
 
 /* Proficiencies Tab*/
@@ -449,11 +488,212 @@ a.inline-roll {
   border: 1px solid rgb(135, 189, 204);
 }
 
-/* Spell, Effects Inline Colour*/
+/* Pop Up Window*/
+/* Pop Up, Spell, Effects Inline Colour*/
 .actor.sheet section.window-content .item-summary .description .addendum {
   background: rgba(68, 55, 48, 0.1);
   border-radius: 2px;
   color: rgb(255, 255, 255);
+}
+a.content-link i,
+a.inline-roll i {
+  color: rgb(255, 255, 255);
+  margin-right: 0.25em;
+}
+/* Window Text Colour*/
+.window-app .window-content {
+  background: url(../art/character-sheet/background.webp) repeat;
+  color: rgb(255, 255, 255);
+}
+.sheet.journal-entry .journal-entry-content {
+  background: url("../art/character-sheet/background.webp") repeat;
+  border: 2px solid rgba(255, 255, 255, 0.818);
+}
+.sf2eplaytest {
+  color: rgb(255, 255, 255) !important;
+  font-family: Good OT;
+  font-size: 12pt;
+  line-height: 1.4em;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  --color-text-hyperlink: rgb(255, 255, 255, 0.818) !important
+}
+.sf2eplaytest h1 {
+  color: #6ca0cc;
+}
+.sf2eplaytest h2,.sf2eplaytest h3 {
+  color: #a176eb;
+}
+
+.directory .directory-header .header-search input {
+  background: rgba(0, 0, 0, 0.5);
+}
+/* Heading Text Colour*/
+.pf2e.item.sheet form > header input[type=text],
+.pf2e.item.sheet form > header input[type=number],
+.pf2e.item.sheet form > header tagify-tags {
+  color: rgb(255, 255, 255);
+}
+/* Description - Sidebar Text */
+.pf2e.item.sheet form .sheet-content section.sidebar .item-summary,
+.pf2e.item.sheet form .sheet-content section.sidebar .tags-title {
+  color: rgb(255, 255, 255);
+}
+/* Dropdown Text Colour*/
+.pf2e.item.sheet form .sheet-content input:disabled,
+.pf2e.item.sheet form .sheet-content select:disabled {
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+}
+/* Dropdown Text Colour*/
+
+.pf2e.item.sheet form .sheet-content input[type=number],
+.pf2e.item.sheet form .sheet-content input[type=text] {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(255, 255, 255);
+}
+input[type="checkbox"]:checked,
+input[type="radio"]:checked,
+.pf2e.item.sheet form .sheet-content input[type=checkbox],
+.pf2e.item.sheet form .sheet-content select {
+  background: rgb(39, 16, 39);
+  background-color: rgb(39, 16, 39);
+  accent-color: rgb(39, 16, 39);
+  border: 1px solid rgb(255, 255, 255);
+}
+/* Details Tab - Text Colour*/
+.pf2e.item.sheet form .sheet-body .tab.active label {
+  color: rgb(255, 255, 255);
+}
+/* Details Tab - Button Disabled Colour*/
+button:disabled {
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+}
+/* Details Tab - Input Text*/
+.pf2e.item.sheet form .sheet-content input {
+  color: rgb(255, 255, 255);
+}
+/* Hint, Notes Text Colour */
+form .notes,
+form .hint {
+  color: rgb(255, 255, 255);
+}
+/* Mystification - Display Details Background */
+.pf2e.item.sheet form .sheet-body .tab.mystification.active .form-group.unidentified .editor {
+  background: rgba(0, 0, 0, 0.25);
+  padding: 0.25rem;
+  min-height: 100px;
+  min-width: 100%;
+  flex-basis: 100%;
+}
+/* Rules - Roll Options Text */
+.pf2e.item.sheet form.locked a[data-action] {
+  color: rgb(255, 255, 255);
+}
+
+button[data-action="badge-add"] {
+  color: rgba(255, 255, 255, 0.888);
+}
+button[data-action="badge-add-label"] {
+  color: rgba(255, 255, 255, 0.888);
+}
+select.badge-type {
+  color: rgba(255, 255, 255, 0.888);
+}
+/* Inline rolls and effects in the chat window text colour */
+a.content-link,
+a.content-link i,
+a.inline-roll.roll,
+a.inline-roll.roll i,
+a.inline-roll.roll span {
+  color: rgba(255, 255, 255, 0.888);
+}
+/* Button Background Colour */
+form button {
+  background: rgba(0, 0, 0, 0.5);
+}
+/* Dropdown Button Hovor Border Colour */
+.pf2e.item.sheet form .sheet-content button:hover:not(:disabled), .pf2e.item.sheet form .sheet-content button:focus,
+.pf2e.item.sheet form .sheet-content input:not([type=range]):hover:not(:disabled),
+.pf2e.item.sheet form .sheet-content input:not([type=range]):focus,
+.pf2e.item.sheet form .sheet-content select:hover:not(:disabled),
+.pf2e.item.sheet form .sheet-content select:focus {
+  border-color: rgba(255, 255, 255, 0.616);
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.888);
+}
+
+option,
+optgroup {
+  background: rgb(39, 16, 39);
+}
+.pf2e.item.sheet form .sheet-content select {
+  background: rgb(39, 16, 39);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+input[type="checkbox"]:not(:checked) {
+  opacity: 0.5; /* Reduced opacity when unchecked */
+}
+
+/* Target all select elements */
+select {
+  color: white; /* Text color for the select box */
+  background-color: #333;
+}
+
+/* Target the option elements within all select elements */
+select option {
+  color: white; /* Text color for the options */
+}
+
+/* Target all input elements within .form-fields */
+.form-fields input::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 0.65;
+}
+/* Target all textarea elements */
+textarea[name="system.rules.0"] {
+  color: rgba(255, 255, 255, 0.888);
+}
+input::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 0.65;
+}
+input:disabled {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  opacity: 0.65;
+}
+
+/* Inline Check Colour */
+a.inline-check,
+span[data-pf2-check] {
+  background: rgb(45, 79, 106);
+  border: 1px solid rgb(135, 189, 204);
+  color: rgb(255, 255, 255);
+}
+a.inline-check > i.icon,
+span[data-pf2-check] > i.icon {
+  color: rgba(255, 255, 255, 0.818);
+}
+i[data-pf2-repost] {
+  background: var(--inline-repost-bg);
+  color: rgba(255, 255, 255, 0.818);
+  border-left: 1px solid rgba(255, 255, 255, 0.818);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.818);
+  background: rgb(27, 48, 64)
+}
+span[data-pf2-effect-area] {
+  background: rgb(45, 79, 106);
+  border: 1px solid rgb(135, 189, 204);
+  color: rgb(255, 255, 255);
+}
+
+.app {
+  max-height: 100%;
+  box-shadow: 0 0 20px var(--color-shadow-dark);
+  color: var(--color-text-light-highlight);
 }
 
 /* Biography Tab*/
