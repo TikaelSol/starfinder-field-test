@@ -1,0 +1,1306 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Aeon Guard Soldier",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/starfinder-field-test-for-pf2e/art/npc-art/tokens/aeon_guard-t_v2_1-5.webp",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "detectionModes": [],
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "name": "Aeon Guard Soldier",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 40,
+        "temp": 0,
+        "max": 40,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "azlanti",
+          "common",
+          "vesk"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 3
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Field Test #5",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 6,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 6,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 9
+      },
+      "athletics": {
+        "base": 7
+      },
+      "intimidation": {
+        "base": 6
+      },
+      "stealth": {
+        "base": 9
+      }
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/npc-art/art/aeon_guard.webp",
+  "items": [
+    {
+      "name": "Warfare Lore",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 7
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "ruNpGeFOaBwvAgLa",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!683GXNtIbf9z5tK1.ruNpGeFOaBwvAgLa"
+    },
+    {
+      "type": "action",
+      "name": "Evasive Maneuver",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The soldier takes damage from a ranged Strike or spell</p>\n<hr />\n<p><strong>Effect</strong> The soldier Steps or Takes Cover.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "tvQ0StdpNg7LbQpb",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!683GXNtIbf9z5tK1.tvQ0StdpNg7LbQpb"
+    },
+    {
+      "type": "melee",
+      "name": "Pulse Gauntlet",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "CriticalSpecialization"
+          },
+          {
+            "alternate": true,
+            "key": "CriticalSpecialization",
+            "predicate": [
+              "item:id:{item|_id}"
+            ],
+            "text": "PF2E.Item.Weapon.CriticalSpecialization.brawling"
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "critical-brawling",
+            "free-hand",
+            "powered",
+            "tech"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "damageRolls": {
+          "NouqHPxERGSd2lnp": {
+            "damage": "1d4+2",
+            "damageType": "sonic",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "_id": "UL6Yp3HpISV7rgJN",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!683GXNtIbf9z5tK1.UL6Yp3HpISV7rgJN"
+    },
+    {
+      "type": "melee",
+      "name": "Aeon Rifle",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "aeon-rifle",
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aeon",
+            "caster",
+            "range-increment-60"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "damageRolls": {
+          "Ijcska6zdzkcR6mC": {
+            "damage": "1d8",
+            "damageType": "fire",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 11
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "_id": "uXKsZVzrtXcUrITu",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!683GXNtIbf9z5tK1.uXKsZVzrtXcUrITu"
+    },
+    {
+      "type": "action",
+      "name": "Coordinated Fire",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>After the soldier attempts a Strike against a target (regardless of success or failure), the next Strike one of the soldier's allies makes against the same target gains a +2 circumstance bonus to the attack roll. If a Strike with a bonus from coordinated fire hits, the target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of the attacking ally's next turn.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "oPxCFqeEjw1o2aWq",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!683GXNtIbf9z5tK1.oPxCFqeEjw1o2aWq"
+    },
+    {
+      "type": "action",
+      "name": "Sharpshooter",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When the soldier makes a ranged Strike against a target with an AC bonus from lesser or standard cover, they reduce the AC bonus by 1 for that Strike.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "N1ZBkPXhD17mEqpo",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!683GXNtIbf9z5tK1.N1ZBkPXhD17mEqpo"
+    },
+    {
+      "type": "action",
+      "name": "Show No Mercy",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The soldier gains a +2 circumstance bonus to damage rolls against @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} targets.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "damage",
+            "value": 2,
+            "type": "circumstance",
+            "predicate": [
+              "target:effect:suppressed"
+            ]
+          }
+        ],
+        "slug": "show-no-mercy",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "uigaQFvMSkaFxIGb",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!683GXNtIbf9z5tK1.uigaQFvMSkaFxIGb"
+    },
+    {
+      "name": "Aeon Guard Armor (Commercial)",
+      "type": "armor",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "light",
+        "group": null,
+        "acBonus": 0,
+        "strength": 0,
+        "dexCap": 5,
+        "checkPenalty": 0,
+        "speedPenalty": 0,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": [],
+        "specific": null
+      },
+      "_id": "GTmawuW29O9NQm9H",
+      "img": "systems/pf2e/icons/default-icons/armor.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!683GXNtIbf9z5tK1.GTmawuW29O9NQm9H"
+    },
+    {
+      "name": "Aeon Rifle (Commercial)",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": null,
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "slashing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": null
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "_id": "jCBBqHGgk2uoK1D8",
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!683GXNtIbf9z5tK1.jCBBqHGgk2uoK1D8"
+    },
+    {
+      "name": "Pulse Gauntlet  (Commercial)",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": null,
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "slashing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": null
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "_id": "9HTCggLTyOQqh58Z",
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!683GXNtIbf9z5tK1.9HTCggLTyOQqh58Z"
+    },
+    {
+      "name": "Battery (Tactical)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Field Test",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "ammo",
+        "uses": {
+          "value": 20,
+          "max": 20,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "other"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "icons/magic/lightning/bolt-strike-wide-white.webp",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.NbZBvTjVNBaIYHCI"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.NbZBvTjVNBaIYHCI",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "roXeAuXxYtBw6a38",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "_id": "Hfr0IyJtKSRNme8t",
+      "_key": "!actors.items!683GXNtIbf9z5tK1.Hfr0IyJtKSRNme8t"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/aeon-stone-dull-gray.webp",
+      "name": "Aeon Stone (Consumed)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Over millennia, these mysterious, intricately cut gemstones have been hoarded by mystics and fanatics hoping to discover their secrets. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to construct the universe in primeval times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful Disarm action against you. A stowed or removed stone remains invested, but its effects are suppressed until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into a special magical item called a <em>wayfinder</em>.</p>\n<hr />\n<p>A <em>consumed </em>aeon stone is a dull lump that has lost its magical properties. It still rotates your head like any other aeon stone and can thus serve as a stylish, hand-free option for various spells that target an object.</p>\n<p>This aeon stone has no resonant power.</p>"
+        },
+        "rules": [],
+        "slug": "aeon-stone-consumed",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 9
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Item.CVTbxCY85nLoHYuw"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.CVTbxCY85nLoHYuw",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "TYHQZ1H3Wi03ZxHq",
+      "_key": "!actors.items!683GXNtIbf9z5tK1.TYHQZ1H3Wi03ZxHq"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "starfinder-data-entry",
+      "system": "pf2e",
+      "coreVersion": "11.315",
+      "systemVersion": "5.15.3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "createdTime": 1721860400699,
+    "modifiedTime": 1722569187551,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_id": "683GXNtIbf9z5tK1",
+  "sort": 0,
+  "_key": "!actors!683GXNtIbf9z5tK1"
+}

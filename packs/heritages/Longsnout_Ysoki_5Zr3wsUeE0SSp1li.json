@@ -1,0 +1,80 @@
+{
+  "name": "Longsnout Ysoki",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The long snouts that run in your family give you a keener sense of smell than most ysoki. You gain imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine a creature's location. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.</p>\n<p>In addition, you gain a +2 circumstance bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} a creature or object within the range of your scent.</p>"
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "selector": "scent",
+        "range": 30,
+        "acuity": "imprecise"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "perception",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "action:seek",
+          {
+            "lte": [
+              "target:distance",
+              30
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "longsnout-ysoki",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Ysoki",
+      "slug": "ysoki",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.dQFnwCTNzIHzN1Vb"
+    }
+  },
+  "_id": "5Zr3wsUeE0SSp1li",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "BPl4oHt46KCm1GRk",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708139228676,
+    "modifiedTime": 1722276019041,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!5Zr3wsUeE0SSp1li"
+}

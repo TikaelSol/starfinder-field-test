@@ -1,0 +1,75 @@
+{
+  "name": "History Buff",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have cataloged countless customs, histories, and traditions. You can cast @UUID[Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0]{hypercognition} once per day as a 3rd-rank occult innate spell. You can use your modifier for the Lore skill you chose for Historian in place of any other skill modifier when making a @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} check while casting <em>hypercognition</em>.</p>"
+    },
+    "rules": [],
+    "slug": "history-buff",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "kasatha"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Historian"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "ZVCmQvJ59IfS0AHq",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 44300000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707973818619,
+    "modifiedTime": 1722316494891,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZVCmQvJ59IfS0AHq"
+}

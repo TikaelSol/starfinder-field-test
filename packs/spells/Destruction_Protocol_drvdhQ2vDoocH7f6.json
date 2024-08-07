@@ -1,0 +1,92 @@
+{
+  "name": "Destruction Protocol",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You magically reprogram a construct to attack your enemies, even if following your orders puts the target in danger. Your target must be level –1 and not already programmed or tasked to harm you. The target attempts a Will save. The target's behavior is altered according to its save. Heightening the spell increases the maximum level of creature you can reprogram.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target immediately Steps in a direction chosen by the caster.</p>\n<p><strong>Failure</strong> At the start of the target's next turn, they Stride in a direction chosen by the caster and make a Strike against a target chosen by the caster. These actions don't count towards the target's regular actions that round.</p>\n<p><strong>Critical Failure</strong> As a failure, but the target Strides twice as directed by the caster.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> Level 1.</p>\n<p><strong>Heightened (3rd)</strong> Level 2.</p>\n<p><strong>Heightened (4th)</strong> Level 3.</p>\n<p><strong>Heightened (5th)</strong> Level 5.</p>\n<p><strong>Heightened (6th)</strong> Level 7.</p>\n<p><strong>Heightened (7th)</strong> Level 9.</p>\n<p><strong>Heightened (8th)</strong> Level 11.</p>\n<p><strong>Heightened (9th)</strong> Level 13.</p>\n<p><strong>Heightened (10th)</strong> Level 15.</p>"
+    },
+    "rules": [],
+    "slug": "destruction-protocol",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "incapacitation",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature with the construct or tech trait"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "drvdhQ2vDoocH7f6",
+  "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276727,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 7800000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!drvdhQ2vDoocH7f6"
+}

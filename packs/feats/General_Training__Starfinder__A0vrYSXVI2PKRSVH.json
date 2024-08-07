@@ -1,0 +1,89 @@
+{
+  "_id": "A0vrYSXVI2PKRSVH",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "General Training (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your adaptability manifests in your mastery of a range of useful abilities. You gain a 1st-level general feat. You must meet the feat's prerequisites, but if you select this feat during character creation, you can select the feat later in the process in order to determine which prerequisites you meet.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat multiple times, choosing a different feat each time.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:1",
+            "item:trait:general"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "feat",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.GeneralTraining.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.feat}"
+      }
+    ],
+    "slug": "general-training",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "human"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.D3SuA5MaKucO1flE",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722314223418,
+    "modifiedTime": 1722444017745,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.D3SuA5MaKucO1flE"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!A0vrYSXVI2PKRSVH"
+}

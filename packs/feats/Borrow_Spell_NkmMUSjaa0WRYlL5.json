@@ -1,0 +1,76 @@
+{
+  "type": "feat",
+  "name": "Borrow Spell",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You use an action which Sustains your quantum field, and the quantum field is still active.</p><hr /><p>Reaching across time and space, you can borrow a spell from a version of yourself in another reality. During this turn, you can cast one spell without spending a spell slot to do so. The spell must be in your repertoire and at least 1 rank lower than your highest-rank witchwarper spell slot.</p>"
+    },
+    "rules": [],
+    "slug": "borrow-spell",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.330",
+        "system": "6.1.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_id": "NkmMUSjaa0WRYlL5",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722099813058,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 8400000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!NkmMUSjaa0WRYlL5"
+}

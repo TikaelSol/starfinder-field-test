@@ -1,0 +1,393 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Sporeling",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Sporeling",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "temp": 0,
+        "max": 9,
+        "details": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 30
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "weaknesses": [
+        {
+          "type": "cold",
+          "value": 2,
+          "exceptions": []
+        }
+      ],
+      "resistances": [
+        {
+          "type": "bludgeoning",
+          "value": 2,
+          "exceptions": [],
+          "doubleVs": []
+        },
+        {
+          "type": "piercing",
+          "value": 2,
+          "exceptions": [],
+          "doubleVs": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "arboreal",
+          "common",
+          "eoxian"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": -1
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Second Edition Playtest Adventure: A Cosmic Birthday",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 5,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 2,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 5,
+        "special": []
+      },
+      "stealth": {
+        "base": 8,
+        "special": [
+          {
+            "label": "in subterranean environments",
+            "predicate": [
+              "terrain:subterranean"
+            ],
+            "base": 13
+          }
+        ]
+      }
+    },
+    "traits": {
+      "value": [
+        "plant"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "tiny"
+      }
+    }
+  },
+  "_id": "72J9nCqYc5XiiVPn",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "type": "melee",
+      "name": "Spore Missile",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-30"
+          ]
+        },
+        "damageRolls": {
+          "SS5Z4EN5hOKLYhPl": {
+            "damage": "1d6",
+            "damageType": "poison",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 8
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "2I5P5N8ihSBOyWoT",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!72J9nCqYc5XiiVPn.2I5P5N8ihSBOyWoT"
+    },
+    {
+      "type": "action",
+      "name": "Spore Salvo",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The sporeling fires spores in a @Template[type:cone|distance:15], dealing @Damage[1d6[poison]] damage to each creature in the area (@Check[type:reflex|dc:16|basic:true]). Creatures that critically fail this save are @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} (1 round) and take @Damage[1d6[persistent,poison]] damage.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "uilNNOxwZukzc3qK",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!72J9nCqYc5XiiVPn.uilNNOxwZukzc3qK"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "createdTime": 1721155995240,
+    "modifiedTime": 1721850275463,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "sort": 600000,
+  "_key": "!actors!72J9nCqYc5XiiVPn"
+}

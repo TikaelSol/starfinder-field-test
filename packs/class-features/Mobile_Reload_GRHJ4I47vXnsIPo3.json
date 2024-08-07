@@ -1,0 +1,66 @@
+{
+  "name": "Mobile Reload",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your gun is a part of you, and you've learned to reload while performing other actions. Whenever you Interact to reload a ranged weapon, you can also Step or Stride.</p>"
+    },
+    "rules": [],
+    "slug": "mobile-reload",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "GRHJ4I47vXnsIPo3",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20ammunition.webp",
+  "folder": null,
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722126019807,
+    "modifiedTime": 1722224838533,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!GRHJ4I47vXnsIPo3"
+}

@@ -1,0 +1,75 @@
+{
+  "folder": null,
+  "name": "Triune",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h2>The All-code</h2><p>Triune is a fusion of three technological deities: Brigh the Precursor, Casandalee the Created, and Epoch the Transcendent. Triune promotes technology and ethical creation of artificial life, and its Signal made Drift travel possible for many societies.</p><p><strong>Areas of Concern</strong> artificial intelligence, computers, and the Drift</p><p><strong>Edicts</strong> advance the development of artificial life and artificial intelligence, innovate new technology, promote Drift travel</p><p><strong>Anathema</strong> treat artificial life as inferior to organic life, subjugate artificial life forms, destroy a Drift beacon</p>"
+    },
+    "rules": [],
+    "slug": "triune",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": null,
+    "domains": {
+      "primary": [
+        "change",
+        "knowledge",
+        "void"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "dex",
+      "int"
+    ],
+    "skill": [
+      "computers"
+    ],
+    "weapons": [
+      "pulse-gauntlet"
+    ],
+    "spells": {
+      "1": "Compendium.starfinder-field-test-for-pf2e.spells.Item.drvdhQ2vDoocH7f6",
+      "2": "Compendium.starfinder-field-test-for-pf2e.spells.Item.Hr9Y0OzgCmQNmhiC",
+      "6": "Compendium.starfinder-field-test-for-pf2e.spells.Item.maSNDA5pJDbNLIcc"
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/deities/triune.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722414174396,
+    "modifiedTime": 1722443864659,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "lhykPIjZ3albKiM7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!lhykPIjZ3albKiM7"
+}

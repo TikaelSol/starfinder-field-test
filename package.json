@@ -1,0 +1,23 @@
+{
+  "name": "starfinder-field-test-for-pf2e",
+  "version": "6.0.4",
+  "description": "The official Foundry module for the [Starfinder 2nd edition playtest](https://paizo.com/starfinderplaytest)!",
+  "scripts": {
+    "pack": "node build/pack.js",
+    "unpack": "node build/unpack.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TikaelSol/starfinder-field-test.git"
+  },
+  "author": "TikaelSol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TikaelSol/starfinder-field-test/issues"
+  },
+  "homepage": "https://github.com/TikaelSol/starfinder-field-test",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.3"
+  }
+}

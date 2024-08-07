@@ -1,0 +1,71 @@
+{
+  "type": "feat",
+  "name": "Keep Them in Your Sights",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You always keep a target marked and in your sights, even if they move. When you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.LRbwV8LMLi6FFKjW]{Aim}, the benefits apply if your mark is within your weapon's first or second range increment, rather than only within the first.</p>"
+    },
+    "rules": [],
+    "slug": "keep-them-in-your-sights",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "XsMsPa52fuYSwj7N",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801583824,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 13200000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!XsMsPa52fuYSwj7N"
+}

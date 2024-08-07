@@ -1,0 +1,69 @@
+{
+  "name": "Damaya Lashunta",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've chosen the adaptive genetics that lead to becoming a damaya. You may be taller than other lashuntas and are likely encouraged to pursue work as a scholar or politician. You gain an attribute boost to Intelligence and an attribute flaw to Constitution, but the free ancestry boost cannot also be Intelligence. You gain the trained proficiency in Diplomacy. If you would automatically become trained in Diplomacy (from your background or class, for example), you become trained in another skill of your choice. You gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} feat.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.diplomacy.rank",
+        "value": 1
+      }
+    ],
+    "slug": "damaya-lashunta",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Lashunta",
+      "slug": "lashunta",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.YQY8bvRtNNt6wvx6"
+    }
+  },
+  "_id": "Je2ggAiCNTTGE4Ia",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "8rqEHVm9lrOajiBb",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708111649661,
+    "modifiedTime": 1722273897999,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Je2ggAiCNTTGE4Ia"
+}

@@ -1,0 +1,101 @@
+{
+  "type": "feat",
+  "name": "Solar Rampart",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your training has helped you adapt to ever-heavier armor. You are trained in heavy armor. Whenever you gain a class feature that grants you expert or greater proficiency in medium armor, you also gain that proficiency in heavy armor. You treat armor you wear of 2 Bulk or higher as though it were 1 Bulk lighter (to a minimum of 1 Bulk).</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.heavy.rank",
+        "value": 2,
+        "predicate": [
+          "feature:armor-expertise-solarian"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.heavy.rank",
+        "value": 3,
+        "predicate": [
+          "feature:armor-mastery"
+        ]
+      }
+    ],
+    "slug": "solar-rampart",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "solarian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "any initial revelation"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "heavy": {
+          "rank": 1
+        }
+      }
+    }
+  },
+  "_id": "PSjBC9pSlfmYK80z",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801592629,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 9000000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!PSjBC9pSlfmYK80z"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Dive for Cover",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When threatened, you can quickly take a dive and find somewhere to hunker down. You @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}, land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, and immediately @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} to hunker down and gain greater cover against ranged attacks, even if you don't have an object to get behind.</p>"
+    },
+    "rules": [],
+    "slug": "dive-for-cover",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "expert in Acrobatics"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "J8lzeTvUhot1XDMC",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 31200000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1714325840042,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!J8lzeTvUhot1XDMC"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": null,
+  "name": "Weydan",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h2>The Endless Horizon</h2><p>Weydan crafts avatars of himself of all ancestries and genders to wander the galaxy and experience mortality—thus, he teaches his followers to treat anyone they meet with the same respect and dignity they'd show him. Weydan enjoys exploration and discovery, and he believes everyone deserves the equal right to pursue such experiences.</p><p><strong>Areas of Concern</strong> discovery, equality, exploration, and freedom</p><p><strong>Edicts</strong> explore the unknown, seek new discoveries, defend the freedom and equality of all peoples</p><p><strong>Anathema</strong> aid systems of oppression, subjugate a sapient creature, restrict the benefits of your discoveries to a privileged few</p>"
+    },
+    "rules": [],
+    "slug": "weydan",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "freedom",
+        "healing",
+        "travel",
+        "star"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "str",
+      "cha"
+    ],
+    "skill": [
+      "piloting"
+    ],
+    "weapons": [
+      "laser-rifle"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.aEM2cttJ2eYcLssW",
+      "3": "Compendium.pf2e.spells-srd.Item.mwPfoYfVGSMAaUec",
+      "6": "Compendium.starfinder-field-test-for-pf2e.spells.Item.zMxl2O1P5stsskdF"
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/deities/weydan.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722414174396,
+    "modifiedTime": 1722443864578,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "PHfFfF9ZxupHEs5Q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!PHfFfF9ZxupHEs5Q"
+}

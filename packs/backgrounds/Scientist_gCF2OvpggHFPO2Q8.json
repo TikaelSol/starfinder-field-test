@@ -1,0 +1,86 @@
+{
+  "name": "Scientist",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You work in a lab and conduct research about a scientific topic. Perhaps you're a biotechnician, chemist, computer programmer, theoretical physicist, or an accomplished researcher in some other field. Regardless of your specific training, you can employ your known science for personal gain or the betterment of galactic society.</p><p>Choose two attribute boosts. One must be to <strong>Intelligence</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p><p>You're trained in Crafting. You're also trained in a Lore skill related to your field of research, and you gain @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{Assurance} with that skill.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0",
+        "preselectChoices": {
+          "assurance": "lore"
+        }
+      }
+    ],
+    "slug": "scientist",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "int",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedSkills": {
+      "value": [
+        "crafting"
+      ],
+      "lore": []
+    }
+  },
+  "_id": "gCF2OvpggHFPO2Q8",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708153632629,
+    "modifiedTime": 1722278807158,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!gCF2OvpggHFPO2Q8"
+}

@@ -1,0 +1,74 @@
+{
+  "type": "feat",
+  "name": "Shattering Impact",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You pour all your effort into making a single attack with your solar weapon that has such force it shatters the weapon. Strike with your solar weapon. Increase the size of the weapon damage die by one step. Your solar weapon shatters and must be manifested to continue using it.</p><p><strong>Graviton-Attuned</strong> If you hit your target, they take a –10-foot status penalty to Speed until the start of your next turn.</p><p><strong>Photon-Attuned</strong> If you hit your target, they take additional persistent fire damage equal to half your level rounded up.</p>"
+    },
+    "rules": [],
+    "slug": "shattering-impact",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attuned",
+        "disharmony",
+        "flourish",
+        "solarian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "EPu0wtKaBuyyElGl",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801592629,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 5700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!EPu0wtKaBuyyElGl"
+}

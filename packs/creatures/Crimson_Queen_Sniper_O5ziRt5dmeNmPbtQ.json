@@ -1,0 +1,1093 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Crimson Queen Sniper",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Crimson Queen Sniper",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 16,
+        "temp": 0,
+        "max": 16,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "akitonian",
+          "common",
+          "ysoki"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Second Edition Playtest Adventure: A Cosmic Birthday",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 9,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 5,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 2,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 5
+      },
+      "athletics": {
+        "base": 2
+      },
+      "intimidation": {
+        "base": 3
+      },
+      "society": {
+        "base": 2
+      },
+      "stealth": {
+        "base": 3
+      }
+    },
+    "traits": {
+      "value": [
+        "humanoid",
+        "ysoki"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "folder": "RI13eCYAkumFejRC",
+      "name": "Freebooter Armor",
+      "type": "armor",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Freebooter armor is named for the pirates and outlaws who often wear these outfits. Freebooter armor typically consists of a breastplate worn under a jacket or flight suit, heavy boots and gloves, a helmet, and hidden straps and holsters for concealing weapons.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "medium",
+        "group": "plate",
+        "acBonus": 4,
+        "strength": 3,
+        "dexCap": 1,
+        "checkPenalty": -2,
+        "speedPenalty": -5,
+        "runes": {
+          "potency": null,
+          "resilient": null,
+          "property": []
+        },
+        "subitems": [],
+        "specific": null
+      },
+      "img": "systems/pf2e/icons/default-icons/armor.svg",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.fDkbtTBKrh5bfQ20",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "MFAnTZAgZWG2XUkf",
+      "_key": "!actors.items!O5ziRt5dmeNmPbtQ.MFAnTZAgZWG2XUkf"
+    },
+    {
+      "folder": "kKZcnt8h5EQIuR3k",
+      "name": "Magazine",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 8,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "ammo",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "systems/pf2e/icons/default-icons/consumable.svg",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.b76SxmhBqxEtxcPm",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "MRAdLpfWbeWVBSMj",
+      "_key": "!actors.items!O5ziRt5dmeNmPbtQ.MRAdLpfWbeWVBSMj"
+    },
+    {
+      "folder": "v186z3y1LUpHjgSY",
+      "name": "Commercial Knife",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Invaluable as both a weapon and a tool, knives come in a variety of shapes, styles, and materials ranging from carbon steel to ceramics. Archaic knives made with outdated materials that predate modern crafting methods are sometimes treated against corrosion to preserve these traditional armaments.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "analog",
+            "finesse",
+            "thrown-10",
+            "versatile-s"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "knife",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand",
+          "canBeAmmo": false
+        },
+        "category": "simple",
+        "group": "knife",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d4",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.d3zoUFCuGLsVR6N6",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "Z2xxJBlHvs2gy2TG",
+      "_key": "!actors.items!O5ziRt5dmeNmPbtQ.Z2xxJBlHvs2gy2TG"
+    },
+    {
+      "_id": "Fyx9Z9o7gkF0pk5w",
+      "name": "Knife",
+      "type": "melee",
+      "system": {
+        "slug": "knife",
+        "bonus": {
+          "value": 8
+        },
+        "damageRolls": {
+          "DTckZOC8Y9qAGGFd": {
+            "damage": "1d4+4",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "analog",
+            "finesse",
+            "versatile-s"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "Z2xxJBlHvs2gy2TG"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!O5ziRt5dmeNmPbtQ.Fyx9Z9o7gkF0pk5w"
+    },
+    {
+      "_id": "P3W3XvzmXDwc4jue",
+      "name": "Knife",
+      "type": "melee",
+      "system": {
+        "slug": "knife",
+        "bonus": {
+          "value": 8
+        },
+        "damageRolls": {
+          "5MoTNsSPg4ipAknB": {
+            "damage": "1d4+4",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "analog",
+            "thrown-10",
+            "versatile-s"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "Z2xxJBlHvs2gy2TG"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!O5ziRt5dmeNmPbtQ.P3W3XvzmXDwc4jue"
+    },
+    {
+      "folder": "v186z3y1LUpHjgSY",
+      "name": "Tactical Shirren-eye Rifle",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This sniper rifle equips a compound technological scope that allows snipers to adjust focus and magnification with natural eye movements instead of using moving parts that might disrupt their aim.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "analog",
+            "expend-2",
+            "fatal-d12",
+            "kickback",
+            "unwieldy"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "shirren-eye-rifle",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "martial",
+        "group": "sniper",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d10",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 100,
+        "reload": {
+          "value": "1"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.4PxfAitqnuz64uYr",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "LtBqQ76oKfvuvk29",
+      "_key": "!actors.items!O5ziRt5dmeNmPbtQ.LtBqQ76oKfvuvk29"
+    },
+    {
+      "type": "action",
+      "name": "Got Your Back!",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature damages a crimson queen's ally</p><hr /><p><strong>Effect</strong> The crimson queen attempts a ranged Strike against the triggering creature. This Strike doesn't count toward her multiple attack penalty, and her multiple attack penalty doesn't apply to this Strike.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "fgFumVoiRI71u4rd",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!O5ziRt5dmeNmPbtQ.fgFumVoiRI71u4rd"
+    },
+    {
+      "_id": "xFiUFSNXcVcR1ZjU",
+      "name": "Shirren-eye Rifle",
+      "type": "melee",
+      "system": {
+        "slug": "tactical-shirren-eye-rifle",
+        "bonus": {
+          "value": 9
+        },
+        "damageRolls": {
+          "swDb2MPj8SZFzIAx": {
+            "damage": "1d10",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "analog",
+            "fatal-d12",
+            "kickback",
+            "range-increment-150",
+            "reload-1",
+            "unwieldy",
+            "volley-30"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "LtBqQ76oKfvuvk29"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!O5ziRt5dmeNmPbtQ.xFiUFSNXcVcR1ZjU"
+    },
+    {
+      "type": "action",
+      "name": "Sniper's Aim",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The sniper takes careful aim at a target. Until the end of her turn, her ranged Strikes deal an additional 1d4 precision damage and ignore lesser cover.</p>"
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "snipers-aim",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "category": "precision",
+            "diceNumber": 1,
+            "dieSize": "d4",
+            "key": "DamageDice",
+            "selector": "ranged-damage",
+            "predicate": [
+              "snipers-aim"
+            ]
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "y909Iuiwi3BryWl8",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!O5ziRt5dmeNmPbtQ.y909Iuiwi3BryWl8"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "createdTime": 1721155995240,
+    "modifiedTime": 1721850275463,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "O5ziRt5dmeNmPbtQ",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "sort": 2100000,
+  "_key": "!actors!O5ziRt5dmeNmPbtQ"
+}

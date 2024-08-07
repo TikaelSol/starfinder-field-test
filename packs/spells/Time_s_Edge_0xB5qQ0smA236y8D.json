@@ -1,0 +1,113 @@
+{
+  "folder": null,
+  "name": "Time’s Edge",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You refract latent energy from the Dimension of Time into your current plane in the form of a massive blade, dealing 6d6 slashing damage to all creatures in the area, representing the passage of time within the space. Creatures within the area must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+    },
+    "rules": [],
+    "slug": "times-edge",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "occult",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 60,
+      "type": "line"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "g0b4facIQT3ifdZT": {
+        "formula": "6d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "slashing",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "g0b4facIQT3ifdZT": "2d6"
+      }
+    }
+  },
+  "_id": "0xB5qQ0smA236y8D",
+  "img": "icons/magic/light/beam-rays-blue-large.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275304,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!0xB5qQ0smA236y8D"
+}

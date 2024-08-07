@@ -1,0 +1,1592 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Metema the Eternal",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Metema the Eternal",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 45,
+        "temp": 0,
+        "max": 45,
+        "details": "fast healing 5, void healing"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 25
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "immunities": [
+        {
+          "type": "death-effects",
+          "exceptions": []
+        },
+        {
+          "type": "disease",
+          "exceptions": []
+        },
+        {
+          "type": "paralyzed",
+          "exceptions": []
+        },
+        {
+          "type": "poison",
+          "exceptions": []
+        },
+        {
+          "type": "sleep",
+          "exceptions": []
+        }
+      ],
+      "resistances": []
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "common",
+          "eoxian",
+          "necril"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 4
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Second Edition Playtest Adventure: A Cosmic Birthday",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 14,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 14,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 8
+      },
+      "athletics": {
+        "base": 14
+      },
+      "deception": {
+        "base": 12
+      },
+      "diplomacy": {
+        "base": 12
+      },
+      "intimidation": {
+        "base": 14
+      },
+      "society": {
+        "base": 13
+      },
+      "stealth": {
+        "base": 8
+      }
+    },
+    "traits": {
+      "value": [
+        "undead",
+        "unholy",
+        "vampire"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "_id": "SBCyPRBYr3nAXc72",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "img": "icons/sundries/books/book-tooled-brass-brown.webp",
+      "name": "Occult Journal",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "formula-book-blank",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Book",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.qCEOZ6109Yo34tRx",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Item.qCEOZ6109Yo34tRx"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_id": "D7RdFvGmCUSH1azp",
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.D7RdFvGmCUSH1azp"
+    },
+    {
+      "name": "Vial of Blood",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "_id": "nXn4eOZ8ZrVUgxBH",
+      "img": "icons/consumables/potions/vial-cork-red.webp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.nXn4eOZ8ZrVUgxBH"
+    },
+    {
+      "folder": "kKZcnt8h5EQIuR3k",
+      "name": "Tactical Crossbolter",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This high-tech crossbow uses a series of pistons to propel bolts along its barrel. These quiet-firing semiautomatic weapons are popular in high-density settlements where gunfire might cause a panic.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "analog",
+            "expend-1"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "crossbolter",
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 25
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "simple",
+        "group": "bow",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d10",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 100,
+        "reload": {
+          "value": "1"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/weapon.svg",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.VFf7VzOJK1pnQXIu",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "CsUVuYy6NDKkxC8P",
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.CsUVuYy6NDKkxC8P"
+    },
+    {
+      "_id": "wxJDLQu7lgjZ3XlR",
+      "name": "Crossbolter",
+      "type": "melee",
+      "system": {
+        "slug": "crossbolter",
+        "bonus": {
+          "value": 12
+        },
+        "damageRolls": {
+          "cPN3kg9kgLmDSBK9": {
+            "damage": "1d10",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "analog",
+            "expend-1",
+            "range-increment-120",
+            "reload-1"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "CsUVuYy6NDKkxC8P"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.wxJDLQu7lgjZ3XlR"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Void Healing",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          }
+        ],
+        "slug": "void-healing",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_id": "wA7tr0Qco7DPRGs1",
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.wA7tr0Qco7DPRGs1"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Fast Healing 5",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>"
+        },
+        "rules": [
+          {
+            "key": "FastHealing",
+            "value": 5
+          },
+          {
+            "exceptions": [
+              {
+                "definition": [
+                  "item:magical",
+                  {
+                    "or": [
+                      "damage:material:dawnsilver",
+                      "damage:material:silver"
+                    ]
+                  }
+                ],
+                "label": "PF2E.IWR.Custom.MagicalSilver"
+              }
+            ],
+            "key": "Resistance",
+            "type": "physical",
+            "value": 5
+          }
+        ],
+        "slug": "fast-healing",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.fJSNOw4zHGbIm4bZ",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.fJSNOw4zHGbIm4bZ"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_id": "ZiItgoAOks9o4KAI",
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.ZiItgoAOks9o4KAI"
+    },
+    {
+      "type": "melee",
+      "name": "Claw",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile"
+          ]
+        },
+        "damageRolls": {
+          "OvFEAC9wHHu1UQQp": {
+            "damage": "1d8+5",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 14
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "tX4aCUdWKGeix1Gs",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.tX4aCUdWKGeix1Gs"
+    },
+    {
+      "type": "action",
+      "name": "Create Servitor",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>If a creature dies after being reduced to 0 HP by Drink Blood, Metema can turn this victim into a vampire by donating some of his own blood to the victim and burying the victim in earth for 3 nights. If the new vampire is lower level than Metema, it is under Metema's control. If Metema controls too many servitors at once, strong-willed servitors can free themselves by succeeding at a Will saving throw against Metema's Will DC (@Check[type:will|dc:24]).</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "downtime"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "rwsleI2JtYPtmzTt",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.rwsleI2JtYPtmzTt"
+    },
+    {
+      "type": "action",
+      "name": "Dominate",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Metema can cast @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P] (DC 19) at will as a divine innate spell. Casting it requires staring into the target's eyes, giving the spell the visual trait. A creature that succeeds is temporarily immune to Metema's Dominate for 24 hours. Fully destroying Metema ends the domination, but merely reducing him to 0 HP is insufficient to break the spell.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "incapacitation",
+            "mental",
+            "visual"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "DMz6gpBzqCGCF5qc",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.DMz6gpBzqCGCF5qc"
+    },
+    {
+      "type": "action",
+      "name": "Drink Blood",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, or willing creature is within Metema's reach</p><hr /><p><strong>Effect</strong> Metema sinks his fangs into that creature to drink its blood. This requires an @Check[type:athletics|defense:fortitude] check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} and Metema regains 10 HP, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to Metema but increases the victim's drained value by 1. Metema can also consume blood that's been emptied into a vessel for sustenance, but gains no HP from doing so. A victim's drained condition decreases by 1 per week. A blood transfusion, which requires a @Check[type:medicine|dc:20] check and sufficient blood or a blood donor, reduces the drain by 1 after 10 minutes.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "FhpLHoOgiWMigMq4",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.FhpLHoOgiWMigMq4"
+    },
+    {
+      "name": "Divine Innate Spells",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 11,
+          "dc": 19
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        }
+      },
+      "_id": "tzzB8yIxRURwaafr",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.tzzB8yIxRURwaafr"
+    },
+    {
+      "img": "systems/pf2e/icons/spells/dominate.webp",
+      "name": "Dominate (At Will)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You take command of the target, forcing it to obey your orders. If you issue an obviously self-destructive order, the target doesn't act until you issue a new order. The effect depends on its Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} as it fights off your commands.</p>\n<p><strong>Failure</strong> You control the target. It gains the @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled} condition, but it can attempt a Will save at the end of each of its turns. On a success, the spell ends.</p>\n<p><strong>Critical Failure</strong> As a failure, but the target receives a new save only if you give it a new order that is against its nature, such as killing its allies.</p>\n<hr />\n<p><strong>Heightened (10th)</strong> The duration is unlimited.</p>"
+        },
+        "rules": [],
+        "slug": "dominate",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "incapacitation",
+            "manipulate",
+            "mental",
+            "visual"
+          ],
+          "rarity": "uncommon",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 6
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "until the next time you make your daily preparations",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "tzzB8yIxRURwaafr"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_id": "keARqp8W4aQQmulQ",
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.keARqp8W4aQQmulQ"
+    },
+    {
+      "type": "action",
+      "name": "Turn to Mist",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Metema turns into a cloud of vapor, as the @UUID[Compendium.pf2e.spells-srd.Item.V8wXOsoejQhe6CyG] spell, or back to his normal form. Metema loses fast healing while in vapor form. Metema can remain in this form indefinitely.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "divine"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "zdz6u8BcckaHOotn",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.zdz6u8BcckaHOotn"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/weapons/bolts.webp",
+      "name": "Bolts",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Shorter than traditional arrows but similar in construction, bolts are the ammunition used by crossbows.</p>"
+        },
+        "rules": [],
+        "slug": "bolts",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 20,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          },
+          "per": 10
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "ammo",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "stackGroup": "bolts",
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.AITVZmakiu3RgfKo",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Item.AITVZmakiu3RgfKo"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_id": "jGMAkK4eXjVfh8i4",
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.jGMAkK4eXjVfh8i4"
+    },
+    {
+      "folder": "RI13eCYAkumFejRC",
+      "name": "Second Skin",
+      "type": "armor",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Soft but resilient fabric contours perfectly to the wearer's body, offering basic protection without sacrificing comfort. Second skin is commonly worn underneath casual clothing.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "comfort",
+            "flexible",
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 20
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "light",
+        "group": null,
+        "acBonus": 1,
+        "strength": 0,
+        "dexCap": 4,
+        "checkPenalty": -1,
+        "speedPenalty": 0,
+        "runes": {
+          "potency": null,
+          "resilient": null,
+          "property": []
+        },
+        "subitems": [],
+        "specific": null
+      },
+      "img": "systems/pf2e/icons/default-icons/armor.svg",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.WRw6hYSOdl2wlByk",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "9LfjsXku9YwceIzs",
+      "_key": "!actors.items!SBCyPRBYr3nAXc72.9LfjsXku9YwceIzs"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "createdTime": 1721155995240,
+    "modifiedTime": 1721850275463,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "sort": 3500000,
+  "_key": "!actors!SBCyPRBYr3nAXc72"
+}

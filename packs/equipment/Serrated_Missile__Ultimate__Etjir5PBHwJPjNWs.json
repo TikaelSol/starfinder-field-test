@@ -1,0 +1,105 @@
+{
+  "folder": "GwujgNN7WkToI8vn",
+  "name": "Serrated Missile (Ultimate)",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Ammunition</strong> missile launcher</p><hr /><p>Upon impacting its initial target, the missile unleashes six rapidly spinning blades that slice apart in a line that continues from the location of the target.</p><p>It deals @Damage[4d8[slashing]] damage and @Damage[(4[splash])[slashing]] (@Template[type:line|distance:60]).</p>"
+    },
+    "rules": [],
+    "slug": "serrated-missile-ultimate",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable",
+        "missile",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 20000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "_id": "Etjir5PBHwJPjNWs",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/rocket%20barrage.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722384164926,
+    "modifiedTime": 1722408940389,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 9043750,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Etjir5PBHwJPjNWs"
+}

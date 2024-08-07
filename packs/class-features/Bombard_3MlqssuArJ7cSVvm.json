@@ -1,0 +1,73 @@
+{
+  "folder": null,
+  "name": "Bombard",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>There's nothing like a reliable heavy gun (or maybe several) to get you through tough times. You've come to terms with the fact that your weapons might sometimes hit your allies but work to minimize such instances of \"friendly fire.\" In fact, you've honed your skill with heavy weapons so much that all but the most indirect of strikes cause your allies to duck down or force them to adapt to the havoc you unleash.</p><p>When you attack with an area weapon, you adjust the shot to allow allies to better avoid it. You can select a number of allies within the area of your weapon's fire equal to half your Constitution modifier. Selected allies are unaffected by your attacks. In addition, enemies who succeed (but not critically succeed) their save against an area attack you make are still @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of your next turn.</p>"
+    },
+    "rules": [],
+    "slug": "bombard",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.853,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "soldier-fighting-style"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/weapons/guns/gun-pistol-flintlock-white.webp",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1691046041065,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "3MlqssuArJ7cSVvm",
+  "sort": 12000000,
+  "_key": "!items!3MlqssuArJ7cSVvm"
+}

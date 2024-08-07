@@ -1,0 +1,78 @@
+{
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "Foil Senses (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are adept at foiling creatures' special senses and cautious enough to safeguard against them at all times. Whenever you use the @UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{Avoid Notice}, @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}, or @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} actions, you are always considered to be taking precautions against special senses.</p>\n<p>Some precautions might not be available depending on the situation and at the GM’s discretion, such as hiding your state as being alive for a creature who senses life.</p>"
+    },
+    "rules": [],
+    "slug": "foil-senses",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "master in Stealth"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "coreVersion": "12.330",
+    "createdTime": 1714326922089,
+    "modifiedTime": 1722444019630,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "P2Go6Q1ibu7AwHPI",
+  "sort": 8900000,
+  "_key": "!items!P2Go6Q1ibu7AwHPI"
+}

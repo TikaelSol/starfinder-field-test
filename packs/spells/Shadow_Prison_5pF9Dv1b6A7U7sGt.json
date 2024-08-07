@@ -1,0 +1,93 @@
+{
+  "folder": null,
+  "name": "Shadow Prison",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Connection</strong> shadow</p>\n<hr />\n<p>You cause memories of the target's resentment, regret, and other negative feelings to engorge their shadow until it grows large enough to swallow them whole. The target attempts a Will saving throw. The target is then immune to this spell for 1 minute.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target resists the spell before they're completely swallowed up, but shadowy tendrils cling to them, making the target @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>\n<p><strong>Failure</strong> The target is swallowed by their own shadow until the beginning of your next turn. The target is @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} and @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, cannot experience or interact with the outside world, and cannot be targeted by any attacks or other effects.</p>\n<p><strong>Critical Failure</strong> As failure, except the target is swallowed for 1 minute.</p>"
+    },
+    "rules": [],
+    "slug": "shadow-prison",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "incapacitation",
+        "manipulate",
+        "mystic",
+        "shadow"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "5pF9Dv1b6A7U7sGt",
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275541,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!5pF9Dv1b6A7U7sGt"
+}

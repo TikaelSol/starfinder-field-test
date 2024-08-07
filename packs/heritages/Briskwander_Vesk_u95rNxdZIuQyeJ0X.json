@@ -1,0 +1,64 @@
+{
+  "name": "Briskwander Vesk",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You come from a line of vesk who were constantly on the move. Your Speed increases by 5 feet.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "value": 5
+      }
+    ],
+    "slug": "briskwander-vesk",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.911,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Vesk",
+      "slug": "vesk",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.PczabQM7NB6EQOkS"
+    }
+  },
+  "_id": "u95rNxdZIuQyeJ0X",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "Lsu94f1gl7VW38mk",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "osGt3Y9EUYsTtPet": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1704317933301,
+    "modifiedTime": 1722111278494,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!u95rNxdZIuQyeJ0X"
+}

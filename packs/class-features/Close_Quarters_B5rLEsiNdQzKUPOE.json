@@ -1,0 +1,78 @@
+{
+  "folder": null,
+  "name": "Close Quarters",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>While you still have the necessary training to employ heavy weapons, you've learned that it's important to keep a backup for when foes get too close. You may be a skilled Veskarium trooper who knows their way around a doshko, or a devotee of Zon-Shelyn who brings holy wrath with a painglaive. Blows with heavy close combat weapons punish your foes just as effectively as when you fire a rotolaser or a missile launcher.</p><p>When you successfully make a Strike with a two-handed melee weapon, you @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppress} the target until the start of your next turn. In addition, you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.rgZ9EvqnyGdafiMv]{Punitive Strike} reaction.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.rgZ9EvqnyGdafiMv"
+      }
+    ],
+    "slug": "close-quarters",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.853,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "soldier-fighting-style"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/weapons/hammers/hammer-square-white.webp",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1691046041065,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "B5rLEsiNdQzKUPOE",
+  "sort": 11800000,
+  "_key": "!items!B5rLEsiNdQzKUPOE"
+}

@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Accelerate",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Paradox</strong> precog</p>\n<hr />\n<p>You speed up the flow of your personal timeline. You become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} and can use the additional action to Strike, Stride, or Step.</p>"
+    },
+    "rules": [],
+    "slug": "accelerate",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anchoring",
+        "concentrate",
+        "focus",
+        "manipulate",
+        "witchwarper"
+      ],
+      "rarity": "common",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "wPqPSW6lwhuKE2TI",
+  "img": "icons/magic/time/clock-analog-gray.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111277448,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 12000000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!wPqPSW6lwhuKE2TI"
+}

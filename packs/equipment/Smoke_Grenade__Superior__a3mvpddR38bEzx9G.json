@@ -1,0 +1,104 @@
+{
+  "folder": "GwujgNN7WkToI8vn",
+  "name": "Smoke Grenade (Superior)",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Area Fire</p><hr /><p>This grenade unleashes a cloud of smoke in a @Template[type:burst|distance:20]. Creatures within the area have the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition, and all other creatures are concealed to them. The smoke lasts for 1 minute or until dissipated by a strong wind or similar effect.</p>"
+    },
+    "rules": [],
+    "slug": "smoke-grenade-superior",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable",
+        "grenade",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 1500
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "_id": "a3mvpddR38bEzx9G",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/grenade%20chemical.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722383737441,
+    "modifiedTime": 1722408942271,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 100025,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!a3mvpddR38bEzx9G"
+}

@@ -1,0 +1,322 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Sentry Turret",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Sentry Turret",
+  "type": "hazard",
+  "effects": [],
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 19
+      },
+      "hp": {
+        "value": 50,
+        "max": 50,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 14,
+      "stealth": {
+        "value": 13,
+        "details": "<p>(trained)</p>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [
+        {
+          "type": "critical-hits",
+          "exceptions": []
+        },
+        {
+          "type": "precision",
+          "exceptions": []
+        }
+      ]
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 5
+      },
+      "disable": "<p>@Check[type:computers|dc:20] (trained) to reprogram the turret, or @Check[type:crafting|dc:18] (trained) to jam the sensor</p>",
+      "description": "<p>A mechanized turret pops up on intruders when they enter range.</p>",
+      "reset": "<p>The trap resets after 1 minute.</p>",
+      "routine": "<p>(3 actions) The trap makes a Strike against up to three creatures in range, or multiple Strikes against one creature in range if it has no additional targets.</p>",
+      "publication": {
+        "title": "Starfinder Second Edition Playtest Rulebook",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "mechanical",
+        "trap"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "type": "action",
+      "name": "Open Fire",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature moves within 30 feet of the turret</p><hr /><p><strong>Effect</strong> The turret makes a ranged Strike against the creature; the trap rolls initiative.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "XW4QWXJas8VHZtad",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!4sZlKV8ia4P5oZDH.XW4QWXJas8VHZtad"
+    },
+    {
+      "type": "melee",
+      "name": "Machine Gun",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "<p>no multiple attack penalty</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "automatic"
+          ]
+        },
+        "damageRolls": {
+          "6BbY5Ux7pqKVuHbS": {
+            "damage": "2d8+7",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 15
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "HaGwfvT0sciSxqex",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!4sZlKV8ia4P5oZDH.HaGwfvT0sciSxqex"
+    }
+  ],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722460756328,
+    "modifiedTime": 1722460756328,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "4sZlKV8ia4P5oZDH",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "sort": 0,
+  "_key": "!actors!4sZlKV8ia4P5oZDH"
+}

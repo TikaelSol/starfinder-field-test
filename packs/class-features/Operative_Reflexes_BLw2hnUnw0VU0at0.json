@@ -1,0 +1,87 @@
+{
+  "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+  "name": "Operative Reflexes",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've learned to move quickly to avoid explosions, sentry turrets, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</p>"
+    },
+    "rules": [
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "reflex",
+        "type": "save"
+      }
+    ],
+    "slug": "operative-reflexes",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "reflex": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.oa3TJpPnvL98EUHh",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722095867241,
+    "modifiedTime": 1722224838454,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.oa3TJpPnvL98EUHh"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "_id": "BLw2hnUnw0VU0at0",
+  "sort": 2700000,
+  "_key": "!items!BLw2hnUnw0VU0at0"
+}

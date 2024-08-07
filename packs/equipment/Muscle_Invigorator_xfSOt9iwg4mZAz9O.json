@@ -1,0 +1,118 @@
+{
+  "folder": "fQk7OHQqEfxZoNzj",
+  "name": "Muscle Invigorator",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This augmentation keeps your muscles in peak condition. You gain a +3 item bonus to Athletics checks and a +2 circumstance bonus to Athletics checks to lift a heavy object, @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}, and @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open}. When you get this augmentation, you either increase your Strength modifier by 1 or increase it to +4, whichever would give you a higher value.</p><p><strong>Activate—Strength of the Colossi </strong><span class=\"pf2-icon\"><strong>1</strong></span><strong> </strong>(manipulate)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You temporarily become as destructive and powerful as a colossus. For 1 hour, your Strikes with unarmed or brawling weapons ignore the hardness of all objects and structures not made of adamantine or a harder material. Against objects and structures made of such materials, these Strikes ignore half the hardness. Additionally, for the duration, if you fail an Athletics check to lift a heavy object, Escape, or Force Open, you succeed instead. You can still critically fail.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "value": 3,
+        "type": "item",
+        "slug": "muscle-invigorator-item"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "value": 2,
+        "type": "circumstance",
+        "slug": "muscle-invigorator-circumstance",
+        "predicate": [
+          "action:lift",
+          "action:escape",
+          "action:force-open"
+        ]
+      }
+    ],
+    "slug": "muscle-invigorator",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "apex"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 150000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": [],
+    "apex": {
+      "attribute": "str"
+    }
+  },
+  "_id": "xfSOt9iwg4mZAz9O",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20fist%20in%20the%20air.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722485927969,
+    "modifiedTime": 1722490280098,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 406250,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!xfSOt9iwg4mZAz9O"
+}

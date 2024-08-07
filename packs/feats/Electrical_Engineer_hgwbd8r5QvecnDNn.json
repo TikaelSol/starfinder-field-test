@@ -1,0 +1,76 @@
+{
+  "name": "Electrical Engineer",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can fuel battery-powered devices by drawing electricity from different sources. This takes 1 minute of work and an adjacent source of power appropriate to the device. If the source of power is a technological creature or hazard, it must have been destroyed within the last 10 minutes and provides charges equal to twice its level. If the source is a facility capable of charging a battery, it operates as if the battery were always fully charged. If you are a master in Crafting, you can connect a device to a power source as a 3-action activity. If you're legendary, it takes 1 action.</p>"
+    },
+    "rules": [],
+    "slug": "electrical-engineer",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Crafting"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "hgwbd8r5QvecnDNn",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 31600000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1714326190978,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!hgwbd8r5QvecnDNn"
+}

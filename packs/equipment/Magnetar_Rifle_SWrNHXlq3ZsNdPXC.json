@@ -1,0 +1,139 @@
+{
+  "folder": "OoVQVkJhSjhIyN7a",
+  "name": "Magnetar Rifle",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This rifle uses powerful electromagnets to accelerate simple slugs into deadly, highly accurate projectiles without the use of any moving parts.</p>"
+    },
+    "rules": [],
+    "slug": "magnetar-rifle",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "analog",
+        "automatic",
+        "expend-1"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "magnetar-rifle",
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 45
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "category": "advanced",
+    "group": "projectile",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d10",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 60,
+    "reload": {
+      "value": "2"
+    },
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "_id": "SWrNHXlq3ZsNdPXC",
+  "img": "icons/weapons/guns/gun-topbarrel.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722224731932,
+    "modifiedTime": 1722359029681,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 2600000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!SWrNHXlq3ZsNdPXC"
+}

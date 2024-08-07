@@ -1,0 +1,58 @@
+{
+  "name": "Dreamer",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have communed with the cosmic melody of Liavara and it changed you. You struggle to express the fragments of memory and sensation you recall from the experience except through singing and other similar psychic emanations. Choose one cantrip from the occult spell list. By weaving magic into your song, you can cast this spell as an occult innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up.</p>\n<p>Your magic is adaptable and you can channel your music to enhance it. Once per day, you can meditate on your cosmic song to change the cantrip you have chosen to a different cantrip from the occult spell list. This is a 10-minute activity that has the concentrate trait.</p>"
+    },
+    "rules": [],
+    "slug": "dreamer",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Barathu",
+      "slug": "barathu",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.Kc7Uag3blYKJSUyC"
+    }
+  },
+  "_id": "HKER9DFPj8dLAGOl",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "DAoyurydTnvbTfbN",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707759785744,
+    "modifiedTime": 1722111278217,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!HKER9DFPj8dLAGOl"
+}

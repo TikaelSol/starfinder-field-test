@@ -1,0 +1,87 @@
+{
+  "name": "Smuggler",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You make your living smuggling cargo, whether on a planet or in the depths of space. You don't ask your clients too many questions, and the cargo could be anything—counterfeit products, illegal goods, stolen weapons… The bigger the risk, the bigger the payday.</p><p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p><p>You're trained in the Stealth skill and the Piracy Lore skill. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.Nu4njoR6AI4lI3cH]{Experienced Smuggler} skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "smuggler",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "dex",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "ZQZVP": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.Nu4njoR6AI4lI3cH",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+        "name": "Experienced Smuggler (Starfinder)",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "stealth"
+      ],
+      "lore": [
+        "Piracy Lore"
+      ]
+    }
+  },
+  "_id": "BAgJtnrOpY2AJKo8",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708153792361,
+    "modifiedTime": 1722278688210,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!BAgJtnrOpY2AJKo8"
+}

@@ -1,0 +1,703 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Tashtari",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/starfinder-field-test-for-pf2e/art/npc-art/tokens/tashtari-t_v2_1-5-no-glow.webp",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "name": "Tashtari Alpha",
+  "type": "npc",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 75,
+        "temp": 0,
+        "max": 75,
+        "details": ""
+      },
+      "speed": {
+        "value": 35,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 25
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 22,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "resistances": [
+        {
+          "type": "fire",
+          "value": 5,
+          "exceptions": [],
+          "doubleVs": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 5
+      },
+      "blurb": "",
+      "publicNotes": "<p>Native to the green world of Castrovel, the tashtari has become known throughout the wider galaxy as the laser wolf. These wolflike pack hunters have a layer of flexible filaments that emit phosphorescent lights, which allow them to silently communicate through a bespoke visual language. Each tashtari possesses a node within its throat that allows it to channel its stored solar energy and unleash a beam of focused light, giving the species their moniker of laser wolves. A mating pair, comprising one or two alphas, lead packs of tashtaris, who generally become the apex predators of large areas that include one or more forested regions. The presence of trees is important for the nocturnal tashtaris; they use them to sleep atop during the day, basking in sunlight to recharge their solar energies.</p>\n<p>Laser wolves have an average length of 4 to 5 feet, with a 2-foot-long tail. They weigh an average of 120 pounds. Alpha specimens are slightly broader and weigh more but are more notable for their expanded muzzle that contains a higher concentration of filaments to create more elaborate light patterns.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Field Test",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "creatureType": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": {
+        "schema": 0.853,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 13,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        },
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 9,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 14
+      },
+      "athletics": {
+        "base": 12
+      },
+      "stealth": {
+        "base": 14
+      },
+      "intimidation": {
+        "base": 10
+      }
+    },
+    "traits": {
+      "value": [
+        "beast"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/npc-art/art/tashtari.webp",
+  "items": [
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Low-Light Vision",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LowLightVision]</p>"
+        },
+        "rules": [],
+        "slug": "low-light-vision",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Bestiary",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.fFu2sZz4KB01fVRc"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691067095668,
+        "modifiedTime": 1691067095668,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.fFu2sZz4KB01fVRc",
+        "duplicateSource": null
+      },
+      "_id": "8vdko8Mt6A8UWy5q",
+      "_key": "!actors.items!3Dekt5rl83ZMsu0A.8vdko8Mt6A8UWy5q"
+    },
+    {
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "damageRolls": {
+          "qv17W8DDo3hrMhaN": {
+            "damage": "2d6+4",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 13
+        },
+        "attackEffects": {
+          "value": [
+            "knockdown"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        }
+      },
+      "effects": [],
+      "_id": "KcrFcSqRLEnFo5ee",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691067178050,
+        "modifiedTime": 1691067403461,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!3Dekt5rl83ZMsu0A.KcrFcSqRLEnFo5ee"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Knockdown",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
+        },
+        "rules": [],
+        "slug": "knockdown",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Bestiary",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false,
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691067204852,
+        "modifiedTime": 1691067204852,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu",
+        "duplicateSource": null
+      },
+      "_id": "YrAxVK3MCLosuwB5",
+      "_key": "!actors.items!3Dekt5rl83ZMsu0A.YrAxVK3MCLosuwB5"
+    },
+    {
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Muzzle Beam",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "fire",
+            "range-60"
+          ],
+          "otherTags": []
+        },
+        "damageRolls": {
+          "mKsBxyAzhOYwqlkM": {
+            "damage": "2d6+4",
+            "damageType": "fire",
+            "category": null
+          },
+          "V5QoppoBtA3wVkxr": {
+            "damage": "1d6",
+            "damageType": "fire",
+            "category": "persistent"
+          }
+        },
+        "bonus": {
+          "value": 15
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        }
+      },
+      "effects": [],
+      "_id": "ylU2fHZcdGLYw3Wy",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691067208984,
+        "modifiedTime": 1691067419100,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!3Dekt5rl83ZMsu0A.ylU2fHZcdGLYw3Wy"
+    },
+    {
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Bristle Flash",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The tashtari causes its filaments to glow with intense light. Non-tashtaris within a @Template[type:emanation|distance:40] must attempt a @Check[type:fortitude|dc:21] save. A creature that attempts this save is immune to all Bristle Flashes for 1 minute. The tashtari's fur loses its glow, and it can't use this ability until it basks in sunlight for at least 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>\n<p><strong>Failure</strong> The creature is dazzled for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round and dazzled for 1 minute.</p>"
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "glow",
+            "toggleable": true,
+            "value": true,
+            "label": "Glow"
+          },
+          {
+            "key": "TokenImage",
+            "value": "modules/starfinder-field-test-for-pf2e/Art/npc-art/tokens/tashtari-t_v2_1-5.webp",
+            "predicate": [
+              "glow"
+            ]
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "light",
+            "visual"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false,
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "_id": "zsNsW3w6Ht7qRG2v",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.0",
+        "coreVersion": "12.328",
+        "createdTime": 1691067251427,
+        "modifiedTime": 1691107600196,
+        "lastModifiedBy": "qA45GVv5hySaf9b5",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!3Dekt5rl83ZMsu0A.zsNsW3w6Ht7qRG2v"
+    },
+    {
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Solar Cry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A searing rainbow erupts from the tashtari alpha's mouth as it throws back its head to unleash a powerful muzzle beam that soars into the sky. The beam then splits into countless rays of multicolored light that crash down in every direction, dealing @Damage[4d6[fire]] damage to each non-tashtari in a @Template[type:emanation|distance:20] (@Check[type:reflex|dc:19|basic:true] save). A creature that critically fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 minute. Other tashtaris in the area recharge their daily use of bristle flash. The tashtari alpha's glowing heart dims, and it can't use this ability until it recharges by basking in sunlight for at least 1 hour.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false,
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "_id": "z3xQqyTdwTr7ddRs",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691067433183,
+        "modifiedTime": 1691067539919,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!3Dekt5rl83ZMsu0A.z3xQqyTdwTr7ddRs"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "exportSource": {
+      "world": "starfinder-2e",
+      "system": "pf2e",
+      "coreVersion": "11.306",
+      "systemVersion": "5.2.3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "coreVersion": "12.330",
+    "createdTime": 1691066999902,
+    "modifiedTime": 1722569086741,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "3Dekt5rl83ZMsu0A",
+  "sort": 5200000,
+  "_key": "!actors!3Dekt5rl83ZMsu0A"
+}

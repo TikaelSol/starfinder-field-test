@@ -1,0 +1,721 @@
+{
+  "prototypeToken": {
+    "displayName": 0,
+    "displayBars": 0,
+    "name": "Feral Ghoul",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false
+  },
+  "_id": "yy0qwQizCN7Oxjq9",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "_id": "XJHXZOImLOORwInT",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 100000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 9
+        },
+        "damageRolls": {
+          "p36zyj2o94q5m2av6t6a": {
+            "damage": "1d8+1",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "jaws",
+        "traits": {
+          "value": [
+            "finesse"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        }
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!yy0qwQizCN7Oxjq9.XJHXZOImLOORwInT"
+    },
+    {
+      "_id": "A97t9GcQF8k7V7By",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "sort": 200000,
+      "system": {
+        "attackEffects": {
+          "value": [
+            "grab"
+          ]
+        },
+        "bonus": {
+          "value": 9
+        },
+        "damageRolls": {
+          "5gyt9361vlgk0oa54i93": {
+            "damage": "1d6+1",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "finesse"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        }
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!yy0qwQizCN7Oxjq9.A97t9GcQF8k7V7By"
+    },
+    {
+      "_id": "YzGXgyojcjzXVipz",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.PqGX4Dgy9siZJitH"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Stench",
+      "sort": 300000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>10 feet, @Check[type:fortitude|dc:14]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>"
+        },
+        "rules": [
+          {
+            "key": "Aura",
+            "radius": 10,
+            "slug": "stench",
+            "traits": [
+              "olfactory"
+            ]
+          }
+        ],
+        "slug": "stench",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "olfactory"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.PqGX4Dgy9siZJitH",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!yy0qwQizCN7Oxjq9.YzGXgyojcjzXVipz"
+    },
+    {
+      "_id": "dSMYHVMIltxeN4ms",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Void Healing",
+      "sort": 400000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          }
+        ],
+        "slug": "void-healing",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!yy0qwQizCN7Oxjq9.dSMYHVMIltxeN4ms"
+    },
+    {
+      "_id": "7RTjFlVzsxhjtwX4",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Consume Flesh",
+      "sort": 500000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> The ghoul is adjacent to the corpse of a creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghoul devours a chunk of the corpse and regains [[/r 1d6[healing]]] Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>"
+        },
+        "rules": [],
+        "slug": "ghoul-consume-flesh",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "manipulate"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!yy0qwQizCN7Oxjq9.7RTjFlVzsxhjtwX4"
+    },
+    {
+      "_id": "rvraBop9oOSwcjkq",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Swift Leap",
+      "sort": 800000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The ghoul jumps up to half its Speed. This movement doesn't trigger reactions.</p>"
+        },
+        "rules": [],
+        "slug": "ghoul-swift-leap",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "move"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!yy0qwQizCN7Oxjq9.rvraBop9oOSwcjkq"
+    },
+    {
+      "_id": "NaSXwkNPzNz5tsgw",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Grab",
+      "sort": 900000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        "rules": [],
+        "slug": "grab",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!yy0qwQizCN7Oxjq9.NaSXwkNPzNz5tsgw"
+    }
+  ],
+  "name": "Feral Ghoul",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 16,
+        "temp": 0,
+        "max": 16,
+        "details": "void healing"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [
+          {
+            "type": "burrow",
+            "value": 5
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "death-effects"
+        },
+        {
+          "exceptions": [],
+          "type": "disease"
+        },
+        {
+          "exceptions": [],
+          "type": "paralyzed"
+        },
+        {
+          "exceptions": [],
+          "type": "poison"
+        },
+        {
+          "exceptions": [],
+          "type": "unconscious"
+        },
+        {
+          "exceptions": [],
+          "type": "bleed"
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "eoxian"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "<p>Few creatures are more ubiquitous to sinister locations such as lonely graveyards and ruined crypts than the flesh-eating undead known as ghouls.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Second Edition Playtest Adventure: A Cosmic Birthday",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 7,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 4,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 5,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 7
+      },
+      "athletics": {
+        "base": 8
+      },
+      "stealth": {
+        "base": 7
+      },
+      "survival": {
+        "base": 5
+      }
+    },
+    "traits": {
+      "value": [
+        "ghoul",
+        "undead",
+        "unholy"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.pathfinder-monster-core.Actor.iLkQt8A99nQWUI8k",
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "createdTime": 1721155995240,
+    "modifiedTime": 1721850275463,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.pathfinder-monster-core.Actor.iLkQt8A99nQWUI8k"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "sort": 5100000,
+  "_key": "!actors!yy0qwQizCN7Oxjq9"
+}

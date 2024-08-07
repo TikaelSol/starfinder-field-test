@@ -1,0 +1,71 @@
+{
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "Internal Compartment (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can hide a small object of up to light Bulk inside a hollow cavity on one of your forearms. It takes 3 Interact actions to store an object in this way. You gain a +4 circumstance bonus to the DCs of checks for others to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} or @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal} objects stored inside your arm. If you store a weapon in your arm, you can use a single action to Interact to draw the weapon into the hand corresponding to your internal cavity, then Strike with the weapon.</p>"
+    },
+    "rules": [],
+    "slug": "internal-compartment",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "android"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.upMcjxPDgNOLuu7N",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722286708663,
+    "modifiedTime": 1722444016755,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.upMcjxPDgNOLuu7N"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_id": "3MfWdpZSVmoWwr08",
+  "sort": 0,
+  "_key": "!items!3MfWdpZSVmoWwr08"
+}

@@ -1,0 +1,89 @@
+{
+  "folder": null,
+  "name": "Willful Defiance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your meditative practices steel you against mental intrusions. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save against a mental or incapacitation effect, you get a critical success instead.</p>"
+    },
+    "rules": [
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:mental",
+              "item:trait:incapacitation"
+            ]
+          }
+        ],
+        "selector": "will"
+      }
+    ],
+    "slug": "willful-defiance",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "solarian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "will": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/alien%20eye.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721886948692,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "_id": "728M6LFzWrKiYeC4",
+  "sort": 4500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!728M6LFzWrKiYeC4"
+}

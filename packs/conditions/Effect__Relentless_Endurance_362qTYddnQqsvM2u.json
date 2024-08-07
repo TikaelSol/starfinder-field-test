@@ -1,0 +1,85 @@
+{
+  "name": "Effect: Relentless Endurance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain 1d8+4 temporary hit points, plus an additional 1d8+4 for every 4 levels you have beyond 2nd level.</p>"
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@item.badge.value"
+      }
+    ],
+    "slug": "effect-relentless-endurance",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.879,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": {
+      "type": "formula",
+      "value": "(floor((@actor.level +2)/4))d8+4*floor((@actor.level +2)/4)",
+      "evaluate": true,
+      "-=min": null,
+      "-=max": null,
+      "reevaluate": null
+    },
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1698959477128,
+    "modifiedTime": 1722218719212,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "362qTYddnQqsvM2u",
+  "sort": 2500000,
+  "_key": "!items!362qTYddnQqsvM2u"
+}

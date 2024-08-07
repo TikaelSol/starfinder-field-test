@@ -1,0 +1,124 @@
+{
+  "folder": "fQk7OHQqEfxZoNzj",
+  "name": "Dragon Gland (Elite)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You implant an arcanicus gland modified to function for a creature of your ancestry at the back of your throat. When the organ is biocrafted, choose your augmentation's damage type from the following list: acid, cold, electricity, fire, or sonic. You gain the following activation.</p><p><strong>Activate—Exhale</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><p><strong>Frequency</strong> once per 10 minutes</p><hr /><p><strong>Effect</strong> Each creature in a @Template[type:cone|distance:15] takes @Damage[14d6[@item.flags.pf2e.rulesSelections.damage]] damage with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save against your class DC.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "value": "sonic"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.DamageType",
+        "flag": "damage"
+      }
+    ],
+    "slug": "dragon-gland-elite",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 610000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "_id": "YU58lXb9ftbn2kC2",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20asteroid%20field.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722485927969,
+    "modifiedTime": 1722490274759,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 3300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!YU58lXb9ftbn2kC2"
+}

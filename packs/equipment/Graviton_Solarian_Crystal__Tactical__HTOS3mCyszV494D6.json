@@ -1,0 +1,133 @@
+{
+  "folder": "v0wGH7ooCUwH2trp",
+  "name": "Graviton Solarian Crystal (Tactical)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A graviton crystal increases the flow of gravitons from your solar mote into your solar weapon, accelerating its impact and possibly trapping foes within its gravity field. When you hit a creature with your solar weapon while graviton attuned, you deal an extra 1d6 damage of your solar weapon's damage type. Additionally, when you hit an @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} creature with your solar weapon while graviton attuned, the target must succeed at a @Check[type:fortitude|dc:31] save or be knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. On a critical hit while you're graviton attuned, the target must succeed at a @Check[type:fortitude|dc:31] save or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for two rounds.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "predicate": [
+          "item:solar-weapon",
+          "stellar-attunement:graviton"
+        ]
+      },
+      {
+        "key": "Note",
+        "title": "SF2E.SpecificRule.Equipment.SolarianCrystals.Graviton.Title",
+        "selector": "strike-damage",
+        "text": "SF2E.SpecificRule.Equipment.SolarianCrystals.Graviton.Note.Tactical.CriticalHit",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "item:solar-weapon",
+          "stellar-attunement:graviton"
+        ]
+      },
+      {
+        "key": "Note",
+        "title": "SF2E.SpecificRule.Equipment.SolarianCrystals.Graviton.Title",
+        "selector": "strike-damage",
+        "text": "SF2E.SpecificRule.Equipment.SolarianCrystals.Graviton.Note.Tactical.Hit",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "item:solar-weapon",
+          "stellar-attunement:graviton",
+          "target:condition:immobilized"
+        ]
+      }
+    ],
+    "slug": "graviton-solarian-crystal-tactical",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 45000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "_id": "HTOS3mCyszV494D6",
+  "img": "icons/commodities/gems/pearl-swirl-teal.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722458165374,
+    "modifiedTime": 1722490272042,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 100391,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!HTOS3mCyszV494D6"
+}

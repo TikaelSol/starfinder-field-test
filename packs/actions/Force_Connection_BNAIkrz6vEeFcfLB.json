@@ -1,0 +1,58 @@
+{
+  "folder": null,
+  "name": "Force Connection",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You concentrate your telepathy toward a bonded ally within 120 feet and invite them into a temporary understanding of your connection. If the next action you use is to Cast a Spell and the target would be affected, choose one: either that spell only affects the target, or that spell doesn't affect your target.</p><p>If the next action you use has the transfer trait and uses the same target, your vitality network regains up to 4 of those lost Hit Points; if you are master in your connection skill, it regains 6 Hit Points instead; if you are legendary, it regains 8 Hit Points. Your vitality network can never regain more Hit Points than was spent to use the transfer action and can't exceed its maximum capacity.</p>"
+    },
+    "rules": [],
+    "slug": "force-connection",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "mental"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721803813662,
+    "modifiedTime": 1722114226297,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "BNAIkrz6vEeFcfLB",
+  "sort": 4400000,
+  "_key": "!items!BNAIkrz6vEeFcfLB"
+}

@@ -1,0 +1,145 @@
+{
+  "folder": null,
+  "name": "Shadow",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You know every shadow is a gateway to the Netherworld, and like an artist molding clay, you form that realm's shadowy substance into terrible and wondrous shapes at your whim. Your ability to control shadows might mean a dark passenger guides you.</p><p><strong>Spellcasting Tradition</strong> divine</p><p><strong>Connection Skill</strong> Stealth</p><p><strong>Granted Spells</strong></p><ul><li><em>cantrip</em> @UUID[Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI]</li><li><em>1st</em> @UUID[Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a]</li><li><em>2nd</em> @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]</li><li><em>3rd</em> @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]</li><li><em>4th</em> @UUID[Compendium.pf2e.spells-srd.Item.srEKUvym9kDVbEhD]</li><li><em>5th</em> @UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]</li><li><em>6th</em> @UUID[Compendium.pf2e.spells-srd.Item.WPXzPl7YbMEIGWfi]</li><li><em>7th</em> @UUID[Compendium.pf2e.spells-srd.Item.O6VQC1Bs4aSYDa6R]</li><li><em>8th</em> @UUID[Compendium.pf2e.spells-srd.Item.wfleiawxsfhpRRwf]</li><li><em>9th</em> @UUID[Compendium.pf2e.spells-srd.Item.MJx7DmjsWYzDZ3a4]</li></ul><p><strong>Harmony</strong> When you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J], the target's shadow darkens and swells, reducing bright light within a @Template[type:emanation|distance:10] of the target to dim light. This is a form of magical darkness and can overcome non-magical light sources or attempts to counteract magical light. The target becomes @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W] while in this dim light, and can use the concealed condition to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]. This lasts until the end of your next turn.</p><p><strong>Initial Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.0MQUicYsr9diBI11] focus spell.</p><p><strong>Advanced Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5LnRNXlbQsh6SVXa] focus spell.</p><p><strong>Greater Epiphany</strong> You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5pF9Dv1b6A7U7sGt] focus spell.</p><p><strong>Perfect Harmony</strong> You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.Px0wiqFEiQdPLvou] action. Whenever you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J], the healed creature can use this action once before the end of their next turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.stealth.rank",
+        "value": 1
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:transfer-vitality"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Mystic.Connection.Shadow.Harmony"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:initial-epiphany"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Mystic.Connection.Shadow.InitialEpiphany"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:advanced-epiphany"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Mystic.Connection.Shadow.AdvancedEpiphany"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:greater-epiphany"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Mystic.Connection.Shadow.GreaterEpiphany"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:perfect-harmony"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Mystic.Connection.Shadow.PerfectHarmony"
+          }
+        ]
+      }
+    ],
+    "slug": "shadow",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "mystic-connection"
+      ],
+      "value": [
+        "mystic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721806166170,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "_id": "mmCL4teRsMO2qNxc",
+  "sort": 6400000,
+  "_key": "!items!mmCL4teRsMO2qNxc"
+}

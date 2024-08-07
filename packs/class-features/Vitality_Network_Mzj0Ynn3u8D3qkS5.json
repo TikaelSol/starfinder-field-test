@@ -1,0 +1,78 @@
+{
+  "folder": null,
+  "name": "Vitality Network",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your soul supports a network of magical energy that connects and heals those in your bond. Your vitality network has a maximum capacity equal to 6 + 4 Hit Points per mystic level. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J]{Transfer Vitality} action that you can use to take Hit Points out of your network and into yourself or your allies as healing.</p><p>Life or death situations help strengthen your bonds with your allies. At the start of each turn in combat, when you regain actions, your vitality network regains 4 Hit Points; if you are master in your connection skill, it regains 6 Hit Points instead; if you are legendary, it regains 8 Hit Points. Your vitality network regains an amount of Hit Points equal to double your level plus your Wisdom modifier when you use the Refocus action.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.R0mn1iC3nYvDVKhd]{Effect: Vitality Network}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J"
+      }
+    ],
+    "slug": "vitality-network",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.87,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mystic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/life/heart-area-circle-red-green.webp",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1696480118345,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "Mzj0Ynn3u8D3qkS5",
+  "sort": 8800000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!Mzj0Ynn3u8D3qkS5"
+}

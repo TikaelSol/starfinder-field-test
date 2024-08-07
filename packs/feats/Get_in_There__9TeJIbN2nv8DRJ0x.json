@@ -1,0 +1,77 @@
+{
+  "folder": null,
+  "name": "Get in There!",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You urge your allies to either hustle into the fight or get out of the way. Until the beginning of your next turn, you and your allies within 100 feet that can sense you gain a +5-foot status bonus to Speed. As your envoy level increases, so does this distance. Increase the distance by an additional 5 feet at 7th level, 12th level, and 17th level.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.QGL2W4n9DS2knbWJ]{Effect: Get in There!}</p><p><strong>Lead by Example</strong> If you Step or Stride before the end of your turn, you can signal your allies to follow your lead. Each of your allies within 100 feet who can sense you can immediately Step or Stride up to half their Speed (rounded down to the nearest 5-foot increment) as a free action.</p>"
+    },
+    "rules": [],
+    "slug": "get-in-there",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "directive",
+        "envoy",
+        "visual"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "ownership": {
+    "default": 0,
+    "X4PBxKRd2PcFy3lF": 3,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1710257968976,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "9TeJIbN2nv8DRJ0x",
+  "sort": 26200000,
+  "_key": "!items!9TeJIbN2nv8DRJ0x"
+}

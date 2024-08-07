@@ -1,0 +1,75 @@
+{
+  "type": "feat",
+  "name": "Anchoring Impacts",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your suppressing attacks can pin down foes in place, preventing them from moving at more than a crawling pace. When you suppress a target with one of your attacks, increase the speed penalty to a –20-foot status penalty for the duration of the @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} condition. If the effect that imparted the suppressed condition was a critical hit, or the target critically failed the effect and becomes suppressed, then the target also becomes @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
+    },
+    "rules": [],
+    "slug": "anchoring-impacts",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "soldier"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "suppressing fire"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "Wy6I7QSx2c5ya0e9",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801600625,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 12500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Wy6I7QSx2c5ya0e9"
+}

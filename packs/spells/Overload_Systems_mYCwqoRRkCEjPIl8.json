@@ -1,0 +1,107 @@
+{
+  "folder": null,
+  "name": "Overload Systems",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You flood the area with electrical interference. You deal 8d8 electricity damage to all other creatures in the area. Each creature in the area must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and any items with the tech trait gain @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} for 1 minute or until the condition is removed.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and any items with the tech trait gain @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} for 1 minute or until the condition is removed</p>"
+    },
+    "rules": [],
+    "slug": "overload-systems",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "electricity",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 30,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "sG3Mckwc8WihVe4n": {
+        "formula": "8d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "electricity",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "mYCwqoRRkCEjPIl8",
+  "img": "icons/magic/lightning/orb-ball-blue.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111277106,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 10000000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!mYCwqoRRkCEjPIl8"
+}

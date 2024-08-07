@@ -1,0 +1,105 @@
+{
+  "name": "Effect: Sparkling Performance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You cast dim light in a 20-foot radius. If you are legendary in Performance, you can cast bright light in a 20-foot radius.</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": 20,
+          "bright": 0,
+          "animation": {
+            "type": "rainbowswirl",
+            "intensity": 2,
+            "speed": 3
+          },
+          "color": "#fea4ee",
+          "alpha": 0.25,
+          "attenuation": 0.25,
+          "luminosity": 0.15
+        },
+        "predicate": [
+          "skill:performance:rank:3"
+        ]
+      },
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": 0,
+          "bright": 20,
+          "animation": {
+            "type": "rainbowswirl"
+          },
+          "color": "#fea4ee"
+        },
+        "predicate": [
+          "skill:performance:rank:4"
+        ]
+      }
+    ],
+    "slug": "effect-sparkling-performance",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "civUyy7XNTF8E4Xv",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20streak.webp",
+  "folder": null,
+  "sort": 4000000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1714325110999,
+    "modifiedTime": 1722269614899,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!civUyy7XNTF8E4Xv"
+}

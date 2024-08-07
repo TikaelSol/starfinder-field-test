@@ -1,0 +1,262 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Distracting Holo Ad",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Distracting Holo Ad",
+  "type": "hazard",
+  "effects": [],
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": 5,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 16
+      },
+      "hp": {
+        "value": 26,
+        "max": 26,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 5,
+      "stealth": {
+        "value": 7,
+        "details": "<p>(trained) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]</p>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [
+        {
+          "type": "critical-hits",
+          "exceptions": []
+        },
+        {
+          "type": "precision",
+          "exceptions": []
+        }
+      ]
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 1
+      },
+      "disable": "<p>@Check[type:computers|dc:17] (trained) to deactivate the ad</p>",
+      "description": "<p>Colorful, lifelike figures flit in and out of a holographic advertisement in a barrage of pleasant sounds and sensations, enticing passersby to spend their credits.</p>",
+      "reset": "<p>The trap deactivates and resets after 1 minute.</p>",
+      "routine": "<p>(1 action) The hazard plays a new ad each round, forcing all creatures who can sense it to attempt a new save.</p>",
+      "publication": {
+        "title": "Starfinder Second Edition Playtest Rulebook",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "magical",
+        "trap"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    }
+  },
+  "_id": "cTowrJdBKRHuHmdM",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "type": "action",
+      "name": "Buy! Buy! Buy!",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature within the area finishes an action</p><hr /><p><strong>Effect</strong> The trap launches a targeted ad enticing viewers to spend credits on a product or service. All creatures within 30 feet who can see, hear, or sense the ad must attempt a @Check[type:will|dc:14] save. The trap rolls initiative.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}.</p><p><strong>Failure</strong> The target is dazzled and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}.</p><p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} for 1 round and can't take any actions except to access the nearest computer and make purchases as directed by the ad.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "incapacitation"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "nYQF5rWnn5cH7Smh",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!cTowrJdBKRHuHmdM.nYQF5rWnn5cH7Smh"
+    }
+  ],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722460756328,
+    "modifiedTime": 1722460756328,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "sort": 0,
+  "_key": "!actors!cTowrJdBKRHuHmdM"
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Inappropriate Joke",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> Your target within 30 feet uses a concentrate action.</p>\n<hr />\n<p>You tell a joke that disrupts your target's concentration and throws them off their rhythm. Make a Performance check against their Will DC. The target is immune for 24 hours.</p>\n<hr />\n<p><strong>Critical Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p>\n<p><strong>Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Critical Failure</strong> You laugh at your own joke and can't use actions with the auditory trait until the end of your next turn or until you spend an action to catch your breath.</p>"
+    },
+    "rules": [],
+    "slug": "inappropriate-joke",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "general",
+        "linguistic",
+        "mental",
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "expert in Performance"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "HTrgVKB3pY0xbYg1",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 6200000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1714327399210,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!HTrgVKB3pY0xbYg1"
+}

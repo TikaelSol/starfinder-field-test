@@ -1,0 +1,84 @@
+{
+  "name": "Effect: Elemental Perfect Harmony",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain resistance to two elements chosen during the mystic's daily preparations.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "{item|origin.flags.pf2e.perfectHarmony.resistanceOne}",
+        "value": "floor(@item.origin.level/2)"
+      },
+      {
+        "key": "Resistance",
+        "type": "{item|origin.flags.pf2e.perfectHarmony.resistanceTwo}",
+        "value": "floor(@item.origin.level/2)"
+      }
+    ],
+    "slug": "effect-elemental-perfect-harmony",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.879,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 19
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20hazard%20sign.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722232915092,
+    "modifiedTime": 1722233394080,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "LbTZWiBVaY6Dz8zS",
+  "sort": 0,
+  "_key": "!items!LbTZWiBVaY6Dz8zS"
+}

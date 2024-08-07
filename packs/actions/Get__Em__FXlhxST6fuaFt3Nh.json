@@ -1,0 +1,72 @@
+{
+  "name": "Get 'Em!",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You single out an enemy for you and your allies to focus your attacks on. This concentrated assault weakens that enemy's defenses. Select a creature within 60 feet that you can see. That creature takes a –1 circumstance penalty to AC and Reflex saves until the beginning of your next turn.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.BTTaOMgJbcOMQ4IA]{Effect: Get 'Em!}</p><p><strong>Lead by Example</strong> If you attack the target you select before the end of your turn, you reveal a weak point in your foe's defenses. You gain a circumstance bonus to damage rolls against the target equal to 1 + half your Charisma modifier, and your allies gain a +1 circumstance bonus to damage rolls against the target. As your envoy level increases, so does this damage. Increase the damage by 1 at 5th, 10th, 15th, and 20th levels.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "selector": "damage",
+        "slug": "get-em-lead-by-example",
+        "mode": "add",
+        "value": "floor(@actor.system.abilities.cha.mod/2)"
+      }
+    ],
+    "slug": "get-em",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.330",
+        "system": "6.1.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "directive",
+        "envoy",
+        "visual"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "FXlhxST6fuaFt3Nh",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 3100000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.0",
+    "coreVersion": "12.330",
+    "createdTime": 1712004671684,
+    "modifiedTime": 1722568778532,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FXlhxST6fuaFt3Nh"
+}

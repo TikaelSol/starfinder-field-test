@@ -1,0 +1,546 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Cybernetic Zombie",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/starfinder-field-test-for-pf2e/art/npc-art/tokens/pzo9500-25_cybernetic_zombie-t_v2_1-5.webp",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "detectionModes": [],
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "name": "Cybernetic Zombie",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 40,
+        "temp": 0,
+        "max": 40,
+        "details": "void healing"
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 15,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "immunities": [
+        {
+          "type": "bleed",
+          "exceptions": []
+        },
+        {
+          "type": "death-effects",
+          "exceptions": []
+        },
+        {
+          "type": "disease",
+          "exceptions": []
+        },
+        {
+          "type": "paralyzed",
+          "exceptions": []
+        },
+        {
+          "type": "poison",
+          "exceptions": []
+        },
+        {
+          "type": "unconscious",
+          "exceptions": []
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "electricity",
+          "value": 10,
+          "exceptions": []
+        },
+        {
+          "type": "slashing",
+          "value": 10,
+          "exceptions": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Field Test #5",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -2
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 3,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 3,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 5
+      }
+    },
+    "traits": {
+      "value": [
+        "mindless",
+        "tech",
+        "undead",
+        "zombie"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/npc-art/art/pzo9500-25_cybernetic_zombie.webp",
+  "items": [
+    {
+      "type": "action",
+      "name": "Cybernetics",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The zombie's cybernetics can be disabled for 1 hour with a successful DC 15 check to [[/act disable-device dc=15]]{Disable a Device}. The zombie's cybernetics are disabled for 1 hour if it takes any electricity damage. A cybernetic zombie with disabled cybernetics is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions (including Self Destruct).</p>"
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "disabled-cybernetics",
+            "label": "Disabled Cybernetics",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3",
+            "inMemoryOnly": true,
+            "predicate": [
+              "disabled-cybernetics"
+            ]
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "YQi4pEcsJfon1nS3",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wtH6N7W9hiezRLvx.YQi4pEcsJfon1nS3"
+    },
+    {
+      "type": "action",
+      "name": "Self Destruct",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> A cybernetic zombie must use this reaction when the trigger is met unless its cybernetics are disabled</p>\n<p><strong>Trigger</strong> The cybernetic zombie is reduced to 0 Hit Points</p>\n<hr />\n<p><strong>Effect</strong> The zombie's damaged cybernetics explode, dealing @Damage[1d8[electricity]] damage in a @Template[type:emanation|distance:10]{10-foot radius} (@Check[type:reflex|dc:15|basic:true] save). This ability destroys any technological items on the zombie.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": true
+      },
+      "effects": [],
+      "_id": "VTtnqCB7pHtTrVJJ",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wtH6N7W9hiezRLvx.VTtnqCB7pHtTrVJJ"
+    },
+    {
+      "type": "melee",
+      "name": "Fist",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "damageRolls": {
+          "vWKxFir2TcaHXvYk": {
+            "damage": "1d6+2",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 7
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "_id": "4GNGBNHB4UH2ViIl",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wtH6N7W9hiezRLvx.4GNGBNHB4UH2ViIl"
+    },
+    {
+      "type": "melee",
+      "name": "Integrated Commercial Laser Pistol",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire",
+            "range-increment-40"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "damageRolls": {
+          "hOqkqp4739uVXkNS": {
+            "damage": "1d6+2",
+            "damageType": "fire",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "_id": "vha0fY8zaZwuM8zg",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!wtH6N7W9hiezRLvx.vha0fY8zaZwuM8zg"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "starfinder-data-entry",
+      "system": "pf2e",
+      "coreVersion": "11.315",
+      "systemVersion": "5.15.3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "createdTime": 1721860400699,
+    "modifiedTime": 1722569137299,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_id": "wtH6N7W9hiezRLvx",
+  "sort": 0,
+  "_key": "!actors!wtH6N7W9hiezRLvx"
+}

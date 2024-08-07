@@ -1,0 +1,73 @@
+{
+  "name": "Genetic Adaptation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can reshape and adjust your body to adapt to new situations. You can retrain an ancestry feat in one day of downtime, rather than in one week. You can retrain any ancestry feat, even lineage feats.</p>"
+    },
+    "rules": [],
+    "slug": "genetic-adaptation",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "barathu"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20DNA%20helix.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707759304151,
+    "modifiedTime": 1722279492876,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "85MTQXyQu9M3QrRT",
+  "sort": 0,
+  "_key": "!items!85MTQXyQu9M3QrRT"
+}

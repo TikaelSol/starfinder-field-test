@@ -1,0 +1,104 @@
+{
+  "_id": "yiHgnPsraBLTbjg3",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "Protective Subroutine (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your nanites augment your defenses. You can choose to activate @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.7ekJi7J2ZPURhCVM]{Nanite Surge} when you attempt a saving throw instead of when you attempt a skill check. If you do, you gain a +2 status bonus to the triggering saving throw.</p>"
+    },
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:nanite-surge",
+              "item:slug:nanite-surge-starfinder"
+            ]
+          }
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "PF2E.SpecificRule.Android.ProtectiveSubroutine"
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 2,
+        "type": "status",
+        "predicate": [
+          "nanite-surge"
+        ]
+      }
+    ],
+    "slug": "protective-subroutine",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "android"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Nanite Surge"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.DP5VVZHERQlYuYTa",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722306198854,
+    "modifiedTime": 1722444024330,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.DP5VVZHERQlYuYTa"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!yiHgnPsraBLTbjg3"
+}

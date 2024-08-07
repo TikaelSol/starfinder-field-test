@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Solarian Arrangement",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As adherents of the cycle of creation and destruction, solarians maintain strong personal beliefs that attach themselves to specific aspects of the cycle. At 1st level, your arrangement grants you a favored attunement, which determines your starting attunement state in combat (unless you've used the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.1EewWFSgMbYZKykO]{Attunement Control} exploration action) and what state the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.JLo2gJ2s0BXUKsLQ]{Attune} action attunes you to. It also provides you with an initial revelation, and proficiency with a particular skill. You also gain advanced and greater revelations at later levels.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.dLgIh1aJTzfEA29V]{Balanced}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.fPxeqA1H3AZLbOAi]{Degradant}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.saCXcdMlmSXhhViU]{Radiant}</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:solarian-arrangement"
+          ]
+        },
+        "flag": "arrangement",
+        "key": "ChoiceSet",
+        "prompt": "SF2E.SpecificRule.Solarian.Arrangement.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.arrangement}"
+      }
+    ],
+    "slug": "solarian-arrangement",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "solarian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/light/explosion-star-large-orange-purple.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1721886948692,
+    "modifiedTime": 1722408774411,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "dLkpP35gnlfSzpmO",
+  "sort": 5700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!dLkpP35gnlfSzpmO"
+}

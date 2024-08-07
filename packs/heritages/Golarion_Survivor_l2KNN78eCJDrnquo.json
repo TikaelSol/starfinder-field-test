@@ -1,0 +1,69 @@
+{
+  "name": "Golarion Survivor",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your ancestors lived on lost Golarion, and though the circumstances of your family's survival are lost to the Gap, your family taught you ancient traditions from a young age. You become trained with archaic weapons and Golarion Lore, and you learn a bonus language that was spoken in your lineage's region of origin. You gain the @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} feat.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.max",
+        "value": 1
+      }
+    ],
+    "slug": "golarion-survivor",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Human (Starfinder)",
+      "slug": "human",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.xb9vkvAi87Xz8zUY"
+    }
+  },
+  "_id": "l2KNN78eCJDrnquo",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "dhXYz6iHGxnjdR0d",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707763554069,
+    "modifiedTime": 1722270678944,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!l2KNN78eCJDrnquo"
+}

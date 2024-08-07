@@ -1,0 +1,98 @@
+{
+  "name": "Savvy Influencer",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can use @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.mtuJWYgaRQJYsEsZ]{Practiced Influencer} twice per day. Additionally, the first time per day when you roll a natural 1 on a Deception, Diplomacy, or Intimidation check, you don't automatically reduce your degree of success (you get a critical failure only if your result is 10 lower than the DC).</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": [
+          "deception",
+          "diplomacy",
+          "intimidation"
+        ],
+        "text": "SF2E.SpecificRule.Envoy.SavvyInfluencer.Note",
+        "title": "{item|name}",
+        "predicate": [
+          "check:total:natural:1"
+        ],
+        "outcome": [
+          "criticalFailure"
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "predicate": [
+          "item:slug:practiced-influencer"
+        ],
+        "property": "frequency-max",
+        "value": 2
+      }
+    ],
+    "slug": "savvy-influencer",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 11
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "FfflnCDRS6qljSVq",
+  "img": "icons/skills/social/diplomacy-unity-alliance.webp",
+  "folder": null,
+  "sort": 8500000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712009010703,
+    "modifiedTime": 1722215121463,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FfflnCDRS6qljSVq"
+}

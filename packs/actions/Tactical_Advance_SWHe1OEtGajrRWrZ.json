@@ -1,0 +1,59 @@
+{
+  "name": "Tactical Advance",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You're not encumbered.</p><hr /><p>You dodge, roll, and weave out of danger, leaving no openings as you move across the battlefield. Stride up to half your Speed. This movement doesn't trigger reactions.</p>"
+    },
+    "rules": [],
+    "slug": "tactical-advance",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish",
+        "move",
+        "operative"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "SWHe1OEtGajrRWrZ",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722126248931,
+    "modifiedTime": 1722224846535,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!SWHe1OEtGajrRWrZ"
+}

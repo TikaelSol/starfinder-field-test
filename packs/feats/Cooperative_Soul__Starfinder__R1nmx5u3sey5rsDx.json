@@ -1,0 +1,94 @@
+{
+  "_id": "R1nmx5u3sey5rsDx",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "Cooperative Soul (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have developed a soul-deep bond with your comrades and maintain an even greater degree of cooperation with them. If you are at least an expert in the skill you are @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aiding}, when you roll a failure or critical failure to Aid a skill check, you get a success instead.</p>"
+    },
+    "rules": [
+      {
+        "adjustment": {
+          "criticalFailure": "to-success",
+          "failure": "to-success"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "action:aid",
+          {
+            "or": [
+              "proficiency:expert",
+              "proficiency:master",
+              "proficiency:legendary"
+            ]
+          }
+        ],
+        "selector": "skill-check"
+      }
+    ],
+    "slug": "cooperative-soul",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "human"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Cooperative Nature"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.Z2EiYMtGoNnwW6Tk",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722314223418,
+    "modifiedTime": 1722444019819,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.Z2EiYMtGoNnwW6Tk"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!R1nmx5u3sey5rsDx"
+}

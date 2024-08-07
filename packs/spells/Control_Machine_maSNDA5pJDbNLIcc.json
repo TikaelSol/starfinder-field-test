@@ -1,0 +1,93 @@
+{
+  "name": "Control Machine",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You take control of a technological creature or object and command it telepathically. If you issue an obviously selfdestructive order to a sapient target, the target does not act until you issue a new order. The effect depends on its Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} as it fights off your commands.</p>\n<p><strong>Failure</strong> You control the target. It gains the @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled} condition, but it can attempt a Will save at the end of each of its turns. On a success, the spell ends.</p>\n<p><strong>Critical Failure</strong> As a failure, but the target receives a new save only if it's sapient and you give it a new order that is against its nature, such as killing its allies.</p>\n<hr />\n<p><strong>Heightened (10th)</strong> The duration is unlimited.</p>"
+    },
+    "rules": [],
+    "slug": "control-machine",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "incapacitation",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "arcane",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature or hazard with the tech trait"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": " until the next time you make your daily preparations",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "maSNDA5pJDbNLIcc",
+  "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111277125,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 10100000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!maSNDA5pJDbNLIcc"
+}

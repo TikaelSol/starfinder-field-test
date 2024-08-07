@@ -1,0 +1,73 @@
+{
+  "type": "feat",
+  "name": "Careful Strike",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You focus on your solar weapon's trajectory so you can adjust it up to the last possible moment to turn a missed attack into a glancing blow. Make a melee Strike with your solar weapon. It gains the following failure effect.</p><p><strong>Failure</strong> Your attack deals any damage it would have dealt on a hit, counting all damage dice as though they rolled a 1, and gains the usual benefits of your attunement when making solar weapon Strikes.</p>"
+    },
+    "rules": [],
+    "slug": "careful-strike",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attuned",
+        "flourish",
+        "solarian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "MBKzY6o4Ttck7exp",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801592629,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 7600000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!MBKzY6o4Ttck7exp"
+}

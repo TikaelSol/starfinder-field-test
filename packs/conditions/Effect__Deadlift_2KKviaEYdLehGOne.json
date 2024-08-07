@@ -1,0 +1,84 @@
+{
+  "name": "Effect: Deadlift",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can carry 4 more Bulk than normal before becoming encumbered. The amount you can carry increases to 6 at expert, 8 at master, and 10 at legendary.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "inventory.bulk.encumberedAfterAddend",
+        "value": "@actor.system.skills.athletics.rank*2 + 2"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "inventory.bulk.maxAddend",
+        "value": "@actor.system.skills.athletics.rank*2 + 2"
+      }
+    ],
+    "slug": "effect-deadlift",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "2KKviaEYdLehGOne",
+  "img": "systems/pf2e/icons/spells/athletic-rush.webp",
+  "folder": null,
+  "sort": 2400000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1714325530601,
+    "modifiedTime": 1722218719212,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!2KKviaEYdLehGOne"
+}

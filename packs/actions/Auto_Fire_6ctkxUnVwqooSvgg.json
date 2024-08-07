@@ -1,0 +1,68 @@
+{
+  "name": "Auto-Fire",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You hit each creature in a cone with a range equal to half the weapon's range increment. Any creatures in the area must succeed at a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save against your class DC plus the tracking value of the weapon (you don't roll an attack roll). This damage is area damage. Creatures that critically fail this save are subject to effects that occur on a critical hit with this weapon, including the weapon's critical specialization effect. Automatic Fire has a usage equal to half the weapon's maximum capacity.</p>"
+    },
+    "rules": [],
+    "slug": "auto-fire",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.853,
+        "foundry": "12.330",
+        "system": "6.1.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1691045523432,
+    "modifiedTime": 1722112435780,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "6ctkxUnVwqooSvgg",
+  "folder": "p7vI4sjHZDocFrai",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!6ctkxUnVwqooSvgg"
+}

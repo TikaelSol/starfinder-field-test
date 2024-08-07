@@ -1,0 +1,622 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Crest-Eater",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Crest-Eater",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 65,
+        "temp": 0,
+        "max": 65,
+        "details": ""
+      },
+      "speed": {
+        "value": 45,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 23,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 4
+      },
+      "blurb": "",
+      "publicNotes": "<p>Crest-eaters are large four-legged beasts with the traits of both reptiles and mammals. Originating from the distant world of Kasath, they've spread throughout the cosmos, accompanying numerous kasathans and even having a small enclave aboard the Idari worldship in the Pact Worlds. A crest-eater is a predator known for consuming the bones of their prey. They use a highly corrosive acidic venom that chews through minerals with ease. Their name comes from their history of tracking down kasathas and cracking open their elongated skulls to feed on the \"bony crests\" within. As a crest-eater consumes bones and other substances, it produces large mineral protrusions across its body. Crest-eaters are social creatures and often form prides to hunt together or join with other nearby species if they're accepted—it's not uncommon to find a starship crew or local raider gang with one or more crest-eaters they've adopted. Tamers who've hunted with crest-eaters for generations craft a ceremonial cestus from their comrade's body after they pass, a tradition still practiced to this day despite the high value and demand for crest-eater bones.</p><p>Most crest-eaters are 14 feet long and squat at about 6 feet tall (not including their noticeable mineral protrusions). Thanks to their mineral-laden composition, they often weigh in excess of 1,000 pounds, somewhat hampering their mobility in environments that can't support their girth. Young and mature crest-eaters tend to stay together in small prides, though some act as solitary hunters in environments where food sources are scarce. Especially large males frequently become increasingly aggressive as they age and are often driven away by the rest of the pride for both their hostility and gluttonous appetites. If these solitary beasts survive long enough, they can become unpredictable and dangerous threats that attempt to establish territory and find food by attacking desert settlements. Many kasathan epics feature one or more brave warriors defending their village against an ancient male crest-eater. Whether dispatched by local legends or eventually dying off in secret, these oversized crest-eaters can leave behind a valuable cache of minerals for enterprising adventurers.</p><h2>Solar Power</h2><p>A crest-eater's mineral protrusions are filled with tiny reflective compounds that store energy and provide additional sustenance for the beasts. Ages ago, kasathas from old Kasath studied these crystalline compounds, and they have since become the basis of kasathan solar technology. Some crest-eaters, given ready access to sunlight and vast fields of bone, are said to gorge themselves to excess. Such specimen become truly immense and territorial, and it's believed several bone fields on old Kasath are guarded by such vast guardians, who have become local legends to the kasathas who remained behind.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Second Contact",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": -3
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 11,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "type": "scent",
+          "acuity": "imprecise",
+          "range": 60
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 8,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 12,
+        "special": []
+      },
+      "stealth": {
+        "base": 10,
+        "special": []
+      },
+      "survival": {
+        "base": 8,
+        "special": [
+          {
+            "label": "to track creatures affected by crest eater venom",
+            "predicate": [
+              "target:effectaffliction:crest-eater-venom"
+            ],
+            "base": 12
+          }
+        ]
+      }
+    },
+    "traits": {
+      "value": [
+        "beast"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    }
+  },
+  "_id": "AfP7eT7W5PJ808RP",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "type": "action",
+      "name": "Bone Tracker",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A crest-eater can use its scent as a precise sense at the listed range against creatures that have taken damage from crest-eater venom in the past hour.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "CPj8Dp9lJ0KqVeeF",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!AfP7eT7W5PJ808RP.CPj8Dp9lJ0KqVeeF"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Reactive Strike",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+        },
+        "rules": [],
+        "slug": "reactive-strike",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "mpghoGdEW3xzGLeD",
+      "_key": "!actors.items!AfP7eT7W5PJ808RP.mpghoGdEW3xzGLeD"
+    },
+    {
+      "type": "melee",
+      "name": "Bite",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-10"
+          ]
+        },
+        "damageRolls": {
+          "xHlEWgrHopRQUUkO": {
+            "damage": "2d6+7",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 17
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "gOjNeI6gO1voAaPo",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!AfP7eT7W5PJ808RP.gOjNeI6gO1voAaPo"
+    },
+    {
+      "type": "melee",
+      "name": "Venom Spit",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-increment-40"
+          ]
+        },
+        "damageRolls": {
+          "Wvqo39BbLCu6kHfN": {
+            "damage": "2d4+3",
+            "damageType": "acid",
+            "category": null
+          },
+          "MaMfxd2GqEDE99uP": {
+            "damage": "1d6",
+            "damageType": "acid",
+            "category": "persistent"
+          }
+        },
+        "bonus": {
+          "value": 15
+        },
+        "attackEffects": {
+          "value": [
+            "crest-eater-venom"
+          ]
+        }
+      },
+      "_id": "yzD6uGIOHex73MPK",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!AfP7eT7W5PJ808RP.yzD6uGIOHex73MPK"
+    },
+    {
+      "type": "action",
+      "name": "Crest-Eater Venom",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:21];</p><p><strong>Max Duration</strong> 4 rounds</p><p><strong>Stage 1</strong> @Damage[1d6[acid]] damage and enfeebled (1 round)</p><p><strong>Stage 2</strong> @Damage[1d8[acid]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round)</p><p><strong>Stage 3</strong> @Damage[1d10[acid]] damage, enfeebled 2, and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (1 round)</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "poison"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "cPJOqCBzPxV0P9Zk",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!AfP7eT7W5PJ808RP.cPJOqCBzPxV0P9Zk"
+    },
+    {
+      "type": "action",
+      "name": "Scree Strider",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Crest-eaters ignore difficult terrain caused by rubble, sand, and uneven ground made of earth and stone.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "ZKfZm3Dj3zMd4lHU",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!AfP7eT7W5PJ808RP.ZKfZm3Dj3zMd4lHU"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722542389226,
+    "modifiedTime": 1722542389226,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "sort": 0,
+  "_key": "!actors!AfP7eT7W5PJ808RP"
+}

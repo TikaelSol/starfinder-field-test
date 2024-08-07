@@ -1,0 +1,125 @@
+{
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/ancestries/android.webp",
+  "name": "Android (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Androids first emerged as synthetic beings crafted by many technologically advanced civilizations throughout the galaxy. The first androids were created by humanoid peoples in their own images, but after the technology that animated the living constructs spread, androids began displaying a fantastic diversity of forms. Androids in the Pact Worlds were originally designed as servants, but today, androids stand as equals to other citizens under the Pact. Many androids have formed their own independent communities, while others integrate seamlessly into Pact Worlds societies. Unlike many other technological constructs, androids are more than intricate synthetic organs and complex programming, and each possesses their own soul.</em></p>\n<p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.dyusFHHyaQOaQhZ0]{Android}</em></p>\n<p> </p>"
+    },
+    "rules": [],
+    "slug": "android",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.911,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "android",
+        "humanoid"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 8,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "dex"
+        ]
+      },
+      "1": {
+        "value": [
+          "int"
+        ]
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "cha"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 1,
+      "value": [
+        "androffan",
+        "chthonian",
+        "draconic",
+        "dwarven",
+        "empyrean",
+        "sakvroth",
+        "utopian"
+      ],
+      "custom": ""
+    },
+    "items": {
+      "h86Nr": {
+        "uuid": "Compendium.pf2e.ancestryfeatures.Item.uSAYmU7PO2QoOWhB",
+        "img": "icons/magic/control/fear-fright-white.webp",
+        "name": "Emotionally Unaware",
+        "level": 0
+      },
+      "jvILx": {
+        "uuid": "Compendium.pf2e.ancestryfeatures.Item.mnhmhOKWLiOD0lev",
+        "img": "systems/pf2e/icons/features/feats/effect-repair-module.webp",
+        "name": "Constructed",
+        "level": 0
+      }
+    },
+    "vision": "low-light-vision"
+  },
+  "type": "ancestry",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "osGt3Y9EUYsTtPet": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "coreVersion": "12.330",
+    "createdTime": 1704313962770,
+    "modifiedTime": 1722443885488,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "gL3qb9ZexNxP991p",
+  "sort": 300000,
+  "_key": "!items!gL3qb9ZexNxP991p"
+}

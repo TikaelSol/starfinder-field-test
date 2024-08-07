@@ -1,0 +1,108 @@
+{
+  "folder": null,
+  "name": "Effect: Effortless Influencer",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your gain a +1 status bonus to the next check you attempt with the chosen skill (or a +2 bonus if your check was a critical success).</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.Skill.Deception",
+            "value": "deception"
+          },
+          {
+            "label": "PF2E.Skill.Diplomacy",
+            "value": "diplomacy"
+          },
+          {
+            "label": "PF2E.Skill.Intimidation",
+            "value": "intimidation"
+          }
+        ],
+        "flag": "skill",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "choices": [
+          {
+            "label": "PF2E.Check.Result.Degree.Check.criticalSuccess",
+            "value": 2
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.success",
+            "value": 1
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.DegreeOfSuccess",
+        "flag": "degree"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|flags.pf2e.rulesSelections.skill}",
+        "value": "{item|flags.pf2e.rulesSelections.degree}",
+        "type": "status"
+      }
+    ],
+    "slug": "effect-effortless-influencer",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/skills/social/diplomacy-peace-alliance.webp",
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722215301930,
+    "modifiedTime": 1722224851276,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "ZQM4vfHEKgxvNJik",
+  "sort": 300000,
+  "_key": "!items!ZQM4vfHEKgxvNJik"
+}

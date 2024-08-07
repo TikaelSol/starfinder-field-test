@@ -1,0 +1,78 @@
+{
+  "folder": null,
+  "name": "Suppressing Insults",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your cutting quips hamper your opponent's performance in the fight. On a successful @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} action, your opponent is @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} for as long as it remains @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} from your Demoralize.</p>"
+    },
+    "rules": [],
+    "slug": "suppressing-insults",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Intimidation"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "ownership": {
+    "default": 0,
+    "X4PBxKRd2PcFy3lF": 3,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1710258102337,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "PRZzG5kCy8efGeXU",
+  "sort": 27700000,
+  "_key": "!items!PRZzG5kCy8efGeXU"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Corrosive Venting",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can control the strength and causticity of your internal gases as you vent them. When you @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.ERLWteY4wPqMoGbF]{Vent Gas}, increase the area of your emanation to 10 feet. Additionally, you can choose to make the gas you vent caustic. If you do, creatures within the Vented Gas when you create it, or who begin their turn in the gas, are dealt @Damage[3d6[acid]] damage, with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] save against your class DC or spell DC, whichever is higher. On a critical failure, a creature additionally takes @Damage[1d4[persistent,acid]] damage.</p>\n<p>At 17th level, the acid damage increases to @Damage[5d6[acid]] and the persistent acid damage increases to @Damage[2d4[persistent,acid]].</p>"
+    },
+    "rules": [],
+    "slug": "corrosive-venting",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "barathu"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Vent Gas"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "rWpDNMJtAKhqQfXt",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 47700000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707762346862,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!rWpDNMJtAKhqQfXt"
+}

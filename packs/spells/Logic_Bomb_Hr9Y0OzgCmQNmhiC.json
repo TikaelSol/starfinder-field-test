@@ -1,0 +1,110 @@
+{
+  "name": "Logic Bomb",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You implant a hazard containing a mind-blowing amount of information into the target. The hazard has a Stealth and Disable DC equal to your spell DC and requires one successful Computers check to disable. The first time a creature unsuccessfully attempts to access, destroy, or otherwise manipulate the target (such as using the Computers skill, failing to hit with a Strike, or otherwise), logic bomb detonates and the creature takes 6d6 mental damage. The spell ends when it's triggered or the duration ends, whichever comes first. When you prepare spells, you can choose not to recover the spell slot you used to cast this spell. If you do, the logic bomb active remains for another 24 hours.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+    },
+    "rules": [],
+    "slug": "logic-bomb",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 computer or item with the tech trait"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 day",
+      "sustained": false
+    },
+    "damage": {
+      "KUXpRBDt1FkHxXgl": {
+        "formula": "6d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "mental",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "KUXpRBDt1FkHxXgl": "2d6"
+      }
+    }
+  },
+  "_id": "Hr9Y0OzgCmQNmhiC",
+  "img": "icons/magic/light/circle-window-clock-blue.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276008,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 3800000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Hr9Y0OzgCmQNmhiC"
+}

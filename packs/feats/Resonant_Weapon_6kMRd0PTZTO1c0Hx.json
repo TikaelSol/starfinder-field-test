@@ -1,0 +1,73 @@
+{
+  "name": "Resonant Weapon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You release a pulse of spiritual energy into one weapon you're holding, making it resonate with immaterial soul stuff. Until the beginning of your next turn, your weapon gains the effects of the <em>ghost killer</em> weapon fusion. At 17th level, Strikes with the weapon deal 1d6 additional spirit damage.</p>"
+    },
+    "rules": [],
+    "slug": "resonant-weapon",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "borai",
+        "divine",
+        "spirit"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "6kMRd0PTZTO1c0Hx",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 32400000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "coreVersion": "12.330",
+    "createdTime": 1708146364765,
+    "modifiedTime": 1722328847911,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!6kMRd0PTZTO1c0Hx"
+}

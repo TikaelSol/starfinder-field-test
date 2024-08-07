@@ -1,0 +1,151 @@
+{
+  "folder": null,
+  "name": "Telekinetic Tantrum",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Defense</strong> see text</p>\n<hr />\n<p>You launch a barrage of powerful psychokinetic energy that overpower creatures, hurl objects, and deal damage. When you Cast this Spell and the first time each round you Sustain the spell, you can choose one of the following effects. You can't choose the same effect twice in a row.</p>\n<ul>\n<li><strong>Back Off!</strong> You hurl up to 15 objects or creatures up to 40 feet in any direction (including up or down). You can hurl up to a total weight of 400 pounds of 40 Bulk per creature or object. Creatures take bludgeoning damage based on the distance they moved and land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, as though they'd taken falling damage. Creatures being moved can attempt a Fortitude save to ignore the effect.</li>\n<li><strong>Hard Rain</strong> You pummel all creatures in the area with debris and objects in the area, dealing 5d10 bludgeoning damage with a basic Reflex save.</li>\n<li><strong>Psychokinetic Slam</strong> Your psychokinetic storm slams into all creatures in the area. Make a ranged spell attack roll. All targets you would hit take 7d6 force damage and are @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.\n<p> </p>\n</li>\n</ul>"
+    },
+    "rules": [],
+    "slug": "telekinetic-tantrum",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "500 feet"
+    },
+    "area": {
+      "value": 100,
+      "type": "burst"
+    },
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {
+      "7iLioCZBhVzLx34Z": {
+        "name": "Telekinetic Tantrum (Back Off!)",
+        "system": {
+          "defense": {
+            "save": {
+              "statistic": "fortitude",
+              "basic": false
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "48PfbSy7OBO575Un": {
+        "name": "Telekinetic Tantrum (Hard Rain)",
+        "system": {
+          "damage": {
+            "lgWKauOkLn4XQoYR": {
+              "formula": "5d10",
+              "kinds": [
+                "damage"
+              ],
+              "type": "bludgeoning",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "defense": {
+            "save": {
+              "statistic": "reflex",
+              "basic": false
+            }
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      },
+      "0nUTJ59oks8135Jp": {
+        "name": "Telekinetic Tantrum (Psychokinetic Slam)",
+        "system": {
+          "damage": {
+            "RbeZLB7NngpROieN": {
+              "formula": "7d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "force",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "defense": null
+        },
+        "sort": 3,
+        "overlayType": "override"
+      }
+    }
+  },
+  "_id": "FDm63NThHyPBWmNz",
+  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275933,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 3400000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!FDm63NThHyPBWmNz"
+}

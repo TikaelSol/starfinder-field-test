@@ -1,0 +1,83 @@
+{
+  "folder": null,
+  "name": "Abadar",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h2>Master Of The First Vault</h2><p>Abadar seeks to bring civilization to uninhabited worlds, encourages adherence to the law, and promotes commerce and trade within civilization. He promotes trade and cooperation among alien cultures.</p><p><strong>Areas of Concern</strong> cities, law, corporations, and wealth</p><p><strong>Edicts</strong> spread commerce and civilization to distant worlds, earn wealth through hard work, follow the rule of law</p><p><strong>Anathema</strong> engage in banditry or piracy, steal, undermine a law-abiding court</p>"
+    },
+    "rules": [],
+    "slug": "abadar",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "cities",
+        "earth",
+        "travel",
+        "wealth"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "con",
+      "int"
+    ],
+    "skill": [
+      "society"
+    ],
+    "weapons": [
+      "crossbolter",
+      "crossbow"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.2oH5IufzdESuYxat",
+      "4": "Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR",
+      "7": "Compendium.pf2e.spells-srd.Item.vPWMEyVTreMOoFnm"
+    }
+  },
+  "_id": "dRb3OclR4EYkPuxr",
+  "img": "modules/starfinder-field-test-for-pf2e/art/deities/abadar.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722414174396,
+    "modifiedTime": 1722443864632,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!dRb3OclR4EYkPuxr"
+}

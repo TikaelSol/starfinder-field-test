@@ -1,0 +1,117 @@
+{
+  "folder": null,
+  "name": "Gap Influenced",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The Gap shaped you in some way, whether through enduring study or personal experience. Perhaps you were born during the Gap or lived through it thanks to an incredible lifespan, stasis technology, or time travel. You might even be a scholar of the Gap who peered back in time and glimpsed a scrambled shred of truth whatever the case, it's left you curious to learn more about that mysterious era.</p><p><strong>Tradition</strong> occult</p><p><strong>Paradox Skill</strong> Society</p><p><strong>Granted Spells</strong></p><ul><li>cantrip: @UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]</li><li>1st: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.drvdhQ2vDoocH7f6]</li><li>2nd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.kRJg587SmUloc5kN]</li><li>3rd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.N4yo1ViE9yKLTHRE]</li><li>4th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.7S2EU5HfLULn9z82]</li><li>5th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.mYCwqoRRkCEjPIl8]</li><li>6th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.2ILhSSU3F0VcU4rL]</li><li>7th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.xDuktpYTml9loyj5]</li><li>8th: @UUID[Compendium.pf2e.spells-srd.Item.M0jQlpQYUr0pp2Sv]</li><li>9th: @UUID[Compendium.pf2e.spells-srd.Item.kUSShxXzY1sPtJA0]</li></ul><p><strong>Warp Spells</strong></p><ul><li>initial: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.bT7xEJwVLxVNzXt0]</li><li>advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.z4tEoxGxNlgMzIQs]</li><li>greater: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.8Y4p6k0bcQLd1wTr]</li></ul><p><strong>Quantum Field</strong> Supernatural static swirls around you, making thoughts slippery for those unaccustomed to your presence. You are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W] to creatures within your quantum field. When a creature within your quantum field hits you with an attack, you lose this benefit against that creature until the start of your next turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.society.rank",
+        "value": 1
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:quantum-field"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Witchwarper.Paradox.GapInfluenced.QuantumField"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:advanced-paradox"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "@UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.8Y4p6k0bcQLd1wTr]"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:greater-paradox"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "@UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.z4tEoxGxNlgMzIQs]"
+          }
+        ]
+      }
+    ],
+    "slug": "gap-influenced",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "witchwarper-paradox"
+      ],
+      "value": [
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20aura%20enveloped%20planet.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722058723683,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "_id": "fQRiPpFybICoKXsj",
+  "sort": 5900000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!fQRiPpFybICoKXsj"
+}

@@ -1,0 +1,85 @@
+{
+  "folder": null,
+  "name": "Anchoring Spells",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You become more familiar with magic you practice regularly, drawing on those spells as another anchor to reality. When you are inside or adjacent to your quantum field and cast a signature spell, the spell gains the anchoring trait.</p>"
+    },
+    "rules": [
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:signature-spell",
+          "terrain:quantum-field"
+        ],
+        "property": "traits",
+        "value": "anchoring"
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "terrain:quantum-field",
+        "toggleable": true,
+        "label": "SF2E.SpecificRule.Witchwarper.QuantumField.AdjacentLabel"
+      }
+    ],
+    "slug": "anchoring-spells",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20planet%20in%20gas%20nebula.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722096320144,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "_id": "hLLMueDgbBr3iwC8",
+  "sort": 3200000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!hLLMueDgbBr3iwC8"
+}

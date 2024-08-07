@@ -1,0 +1,99 @@
+{
+  "name": "Brutaris Player",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The sound of a roaring crowd still sends your heart pumping as you recall your glory days as a brutaris player. Whether you retired successfully or were taken out of commission at the height of your career, you've maintained your conditioning and will always be ready for your next big game.</p><p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p><p>You're trained in the Athletics skill and the Sports Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]{Quick Jump} or @UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8]{Titan Wrestler} skill feat.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.SkillFeat",
+        "flag": "feat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.feat}"
+      }
+    ],
+    "slug": "brutaris-player",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "con",
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedSkills": {
+      "value": [
+        "athletics"
+      ],
+      "lore": [
+        "Sports Lore"
+      ]
+    }
+  },
+  "_id": "32ACVCEVfdtEA3I4",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708150002882,
+    "modifiedTime": 1722278059512,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!32ACVCEVfdtEA3I4"
+}

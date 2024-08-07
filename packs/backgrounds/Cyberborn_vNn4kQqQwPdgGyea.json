@@ -1,0 +1,87 @@
+{
+  "name": "Cyberborn",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your body is a temple to change and technology. Ever since a young age you've been upgrading your anatomy with augmentations, perhaps after a terrible accident, as part of an experiment, or because you desire to transform your body into something more.</p><p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Strength</strong>, and one is a free attribute boost.</p><p>You’re trained in the Crafting skill and the Augmentation Lore skill. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.FceVOOFha1gbd95w]{Augmented Body} feat.</p>"
+    },
+    "rules": [],
+    "slug": "cyberborn",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "con",
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "97pKK": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.FceVOOFha1gbd95w",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+        "name": "Augmented Body",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "crafting"
+      ],
+      "lore": [
+        "Augmentation Lore"
+      ]
+    }
+  },
+  "_id": "vNn4kQqQwPdgGyea",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708150857912,
+    "modifiedTime": 1722278245329,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!vNn4kQqQwPdgGyea"
+}

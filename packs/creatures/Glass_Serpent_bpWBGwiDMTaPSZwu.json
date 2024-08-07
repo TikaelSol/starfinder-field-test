@@ -1,0 +1,731 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Glass Serpent",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/starfinder-field-test-for-pf2e/art/npc-art/tokens/pz09500-25_glass_serpent-t_v2_1-5.webp",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "detectionModes": [],
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "folder": null,
+  "name": "Glass Serpent",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 85,
+        "temp": 0,
+        "max": 85,
+        "details": ""
+      },
+      "speed": {
+        "value": 45,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 30
+          },
+          {
+            "type": "swim",
+            "value": 30
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 5
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Field Test #5",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": -4
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 14,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 7,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 13
+      },
+      "athletics": {
+        "base": 14
+      },
+      "stealth": {
+        "base": 15
+      }
+    },
+    "traits": {
+      "value": [
+        "beast",
+        "cosmic"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "huge"
+      }
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/npc-art/art/pz09500-25_glass_serpent.webp",
+  "items": [
+    {
+      "type": "action",
+      "name": "Ravenous Invisibility",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The glass serpent is naturally @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. When a glass serpent takes a hostile action of any kind, it is @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} instead of undetected until the start of its next turn, as parts of its body become momentarily tangible. A glass serpent that has swallowed a creature becomes visible for the next day as its meal is digested. If the swallowed creature escapes or is otherwise removed, the glass serpent immediately returns to being invisible.</p>"
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "ravenous-invisibility",
+            "toggleable": true,
+            "suboptions": [
+              {
+                "label": "Invisible",
+                "value": "invisible"
+              },
+              {
+                "label": "Hidden",
+                "value": "hidden"
+              }
+            ],
+            "value": false,
+            "selection": "invisible"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML",
+            "predicate": [
+              "ravenous-invisibility:invisible"
+            ],
+            "inMemoryOnly": true
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC",
+            "predicate": [
+              "ravenous-invisibility:hidden"
+            ],
+            "inMemoryOnly": true
+          }
+        ],
+        "slug": "ravenous-invisibility",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "kUMUN8NjFHJpd7Vt",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bpWBGwiDMTaPSZwu.kUMUN8NjFHJpd7Vt"
+    },
+    {
+      "type": "action",
+      "name": "Ambush",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>A creature passes within 20 feet of the glass serpent and has not detected the glass serpent</p>\n<hr />\n<p><strong>Effect</strong> The glass serpent lunges out of hiding. It Strides directly toward the triggering creature and makes a jaws Strike against it. The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to this attack.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "5H9zbFfiLVDHGcyJ",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bpWBGwiDMTaPSZwu.5H9zbFfiLVDHGcyJ"
+    },
+    {
+      "type": "melee",
+      "name": "Jaws",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-15"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "damageRolls": {
+          "LUOAK36qRDWJ5eAw": {
+            "damage": "2d12+8",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 18
+        },
+        "attackEffects": {
+          "value": [
+            "grab"
+          ]
+        }
+      },
+      "effects": [],
+      "_id": "DjcKtG7oDxC3hSak",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bpWBGwiDMTaPSZwu.DjcKtG7oDxC3hSak"
+    },
+    {
+      "type": "melee",
+      "name": "Tail Whip",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "reach-15"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "damageRolls": {
+          "ApkD89PhrJTusHCs": {
+            "damage": "2d10+8",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 18
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "_id": "VBwxFKJyZtrDqoHn",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bpWBGwiDMTaPSZwu.VBwxFKJyZtrDqoHn"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Grab",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        "rules": [],
+        "slug": "grab",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "amNl4N1bpMp3VC9F",
+      "_key": "!actors.items!bpWBGwiDMTaPSZwu.amNl4N1bpMp3VC9F"
+    },
+    {
+      "type": "action",
+      "name": "Concealing Coil",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> The glass serpent's last action was a successful Strike with a tail whip</p>\n<hr />\n<p><strong>Effect</strong> The creature the glass serpent hit is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from all creatures except the glass serpent until that creature moves out of the glass serpent's reach or until the start of the glass serpent's next turn.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Starfinder Field Test #5",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "dQXffmE9QiXZzh9l",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!bpWBGwiDMTaPSZwu.dQXffmE9QiXZzh9l"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Swallow Whole",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Large, @Damage[(2d8+6)[bludgeoning]], Rupture 12</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+        },
+        "rules": [],
+        "slug": "swallow-whole",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "acfP4glvRM8Mi3V8": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "44DUOxS3Y34kVT2f",
+      "_key": "!actors.items!bpWBGwiDMTaPSZwu.44DUOxS3Y34kVT2f"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "starfinder-data-entry",
+      "system": "pf2e",
+      "coreVersion": "11.315",
+      "systemVersion": "5.15.3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "createdTime": 1721860400699,
+    "modifiedTime": 1722569123499,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_id": "bpWBGwiDMTaPSZwu",
+  "sort": 0,
+  "_key": "!actors!bpWBGwiDMTaPSZwu"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Effect: Get in There!",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a +5-foot status bonus to Speed. Increase the distance by an additional 5 feet at 7th level, 12th level, and 17th level.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "slug": "incredible-movement",
+        "type": "status",
+        "value": "ternary(gte(@item.origin.level,17),20,ternary(gte(@item.origin.level,12),15,ternary(gte(@item.origin.level,7),10,5)))"
+      }
+    ],
+    "slug": "effect-get-in-there",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20person%20running.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722218276783,
+    "modifiedTime": 1722218719212,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "QGL2W4n9DS2knbWJ",
+  "sort": 600000,
+  "_key": "!items!QGL2W4n9DS2knbWJ"
+}

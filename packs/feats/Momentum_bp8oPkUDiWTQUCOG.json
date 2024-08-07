@@ -1,0 +1,73 @@
+{
+  "type": "feat",
+  "name": "Momentum",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> Your last action this turn was a successful melee Strike.</p><hr /><p>You use the momentum of your last attack to maneuver around the battlefield, either by leaving photonic images or making great gravity-assisted leaps. Step twice.</p><p><strong>Graviton-Attuned</strong> Increase the movement of your Step actions to 10 feet.</p><p><strong>Photon-Attuned</strong> You leave an afterimage in the square you moved out of at the beginning of this action. This image lasts until the end of your next turn or until another creature enters the space. This afterimage counts as an ally to you and your allies for the purposes of flanking.</p>"
+    },
+    "rules": [],
+    "slug": "momentum",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attuned",
+        "flourish",
+        "solarian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "bp8oPkUDiWTQUCOG",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801592629,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 15200000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!bp8oPkUDiWTQUCOG"
+}

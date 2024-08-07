@@ -1,0 +1,80 @@
+{
+  "folder": null,
+  "name": "Lao Shu Po",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h2>Grandmother Rat</h2><p>Lao Shu Po is an ancestral deity important to many ysoki, even though her self-serving values conflict with their communalist cultures. Legend has it that she was once a simple rat who gnawed on the corpse of a dead god and became divine.</p><p><strong>Areas of Concern</strong> assassins, rats, spies, and thieves</p><p><strong>Edicts</strong> take what you need, betray others before they betray you, survive at all costs</p><p><strong>Anathema</strong> work honestly for something you could steal instead, risk too much for someone else, harm a rat</p>"
+    },
+    "rules": [],
+    "slug": "lao-shu-po",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "darkness",
+        "luck",
+        "swarm",
+        "trickery"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "dex",
+      "int"
+    ],
+    "skill": [
+      "thievery"
+    ],
+    "weapons": [
+      "force-needle"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu",
+      "2": "Compendium.pf2e.spells-srd.Item.6Ot4N22t5tPD51BO",
+      "3": "Compendium.pf2e.spells-srd.Item.EoKBlgf6Smt8opaU"
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/deities/lao%20shu%20po.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722414174396,
+    "modifiedTime": 1722443864680,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "wMQ0TPomtXVaqZct",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!wMQ0TPomtXVaqZct"
+}

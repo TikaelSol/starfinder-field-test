@@ -1,0 +1,79 @@
+{
+  "name": "Korasha Lashunta",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've chosen the adaptive genetics that lead to becoming a korasha. You may be shorter than other lashuntas and would likely excel as a warrior or explorer. You gain an attribute boost to Strength and an attribute flaw to Wisdom, but the free ancestry boost cannot also be Strength. You gain 8 Hit Points from your ancestry instead of 6, and you gain a +1 circumstance bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} foes.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.ancestryhp",
+        "value": 8
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "action:shove",
+              "action:trip"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "korasha-lashunta",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Lashunta",
+      "slug": "lashunta",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.YQY8bvRtNNt6wvx6"
+    }
+  },
+  "_id": "PIfGeS6CEa13tzQa",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "8rqEHVm9lrOajiBb",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708111871880,
+    "modifiedTime": 1722111278279,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!PIfGeS6CEa13tzQa"
+}

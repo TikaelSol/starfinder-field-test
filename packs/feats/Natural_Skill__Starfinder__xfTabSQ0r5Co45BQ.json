@@ -1,0 +1,106 @@
+{
+  "_id": "xfTabSQ0r5Co45BQ",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "Natural Skill (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your ingenuity allows you to learn a wide variety of skills. You gain the trained proficiency rank in two skills of your choice.</p>"
+    },
+    "rules": [
+      {
+        "choices": {
+          "config": "skills",
+          "predicate": [
+            "skill:{choice|value}:rank:0"
+          ]
+        },
+        "flag": "skillOne",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.skillOne}.rank",
+        "value": 1
+      },
+      {
+        "choices": {
+          "config": "skills",
+          "predicate": [
+            "skill:{choice|value}:rank:0"
+          ]
+        },
+        "flag": "skillTwo",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.skillTwo}.rank",
+        "value": 1
+      }
+    ],
+    "slug": "natural-skill",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "human"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.Rfyhlyql1GSoDkI2",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722314223418,
+    "modifiedTime": 1722444024167,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.Rfyhlyql1GSoDkI2"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!xfTabSQ0r5Co45BQ"
+}

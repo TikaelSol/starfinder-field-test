@@ -1,0 +1,76 @@
+{
+  "name": "Practiced Influencer",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're a master at influencing others and using your skills to get the best result out of a social situation. You rarely say the wrong thing or cause a negotiation to go south. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.mtuJWYgaRQJYsEsZ]{Practiced Influencer} action.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.mtuJWYgaRQJYsEsZ"
+      }
+    ],
+    "slug": "practiced-influencer",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "OUPDtka8XK1E1BQA",
+  "img": "icons/skills/social/diplomacy-handshake-yellow.webp",
+  "folder": null,
+  "sort": 8900000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712008496322,
+    "modifiedTime": 1722213993886,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!OUPDtka8XK1E1BQA"
+}

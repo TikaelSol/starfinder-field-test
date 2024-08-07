@@ -1,0 +1,71 @@
+{
+  "_id": "p93VbSFfiIeLNX6v",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "Internal Respirator (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your body can internally synthesize oxygen for limited periods of time. When you hold your breath, you can do so for an additional hour by rebreathing from your internal air reservoirs. At the end of this hour, your air reservoirs are expended. Refilling your empty air reservoirs takes 10 minutes of exposure to breathable air.</p>"
+    },
+    "rules": [],
+    "slug": "internal-respirator",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "android"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.7eyy63BkMv3enk5r",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722306198854,
+    "modifiedTime": 1722444023071,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.7eyy63BkMv3enk5r"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!p93VbSFfiIeLNX6v"
+}

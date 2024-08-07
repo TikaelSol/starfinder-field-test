@@ -1,0 +1,75 @@
+{
+  "type": "feat",
+  "name": "360 No Scope",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are wielding a gun.</p><hr /><p>You fire a trick shot as part of performing a daredevil maneuver, meshing the art of over the top movement with an incredible display of firearm control. You @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.XUBUoDl3FeAG2Uap]{Parkour} and then @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.LRbwV8LMLi6FFKjW]{Aim}. You can make a ranged Strike with the gun you're wielding during this movement, including when you are falling.</p>"
+    },
+    "rules": [],
+    "slug": "360-no-scope",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Parkour"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "xS5NLxFahjcItc1E",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801583824,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 23600000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!xS5NLxFahjcItc1E"
+}

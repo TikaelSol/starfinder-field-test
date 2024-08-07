@@ -1,0 +1,114 @@
+{
+  "name": "Eldritch Wrath",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You channel the unspeakable powers that exist beyond the outer reaches of the universe, dealing 3d12 mental damage to each creature in the area as phantasmal claws, jaws, and tentacles lash out at each target. Each creature in the area must attempt a basic Will save. The area is difficult terrain for any creature sickened by the effects of this spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d12.</p>"
+    },
+    "rules": [],
+    "slug": "eldritch-wrath",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "mental"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "WInxoMiuaApSjgiB": {
+        "formula": "3d12",
+        "kinds": [
+          "damage"
+        ],
+        "type": "mental",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "WInxoMiuaApSjgiB": "1d12"
+      }
+    }
+  },
+  "_id": "YK7tR3Rn9RF8rwag",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276447,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 6200000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!YK7tR3Rn9RF8rwag"
+}

@@ -1,0 +1,96 @@
+{
+  "_id": "zmYNFZO2bvhpgXNC",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "Incredible Improvisation (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You attempt a check using a skill you're untrained in.</p>\n<hr />\n<p>A stroke of brilliance gives you a major advantage with a skill despite your inexperience. Gain a +4 circumstance bonus to the triggering skill check.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "proficiency:untrained",
+          "incredible-improvisation"
+        ],
+        "selector": "skill-check",
+        "type": "circumstance",
+        "value": 4
+      },
+      {
+        "domain": "skill-check",
+        "key": "RollOption",
+        "option": "incredible-improvisation",
+        "toggleable": true
+      }
+    ],
+    "slug": "incredible-improvisation",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "human"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Clever Improviser"
+        }
+      ]
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.lHcDb9oXUdFupRdi",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722314223418,
+    "modifiedTime": 1722444024494,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.lHcDb9oXUdFupRdi"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!zmYNFZO2bvhpgXNC"
+}

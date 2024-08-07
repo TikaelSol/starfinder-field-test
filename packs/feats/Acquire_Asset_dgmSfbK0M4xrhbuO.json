@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Acquire Asset",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You assess a foe while in the thick of battle by observing their reactions to your attack. Make a melee or ranged Strike against a creature that is not your asset. On a hit, your target becomes your asset as if you had used @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.03orjjkalSZC6Mtb]{Size Up}. On a critical hit, you can immediately attempt a check to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about the target.</p>"
+    },
+    "rules": [],
+    "slug": "acquire-asset",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "ownership": {
+    "default": 0,
+    "X4PBxKRd2PcFy3lF": 3,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1710257552566,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "dgmSfbK0M4xrhbuO",
+  "sort": 38500000,
+  "_key": "!items!dgmSfbK0M4xrhbuO"
+}

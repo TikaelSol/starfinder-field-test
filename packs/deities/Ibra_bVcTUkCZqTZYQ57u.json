@@ -1,0 +1,80 @@
+{
+  "folder": null,
+  "name": "Ibra",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h2>The Inscrutable</h2><p>Ibra is an alien god exploring the multiverse through astrophysics and cosmology. Unlike most outer gods, Ibra pushes its worshippers toward enlightenment and connection rather than despair and isolation.</p><p><strong>Areas of Concern</strong> celestial bodies, the cosmos, unity of matter</p><p><strong>Edicts</strong> learn about the cosmos, study science, embrace cosmic unity</p><p><strong>Anathema</strong> fear the unknown, settle for easy answers, undermine the scientific process</p>"
+    },
+    "rules": [],
+    "slug": "ibra",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "knowledge",
+        "star",
+        "sun",
+        "void"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "int",
+      "wis"
+    ],
+    "skill": [
+      "occultism"
+    ],
+    "weapons": [],
+    "spells": {
+      "1": "Compendium.starfinder-field-test-for-pf2e.spells.Item.FXIhLIMgi0QDTr3w",
+      "3": "Compendium.starfinder-field-test-for-pf2e.spells.Item.kRhTFCAsMuO9pFFU",
+      "6": "Compendium.starfinder-field-test-for-pf2e.spells.Item.3cJCpZtUy3Gd6TFP"
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/deities/ibra.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722414174396,
+    "modifiedTime": 1722443864610,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "bVcTUkCZqTZYQ57u",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!bVcTUkCZqTZYQ57u"
+}

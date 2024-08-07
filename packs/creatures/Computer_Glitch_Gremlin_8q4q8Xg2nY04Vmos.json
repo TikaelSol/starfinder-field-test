@@ -1,0 +1,1409 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Computer Glitch Gremlin",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/starfinder-field-test-for-pf2e/art/npc-art/tokens/computer_glitch_gremlin-t_v2.webp",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "randomImg": false,
+    "hexagonalShape": 0,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "name": "Computer Glitch Gremlin",
+  "type": "npc",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 8,
+        "temp": 0,
+        "max": 8,
+        "details": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 20
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "weaknesses": [
+        {
+          "type": "cold-iron",
+          "value": 2,
+          "exceptions": []
+        },
+        {
+          "type": "fire",
+          "value": 2,
+          "exceptions": []
+        }
+      ],
+      "resistances": [
+        {
+          "type": "cold",
+          "value": 1,
+          "exceptions": [],
+          "doubleVs": []
+        },
+        {
+          "type": "electricity",
+          "value": 1,
+          "exceptions": [],
+          "doubleVs": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "aklo",
+          "common"
+        ],
+        "details": "digital telepathy 30 feet"
+      },
+      "level": {
+        "value": -1
+      },
+      "blurb": "",
+      "publicNotes": "<p>Among the dizzying specimens of fey are the glitch gremlins. These typically single-minded fey dedicate their existence in the universe to creating mayhem through their association with specific types of technology. The lowly computer glitch gremlin is one such specimen, having its being intuitively tied with the computerized devices and networks of the modern age. These cavorting fey make it their mission to create as much havoc as they can by influencing computer systems and creating chaos in their wake. Known for their innate ability to communicate with digital devices, these fey routinely become infatuated with such systems, often viewing it as a strange game of how they can best subvert even the most well-protected of digital systems.</p>\n<p>A computer glitch gremlin has an appearance often based on the specific types of data it has consumed, but they almost always stand about 1 foot tall and weigh around 4 pounds. Due to some peculiarity, a large number of computer glitch gremlins take on the telltale appearance of a goblin, save that their eyes are replaced with a digital screen that displays information relevant to their specific interests.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Field Test",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "creatureType": ""
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": {
+        "schema": 0.853,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 5,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 5,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 6,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 4
+      },
+      "athletics": {
+        "base": 3
+      },
+      "crafting": {
+        "base": 5
+      },
+      "stealth": {
+        "base": 4
+      }
+    },
+    "traits": {
+      "value": [
+        "fey",
+        "gremlin",
+        "tech"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "tiny"
+      }
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/Art/npc-art/art/computer_glitch_gremlin.webp",
+  "items": [
+    {
+      "name": "Computers",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 8
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "Or20xEMWVPyfaR0F",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691065970339,
+        "modifiedTime": 1691065987365,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.Or20xEMWVPyfaR0F"
+    },
+    {
+      "name": "Digital Telepathy",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This creature can communicate telepathically with digital devices and with other creatures that can do so.  This allows the creature to attempt Computers checks to access any computer within the telepathy's range.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Starfinder Field Test",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.world.starfinder-2e-bestiary-ability-glossary.Item.ptTZxiNqtUYtmxqd"
+        }
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691066224795,
+        "modifiedTime": 1691066324923,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": "Compendium.world.starfinder-2e-bestiary-ability-glossary.Item.ptTZxiNqtUYtmxqd",
+        "duplicateSource": null
+      },
+      "_id": "MFBJzzh4WIDux6hw",
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.MFBJzzh4WIDux6hw"
+    },
+    {
+      "name": "Sense Tech (100 feet)",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This creature can sense items and creatures with the tech trait within the listed distance.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "detection",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.world.starfinder-2e-bestiary-ability-glossary.Item.3D7Pa17Ygasm9Yf6"
+        }
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691066338169,
+        "modifiedTime": 1691066391721,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": "Compendium.world.starfinder-2e-bestiary-ability-glossary.Item.3D7Pa17Ygasm9Yf6",
+        "duplicateSource": null
+      },
+      "_id": "o2axHZW3R5YdbW0W",
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.o2axHZW3R5YdbW0W"
+    },
+    {
+      "type": "action",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Glitch Aura",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Creatures and items with the tech trait within a @Template[distance:20|type:emanation] of the glitch gremlin struggle to function reliably. Creatures with the tech trait, unattended items with the tech trait, or creatures holding equipment with the tech trait that start their turn in the aura must attempt a @Check[type:will|dc:16] save.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect and the creature or item is temporarily immune to the gremlin's glitch aura for 1 minute.</p>\n<p><strong>Success</strong> The creature or items are unaffected.</p>\n<p><strong>Failure</strong> The creature, item, or all the creature's held items become @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}.</p>\n<p><strong>Critical Failure</strong> The creature, item, or all the creature's held items become @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2}.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        }
+      },
+      "effects": [],
+      "_id": "R0VRGNNZNwJ1UL9P",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.3.0",
+        "coreVersion": "12.328",
+        "createdTime": 1691066446128,
+        "modifiedTime": 1691084379983,
+        "lastModifiedBy": "qA45GVv5hySaf9b5",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.R0VRGNNZNwJ1UL9P"
+    },
+    {
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Bite",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "magical"
+          ],
+          "otherTags": []
+        },
+        "damageRolls": {
+          "bA4RHu1Kt0JeAy0N": {
+            "damage": "1d4+2",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 7
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        }
+      },
+      "effects": [],
+      "_id": "VUMXe2r7LawqxIcD",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691066662243,
+        "modifiedTime": 1691066692460,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.VUMXe2r7LawqxIcD"
+    },
+    {
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Unstable Spark",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "electricity",
+            "magical",
+            "range-20"
+          ],
+          "otherTags": []
+        },
+        "damageRolls": {
+          "xNawpfimyEAqKXAE": {
+            "damage": "1d4+1",
+            "damageType": "electricity",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 7
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        }
+      },
+      "effects": [],
+      "_id": "5sqghRblo80CtKdy",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691066695268,
+        "modifiedTime": 1691066732092,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.5sqghRblo80CtKdy"
+    },
+    {
+      "name": "Primal Innate Spells",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 7,
+          "dc": 16
+        },
+        "tradition": {
+          "value": "primal"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "showUnpreparedSpells": {
+          "value": false
+        },
+        "displayLevels": {}
+      },
+      "_id": "n9dC6xBBVIoihh2c",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691066751321,
+        "modifiedTime": 1691066755475,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.n9dC6xBBVIoihh2c"
+    },
+    {
+      "img": "systems/pf2e/icons/spells/electric-arc.webp",
+      "name": "Electric Arc",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An arc of lightning leaps from one target to another. You deal electricity damage equal to 1d4 plus your spellcasting ability modifier.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
+        },
+        "rules": [],
+        "slug": "electric-arc",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "electricity",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 or 2 creatures"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "applyMod": true,
+            "formula": "1d4",
+            "type": "electricity",
+            "category": null,
+            "materials": [],
+            "kinds": [
+              "damage"
+            ]
+          }
+        },
+        "defense": {
+          "passive": null,
+          "save": {
+            "statistic": "reflex",
+            "basic": true
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "n9dC6xBBVIoihh2c"
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        }
+      },
+      "type": "spell",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691066766014,
+        "modifiedTime": 1691066766014,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf",
+        "duplicateSource": null
+      },
+      "_id": "lQYaUdQYfcXmSL2U",
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.lQYaUdQYfcXmSL2U"
+    },
+    {
+      "img": "systems/pf2e/icons/spells/shocking-grasp.webp",
+      "name": "Thunderstrike",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You call down a tendril of lightning that cracks with thunder, dealing 1d12 electricity damage and 1d4 sonic damage to the target with a basic Reflex save. A target wearing metal armor or made of metal takes a –1 circumstance bonus to its save, and if damaged by the spell is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d12 electricity and 1d4 sonic.</p>"
+        },
+        "rules": [],
+        "slug": "thunderstrike",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "electricity",
+            "manipulate",
+            "sonic"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "6aFqAhfOSz7ukuwr": {
+            "applyMod": false,
+            "formula": "1d12",
+            "type": "electricity",
+            "category": null,
+            "materials": [],
+            "kinds": [
+              "damage"
+            ]
+          },
+          "K00cW8XZuHvutOhE": {
+            "applyMod": false,
+            "formula": "1d4",
+            "type": "sonic",
+            "category": null,
+            "materials": [],
+            "kinds": [
+              "damage"
+            ]
+          }
+        },
+        "defense": {
+          "passive": null,
+          "save": {
+            "statistic": "reflex",
+            "basic": true
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "n9dC6xBBVIoihh2c",
+          "heightenedLevel": 1
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "6aFqAhfOSz7ukuwr": "1d12",
+            "K00cW8XZuHvutOhE": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        }
+      },
+      "type": "spell",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.Item.zDJS8E66UI0himqV"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691066780666,
+        "modifiedTime": 1691066780666,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.zDJS8E66UI0himqV",
+        "duplicateSource": null
+      },
+      "_id": "1WZSJVAv5t1fUD8v",
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.1WZSJVAv5t1fUD8v"
+    },
+    {
+      "img": "systems/pf2e/icons/spells/ghost-sound.webp",
+      "name": "Figment",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You create a simple illusory sound or vision. A sound adds the auditory trait to the spell and the sound can't include intelligible words or elaborate music. A vision adds the visual trait, can be no larger than a 5-foot cube, and is clearly crude and undetailed if viewed from within 15 feet. When you Cast or Sustain the Spell, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} with the illusion, gaining a +2 circumstance bonus to your Deception check. If the attempt fails against a creature, that creature disbelieves the <em>figment</em>.</p>"
+        },
+        "rules": [],
+        "slug": "figment",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "illusion",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": true
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "n9dC6xBBVIoihh2c"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691066789061,
+        "modifiedTime": 1691066789061,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI",
+        "duplicateSource": null
+      },
+      "_id": "KF33FnDU1PxR9uwd",
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.KF33FnDU1PxR9uwd"
+    },
+    {
+      "type": "spell",
+      "name": "Recharge Weapon",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Unreleased</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "cantrip"
+          ],
+          "rarity": "common",
+          "traditions": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "n9dC6xBBVIoihh2c"
+        },
+        "counteraction": false
+      },
+      "effects": [],
+      "_id": "bFJtZdbvPyoLfw5K",
+      "img": "systems/pf2e/icons/default-icons/spell.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691066793703,
+        "modifiedTime": 1691066806039,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.bFJtZdbvPyoLfw5K"
+    },
+    {
+      "type": "spell",
+      "name": "Delete",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Unreleased</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack"
+          ],
+          "rarity": "common",
+          "traditions": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "n9dC6xBBVIoihh2c"
+        },
+        "counteraction": false
+      },
+      "effects": [],
+      "_id": "d5GXQbM3s7vcE40G",
+      "img": "systems/pf2e/icons/default-icons/spell.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691066809401,
+        "modifiedTime": 1691066819953,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.d5GXQbM3s7vcE40G"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Low-Light Vision",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LowLightVision]</p>"
+        },
+        "rules": [],
+        "slug": "low-light-vision",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Bestiary",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.fFu2sZz4KB01fVRc"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "s3Zxb9MShdjB5vHZ": 3
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.2.3",
+        "coreVersion": "12.328",
+        "createdTime": 1691067097767,
+        "modifiedTime": 1691067097767,
+        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.fFu2sZz4KB01fVRc",
+        "duplicateSource": null
+      },
+      "_id": "6f8eTUNeVinUev5v",
+      "_key": "!actors.items!8q4q8Xg2nY04Vmos.6f8eTUNeVinUev5v"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "exportSource": {
+      "world": "starfinder-2e",
+      "system": "pf2e",
+      "coreVersion": "11.306",
+      "systemVersion": "5.2.3"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "coreVersion": "12.330",
+    "createdTime": 1691065889815,
+    "modifiedTime": 1722569172031,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "8q4q8Xg2nY04Vmos",
+  "sort": 5300000,
+  "_key": "!actors!8q4q8Xg2nY04Vmos"
+}

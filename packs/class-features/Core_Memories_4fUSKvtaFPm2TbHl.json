@@ -1,0 +1,73 @@
+{
+  "folder": null,
+  "name": "Core Memories",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Precious memories keep you connected to reality. These memories might involve your family, upbringing, or home world. They might be a series of formative events in your life, such as key turning points, critical decisions, or the serendipitous events which led you to meet someone important to you. Whatever the nature and number of your memories, you can focus on them to remind yourself which of the infinite possible realities impacts you the most: your own.</p><p><strong>Anchor Benefit</strong> You can access core memories from a small part of you that still exists in another reality. During your daily preparations, choose a skill you're trained in. You gain @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{Assurance} in that skill. If you are expert in that skill and the skill has the @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} action, you gain @UUID[Compendium.pf2e.feats-srd.Item.H3I2X0f7v4EzwxuN]{Automatic Knowledge} in that skill.</p><p><strong>Anchoring Action</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.MtvUbSOHg3afFmqu]{Restorative Recollection}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.MtvUbSOHg3afFmqu"
+      }
+    ],
+    "slug": "core-memories",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "witchwarper-anchor"
+      ],
+      "value": [
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "4fUSKvtaFPm2TbHl",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20alien%20brain.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722097756050,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "sort": 4100000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!4fUSKvtaFPm2TbHl"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Upgrades",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "BMj8rInFB3ecSG3i",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722406385763,
+    "modifiedTime": 1722406385763,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!folders!BMj8rInFB3ecSG3i"
+}

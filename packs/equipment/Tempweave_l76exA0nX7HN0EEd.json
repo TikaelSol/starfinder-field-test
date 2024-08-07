@@ -1,0 +1,107 @@
+{
+  "folder": "o4lPEY2w6k5o9O8D",
+  "name": "Tempweave",
+  "type": "armor",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Tempweave suits are reinforced hooded garments woven with thermal fabric and venting wires, popularly worn for trips to Castrovel's jungles and other humid climates.</p>"
+    },
+    "rules": [],
+    "slug": "tempweave",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 45
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0,
+      "inSlot": false
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "light",
+    "group": "composite",
+    "acBonus": 1,
+    "strength": 0,
+    "dexCap": 4,
+    "checkPenalty": -1,
+    "speedPenalty": 0,
+    "runes": {
+      "potency": null,
+      "resilient": null,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "l76exA0nX7HN0EEd",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/jacket%20green.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722224691469,
+    "modifiedTime": 1722359063342,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!l76exA0nX7HN0EEd"
+}
