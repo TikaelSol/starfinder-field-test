@@ -406,9 +406,7 @@
             "Nanite": "Nanite",
             "Operative": "Operative",
             "Pahtra": "Pahtra",
-            "Pahtra": "Pahtra",
             "Polymer": "Polymer",
-            "Ponderous": "Ponderous",
             "Powered": "Powered",
             "Prismeni": "Prismeni",
             "ProfessionalCrafting": "Professional (Crafting)",
@@ -490,8 +488,7 @@
             "Projectile": "Projectile",
             "Shock": "Shock",
             "Sniper": "Sniper",
-            "Sonic": "Sonic",
-            "Tech": "Tech"
+            "Sonic": "Sonic"
         }
     }
 }
