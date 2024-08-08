@@ -437,15 +437,15 @@ border: none;
 }
 .chat-message > .message-content .dice-roll .dice-result > [data-visibility=gm] {
   background: rgb(0, 0, 0, 0);
-  border: 1px dotted rgba(75, 74, 68, 0.5);
+  border: 1px dotted rgb(111, 108, 102);
 }
 .chat-message.emote {
   background: rgba(79, 20, 20, 0.8);/*linear-gradient(45deg, rgb(19, 94, 160) 0%, rgb(18, 17, 69) 100%);*/
-  border: 2px solid rgba(255, 255, 255, 0.9);
+  border: 2px solid rgb(111, 108, 102);
 }
 .chat-message.blind {
   background: rgba(20, 71, 79, 0.8);/*linear-gradient(45deg, rgb(19, 94, 160) 0%, rgb(18, 17, 69) 100%);*/
-  border: 2px solid rgba(255, 255, 255, 0.9);
+  border: 2px solid rgb(111, 108, 102);
 }
 
 
@@ -754,7 +754,7 @@ input[type="password"],
 input[type="date"],
 input[type="time"],
 input[type="search"] {
-  background: rgba(255, 255, 255, 0.025);
+  background: rgba(7, 7, 7, 0.318);
   color: rgb(255, 255, 255, 0.9);
 }
 input[type="text"]::placeholder,
@@ -765,6 +765,35 @@ input[type="time"]::placeholder,
 input[type="search"]::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
+#tooltip.pf2e,
+aside.locked-tooltip.pf2e {
+  border: 2px solid white;
+  padding: 4px;
+  border-image: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
+}
+/*
+.tooltipster-base {
+  border: 2px solid white;
+  border-image: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
+}*/
+.crb-hover .tooltipster-box {
+  border: 2px solid white;
+  border-image: none;
+  box-shadow: 0 0 20px rgba(38, 6, 46, 0.9);
+  background: rgba(38, 6, 46, 0.9);
+  color: rgba(255, 255, 255, 0.9);
+}
+.crb-hover .tooltipster-box .tooltipster-content .hover-content.manage-tabs ul li label {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+
 
 /* Trained, Expert, Master etc Colour*/
 .actor.sheet.character section.window-content .crb-style .pf-rank {
@@ -1139,6 +1168,19 @@ button[data-action="badge-add"] {
 button[data-action="badge-add-label"] {
   color: rgba(255, 255, 255, 0.888);
 }
+button[data-action="revert-damage"] {
+  color: rgba(255, 255, 255, 0.888);
+  background: rgba(0, 0, 0, 0.5);
+}
+.chat-message .message-content .damage-taken button.revert-damage {
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.888);
+  border: 1px solid rgb(255, 255, 255);
+}
+.chat-message .message-content .damage-taken .persistent h4 {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  max-width: fit-content;
+}
 select.badge-type {
   color: rgba(255, 255, 255, 0.888);
 }
@@ -1193,6 +1235,15 @@ select.roll-type-select[aria-label="Roll Visibility"] optgroup[label="Default Ro
 /* Target the option elements within all select elements */
 select option {
   color: rgb(255, 255, 255, 0.9); /* Text color for the options */
+}
+
+button[data-action="double-damage"] img,
+button[data-action="half-damage"] img {
+  filter: invert(1);
+  fill: white;
+}
+.chat-message .message-content .damage-application button.half-damage i.fa-heart-broken {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.526) 50%, rgb(255, 255, 255) 50%);
 }
 
 /* Target all input elements within .form-fields */
@@ -1427,6 +1478,8 @@ span[data-pf2-effect-area] {
   border-width: 2px;
   border-style: solid;
   border-radius: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 :root .damage.color.bludgeoning i[class^=fa-], :root .damage.color.piercing i[class^=fa-], :root .damage.color.slashing i[class^=fa-] {
   color: var(--color-border-physical);
@@ -1620,7 +1673,7 @@ a.inline-roll.blindroll {
 
 .sheet.hazard section.window-content form > header {
   align-items: center;
-  background: url("../art/character-sheet/header.webp");
+  background: rgb(12, 25, 43); /*url("../art/character-sheet/header.webp");*/
   background-blend-mode: multiply;
   background-color: none;
   background-repeat: repeat-x, no-repeat;
