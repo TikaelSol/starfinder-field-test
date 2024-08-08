@@ -1182,6 +1182,13 @@ select {
   color: rgb(255, 255, 255, 0.9); /* Text color for the select box */
   background-color: rgb(39, 16, 39);
 }
+select.roll-type-select[aria-label="Roll Visibility"] {
+  color: rgba(0, 0, 0, 0.9); /* Text color for the select box */
+  background-color: rgb(39, 16, 39);
+}
+select.roll-type-select[aria-label="Roll Visibility"] optgroup[label="Default Roll Mode"] {
+  color: rgba(255, 255, 255, 0.9); /* Text color for the optgroup label */
+}
 
 /* Target the option elements within all select elements */
 select option {
