@@ -4,7 +4,7 @@
   display: grid;
   grid: "sidebar header" 4.625rem "sidebar nav" minmax(min-content, max-content) "sidebar content" 1fr/14.375rem 1fr;
   font-family: var(--body-serif);
-  background: url("../art/character-sheet/header.webp"), url("../art/character-sheet/background.webp");
+  background: url("../art/character-sheet/header.webp");
   background-repeat: repeat-x, no-repeat;
   background-size: auto 5.625rem, cover;
   background-attachment: local;
@@ -227,6 +227,52 @@ ol {
 .actor.sheet.character section.window-content .crb-style aside .sidebar a.roll-icon i {
   color: rgb(255, 255, 255, 0.9);
 }
+aside .sidebar {
+  background-image: none;
+}
+.standard-form .form-group > label {
+  color: rgba(255, 255, 255, 0.9);
+}
+#module-management .package-list .package-title,
+#module-management .package-list .package-metadata,
+#module-management .package-list .package-description {
+  color: rgba(255, 255, 255, 0.9);
+}
+#keybindings .binding .key.uneditable {
+  background: rgba(255, 255, 255, 0.25)
+}
+#invitation-links .connection.open {
+  color: rgb(95, 255, 95);
+}
+#invitation-links .connection.unknown {
+  color: rgba(255, 212, 112, 0.6);
+}
+#invitation-links .connection.closed {
+  color: rgba(255, 86, 100, 0.6);
+}
+tags.tagify.pf2e-tagify {
+  background-color: rgb(39, 16, 39);
+}
+tags.tagify.pf2e-tagify tag {
+  background-color: rgb(45, 79, 106);
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+.tagify__tag > div {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+tags.tagify.pf2e-tagify tag .tagify__tag__removeBtn {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+/* More specific class target */
+.tagify__tag.tagify--noAnim {
+  /* Your styles here */
+  background-color: rgb(45, 79, 106);
+  color: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: none;
+}
+.tagify__tag > div::before {
+  box-shadow: none;
+}
 
 /* selection box colour*/
 .actor.sheet.character section.window-content .crb-style aside select {
@@ -243,7 +289,7 @@ ol {
 .tags.paizo-style .tag,
 .tags.paizo-style select.tag {
   background-color: rgb(45, 79, 106);
-  border: solid rgb(135, 189, 204);
+  border: 2px solid rgb(135, 189, 204);
 }
 
 /* Level Text colour*/
@@ -264,8 +310,16 @@ ol {
 .actor.sheet section.window-content form.crb-style .sheet-body .sheet-content .tab.actions ol.actions-list li.action .name > a:hover {
   color: rgb(255, 255, 255, 0.616);
 }
+.magazine {
+  background-color: rgb(39, 16, 39);
+  color: rgba(255, 255, 255, 0.895);
+  padding-left: 2px;
+  padding-right: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.903);
+  border-radius: 4px;
+}
 /* Change the color of the SVG to white using filter */
-i.icon {
+.magazine .icon {
   filter: invert(1);
 }
 .actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content .item-image.framed {
@@ -275,7 +329,7 @@ i.icon {
   box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 2px rgb(255, 255, 255), inset 0 0 4px rgba(0, 0, 0, 0.25), 0 0 8px rgb(255, 255, 255);
 }
 button {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.95);
   background: rgba(0, 0, 0, 0.515);
 }
 button[data-button="yes"] {
@@ -285,7 +339,7 @@ button[data-button="no"] {
   color: rgba(255, 255, 255, 0.9);
 }
 tags.tags.paizo-style {
-  background-color: rgba(59, 100, 188, 0.075);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 0;
   --tag-bg: var(--color-bg-trait);
   --tag-hover: var(--color-bg-trait);
@@ -297,21 +351,25 @@ tags.tags.paizo-style {
   --readonly-striped: 0;
 }
 [data-visibility=gm]:not(.dice-result > *) {
-  background: rgb(45, 79, 106);
+  background: none;/* rgba(0, 0, 0, 0.5);*/
   border-top-style: solid;
   border-bottom-style: solid;
   border-right-style: solid;
   border-left-style: solid;
-  border-width: 1px;
+  border-width: 0px;
   padding-left: 4px;
   padding-right: 4px;
   border-color: #ffffff;
   outline-style: none;
   border-style: solid;
 }
+[data-visibility=gm]:not(.dice-result > *) [data-visibility=gm] {
+  outline: none;
+  padding-bottom: 4px;
+}
 .chat-message {
-  color: rgba(255, 255, 255, 0.711);
-  background: linear-gradient(45deg, rgb(160, 19, 79) 0%, rgb(50, 17, 69) 100%);
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(68, 14, 82, 0.8);/*linear-gradient(45deg, rgb(160, 19, 79) 0%, rgb(50, 17, 69) 100%);*/
   border: 2px solid #6f6c66;
 }
 .chat-message .message-header {
@@ -325,48 +383,54 @@ border: none;
   padding: 1px;
 }
 .chat-message.whisper {
-  background: linear-gradient(45deg, rgb(19, 94, 160) 0%, rgb(18, 17, 69) 100%);
-  border: 2px solid #545469;
+  background: rgba(20, 54, 79, 0.8);/*linear-gradient(45deg, rgb(19, 94, 160) 0%, rgb(18, 17, 69) 100%);*/
+  border: 2px solid rgba(255, 255, 255, 0.9);
 }
 
 .chat-message > .message-header .flavor-text .target-dc-result .adjusted.increased {
   background: rgb(0, 128, 0);
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
   padding-left: 4px;
   padding-right: 4px;
   color: white;
 }
 .chat-message > .message-header .flavor-text .target-dc-result .adjusted.decreased {
   background: rgb(255, 0, 0);
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
   padding-left: 4px;
   padding-right: 4px;
   color: white;
 }
 .chat-message > .message-header .flavor-text .target-dc-result .degree-of-success .criticalSuccess {
   background: rgb(0, 128, 0);
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
   padding-left: 4px;
   padding-right: 4px;
   color: white;
 }
 .chat-message > .message-header .flavor-text .target-dc-result .degree-of-success .success {
   background: rgb(0, 0, 255);
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
   padding-left: 4px;
   padding-right: 4px;
   color: white;
 }
 .chat-message > .message-header .flavor-text .target-dc-result .degree-of-success .failure {
   background: rgb(255, 69, 0);
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
   padding-left: 4px;
   padding-right: 4px;
   color: white;
 }
 .chat-message > .message-header .flavor-text .target-dc-result .degree-of-success .criticalFailure {
   background: rgb(255, 0, 0);
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
   padding-left: 4px;
   padding-right: 4px;
   color: white;
@@ -375,6 +439,16 @@ border: none;
   background: rgb(0, 0, 0, 0);
   border: 1px dotted rgba(75, 74, 68, 0.5);
 }
+.chat-message.emote {
+  background: rgba(79, 20, 20, 0.8);/*linear-gradient(45deg, rgb(19, 94, 160) 0%, rgb(18, 17, 69) 100%);*/
+  border: 2px solid rgba(255, 255, 255, 0.9);
+}
+.chat-message.blind {
+  background: rgba(20, 71, 79, 0.8);/*linear-gradient(45deg, rgb(19, 94, 160) 0%, rgb(18, 17, 69) 100%);*/
+  border: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+
 form .form-group span.units,
 form .form-group.slim .form-fields > label {
   color: rgba(255, 255, 255, 0.65);
@@ -382,12 +456,42 @@ form .form-group.slim .form-fields > label {
 .app.token-sheet .tab.active[data-tab=appearance] fieldset > legend {
   color: rgba(255, 255, 255, 0.9);
 }
+.dice-roll .dice-formula,
+.dice-roll .dice-total {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 3px;
+  box-shadow: 0 0 2px #FFF inset;
+}
+footer.nue {
+  border-top: 2px groove var(--color-border-light-highlight);
+  color: rgba(255, 255, 255, 0.75);
+}
+a[href],
+a.nue-tab,
+a.nue-action {
+  color: rgba(255, 98, 208, 0.9);
+}
+.chat-message .message-header .flavor-text .modifiers .tag[data-visibility=gm] {
+  background: rgb(45, 79, 106);
+  border-radius: 4px;
+  box-shadow: none;
+  border-width: 1px;
+}
+.tags .tag.tag_transparent,
+.tags .tag option.tag_transparent {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid rgb(135, 189, 204);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.9);
+}
 
 /* Dropdown colour*/
 .crb-style select {
   background-color: rgb(39, 16, 39);
   border: 1px solid rgba(255, 255, 255, 0.701);
-  color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.9);
 }
 .crb-style select[data-action="link-ammo"] {
   background-color: rgb(39, 16, 39);
@@ -419,10 +523,69 @@ button[data-action="auxiliary-action"]{
 /* Strike, Map, Crit etc Text colour*/
 .tags .tag,
 .tags .tag option {
-  background-color: var(--color-pf-primary);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.299);
+  background-color: rgb(45, 79, 106);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9);
   color: var(--color-text-trait);
 }
+.tags .tag[data-action="strike-damage"],
+.tags .tag[data-action="strike-critical"] {
+  background-color: rgb(118, 6, 6);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9);
+  color: var(--color-text-trait);
+}
+
+.filepicker .favorites .path {
+  background: rgb(39, 16, 39);
+}
+
+.result-image img {
+  filter: invert(1);
+}
+
+.crb-style .details-input {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(28, 28, 28, 0.1);
+}
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.pfs > section.level-bump .details-input {
+  display: none; /* Hide the checkbox */
+}
+.cards-config a.card-control {
+  color: rgba(255, 255, 255, 0.9);
+}
+.cards-config a.card-control[disabled] {
+  color: rgba(255, 255, 255, 0.65);
+}
+.actor.sheet section.window-content form.crb-style section.major > header a,
+.actor.sheet section.window-content form.crb-style section.major > .subsection > header a {
+  color: rgba(255, 255, 255, 0.9);
+}
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.pfs > section.level-bump .toggle-label {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 50px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+}
+
+/* Show "ON" when the checkbox is checked */
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.pfs > section.level-bump .details-input:checked ~ .toggle::before {
+  content: "ON";
+  color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 6px;
+  z-index: 0;
+}
+
+/* Show "OFF" when the checkbox is not checked */
+.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.pfs > section.level-bump .details-input:not(:checked) ~ .toggle::after {
+  content: "OFF";
+  color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  right: 6px;
+  z-index: 0;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.15);
+}
+
 
 .tags .tag.tag_secondary,
 .tags .tag option.tag_secondary {
@@ -594,6 +757,14 @@ input[type="search"] {
   background: rgba(255, 255, 255, 0.025);
   color: rgb(255, 255, 255, 0.9);
 }
+input[type="text"]::placeholder,
+input[type="number"]::placeholder,
+input[type="password"]::placeholder,
+input[type="date"]::placeholder,
+input[type="time"]::placeholder,
+input[type="search"]::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
 
 /* Trained, Expert, Master etc Colour*/
 .actor.sheet.character section.window-content .crb-style .pf-rank {
@@ -744,13 +915,141 @@ button[type="submit"] {
 
 /* Window Text Colour*/
 .window-app .window-content {
-  background: url(../art/character-sheet/background.webp) repeat;
-  color: rgba(255, 255, 255, 0.818);
+  background: linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%); /*url(../art/character-sheet/background.webp) repeat;*/
+  color: rgba(255, 255, 255, 0.9);
 }
 .sheet.journal-entry .journal-entry-content {
-  background: url("../art/character-sheet/background.webp") repeat;
+  background: linear-gradient(45deg, rgba(160, 19, 79, 0.9) 0%, rgba(50, 17, 69, 0.9) 100%); /*url(../art/character-sheet/background.webp) repeat;*/
   border: 2px solid rgba(255, 255, 255, 0.9);
 }
+.sheet.familiar form {
+  background: linear-gradient(45deg, rgba(160, 19, 79, 0.9) 0%, rgba(50, 17, 69, 0.9) 100%); /*url(../art/character-sheet/background.webp) repeat;*/
+  background-attachment: local;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 4px 6px 0;
+}
+.sheet.familiar .section-container .section-header {
+  background: rgb(20, 54, 79);
+  border-radius: 3px 3px 0 0;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.9);
+}
+.sheet.familiar .section-container .section-body {
+  border-radius: 3px 3px 0 0;
+  border: 1px solid rgb(255, 255, 255);
+}
+.sheet.familiar .familiar-section .detail label {
+  color: rgba(255, 255, 255, 0.9);
+}
+.sheet.familiar header .header-content .charname input {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.9);
+}
+.sheet.familiar header .header-content .traits span {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgb(45, 79, 106);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.sheet.actor.loot form section.content .inventory .wealth {
+  background-color: rgb(20, 54, 79);
+  color: var(--text-light);
+  border: 2px solid rgb(255, 255, 255, 0.5);
+}
+.sheet.actor.loot form section.content .inventory .inventory-list > header {
+  background-color: rgb(20, 54, 79);
+  color: var(--text-light);
+  border: 2px solid rgb(255, 255, 255, 0.5);
+}
+.sheet.actor.loot form section.sidebar .gm-settings .loot-distribution button {
+  background-color: rgb(20, 54, 79);
+  color: var(--text-light);
+  border: 2px solid rgb(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+.sheet.actor.loot form .sheet-header .sheet-type .type,
+.sheet.actor.loot form .sheet-header .sheet-type .type option {
+  background-color: rgb(20, 54, 79);
+  color: var(--text-light);
+  border: 2px solid rgb(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+.actor.sheet.vehicle .crb-style aside .hitpoints .hp-big .container.current-hp {
+  background-color: #14364f;
+  background-image: linear-gradient(90deg, #14364f 0%, rgb(40, 98, 138) 50%, #14364f 100%);
+  border: 1px solid rgb(255, 255, 255);
+}
+.actor.sheet.vehicle .crb-style aside header h2 {
+  color: rgb(255, 255, 255, 0.9);
+}
+.actor.sheet.vehicle .crb-style aside header .modifiers_button,
+.actor.sheet.vehicle .crb-style aside header h2 {
+  border-bottom: 1px solid rgb(255, 255, 255, 0.9);
+}
+.actor.sheet section.window-content .size-select {
+  border: 2px solid rgb(255, 255, 255, 0.9);
+  color: rgb(255, 255, 255, 0.9);
+}
+.actor.sheet.vehicle .crb-style aside .sidebar_label {
+  color: rgb(255, 255, 255, 0.9);
+}
+.actor.sheet.vehicle .crb-style aside {
+  color: rgb(255, 255, 255, 0.9);
+}
+.actor.sheet section.window-content .rarity-select {
+  border: 2px solid rgb(255, 255, 255, 0.9);
+  color: rgb(255, 255, 255, 0.9);
+}
+
+.sheet.party form {
+  background: linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%); /*url(../art/character-sheet/background.webp) repeat;*/
+  background-size: cover;
+  background-attachment: local;
+}
+.sheet.party form > header {
+  background: url("../art/character-sheet/header.webp");
+  background-repeat: repeat-x, no-repeat;
+  background-size: cover;
+  background-color: none;
+  color: var(--text-light);
+}
+.sheet.party nav.sub-nav {
+  background-color: rgb(12, 25, 43);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+}
+.sheet.party nav.sub-nav a {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.66);
+}
+.sheet.party nav.sub-nav a:hover, .sheet.party nav.sub-nav a.active {
+  color: rgb(255, 255, 255, 0.9);
+}
+.sheet.party header.content-header {
+  background-color: rgb(20, 54, 79);
+  color: rgb(255, 255, 255, 0.9);
+}
+.sheet.party header.content-header button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(255, 255, 255, 0.9);
+  border-radius: 4px;
+  color: rgb(255, 255, 255, 0.9);
+}
+.tagify__input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.pf2e.item.sheet form .sheet-body .tab.active.description .editor a.add-gm-notes,
+.pf2e.item.sheet form .sheet-body .tab.active.description .editor a.editor-edit {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(255, 255, 255, 0.9);
+  border-radius: 4px;
+  box-shadow: 0 0 1px rgb(255, 255, 255, 0.9);
+}
+
 .sf2eplaytest {
   color: rgb(255, 255, 255, 0.9) !important;
   font-family: Good OT;
@@ -958,6 +1257,375 @@ span[data-pf2-effect-area] {
 /* Text Edit Header Background Colour*/
 .prosemirror menu {
   background: rgba(255, 255, 255, 0.273);
+}
+
+/* NPC Sheet*/
+/* Colours */
+.actor.npc.sheet form a.roll {
+  color: rgb(255, 255, 255, 0.9);
+}
+.pf2e.actor form input[type=text], .pf2e.actor form input[type=number] {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+  color:rgb(255, 255, 255, 0.9);
+}
+.actor.npc.sheet form .empty {
+  color: rgb(255, 255, 255, 0.9);
+}
+.actor.npc.sheet form .notes.active .notes-section > h4 {
+  color: rgb(255, 255, 255, 0.9);
+  border-bottom: 2px solid rgb(255, 255, 255, 0.5);
+}
+.actor.npc.sheet form .notes.active .notes-section > .notes-text {
+  color: rgb(255, 255, 255, 0.9);
+}
+.prosemirror menu .pm-dropdown {
+  background: rgba(0, 0, 0, 0.5);
+}
+.actor.npc.sheet form .sheet-body .section-container .section-header {
+  background:  rgb(20, 54, 79);
+  border: 2px solid rgb(255, 255, 255, 0.5);
+  color: var(--text-light);
+}
+.actor.npc.sheet form .sheet-body .entries-list .spellcasting-entry .header {
+  background-color: rgb(20, 54, 79);
+  color: var(--text-light);
+  border: 2px solid rgb(255, 255, 255, 0.5);
+}
+.sidebar{
+  background: url(../art/character-sheet/red_sidebar_top.webp) no-repeat;
+  background-size: cover;
+  background-clip: none;
+}
+
+.sheet-content .sidebar {
+  background: none;
+  background-size: cover;
+  background-clip: none;
+}
+
+.actor.npc.sheet form .sheet-body .tab.inventory.active .coinage .wealth,
+.actor.npc.sheet form .sheet-body .tab.inventory.active header {
+  background: rgb(20, 54, 79);
+}
+.pf2e.actor form {
+  padding: 0px;
+}
+.actor.npc.sheet form .adjustments .adjustment:not(.active),
+.actor.npc.sheet form .trait {
+  background: rgb(20, 54, 79);
+  border: 2px solid rgb(255, 255, 255, 0.5);
+  color: var(--color-text-trait);
+}
+.actor.npc.sheet form ol.spell-list > li.header-row input,
+.actor.npc.sheet form ol.spell-list > li .uses input {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--sub);
+  border-radius: 3px;
+  color: var(--text-light);
+}
+.actor.npc.sheet form ol.spell-list > li.spell[data-slot-expended] h4 {
+  color: rgba(255, 255, 255, 0.616);
+  text-decoration: line-through;
+}
+.actor.sheet section.window-content .item-image.framed {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.actor.npc.sheet form .sheet-body .entries-list .spellcasting-entry .header .inline-field .attack-input,
+.actor.npc.sheet form .sheet-body .entries-list .spellcasting-entry .header .inline-field .dc-input {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+:root .damage {
+  --color-bg-acid: rgb(0, 131, 0);
+  --color-bg-bleed: rgb(134, 0, 0);
+  --color-bg-chaotic: rgba(255, 255, 255, 0.342);
+  --color-bg-cold: #2f2fa6;
+  --color-bg-electricity: darkgoldenrod;
+  --color-bg-evil: indigo;
+  --color-bg-fire: #a62f00;
+  --color-bg-force: #6300aa;
+  --color-bg-good: #9d730a;
+  --color-bg-lawful: #402600;
+  --color-bg-mental: midnightblue;
+  --color-bg-physical: #3c3c3c;
+  --color-bg-poison: #3c580b;
+  --color-bg-sonic: rgb(0, 94, 94);
+  --color-bg-spirit: #0e0091;
+  --color-bg-vitality: #888800;
+  --color-bg-void: #00001f;
+  
+  --color-border-acid: #deffdee7;
+  --color-border-bleed: #ffdce2;
+  --color-border-chaotic: #ffddff;
+  --color-border-cold: #dedeff;
+  --color-border-electricity: #fff3d3;
+  --color-border-evil: #efd8ff;
+  --color-border-fire: #ffe6dc;
+  --color-border-force: #f0dcff;
+  --color-border-good: #fff4d8;
+  --color-border-lawful: #fff3e1;
+  --color-border-mental: #e2e2ff;
+  --color-border-physical: #ffeaea;
+  --color-border-poison: #eeffd2;
+  --color-border-sonic: #daffff;
+  --color-border-spirit: #dfdbff;
+  --color-border-vitality: #ffffde;
+  --color-border-void: #d7d7ff;
+
+  --color-text-acid: #deffdee7;
+  --color-text-bleed: #ffdce2;
+  --color-text-chaotic: #ffddff;
+  --color-text-cold: #dedeff;
+  --color-text-electricity: #fff3d3;
+  --color-text-evil: #efd8ff;
+  --color-text-fire: #ffe6dc;
+  --color-text-force: #f0dcff;
+  --color-text-good: #fff4d8;
+  --color-text-lawful: #fff3e1;
+  --color-text-mental: #e2e2ff;
+  --color-text-physical: #ffeaea;
+  --color-text-poison: #eeffd2;
+  --color-text-sonic: #daffff;
+  --color-text-spirit: #dfdbff;
+  --color-text-vitality: #ffffde;
+  --color-text-void: #d7d7ff;
+}
+:root .damage.color.acid {
+  background-color: var(--color-bg-acid);
+  border-color: var(--color-border-acid);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+  color: var(--color-text-acid);
+}
+:root .damage.color.acid i[class^=fa-] {
+  color: var(--color-border-acid);
+}
+:root .damage.color.bleed {
+  background-color: var(--color-bg-bleed);
+  border-color: var(--color-border-bleed);
+  color: var(--color-text-bleed);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.bleed i[class^=fa-] {
+  color: var(--color-border-bleed);
+}
+:root .damage.color.bludgeoning, :root .damage.color.piercing, :root .damage.color.slashing {
+  background-color: var(--color-bg-physical);
+  border-color: var(--color-border-physical);
+  color: var(--color-text-physical);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.bludgeoning i[class^=fa-], :root .damage.color.piercing i[class^=fa-], :root .damage.color.slashing i[class^=fa-] {
+  color: var(--color-border-physical);
+}
+:root .damage.color.chaotic {
+  background-color: var(--color-bg-chaotic);
+  border-color: var(--color-border-chaotic);
+  color: var(--color-text-chaotic);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.chaotic i[class^=fa-] {
+  color: var(--color-border-chaotic);
+}
+:root .damage.color.cold {
+  background-color: var(--color-bg-cold);
+  border-color: var(--color-border-cold);
+  color: var(--color-text-cold);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.cold i[class^=fa-] {
+  color: var(--color-border-cold);
+}
+:root .damage.color.electricity {
+  background-color: var(--color-bg-electricity);
+  border-color: var(--color-border-electricity);
+  color: var(--color-text-electricity);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.electricity i[class^=fa-] {
+  color: var(--color-border-electricity);
+}
+:root .damage.color.evil {
+  background-color: var(--color-bg-evil);
+  border-color: var(--color-border-evil);
+  color: var(--color-text-evil);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.evil i[class^=fa-] {
+  color: var(--color-border-evil);
+}
+:root .damage.color.fire {
+  background-color: var(--color-bg-fire);
+  border-color: var(--color-border-fire);
+  color: var(--color-text-fire);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.fire i[class^=fa-] {
+  color: var(--color-border-fire);
+}
+:root .damage.color.force {
+  background-color: var(--color-bg-force);
+  border-color: var(--color-border-force);
+  color: var(--color-text-force);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.force i[class^=fa-] {
+  color: var(--color-border-force);
+}
+:root .damage.color.good {
+  background-color: var(--color-bg-good);
+  border-color: var(--color-border-good);
+  color: var(--color-text-good);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.good i[class^=fa-] {
+  color: var(--color-border-good);
+}
+:root .damage.color.lawful {
+  background-color: var(--color-bg-lawful);
+  border-color: var(--color-border-lawful);
+  color: var(--color-text-lawful);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.lawful i[class^=fa-] {
+  color: var(--color-border-lawful);
+}
+:root .damage.color.mental {
+  background-color: var(--color-bg-mental);
+  border-color: var(--color-border-mental);
+  color: var(--color-text-mental);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.mental i[class^=fa-] {
+  color: var(--color-border-mental);
+}
+:root .damage.color.poison {
+  background-color: var(--color-bg-poison);
+  border-color: var(--color-border-poison);
+  color: var(--color-text-poison);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.poison i[class^=fa-] {
+  color: var(--color-border-poison);
+}
+:root .damage.color.sonic {
+  border-color: var(--color-border-sonic);
+  background-color: var(--color-bg-sonic);
+  color: var(--color-text-sonic);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.sonic i[class^=fa-] {
+  color: var(--color-border-sonic);
+}
+:root .damage.color.spirit {
+  border-color: var(--color-border-spirit);
+  background-color: var(--color-bg-spirit);
+  color: var(--color-text-spirit);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.spirit i[class^=fa-] {
+  color: var(--color-border-spirit);
+}
+:root .damage.color.vitality {
+  background-color: var(--color-bg-physical);
+  border-color: var(--color-border-vitality);
+  color: var(--color-text-vitality);
+  text-shadow: 1px 1px var(--color-text-dark-1);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.vitality i[class^=fa-] {
+  color: var(--color-border-vitality);
+}
+:root .damage.color.void {
+  background-color: var(--color-bg-void);
+  border-color: var(--color-border-void);
+  color: var(--color-text-void);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+:root .damage.color.void i[class^=fa-] {
+  color: var(--color-border-void);
+}
+.fa-duotone:after,.fad:after {
+  color: rgb(255, 0, 0);
+}
+.fa-duotone:before,.fad:before {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.9);
+  opacity: var(--fa-primary-opacity,1)
+}
+
+/* Hazards */
+.sheet.hazard section.window-content .section-container .section-header {
+  background: rgb(20, 54, 79);
+  border-radius: 3px 3px 0 0;
+  border: 1px solid rgb(255, 255, 255);
+  color: var(--text-light);
+}
+.sheet.hazard section.window-content .sidebar a.rollable {
+  color: rgba(255, 255, 255, 0.9);
+}
+.sheet.hazard section.window-content .section-container.publication .section-header {
+  background: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+.sheet.hazard section.window-content .section-container .section-body {
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+a.inline-roll.blindroll {
+  background: rgb(45, 79, 106);
+  border-color: rgb(135, 189, 204)
+}
+
+.sheet.hazard section.window-content form > header {
+  align-items: center;
+  background: url("../art/character-sheet/header.webp");
+  background-blend-mode: multiply;
+  background-color: none;
+  background-repeat: repeat-x, no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  color: var(--text-light);
+}
+
+#compendium-browser > section.window-content > .content-box .spell-browser .list-buttons button,
+#license-viewer > section.window-content > .content-box .spell-browser .list-buttons button {
+  line-height: 19px;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 /* styles/custom-ui.css */
