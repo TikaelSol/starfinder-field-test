@@ -104,7 +104,7 @@
 	--color-pf-alternate: var(--alt);
 	--bg-dark: #b0dfe8;
 
-	background: url(../art/sheet/blue_gradient_bottom.webp), white !important;
+	background: url(../art/sheet/blue_gradient_bottom.webp), #e2e7e9 !important;
 	background-size: 100% 5.625rem, auto !important;
 	background-repeat: repeat-x, repeat !important;
 	
