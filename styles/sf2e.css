@@ -1,28 +1,72 @@
 @font-face {
-	font-family: "Raleway";
-	src: local("Raleway"), url("../fonts/Raleway.woff2") format("woff");
-	font-weight: normal;
+	font-family: "Exo2";
+	src: local("Exo2"), 
+		 url("../fonts/Exo2.woff2") format("woff2 supports variations"),
+		 url("../fonts/Exo2.woff2") format("woff2-variations");
+	font-weight: 350;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Raleway";
-	src: local("Raleway"), url("../fonts/Raleway.woff2") format("woff");
-	font-weight: bold;
+	font-family: "Exo2";
+	src: local("Exo2"), 
+		 url("../fonts/Exo2.woff2") format("woff2 supports variations"),
+		 url("../fonts/Exo2.woff2") format("woff2-variations");
+	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Raleway";
-	src: local("Raleway"), url("../fonts/Raleway-Italic.woff2") format("woff");
-	font-weight: normal;
+	font-family: "Exo2";
+	src: local("Exo2-Italic"), 
+		 url("../fonts/Exo2-Italic.woff2") format("woff2 supports variations"),
+		 url("../fonts/Exo2-Italic.woff2") format("woff2-variations");
+	font-weight: 350;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: "Raleway";
-	src: local("Raleway"), url("../fonts/Raleway-Italic.woff2") format("woff");
-	font-weight: bold;
+	font-family: "Exo2";
+	src: local("Exo2-Italic"), 
+		 url("../fonts/Exo2-Italic.woff2") format("woff2 supports variations"),
+		 url("../fonts/Exo2-Italic.woff2") format("woff2-variations");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Saira";
+	src: local("Saira"), 
+		 url("../fonts/Saira.woff2") format("woff2 supports variations"),
+		 url("../fonts/Saira.woff2") format("woff2-variations");
+	font-weight: 350;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Saira";
+	src: local("Saira"), 
+		 url("../fonts/Saira.woff2") format("woff2 supports variations"),
+		 url("../fonts/Saira.woff2") format("woff2-variations");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Saira";
+	src: local("Saira-Italic"), 
+		 url("../fonts/Saira-Italic.woff2") format("woff2 supports variations"),
+		 url("../fonts/Saira-Italic.woff2") format("woff2-variations");
+	font-weight: 350;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Exo2";
+	src: local("Saira-Italic"), 
+		 url("../fonts/Saira-Italic.woff2") format("woff2 supports variations"),
+		 url("../fonts/Saira-Italic.woff2") format("woff2-variations");
+	font-weight: 600;
 	font-style: italic;
 }
 
@@ -34,17 +78,18 @@
 	--color-border-trait: #9edae6;
 	--c-primary: #2c4e69;    /* teal */
 	--c-secondary: #5b3a96;  /* purple */
-  --c-tertiary: #b9519e;   /* pink */
+  	--c-tertiary: #b9519e;   /* pink */
 	--c-accent: #9dd9e5;     /* baby blue */
 	--c-emphasis:#ec2026;    /* red */
-	--c-secondary-light: hsl(262, 44%, calc( 41% / 0.6 ));
+	--c-secondary-light: hsl(262, 44%, calc( 41% / 0.7 ));
 	--c-tertiary-light:  hsl(316, calc( 43% / 0.7 ), calc( 52% / 0.6 ));
 	--c-accent-light:    hsl(190, 58%, calc(76% / 0.7 ));
 	--c-primary-dark:    hsl(207, 41%, calc( 29% / 1.7 ));
+	--c-tertiary-dark:   hsl(316, 43%, calc( 52% / 1.2 ));
 
 	/* Font Overrides */
-	--serif: Raleway, sans-serif;
-	--body-serif: Raleway, sans-serif;
+	--serif: Saira, sans-serif;
+	--body-serif: Exo2, sans-serif;
 	
 	
 	/* Color Overrides */
@@ -57,13 +102,11 @@
 	--sub: #576293;
 	--alt: #3a7b59;
 	--color-pf-alternate: var(--alt);
-	--bg-dark: #bcdcd8;
+	--bg-dark: #b0dfe8;
 
-	background: linear-gradient( to right, var(--c-secondary), var(--c-secondary) 70%, var(--c-tertiary) ), 
-		        linear-gradient( to bottom, var(--c-accent-light) 0%, var(--c-accent-light) 100%) !important;
-	background-size: auto 5.625rem, auto !important;
-	background-repeat: no-repeat, repeat !important;
-	background-attachment: local !important;
+	background: url(../art/sheet/blue_gradient_bottom.webp), white !important;
+	background-size: 100% 5.625rem, auto !important;
+	background-repeat: repeat-x, repeat !important;
 	
 	.pf-rank[data-rank="1"] {
 		background: var(--c-primary);
@@ -89,7 +132,7 @@
 	}
 	
 	> header.char-header .char-level .level {
-		filter: hue-rotate(65deg) brightness(1.6) !important;
+		filter: hue-rotate(270deg) brightness(1.6) !important;
 		 input {		 
 			 font-size: 1rem;
 			 position: relative;
@@ -148,8 +191,9 @@
 	}
 		
 	> aside {
+		--color-pf-secondary: var(--c-tertiary-dark);
 		filter: brightness(1.2);
-		background-image: linear-gradient( to right, var(--c-accent), var(--c-primary) 5%, var(--c-primary) 95%, var(--c-accent) ) !important;
+		background-image: linear-gradient( to right, var(--c-accent), var(--c-primary) 3%, var(--c-primary) 97%, var(--c-accent) ) !important;
 		background-repeat: repeat !important;		
 		
 		&::before {
@@ -170,7 +214,7 @@
 				border: 1px solid var(--c-accent);
 			}	
 			.data-value h2 {
-				color: var(--c-secondary-light) !important;	
+				color: var(--c-tertiary-light) !important;
 			}
 			a.modifier {
 				color: var(--c-accent-light) !important;
