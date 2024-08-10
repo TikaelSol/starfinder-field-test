@@ -37,7 +37,7 @@
             "flags": {}
         }
     ],
-    "styles": ["styles/sf2e-stylesheet.css"],
+    "styles": ["styles/sf2e-pc-stylesheet.css", "styles/sf2e-pcsheet-attributebuilder.css", "styles/sf2e-pcsheet-popouts.css"],
     "scripts": ["scripts/sf2e-Overrides.js"],
     "media": [
         {

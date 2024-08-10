@@ -1,0 +1,219 @@
+/* Pop Up Window*/
+/* Speeds*/
+div[id^="speed-selector-Actor"] .window-content {
+    background-image: none;
+    background: linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
+    color: rgba(255, 255, 255, 0.9);
+}
+div[id^="speed-selector-Actor"] .window-content input[type="text"],
+div[id^="speed-selector-Actor"] .window-content input[type="number"],
+div[id^="speed-selector-Actor"] .window-content input[type="password"],
+div[id^="speed-selector-Actor"] .window-content input[type="date"],
+div[id^="speed-selector-Actor"] .window-content input[type="time"],
+div[id^="speed-selector-Actor"] .window-content input[type="search"],
+div[id^="speed-selector-Actor"] .window-content button {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="speed-selector-Actor"] .window-content input[type="text"]::placeholder,
+div[id^="speed-selector-Actor"] .window-content input[type="number"]::placeholder,
+div[id^="speed-selector-Actor"] .window-content input[type="password"]::placeholder,
+div[id^="speed-selector-Actor"] .window-content input[type="date"]::placeholder,
+div[id^="speed-selector-Actor"] .window-content input[type="time"]::placeholder,
+div[id^="speed-selector-Actor"] .window-content input[type="search"]::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="speed-selector-Actor"] .window-content footer {
+    border: none;
+}
+
+/* Languages */
+div[id^="language-selector-Actor"] .window-content {
+    background-image: none;
+    background: linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
+    color: rgba(255, 255, 255, 0.9);
+}
+div[id^="language-selector-Actor"] .window-content input[type="text"],
+div[id^="language-selector-Actor"] .window-content input[type="number"],
+div[id^="language-selector-Actor"] .window-content input[type="password"],
+div[id^="language-selector-Actor"] .window-content input[type="date"],
+div[id^="language-selector-Actor"] .window-content input[type="time"],
+div[id^="language-selector-Actor"] .window-content input[type="search"],
+div[id^="language-selector-Actor"] .window-content button {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="language-selector-Actor"] .window-content input[type="text"]::placeholder,
+div[id^="language-selector-Actor"] .window-content input[type="number"]::placeholder,
+div[id^="language-selector-Actor"] .window-content input[type="password"]::placeholder,
+div[id^="language-selector-Actor"] .window-content input[type="date"]::placeholder,
+div[id^="language-selector-Actor"] .window-content input[type="time"]::placeholder,
+div[id^="language-selector-Actor"] .window-content input[type="search"]::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="language-selector-Actor"] .window-content footer {
+    border: none;
+}
+
+/* Immunities */
+div[id^="immunities-editor-Actor"] .window-content {
+  background-image: none;
+  background: linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
+  color: rgba(255, 255, 255, 0.9);
+}
+div[id^="immunities-editor-Actor"] .window-content input[type="text"],
+div[id^="immunities-editor-Actor"] .window-content input[type="number"],
+div[id^="immunities-editor-Actor"] .window-content input[type="password"],
+div[id^="immunities-editor-Actor"] .window-content input[type="date"],
+div[id^="immunities-editor-Actor"] .window-content input[type="time"],
+div[id^="immunities-editor-Actor"] .window-content input[type="search"],
+div[id^="immunities-editor-Actor"] .window-content button {
+color: rgba(255, 255, 255, 0.9);
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="immunities-editor-Actor"] .window-content input[type="text"]::placeholder,
+div[id^="immunities-editor-Actor"] .window-content input[type="number"]::placeholder,
+div[id^="immunities-editor-Actor"] .window-content input[type="password"]::placeholder,
+div[id^="immunities-editor-Actor"] .window-content input[type="date"]::placeholder,
+div[id^="immunities-editor-Actor"] .window-content input[type="time"]::placeholder,
+div[id^="immunities-editor-Actor"] .window-content input[type="search"]::placeholder {
+color: rgba(255, 255, 255, 0.3);
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="immunities-editor-Actor"] .window-content footer {
+  border: none;
+}
+div[id^="immunities-editor-Actor"] .iwr-type {
+color: rgba(255, 255, 255, 0.9);
+}
+div[id^="immunities-editor-Actor"] option,
+div[id^="immunities-editor-Actor"] optgroup {
+  background: rgba(0, 0, 0, 0.16);
+  color: black;
+}
+
+/* Weaknesses */
+div[id^="weaknesses-editor-Actor"] .window-content {
+  background-image: none;
+  background: linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
+  color: rgba(255, 255, 255, 0.9);
+}
+div[id^="weaknesses-editor-Actor"] .window-content input[type="text"],
+div[id^="weaknesses-editor-Actor"] .window-content input[type="number"],
+div[id^="weaknesses-editor-Actor"] .window-content input[type="password"],
+div[id^="weaknesses-editor-Actor"] .window-content input[type="date"],
+div[id^="weaknesses-editor-Actor"] .window-content input[type="time"],
+div[id^="weaknesses-editor-Actor"] .window-content input[type="search"],
+div[id^="weaknesses-editor-Actor"] .window-content button {
+color: rgba(255, 255, 255, 0.9);
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="weaknesses-editor-Actor"] .window-content input[type="text"]::placeholder,
+div[id^="weaknesses-editor-Actor"] .window-content input[type="number"]::placeholder,
+div[id^="weaknesses-editor-Actor"] .window-content input[type="password"]::placeholder,
+div[id^="weaknesses-editor-Actor"] .window-content input[type="date"]::placeholder,
+div[id^="weaknesses-editor-Actor"] .window-content input[type="time"]::placeholder,
+div[id^="weaknesses-editor-Actor"] .window-content input[type="search"]::placeholder {
+color: rgba(255, 255, 255, 0.3);
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="weaknesses-editor-Actor"] .window-content footer {
+  border: none;
+}
+div[id^="weaknesses-editor-Actor"] .iwr-type {
+color: rgba(255, 255, 255, 0.9);
+}
+div[id^="weaknesses-editor-Actor"] option,
+div[id^="weaknesses-editor-Actor"] optgroup {
+  background: rgba(0, 0, 0, 0.16);
+  color: black;
+}
+
+
+/* Resistances */
+div[id^="resistances-editor-Actor"] .window-content {
+  background-image: none;
+  background: linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
+  color: rgba(255, 255, 255, 0.9);
+}
+div[id^="resistances-editor-Actor"] .window-content input[type="text"],
+div[id^="resistances-editor-Actor"] .window-content input[type="number"],
+div[id^="resistances-editor-Actor"] .window-content input[type="password"],
+div[id^="resistances-editor-Actor"] .window-content input[type="date"],
+div[id^="resistances-editor-Actor"] .window-content input[type="time"],
+div[id^="resistances-editor-Actor"] .window-content input[type="search"],
+div[id^="resistances-editor-Actor"] .window-content button {
+color: rgba(255, 255, 255, 0.9);
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="resistances-editor-Actor"] .window-content input[type="text"]::placeholder,
+div[id^="resistances-editor-Actor"] .window-content input[type="number"]::placeholder,
+div[id^="resistances-editor-Actor"] .window-content input[type="password"]::placeholder,
+div[id^="resistances-editor-Actor"] .window-content input[type="date"]::placeholder,
+div[id^="resistances-editor-Actor"] .window-content input[type="time"]::placeholder,
+div[id^="resistances-editor-Actor"] .window-content input[type="search"]::placeholder {
+color: rgba(255, 255, 255, 0.3);
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="resistances-editor-Actor"] .window-content footer {
+  border: none;
+}
+div[id^="resistances-editor-Actor"] .iwr-type {
+color: rgba(255, 255, 255, 0.9);
+}
+div[id^="resistances-editor-Actor"] option,
+div[id^="resistances-editor-Actor"] optgroup {
+  background: rgba(0, 0, 0, 0.16);
+  color: black;
+}
+
+/* Immunities */
+div[id^="identify-item"] .window-content {
+  background-image: none;
+  background: linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
+  color: rgba(255, 255, 255, 0.9);
+}
+div[id^="identify-item"] .window-content input[type="text"],
+div[id^="identify-item"] .window-content input[type="number"],
+div[id^="identify-item"] .window-content input[type="password"],
+div[id^="identify-item"] .window-content input[type="date"],
+div[id^="identify-item"] .window-content input[type="time"],
+div[id^="identify-item"] .window-content input[type="search"],
+div[id^="identify-item"] .window-content button {
+color: rgba(255, 255, 255, 0.9);
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="identify-item"] .window-content input[type="text"]::placeholder,
+div[id^="identify-item"] .window-content input[type="number"]::placeholder,
+div[id^="identify-item"] .window-content input[type="password"]::placeholder,
+div[id^="identify-item"] .window-content input[type="date"]::placeholder,
+div[id^="identify-item"] .window-content input[type="time"]::placeholder,
+div[id^="identify-item"] .window-content input[type="search"]::placeholder {
+color: rgba(255, 255, 255, 0.3);
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="identify-item"] .window-content footer {
+  border: none;
+}
+div[id^="identify-item"] .iwr-type {
+color: rgba(255, 255, 255, 0.9);
+}
+div[id^="identify-item"] option,
+div[id^="identify-item"] optgroup {
+  background: rgba(0, 0, 0, 0.16);
+  color: black;
+}

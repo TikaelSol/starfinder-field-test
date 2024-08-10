@@ -8,6 +8,13 @@ Hooks.on('renderCharacterSheetPF2e', (app, html, data) => {
     });
   }
 
+  document.querySelectorAll('.window-content').forEach(element => {
+    if (element.querySelector('.char-header')) {
+      element.classList.add('char-header-container');
+    }
+  });
+  
+
   // Select the button with data-compendium="pf2e.ancestries"
   let ancestryButton = document.querySelector('a[data-compendium="pf2e.ancestries"]');
   if (ancestryButton) {
