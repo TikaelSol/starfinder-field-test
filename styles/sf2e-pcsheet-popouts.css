@@ -179,7 +179,7 @@ div[id^="resistances-editor-Actor"] optgroup {
   color: black;
 }
 
-/* Immunities */
+/* Identify Items */
 div[id^="identify-item"] .window-content {
   background-image: none;
   background: linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
@@ -214,6 +214,87 @@ color: rgba(255, 255, 255, 0.9);
 }
 div[id^="identify-item"] option,
 div[id^="identify-item"] optgroup {
+  background: rgba(0, 0, 0, 0.16);
+  color: black;
+}
+
+/* Spellcasting Dialog */
+div[id^="spellcasting-dialog"] .window-content {
+  background-image: none;
+  background: linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
+  color: rgba(255, 255, 255, 0.9);
+}
+div[id^="spellcasting-dialog"] .window-content input[type="text"],
+div[id^="spellcasting-dialog"] .window-content input[type="number"],
+div[id^="spellcasting-dialog"] .window-content input[type="password"],
+div[id^="spellcasting-dialog"] .window-content input[type="date"],
+div[id^="spellcasting-dialog"] .window-content input[type="time"],
+div[id^="spellcasting-dialog"] .window-content input[type="search"],
+div[id^="spellcasting-dialog"] .window-content button {
+color: rgba(255, 255, 255, 0.9);
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="spellcasting-dialog"] .window-content input[type="text"]::placeholder,
+div[id^="spellcasting-dialog"] .window-content input[type="number"]::placeholder,
+div[id^="spellcasting-dialog"] .window-content input[type="password"]::placeholder,
+div[id^="spellcasting-dialog"] .window-content input[type="date"]::placeholder,
+div[id^="spellcasting-dialog"] .window-content input[type="time"]::placeholder,
+div[id^="spellcasting-dialog"] .window-content input[type="search"]::placeholder {
+color: rgba(255, 255, 255, 0.3);
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="spellcasting-dialog"] .window-content footer {
+  border: none;
+}
+div[id^="spellcasting-dialog"] .iwr-type {
+color: rgba(255, 255, 255, 0.9);
+}
+div[id^="spellcasting-dialog"] option,
+div[id^="spellcasting-dialog"] optgroup {
+  background: rgba(0, 0, 0, 0.16);
+  color: black;
+}
+div[id^="spellcasting-dialog"] select {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Add Coins */
+div[id^="add-coins"] .window-content {
+  background-image: none;
+  background: linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
+  color: rgba(255, 255, 255, 0.9);
+}
+div[id^="add-coins"] .window-content input[type="text"],
+div[id^="add-coins"] .window-content input[type="number"],
+div[id^="add-coins"] .window-content input[type="password"],
+div[id^="add-coins"] .window-content input[type="date"],
+div[id^="add-coins"] .window-content input[type="time"],
+div[id^="add-coins"] .window-content input[type="search"],
+div[id^="add-coins"] .window-content button {
+color: rgba(255, 255, 255, 0.9);
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="add-coins"] .window-content input[type="text"]::placeholder,
+div[id^="add-coins"] .window-content input[type="number"]::placeholder,
+div[id^="add-coins"] .window-content input[type="password"]::placeholder,
+div[id^="add-coins"] .window-content input[type="date"]::placeholder,
+div[id^="add-coins"] .window-content input[type="time"]::placeholder,
+div[id^="add-coins"] .window-content input[type="search"]::placeholder {
+color: rgba(255, 255, 255, 0.3);
+background-color: rgba(0, 0, 0, 0.16);
+}
+
+div[id^="add-coins"] .window-content footer {
+  border: none;
+}
+div[id^="add-coins"] .iwr-type {
+color: rgba(255, 255, 255, 0.9);
+}
+div[id^="add-coins"] option,
+div[id^="add-coins"] optgroup {
   background: rgba(0, 0, 0, 0.16);
   color: black;
 }
