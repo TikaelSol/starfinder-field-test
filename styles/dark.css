@@ -1,32 +1,122 @@
+@font-face {
+  font-family: "Exo2";
+  src: local("Exo2"), url("../fonts/Exo2.woff2") format("woff2 supports variations"),
+    url("../fonts/Exo2.woff2") format("woff2-variations");
+  font-weight: 350;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Exo2";
+  src: local("Exo2"), url("../fonts/Exo2.woff2") format("woff2 supports variations"),
+    url("../fonts/Exo2.woff2") format("woff2-variations");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Exo2";
+  src: local("Exo2-Italic"), url("../fonts/Exo2-Italic.woff2") format("woff2 supports variations"),
+    url("../fonts/Exo2-Italic.woff2") format("woff2-variations");
+  font-weight: 350;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Exo2";
+  src: local("Exo2-Italic"), url("../fonts/Exo2-Italic.woff2") format("woff2 supports variations"),
+    url("../fonts/Exo2-Italic.woff2") format("woff2-variations");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Saira";
+  src: local("Saira"), url("../fonts/Saira.woff2") format("woff2 supports variations"),
+    url("../fonts/Saira.woff2") format("woff2-variations");
+  font-weight: 350;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Saira";
+  src: local("Saira"), url("../fonts/Saira.woff2") format("woff2 supports variations"),
+    url("../fonts/Saira.woff2") format("woff2-variations");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Saira";
+  src: local("Saira-Italic"), url("../fonts/Saira-Italic.woff2") format("woff2 supports variations"),
+    url("../fonts/Saira-Italic.woff2") format("woff2-variations");
+  font-weight: 350;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Exo2";
+  src: local("Saira-Italic"), url("../fonts/Saira-Italic.woff2") format("woff2 supports variations"),
+    url("../fonts/Saira-Italic.woff2") format("woff2-variations");
+  font-weight: 600;
+  font-style: italic;
+}
+
 /* Character Sheet Image Replacements */
 /* Header and Background */
 .actor.sheet .window-content.char-header-container form.crb-style {
+
+  /* Font Overrides */
+  --serif: Saira, sans-serif;
+  --body-serif: Exo2, sans-serif;
+
   display: grid;
   grid: "sidebar header" 4.625rem "sidebar nav" minmax(min-content, max-content) "sidebar content" 1fr/14.375rem 1fr;
   font-family: var(--body-serif);
-  background: url("../art/character-sheet/header.webp"), linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
+  background: url("../assets/theme/dark/header.webp"), linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
   background-repeat: repeat-x, no-repeat;
   background-size: auto 5.625rem, cover;
   background-attachment: local;
   height: 100%;
 }
 
+.app.sheet.actor.character section.window-content form.crb-style {
+  > aside {
+
+    &::before {
+      content: "";
+      float: left;
+      opacity: 1;
+      background-image: url("../assets/sf-logo.webp");
+      background-size: contain;
+      width: 234px;
+      height: 56px;
+      position: relative;
+      left: -0.5rem;
+      top: 0;
+    }
+
+    img.logo {
+      display: none;
+    }
+  }
+}
 .window-content.char-header-container {
   background-image: none;
 }
 
 .actor.sheet.character .window-content.char-header-container .crb-style aside {
-  background-image: url("../art/character-sheet/red_sidebar_top.webp"), url("../art/character-sheet/red_sidebar_bottom.webp");
+  background-image: url("../assets/theme/dark/red_sidebar_top.webp"), url("../assets/theme/dark/red_sidebar_bottom.webp");
 }
 
 
 .actor.sheet .window-content.char-header-container form.crb-style header.char-header .char-level .level {
-  background: url("../art/character-sheet/level-badge.webp") no-repeat;
+  background: url("../assets/theme/dark/level-badge.webp") no-repeat;
 }
 
 .actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar .armor-class .ac.hp,
 .actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar .armor-class .shield.hp {
-  background: url("../art/character-sheet/shield-red.webp") no-repeat center center;
+  background: url("../assets/theme/dark/shield-red.webp") no-repeat center center;
   grid-area: shield-hp;
 }
 

@@ -134,6 +134,7 @@
         "SETTINGS": {
             "Theme": {
                 "Light": "Light",
+                "Dark" : "Dark",
                 "Name": "PC Sheet Theme",
                 "None": "None (Pathfinder)"
             }

@@ -37,8 +37,13 @@
             "flags": {}
         }
     ],
+    "styles": [
+        "styles/dark.css", 
+        "styles/light.css"
+    ],
     "scripts": [
-        "sf2e.mjs"
+        "sf2e.mjs", 
+        "scripts/sf2e-Overrides.js"
     ],
     "media": [
         {
