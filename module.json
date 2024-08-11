@@ -37,8 +37,14 @@
             "flags": {}
         }
     ],
-    "styles": ["styles/sf2e-pc-stylesheet.css", "styles/sf2e-pcsheet-attributebuilder.css"],
-    "scripts": ["scripts/sf2e-Overrides.js"],
+    "styles": [
+        "styles/dark.css", 
+        "styles/light.css"
+    ],
+    "scripts": [
+        "sf2e.mjs", 
+        "scripts/sf2e-Overrides.js"
+    ],
     "media": [
         {
             "type": "setup",
