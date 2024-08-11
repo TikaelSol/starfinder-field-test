@@ -131,6 +131,13 @@
                 "TouchingProjectorLabel": "Touching Projector"
             }
         },
+        "SETTINGS": {
+            "Theme": {
+                "Light": "Light",
+                "Name": "PC Sheet Theme",
+                "None": "None (Pathfinder)"
+            }
+        },
         "Skill": {
             "Computers": "Computers",
             "Piloting": "Piloting"
