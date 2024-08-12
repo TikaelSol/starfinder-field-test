@@ -714,7 +714,7 @@
 
     > aside {
       --color-pf-secondary: var(--c-tertiary-dark);
-      background-image: url("../assets/theme/dark/red_sidebar_top.webp"), url("../assets/theme/dark/red_sidebar_bottom.webp");
+      background-image: url("../assets/theme/dark/dark_sidebar_top.webp"), url("../assets/theme/dark/dark_sidebar_bottom.webp");
 
       &::before {
         content: "";
