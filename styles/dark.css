@@ -47,7 +47,7 @@
 }
 
 @font-face {
-  font-family: "Saira";
+  font-family: "Saira-Italic";
   src: local("Saira-Italic"), url("../fonts/Saira-Italic.woff2") format("woff2 supports variations"),
     url("../fonts/Saira-Italic.woff2") format("woff2-variations");
   font-weight: 350;
@@ -55,753 +55,717 @@
 }
 
 @font-face {
-  font-family: "Exo2";
+  font-family: "Saira-Italic";
   src: local("Saira-Italic"), url("../fonts/Saira-Italic.woff2") format("woff2 supports variations"),
     url("../fonts/Saira-Italic.woff2") format("woff2-variations");
   font-weight: 600;
   font-style: italic;
 }
 
-/* Character Sheet Image Replacements */
-/* Header and Background */
-.actor.sheet .window-content.char-header-container form.crb-style {
+.app.sheet.actor.character section.window-content {
+
+  background-image: none;
+
+  form.crb-style {
+  /* Color Definitions */
+  --color-bg-trait: #14364f;
+  --color-bg-trait-dark: #0c192b;
+  --color-bg-trait-dark-transparent: rgba(0, 0, 0, 0.2);
+  --color-bg-trait-light: #ffffff;
+  --color-bd-text-input: rgba(0, 0, 0, 0.255);
+  --color-border-trait: #ffffffb6;
+  --c-primary: rgba(255, 255, 255, 0.9);
+  --c-secondary: #72236a;
+  --c-tertiary: #14364f;
+  --c-accent: #ffffff;
+  --c-emphasis: #ffffff;
+  --c-damage: rgba(122, 10, 10, 0.627);
+  --c-secondary-light: #72236a;
+  --c-tertiary-light: #ffffff;
+  --c-accent-light: #ffffff;
+  --c-accent-dark: #14364f;
+  --c-primary-dark: hsl(207, 41%, calc(29% / 1.7));
+  --c-tertiary-dark: hsl(316, 43%, calc(52% / 1.2));
+  --c--bg-tag-primary: #14364f;
+  --c--bg-tag-secondary: #c02175;
+  --c--bg-tag-tertiary: #354f14;
+  --c--bg-tag-alt: #144f4c;
+  --visibility-gm-bg: rgba(0, 0, 0, 0.5);
 
   /* Font Overrides */
   --serif: Saira, sans-serif;
   --body-serif: Exo2, sans-serif;
 
-  display: grid;
-  grid: "sidebar header" 4.625rem "sidebar nav" minmax(min-content, max-content) "sidebar content" 1fr/14.375rem 1fr;
-  font-family: var(--body-serif);
-  background: url("../assets/theme/dark/header.webp"), linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
-  background-repeat: repeat-x, no-repeat;
-  background-size: auto 5.625rem, cover;
-  background-attachment: local;
-  height: 100%;
-}
+  /* Color Overrides */
+  --sidebar-title: var(--c-accent);
+  --sidebar-label: var(--c-tertiary-light);
+  --color-pf-primary: var(--c-primary);
+  --color-pf-secondary: var(--c-secondary-light);
+  --color-pf-tertiary: var(--c-tertiary-light);
+  --primary: var(--c-primary);
+  --sub: #ffffff;
+  --alt: #14364f;
+  --color-pf-alternate: var(--alt);
+  --bg-dark: #14364f;
+  --text-light: rgba(255, 255, 255, 0.9);
+  --text-light-inactive: rgba(255, 255, 255, 0.5);
 
-.app.sheet.actor.character section.window-content form.crb-style {
-  > aside {
+    background: none, linear-gradient(45deg, rgba(160, 19, 79, 0.85) 0%, rgba(50, 17, 69, 0.85) 100%);
+    background-size: 100% 5.625rem, auto;
+    background-repeat: repeat-x, repeat;
 
-    &::before {
-      content: "";
-      float: left;
-      opacity: 1;
-      background-image: url("../assets/sf-logo.webp");
-      background-size: contain;
-      width: 234px;
-      height: 56px;
-      position: relative;
-      left: -0.5rem;
-      top: 0;
+    .pf-rank[data-rank="1"] {
+      background: var(--c-accent-dark);
     }
 
-    img.logo {
-      display: none;
+    .pf-rank[data-rank="2"] {
+      background: var(--c-secondary);
+    }
+
+    .pf-rank[data-rank="3"] {
+      background: #3a7b59;
+    }
+
+    .pf-rank[data-rank="4"] {
+      background: #98503d;
+    }
+
+    div.data-value {
+      input {
+        position: relative;
+        top: -0.3rem;
+      }
+    }
+
+    .content-link,
+    .inline-roll {
+      color: var(--text-light);
+      background-color: var(--c--bg-tag-primary);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+      padding-bottom: 3px;
+      padding-top: 1px;
+    }
+
+    .content-link i,
+    .inline-roll i {
+      color: var(--text-light);
+    }
+
+    span[data-pf2-effect-area] {
+      background: var(--c--bg-tag-primary);
+      border-radius: 2px;
+      border: 1px solid var(--color-border-dark-tertiary);
+      box-sizing: border-box;
+      color: var(--text-light);
+      padding: 0 var(--space-4);
+      white-space: nowrap;
+      word-break: break-all;
+      cursor: pointer;
+      padding-right: 0;
+    }
+    span[data-pf2-effect-area] > i.icon {
+      color: var(--text-light);
+      margin-right: var(--space-4);
+    }
+    span[data-pf2-effect-area]::before {
+      color: var(--text-light);
+    }
+    span[data-pf2-effect-area]:hover {
+      text-shadow: 0 0 8px var(--color-shadow-primary);
+    }
+
+    i[data-pf2-repost] {
+      transition: text-shadow 0.15s ease-in-out, background-color 0.15s ease-in-out, border 0.15s ease-in-out, color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      background: var(--inline-repost-bg);
+      color: var(--text-light-inactive);
+      border-left: 1px solid var(--color-border-dark-tertiary);
+      background: none;
+      padding: var(--space-2);
+      margin-left: var(--space-2);
+      text-shadow: none;
+    }
+    i[data-pf2-repost]:hover {
+      color: var(--text-light);
+      text-shadow: 0 0 8px var(--color-shadow-primary);
+    }
+
+    a.inline-check,
+    span[data-pf2-check] {
+      background: var(--c--bg-tag-primary);
+      border-radius: 2px;
+      border: 1px solid var(--color-border-dark-tertiary);
+      box-sizing: border-box;
+      color: var(--text-light);
+      padding: 0 var(--space-4);
+      white-space: nowrap;
+      word-break: break-all;
+    }
+    a.inline-check > i.icon,
+    span[data-pf2-check] > i.icon {
+      color: var(--text-light-inactive);
+      margin-right: var(--space-4);
+    }
+    a.inline-check:has([data-pf2-repost]),
+    span[data-pf2-check]:has([data-pf2-repost]) {
+      padding-right: 0;
+    }
+    a.inline-check:hover,
+    span[data-pf2-check]:hover {
+      text-shadow: 0 0 8px var(--color-shadow-primary);
+    }
+
+    [data-visibility=gm]:not(.dice-result > *) {
+      background: var(--visibility-gm-bg);
+      border-radius: 1px;
+      box-sizing: border-box;
+      display: inline-block;
+      line-height: 1em;
+      outline: 1px dotted rgba(75, 74, 68, 0.5);
+      padding: var(--space-1);
+    }
+    [data-visibility=gm]:not(.dice-result > *).message-sender {
+      align-self: center;
+      margin-bottom: var(--space-4);
+      max-width: fit-content;
+    }
+    [data-visibility=gm]:not(.dice-result > *) [data-visibility=gm] {
+      outline: none;
+      padding: initial;
+    }
+
+    input[type="checkbox"]:checked,
+    input[type="radio"]:checked,
+    .pf2e.item.sheet form .sheet-content input[type=checkbox],
+    .pf2e.item.sheet form .sheet-content select {
+      background: none;
+      accent-color: var(--color-bg-trait-dark-transparent);
+      border: 1px solid rgb(255, 255, 255);
+    }
+
+    .details-input {
+      color: var(--text-light);
+      background-color: var(--color-bd-text-input);
+    }
+
+    .details-input:focus {
+      border-bottom: 1px solid var(--alt);
+    }
+
+    select {
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .prosemirror menu {
+      background: var(--menu-background);
+
+    }
+    .prosemirror menu .concurrent-users {
+      background: var(--color-control-bg);
+    }
+    .prosemirror menu button.source-code-action {
+      background: var(--color-control-bg);
+    }
+    .prosemirror menu button:hover,
+    .prosemirror menu button.active {
+      box-shadow: none;
+      background: var(--color-hover-bg);
+      color: black;
+    }
+    .prosemirror menu .pm-dropdown {
+      background: none;
+    }
+    .prosemirror menu .pm-dropdown i.fa-chevron-down {
+      color: var(--color-text-light-7);
+    }
+    .prosemirror menu .pm-dropdown:hover i {
+      color: var(--color-text-dark-primary);
+    }
+
+    .tags.light > .tag,
+    .tags > .tag.light {
+      --tag-color: var(--color-pf-alternate-dark);
+      background: none;
+      border-radius: 2px;
+      border: 1px solid var(--c-accent);
+      box-shadow: none;
+      color: var(--text-light);
+      padding-bottom: 3px;
+    }
+
+    .tags .tag[data-action="strike-damage"],
+    .tags .tag[data-action="strike-critical"] {
+      background-color: var(--c-damage);
+      border-radius: 2px;
+      border-color: var(--color-border-trait);
+      box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
+      color: var(--color-text-trait);
+    }
+
+    .tags .tag,
+    .tags .tag option {
+      background-color: var(--c--bg-tag-primary);
+      border-radius: 2px;
+      box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
+      color: var(--color-text-trait);
+    }
+    .tags .tag.tag_secondary,
+    .tags .tag option.tag_secondary {
+      background-color: var(--c--bg-tag-secondary);
+    }
+    .tags .tag.tag_tertiary,
+    .tags .tag option.tag_tertiary {
+      background-color: var(--c--bg-tag-tertiary);
+    }
+    .tags .tag.tag_alt,
+    .tags .tag option.tag_alt {
+      background-color: var(--c--bg-tag-alt);
+    }
+    .tags .tag.ghost-touch,
+    .tags .tag option.ghost-touch {
+      background-color: #222933;
+    }
+    .tags .tag.tag_material,
+    .tags .tag option.tag_material {
+      background-color: var(--color-pf-alternate-dark);
+    }
+    .tags .tag.tag_transparent,
+    .tags .tag option.tag_transparent {
+      background-color: transparent;
+      border-radius: 4px;
+      box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.3);
+      color: var(--color-text-dark-secondary);
+      font-family: var(--sans-serif);
+      line-height: 1.5em;
+      padding: 0 0.5em;
+      text-transform: none;
+    }
+    .tags .tag.rarity.common, .tags .tag.rarity[value=common],
+    .tags .tag.rarity > option[value=common],
+    .tags .tag option.rarity.common,
+    .tags .tag option.rarity[value=common],
+    .tags .tag option.rarity > option[value=common] {
+      background-color: var(--color-rarity-common);
+    }
+    .tags .tag.rarity.uncommon, .tags .tag.rarity[value=uncommon],
+    .tags .tag.rarity > option[value=uncommon],
+    .tags .tag option.rarity.uncommon,
+    .tags .tag option.rarity[value=uncommon],
+    .tags .tag option.rarity > option[value=uncommon] {
+      background-color: var(--color-rarity-uncommon);
+    }
+    .tags .tag.rarity.rare, .tags .tag.rarity[value=rare],
+    .tags .tag.rarity > option[value=rare],
+    .tags .tag option.rarity.rare,
+    .tags .tag option.rarity[value=rare],
+    .tags .tag option.rarity > option[value=rare] {
+      background-color: var(--color-rarity-rare);
+    }
+    .tags .tag.rarity.unique, .tags .tag.rarity[value=unique],
+    .tags .tag.rarity > option[value=unique],
+    .tags .tag option.rarity.unique,
+    .tags .tag option.rarity[value=unique],
+    .tags .tag option.rarity > option[value=unique] {
+      background-color: var(--color-rarity-unique);
+    }
+    .tags .tag.mystified,
+    .tags .tag option.mystified {
+      opacity: 0.7;
+    }
+
+    > header.char-header .char-level .level {
+      filter: hue-rotate(270deg) brightness(1.6);
+      input {
+        font-size: 1rem;
+        position: relative;
+        top: -0.2rem;
+      }
+    }
+
+    ol.spell-list > li.header-row {
+      background-color: rgba(58, 123, 89, 0.1);
+    }
+
+    ul.items > li:nth-of-type(even),
+    ol.feats-list li.slot:nth-child(odd),
+    ol.spell-list li:nth-child(odd):not(.header-row) {
+      background-color: rgba(113, 127, 127, 0.1);
+    }
+
+    nav.sub-nav {
+      background-color: var(--color-bg-trait-dark);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+
+      a {
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+        color: var(--text-light-inactive);
+      }
+
+      a:hover, 
+      a.active {
+        color: var(--text-light);
+      }
+
+    }
+
+    .item-summary .description .addendum {
+      border-image-source: none;
+      border-style: none;
+      background: none;
+      border-radius: 4px;
+      color: var(--text-light);
+      padding: var(--space-4);
+      margin: 0 0 var(--space-8);
+    }
+
+    > nav.sheet-navigation {
+      z-index: 2;
+      background: linear-gradient(to right, var(--color-bg-trait-dark), var(--color-bg-trait-dark));
+
+      .item {
+        box-shadow: 0 0 0 1px var(--color-pf-tertiary), 0 0 0 2px var(--c-accent), inset 0 0 4px rgba(0, 0, 0, 0.25);
+        
+        &.active {
+          background-image: radial-gradient(circle at center, var(--c-secondary), var(--c-secondary));
+          box-shadow: 0 0 0 1px var(--color-pf-tertiary), 0 0 0 2px var(--c-accent), inset 0 0 4px rgba(0, 0, 0, 0.25),
+            0 0 8px var(--color-pf-tertiary);
+        }
+
+        &:hover,
+        &.active:hover {
+          background-image: radial-gradient(circle at center, var(--c-secondary), var(--c-tertiary));
+          box-shadow: 0 0 0 1px var(--color-pf-tertiary), 0 0 0 2px var(--c-accent), inset 0 0 4px rgba(0, 0, 0, 0.25),
+            0 0 8px var(--color-pf-tertiary);
+        }
+      }
+    }
+
+    > .sheet-body .sheet-content {
+      color: var(--text-light);
+
+      .tab.active.character .subsection.details .image-container .actor-image {
+          box-shadow: 0 0 0 1px #888e91, 0 0 0 2px #d0e0e2, 0 0 0 3px var(--c-accent), inset 0 0 8px rgba(0, 0, 0, 0.5),
+            0 0 8px black;
+      }
+
+      .magazine {
+        background-color: var(--color-bg-trait);
+        color: rgba(255, 255, 255, 0.895);
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+        border-radius: 4px;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+      }
+
+      .magazine .icon {
+        filter: invert(1);
+      }
+
+      .item-image.framed,
+      .item-image.framed i {
+        background-color: var(--color-bg-trait-light);
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 2px rgba(0, 0, 0, 0.2);    
+      }
+
+      .tab.actions ol.actions-list li.action .item-summary, 
+      .tab.actions ol.actions-list li.strike .item-summary {
+        border-image: none;
+        border: none;
+        border: 1px solid var(--color-border-trait);
+        border-radius: 4px;
+      }
+
+      .toggles button.selected,
+      .toggles button.selected::before {
+        background: var(--color-bg-trait-light);
+        color: var(--text-light);
+      }
+      .toggles button.selected i.fa-solid,
+      .toggles button.selected i.fa-solid.blast {
+        color: var(--text-light);
+      }
+
+      > .tab.active.actions {
+        ol.actions-list li.strike:not(.ready) h4.name {
+          color: var(--text-light-inactive);
+        }
+        ol.actions-list {
+          li.strike .button-group button {
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+
+      > .tab.active.actions ol.actions-list .toggles button.selected {
+        background: var(--color-bg-trait-light);
+      }
+      > .tab.active.actions ol.actions-list .toggles button.selected::before {
+        background: var(--color-bg-trait-dark-transparent);
+      }
+
+
+
+      button {
+        border: 1px solid rgba(255, 255, 255, 0.701);
+        color: rgba(255, 255, 255, 0.9);
+      }
+
+      input[type="text"],
+      input[type="number"],
+      input[type="password"],
+      input[type="date"],
+      input[type="time"],
+      input[type="search"] {
+        color: rgba(255, 255, 255, 0.9);
+        background-color: var(--color-bg-trait-dark-transparent);
+      }
+
+      .currency {
+        background-color: var(--color-bg-trait);
+
+        .currency-image {
+          box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.9), inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+        }
+
+        li > button {
+          background-color: var(--color-bg-trait-light);
+          box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25), inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 3px rgba(0, 0, 0, 0.5);
+          color: var(--text-dark);
+        }
+      }
+
+      .inventory ul.items {
+        border: none;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 2px rgba(0, 0, 0, 0.2);   
+        > li {
+          > .data .item-controls {
+            color: rgb(255, 255, 255, 0.9);
+    
+            > a.toggle-invested.active, 
+            > a.item-carry-type.active {
+              color: rgba(255, 255, 255, 0.336);
+            }
+            > a.toggle-invested, 
+            > a.item-carry-type {
+              color: rgba(255, 255, 255, 0.336);
+            }
+          }
+          .item-summary {
+            background: none;
+            border-bottom: 1px solid var(--color-border-trait);
+            border-top: 1px solid var(--color-border-trait);
+            border-left: none;
+            border-right: none;
+            flex: 100%;
+            padding: var(--space-4) var(--space-8) var(--space-8);
+          }
+        }
+      }
+
+      .directory-list .action-header {
+        background: var(--color-bg-trait);
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.3), inset 0 0 0 2px rgba(255, 255, 255, 0.2);
+      }
+
+      > .tab.active.spellcasting .spellcasting-entry {
+        .spell-ability-data .skill-score {
+          color: var(--c-accent);
+        }
+
+        .rollable .d20-svg path {
+          fill: var(--c-accent);
+        }
+      }
+
+      ol.spell-list > li {
+        .item-summary {
+          background: none;
+          border-bottom: 1px solid var(--sub);
+          border-top: 1px solid #aca5a3;
+        }
+        .item-name h4 > a:hover {
+          color: var(--text-light-inactive);
+          text-shadow: none;
+        }
+        &.spell[data-slot-expended] h4 {
+          color: var(--text-light-inactive);
+          text-decoration: line-through;
+        }
+      }
+
+      > .tab.active.crafting {
+        li.known-formulas ol.formula-list li.formula-level-header.formula-level-header,
+        li.known-formulas ol.formula-list li.formula-item.formula-level-header,
+        li.crafting-entry ol.formula-list li.formula-level-header.formula-level-header,
+        li.crafting-entry ol.formula-list li.formula-item.formula-level-header {
+          background: rgba(96, 88, 86, 0.25);
+          border: 1px solid var(--sub);
+          padding: 0 var(--space-4);
+          color: var(--text-light);
+          font: 600 var(--font-size-12) var(--sans-serif);
+          height: 1.25rem;
+          margin: 0;
+        }
+        .crafting-options {
+          border-image-source: none;
+          border-style: solid;
+          border-width: 3px;
+          border-top-width: 1px;
+          border-radius: 8px;
+          border-color: var(--c-accent);
+        }
+      }
+
+      > .tab.active.proficiencies ul.proficiencies-list li {
+        border-image-source: none;
+        border-style: solid;
+        border-width: 3px;
+        border-top-width: 1px;
+        border-radius: 8px;
+        border-color: var(--c-accent);
+
+        a.hover {
+          text-decoration: underline var(--color-pf-tertiary-darker);
+          text-underline-offset: 0.125em;
+        }
+
+        a.d20 {
+          filter: drop-shadow(0 0 1px var(--color-shadow-dark)) drop-shadow(0 0 2px var(--color-text-dark-4)) drop-shadow(0 0 3px var(--color-text-light-3));
+          padding: var(--space-4);
+        }
+      }
+
+      > .tab.active.feats ol.feats-list li.slot {
+        ol.nested-items {
+          border-left: var(--space-3) dotted var(--color-border-trait);
+        }
+        .item-name .feat-slot-title {
+          display: flex;
+          font: 600 var(--font-size-15) var(--serif);
+          color: var(--text-light-inactive);
+          justify-content: center;
+          width: 1.25rem;
+          margin-left: var(--space-6);
+        }
+      }
+
+
+      > .tab.active.biography {
+        section .editor .editor-edit {
+          background: none;
+          color: var(--text-light);
+          box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+        }
+        section.editable .editor,
+        section.editable input {
+          background: var(--color-bg-trait-dark-transparent);
+        }
+      }
+      section.major > header a,
+      section.major > .subsection > header a {
+        color: var(--text-light);
+      }
+
+      > .tab.active.character .subsection {
+        &.details .abcd .detail h3 {
+          color: var(--text-light);
+          background-color: var(--color-bd-text-input);
+        }
+
+        &.speeds .speed {
+          .label {
+            color: var(--text-light);
+          }
+
+          .value.rollable svg path {
+            fill: var(--text-light);
+          }
+
+          .value,
+          .value i {
+            color: var(--text-light);
+            fill: var(--text-light);
+          }
+
+          .value:hover,
+          .value i:hover {
+            filter: drop-shadow(0 0 1px var(--color-shadow-dark)) drop-shadow(0 0 2px var(--color-text-dark-4)) drop-shadow(0 0 3px var(--color-text-light-3));
+          }
+        }
+
+        &.attributes ul {
+          .label {
+            color: var(--text-light);
+          }
+
+          h3.modifier {
+            border-image-source: none;
+            border-style: solid;
+            border-width: 3px;
+            border-top-width: 1px;
+            border-radius: 8px;
+            border-color: var(--c-accent);
+          }
+        }
+      }
+    }
+
+    > aside {
+      --color-pf-secondary: var(--c-tertiary-dark);
+      background-image: url("../assets/theme/dark/red_sidebar_top.webp"), url("../assets/theme/dark/red_sidebar_bottom.webp");
+
+      &::before {
+        content: "";
+        float: left;
+        opacity: 1;
+        background-image: url("../assets/sf-logo.webp");
+        background-size: contain;
+        width: 234px;
+        height: 56px;
+        position: relative;
+        left: -0.5rem;
+        top: 0;
+        margin-top: 11px;
+        margin-bottom: 5px;
+      }
+
+      .sidebar {
+        select {
+          border: 1px solid var(--c-accent);
+          background-color: var(--c-accent-dark);
+        }
+        .data-value h2 {
+          color: var(--c-tertiary-light);
+        }
+        a.modifier {
+          color: var(--c-accent-light);
+          text-decoration: underline var(--c-accent-light);
+        }
+        button {
+          color: var(--c-emphasis);
+          background: var(--c-accent-dark);
+        }
+        .hitpoints .hp-big .container.current-hp {
+          background-image: linear-gradient(to right, var(--color-bg-trait-dark), var(--c-primary-dark), var(--color-bg-trait-dark));
+        }
+        .roll-data a.modifier.hover {
+          text-decoration: underline var(--color-pf-tertiary-darker);
+        }
+        .armor-class {
+          .ac {
+            filter: hue-rotate(65deg) brightness(1.6);
+          }
+          .shield.hp {
+            filter: hue-rotate(225deg) brightness(1.6);
+          }
+        }
+      }
+
+      img.logo {
+        display: none;
+      }
     }
   }
-}
-.window-content.char-header-container {
-  background-image: none;
-}
-
-.actor.sheet.character .window-content.char-header-container .crb-style aside {
-  background-image: url("../assets/theme/dark/red_sidebar_top.webp"), url("../assets/theme/dark/red_sidebar_bottom.webp");
-}
-
-
-.actor.sheet .window-content.char-header-container form.crb-style header.char-header .char-level .level {
-  background: url("../assets/theme/dark/level-badge.webp") no-repeat;
-}
-
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar .armor-class .ac.hp,
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar .armor-class .shield.hp {
-  background: url("../assets/theme/dark/shield-red.webp") no-repeat center center;
-  grid-area: shield-hp;
-}
-
-.actor.sheet .window-content.char-header-container header.char-header .char-level .level,
-.actor.sheet .window-content.char-header-container header.char-header .char-details h1.char-name input[type=text],
-.actor.sheet .window-content.char-header-container header.char-header .char-details h1.char-name span.non-editable,
-.actor.sheet .window-content.char-header-container header.char-header .char-level .level input,
-.actor.sheet .window-content.char-header-container header.char-header .char-level .exp-data input,
-.actor.sheet .window-content.char-header-container header.char-header .char-details .dots h4,
-.actor.sheet .window-content.char-header-container header.char-header .char-level .level label {
-  color: white;
-}
-
-.actor.sheet .window-content.char-header-container section.tab.character {
-  color: white;
-}
-
-/* Ensure readability for specific elements */
-.actor.sheet .window-content.char-header-container section.tab.character .details-label,
-.actor.sheet .window-content.char-header-container section.tab.character .value,
-.actor.sheet .window-content.char-header-container section.tab.character .tags li.tag,
-.actor.sheet .window-content.char-header-container section.tab.character h3,
-.actor.sheet .window-content.char-header-container section.tab.character h2,
-.actor.sheet .window-content.char-header-container section.tab.character h1,
-.actor.sheet .window-content.char-header-container section.tab.character label,
-.actor.sheet .window-content.char-header-container section.tab.character input,
-.actor.sheet .window-content.char-header-container section.tab.character .attribute .label {
-  color: rgb(255, 255, 255, 0.9); /* Ensure all these specific elements have white text */
-}
-.actor.sheet .window-content.char-header-container section.tab.character h3 {
-  color: rgba(255, 255, 255, 0.662);
-
-}
-
-/* Attributes heading text colour */
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.attributes ul .abbreviation {
-  color: rgb(255, 255, 255, 0.9);
-}
-
-/* Attributes underneath text colour */
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.attributes ul .label {
-  color: rgb(255, 255, 255);
-  opacity: 0.65;
-}
-
-/* Languages, Speed and Attribute Modifiers heading text colour */
-.actor.sheet .window-content.char-header-container form.crb-style section.major > header,
-.actor.sheet .window-content.char-header-container form.crb-style section.major > .subsection > header {
-  color: rgb(255, 255, 255, 0.9);
-  border-bottom: 1px solid rgb(255, 255, 255);
-}
-
-/* Replace Frame Image */
-.actor.sheet.character section.window-content .crb-style .sheet-body .sheet-content > .tab.active.crafting .crafting-options,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.proficiencies ul.proficiencies-list li,
-.actor.sheet .window-content.char-header-container .item-summary .description .addendum,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.attributes ul h3.modifier {
-  border-image-source: url("../assets/sheet/elegant-frame.webp");
-  border-image-slice: 0;
-  border-image-width: 0;
-  border-bottom-style: solid;
-  border-top-style: solid;
-  border-top-width: 0.01em;
-  border-left-style: solid; 
-  border-right-style: solid;  
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  border-color: rgba(255, 255, 255, 0.604);
-}
-
-/* Land, Swim, Slimb, Fly and Burrow heading text colour */
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.speeds .speed .label {
-  color: rgb(255, 255, 255, 0.9);
-}
-
-/* Speed numbers text value colour */
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.speeds .speed .value {
-  color: rgb(255, 255, 255, 0.9);
-}
-
-/* Hero Points text value colour */
-.actor.sheet.character .window-content.char-header-container .crb-style header.char-header .char-details .dots .label {
-  color: rgb(255, 255, 255, 0.9);
-}
-
-/* Edit button text colour */
-.actor.sheet .window-content.char-header-container form.crb-style section.major > header button,
-.actor.sheet .window-content.char-header-container form.crb-style section.major > .subsection > header button {
-  color: rgb(255, 255, 255, 0.9);
-  border-left-color: rgb(255, 255, 255);
-  border-bottom-color: rgb(255, 255, 255);
-  border-right-color: rgb(255, 255, 255);
-  border-top-color: rgb(255, 255, 255);
-}
-
-/* Climb and Swim dice symbol */
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.speeds .speed .value.rollable svg path {
-  fill: rgb(255, 255, 255);
-  opacity: 0.85;
-}
-
-/* Ancestry, Heritage, Background, Class and Deity edit button colour */
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.details .abcd .detail h3 {
-  color: rgb(255, 255, 255, 0.9);
-}
-
-/* Ancestry, Heritage, Background, Class and Deity background colour */
-.crb-style .details-input,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.details .image-container,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.details .abcd .detail h3 {
-  background-color: rgba(0, 0, 0, 0.337);
-}
-
-/* Running Symbol - Land Speed*/
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.character .subsection.speeds .speed .value i {
-  color: rgb(255, 255, 255);
-  opacity: 0.85;
-}
-
-/* Languages Background and Border colour */
-.actor.sheet .window-content.char-header-container .tags.light > .tag,
-.actor.sheet .window-content.char-header-container .tags > .tag.light {
-  background-color: rgba(0, 0, 0, 0.337);
-  color: rgb(255, 255, 255, 0.9);
-  border-bottom-color: rgba(255, 255, 255, 0.389);
-  border-left-color: rgba(255, 255, 255, 0.389);
-  border-right-color: rgba(255, 255, 255, 0.389);
-  border-top-color: rgba(255, 255, 255, 0.389);
-  padding-bottom: 0.1em;
-}
-
-/* Standard Lists - Languages Background and Border bottom margin */
-.actor.sheet .window-content.char-header-container ul,
-.actor.sheet .window-content.char-header-container ol {
-  margin: 0.5em 0;
-  padding: 0 0 0.5em 1.5em;
-}
-
-.actor.sheet .window-content.char-header-container form.crb-style nav.sheet-navigation .item {
-  color: rgb(255, 255, 255, 0.9);
-  fill: rgb(255, 255, 255);
-  box-shadow: 0 0 0 1px rgb(215, 119, 206), 0 0 0 2px #d777ce, inset 0 0 4px rgba(93, 0, 185, 0.25);
-}
-
-/* Navigation background */
-.actor.sheet .window-content.char-header-container form.crb-style nav.sheet-navigation {
-  background: url("../assets/sheet/border-pattern.webp") repeat-x top, url("../assets/sheet/border-pattern.webp") repeat-x bottom, var(--color-pf-secondary);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
-  background-color: rgb(12, 25, 43);
-}
-.actor.sheet .window-content.char-header-container form.crb-style nav.sheet-navigation .item.active {
-  box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 2px rgb(255, 255, 255), inset 0 0 4px rgba(0, 0, 0, 0.25), 0 0 8px rgb(255, 255, 255);
-  background-image: linear-gradient(90deg, #14364f 0%, rgb(40, 98, 138) 50%, #14364f 100%);
-}
-
-/* Current HP Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar .hitpoints .hp-big .container.current-hp {
-  background-color: #14364f;
-  background-image: linear-gradient(90deg, #14364f 0%, rgb(40, 98, 138) 50%, #14364f 100%);
-  border: 1px solid rgb(255, 255, 255);
-}
-/* Max HP Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar .data-value h2 {
-  color: rgb(200, 222, 255, 0.9);
-}
-
-/* Sidebar Text Heading Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar header h2 {
-  color: rgb(255, 255, 255, 0.9);
-}
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar header button,
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar header h2 {
-  border-bottom: 1px solid rgb(255, 255, 255);
-}
-
-/* Fort, Wis, Will Save Text Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar .sidebar_label {
-  color: rgb(255, 255, 255, 0.9);
-}
-
-/* Fort, Wis, Will Save modifier Text Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar .roll-data .modifier,
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar .roll-data h3 {
-  color: rgb(255, 255, 255, 0.9);
-}
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar .roll-data a.modifier.hover {
-  text-decoration: underline rgb(255, 255, 255);
-}
-
-/* Sidebar Perception Symbols Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar a.roll-icon svg path {
-  fill: rgb(255, 255, 255);
-}
-.actor.sheet.character .window-content.char-header-container .crb-style aside,
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar a.roll-icon i {
-  color: rgb(255, 255, 255, 0.9);
-}
-
-/* selection box colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style aside select {
-  border: 1px solid #ffffff;
-  background-color: rgb(20, 54, 79);
-  color: rgb(255, 255, 255);
-}
-
-/* Level Text colour*/
-.actor.sheet .window-content.char-header-container form.crb-style header.char-header .char-level .level label {
-  color: rgb(255, 255, 255, 0.9);
-}
-
-/* Actions Tab*/
-/* Level Text colour*/
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content {
-  color: rgb(255, 255, 255, 0.9);
-}
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.actions ol.actions-list li.strike:not(.ready) h4.name {
-  color: rgb(195, 195, 195);
-}
-
-/* Actions Text Hovor colour*/
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content .tab.actions ol.actions-list li.action .name > a:hover {
-  color: rgb(255, 255, 255, 0.616);
-}
-.actor.sheet .window-content.char-header-container .magazine {
-  background-color: rgb(39, 16, 39);
-  color: rgba(255, 255, 255, 0.895);
-  padding-left: 2px;
-  padding-right: 2px;
-  border: 1px solid rgba(255, 255, 255, 0.903);
-  border-radius: 4px;
-}
-/* Change the color of the SVG to white using filter */
-.actor.sheet .window-content.char-header-container .magazine .icon {
-  filter: invert(1);
-}
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content .item-image.framed {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content .item-image.framed, .actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content .item-image.framed i {
-  box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 2px rgb(255, 255, 255), inset 0 0 4px rgba(0, 0, 0, 0.25), 0 0 8px rgb(255, 255, 255);
-}
-
-/* Encounter, Exploration, Downtime Background colour*/
-.actor.sheet .window-content.char-header-container form.crb-style nav.sub-nav {
-  background-color: rgb(12, 25, 43);
-}
-
-/* Encounter, Exploration, Downtime Text colour*/
-.actor.sheet .window-content.char-header-container form.crb-style nav.sub-nav a:hover, .actor.sheet .window-content.char-header-container form.crb-style nav.sub-nav a.active {
-  color: rgb(255, 255, 255, 0.9);
-}
-.actor.sheet .window-content.char-header-container form.crb-style nav.sub-nav a {
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
-  color: rgb(195, 195, 195);
-}
-
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.pfs > section.level-bump .details-input {
-  display: none; /* Hide the checkbox */
-}
-
-.actor.sheet .window-content.char-header-container form.crb-style section.major > header a,
-.actor.sheet .window-content.char-header-container form.crb-style section.major > .subsection > header a {
-  color: rgba(255, 255, 255, 0.9);
-}
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.pfs > section.level-bump .toggle-label {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  width: 50px; /* Adjust as needed */
-  height: 20px; /* Adjust as needed */
-}
-
-/* Show "ON" when the checkbox is checked */
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.pfs > section.level-bump .details-input:checked ~ .toggle::before {
-  content: "ON";
-  color: rgba(255, 255, 255, 0.9);
-  position: absolute;
-  left: 6px;
-  z-index: 0;
-}
-
-/* Show "OFF" when the checkbox is not checked */
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.pfs > section.level-bump .details-input:not(:checked) ~ .toggle::after {
-  content: "OFF";
-  color: rgba(255, 255, 255, 0.9);
-  position: absolute;
-  right: 6px;
-  z-index: 0;
-  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.15);
-}
-
-/* Sheath, Drop, etc Text colour*/
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content .tab.actions ol.actions-list li.action button.use-action:not(:disabled), .actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content .tab.actions ol.actions-list li.strike button.use-action:not(:disabled) {
-  background: rgb(39, 16, 39);
-  cursor: pointer;
-}
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content .tab.actions ol.actions-list li.action button.use-action:not(:disabled):hover, .actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content .tab.actions ol.actions-list li.strike button.use-action:not(:disabled):hover {
-  box-shadow: inset 0 0 0 1px rgb(255, 255, 255), inset 0 0 0 2px rgba(255, 255, 255, 0.701);
-}
-
-/* Inventory Tab*/
-/* Inventory Background Header Text colour*/
-.actor.sheet .window-content.char-header-container .currency,
-.actor.sheet .window-content.char-header-container .inventory .inventory-list > header,
-.actor.sheet .window-content.char-header-container .inventory .total-bulk,
-.actor.sheet .window-content.char-header-container .wealth {
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.096), inset 0 0 0 2px rgba(255, 255, 255, 0.096);
-  background-color: rgb(20, 54, 79);
-}
-
-/* Inventory Text Hovor colour*/
-.actor.sheet .window-content.char-header-container .inventory ul.items > li > .data .item-name h3:hover,
-.actor.sheet .window-content.char-header-container .inventory ul.items > li > .data .item-name h4:hover {
-  color: rgb(255, 255, 255, 0.616);
-}
-
-/* Equip icons colour - edit, bin*/
-.actor.sheet .window-content.char-header-container .inventory ul.items > li > .data .item-controls {
-  color: rgb(255, 255, 255, 0.9);
-}
-/* Equip icons colour - equiped*/
-.actor.sheet .window-content.char-header-container .inventory ul.items > li > .data .item-controls > a.toggle-invested.active, .actor.sheet .window-content.char-header-container .inventory ul.items > li > .data .item-controls > a.item-carry-type.active {
-  color: rgba(255, 255, 255, 0.336);
-}
-.actor.sheet .window-content.char-header-container .inventory ul.items > li > .data .item-controls > a.toggle-invested, .actor.sheet .window-content.char-header-container .inventory ul.items > li > .data .item-controls > a.item-carry-type {
-  color: rgba(255, 255, 255, 0.336);
-}
-
-/* Quantity Text colour*/
-.actor.sheet .window-content.char-header-container .inventory ul.items > li > .data .item-name .uses {
-  color: rgb(255, 255, 255, 0.9);
-}
-
-/* Currency Buttons*/
-.actor.sheet .window-content.char-header-container .currency li > button {
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25), inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 3px rgba(0, 0, 0, 0.5);
-  color: rgba(0, 0, 0, 0.75);
-}
-
-/* Currency Images*/
-.actor.sheet .window-content.char-header-container .currency .denomination .currency-image {
-  box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 2px var(--tertiary), 0 0 0 3px rgb(255, 255, 255);
-  height: 1.5rem;
-  width: 1.5rem;
-  background-size: cover !important;
-}
-
-/* Inventory Expanded Description Background Colour */
-.actor.sheet .window-content.char-header-container .inventory ul.items > li .item-summary {
-  background: rgba(255, 255, 255, 0);
-  border-bottom: 1px solid var(--color-pf-alternate);
-  border-top: 1px solid var(--color-pf-alternate);
-}
-
-/* Encumberance Images*/
-.actor.sheet .window-content.char-header-container .inventory .encumbrance img {
-  box-shadow: 0 0 0 1px var(--tertiary), 0 0 0 2px #ffffff, inset 0 0 var(--inset-shadow-length) rgba(0, 0, 0, 0.5);
-}
-
-/* Encumberance Bar Colour*/
-.actor.sheet .window-content.char-header-container .inventory .encumbrance .encumbrance-bar {
-  background-color: rgb(12, 25, 43);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5), inset 0 0 0 2px rgba(255, 255, 255, 0.2);
-}
-
-/* Spellcasting Tab*/
-/* Spell Header*/
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content .directory-list .action-header {
-  background: rgb(20, 54, 79);
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.3), inset 0 0 0 2px rgba(255, 255, 255, 0.2);
-}
-
-/* DC Text Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.spellcasting .spellcasting-entry .spell-ability-data .skill-score {
-  color: rgb(213, 239, 255, 0.9);
-}
-
-/* Spell Text Hovor Color Button */
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content ol.spell-list > li .item-name h4 > a:hover {
-  color: rgba(255, 255, 255, 0.616);
-  text-shadow: none;
-}
-
-/* Cast Spell Button */
-.actor.sheet .window-content.char-header-container.char-header-container button.blue {
-  background: rgb(148, 37, 93);
-  border: 1px solid rgb(255, 255, 255);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
-}
-
-/* Spell Count background colour*/
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content ol.spell-list > li.header-row input,
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content ol.spell-list > li .uses input {
-  background: rgba(148, 37, 92, 0.753);
-  border: 1px solid rgb(255, 255, 255);
-  color: var(--text-light);
-}
-
-/* Spell Rank Header Background colour */
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content ol.spell-list > li.header-row {
-  background: rgba(96, 88, 86, 0.25);
-  border: 1px solid var(--color-border-light-2);
-}
-
-/* Spell DC Dice colour */
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.spellcasting .spellcasting-entry .rollable .d20-svg path {
-  fill: rgb(255, 255, 255);
-}
-
-/* Spell Used Text colour */
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content ol.spell-list > li.spell[data-slot-expended] h4 {
-  color: rgba(255, 255, 255, 0.616);
-}
-
-/* Crafting Tab*/
-/* Text Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-level-header.formula-level-header,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-item.formula-level-header,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-level-header.formula-level-header,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-item.formula-level-header {
-  background: rgba(96, 88, 86, 0.25);
-  color: rgb(255, 255, 255, 0.9);
-}
-
-/* Text Hovor Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-level-header .level-name h4:hover,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-level-header .item-name h4:hover,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-item .level-name h4:hover,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.crafting li.known-formulas ol.formula-list li.formula-item .item-name h4:hover,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-level-header .level-name h4:hover,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-level-header .item-name h4:hover,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-item .level-name h4:hover,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.crafting li.crafting-entry ol.formula-list li.formula-item .item-name h4:hover {
-  color: rgb(255, 255, 255, 0.616);
-}
-
-/* Proficiencies Tab*/
-/* Modifier Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.proficiencies ul.proficiencies-list li a.hover,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.proficiencies ul.proficiencies-list li .modifier,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.proficiencies ul.proficiencies-list li .dc {
-  color: rgb(213, 239, 255, 0.9);
-  text-decoration-color: rgb(213, 239, 255);
-}
-
-/* Trained, Expert, Master etc Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style .pf-rank {
-  background: var(--color-proficiency-untrained);
-  border: 1px solid rgba(255, 255, 255, 0.712);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15);
-  color: var(--text-light);
-}
-
-/* Feats Tab*/
-/* Text Level Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.feats ol.feats-list li.slot .item-name .feat-slot-title {
-  color: rgb(255, 255, 255, 0.9);
-}
-
-.actor.sheet.character .window-content.char-header-container .crb-style aside .sidebar header button {
-  background: rgb(20, 54, 79);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
-  color: rgb(255, 255, 255, 0.9);
-}
-
-/* Biography Tab*/
-/* Text Colour*/
-/* Hover Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.feats ol.feats-list li.slot .item-name h4:hover {
-  color: rgba(255, 255, 255, 0.616);
-  text-shadow: 0 0 3px var(--color-pf-tertiary);
-}
-
-/* Text Input Background Colour*/
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.biography section.editable .editor,
-.actor.sheet.character .window-content.char-header-container .crb-style .sheet-body .sheet-content > .tab.active.biography section.editable input {
-  background: rgba(0, 0, 0, 0.337);
-}
-
-.actor.sheet .window-content.char-header-container .item-image.framed {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.actor.sheet .window-content.char-header-container .rarity-select {
-  border: 2px solid rgb(255, 255, 255, 0.9);
-  color: rgb(255, 255, 255, 0.9);
-}
-
-.actor.sheet .window-content.char-header-container .crb-style .details-input {
-  color: rgba(255, 255, 255, 0.9);
-  background-color: rgba(28, 28, 28, 0.1);
-}
-.actor.sheet .window-content.char-header-container .crb-style .details-label {
-  color: rgb(255, 255, 255, 0.9);
-}
-/* Dropdown colour*/
-.actor.sheet .window-content.char-header-container .crb-style select {
-  background-color: rgb(39, 16, 39);
-  border: 1px solid rgba(255, 255, 255, 0.701);
-  color: rgba(255, 255, 255, 0.9);
-}
-.actor.sheet .window-content.char-header-container .crb-style select[data-action="link-ammo"] {
-  background-color: rgb(39, 16, 39);
-  border: 1px solid rgba(255, 255, 255, 0.701);
-  color: rgba(255, 255, 255, 0.9);
-}
-.actor.sheet .window-content.char-header-container .crb-style select option {
-  background-color: rgb(20, 54, 79);
-}
-
-.actor.sheet .window-content.char-header-container .item-summary .description .addendum {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.window-content.char-header-container .use-action{
-  color: rgba(255, 255, 255, 0.9);
-}
-/* Text Input */
-
-.actor.sheet .window-content.char-header-container input[type="text"],
-.actor.sheet .window-content.char-header-container input[type="number"],
-.actor.sheet .window-content.char-header-container input[type="password"],
-.actor.sheet .window-content.char-header-container input[type="date"],
-.actor.sheet .window-content.char-header-container input[type="time"],
-.actor.sheet .window-content.char-header-container input[type="search"],
-.actor.sheet .window-content.char-header-container button[type="button"] {
-  color: rgba(255, 255, 255, 0.9);
-  background-color: rgba(0, 0, 0, 0.16);
-}
-.actor.sheet .window-content.char-header-container button[type="button"]:hover {
-  color: rgba(255, 255, 255, 0.66);
-  background-color: rgb(39, 16, 39);
-}
-
-.actor.sheet .window-content.char-header-container .tagify__input::placeholder {
-  color: rgba(255, 255, 255, 0.5);
-}
-.actor.sheet .window-content.char-header-container .app.tag-selector form > footer {
-border-top: var(--space-2) groove var(--color-text-light-0);
-display: flex;
-flex-direction: column;
-gap: var(--space-8);
-margin-top: auto;
-border-top-width: 0px;
-}
-.actor.sheet .window-content.char-header-container .tagify__dropdown__wrapper {
-background: rgb(39, 16, 39);
-border: 1px solid;
-border-color: #ffffff;
-box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.2);
-color: rgba(255, 255, 255, 0.9);
-}
-.actor.sheet .window-content.char-header-container .app.tag-selector form input[type=search],
-.actor.sheet .window-content.char-header-container .app.tag-selector form input[type=text] {
-background: rgb(39, 16, 39);
-color: rgba(255, 255, 255, 0.9);
-}
-.actor.sheet .window-content.char-header-container .tags .tag.tag_secondary,
-.actor.sheet .window-content.char-header-container .tags .tag option.tag_secondary {
-background-color: rgb(45, 79, 106);
-}
-/* Strike, Map, Crit etc Text colour*/
-.actor.sheet .window-content.char-header-container .tags .tag,
-.actor.sheet .window-content.char-header-container .tags .tag option {
-background-color: rgb(45, 79, 106);
-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9);
-color: var(--color-text-trait);
-}
-.actor.sheet .window-content.char-header-container .tags .tag[data-action="strike-damage"],
-.actor.sheet .window-content.char-header-container .tags .tag[data-action="strike-critical"] {
-background-color: rgb(118, 6, 6);
-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9);
-color: var(--color-text-trait);
-}
-.actor.sheet .window-content.char-header-container .tags .tag.tag_transparent,
-.actor.sheet .window-content.char-header-container .tags .tag option.tag_transparent {
-background-color: transparent;
-border-radius: 4px;
-border: 1px solid rgb(135, 189, 204);
-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
-color: rgba(255, 255, 255, 0.9);
-}
-.actor.sheet .window-content.char-header-container tags.tags.paizo-style {
-background-color: rgba(0, 0, 0, 0.5);
-padding: 0;
---tag-bg: var(--color-bg-trait);
---tag-hover: var(--color-bg-trait);
---tag-remove-btn-color: var(--color-text-trait);
---tag-text-color: var(--color-text-trait);
---tags-border-color: var(--color-border-trait);
---tags-focus-border-color: var(--color-border-trait);
---tags-hover-border-color: var(--color-border-trait);
---readonly-striped: 0;
-}
-/* Trait tag box colour*/
-.actor.sheet .window-content.char-header-container .tags.paizo-style tag,
-.actor.sheet .window-content.char-header-container .tags.paizo-style .tag,
-.actor.sheet .window-content.char-header-container .tags.paizo-style select.tag {
-background-color: rgb(45, 79, 106);
-border: 2px solid rgb(135, 189, 204);
-box-shadow: none;
-}
-.actor.sheet .window-content.char-header-container tags.tagify.pf2e-tagify {
-background-color: rgb(39, 16, 39);
-}
-.actor.sheet .window-content.char-header-container tags.tagify.pf2e-tagify tag {
-background-color: rgb(45, 79, 106);
-color: rgba(255, 255, 255, 0.9) !important;
-}
-.actor.sheet .window-content.char-header-container .tagify__tag > div {
-color: rgba(255, 255, 255, 0.9) !important;
-}
-.actor.sheet .window-content.char-header-container tags.tagify.pf2e-tagify tag .tagify__tag__removeBtn {
-color: rgba(255, 255, 255, 0.9) !important;
-}
-/* More specific class target */
-.actor.sheet .window-content.char-header-container .tagify__tag.tagify--noAnim {
-/* Your styles here */
-background-color: rgb(45, 79, 106);
-color: rgba(255, 255, 255, 0.9) !important;
-box-shadow: none;
-}
-.actor.sheet .window-content.char-header-container .tagify__tag > div::before {
-box-shadow: none;
-}
-
-.actor.sheet .window-content.char-header-container  form.crb-style .sheet-body .sheet-content ol.spell-list > li .item-summary {
-  background-color: none;
-  border-bottom: 1px solid #ffffff;
-  border-top: 1px solid #ffffff;
-}
-
-/* Inline rolls and effects in the chat window text colour */
-.actor.sheet .window-content.char-header-container  a.content-link,
-.actor.sheet .window-content.char-header-container  a.content-link i,
-.actor.sheet .window-content.char-header-container  a.inline-roll.roll,
-.actor.sheet .window-content.char-header-container  a.inline-roll.roll i,
-.actor.sheet .window-content.char-header-container  a.inline-roll.roll span {
-  color: rgba(255, 255, 255, 0.888);
-}
-.actor.sheet .window-content.char-header-container  a.content-link i,
-.actor.sheet .window-content.char-header-container  a.inline-roll i {
-  color: rgb(255, 255, 255, 0.9);
-  margin-right: 0.25em;
-}
-.actor.sheet .window-content.char-header-container  a.content-link,
-.actor.sheet .window-content.char-header-container  a.inline-roll {
-  background: rgb(45, 79, 106);
-  border: 1px solid rgb(135, 189, 204);
-}
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content .content-link {
-  color: rgba(255, 255, 255, 0.9);
-}
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content ol.spell-list > li:nth-child(odd),
-.actor.sheet .window-content.char-header-container form.crb-style .sheet-body .sheet-content ol.spell-list > li .item-summary {
-  background-color: rgba(0, 0, 0, 0);
-  border-bottom: 1px solid #ffffff;
-  border-top: 1px solid #ffffff;
-}
-
-/* styles/custom-ui.css */
-.actor.sheet .window-content.char-header-container .logo-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 71px;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  position: relative;
-  z-index: 10;
-}
-
-.actor.sheet .window-content.char-header-container .logo {
-  height: auto;
-  max-height: 100%;
-  max-width: 100%;
-  display: block;
-  margin: 0;
-  position: relative;
-  z-index: 11;
 }
