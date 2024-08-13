@@ -2,10 +2,7 @@ const MODULE_ID = "starfinder-field-test-for-pf2e";
 
 function applyTheme(themeId) {
   const headEl = document.head;
-
-  // Remove existing theme link elements
-  Array.from(headEl.querySelectorAll(`link[href*="${MODULE_ID}/styles/"]`)).forEach(link => link.remove());
-
+  headEl.querySelector(`link[href*=${MODULE_ID}]`)?.remove();
   if (themeId !== "none") {
     const linkEl = document.createElement("link");
     linkEl.href = `modules/${MODULE_ID}/styles/${themeId}.css`;
@@ -33,7 +30,6 @@ Hooks.once("init", () => {
       },
       initial: "none",
     }),
-    default: "none",
     onChange: (themeId) => {
       applyTheme(themeId);
     },
