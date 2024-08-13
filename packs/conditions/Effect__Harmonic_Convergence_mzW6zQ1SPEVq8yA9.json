@@ -1,0 +1,71 @@
+{
+  "name": "Effect: Harmonic Convergence",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a number of temporary Hit Points equal to half your level.</p>"
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "floor(@actor.level/2)"
+      }
+    ],
+    "slug": "effect-harmonic-convergence",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20energy%20streak.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722014854835,
+    "modifiedTime": 1722218719212,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "mzW6zQ1SPEVq8yA9",
+  "sort": 2200000,
+  "_key": "!items!mzW6zQ1SPEVq8yA9"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": null,
+  "name": "Eloritu",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h2>The Hidden Truth</h2><p>Eloritu is a mysterious deity who has revealed secrets of magic and metaphysics to his disciples. His symbol is a puzzle: a ring of six magical runes that are each used individually in magical practice by different cultures across the Universe. Only four runes are known to the peoples of the Pact Worlds.</p><p><strong>Areas of Concern</strong> history, knowledge, magic, and secrets</p><p><strong>Edicts</strong> uncover secrets, preserve knowledge, master the magical arts</p><p><strong>Anathema</strong> reveal important secrets, destroy knowledge, embrace technology over magic</p>"
+    },
+    "rules": [],
+    "slug": "eloritu",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "knowledge",
+        "magic",
+        "secrecy",
+        "truth"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "int",
+      "wis"
+    ],
+    "skill": [
+      "arcana"
+    ],
+    "weapons": [
+      "singing-spear"
+    ],
+    "spells": {
+      "1": "Compendium.starfinder-field-test-for-pf2e.spells.Item.bHQ8Y4XZfUa2UEno",
+      "3": "Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0",
+      "6": "Compendium.pf2e.spells-srd.Item.r784cIz17eWujtQj"
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/deities/eloritu.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722414174396,
+    "modifiedTime": 1722443864568,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "MoeWmgkMEv1B89cM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!MoeWmgkMEv1B89cM"
+}

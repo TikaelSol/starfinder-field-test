@@ -1,0 +1,81 @@
+{
+  "folder": null,
+  "name": "Lissala",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h2>Scion of Seven</h2><p>Lissala is an ancient deity from lost Golarion who became the patron goddess of the Azlanti Star Empire. She is precise, rigid, and intolerant of disobedience, but she rewards those who follow her strict teachings.</p><p><strong>Areas of Concern</strong> duty, fate, obedience, reward of service</p><p><strong>Edicts</strong> work hard and demand others do so as well, serve a greater cause, know your place</p><p><strong>Anathema</strong> disobey a superior, shirk your duties, settle for easy rewards</p>"
+    },
+    "rules": [],
+    "slug": "lissala",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "fate",
+        "glyph",
+        "magic",
+        "toil"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "int",
+      "wis"
+    ],
+    "skill": [
+      "arcana"
+    ],
+    "weapons": [
+      "aeon-rifle",
+      "whip"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM",
+      "3": "Compendium.pf2e.spells-srd.Item.IihxWhRfpsBgQ5jS",
+      "6": "Compendium.starfinder-field-test-for-pf2e.spells.Item.2ILhSSU3F0VcU4rL"
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/deities/lissala.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722414174396,
+    "modifiedTime": 1722443864638,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "dsCOBJTkJ6PNtzEM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!dsCOBJTkJ6PNtzEM"
+}

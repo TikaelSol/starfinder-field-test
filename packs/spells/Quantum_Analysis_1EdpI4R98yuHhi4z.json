@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Quantum Analysis",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Paradox</strong> analysis</p>\n<hr />\n<p>You see the probability equations all around you and trace each variable to every possible conclusion. Targets can't benefit from circumstance bonuses to AC due to cover against your attacks. You also ignore circumstance penalties to the attack roll and any flat check required due to the creature being @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, or behind cover. You can cast spells that target creatures within your quantum field even if you don't have line of sight to them.</p>\n<p>The first time after casting this spell when you make an attack roll against a creature within your quantum field during quantum analysis' duration, you roll twice and use the better result.</p>"
+    },
+    "rules": [],
+    "slug": "quantum-analysis",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anchoring",
+        "concentrate",
+        "focus",
+        "fortune",
+        "mental",
+        "witchwarper"
+      ],
+      "rarity": "common",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "1EdpI4R98yuHhi4z",
+  "img": "icons/magic/symbols/triangle-glow-purple.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275324,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!1EdpI4R98yuHhi4z"
+}

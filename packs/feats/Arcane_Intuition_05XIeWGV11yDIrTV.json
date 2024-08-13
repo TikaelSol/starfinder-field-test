@@ -1,0 +1,83 @@
+{
+  "name": "Arcane Intuition",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've developed a special sense that allows you to see the fundamental construction of spells and other ongoing magical effects. You immediately gain the effects of the @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic} arcane innate spell from your Arcane Sense without needing to Cast the Spell, and you gain a +1 circumstance bonus to counteract checks against spells and ongoing magic effects. If you are legendary in Arcana, you gain a +2 circumstance bonus instead.</p>"
+    },
+    "rules": [],
+    "slug": "arcane-intuition",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "master in Arcana"
+        },
+        {
+          "value": "Arcane Sense"
+        }
+      ]
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.by7OL6es9EPlnVXp",
+      "name": "Effect: Arcane Intuition"
+    }
+  },
+  "_id": "05XIeWGV11yDIrTV",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 29800000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1714324110822,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!05XIeWGV11yDIrTV"
+}

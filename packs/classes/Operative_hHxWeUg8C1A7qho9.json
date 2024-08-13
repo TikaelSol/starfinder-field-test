@@ -1,0 +1,346 @@
+{
+  "name": "Operative",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>You're a focused and quick-witted professional who thrives in high-stakes combat. Your deadly aim and tactical training give you an edge over the competition—for you, even the most powerful enemy is just another mark to take out. You have impressive prowess in your chosen field of specialization.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.fW64iLBJVrUFSdPe]{Operative}</em></p>"
+    },
+    "rules": [
+      {
+        "definition": [
+          "item:ranged",
+          {
+            "or": [
+              "item:category:martial",
+              "item:category:simple"
+            ]
+          },
+          {
+            "or": [
+              "item:trait:analog",
+              "item:trait:tech"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "SF2E.SpecificRule.Operative.Proficiency.MartialAndSimpleGuns",
+        "slug": "martial-simple-guns",
+        "value": 2,
+        "predicate": [
+          {
+            "not": "feature:striker"
+          }
+        ]
+      },
+      {
+        "definition": [
+          "item:ranged",
+          "item:category:advanced",
+          {
+            "or": [
+              "item:trait:analog",
+              "item:trait:tech"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "SF2E.SpecificRule.Operative.Proficiency.AdvancedGuns",
+        "slug": "advanced-guns",
+        "value": 1
+      },
+      {
+        "definition": [
+          "item:ranged",
+          "item:category:simple",
+          {
+            "or": [
+              "item:trait:analog",
+              "item:trait:tech"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "SF2E.SpecificRule.Operative.Proficiency.SimpleGuns",
+        "slug": "simple-guns",
+        "value": 2,
+        "predicate": [
+          "feature:striker"
+        ]
+      }
+    ],
+    "slug": "operative",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "dex"
+      ]
+    },
+    "items": {
+      "2lKqj": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.qtMehXxOhIozuGK0",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/rifle%20scoped.webp",
+        "name": "Sharpshooter",
+        "level": 1
+      },
+      "WTtNO": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.QLiN9uiJEVfy63L2",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20future%20circle%20insignia.webp",
+        "name": "Operative's Specialization",
+        "level": 1
+      },
+      "DzKnZ": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.GRHJ4I47vXnsIPo3",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20ammunition.webp",
+        "name": "Mobile Reload",
+        "level": 1
+      },
+      "WLohJ": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.oF8cv1jgPyFRC0x0",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20target.webp",
+        "name": "Focused",
+        "level": 3
+      },
+      "doA83": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.Y818cqHsMTNMap2E",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20person%20running.webp",
+        "name": "On the Move",
+        "level": 3
+      },
+      "hkdpC": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.IVyJLadSuP1wTGy5",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/red%20crosshairs.webp",
+        "name": "Specialized Skill Set",
+        "level": 3
+      },
+      "p7951": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.WVXTolE9BzkgMoY2",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20bullet%20in%20flight.webp",
+        "name": "Master Gunner",
+        "level": 5
+      },
+      "i2JF2": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.EidBcs75FekiCUn3",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20timer.webp",
+        "name": "Urban Operator",
+        "level": 5
+      },
+      "EN5mk": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.ZZhd7RuSCIsTy4bl",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/alien%20eye.webp",
+        "name": "Operative's Edge",
+        "level": 7
+      },
+      "XaR94": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.BLw2hnUnw0VU0at0",
+        "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+        "name": "Operative Reflexes",
+        "level": 7
+      },
+      "xIqWY": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.uPSzff7h3aRnoV6l",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 7
+      },
+      "7OfPz": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.cMY3STLWFUX6dA63",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20heart%20in%20a%20circle.webp",
+        "name": "Operative Resilience",
+        "level": 9
+      },
+      "MmTEh": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.Q1mlclQuIoxRW5eN",
+        "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+        "name": "Masterful Advance",
+        "level": 11
+      },
+      "rrO2B": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.BtQlyv92cig5sFSP",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20star%20insignia.webp",
+        "name": "Operative Expertise",
+        "level": 11
+      },
+      "dKmWU": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.auFsCWphZ7giY9oX",
+        "img": "systems/pf2e/icons/features/classes/resolve.webp",
+        "name": "Resolve",
+        "level": 11
+      },
+      "LJkDC": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.KjJ1TfPIQXV5mFvq",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/space%20bullet.webp",
+        "name": "Legendary Gunner",
+        "level": 13
+      },
+      "3Icct": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.iM2TTyuokVdwbnVW",
+        "img": "icons/equipment/back/mantle-collared-green.webp",
+        "name": "Light Armor Expertise",
+        "level": 13
+      },
+      "FLuAO": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.cLbzI01J2Nas5M8j",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/orange%20target%20sign.webp",
+        "name": "Critical Aim",
+        "level": 15
+      },
+      "zkD9d": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.wP2Dn7u51xuuwLX7",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Greater Weapon Specialization",
+        "level": 15
+      },
+      "4UIFB": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.C4GdEQb1VYWY1w4m",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20target%202.webp",
+        "name": "Incredible Senses",
+        "level": 17
+      },
+      "dAzyG": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.LC5Kr47C9HIV4mjk",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/red%20bullets%20in%20flight.webp",
+        "name": "Tactical Barrage",
+        "level": 17
+      },
+      "TXx94": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.MCj5ixwaJDBIicTk",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20star%20with%20purple%20aura.webp",
+        "name": "Galaxy Renowned",
+        "level": 19
+      },
+      "ft0pE": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.S9DZcOMSR6EP4fkJ",
+        "img": "icons/equipment/chest/breastplate-rivited-red.webp",
+        "name": "Light Armor Mastery",
+        "level": 19
+      }
+    },
+    "hp": 8,
+    "trainedSkills": {
+      "value": [],
+      "additional": 3
+    },
+    "perception": 2,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 2,
+      "will": 1
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "Simple Guns, Martial Guns",
+        "rank": 2
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        12,
+        14,
+        15,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "_id": "hHxWeUg8C1A7qho9",
+  "img": "modules/starfinder-field-test-for-pf2e/art/class-icons/operative.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.0",
+    "createdTime": 1721443686098,
+    "modifiedTime": 1722703353545,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "_key": "!items!hHxWeUg8C1A7qho9"
+}

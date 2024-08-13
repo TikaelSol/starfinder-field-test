@@ -1,0 +1,82 @@
+{
+  "img": "icons/equipment/back/mantle-collared-green.webp",
+  "name": "Light Armor Expertise",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.</p>"
+    },
+    "rules": [],
+    "slug": "light-armor-expertise",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy",
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "light": {
+          "rank": 2
+        },
+        "unarmored": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.pZYkb12t5DSwtts7",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722095612118,
+    "modifiedTime": 1722127436264,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.pZYkb12t5DSwtts7"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "_id": "iM2TTyuokVdwbnVW",
+  "sort": 2200000,
+  "_key": "!items!iM2TTyuokVdwbnVW"
+}

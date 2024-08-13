@@ -1,0 +1,98 @@
+{
+  "type": "equipment",
+  "name": "Maker's Toolkit (Tactical)",
+  "folder": "H3wWtIPMgO6Z0PMJ",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You need a maker's toolkit to create items from UPBs with the Craft skill. A tactical maker's toolkit gives you a +1 item bonus to the check.</p>"
+    },
+    "rules": [],
+    "slug": "makers-toolkit-tactical",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.330",
+        "system": "6.1.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "subitems": []
+  },
+  "_id": "JIc7Y70ce0VO5ipb",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/printer.webp",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722368385303,
+    "modifiedTime": 1722376089150,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 6700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!JIc7Y70ce0VO5ipb"
+}

@@ -1,0 +1,79 @@
+{
+  "img": "icons/magic/life/cross-explosion-burst-green.webp",
+  "name": "Fortitude Expertise",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Envoy</strong> Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.</p><p><strong>Mystic</strong> Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.</p>"
+    },
+    "rules": [],
+    "slug": "fortitude-expertise",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy",
+        "mystic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "fortitude": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722095558868,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "_id": "pC7rVm8b6tQm3tF6",
+  "sort": 7500000,
+  "_key": "!items!pC7rVm8b6tQm3tF6"
+}

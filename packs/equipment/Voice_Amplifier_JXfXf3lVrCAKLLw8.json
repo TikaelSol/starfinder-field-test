@@ -1,0 +1,102 @@
+{
+  "folder": "fQk7OHQqEfxZoNzj",
+  "name": "Voice Amplifier",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A voice amplifier greatly increases the volume of your voice. You can switch a voice amplifier on or off by spending an action, which has the concentrate trait. While active, a voice amplifier grants you a +1 item bonus to Intimidation checks and lowers the DCs of other creatures' Perception checks to hear you speaking by 5.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "intimidation",
+        "value": 1,
+        "type": "item"
+      }
+    ],
+    "slug": "voice-amplifier",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "_id": "JXfXf3lVrCAKLLw8",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20upper%20left%20arrow.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722485927969,
+    "modifiedTime": 1722490272392,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 400013,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!JXfXf3lVrCAKLLw8"
+}

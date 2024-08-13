@@ -1,0 +1,80 @@
+{
+  "name": "Everywhelp Skittermander",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Despite being a full-grown adult, you've retained your stomachmouth—either through a quirk of evolution, purposeful genetic manipulation, or a biotech augmentation. You gain a jaws unarmed attack that deals 1d6 piercing damage, is in the brawling group, and has the finesse, skittermander, and unarmed traits.</p>"
+    },
+    "rules": [
+      {
+        "baseType": "jaws",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.jaws",
+        "range": null,
+        "slug": "jaws",
+        "traits": [
+          "finesse",
+          "skittermander",
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": "everywhelp-skittermander",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Skittermander",
+      "slug": "skittermander",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.vThlxRrOZfBPDHrO"
+    }
+  },
+  "_id": "tiMFTIKSh7DP9ezH",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "WzBMoL0G9yVPHg4x",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708125933154,
+    "modifiedTime": 1722275077299,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!tiMFTIKSh7DP9ezH"
+}

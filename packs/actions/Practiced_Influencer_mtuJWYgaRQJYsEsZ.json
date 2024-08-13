@@ -1,0 +1,67 @@
+{
+  "name": "Practiced Influencer",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are about to roll a Deception, Diplomacy, or Intimidation check, but you haven't rolled yet.</p>\n<hr />\n<p>You roll the triggering Deception, Diplomacy, or Intimidation check twice, and use the higher result.</p>"
+    },
+    "rules": [],
+    "slug": "practiced-influencer",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.330",
+        "system": "6.1.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy",
+        "fortune"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_id": "mtuJWYgaRQJYsEsZ",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "folder": null,
+  "sort": 4200000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712008430816,
+    "modifiedTime": 1722114226297,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!mtuJWYgaRQJYsEsZ"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Crystal Lens (Elite)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A psychically active crystal replaces the lens of one of your eyes. You gain 8th-rank @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic} as a constant ability. You see the location of all auras within 30 feet, not just the strongest. Your ability to sense psychic energies grants you a +2 item bonus to Perception checks.</p><p><strong>Activate—Psychic X-Rays</strong> <span class=\"pf2-icon\">2</span> (concentrate)</p><p><strong>Frequency</strong> twice per day</p><hr /><p><strong>Effect</strong> You gain the effects of an x-ray vision spell. The detect magic of your crystal lens works through any material you can see through with this @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.MWguJ6RWEmmPBntb]{X-Ray Vision} spell, even if you wouldn't normally have line of effect.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "perception",
+        "value": 2,
+        "type": "item"
+      }
+    ],
+    "slug": "crystal-lens-elite",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical",
+        "magitech"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 150000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "_id": "7BbqKWAJFhMhuTPa",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20future%20circle%20insignia.webp",
+  "folder": "fQk7OHQqEfxZoNzj",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722485927969,
+    "modifiedTime": 1722490270508,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 2400000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!7BbqKWAJFhMhuTPa"
+}

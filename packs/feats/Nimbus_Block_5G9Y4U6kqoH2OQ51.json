@@ -1,0 +1,77 @@
+{
+  "type": "feat",
+  "name": "Nimbus Block",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've combined the strength of your defensive powers such that your solar nimbus bolsters your solar shield. When you Shield Block a melee attack with your solar shield, as long as either you or your shield take damage from the attack, you can use @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.fy5RQYfWhum3Bz9H]{Nimbus Surge} as a free action.</p>"
+    },
+    "rules": [],
+    "slug": "nimbus-block",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attuned",
+        "manifestation",
+        "solarian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Solar Shield"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "5G9Y4U6kqoH2OQ51",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801592629,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!5G9Y4U6kqoH2OQ51"
+}

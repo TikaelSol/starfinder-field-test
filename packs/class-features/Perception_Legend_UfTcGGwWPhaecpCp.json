@@ -1,0 +1,76 @@
+{
+  "img": "systems/pf2e/icons/features/classes/incredible-sense.webp",
+  "name": "Perception Legend",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You notice the almost imperceptible. Your proficiency rank for Perception increases to legendary.</p>"
+    },
+    "rules": [],
+    "slug": "perception-legend",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "perception": {
+          "rank": 4
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.nLwPMPLRne1HnL00",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722095546790,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.nLwPMPLRne1HnL00"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "_id": "UfTcGGwWPhaecpCp",
+  "sort": 7300000,
+  "_key": "!items!UfTcGGwWPhaecpCp"
+}

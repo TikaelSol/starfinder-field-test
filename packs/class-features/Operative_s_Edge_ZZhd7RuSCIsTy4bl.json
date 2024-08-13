@@ -1,0 +1,92 @@
+{
+  "name": "Operative's Edge",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master. In addition, you gain a +2 circumstance bonus to initiative rolls, making you faster to react during combat. If you take the Incredible Initiative feat, your circumstance bonus to initiative rolls becomes +3 instead.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "perception",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "check:statistic:initiative"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "add",
+        "value": 1,
+        "slug": "pensive-aggressor",
+        "predicate": [
+          "feat:incredible-initiative"
+        ]
+      }
+    ],
+    "slug": "operatives-edge",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "perception": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "_id": "ZZhd7RuSCIsTy4bl",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/alien%20eye.webp",
+  "folder": null,
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722126836093,
+    "modifiedTime": 1722224838858,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!ZZhd7RuSCIsTy4bl"
+}

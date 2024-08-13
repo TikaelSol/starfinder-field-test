@@ -1,0 +1,108 @@
+{
+  "folder": "fQk7OHQqEfxZoNzj",
+  "name": "Presence Intensifier",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This augmentation strengthens your personality, intensifying the parts of you that form the core of your identity. You gain a +2 item bonus to Diplomacy and Intimidation checks. A presence intensifier produces minor cosmetic effects in a small space around you, such as tiny sparkling holograms or wispy shadows, based on your personality. You can activate or deactivate these cosmetics with a single action, which has the concentrate trait. When you get this augmentation, you either increase your Charisma modifier by 1 or increase it to +4, whichever would give you a higher value.</p><p><strong>Activate—Irresistible Idea</strong> <span class=\"pf2-icon\">2</span> (concentrate)</p><p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> You manipulate your cosmetics to influence a creature with the effects of a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H] (DC 38).</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "diplomacy",
+          "intimidation"
+        ],
+        "value": 2,
+        "type": "item"
+      }
+    ],
+    "slug": "presence-intensifier",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "apex"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 150000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": [],
+    "apex": {
+      "attribute": "cha"
+    }
+  },
+  "_id": "oxRClf6TWHtgTXb0",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/crown%20insignia.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722485927969,
+    "modifiedTime": 1722490278133,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 3225000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!oxRClf6TWHtgTXb0"
+}

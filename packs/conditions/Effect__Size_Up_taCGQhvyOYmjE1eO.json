@@ -1,0 +1,92 @@
+{
+  "name": "Effect: Size Up",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a +1 circumstance bonus to Deception, Diplomacy, Intimidation, and Perception checks made against your asset or in relation to your asset if the target knows your asset, and a +1 circumstance bonus to attempts to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about your asset.</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenMark",
+        "slug": "asset"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "skill-check",
+          "perception"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "target:mark:asset",
+          {
+            "or": [
+              "check:statistic:deception",
+              "check:statistic:diplomacy",
+              "check:statistic:intimidation",
+              "check:statistic:perception",
+              "action:recall-knowledge"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "effect-size-up",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20arrow%20up.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722189051977,
+    "modifiedTime": 1722224851340,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "taCGQhvyOYmjE1eO",
+  "sort": 100000,
+  "_key": "!items!taCGQhvyOYmjE1eO"
+}

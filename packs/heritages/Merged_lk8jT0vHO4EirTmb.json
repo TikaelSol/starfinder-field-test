@@ -1,0 +1,85 @@
+{
+  "name": "Merged",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are a unique entity formed from the constant union of two or more barathus who enjoy the act of combination so much that they chose not to return to isolation as their former selves. You're Large instead of Medium. You gain 10 Hit Points from your ancestry instead of 8, and you gain a +1 circumstance bonus to saving throws against emotion and fear effects.</p>"
+    },
+    "rules": [
+      {
+        "key": "CreatureSize",
+        "value": "large"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.ancestryhp",
+        "value": 10
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:fear",
+              "item:trait:emotion"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "merged",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Barathu",
+      "slug": "barathu",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.Kc7Uag3blYKJSUyC"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "DAoyurydTnvbTfbN",
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707760307159,
+    "modifiedTime": 1722270522128,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "lk8jT0vHO4EirTmb",
+  "sort": -100000,
+  "_key": "!items!lk8jT0vHO4EirTmb"
+}

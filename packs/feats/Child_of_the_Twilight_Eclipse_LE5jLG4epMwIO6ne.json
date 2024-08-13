@@ -1,0 +1,71 @@
+{
+  "type": "feat",
+  "name": "Child of the Twilight Eclipse",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You were born a beacon of light to guide your friends or a host of darkness to give them refuge. Choose to be a child of darkness or a child of light.</p><p>If you are a child of light, you give off bright light in a 10-foot radius; you can suppress this ability as a free action.</p><p>If you are a child of darkness, you can perform simple Interact actions within your reach with your shadow, such as opening an unlocked door, but your shadow can't hold items.</p><p>Add the listed spells to your spell list and spell repertoire as signature spells.</p><p><strong>Child of Light 1st</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ahrdUKm1HXw7EyFw] <strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE] <strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.DyiD239dNS7RIxZE] <strong>7th</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.xDuktpYTml9loyj5]</p><p><strong>Child of Darkness 1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a] <strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c] <strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.sRfSBHWHdbIa0aGc] <strong>7th</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.GNbPLs7S7RetVuPy]</p>"
+    },
+    "rules": [],
+    "slug": "child-of-the-twilight-eclipse",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mystic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "LE5jLG4epMwIO6ne",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801567540,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 7300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!LE5jLG4epMwIO6ne"
+}

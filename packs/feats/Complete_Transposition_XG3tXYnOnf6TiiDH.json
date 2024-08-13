@@ -1,0 +1,88 @@
+{
+  "type": "feat",
+  "name": "Complete Transposition",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you use @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.dKRDmSn0TixVNxhR]{Quantum Transposition} to move your quantum field, you can teleport any number of creatures within the quantum field's original area to squares of your choice in the its new area. You also teleport any items they're wearing or holding. Your Quantum Transposition action gains the teleportation trait. Each target may attempt a Will save against your witchwarper class DC. Targets who succeed at the save are unaffected.</p>"
+    },
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:quantum-transposition"
+        ],
+        "property": "traits",
+        "value": "teleportation"
+      }
+    ],
+    "slug": "complete-transposition",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.330",
+        "system": "6.1.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anchoring",
+        "teleportation",
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Quantum Transposition"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "XG3tXYnOnf6TiiDH",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722099813058,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 12700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!XG3tXYnOnf6TiiDH"
+}

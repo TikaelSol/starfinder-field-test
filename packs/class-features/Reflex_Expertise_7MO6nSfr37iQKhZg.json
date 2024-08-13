@@ -1,0 +1,80 @@
+{
+  "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+  "name": "Reflex Expertise",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Mystic</strong> You've honed your ability to dodge dangers and more easily move around the battlefield without taking damage from area attacks. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Soldier</strong> Your reactionary defenses grow stronger. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Witchwarper</strong> Your awareness of possible dangers, through incredible analysis or an understanding of the wider multiverse, increases your reflexes. Your proficiency rank for Reflex saves increases to expert.</p>"
+    },
+    "rules": [],
+    "slug": "reflex-expertise",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mystic",
+        "soldier",
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "reflex": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722097764863,
+    "modifiedTime": 1722128799092,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "_id": "7MO6nSfr37iQKhZg",
+  "sort": 2300000,
+  "_key": "!items!7MO6nSfr37iQKhZg"
+}

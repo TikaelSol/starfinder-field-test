@@ -1,0 +1,90 @@
+{
+  "folder": null,
+  "name": "Soldier Fighting Styles",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As a soldier, you applied yourself to a specific style of combat. Your style determines how you tend to approach combat and often changes how you take advantage of your ability to suppress targets. Choose a soldier fighting style. The fighting styles presented in this book are as follows.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.sy40CowlzpsjQkKd]{Armor Storm}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.3MlqssuArJ7cSVvm]{Bombard}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.B5rLEsiNdQzKUPOE]{Close Quarters}</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:soldier-fighting-style"
+          ]
+        },
+        "flag": "fightingStyle",
+        "key": "ChoiceSet",
+        "prompt": "SF2E.SpecificRule.Soldier.FightingStyle.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "{item|flags.pf2e.rulesSelections.fightingStyle}"
+      }
+    ],
+    "slug": "soldier-fighting-styles",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.853,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "soldier"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/skills/melee/unarmed-punch-fist-white.webp",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1691045081589,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "y43YlM0N6CaxJtLM",
+  "sort": 11500000,
+  "_key": "!items!y43YlM0N6CaxJtLM"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Artificial Scion",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your body wasn't created in the image of a biological creature; a powerful artificial intelligence created you to interface with other machines. Your physiology is nearly identical to other androids, but uncanny details give away your non-standard origins (for example, you might have impossibly symmetrical features, extra fingers, or double pupils). You become trained in Computers, and you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.90JAhMkgRdEoul4W]{Phreaker} skill feat.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.computers.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.90JAhMkgRdEoul4W"
+      }
+    ],
+    "slug": "artificial-scion",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.911,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Android (Starfinder)",
+      "slug": "android",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.gL3qb9ZexNxP991p"
+    }
+  },
+  "_id": "evaZvRyBOznNszzM",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "YlW9CPwhf5dxVDzU",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "osGt3Y9EUYsTtPet": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1704316908676,
+    "modifiedTime": 1722269964539,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!evaZvRyBOznNszzM"
+}

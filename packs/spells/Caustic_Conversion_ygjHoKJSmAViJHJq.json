@@ -1,0 +1,115 @@
+{
+  "name": "Caustic Conversion",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You launch a torrent of magical nanites that begin dissolving your target. Make a ranged spell attack against the target. On a hit, you deal 3d8 acid damage plus 1d6 persistent acid damage. On a critical hit, double the initial damage, but not the persistent damage.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The initial damage increases by 2d8, and the persistent acid damage increases by 1d6</p>"
+    },
+    "rules": [],
+    "slug": "caustic-conversion",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "acid",
+        "attack",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "XItIluU0Z8ObylZo": {
+        "formula": "3d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "acid",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      },
+      "Z2MZTVmV40fGLkA4": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "acid",
+        "category": "persistent",
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "XItIluU0Z8ObylZo": "2d8",
+        "Z2MZTVmV40fGLkA4": "1d6"
+      }
+    }
+  },
+  "_id": "ygjHoKJSmAViJHJq",
+  "img": "icons/magic/acid/projectile-smoke-glowing.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111277547,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 12600000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!ygjHoKJSmAViJHJq"
+}

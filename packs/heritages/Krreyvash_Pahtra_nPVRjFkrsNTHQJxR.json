@@ -1,0 +1,58 @@
+{
+  "name": "Krreyvash Pahtra",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You or your ancestors chose to endure experimental bioengineering to help fight the Veskarium. Choose a 1st level biotech augmentation. The selected augmentation is permanently part of your body and does not count against the maximum number of augmentations you can implant. You don't pay the cost for this augmentation. You can swap out this bonus upgrade by paying the appropriate cost for a new augmentation at any time.</p>"
+    },
+    "rules": [],
+    "slug": "krreyvash-pahtra",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Pahtra",
+      "slug": "pahtra",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.zB9NEKvcjYO66lWj"
+    }
+  },
+  "_id": "nPVRjFkrsNTHQJxR",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "ZgMNtAFc9yrJu1I7",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708116110765,
+    "modifiedTime": 1722111278451,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!nPVRjFkrsNTHQJxR"
+}

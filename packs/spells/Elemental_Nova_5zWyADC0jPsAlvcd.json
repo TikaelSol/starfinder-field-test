@@ -1,0 +1,258 @@
+{
+  "folder": null,
+  "name": "Elemental Nova",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Connection</strong> elemental</p>\n<hr />\n<p>A roaring blast of elemental energy erupts around your targets. Select an elemental trait: air, earth, fire, metal, water, or wood. Elemental nova gains the trait you choose. Elemental nova deals 9d6 damage based on the chosen trait: electricity or sonic for air, bludgeoning or piercing for earth, acid or slashing for metal, fire for fire, cold for water, or poison for wood.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+    },
+    "rules": [],
+    "slug": "elemental-nova",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "mystic"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "240 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "wZ6QNsx9fX7E75Ij": {
+        "formula": "9d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "untyped",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "wZ6QNsx9fX7E75Ij": "2d6"
+      }
+    },
+    "overlays": {
+      "boNZWzalN0a0Qr6v": {
+        "name": "Elemental Nova (Air, Sonic)",
+        "system": {
+          "damage": {
+            "wZ6QNsx9fX7E75Ij": {
+              "type": "sonic",
+              "category": null,
+              "kinds": [
+                "damage"
+              ]
+            }
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      },
+      "UKy7xy8zHvpTrwvn": {
+        "name": "Elemental Nova (Earth, Piercing)",
+        "system": {
+          "damage": {
+            "wZ6QNsx9fX7E75Ij": {
+              "type": "piercing",
+              "category": null,
+              "kinds": [
+                "damage"
+              ]
+            }
+          }
+        },
+        "sort": 4,
+        "overlayType": "override"
+      },
+      "fGUg1SfGF4NmY5AT": {
+        "name": "Elemental Nova (Fire)",
+        "system": {
+          "damage": {
+            "wZ6QNsx9fX7E75Ij": {
+              "type": "fire",
+              "category": null,
+              "kinds": [
+                "damage"
+              ]
+            }
+          }
+        },
+        "sort": 5,
+        "overlayType": "override"
+      },
+      "VEbagM0J3nIL8tob": {
+        "name": "Elemental Nova (Metal, Acid)",
+        "system": {
+          "damage": {
+            "wZ6QNsx9fX7E75Ij": {
+              "type": "acid",
+              "category": null,
+              "kinds": [
+                "damage"
+              ]
+            }
+          }
+        },
+        "sort": 6,
+        "overlayType": "override"
+      },
+      "CGaDVpAXqVRy7xNy": {
+        "name": "Elemental Nova (Metal, Slashing)",
+        "system": {
+          "damage": {
+            "wZ6QNsx9fX7E75Ij": {
+              "type": "slashing",
+              "category": null,
+              "kinds": [
+                "damage"
+              ]
+            }
+          }
+        },
+        "sort": 7,
+        "overlayType": "override"
+      },
+      "8ZvrINe1G6vRTgzf": {
+        "name": "Elemental Nova (Wood)",
+        "system": {
+          "damage": {
+            "wZ6QNsx9fX7E75Ij": {
+              "type": "poison",
+              "category": null,
+              "kinds": [
+                "damage"
+              ]
+            }
+          }
+        },
+        "sort": 9,
+        "overlayType": "override"
+      },
+      "SLfgOr7TDIS6tlKO": {
+        "name": "Elemental Nova (Earth, Bludgeoning)",
+        "system": {
+          "damage": {
+            "wZ6QNsx9fX7E75Ij": {
+              "type": "bludgeoning",
+              "category": null,
+              "kinds": [
+                "damage"
+              ]
+            }
+          }
+        },
+        "sort": 3,
+        "overlayType": "override"
+      },
+      "mU6ePNkt4a9D93Zz": {
+        "name": "Elemental Nova (Water)",
+        "system": {
+          "damage": {
+            "wZ6QNsx9fX7E75Ij": {
+              "type": "cold",
+              "category": null,
+              "kinds": [
+                "damage"
+              ]
+            }
+          }
+        },
+        "sort": 8,
+        "overlayType": "override"
+      },
+      "AByIJIQnUvpjtwtb": {
+        "name": "Elemental Nova (Air, Electricity)",
+        "system": {
+          "damage": {
+            "wZ6QNsx9fX7E75Ij": {
+              "type": "electricity",
+              "category": null,
+              "kinds": [
+                "damage"
+              ]
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      }
+    }
+  },
+  "_id": "5zWyADC0jPsAlvcd",
+  "img": "icons/magic/light/explosion-star-glow-orange.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275590,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!5zWyADC0jPsAlvcd"
+}

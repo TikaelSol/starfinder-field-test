@@ -1,0 +1,94 @@
+{
+  "name": "Effect: Got 'Em!",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The creature takes a circumstance penalty to attack and damage rolls against you.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.Check.Result.Degree.Check.criticalSuccess",
+            "value": 1
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.success",
+            "value": 2
+          }
+        ],
+        "prompt": "PF2E.SpecificRule.Prompt.DegreeOfSuccess",
+        "key": "ChoiceSet",
+        "flag": "divisor"
+      },
+      {
+        "key": "TempHP",
+        "value": "floor(@item.origin.level/@item.flags.pf2e.rulesSelections.divisor)"
+      }
+    ],
+    "slug": "effect-got-em",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.879,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20plus%20sign.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722222426632,
+    "modifiedTime": 1722224851252,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "TlGsIXpYAJsnrizm",
+  "sort": 0,
+  "_key": "!items!TlGsIXpYAJsnrizm"
+}

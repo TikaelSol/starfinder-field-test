@@ -1,0 +1,114 @@
+{
+  "name": "Flashfire",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You cause fires to ignite and spread. The fire deals 3d6 fire damage to each creature that's in the area when the spell is cast or that ends its turn in the area (basic Reflex save). A creature who critically fails its saving throw also takes @Damage[(1+@item.level)[persistent,fire]] damage. The area is hazardous terrain. A creature who moves on the ground through the area takes @Damage[(1+@item.level)[fire]] damage for every square of that area it moves into. Everything on each side of the flashfire is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from creatures on the opposite side. Each time you sustain this spell, the radius of the fire increases by 5 feet.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The fire damage increases by 1d6. The persistent damage increases by 1, and the hazardous terrain damage increases by 1.</p>"
+    },
+    "rules": [],
+    "slug": "flashfire",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "fire",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": {
+      "value": 10,
+      "type": "burst"
+    },
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {
+      "5LAwAGeAQ50VSDVX": {
+        "formula": "3d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "5LAwAGeAQ50VSDVX": "1d6"
+      }
+    }
+  },
+  "_id": "41eiakxOYO96avgr",
+  "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275459,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!41eiakxOYO96avgr"
+}

@@ -1,0 +1,86 @@
+{
+  "folder": null,
+  "name": "Solarian Weapon Mastery",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your weapon becomes and extension of yourself. Your proficiency ranks for simple weapons, martial weapons and unarmed attacks increases to master. Your proficiency rank for your solarian class DC increases to expert.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "path": "system.proficiencies.classDCs.solarian.rank",
+        "mode": "override",
+        "value": 2
+      }
+    ],
+    "slug": "solarian-weapon-mastery",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "solarian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "martial": {
+          "rank": 3
+        },
+        "simple": {
+          "rank": 3
+        },
+        "unarmed": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20light%20match%20on%20fire.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721886948692,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "_id": "LM4tpku9GMlq5bv2",
+  "sort": 4800000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!LM4tpku9GMlq5bv2"
+}

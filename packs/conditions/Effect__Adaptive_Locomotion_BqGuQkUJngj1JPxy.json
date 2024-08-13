@@ -1,0 +1,87 @@
+{
+  "name": "Effect: Adaptive Locomotion",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>If you select flippers, you gain a swim Speed of 20 feet. If you select hooked pseudopods, you gain a climb Speed of 20 feet.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "SF2E.SpecificRule.Barathu.AdaptativeLocomotion.Flippers",
+            "value": "swim"
+          },
+          {
+            "label": "SF2E.SpecificRule.Barathu.AdaptativeLocomotion.HookedPseudopod",
+            "value": "climb"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "SF2E.SpecificRule.Barathu.AdaptativeLocomotion.Prompt",
+        "flag": "adaptation"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "{item|flags.pf2e.rulesSelections.adaptation}",
+        "value": 20
+      }
+    ],
+    "slug": "effect-adaptive-locomotion",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 10,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20DNA%20helix.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722307133089,
+    "modifiedTime": 1722376076694,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "BqGuQkUJngj1JPxy",
+  "sort": 0,
+  "_key": "!items!BqGuQkUJngj1JPxy"
+}

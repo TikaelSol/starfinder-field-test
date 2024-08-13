@@ -1,0 +1,89 @@
+{
+  "name": "Genetic Regeneration",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You imbue the target's genetic code with a stimulated regenerative property that begins healing their wounds. The target temporarily gains regeneration 8, which restores 8 Hit Points to it at the start of each of its turn. While it has regeneration, the target can't die from taking Hit Points damage and its dying condition can't increase to a value that would kill it (this stops most creatures' dying condition at dying 3), though if its wounded value becomes 4 or higher, it stays @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} until its wounds are treated. If the target takes acid or fire damage, its regeneration deactivates until after the end of its next turn. Once during the spell's duration, the creature can forgo healing Hit Points that round to regrow one damaged or ruined organ or reattach a severed body part by spending an Interact action to hold the body part to the area it was severed from.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the regeneration value by 2.</p>"
+    },
+    "rules": [],
+    "slug": "genetic-regeneration",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "healing",
+        "manipulate",
+        "vitality"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 willing creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "6koMxltOVtV6BT6U",
+  "img": "icons/magic/life/cross-beam-green.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275609,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!6koMxltOVtV6BT6U"
+}

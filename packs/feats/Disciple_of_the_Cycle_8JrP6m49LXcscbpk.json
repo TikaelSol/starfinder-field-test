@@ -1,0 +1,71 @@
+{
+  "name": "Disciple of the Cycle",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>While it pales in comparison to the powers of a true solarian, you're a devoted disciple of the Cycle and can temporarily manifest control over the powers of the cosmos. You gain @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.41eiakxOYO96avgr]{flashfire} and @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.NtlvrkW23KGGwjp6]{gravity tether} as 3rd-rank occult innate spells. You can cast each of these occult innate spells once per day.</p>"
+    },
+    "rules": [],
+    "slug": "disciple-of-the-cycle",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "kasatha"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "8JrP6m49LXcscbpk",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 40100000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707974275555,
+    "modifiedTime": 1722316628373,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!8JrP6m49LXcscbpk"
+}

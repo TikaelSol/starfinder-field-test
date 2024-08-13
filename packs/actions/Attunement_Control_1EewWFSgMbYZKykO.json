@@ -1,0 +1,59 @@
+{
+  "folder": null,
+  "name": "Attunement Control",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>While exploring, you have an attuned state of your choosing. If you Attune as a free action when you roll initiative, you can select your attunement regardless of your stellar arrangement's favored attunement.</p>"
+    },
+    "rules": [],
+    "slug": "attunement-control",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "exploration",
+        "solarian"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721886122279,
+    "modifiedTime": 1722114226297,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "1EewWFSgMbYZKykO",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!1EewWFSgMbYZKykO"
+}

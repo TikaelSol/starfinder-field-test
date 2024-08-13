@@ -1,0 +1,85 @@
+{
+  "name": "Diplomat",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have dedicated your career to facilitating cooperation and forging peaceful alliances between different factions and peoples. You might work at an intergalactic embassy or travel aboard a starship on a mission to remote space. First contact situations are your specialty.</p><p>Choose two attribute boosts. One must be to <strong>Charisma</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p><p>You're trained in the Diplomacy skill and one Lore skill for a planet of your choosing. You gain the @UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{Group Impression} skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "diplomat",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "int"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "gmzIu": {
+        "uuid": "Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk",
+        "img": "icons/sundries/books/book-red-exclamation.webp",
+        "name": "Group Impression",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "diplomacy"
+      ],
+      "lore": []
+    }
+  },
+  "_id": "7vGCkm2B3E9zWhcx",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708152620019,
+    "modifiedTime": 1722279341465,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!7vGCkm2B3E9zWhcx"
+}

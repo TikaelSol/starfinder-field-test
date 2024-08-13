@@ -1,0 +1,94 @@
+{
+  "folder": null,
+  "name": "Spell Effect: Reorient",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The target loses the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} condition if they have it. The target becomes immune to the off-guard condition until the start of their next turn, even if it would be circumstantially applied, such as being flanked or @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+    },
+    "rules": [
+      {
+        "key": "Immunity",
+        "type": "off-guard"
+      }
+    ],
+    "slug": "spell-effect-reorient",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.872,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "schema": {
+      "version": 0.87,
+      "lastMigration": {
+        "version": {
+          "schema": null,
+          "foundry": "11.313",
+          "system": "5.6.2"
+        }
+      }
+    },
+    "unidentified": false
+  },
+  "img": "icons/skills/movement/ball-spinning-blue.webp",
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "starfinder-2e",
+      "system": "pf2e",
+      "coreVersion": "11.313",
+      "systemVersion": "5.6.2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1696515508732,
+    "modifiedTime": 1722218719212,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "ayMRoDo9esNenF4Z",
+  "sort": 3800000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!ayMRoDo9esNenF4Z"
+}

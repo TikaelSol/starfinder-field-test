@@ -1,0 +1,109 @@
+{
+  "folder": null,
+  "name": "Forget",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Paradox</strong> Gap influenced</p>\n<hr />\n<p>You force creatures to temporarily forget about the target. The target is @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} while within your quantum field, and memories of the target are temporarily erased or rewritten. This makes it undetected to all creatures. The first time an enemy attempts to locate the target (such as by Seeking) or uses Recall Knowledge to recall information about the target, they take 5d8 mental damage with a basic Will save as they suffer painful migraines while trying to process information about the missing target.</p>\n<p><strong>Success</strong> The creature takes 2d8 mental damage.</p>\n<p><strong>Failure</strong> The creature takes 5d8 mental damage.</p>\n<p><strong>Critical Failure</strong> The enemy takes 10d8 mental damage and is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d8.</p>"
+    },
+    "rules": [],
+    "slug": "forget",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anchoring",
+        "concentrate",
+        "focus",
+        "witchwarper"
+      ],
+      "rarity": "common",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature or object in your quantum field"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "10 minute",
+      "sustained": false
+    },
+    "damage": {
+      "GqbiSmoNL7lgkbQl": {
+        "formula": "5d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "mental",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "GqbiSmoNL7lgkbQl": "2d8"
+      }
+    }
+  },
+  "_id": "z4tEoxGxNlgMzIQs",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111277578,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 12800000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!z4tEoxGxNlgMzIQs"
+}

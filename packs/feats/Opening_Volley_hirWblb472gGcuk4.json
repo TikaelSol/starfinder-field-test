@@ -1,0 +1,87 @@
+{
+  "type": "feat",
+  "name": "Opening Volley",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You're wielding a gun and melee weapon or a combination weapon.</p><hr /><p>You shoot your target, then follow up with a melee attack to keep the pressure on your foe. Make a ranged Strike with the required weapon. If the Strike is successful, your next melee attack this round against the same target gains a +2 circumstance bonus to the attack roll.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "opening-volley",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "melee-strike-attack",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "opening-volley"
+        ]
+      }
+    ],
+    "slug": "opening-volley",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "hirWblb472gGcuk4",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801583824,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 17500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!hirWblb472gGcuk4"
+}

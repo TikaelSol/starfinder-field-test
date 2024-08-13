@@ -1,0 +1,115 @@
+{
+  "name": "Legendary Gunner",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're known across the galaxy for your skill with guns. Your proficiency rank increases to legendary with simple and martial guns, and to master with advanced guns. Your proficiency rank increases to expert with simple weapons, martial weapons, and unarmed attacks.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.martial-simple-guns.rank",
+        "value": 4,
+        "predicate": [
+          {
+            "not": "feature:striker"
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.advanced-guns.rank",
+        "value": 3
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.simple-guns.rank",
+        "value": 4,
+        "predicate": [
+          "feature:striker"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.agile-one-hand.rank",
+        "value": 4,
+        "predicate": [
+          "feature:striker"
+        ]
+      }
+    ],
+    "slug": "legendary-gunner",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "martial": {
+          "rank": 2
+        },
+        "simple": {
+          "rank": 2
+        },
+        "unarmed": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "_id": "KjJ1TfPIQXV5mFvq",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/space%20bullet.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722127473976,
+    "modifiedTime": 1722298228809,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!KjJ1TfPIQXV5mFvq"
+}

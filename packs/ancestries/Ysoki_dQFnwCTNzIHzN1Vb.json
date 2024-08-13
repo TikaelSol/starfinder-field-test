@@ -1,0 +1,104 @@
+{
+  "name": "Ysoki",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Once known as @UUID[Compendium.pf2e.ancestries.Item.P6PcVnCkh4XMdefw]{Ratfolk}, ysoki are clever and flexible. With roots on countless worlds, ysoki work alongside larger species helping to establish communities and accomplish tough tasks. From the largest of crowds to the tightest of tunnels, a ysoki always knows how to find their way. Only the foolish overlook the presence of a ysoki in a group!</em></p>\n<p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.6sElEDCCBjkgQ3OD]{Ysoki}</p>"
+    },
+    "rules": [],
+    "slug": "ysoki",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "humanoid",
+        "ratfolk"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 6,
+    "size": "sm",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "dex"
+        ]
+      },
+      "1": {
+        "value": [
+          "int"
+        ]
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "str"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "akitonian",
+        "common",
+        "ysoki"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "low-light-vision"
+  },
+  "_id": "dQFnwCTNzIHzN1Vb",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/ancestries/ysoki.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "coreVersion": "12.330",
+    "createdTime": 1708138284144,
+    "modifiedTime": 1722325781979,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!dQFnwCTNzIHzN1Vb"
+}

@@ -1,0 +1,102 @@
+{
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/aeon-stone-lavender-and-green-ellipsoid.webp",
+  "name": "Aeon Stone (Sapphire Cone)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Staple items within the Azlanti Star Empire, these stones are sought across the cosmos for their connection with the building of the known universe. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to construct the universe in primeval times.</p><p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an aeon stone with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are suppressed until you return it to orbit your head again.</p><p>There are various types of aeon stones, each with a different appearance and magical effect. Each aeon stone also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or long-lost magical items called wayfinders.</p><p>This opalescent sapphire cone grants you a limited form of projected empathy with a range of 100 feet that can be roughly understood by creatures regardless of language, and includes a type and intensity of emotion, such as \"mild anger,\" \"intense joy,\" or \"deep sadness.\" When you Sense the Motive of a creature within 30 feet, you detect the presence or absence of thoughts from the creature as though you cast the 1-action version of detect thoughts.</p><p>The resonant power allows you to cast mind skewer as an occult innate spell once per day.</p>"
+    },
+    "rules": [],
+    "slug": "aeon-stone-sapphire-cone",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "invested",
+        "magical"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 1600
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.3obTVPkQ5mGwXJat",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722374417510,
+    "modifiedTime": 1722376089667,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.3obTVPkQ5mGwXJat"
+    }
+  },
+  "effects": [],
+  "folder": "H3wWtIPMgO6Z0PMJ",
+  "_id": "QE2P9A7ZUXFKjkQ4",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!QE2P9A7ZUXFKjkQ4"
+}

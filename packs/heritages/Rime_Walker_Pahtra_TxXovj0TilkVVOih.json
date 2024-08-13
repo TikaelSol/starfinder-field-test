@@ -1,0 +1,64 @@
+{
+  "name": "Rime Walker Pahtra",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've adapted to cold environments with a multilayer fluffy fur coat and extra body fat. You may be the descendent of ancient pahtras who dwelled on Pulonis long before the Veskarium's exploitation changed its climate, or you may have unlocked this genetic potential through bioengineering. You gain cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "cold",
+        "value": "max(1,floor(@actor.level/2))"
+      }
+    ],
+    "slug": "rime-walker-pahtra",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Pahtra",
+      "slug": "pahtra",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.zB9NEKvcjYO66lWj"
+    }
+  },
+  "_id": "TxXovj0TilkVVOih",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "ZgMNtAFc9yrJu1I7",
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708116499084,
+    "modifiedTime": 1722111278298,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!TxXovj0TilkVVOih"
+}

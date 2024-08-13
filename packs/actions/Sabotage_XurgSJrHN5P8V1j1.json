@@ -1,0 +1,59 @@
+{
+  "name": "Sabotage",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You disrupt enemy tech to cover your tracks or gain a tactical advantage. Select a single tech creature or tech item within 15 feet that you can see. If your target is a tech creature, attempt a Computers or Crafting check against the creature's Fortitude DC. If your target is an item, attempt a Thievery check against the item's DC or the Reflex DC of the creature possessing the item, if the item is being carried, held, or worn and the DC would be higher.</p><p>If you're an expert in Computers, Crafting, or Thievery, you can use Sabotage on a tech creature or tech item within 30 feet. If you're a master, you can use it within 45 feet. If you're legendary, you can use it within 60 feet.</p><hr /><p><strong>Critical Success</strong> The creature or item becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} for 1 minute.</p><p><strong>Success</strong> The creature or item becomes glitching 1 for 2 rounds.</p><p><strong>Failure</strong> Your attempt fails and requires more persistent analysis. The target is immune to your Sabotage until the end of your next turn.</p><p><strong>Critical Failure</strong> Your attempt backfires. The target is immune to your Sabotage for 10 minutes.</p>"
+    },
+    "rules": [],
+    "slug": "sabotage",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "operative"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "XurgSJrHN5P8V1j1",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722106205819,
+    "modifiedTime": 1722114226297,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!XurgSJrHN5P8V1j1"
+}

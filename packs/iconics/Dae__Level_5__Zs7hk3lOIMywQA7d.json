@@ -1,0 +1,3847 @@
+{
+  "prototypeToken": {
+    "displayName": 0,
+    "displayBars": 0,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Dae",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/starfinder-field-test-for-pf2e/art/iconics/tokens/dae.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1.8,
+      "scaleY": 1.8,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "name": "Dae (Level 5)",
+  "type": "character",
+  "ownership": {
+    "default": 1,
+    "X4PBxKRd2PcFy3lF": 3,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 68,
+        "temp": 0
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": []
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 5
+      },
+      "biography": {
+        "appearance": "",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "xp": {
+        "value": 0,
+        "min": 0,
+        "max": 1000,
+        "pct": 0
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "alliance": "party"
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 1,
+        "max": 3
+      }
+    },
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": null,
+    "skills": {
+      "acrobatics": {
+        "rank": 1
+      },
+      "athletics": {
+        "rank": 2
+      },
+      "deception": {
+        "rank": 1
+      },
+      "performance": {
+        "rank": 2
+      },
+      "society": {
+        "rank": 1
+      }
+    },
+    "pfs": {
+      "playerNumber": null,
+      "characterNumber": null,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": null,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": [],
+    "build": {
+      "attributes": {
+        "boosts": {
+          "1": [
+            "str",
+            "cha",
+            "con",
+            "dex"
+          ],
+          "5": [
+            "str",
+            "dex",
+            "con",
+            "cha"
+          ]
+        }
+      }
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/iconics/portraits/dae.webp",
+  "items": [
+    {
+      "name": "Pahtra",
+      "type": "ancestry",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>Pahtras are a humanoid feline species from a nearby star system. They're highly competitive and are known for their achievements in magic, music, and war. Their homeworld was recently freed from occupation by the Veskarium and they've joined the Pact Worlds.</em></p>\n<p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.fOEpHNkexe9KcPFe]{Pahtra}</p>"
+        },
+        "rules": [],
+        "slug": "pahtra",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.917,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "humanoid",
+            "pahtra"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "hp": 8,
+        "size": "med",
+        "reach": 5,
+        "speed": 25,
+        "boosts": {
+          "0": {
+            "value": [
+              "dex"
+            ]
+          },
+          "1": {
+            "value": [
+              "cha"
+            ]
+          },
+          "2": {
+            "value": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "selected": "str"
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": [
+              "con"
+            ]
+          }
+        },
+        "languages": {
+          "value": [
+            "common",
+            "pahtra",
+            "vesk"
+          ],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 0,
+          "value": [],
+          "custom": ""
+        },
+        "items": {},
+        "vision": "darkvision"
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/ancestries/pahtra.webp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jqoxBUkgpBQ7vlMR": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.zB9NEKvcjYO66lWj",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "ArZaQIaAJmTHu3us",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.ArZaQIaAJmTHu3us"
+    },
+    {
+      "name": "Meyel's Chosen Pahtra",
+      "type": "heritage",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You have an undeniable streak of luck that you believe is a blessing from your ancestral god Meyel. You may come from a long line of mystics, be born at a holy site on Pulonis, or simply have reached out in fervent prayer at a time of crisis. Most of Meyel's chosen can point to at least one past event when their goddess may have intervened to save them from death or some other awful fate. Whether metaphorically or literally, you always seem to land on your feet. The first time each day that you critically fail a saving throw, you immediately reroll the saving throw as a free action; this is a fortune effect.</p>"
+        },
+        "rules": [],
+        "slug": "meyels-chosen-pahtra",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.917,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "ancestry": {
+          "name": "Pahtra",
+          "slug": "pahtra",
+          "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.zB9NEKvcjYO66lWj"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/heritage.svg",
+      "folder": "ZgMNtAFc9yrJu1I7",
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "jqoxBUkgpBQ7vlMR": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.heritages.Item.nuMq4WG1IQoTEp1B",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "qacUiPsrNXuWZL2S",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.qacUiPsrNXuWZL2S"
+    },
+    {
+      "name": "Icon",
+      "type": "background",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Everybody wants their 15 minutes of fame, but for you, it's somehow become a lifestyle. Whether by luck or dedication, you are a star performer, celebrity, or popular influencer. Your face, voice, and style are commodities across known space, but for every adoring fan, there's a hater spreading gossip or paparazzi looking to capture your flaws.</p>\n<p>Choose two attribute boosts. One must be to <strong>Charisma</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Performance skill and the Media Lore skill. You gain the Sparkling Performance skill feat.</p>"
+        },
+        "rules": [],
+        "slug": "icon",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.917,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "cha",
+              "con"
+            ],
+            "selected": "con"
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ],
+            "selected": "str"
+          }
+        },
+        "items": {
+          "OQf5H": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.O5zeo938lWGoNnb3",
+            "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+            "name": "Sparkling Performance",
+            "level": 1
+          }
+        },
+        "trainedSkills": {
+          "value": [
+            "performance"
+          ],
+          "lore": [
+            "Media Lore"
+          ]
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "jqoxBUkgpBQ7vlMR": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.backgrounds.Item.UjmLbQJwgCbyVBE3",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "sJZqI6ZtRIbi77x8",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.sJZqI6ZtRIbi77x8"
+    },
+    {
+      "name": "Sparkling Performance",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your presence lights up the stage. You can @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} using Performance instead of Deception. If you are master in Performance, you can create sparkles when you attempt a Performance skill check, casting dim light in a 20-foot radius. If you are legendary in Performance, you can cast bright light in a 20-foot radius and attempt to counteract a darkness effect using your Performance modifier as your counteract modifier.</p>"
+        },
+        "rules": [],
+        "slug": "sparkling-performance",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.925,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "general",
+            "skill"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "skill",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Performance"
+            }
+          ]
+        },
+        "location": "sJZqI6ZtRIbi77x8",
+        "selfEffect": {
+          "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.civUyy7XNTF8E4Xv",
+          "name": "Effect: Sparkling Performance"
+        }
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+      "folder": null,
+      "sort": 30900000,
+      "ownership": {
+        "default": 0,
+        "Wdx2rirHxbejveh1": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "HFSu6x3TwEqvDp4D",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.HFSu6x3TwEqvDp4D"
+    },
+    {
+      "name": "Solarian",
+      "type": "class",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>You are a conduit for the stellar forces of the cosmos: a solar knight. The powers of gravity and light represent the extremes of these forces, and you can attune yourself between them. As an agent of this cycle, you manifest an array of solar equipment, and use your own connection to stellar forces to empower them. Regardless of which extreme of the stellar spectrum you prefer, you can change your attunement between them to take advantage of bespoke powers earned through hard meditation and practice.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.lP7NyqiY0dBXK3zY]</em></p>"
+        },
+        "rules": [],
+        "slug": "solarian",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "keyAbility": {
+          "value": [
+            "str"
+          ]
+        },
+        "items": {
+          "iEPDk": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.aqK8U5DUCQkiOqwO",
+            "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/eclipse.webp",
+            "name": "Stellar Attunement",
+            "level": 1
+          },
+          "p26IA": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.hLV2bgNYSl4dNbL0",
+            "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+            "name": "Solar Manifestations",
+            "level": 1
+          },
+          "nSzoQ": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.OE7fTZRa2wdY8z4x",
+            "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+            "name": "Indomitable Body and Mind",
+            "level": 3
+          },
+          "XriPT": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.npH7KNDEKog5ZALV",
+            "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+            "name": "Solarian Weapon Expertise",
+            "level": 5
+          },
+          "vQcPr": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.Vlw5uP6W3wXHLSOq",
+            "img": "icons/magic/perception/eye-slit-pink.webp",
+            "name": "Pensive Assessor",
+            "level": 7
+          },
+          "J13or": {
+            "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt",
+            "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+            "name": "Weapon Specialization",
+            "level": 7
+          },
+          "EtD1i": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.728M6LFzWrKiYeC4",
+            "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/alien%20eye.webp",
+            "name": "Willful Defiance",
+            "level": 9
+          },
+          "CDNix": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.uAAYLj3FqBAdn2Tz",
+            "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20person%20running.webp",
+            "name": "Controlled Body",
+            "level": 15
+          },
+          "mpODh": {
+            "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9",
+            "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+            "name": "Greater Weapon Specialization",
+            "level": 15
+          },
+          "s9zN5": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.5FnvxDWxA47ErFUb",
+            "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/finp_275_b.webp",
+            "name": "Armor Mastery",
+            "level": 17
+          },
+          "mUBT6": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.YqzO2LL4NRsarAwG",
+            "img": "icons/equipment/chest/breastplate-layered-grey.webp",
+            "name": "Armor Expertise (Solarian)",
+            "level": 11
+          },
+          "2WyNQ": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.LM4tpku9GMlq5bv2",
+            "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20light%20match%20on%20fire.webp",
+            "name": "Solarian Weapon Mastery",
+            "level": 13
+          },
+          "SyZra": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.RX6rJoSPQeGABybP",
+            "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20seven%20balls.webp",
+            "name": "Solar Paradigm",
+            "level": 19
+          },
+          "70Es9": {
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.dLkpP35gnlfSzpmO",
+            "img": "icons/magic/light/explosion-star-large-orange-purple.webp",
+            "name": "Solarian Arrangement",
+            "level": 1
+          }
+        },
+        "hp": 10,
+        "trainedSkills": {
+          "value": [
+            "athletics"
+          ],
+          "additional": 3
+        },
+        "perception": 2,
+        "savingThrows": {
+          "fortitude": 1,
+          "reflex": 2,
+          "will": 2
+        },
+        "attacks": {
+          "simple": 1,
+          "martial": 1,
+          "advanced": 0,
+          "unarmed": 1,
+          "other": {
+            "name": "",
+            "rank": 0
+          }
+        },
+        "defenses": {
+          "unarmored": 1,
+          "light": 1,
+          "medium": 1,
+          "heavy": 0
+        },
+        "spellcasting": 0,
+        "ancestryFeatLevels": {
+          "value": [
+            1,
+            5,
+            9,
+            13,
+            17
+          ]
+        },
+        "classFeatLevels": {
+          "value": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "generalFeatLevels": {
+          "value": [
+            3,
+            7,
+            11,
+            15,
+            19
+          ]
+        },
+        "skillFeatLevels": {
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "skillIncreaseLevels": {
+          "value": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19
+          ]
+        }
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/class-icons/solarian.webp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Rx0xhdrs9eKd1Esv": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.classes.Item.QM6hLbfrpnwZFQjk",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "u6Wf15EEmkoANjMA",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.u6Wf15EEmkoANjMA"
+    },
+    {
+      "type": "lore",
+      "name": "Media Lore",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        }
+      },
+      "_id": "T1IiQJiDIFwisBAA",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.T1IiQJiDIFwisBAA"
+    },
+    {
+      "name": "Competitive Spirit",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> An ally attempts a skill check with a skill that you have trained or better proficiency rank in.</p><hr /><p>You push yourself to be the best by competing with the triggering ally. Until the end of your next turn, you can attempt the same skill check to perform the same action or activity that the triggering ally performed. You gain a +2 circumstance bonus to this skill check. If you achieve at least one degree of success higher than the triggering ally, this use of Competitive Spirit doesn't count toward its frequency. If you roll a critical failure on this skill check, you take a –1 circumstance penalty to all skill checks attempted with that skill for the next hour as you try new techniques to improve your future attempts.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "skill-check",
+            "value": 2,
+            "type": "circumstance",
+            "predicate": [
+              "competitive-spirit"
+            ]
+          }
+        ],
+        "slug": "competitive-spirit",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.917,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "pahtra"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1,
+          "taken": 1
+        },
+        "category": "ancestry",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "ancestry-1",
+        "frequency": {
+          "max": 1,
+          "per": "PT1H"
+        }
+      },
+      "_id": "CPyK1JDNKRIuvdKB",
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+      "folder": null,
+      "sort": 45600000,
+      "ownership": {
+        "default": 0,
+        "jqoxBUkgpBQ7vlMR": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.feats.Item.fEJFcp29wh8BJ2Ea",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.CPyK1JDNKRIuvdKB"
+    },
+    {
+      "type": "feat",
+      "name": "Stellar Rush",
+      "folder": null,
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You rush forward, empowered by your stellar energies, getting into the thick of combat with ease. Stride twice. You gain a +10-foot circumstance bonus to your Speed during these moves.</p><p><strong>Graviton-Attuned</strong> When you finish your Strides, enemies within 15 feet of you must attempt a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC. On a failure, the foes are pulled directly towards you, ending in an adjacent square if possible. You select the order which foes are moved.</p><p><strong>Photon-Attuned</strong> The squares you moved through during your stride are suffused with solar energy until the start of your next turn. Creatures on each side of the squares are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from creatures on the opposite side. Creatures in these spaces are unaffected.</p>"
+        },
+        "rules": [],
+        "slug": "stellar-rush",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attuned",
+            "cycle",
+            "move",
+            "solarian"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1,
+          "taken": 1
+        },
+        "category": "class",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "class-1"
+      },
+      "_id": "xYXtnNxFUehoz4KW",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.feats.Item.ynPBYXVBqiuIvc0D",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 24000000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.xYXtnNxFUehoz4KW"
+    },
+    {
+      "name": "Switch Places",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> You are adjacent to an ally.</p>\n<hr />\n<p>You deftly swap positions with a nearby ally. This is forced movement for your ally. Both you and your ally must be able to use actions with the move trait to use Switch Places, and you both must be able to fit in the squares you move to if your size is different.</p>"
+        },
+        "rules": [],
+        "slug": "switch-places",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.925,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "general",
+            "move",
+            "skill"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2,
+          "taken": 2
+        },
+        "category": "skill",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "expert in Athletics"
+            }
+          ]
+        },
+        "location": "skill-2"
+      },
+      "_id": "Cu1mrDwHH8rJHgzt",
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+      "folder": null,
+      "sort": 14400000,
+      "ownership": {
+        "default": 0,
+        "Wdx2rirHxbejveh1": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.feats.Item.ZxdfwfJKbv5gajom",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.Cu1mrDwHH8rJHgzt"
+    },
+    {
+      "_id": "J7kkbi7K7eM9QTuG",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Fleet",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You move more quickly on foot. Your Speed increases by 5 feet.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "land-speed",
+            "value": 5
+          }
+        ],
+        "slug": "fleet",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "general"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1,
+          "taken": 3
+        },
+        "category": "general",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "general-3"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.Ux73dmoF8KnavyUD",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.feats-srd.Item.Ux73dmoF8KnavyUD"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.J7kkbi7K7eM9QTuG"
+    },
+    {
+      "_id": "DlNvgtuCugsY4mlm",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Cat Fall",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you're an expert in Acrobatics, treat falls as 25 feet shorter and 50 feet if you're a master. If you're legendary in Acrobatics, you always land on your feet and don't take damage, regardless of the distance of the fall.</p>"
+        },
+        "rules": [],
+        "slug": "cat-fall",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "general",
+            "skill"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1,
+          "taken": 4
+        },
+        "category": "skill",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Acrobatics"
+            }
+          ]
+        },
+        "location": "skill-4"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.LQw0yIMDUJJkq1nD",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.feats-srd.Item.LQw0yIMDUJJkq1nD"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.DlNvgtuCugsY4mlm"
+    },
+    {
+      "type": "feat",
+      "name": "Reactive Strike",
+      "folder": null,
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p><hr /><p>You lash out at an occupied foe. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>"
+        },
+        "rules": [],
+        "slug": "reactive-strike",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "solarian"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4,
+          "taken": 4
+        },
+        "category": "class",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "class-4"
+      },
+      "_id": "Whg6M9UHas6Tx5EY",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.feats.Item.fIFoH4GFC1reDqFB",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 16600000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.Whg6M9UHas6Tx5EY"
+    },
+    {
+      "name": "Battleblessed",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You're an accomplished battledancer and warrior, blessed by seers, honed by ancestral tradition, and capable of feats beyond the natural abilities of your peers. You gain @UUID[Compendium.pf2e.spells-srd.Item.KcLVELhCUcKXxiKE]{tailwind} as a 1st-rank primal innate spell that you can cast once per day.</p>"
+        },
+        "rules": [],
+        "slug": "battleblessed",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.917,
+            "foundry": "12.328",
+            "system": "6.1.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "pahtra"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5,
+          "taken": 5
+        },
+        "category": "ancestry",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "ancestry-5"
+      },
+      "_id": "5V0qVtwojbc6ZU8g",
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+      "folder": null,
+      "sort": 42000000,
+      "ownership": {
+        "default": 0,
+        "jqoxBUkgpBQ7vlMR": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.feats.Item.H9oUIrnkHtCS1acM",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.5V0qVtwojbc6ZU8g"
+    },
+    {
+      "name": "Primal Innate Spells",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 0,
+          "dc": 0
+        },
+        "tradition": {
+          "value": "primal"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "proficiency": {
+          "value": 1,
+          "slug": ""
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        }
+      },
+      "_id": "MhHoXOF2pdVQQOOu",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.MhHoXOF2pdVQQOOu"
+    },
+    {
+      "img": "systems/pf2e/icons/spells/longstrider.webp",
+      "name": "Tailwind",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The wind at your back pushes you to find new horizons. You gain a +10-foot status bonus to your Speed.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.PQHP7Oph3BQX1GhF]{Spell Effect: Tailwind}</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> The duration increases to 8 hours.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.7vIUF5zbvHzVcJA0]{Spell Effect: Tailwind (8 hours)}</p>"
+        },
+        "rules": [],
+        "slug": "tailwind",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "air",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 hour",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "MhHoXOF2pdVQQOOu",
+          "heightenedLevel": 1
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.KcLVELhCUcKXxiKE",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.Item.KcLVELhCUcKXxiKE"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_id": "vIRkEnFa3On9azTS",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.vIRkEnFa3On9azTS"
+    },
+    {
+      "folder": "H3wWtIPMgO6Z0PMJ",
+      "name": "Comm Unit",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A personal comm unit is a pocket-sized device that combines a minor portable computer and a cellular communications device, allowing instantaneous wireless communication with other comm units in both audio- and text-based formats at planetary range. A personal comm unit also includes a calculator, a flashlight (emits bright light in a 5-foot radius around you and dim light in the next 5 feet), a browser that accesses any local infospheres, and several entertainment options (including games).</p><p>Personal comm units integrated into armor have some voice-activated capabilities; you can communicate with other comm units in audio-based formats and receive responses without needing a free hand, but typing a message, browsing the infosphere, or using an app requires the use of at least one hand.</p><p>Comm units that function at longer ranges aren't as portable; they include built-in generators that provide the necessary amount of power and rely on active Drift beacons to communicate. Short-term use of these units can be purchased in most major settlements.</p>"
+        },
+        "rules": [],
+        "slug": "comm-unit",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 7
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/walkie%20talkie.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.FCqL3rotjherLsg6",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 5100000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_id": "3MeSlqnMDb0JGq5Y",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.3MeSlqnMDb0JGq5Y"
+    },
+    {
+      "type": "equipment",
+      "name": "Datapad",
+      "folder": "H3wWtIPMgO6Z0PMJ",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These ubiquitous handheld computers incorporate a comm unit, microphone, speaker, camera, infosphere browser, and data storage. They can store thousands of hours of recordings, play games, and perform simple computing functions, such as time tracking and notifications, word processing, calculations, data processing, streaming media, and broadcasting emergency alerts from local governments. In most societies, commercial datapads are relatively flimsy, designed to rapidly wear out or fall behind on the latest features and updates to encourage the consumer to replace it with a newer model. In contrast, higher-end datapads are made to last and often include a sturdier chassis and extra functions.</p>"
+        },
+        "rules": [],
+        "slug": "datapad",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/blue%20tablet.webp",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.TsQkb9aerLS3UvEE",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 4700000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_id": "OBAkArWRywNaG7cY",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.OBAkArWRywNaG7cY"
+    },
+    {
+      "type": "equipment",
+      "name": "Portable Amp",
+      "folder": "H3wWtIPMgO6Z0PMJ",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This small device is typically synced up to an instrument, microphone, or the audio playback on a datapad. It amplifies the audio volume, reducing the DC of Perception checks to hear the audio by 5.</p>"
+        },
+        "rules": [],
+        "slug": "portable-amp",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/control%20panel%20large.webp",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.j8qgoAkdQ2IRc16r",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 7400000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_id": "2VJbtxTVUioxqeLl",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.2VJbtxTVUioxqeLl"
+    },
+    {
+      "folder": "GwujgNN7WkToI8vn",
+      "name": "Medpatch (Commercial)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Medpatches accelerate the body's natural healing processes and immune system.</p><p><strong>Activate—Apply</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><p>You regain @Damage[1d6[healing]] Hit Points and gain a +1 item bonus to saving throws against disease and poisons for 10 minutes.</p>"
+        },
+        "rules": [],
+        "slug": "medpatch-commercial",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "healing",
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 4,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 30
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/nj_912_b.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.epPPWPTc4W7EfUf2",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 4800000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_id": "bTyc4bRseUT0hxNq",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.bTyc4bRseUT0hxNq"
+    },
+    {
+      "folder": "o4lPEY2w6k5o9O8D",
+      "name": "Hardlight Series",
+      "type": "armor",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Upgrades: </strong>1</p><hr /><p>A projector fastened to a belt or lapel encases the wearer's body in this shimmering hardlight shell. Military-issue hardlight armor follows a predictable standard, but private users enjoy a range of customizable fashion options.</p>"
+        },
+        "rules": [],
+        "slug": "hardlight-series",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "flexible",
+            "noisy",
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "inSlot": true,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "light",
+        "group": "chain",
+        "acBonus": 2,
+        "strength": 1,
+        "dexCap": 3,
+        "checkPenalty": -1,
+        "speedPenalty": 0,
+        "runes": {
+          "potency": null,
+          "resilient": null,
+          "property": []
+        },
+        "subitems": [],
+        "specific": null
+      },
+      "img": "icons/equipment/chest/breastplate-banded-blue.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.98ytq6q9eVBeVPtl",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_id": "Ukjftnjcb4BTpBVF",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.Ukjftnjcb4BTpBVF"
+    },
+    {
+      "type": "equipment",
+      "name": "Magboots",
+      "folder": "H3wWtIPMgO6Z0PMJ",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These sturdy boots have powerful electromagnets built into the soles. These magnets can be activated or deactivated with an Interact action. While active, they grant you a +1 item bonus to Athletics checks to Climb metal surfaces, as well as a +1 item bonus to your Fortitude or Reflex DC against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} you when you are standing on a metal surface. In areas of zero gravity, while wearing a pair of magboots, you can move your Speed across metal surfaces and don't gain the @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.z1ucw4CLwLqHoAp3]{Untethered} condition.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "athletics",
+            "value": 1,
+            "type": "item",
+            "predicate": [
+              "terrain:metal",
+              "action:climb"
+            ]
+          },
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "fortitude-dc,reflex-dc"
+            ],
+            "value": 1,
+            "type": "item",
+            "predicate": [
+              "terrain:metal",
+              {
+                "or": [
+                  "action:shove",
+                  "action:reposition",
+                  "action:trip"
+                ]
+              }
+            ]
+          }
+        ],
+        "slug": "magboots",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 350
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "img": "icons/equipment/feet/boots-armored-steel.webp",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.faVm1KUnwsTdnNGx",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 6400000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_id": "hWIhkoAyK5gp2KqJ",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.hWIhkoAyK5gp2KqJ"
+    },
+    {
+      "type": "equipment",
+      "name": "Sunshades (Tactical)",
+      "folder": "H3wWtIPMgO6Z0PMJ",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Sunshades come in a variety of styles. You gain a +1 item bonus to saves against effects that cause the @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} or @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} condition while wearing tactical sunshades.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "saving-throw",
+            "value": 1,
+            "type": "item",
+            "predicate": [
+              {
+                "or": [
+                  "inflicts:blinded",
+                  "inflicts:dazzled"
+                ]
+              }
+            ]
+          }
+        ],
+        "slug": "sunshades-tactical",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 450
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/visor.webp",
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.cCIno82W4c1PirGM",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 7900000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_id": "j9ob3Wc55ExsmTYQ",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.j9ob3Wc55ExsmTYQ"
+    },
+    {
+      "folder": "OoVQVkJhSjhIyN7a",
+      "name": "Semi-Auto Pistol",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p> This basic pistol automatically ejects used cartridges and loads new ammunition after every shot fired.</p>"
+        },
+        "rules": [],
+        "slug": "semi-auto-pistol",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "analog",
+            "expend-1"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "semi-auto-pistol",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 30
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": "projectile",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 60,
+        "reload": {
+          "value": "1"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/pictol%20wrapped.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.sOl1WO2NFZ7bb2aF",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_id": "7Qq4tafSN9ty5Lzo",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.7Qq4tafSN9ty5Lzo"
+    },
+    {
+      "name": "Magazine (Semi-Auto Pistol)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "magazine-semi-auto-pistol",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 3,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "ammo",
+        "uses": {
+          "value": 5,
+          "max": 5,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "other"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/magazine%20light.webp",
+      "folder": "GwujgNN7WkToI8vn",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.tWFVW7j15qczONKh",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 5200000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_id": "4fxbwA0zm2Db7Lcp",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.4fxbwA0zm2Db7Lcp"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/treasure/currency/silver-pieces.webp",
+      "name": "Silver Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "silver-pieces",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 450,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "stackGroup": "coins"
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.5Ew82vBF9YfaiY9f",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Item.5Ew82vBF9YfaiY9f"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "wUAqnVozTk8PEm3v": 3
+      },
+      "_id": "ktlOPBCP6HgUfuXA",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.ktlOPBCP6HgUfuXA"
+    },
+    {
+      "folder": null,
+      "name": "Stellar Attunement",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>As a solarian, your existence cycles between the aspects of stars. You begin with two aspects: photon (the power of stars to emit heat, light, and plasma) or graviton (the power of stars to attract and imprison objects through gravity). At any time, you are considered graviton-attuned, photon-attuned, or unattuned. Many of your abilities have additional effects based on your current attunement, and some abilities swap your current state of attunement to another state.</p><p>Your default state of attunement is dictated by the favored attunement of your selected stellar arrangement. In encounter mode, you can use the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.JLo2gJ2s0BXUKsLQ]{Attune} action to re-attune to your favored state. In exploration mode, you can take the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.1EewWFSgMbYZKykO]{Attunement Control} activity to ensure that you are in constant control of what state of attunement you begin combat in, regardless of your favored attunement.</p>"
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "stellar-attunement",
+            "suboptions": [
+              {
+                "label": "SF2E.SpecificRule.Solarian.Attunement.Graviton",
+                "value": "graviton"
+              },
+              {
+                "label": "SF2E.SpecificRule.Solarian.Attunement.Photon",
+                "value": "photon"
+              },
+              {
+                "label": "SF2E.SpecificRule.Solarian.Attunement.Unattuned",
+                "value": "unattuned"
+              }
+            ],
+            "toggleable": true,
+            "alwaysActive": true,
+            "label": "SF2E.SpecificRule.Solarian.Attunement.Label",
+            "value": true,
+            "selection": "photon"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.JLo2gJ2s0BXUKsLQ",
+            "flag": "attune"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.1EewWFSgMbYZKykO",
+            "flag": "attunementControl"
+          }
+        ],
+        "slug": "stellar-attunement",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "solarian"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "u6Wf15EEmkoANjMA"
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/eclipse.webp",
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "attune": {
+              "id": "X4MvTyOoaieNNVWu",
+              "onDelete": "detach"
+            },
+            "attunementControl": {
+              "id": "UxDwnpg5794PPQ4b",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": 1722454751192,
+        "lastModifiedBy": "CmdglLq38DpgHzdd"
+      },
+      "sort": 5500000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "X4PBxKRd2PcFy3lF": 3
+      },
+      "_id": "1ofd4JoMcXKDkqj8",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.1ofd4JoMcXKDkqj8"
+    },
+    {
+      "folder": null,
+      "name": "Solar Manifestations",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your deep understanding of the stellar forces of the universe manifests in a variety of tangible ways. You can create and maintain all three different manifestations: solar flare, a solar nimbus, and a solar weapon. Your manifestations temporarily vanish if you become unattuned.</p><h3>Solar Flare</h3><p>A small mote of solar power hovers nearby or appears embedded on some part of your body, such as the palm of your hand or on your face. This flare of energy can unleash energy in a short range. Your solar flare is otherwise treated as a martial ranged weapon in the brawling weapon group.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.0o7v0LwOjvvNJRCw]{Solar Shot}</p><h3>Solar Nimbus</h3><p>A layer of photonic energy surrounds you, overlaying your body or worn armor. This layer of star stuff provides you with protection that works alongside existing armor. It appears as a layer of glowing light or solid darkness, depending on your current state of attunement. The general appearance and shape of the nimbus is your choice and could appear as a thin layer of energy or imposing spiked energy armor layered atop your existing equipment. This design has no impact on its function and doesn't provide any additional bonuses.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.fy5RQYfWhum3Bz9H]{Nimbus Surge}</p><h3>Solar Weapon</h3><p>Through sheer will, you can call forth a tangible weapon comprised of the essence of stars. When you Attune, you can manifest your weapon as part of the action. When manifesting your weapon, it appears in a free hand of your choice, unless it has the free-hand trait, at which point it can manifest in any hand. Your solar weapon is a martial melee weapon. It deals 1d8 of your choice of bludgeoning, piercing, or slashing damage. You can select up to two of the following traits for your weapon. Alternatively, you can select the reach trait for your weapon instead of selecting two of the following traits.</p><ul><li>Disarm</li><li>Free-Hand</li><li>Grapple</li><li>Nonlethal</li><li>Parry</li><li>Shove</li><li>Sweep</li><li>Trip</li><li>Versatile (B/P/S only)</li></ul><p>You can select one of the following weapon groups for your weapon to be a part of.</p><ul><li>Axe</li><li>Brawling</li><li>Club</li><li>Flail</li><li>Hammer</li><li>Knife</li><li>Pick</li><li>Polearm</li><li>Spear</li><li>Sword</li></ul><p>You can change the properties of your solar weapon through the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.7p3HC6xc2ui6fU3V]{Re-Forge Solar Weapon} activity. Your solar weapon gains additional benefits based on your current attunement.</p><p><strong>Graviton-Attuned</strong> When you successfully Strike a creature using your solar weapon, that creature treats all squares adjacent to the square where they were struck as being difficult terrain until the end of its next turn.</p><p><strong>Photon-Attuned</strong> When you successfully Strike a creature with your solar weapon, you deal an additional amount of fire damage equal to half your level (rounded up).</p><p></p>"
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.0o7v0LwOjvvNJRCw",
+            "flag": "solarShot"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.fy5RQYfWhum3Bz9H",
+            "flag": "nimbusSurge"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.7p3HC6xc2ui6fU3V",
+            "flag": "reForgeSolarWeapon"
+          }
+        ],
+        "slug": "solar-manifestations",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "solarian"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "u6Wf15EEmkoANjMA"
+      },
+      "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "solarShot": {
+              "id": "TcFcKjPVMZ5v1OXt",
+              "onDelete": "detach"
+            },
+            "nimbusSurge": {
+              "id": "M6vL7LINariCBcM1",
+              "onDelete": "detach"
+            },
+            "reForgeSolarWeapon": {
+              "id": "7YUfOQZxg09rKEZ4",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 6000000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "X4PBxKRd2PcFy3lF": 3
+      },
+      "_id": "FnQVkmVvgjaVciiv",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.FnQVkmVvgjaVciiv"
+    },
+    {
+      "folder": null,
+      "name": "Solarian Arrangement",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>As adherents of the cycle of creation and destruction, solarians maintain strong personal beliefs that attach themselves to specific aspects of the cycle. At 1st level, your arrangement grants you a favored attunement, which determines your starting attunement state in combat (unless you've used the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.1EewWFSgMbYZKykO]{Attunement Control} exploration action) and what state the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.JLo2gJ2s0BXUKsLQ]{Attune} action attunes you to. It also provides you with an initial revelation, and proficiency with a particular skill. You also gain advanced and greater revelations at later levels.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.dLgIh1aJTzfEA29V]{Balanced}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.fPxeqA1H3AZLbOAi]{Degradant}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.saCXcdMlmSXhhViU]{Radiant}</p>"
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:tag:solarian-arrangement"
+              ]
+            },
+            "flag": "arrangement",
+            "key": "ChoiceSet",
+            "prompt": "SF2E.SpecificRule.Solarian.Arrangement.Prompt",
+            "selection": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.saCXcdMlmSXhhViU"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.arrangement}",
+            "flag": "radiant"
+          }
+        ],
+        "slug": "solarian-arrangement",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "solarian"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "u6Wf15EEmkoANjMA"
+      },
+      "img": "icons/magic/light/explosion-star-large-orange-purple.webp",
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "radiant": {
+              "id": "NQmuKsPMZvX83jj7",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 5700000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "X4PBxKRd2PcFy3lF": 3
+      },
+      "_id": "TvQdKWj2Ea5Quw4L",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.TvQdKWj2Ea5Quw4L"
+    },
+    {
+      "folder": null,
+      "name": "Attune",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>You steady your body and mind and attune yourself to your stellar focus. If you are unattuned or not in your favored state, you become attuned to the favored attunement of your stellar arrangement. You can also manifest any of your solar manifestations if they are currently dormant, and if you have the free hands to use them.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.lUZuBzMe0UAllDxX]{Effect: Solar Weapon}</p><hr /><p><strong>Special</strong> In addition to the above usage, you can also Attune as a free action when you roll initiative.</p>"
+        },
+        "rules": [],
+        "slug": "attune",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "solarian"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false,
+        "frequency": {
+          "max": 1,
+          "per": "round"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.starfinder-field-test-for-pf2e.actions.Item.JLo2gJ2s0BXUKsLQ"
+        },
+        "pf2e": {
+          "grantedBy": {
+            "id": "1ofd4JoMcXKDkqj8",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "X4PBxKRd2PcFy3lF": 3
+      },
+      "_id": "X4MvTyOoaieNNVWu",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.X4MvTyOoaieNNVWu"
+    },
+    {
+      "folder": null,
+      "name": "Attunement Control",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>While exploring, you have an attuned state of your choosing. If you Attune as a free action when you roll initiative, you can select your attunement regardless of your stellar arrangement's favored attunement.</p>"
+        },
+        "rules": [],
+        "slug": "attunement-control",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "exploration",
+            "solarian"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.starfinder-field-test-for-pf2e.actions.Item.1EewWFSgMbYZKykO"
+        },
+        "pf2e": {
+          "grantedBy": {
+            "id": "1ofd4JoMcXKDkqj8",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "X4PBxKRd2PcFy3lF": 3
+      },
+      "_id": "UxDwnpg5794PPQ4b",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.UxDwnpg5794PPQ4b"
+    },
+    {
+      "folder": null,
+      "name": "Solar Shot",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You use your flare to unleash a directed blast of energy at a target. Make a ranged Strike against the AC of a creature in range. Add your Strength modifier to the damage roll. Your attunement determines the damage type and maximum range of the attack.</p><p><strong>Graviton-Attuned</strong> 1d8 bludgeoning, 15 feet. On a critical success, you can attempt a @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} using your Athletics even if you don't have a free hand or are not adjacent to the target.</p><p><strong>Photon-Attuned</strong> 1d6 fire, 30 feet. On a critical success, the target also takes 1d6 persistent fire damage.</p><hr /><p><strong>Level (+4)</strong> The damage increases by one die.</p>"
+        },
+        "rules": [
+          {
+            "category": "martial",
+            "group": "brawling",
+            "damage": {
+              "base": {
+                "damageType": "fire",
+                "dice": 1,
+                "die": "d6"
+              }
+            },
+            "key": "Strike",
+            "range": {
+              "max": "30"
+            },
+            "ability": "str",
+            "slug": "solar-shot",
+            "label": "SF2E.SpecificRule.Solarian.SolarShot.Label",
+            "predicate": [
+              "stellar-attunement:photon"
+            ],
+            "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/red%20comet.webp"
+          },
+          {
+            "category": "martial",
+            "group": "brawling",
+            "damage": {
+              "base": {
+                "damageType": "bludgeoning",
+                "dice": 1,
+                "die": "d8"
+              }
+            },
+            "key": "Strike",
+            "range": {
+              "max": "15"
+            },
+            "ability": "str",
+            "slug": "solar-shot",
+            "label": "SF2E.SpecificRule.Solarian.SolarShot.Label",
+            "predicate": [
+              "stellar-attunement:graviton"
+            ],
+            "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue comet swirling.webp"
+          }
+        ],
+        "slug": "solar-shot",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "attuned",
+            "solarian"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.starfinder-field-test-for-pf2e.actions.Item.0o7v0LwOjvvNJRCw"
+        },
+        "pf2e": {
+          "grantedBy": {
+            "id": "FnQVkmVvgjaVciiv",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "X4PBxKRd2PcFy3lF": 3
+      },
+      "_id": "TcFcKjPVMZ5v1OXt",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.TcFcKjPVMZ5v1OXt"
+    },
+    {
+      "folder": null,
+      "name": "Nimbus Surge",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> You take damage from a melee attack.</p><hr /><p>Your nimbus reacts to trauma.</p><p><strong>Graviton-Attuned</strong> The triggering creature must succeed at a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC or be pushed 5 feet away from you.</p><p><strong>Photon-Attuned</strong> The triggering creature takes @Damage[(ceil(@actor.level/2))[fire]]{fire damage} equal to half your level (rounded up).</p>"
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "nimbus-surge",
+            "toggleable": true,
+            "predicate": [
+              "feat:empowered-nimbus"
+            ]
+          }
+        ],
+        "slug": "nimbus-surge",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attuned",
+            "solarian"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.starfinder-field-test-for-pf2e.actions.Item.fy5RQYfWhum3Bz9H"
+        },
+        "pf2e": {
+          "grantedBy": {
+            "id": "FnQVkmVvgjaVciiv",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 2200000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "X4PBxKRd2PcFy3lF": 3
+      },
+      "_id": "M6vL7LINariCBcM1",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.M6vL7LINariCBcM1"
+    },
+    {
+      "folder": null,
+      "name": "Re-Forge Solar Weapon",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You spend 10 minutes focusing on the composition of your solar weapon. You can change the damage type of your weapon (typically between bludgeoning, piercing, or slashing), the currently selected traits for your weapon, and the weapon group your weapon belongs to. Your weapon maintains your selections until the next time you Re-Forge Solar Weapon.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.lUZuBzMe0UAllDxX]{Effect: Solar Weapon}</p>"
+        },
+        "rules": [],
+        "slug": "re-forge-solar-weapon",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "exploration",
+            "solarian"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.starfinder-field-test-for-pf2e.actions.Item.7p3HC6xc2ui6fU3V"
+        },
+        "pf2e": {
+          "grantedBy": {
+            "id": "FnQVkmVvgjaVciiv",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "X4PBxKRd2PcFy3lF": 3
+      },
+      "_id": "7YUfOQZxg09rKEZ4",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.7YUfOQZxg09rKEZ4"
+    },
+    {
+      "folder": null,
+      "name": "Radiant",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The light of a star shines more brightly than anything else in the cosmos, and you desire to shine just as brightly. As a follower of the radiant path, you channel that cosmic light into bursts of energy that manifest as flames or revitalizing photonic energy. There are few who understand the stellar fire of a star better than you, and you can channel that energy into personal enthusiasm, either by dedicating yourself to a profession or just having a radiant personality that appeals to others and makes you the center of attention.</p><p><strong>Favored Attunement</strong>: Photon</p><p><strong>Revelations</strong>: initial: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.jPy4UlsL5AlVwKYC]{Supernova}; advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ePrzwBAwVZk5OFg3]{Solar Wind}; greater: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.k7IZh5sSHImLt1Yz]{Big Bang}</p><p><strong>Arrangement Skill</strong>: Crafting or Diplomacy</p>"
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": [
+              {
+                "label": "PF2E.Skill.Crafting",
+                "value": "crafting"
+              },
+              {
+                "label": "PF2E.Skill.Diplomacy",
+                "value": "diplomacy"
+              }
+            ],
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.Skill",
+            "selection": "diplomacy"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.{item|flags.pf2e.rulesSelections.skill}.rank",
+            "value": 1
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.jPy4UlsL5AlVwKYC",
+            "flag": "supernova"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.ePrzwBAwVZk5OFg3",
+            "reevaluateOnUpdate": true,
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  9
+                ]
+              }
+            ],
+            "flag": "solarWind"
+          },
+          {
+            "key": "GrantItem",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  15
+                ]
+              }
+            ],
+            "reevaluateOnUpdate": true,
+            "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.k7IZh5sSHImLt1Yz",
+            "flag": "bigBang"
+          }
+        ],
+        "slug": "radiant",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [
+            "solarian-arrangement"
+          ],
+          "value": [
+            "solarian"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": null
+      },
+      "img": "icons/magic/light/explosion-star-glow-orange.webp",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.saCXcdMlmSXhhViU"
+        },
+        "pf2e": {
+          "grantedBy": {
+            "id": "TvQdKWj2Ea5Quw4L",
+            "onDelete": "cascade"
+          },
+          "itemGrants": {
+            "supernova": {
+              "id": "VRdOPmcWt8F4jXMV",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 6600000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "X4PBxKRd2PcFy3lF": 3
+      },
+      "_id": "NQmuKsPMZvX83jj7",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.NQmuKsPMZvX83jj7"
+    },
+    {
+      "folder": null,
+      "name": "Supernova",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Requirements</strong> You are photon-attuned.</p><hr /><p>You unleash your pent-up aggression, causing it to erupt like the stellar events that end stars. You can choose to affect creatures in a @Template[type:emanation|distance:15]{15-foot} or @Template[type:emanation|distance:30]. Each affected creature takes @Damage[(@actor.level)d8[fire]] damage and must attempt a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC. If you choose the 30-foot option, you instead deal @Damage[(@actor.level)d6[fire]] damage.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.</p><p><strong>Critical Failure</strong> The creature takes double damage and is blinded for 1 minute.</p><hr /><p><strong>Level (+1)</strong> Increase the damage by 1d8 (or 1d6 for the 30-foot version).</p>"
+        },
+        "rules": [],
+        "slug": "supernova",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attuned",
+            "cycle",
+            "solarian"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false,
+        "frequency": {
+          "max": 1,
+          "per": "PT10M"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.starfinder-field-test-for-pf2e.actions.Item.jPy4UlsL5AlVwKYC"
+        },
+        "pf2e": {
+          "grantedBy": {
+            "id": "NQmuKsPMZvX83jj7",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 2300000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "X4PBxKRd2PcFy3lF": 3
+      },
+      "_id": "VRdOPmcWt8F4jXMV",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.VRdOPmcWt8F4jXMV"
+    },
+    {
+      "folder": null,
+      "name": "Solarian Weapon Expertise",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You unlock further understanding of the many weapons of the cosmos. Your proficiency ranks for simple weapons, martial weapons and unarmed attacks increase to expert. You gain access to the critical specialization effects for your solar weapon.</p>"
+        },
+        "rules": [
+          {
+            "key": "CriticalSpecialization",
+            "predicate": [
+              "item:solar-weapon"
+            ]
+          }
+        ],
+        "slug": "solarian-weapon-expertise",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "solarian"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "u6Wf15EEmkoANjMA",
+        "subfeatures": {
+          "proficiencies": {
+            "simple": {
+              "rank": 2
+            },
+            "martial": {
+              "rank": 2
+            },
+            "unarmed": {
+              "rank": 2
+            }
+          }
+        }
+      },
+      "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 6500000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "X4PBxKRd2PcFy3lF": 3
+      },
+      "_id": "xJASJCkGPyDocxoh",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.xJASJCkGPyDocxoh"
+    },
+    {
+      "folder": null,
+      "name": "Indomitable Body and Mind",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Through meditation and perseverance, you've gained a broader control of your body. Your proficiency rank in Fortitude saves increases to expert. When you roll a success at a Fortitude or Will save against a mental or incapacitation effect, you can choose to change your current attunement.</p>"
+        },
+        "rules": [
+          {
+            "key": "Note",
+            "selector": [
+              "fortitude",
+              "will"
+            ],
+            "text": "SF2E.SpecificRule.Solarian.IndomitableBodyAndMind",
+            "title": "{item|name}",
+            "outcome": [
+              "success"
+            ],
+            "predicate": [
+              {
+                "or": [
+                  "item:trait:mental",
+                  "item:trait:incapacitation"
+                ]
+              }
+            ]
+          }
+        ],
+        "slug": "indomitable-body-and-mind",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "solarian"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "u6Wf15EEmkoANjMA",
+        "subfeatures": {
+          "proficiencies": {
+            "fortitude": {
+              "rank": 2
+            }
+          }
+        }
+      },
+      "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 5000000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "X4PBxKRd2PcFy3lF": 3
+      },
+      "_id": "eOiyAeUjbVEOApLx",
+      "_key": "!actors.items!Zs7hk3lOIMywQA7d.eOiyAeUjbVEOApLx"
+    }
+  ],
+  "folder": "dE4HyvSBQGqAnvSV",
+  "flags": {
+    "pf2e": {
+      "freeCrafting": false
+    },
+    "exportSource": {
+      "world": "dev",
+      "system": "pf2e",
+      "coreVersion": "12.330",
+      "systemVersion": "6.1.3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722454050822,
+    "modifiedTime": 1722897792028,
+    "lastModifiedBy": "X4PBxKRd2PcFy3lF"
+  },
+  "_id": "Zs7hk3lOIMywQA7d",
+  "sort": 0,
+  "_key": "!actors!Zs7hk3lOIMywQA7d"
+}

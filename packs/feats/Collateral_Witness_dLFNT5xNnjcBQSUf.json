@@ -1,0 +1,88 @@
+{
+  "type": "feat",
+  "name": "Collateral Witness",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You reduce your primary target to 0 Hit Points using @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire}.</p><hr /><p>With a subtle gesture of your weapon and a stare, you remind a survivor of your onslaught that there's more where that came from. @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a single creature that was in the area of your Auto-Fire with a +2 circumstance bonus. If you have legendary proficiency in Intimidation or if you have the @UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.0gR2k1paeKXs5OsS]{action hero} fighting style and the target of Collateral Witness is the enemy closest to you, you can use this as a free action with the same trigger.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "collateral-witness",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "intimidation",
+        "value": 2,
+        "predicate": [
+          "collateral-witness",
+          "action:demoralize"
+        ],
+        "type": "circumstance"
+      }
+    ],
+    "slug": "collateral-witness",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "soldier"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "dLFNT5xNnjcBQSUf",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801600625,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 15900000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!dLFNT5xNnjcBQSUf"
+}

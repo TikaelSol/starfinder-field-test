@@ -1,0 +1,97 @@
+{
+  "folder": "SC7CMyNf70mDQTtn",
+  "name": "Deflecting Field",
+  "type": "shield",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This shield isn't held—instead, it's installed as an armor or weapon upgrade. A deflecting field appears as a translucent panel integrated into the upgraded item and creates a temporary protective hardlight barrier when activated.</p>"
+    },
+    "rules": [],
+    "slug": "deflecting-field",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common",
+      "integrated": null
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 4,
+      "max": 4
+    },
+    "hardness": 2,
+    "price": {
+      "value": {
+        "sp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Shield",
+        "img": "systems/pf2e/icons/unidentified_item_icons/shields.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "acBonus": 1,
+    "runes": {
+      "reinforcing": null
+    },
+    "specific": null,
+    "speedPenalty": 0,
+    "subitems": []
+  },
+  "_id": "pHFj1FGepT8Bsl93",
+  "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722224722599,
+    "modifiedTime": 1722358660097,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!pHFj1FGepT8Bsl93"
+}

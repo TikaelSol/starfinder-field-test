@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Speak with Computers",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can ask questions of and receive answers from the spirits inhabiting a computer. These synthetic spirits manifest within computer code and often have personalities colored by the nature of the device, its condition, and its applications and personalized settings. A computer's perspective, perception, and knowledge give it a worldview different enough from a human's that it doesn't consider the same details important. Computers can mostly answer questions about creatures that interfaced with them in the past and what information is concealed within their files.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> The duration is 8 hours.</p>"
+    },
+    "rules": [],
+    "slug": "speak-with-computers",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "divine"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "10 minutes",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "AuzNHVHvsQPFIOQT",
+  "img": "icons/magic/symbols/cog-orange-red.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275721,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 2300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!AuzNHVHvsQPFIOQT"
+}

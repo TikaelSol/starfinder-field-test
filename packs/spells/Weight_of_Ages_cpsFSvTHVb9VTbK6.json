@@ -1,0 +1,104 @@
+{
+  "folder": null,
+  "name": "Weight of Ages",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You burden a creature with all the aches, pains, and sorrows of a lifetime in a condensed bolt. Make a ranged spell attack roll. The bolt deals 6d8 mental damage and the target is @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Encumbered}.</p>\n<hr />\n<p><strong>Critical Success</strong> target takes 12d8 damage and is encumbered for 1 minute.</p>\n<p><strong>Success</strong> The target takes 6d8 damage and is encumbered for 1 round.</p>"
+    },
+    "rules": [],
+    "slug": "weight-of-ages",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "Mpp9klyS5weCF3YX": {
+        "formula": "6d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "mental",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "passive": {
+        "statistic": "ac"
+      },
+      "save": null
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "cpsFSvTHVb9VTbK6",
+  "img": "icons/magic/movement/chevrons-down-yellow.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276671,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 7500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!cpsFSvTHVb9VTbK6"
+}

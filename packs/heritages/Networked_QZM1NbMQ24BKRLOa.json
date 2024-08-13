@@ -1,0 +1,58 @@
+{
+  "name": "Networked",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your body was modified to network seamlessly with anacites, robots, and other technological beings from Aballon. You gain shortwave, allowing you to communicate wirelessly with any creatures within 30 feet, as long as they have shortwave or are a construct with the technological trait. This doesn't give any special access to their thoughts or programming and communicates no more information than normal speech would. You can attempt Computers checks to @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.RF8xNJ8QsMwogerB]{Hack System} and Thievery checks to @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Disable a Device} or @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Pick a Lock} on technological devices at a range of 30 feet.</p>"
+    },
+    "rules": [],
+    "slug": "networked",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.911,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Android (Starfinder)",
+      "slug": "android",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.gL3qb9ZexNxP991p"
+    }
+  },
+  "_id": "QZM1NbMQ24BKRLOa",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "YlW9CPwhf5dxVDzU",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "osGt3Y9EUYsTtPet": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1704317152539,
+    "modifiedTime": 1722270061300,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!QZM1NbMQ24BKRLOa"
+}

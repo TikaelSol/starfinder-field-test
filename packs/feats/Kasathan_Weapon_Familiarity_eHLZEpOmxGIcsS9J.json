@@ -1,0 +1,120 @@
+{
+  "name": "Kasathan Weapon Familiarity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your people have instilled in you a respect for melee combat, and you've trained to wield a few more elegant examples in battle. You gain access to all uncommon weapons with the kasatha trait. You have familiarity with weapons with the kasatha trait plus the dueling sword, plasma sword, shock truncheon, and singing spear—for the purposes of proficiency, you treat any of these that are martial weapons as simple weapons and any that are advanced weapons as martial weapons.</p>\n<p>At 5th level, whenever you get a critical hit with one of these weapons, you get its critical specialization effect.</p>"
+    },
+    "rules": [
+      {
+        "definition": [
+          "item:category:martial",
+          {
+            "or": [
+              "item:trait:kasatha",
+              "item:base:dueling-sword",
+              "item:base:plasma-sword",
+              "item:base:shock-truncheon",
+              "item:base:singing-spear"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "SF2E.SpecificRule.Kasatha.WeaponFamiliarity.MartialWeapons",
+        "sameAs": "simple",
+        "slug": "martial-kasathan-weapons"
+      },
+      {
+        "definition": [
+          "item:trait:kasatha",
+          "item:category:advanced"
+        ],
+        "key": "MartialProficiency",
+        "label": "SF2E.SpecificRule.Kasatha.WeaponFamiliarity.AdvancedWeapons",
+        "sameAs": "martial",
+        "slug": "advanced-kasathan-weapons"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          },
+          {
+            "or": [
+              "item:trait:kasatha",
+              "item:base:dueling-sword",
+              "item:base:plasma-sword",
+              "item:base:shock-truncheon",
+              "item:base:singing-spear"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "kasathan-weapon-familiarity",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "kasatha"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "eHLZEpOmxGIcsS9J",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 45300000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "coreVersion": "12.330",
+    "createdTime": 1707973012644,
+    "modifiedTime": 1722324486154,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!eHLZEpOmxGIcsS9J"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "City Slicker",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've lived long enough in a major settlement to know how to keep your head down, avoid direct eye contact, and otherwise move about your day without drawing any attention to yourself. Whether you were a detective tailing a suspect or just lived in a crime-ridden neighborhood, you've always been able to slip into a crowd to avoid causing trouble.</p><p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p><p>You're trained in the Deception skill and a Lore skill about a specific settlement. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.TxJlYcaBRsk5hgur]{Face in the Crowd} skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "city-slicker",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "dex"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "BEqIf": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.TxJlYcaBRsk5hgur",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+        "name": "Face in the Crowd",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "deception"
+      ],
+      "lore": []
+    }
+  },
+  "_id": "en6PQmCIyxcJuT4f",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708150181278,
+    "modifiedTime": 1722278172165,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!en6PQmCIyxcJuT4f"
+}

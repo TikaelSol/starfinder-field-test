@@ -1,0 +1,75 @@
+{
+  "name": "Drift Strike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once every 10 minutes</p><p><strong>Requirements</strong> Your last action was a successful critical hit melee Strike against a creature.</p><hr /><p>You launch the triggering creature into the Drift to reposition it across the battlefield. The creature is teleported to a location of your choice up to a distance of 20 feet from its starting location and within your line of sight. If you're in the Drift, the distance you can teleport the target is doubled. The creature must be able to fit in its new location, and its new location must be unoccupied. The creature can attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The distance you can teleport the target is halved, and the target can't be moved to a location that's hazardous or would result in a fall.</p><p><strong>Failure</strong> You teleport the target the noted distance.</p><p><strong>Critical Failure</strong> The distance you can teleport the target is doubled.</p>"
+    },
+    "rules": [],
+    "slug": "drift-strike",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "prismeni"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "_id": "e0MFJMTd4KMZg3dP",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 36300000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "coreVersion": "12.330",
+    "createdTime": 1708149577642,
+    "modifiedTime": 1722330736047,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!e0MFJMTd4KMZg3dP"
+}

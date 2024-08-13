@@ -1,0 +1,62 @@
+{
+  "folder": null,
+  "name": "Astrologic Sense",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>You briefly meditate on your connection to the cosmos and how the interplay between stellar forces can affect your foes. For the remainder of your turn, if an action you take would result in a variable effect based on your attunement, determine the result of both effects. If this determination requires you to roll damage, then roll the damage. If it requires the target to make a save, then have the target roll the save. This only applies to damage or effects that are specified in the attunement options of abilities, so things like the damage roll for your solar weapon are not determined in advance.</p><p>Once you've determined the possible effects for both attunement states, you can select which of the two you would like to have occur, regardless of your current attunement. If the ability would change your state, you count as being attuned to whatever attunement state you selected to take effect.</p>"
+    },
+    "rules": [],
+    "slug": "astrologic-sense",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attuned",
+        "solarian"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721886122279,
+    "modifiedTime": 1722114226297,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "EvcD5wCRJPM9hAHK",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!EvcD5wCRJPM9hAHK"
+}

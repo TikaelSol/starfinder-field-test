@@ -1,0 +1,76 @@
+{
+  "folder": "AjmtnI7WxrbMN1ee",
+  "name": "Take 'Em Alive!",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You urge your allies to take down your enemies without loss of life. Until the beginning of your next turn, you and your allies gain the following two benefits. You and your allies don't take the normal –2 circumstance penalty when making a nonlethal attack with a weapon that doesn't have the nonlethal trait. When you or an ally Cast a Spell that deals damage and doesn't have the death or void trait, you can add the nonlethal trait to the spell.</p><p><strong>Lead by Example</strong> If you make a nonlethal attack against a single target before the end of your turn, you direct your allies to take down a specific target for later follow-up. The target of your attack is treated as having your @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.FXlhxST6fuaFt3Nh]{Get 'Em!} directive on them, though you don't benefit from the lead by example effect on the Get 'Em!</p>"
+    },
+    "rules": [],
+    "slug": "take-em-alive",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "directive",
+        "envoy",
+        "visual"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "ownership": {
+    "default": 0,
+    "X4PBxKRd2PcFy3lF": 3,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1710257754263,
+    "modifiedTime": 1722217712119,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "B1gon8LrRbZ8yns7",
+  "sort": 200000,
+  "_key": "!items!B1gon8LrRbZ8yns7"
+}

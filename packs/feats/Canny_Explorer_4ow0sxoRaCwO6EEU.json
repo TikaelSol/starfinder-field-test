@@ -1,0 +1,99 @@
+{
+  "name": "Canny Explorer",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're accustomed to surviving natural hazards and confrontations with aggressive predators. You gain a +1 circumstance bonus to Nature checks to @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{Command an Animal}, to Perception checks to detect environmental hazards, and to Survival checks to disable environmental hazards.</p><p>If you have another ability that allows you to do so, you gain a +1 circumstance bonus to Diplomacy checks to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} on animals and to make Requests of animals.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "nature",
+          "perception",
+          "survival"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "action:command-an-animal",
+              {
+                "and": [
+                  "origin:type:hazard",
+                  "origin:trait:environmental"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "canny-explorer",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "lashunta"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Nature or Survival"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "4ow0sxoRaCwO6EEU",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 39500000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "coreVersion": "12.330",
+    "createdTime": 1708112853474,
+    "modifiedTime": 1722319625738,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!4ow0sxoRaCwO6EEU"
+}

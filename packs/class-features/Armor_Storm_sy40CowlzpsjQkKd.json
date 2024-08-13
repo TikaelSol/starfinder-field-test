@@ -1,0 +1,101 @@
+{
+  "folder": null,
+  "name": "Armor Storm",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your armor is like an extension of your skin (or other appropriate surface layer), and you're able to leverage it alongside the heavy weapons you employ. Foes you suppress quickly stumble while attempting to overcome your durability, granting you an edge in absorbing their incoming firepower. You likely move to the forefront and try to focus your enemy's attention on yourself.</p><p>You never count as being in the area of a ranged weapon you've made an attack with. You gain resistance equal to half your level (minimum 1) against attacks made by @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} targets.</p><p>You can @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} even if you don't have a free hand. You gain a +1 status bonus to Athletics checks to Disarm, Grapple, Reposition, Shove, and Trip suppressed foes. When you successfully Disarm, Grapple, Reposition, Shove, or Trip a creature, it becomes suppressed until the start of your next turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "custom",
+        "definition": [
+          "origin:effect:suppressed"
+        ],
+        "value": "max(1,floor(@actor.level/2))",
+        "label": "SF2E.IWR.Custom.Suppressed"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "value": 1,
+        "type": "status",
+        "predicate": [
+          {
+            "or": [
+              "action:disarm",
+              "action:grapple",
+              "action:reposition",
+              "action:shove",
+              "action:trip"
+            ]
+          },
+          "target:effect:suppressed"
+        ]
+      }
+    ],
+    "slug": "armor-storm",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.853,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "soldier-fighting-style"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/equipment/chest/breastplate-banded-blue.webp",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1691046041065,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "sy40CowlzpsjQkKd",
+  "sort": 11900000,
+  "_key": "!items!sy40CowlzpsjQkKd"
+}

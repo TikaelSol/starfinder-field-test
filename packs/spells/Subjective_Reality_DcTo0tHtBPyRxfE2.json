@@ -1,0 +1,86 @@
+{
+  "folder": null,
+  "name": "Subjective Reality",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You alter your perceptions to convince yourself that a creature or object is an illusion. Choose one object or creature you can perceive within range. For you, the target becomes transparent and does not create sound, smell, or other sensory output. You can move through the target and the target can move through you. You gain resistance all equal to your level against attacks or effects originating from the target. If you become the target or are in the area of one of the target's abilities or effects, they must succeed at a @Check[type:flat|dc:5], and if they fail you are unaffected by the ability or effect. You are immune to all its sonic, language-dependent, and scentbased attacks. Your attacks deal no damage to the target and the target is immune to your spells and other effects. You and the target can affect one another indirectly, such as a Strike from a minion or the environment affected by your quantum aura. When this spell ends, the target becomes immune to subjective reality for 24 hours.</p>"
+    },
+    "rules": [],
+    "slug": "subjective-reality",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "mental"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature or object"
+    },
+    "range": {
+      "value": "500 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "DcTo0tHtBPyRxfE2",
+  "img": "icons/magic/control/encase-creature-humanoid-hold.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275876,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 3100000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!DcTo0tHtBPyRxfE2"
+}

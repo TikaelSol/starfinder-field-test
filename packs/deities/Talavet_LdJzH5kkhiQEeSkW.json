@@ -1,0 +1,81 @@
+{
+  "folder": null,
+  "name": "Talavet",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h2>The Storyteller</h2><p>Talavet is an ancestral deity worshipped on Kasath whose faith traveled to the Pact Worlds aboard the Idari. She embodies celebration, home life, tradition, and living stories.</p><p><strong>Areas of Concern</strong> community, storytelling, and tradition</p><p><strong>Edicts</strong> preserve history, follow traditions, serve your community</p><p><strong>Anathema</strong> abandon traditions, betray your community, forget the past</p>"
+    },
+    "rules": [],
+    "slug": "talavet",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "family",
+        "fire",
+        "indulgence",
+        "knowledge"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "int",
+      "cha"
+    ],
+    "skill": [
+      "society"
+    ],
+    "weapons": [
+      "puzzleblade"
+    ],
+    "spells": {
+      "1": "Compendium.starfinder-field-test-for-pf2e.spells.Item.sdSqIbyyzILPGxpF",
+      "3": "Compendium.starfinder-field-test-for-pf2e.spells.Item.41eiakxOYO96avgr"
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/deities/talavet.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722414174396,
+    "modifiedTime": 1722443864561,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "LdJzH5kkhiQEeSkW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!LdJzH5kkhiQEeSkW"
+}

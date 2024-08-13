@@ -1,0 +1,89 @@
+{
+  "folder": null,
+  "name": "Personal Gravity",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You alter gravity's effects on you. You treat gravity as if it were your choice of one step higher or lower (for example, if you were in an area of low gravity, you could choose either standard gravity or zero-g). While the spell is active, you reduce the distance of any forced movement that would affect you by 5 feet (minimum 0 feet), and you ignore being clumsy and @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.z1ucw4CLwLqHoAp3]{Untethered} because of gravity effects on you. You can Dismiss the spell.</p>"
+    },
+    "rules": [],
+    "slug": "personal-gravity",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "gravity",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "occult",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 hour",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "kRhTFCAsMuO9pFFU",
+  "img": "icons/magic/control/debuff-energy-hold-blue-yellow.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111277002,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 9400000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!kRhTFCAsMuO9pFFU"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Cellular Stimulant",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You vitalize and stimulate the target at a cellular level, giving them a temporary burst of energy that unfortunately takes an exhausting toll. The target attempts a Fortitude save (it may choose to fail). If the target fails, it gains the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition and can use the extra action to Stride or Strike. After that round ends, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} until they can rest for 10 minutes.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> You can target up to 6 allies or 6 enemies by using two actions to cast this spell.</p>"
+    },
+    "rules": [],
+    "slug": "cellular-stimulant",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "vitality"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 living creature that is not fatigued or quickened"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 round",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {}
+  },
+  "_id": "gUNeahoAJMH9Uatm",
+  "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276829,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 8400000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!gUNeahoAJMH9Uatm"
+}

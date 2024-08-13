@@ -1,0 +1,108 @@
+{
+  "folder": "o4lPEY2w6k5o9O8D",
+  "name": "Abadarcorp Travel Suit",
+  "type": "armor",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Upgrades: </strong>2</p><hr /><p>AbadarCorp executives popularized these armored business suits for boardrooms and diplomatic meetings. Contingent force fields and <a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W\" data-id=\"DmAIPqOBomZ7H95W\" data-type=\"Item\" data-pack=\"pf2e.conditionitems\" data-tooltip=\"Condition Item\"><i class=\"fa-solid fa-face-zany\"></i>Concealed</a> plating protect the wearer in hostile situations. Higher grades of travel suits offer more protection—along with a designer label.</p>"
+    },
+    "rules": [],
+    "slug": "abadarcorp-travel-suit",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "exposed",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0,
+      "inSlot": false
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": "The nature of this cloth is unclear."
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "light",
+    "group": "cloth",
+    "acBonus": 1,
+    "strength": 0,
+    "dexCap": 3,
+    "checkPenalty": 0,
+    "speedPenalty": 0,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "Cvucu9yIVPQXseZl",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/vest%20blue.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "createdTime": 1722224691469,
+    "modifiedTime": 1723225518590,
+    "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+  },
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Cvucu9yIVPQXseZl"
+}

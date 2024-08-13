@@ -1,0 +1,76 @@
+{
+  "name": "Augmentation Specialist",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have the medical knowledge necessary to safely install augmentations. You can install and remove augmentations. You can @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Earn Income} using Medicine as an augmentation surgeon in a settlement that sells augmentations. You can install augmentations on yourself or other creatures using Medicine to reduce their price as detailed in the Craft downtime activity. If you are an expert in Medicine, you can install an augmentation in 10 minutes per item level of the augmentation. If you are a master in Medicine, you can install an augmentation in 1 minute per item level.</p>"
+    },
+    "rules": [],
+    "slug": "augmentation-specialist",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Medicine"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "vC0I0HypW02iKqRy",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 30000000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1714324503326,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!vC0I0HypW02iKqRy"
+}

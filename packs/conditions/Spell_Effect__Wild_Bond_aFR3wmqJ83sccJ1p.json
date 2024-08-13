@@ -1,0 +1,219 @@
+{
+  "folder": null,
+  "name": "Spell Effect: Wild Bond",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.3r9Xrt8qqTQbcw26]{Wild Bond}</p>\n<hr />\n<p>Tapping into the universal life code, you infuse the target with the primal essence of another living creature and grant them one of the following abilities.</p>\n<ul>\n<li>A burrow Speed of 15 feet</li>\n<li>A climb Speed of 20 feet</li>\n<li>A fly Speed of 20 feet</li>\n<li>A swim Speed of 25 feet</li>\n<li>A Speed of 40 feet</li>\n<li>A jaw unarmed attack that deals @Damage[1d8[piercing]] damage</li>\n<li>A claw unarmed attack that deals @Damage[1d6[slashing]] damage and has the agile and finesse traits</li>\n<li>Darkvision</li>\n</ul>\n<hr />\n<p><strong>Heightened (+1)</strong> You may target 1 additional willing bonded creature. This heightened is in addition to the following.</p>\n<p><strong>Heightened (5th)</strong> The damage dealt by the attacks increases to two dice.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "Speed",
+            "value": "speed"
+          },
+          {
+            "label": "Jaws Strike",
+            "value": "jaws-strike"
+          },
+          {
+            "label": "Claw Strike",
+            "value": "claw-strike"
+          },
+          {
+            "label": "Darkvision",
+            "value": "darkvision"
+          }
+        ],
+        "key": "ChoiceSet",
+        "rollOption": "wild-bond",
+        "label": "Select your Wild Bond",
+        "priority": 10
+      },
+      {
+        "choices": [
+          {
+            "label": "Burrow speed",
+            "value": {
+              "speedType": "burrow",
+              "speed": 15
+            }
+          },
+          {
+            "label": "Climb speed",
+            "value": {
+              "speedType": "climb",
+              "speed": 20
+            }
+          },
+          {
+            "label": "Fly speed",
+            "value": {
+              "speedType": "fly",
+              "speed": 20
+            }
+          },
+          {
+            "label": "Swim speed",
+            "value": {
+              "speedType": "swim",
+              "speed": 25
+            }
+          },
+          {
+            "label": "Land speed",
+            "value": {
+              "speedType": "land",
+              "speed": 40
+            }
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "Select a speed",
+        "flag": "speed",
+        "adjustName": false,
+        "predicate": [
+          "wild-bond:speed"
+        ],
+        "priority": 20
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "{item|flags.pf2e.rulesSelections.speed.speedType}",
+        "value": "{item|flags.pf2e.rulesSelections.speed.speed}",
+        "predicate": [
+          "wild-bond:speed"
+        ],
+        "priority": 50
+      },
+      {
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": "ternary(gte(@item.level,5),2,1)",
+            "die": "d8"
+          }
+        },
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.jaws",
+        "traits": [
+          "unarmed"
+        ],
+        "predicate": [
+          "wild-bond:jaws-strike"
+        ],
+        "priority": 51,
+        "range": null
+      },
+      {
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": "ternary(gte(@item.level,5),2,1)",
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.claw",
+        "traits": [
+          "finesse",
+          "agile",
+          "unarmed"
+        ],
+        "predicate": [
+          "wild-bond:claw-strike"
+        ],
+        "priority": 52,
+        "range": null
+      },
+      {
+        "key": "Sense",
+        "selector": "darkvision",
+        "predicate": [
+          "wild-bond:darkvision"
+        ],
+        "priority": 53
+      }
+    ],
+    "slug": "spell-effect-wild-bond",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.872,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "schema": {
+      "version": 0.87,
+      "lastMigration": {
+        "version": {
+          "schema": null,
+          "foundry": "11.313",
+          "system": "5.6.2"
+        }
+      }
+    },
+    "unidentified": false
+  },
+  "img": "icons/magic/nature/wolf-paw-glow-large-green.webp",
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "starfinder-2e",
+      "system": "pf2e",
+      "coreVersion": "11.313",
+      "systemVersion": "5.6.2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1696516363969,
+    "modifiedTime": 1722218719212,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "aFR3wmqJ83sccJ1p",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!aFR3wmqJ83sccJ1p"
+}

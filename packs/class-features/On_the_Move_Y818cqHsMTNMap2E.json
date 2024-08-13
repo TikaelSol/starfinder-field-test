@@ -1,0 +1,101 @@
+{
+  "name": "On the Move",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're fast on your feet, hard to pin down and able to better maneuver against foes who might try to pin you down. You gain a +5-foot status bonus to your Speed. This bonus increases by 5 feet for every 5 levels you have beyond 3rd. Additionally, you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.SWHe1OEtGajrRWrZ]{Tactical Advance} action.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.SWHe1OEtGajrRWrZ"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "slug": "incredible-movement",
+        "type": "status",
+        "value": {
+          "brackets": [
+            {
+              "start": 3,
+              "end": 7,
+              "value": 5
+            },
+            {
+              "start": 8,
+              "end": 12,
+              "value": 10
+            },
+            {
+              "start": 13,
+              "end": 17,
+              "value": 15
+            },
+            {
+              "start": 18,
+              "value": 20
+            }
+          ],
+          "field": "actor|level"
+        }
+      }
+    ],
+    "slug": "on-the-move",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "Y818cqHsMTNMap2E",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20person%20running.webp",
+  "folder": null,
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722126189576,
+    "modifiedTime": 1722224838826,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!Y818cqHsMTNMap2E"
+}

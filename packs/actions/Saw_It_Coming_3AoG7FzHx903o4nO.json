@@ -1,0 +1,72 @@
+{
+  "name": "Saw It Coming",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You are about to roll initiative in an encounter in which your asset is one of your opponents.</p>\n<hr />\n<p>You read the demeanor, body language, and instinctive tics of your asset as easily as you read a comm unit, allowing you to react a moment before those around you and gain an edge in the coming battle. You gain a +1 circumstance bonus to your initiative roll, and you can immediately do one of the following: Interact to draw a weapon, Step, or Stride.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "initiative",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "target:mark:asset"
+        ]
+      }
+    ],
+    "slug": "saw-it-coming",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.330",
+        "system": "6.1.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "3AoG7FzHx903o4nO",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "folder": null,
+  "sort": 2600000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712004841188,
+    "modifiedTime": 1722189182021,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!3AoG7FzHx903o4nO"
+}

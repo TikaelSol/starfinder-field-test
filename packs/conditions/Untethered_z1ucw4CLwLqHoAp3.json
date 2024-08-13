@@ -1,0 +1,76 @@
+{
+  "name": "Untethered",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're in a zero gravity (or similar) environment without a means of movement and float without support. You can't take move actions unless they specify they can be used in your current environment. At the end of your turn, you move 5 feet in the last direction you moved. You can take the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.FF5KgZHj345s2moq]{Push Off} action to change directions and the distance moved. Once you gain a means of moving in your environment, you lose this condition. Typically, a creature with the untethered condition in zero-g also gains the @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} conditions while untethered.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.FF5KgZHj345s2moq"
+      }
+    ],
+    "slug": "untethered",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "z1ucw4CLwLqHoAp3",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20planet%20pillar%20of%20light.webp",
+  "folder": null,
+  "sort": 4100000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707600682658,
+    "modifiedTime": 1722269863931,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!z1ucw4CLwLqHoAp3"
+}

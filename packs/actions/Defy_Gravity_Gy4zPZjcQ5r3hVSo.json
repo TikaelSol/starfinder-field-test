@@ -1,0 +1,67 @@
+{
+  "folder": null,
+  "name": "Defy Gravity",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are graviton-attuned.</p><hr /><p>You break the bonds of gravity. You gain a fly Speed equal to your Speed while you are graviton-attuned.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": "@actor.attributes.speed.total",
+        "predicate": [
+          "stellar-attunement:graviton"
+        ]
+      }
+    ],
+    "slug": "defy-gravity",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attuned",
+        "solarian"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": true
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721886122279,
+    "modifiedTime": 1722114226297,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "Gy4zPZjcQ5r3hVSo",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Gy4zPZjcQ5r3hVSo"
+}
