@@ -40,9 +40,6 @@
             "flags": {}
         }
     ],
-    "scripts": [
-        "sf2e.mjs"
-    ],
     "media": [
         {
             "type": "setup",
