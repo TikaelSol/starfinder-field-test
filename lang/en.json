@@ -7,28 +7,34 @@
         "TraitRatfolk": "Ysoki"
     },
     "SF2E": {
-        "BaseArmor": {
-            "AbadarcorpTravelSuit": "Abadarcorp Travel Suit",
-            "ArmoredCoat": "Armored Coat",
-            "CarbonSkin": "Carbon Skin",
-            "EstexSuit": "Estex Suit",
-            "HardlightSeries": "Hardlight Series",
-            "MicrocordArmor": "Microcord Armor",
-            "QuiltedArmor": "Quilted Armor",
-            "SecondSkin": "Second Skin",
-            "Tempweave": "Tempweave",
-            "DefrexHide": "Defrex Hide",
-            "FreebooterArmor": "Freebooter Armor",
-            "LatticeArmor": "Lattice Armor",
-            "SholashuArmor": "Sholashu Armor",
-            "SkyfireArmor": "Skyfire Armor",
-            "Swarmsuit": "Swarmsuit",
-            "AegisSeries": "Aegis Series",
-            "DefianceSeries": "Defiance Series",
-            "HiddenSoldierArmor": "Hidden Soldier Armor",
-            "KyokorPlating": "Kyokor Plating",
-            "Thinplate": "Thinplate",
-            "VeskariumImperialPlate": "Veskarium Imperial Plate"
+        "Armor": {
+            "Base": {
+                "AbadarcorpTravelSuit": "Abadarcorp Travel Suit",
+                "ArmoredCoat": "Armored Coat",
+                "CarbonSkin": "Carbon Skin",
+                "EstexSuit": "Estex Suit",
+                "HardlightSeries": "Hardlight Series",
+                "MicrocordArmor": "Microcord Armor",
+                "QuiltedArmor": "Quilted Armor",
+                "SecondSkin": "Second Skin",
+                "Tempweave": "Tempweave",
+                "DefrexHide": "Defrex Hide",
+                "FreebooterArmor": "Freebooter Armor",
+                "LatticeArmor": "Lattice Armor",
+                "SholashuArmor": "Sholashu Armor",
+                "SkyfireArmor": "Skyfire Armor",
+                "Swarmsuit": "Swarmsuit",
+                "AegisSeries": "Aegis Series",
+                "DefianceSeries": "Defiance Series",
+                "HiddenSoldierArmor": "Hidden Soldier Armor",
+                "KyokorPlating": "Kyokor Plating",
+                "Thinplate": "Thinplate",
+                "VeskariumImperialPlate": "Veskarium Imperial Plate"
+            },
+            "Group": {
+                "Ceramic": "Ceramic",
+                "Polymer": "Polymer"
+            }
         },
         "BaseWeapon": {
             "Baton": "Baton",
