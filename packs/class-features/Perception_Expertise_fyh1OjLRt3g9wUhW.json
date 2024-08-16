@@ -1,0 +1,79 @@
+{
+  "img": "icons/creatures/eyes/human-single-blue.webp",
+  "name": "Perception Expertise",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Envoy</strong> You've a keen eye for details and always manage to remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p><p><strong>Soldier</strong> You remain alert to threats around you and can react a moment's notice. Your proficiency rank for Perception increases to expert.</p>"
+    },
+    "rules": [],
+    "slug": "perception-expertise",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy",
+        "soldier"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "perception": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.JCqACxgrm5ixX0Jy",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722095467283,
+    "modifiedTime": 1722441913541,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.JCqACxgrm5ixX0Jy"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "_id": "fyh1OjLRt3g9wUhW",
+  "sort": 7200000,
+  "_key": "!items!fyh1OjLRt3g9wUhW"
+}

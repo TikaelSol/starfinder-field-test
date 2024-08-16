@@ -1,0 +1,71 @@
+{
+  "type": "feat",
+  "name": "Pin Down",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> Your last action was an @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire} attack, and you are wielding a weapon with the area or automatic trait.</p><hr /><p>You can @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppress} creatures in your blast zone by pinpointing a shot to impact near them. Select one creature that was in the area of effect of your prior attack. That creature must attempt a save against your attack again, as though it were in the area of effect from the prior attack. This effect suppresses the target, but doesn't deal damage or create any of your attack's normal effects.</p>"
+    },
+    "rules": [],
+    "slug": "pin-down",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "soldier"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "Rz0fkV5f4AJLi1Cj",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801600625,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 9700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Rz0fkV5f4AJLi1Cj"
+}

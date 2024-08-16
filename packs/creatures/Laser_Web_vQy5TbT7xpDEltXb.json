@@ -1,0 +1,320 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Laser Web",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Laser Web",
+  "type": "hazard",
+  "effects": [],
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 22
+      },
+      "hp": {
+        "value": 7,
+        "max": 7,
+        "temp": 0,
+        "details": "Each sensor"
+      },
+      "hardness": 4,
+      "stealth": {
+        "value": 5,
+        "details": "<p>(trained)</p>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [
+        {
+          "type": "critical-hits",
+          "exceptions": []
+        },
+        {
+          "type": "precision",
+          "exceptions": []
+        }
+      ]
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 3
+      },
+      "disable": "<p>@Check[type:computers|dc:15] (trained) to disable each sensor, or @Check[type:acrobatics|dc:23] (expert) to slip past each sensor</p>",
+      "description": "<p>Six sensors concealed in a 15-foot-long corridor fire lasers when they detect movement.</p>",
+      "reset": "<p>The trap resets after 15 minutes.</p>",
+      "routine": "",
+      "publication": {
+        "title": "Starfinder Second Edition Playtest Rulebook",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "mechanical",
+        "trap"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    }
+  },
+  "_id": "vQy5TbT7xpDEltXb",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "type": "action",
+      "name": "Laser Web",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature moves within 5 feet of a sensor</p><hr /><p><strong>Effect</strong> The lasers fire, each one Striking a creature in the hallway. If there are more creatures than lasers, the lasers prioritize the triggering creature or creatures; if there are fewer creatures than lasers, the lasers prioritize Striking the triggering creature or creatures multiple times.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "23Ehn2ZetR1W1cV2",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!vQy5TbT7xpDEltXb.23Ehn2ZetR1W1cV2"
+    },
+    {
+      "type": "melee",
+      "name": "Laser",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "<p>no multiple attack penalty</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "damageRolls": {
+          "WBL4qy83MlE9AQnm": {
+            "damage": "2d10+13",
+            "damageType": "fire",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 16
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "gc1LF1qTjH9WBrWF",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!vQy5TbT7xpDEltXb.gc1LF1qTjH9WBrWF"
+    }
+  ],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1721155995240,
+    "modifiedTime": 1722460756230,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "sort": 5000000,
+  "_key": "!actors!vQy5TbT7xpDEltXb"
+}

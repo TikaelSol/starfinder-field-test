@@ -1,0 +1,106 @@
+{
+  "_id": "5oPBg0Bb9C9MLlrE",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20power%20stone.webp",
+  "name": "Null Space Chamber (Advanced)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This sleek black device attaches to a backpack, purse, or key ring. When you press a button on the side of the device, it creates a circular portal to an extradimensional pocket space. The space can hold 100 bulk.</p><p>You can Interact with the null space chamber to stow items in it or remove them. The null space chamber can be opened and closed only from the outside. When a null space chamber is opened in an atmosphere with air, it fills with 10 minutes worth of air for every Bulk left in its capacity. An item inside the null space chamber provides no benefits unless it's retrieved first. Affixing the null space chamber to a computer causes it to display a readout of all items stored within it.</p>"
+    },
+    "rules": [],
+    "slug": "null-space-chamber-advanced",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "extradimensional",
+        "magical",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 11
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0,
+      "heldOrStowed": 1,
+      "capacity": 25,
+      "ignored": 25
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 12000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Container",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "collapsed": false,
+    "stowing": true,
+    "usage": {
+      "value": "worn"
+    }
+  },
+  "type": "backpack",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.jaEEvuQ32GjAa8jy",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722375898334,
+    "modifiedTime": 1722376087682,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.jaEEvuQ32GjAa8jy"
+    }
+  },
+  "effects": [],
+  "folder": "H3wWtIPMgO6Z0PMJ",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!5oPBg0Bb9C9MLlrE"
+}

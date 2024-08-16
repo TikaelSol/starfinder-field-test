@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Eldritch Bond",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You channel mysterious power from beyond the edges of the known universe to infuse a bonded companion with the essence of an eldritch creature. You grant the target up to two of the following abilities:</p>\n<ul>\n<li>10-foot reach on all melee attacks.</li>\n<li>Gain mental resistance equal to half the creature's level (minimum 1).</li>\n<li>Melee strikes affect incorporeal creatures as if they had the ghost touch upgrade.</li>\n<li>A tentacle unarmed attack that deals 1d8 bludgeoning damage.</li>\n<li>A stinger unarmed attack that deals 1d6 acid damage and has the agile and finesse traits.</li>\n<li>A beam ranged unarmed attack with a range increment of 40 feet that deals 1d6 mental damage.</li>\n<li>Darkvision</li>\n</ul>\n<hr />\n<p><strong>Heightened (3rd)</strong> The damage dealt by the attacks increases by two dice.</p>\n<p><strong>Heightened (5th)</strong> Increase the number of targets to 5 targets. The damage dealt by the attacks increases to two dice.</p>\n<p><strong>Heightened (6th)</strong> Increase the number of targets to 5 targets. The damage dealt by the attacks increases to three dice.</p>\n<p><strong>Heightened (9th)</strong> Increase the number of targets to 5 targets. The damage dealt by the attacks increases to four dice.</p>"
+    },
+    "rules": [],
+    "slug": "eldritch-bond",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "mystic",
+        "polymorph"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 willing bonded creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "fiwhzHpbOsugCrON",
+  "img": "icons/magic/unholy/silhouette-light-fire-blue.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276796,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 8200000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!fiwhzHpbOsugCrON"
+}

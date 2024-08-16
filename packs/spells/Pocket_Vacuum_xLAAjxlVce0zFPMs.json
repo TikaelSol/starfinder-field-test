@@ -1,0 +1,107 @@
+{
+  "folder": null,
+  "name": "Pocket Vacuum",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create a sudden vacuum in the atmosphere around you. Creatures in the area take 6d12 bludgeoning damage from decompression (unless they were already in vacuum) Creatures failing the save take an additional @Damage[1d8[persistent,bludgeoning]] damage from internal damage.</p>"
+    },
+    "rules": [],
+    "slug": "pocket-vacuum",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "divine",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "6IUukgoOiAIWNa0g": {
+        "formula": "6d12",
+        "kinds": [
+          "damage"
+        ],
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "xLAAjxlVce0zFPMs",
+  "img": "icons/magic/unholy/orb-glowing-purple.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111277498,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 12300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!xLAAjxlVce0zFPMs"
+}

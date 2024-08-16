@@ -1,0 +1,111 @@
+{
+  "folder": null,
+  "name": "Mind Skewer",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You overload a creature's mind with a glut of psychic information or divine judgements. The mental onslaught deals 2d6 mental damage. On a critical hit, the target takes 4d6 mental damage and is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+    },
+    "rules": [],
+    "slug": "mind-skewer",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "mental"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "I9kLp8pYCTyDDlzn": {
+        "formula": "2d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "mental",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "I9kLp8pYCTyDDlzn": "2d6"
+      }
+    }
+  },
+  "_id": "n33Jd5EBmVvnNL2O",
+  "img": "icons/magic/light/explosion-impact-purple.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111277141,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 10200000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!n33Jd5EBmVvnNL2O"
+}

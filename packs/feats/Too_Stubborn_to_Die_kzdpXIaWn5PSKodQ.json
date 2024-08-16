@@ -1,0 +1,75 @@
+{
+  "name": "Too Stubborn to Die",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would die.</p><hr /><p>You come back from the brink of death, hauling yourself back to consciousness despite your wounds and exhaustion. You push yourself to your absolute limits and don't die. If you have the dying or @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} conditions, you lose the dying and unconscious conditions. If you are at 0 Hit Points, you have 1 Hit Point. Increase the value of your wounded and doomed conditions by 1. You can use this reaction while unconscious.</p>"
+    },
+    "rules": [],
+    "slug": "too-stubborn-to-die",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "human"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_id": "kzdpXIaWn5PSKodQ",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 46200000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707971243133,
+    "modifiedTime": 1722314875114,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kzdpXIaWn5PSKodQ"
+}

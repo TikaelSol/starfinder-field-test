@@ -1,0 +1,87 @@
+{
+  "name": "Akashic Revival",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You dispatch perfect documentation of your physical body to the Akashic Record, allowing you to later recall this record and reconstruct your body as it was when you Cast this Spell. The record of your body includes your current Hit Points, augmentations, attribute modifiers, and any afflictions or conditions you had. If you die of anything other than old age, you can immediately recall your recorded body from the Akashic Record. Your new physical body appears at the start of your next turn. Your corpse disappears and you instantly reappear in your recorded body in the corpse's space and with any worn equipment. You re-form standing and can choose to pick up any equipment you dropped in the space from when you died. If you cannot occupy that space, you appear as close to it as possible, though you must still retrieve your equipment. You retain your mind as it was at the time of your body's death, so you regain no expended spells, Focus Points, or uses of special abilities. Any mental effects affecting you at the time of your death persist in your new body. Retrieving your body from the Akashic Record or having the duration expire removes your stored information from the Akashic Record, requiring you to cast this spell again.</p>"
+    },
+    "rules": [],
+    "slug": "akashic-revival",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "1 day",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "zYkCKmlLmgbUT8Uk",
+  "img": "icons/magic/control/debuff-energy-hold-teal-blue.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111277630,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 13100000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!zYkCKmlLmgbUT8Uk"
+}

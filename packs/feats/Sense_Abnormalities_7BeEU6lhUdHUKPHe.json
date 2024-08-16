@@ -1,0 +1,72 @@
+{
+  "type": "feat",
+  "name": "Sense Abnormalities",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have a sixth sense for ambient magic. You can sense the presence of magic auras as though you were always using a 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl] spell. This detects magic in your field of vision only. When you @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek}, you gain the benefits of a 3rd-rank <em>detect magic</em> spell on things you see (in addition to the normal benefits of Seeking). You can turn this sense off and on with a free action at the start or the end of your turn.</p>"
+    },
+    "rules": [],
+    "slug": "sense-abnormalities",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.330",
+        "system": "6.1.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "detection",
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "7BeEU6lhUdHUKPHe",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722099813058,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 2700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!7BeEU6lhUdHUKPHe"
+}

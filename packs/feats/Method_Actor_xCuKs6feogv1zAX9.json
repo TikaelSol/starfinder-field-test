@@ -1,0 +1,76 @@
+{
+  "name": "Method Actor",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create and take on new personas, completely immersing yourself in their mindset. It takes 7 days of downtime to workshop a new character. Each new character you workshop can have a totally unique set of anathema and edicts. By taking 10 minutes to center yourself, you can immerse yourself completely in the persona of a character you've workshopped. Violating that character's anathema, failing to uphold their edicts, acting incongruously with their backstory or personality, or critically failing on a Performance check as part of your character causes you to drop this persona and lose the benefits of this feat for the next 24 hours. While in character, you can use Performance in place of Deception, Diplomacy, or Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Coerce}, Impersonate, Lie, Gather Information, @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression}, or Request.</p>"
+    },
+    "rules": [],
+    "slug": "method-actor",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "skill"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Performance"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "xCuKs6feogv1zAX9",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 23300000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1714327858514,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!xCuKs6feogv1zAX9"
+}

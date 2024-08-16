@@ -1,0 +1,85 @@
+{
+  "name": "Grifter",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are a con artist and trickster who swindles unsuspecting dupes and blackmails rubes, but it's nothing personal—you're just in it for the credits. You might run an operation on the side, or you might spend your career moving from settlement to settlement until you're caught in the act.</p><p>Choose two attribute boosts. One must be to <strong>Charisma</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p><p>You're trained in the Deception skill and a Lore skill related to a profession or subject you fake expertise in. You gain the @UUID[Compendium.pf2e.feats-srd.Item.B6HbYsLBWb1RR6Fx]{Charming Liar} skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "grifter",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "int"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "kylCN": {
+        "uuid": "Compendium.pf2e.feats-srd.Item.B6HbYsLBWb1RR6Fx",
+        "img": "icons/sundries/books/book-red-exclamation.webp",
+        "name": "Charming Liar",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "deception"
+      ],
+      "lore": []
+    }
+  },
+  "_id": "Hjz4mxp8Ktoqzw2W",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708153170333,
+    "modifiedTime": 1722278930130,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Hjz4mxp8Ktoqzw2W"
+}

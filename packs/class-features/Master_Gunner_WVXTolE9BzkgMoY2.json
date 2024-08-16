@@ -1,0 +1,114 @@
+{
+  "name": "Master Gunner",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're a highly skilled sharpshooter and never go anywhere without your gun. Your proficiency rank increases to master with simple and martial guns, and increases to expert with advanced guns. You gain access to the critical specialization effects for all guns for which you have expert proficiency.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.martial-simple-guns.rank",
+        "value": 3,
+        "predicate": [
+          {
+            "not": "feature:striker"
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.advanced-guns.rank",
+        "value": 2
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:ranged",
+          {
+            "or": [
+              "item:trait:analog",
+              "item:trait:tech"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.simple-guns.rank",
+        "value": 3,
+        "predicate": [
+          "feature:striker"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.agile-one-hand.rank",
+        "value": 3,
+        "predicate": [
+          "feature:striker"
+        ]
+      }
+    ],
+    "slug": "master-gunner",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "WVXTolE9BzkgMoY2",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20bullet%20in%20flight.webp",
+  "folder": null,
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722126736604,
+    "modifiedTime": 1722298180198,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!WVXTolE9BzkgMoY2"
+}

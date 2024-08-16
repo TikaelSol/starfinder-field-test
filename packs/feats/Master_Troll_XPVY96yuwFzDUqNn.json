@@ -1,0 +1,77 @@
+{
+  "name": "Master Troll",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You or your target are using a comm unit, datapad, or other computer.</p><hr /><p>You have curated a collection of viral memes and infosphere lingo, which you use as an arsenal to enhance your trickery. Attempt a @Check[type:deception|defense:will] check against the target's Will DC. On a success, the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}, and on a critical success they are @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round. In addition, the target's reaction gives you information about them as though you had attempted to Recall Knowledge using an appropriate skill and received the same result on your roll. The target is temporarily immune for 24 hours.</p>"
+    },
+    "rules": [],
+    "slug": "master-troll",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "mental",
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "legendary in Deception"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "XPVY96yuwFzDUqNn",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 12900000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1714327804602,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XPVY96yuwFzDUqNn"
+}

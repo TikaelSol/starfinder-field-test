@@ -1,0 +1,91 @@
+{
+  "folder": null,
+  "name": "Martial Disciple",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've chosen to follow the path of your deity's most warlike aspect, beginning to master the use of their favored weapon. You become trained in your deity's favored weapon. If your deity's favored weapon is uncommon, you also gain access to that weapon. If your deity's favored weapon is a simple weapon or unarmed attack, increase the damage die size of that weapon by one step when you are wielding it.</p>"
+    },
+    "rules": [
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "upgrade",
+        "predicate": [
+          "item:deity-favored",
+          {
+            "or": [
+              "item:category:simple",
+              "item:category:unarmed"
+            ]
+          }
+        ],
+        "property": "damage-dice-faces"
+      }
+    ],
+    "slug": "martial-disciple",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mystic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "worship a deity"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1696482352215,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "5hxTt6qdLHb5ijBj",
+  "sort": 51200000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!5hxTt6qdLHb5ijBj"
+}

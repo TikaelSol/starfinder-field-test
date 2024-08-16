@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Broadened Assessment",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When the going gets tough, it's important to know who you can push around. When you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.03orjjkalSZC6Mtb]{Size Up} an individual to make them your asset, you pay close attention to their physical capabilities, in addition to their social inclinations and mental headspace. You can leverage this information to gain an edge during a physical altercation—or to avoid one! You gain a +1 circumstance bonus to Acrobatics, Athletics, and Stealth checks against your assets.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "acrobatics",
+          "athletics",
+          "stealth"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "target:mark:asset"
+        ]
+      }
+    ],
+    "slug": "broadened-assessment",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "ownership": {
+    "default": 0,
+    "X4PBxKRd2PcFy3lF": 3,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1710258144123,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "8x5okI9cNuaIjxd1",
+  "sort": 26000000,
+  "_key": "!items!8x5okI9cNuaIjxd1"
+}

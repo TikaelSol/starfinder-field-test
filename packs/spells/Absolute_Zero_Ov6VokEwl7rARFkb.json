@@ -1,0 +1,114 @@
+{
+  "name": "Absolute Zero",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A swirling vortex flash freezes the air, dealing 10d8 cold damage as a rime of frost spreads over everything in its path. Each creature in the area must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the start of your next turn.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} by a layer of ice, and is slowed 1 as long as its immobilized. The creature can still try to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}, and it or others can break the ice by attacking it (the ice has AC 33 and 35 Hit Points).</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d8. The ice's AC increases by 2 and its Hit Points increases by 5.</p>"
+    },
+    "rules": [],
+    "slug": "absolute-zero",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cold",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 40,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "xHkA4SxICaI3gozY": {
+        "formula": "10d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "cold",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "xHkA4SxICaI3gozY": "1d8"
+      }
+    }
+  },
+  "_id": "Ov6VokEwl7rARFkb",
+  "img": "icons/magic/water/projectiles-ice-explosion.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276205,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 5000000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Ov6VokEwl7rARFkb"
+}

@@ -1,0 +1,71 @@
+{
+  "type": "feat",
+  "name": "Bullet Hell",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are wielding an automatic or area (cone) weapon.</p><hr /><p>You fire your weapon in sustained bursts to unleash a consistent deluge of firepower that causes terrain to become treacherous to those attempting to move through it. Make an @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire} attack with your weapon. Until the start of your next turn, any creature that moves through the area you attacked takes @Damage[1d4[untyped]] damage of the same type as the weapon fired per square traversed, with a basic Reflex save made at the end of each move action they make through the area. On a failure, they become @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of your next turn.</p>"
+    },
+    "rules": [],
+    "slug": "bullet-hell",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "soldier"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "tR2xKL68B7A6azJD",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801600625,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 21700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!tR2xKL68B7A6azJD"
+}

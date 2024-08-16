@@ -1,0 +1,66 @@
+{
+  "name": "Urban Operator",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're accustomed to working in urban environments and can move swiftly through the crowded cityscape. You ignore difficult terrain from trash and crowds, and greater difficult terrain from urban environment trash and crowds are only difficult terrain for you.</p>"
+    },
+    "rules": [],
+    "slug": "urban-operator",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "EidBcs75FekiCUn3",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20timer.webp",
+  "folder": null,
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722126782112,
+    "modifiedTime": 1722224838504,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!EidBcs75FekiCUn3"
+}

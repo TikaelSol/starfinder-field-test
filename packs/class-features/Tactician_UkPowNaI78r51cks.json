@@ -1,0 +1,76 @@
+{
+  "name": "Tactician",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You know your allies' abilities well, and you can motivate them to leverage their strengths at a key moment. During your daily preparations, review your team's capabilities with up to five allies. You and each of these allies decide whether each is an attacker, defender, expert, or spellcaster for purposes of this ability. Later, you can issue the following directive: @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.VIINXR1UeGV5La4K]{Show 'Em What You Got!}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.VIINXR1UeGV5La4K"
+      }
+    ],
+    "slug": "tactician",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "UkPowNaI78r51cks",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20triad%20hexagons.webp",
+  "folder": null,
+  "sort": 9400000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712009267428,
+    "modifiedTime": 1722216310809,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UkPowNaI78r51cks"
+}

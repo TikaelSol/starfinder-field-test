@@ -1,0 +1,57 @@
+{
+  "name": "Overwhelming Strike",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> Your Strike hits a creature you've designated as your mark and deals damage.</p><hr /><p>You apply one of the following overwhelms, which lasts until the end of your next turn.</p><ul><li><strong>Overwhelm</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}.</li><li><strong>Overwhelm</strong> The target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed}.</li><li><p><strong>Overwhelm</strong> The target can't @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} or benefit from cover.</p><p></p></li></ul>"
+    },
+    "rules": [],
+    "slug": "overwhelming-strike",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "Mzv57gHOchXo0Nly",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "folder": null,
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722106845147,
+    "modifiedTime": 1722114226297,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!Mzv57gHOchXo0Nly"
+}

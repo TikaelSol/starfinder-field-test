@@ -1,0 +1,114 @@
+{
+  "_id": "osVIHOVc1ksFGc6z",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "Natural Ambition (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You were raised to be ambitious and always reach for the stars, leading you to progress quickly in your chosen field. You gain a 1st-level class feat for your class. You must meet the prerequisites, but you can select the feat later in the character creation process in order to determine which prerequisites you meet.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:1",
+            "item:category:class",
+            "item:trait:{actor|system.details.class.trait}",
+            {
+              "or": [
+                "feature:dragon-instinct",
+                {
+                  "not": "item:draconic-arrogance"
+                }
+              ]
+            },
+            {
+              "nor": [
+                "item:animal-companion",
+                "item:animal-companion-druid",
+                "item:bardic-lore",
+                "item:fire-lung",
+                "item:lingering-composition",
+                "item:leshy-familiar",
+                "item:martial-performance",
+                "item:shore-step",
+                "item:steadying-stone",
+                "item:storm-born",
+                "item:versatile-performance",
+                "item:untamed-form"
+              ]
+            }
+          ],
+          "itemType": "feat"
+        },
+        "flag": "naturalAmbition",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.LevelOneClassFeat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.naturalAmbition}"
+      }
+    ],
+    "slug": "natural-ambition",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "human"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.PodajLVxqYSAqVox",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722314223418,
+    "modifiedTime": 1722444023041,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.PodajLVxqYSAqVox"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!osVIHOVc1ksFGc6z"
+}

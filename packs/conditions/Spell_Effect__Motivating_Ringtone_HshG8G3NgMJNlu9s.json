@@ -1,0 +1,105 @@
+{
+  "folder": null,
+  "name": "Spell Effect: Motivating Ringtone",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.jCr8Airvs1u5D1yR]{Motivating Ringtone}</p>\n<hr />\n<p>The creature who owns the target gains a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects for the duration, as long as the comm unit continues to play the ringtone.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "all-speeds",
+        "value": 5,
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 1,
+        "predicate": [
+          "fear"
+        ],
+        "type": "status"
+      }
+    ],
+    "slug": "spell-effect-motivating-ringtone",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.872,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "schema": {
+      "version": 0.87,
+      "lastMigration": {
+        "version": {
+          "schema": null,
+          "foundry": "11.313",
+          "system": "5.6.2"
+        }
+      }
+    },
+    "unidentified": false
+  },
+  "_id": "HshG8G3NgMJNlu9s",
+  "img": "icons/magic/sonic/bell-alarm-red-purple.webp",
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "starfinder-2e",
+      "system": "pf2e",
+      "coreVersion": "11.313",
+      "systemVersion": "5.6.2"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1696515181513,
+    "modifiedTime": 1722218719212,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 3000000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!HshG8G3NgMJNlu9s"
+}

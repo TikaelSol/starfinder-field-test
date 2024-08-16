@@ -1,0 +1,71 @@
+{
+  "name": "Effect: Dual Aim",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You Aim at a second mark.</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenMark",
+        "slug": "aim"
+      }
+    ],
+    "slug": "effect-dual-aim",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/pink%20target%20sign.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722179423302,
+    "modifiedTime": 1722224851222,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "P0yY6bmmv3n1UX20",
+  "sort": 1100000,
+  "_key": "!items!P0yY6bmmv3n1UX20"
+}

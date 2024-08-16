@@ -1,0 +1,92 @@
+{
+  "folder": null,
+  "name": "Otherworld Oddity",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Paradox</strong> anomaly</p>\n<p><strong>Area</strong> 10-foot burst within your quantum field</p>\n<hr />\n<p>You recreate a powerful event from another world in your current reality. All creatures in the area must attempt a Fortitude save. The damage and effects caused by otherworldly phenomenon are determined by rolling 1d6, as detailed on the following table.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Damage increases by 1d12, persistent damage increases by 1d6, and condition values increase by 1 for conditions with a condition value</p>"
+    },
+    "rules": [],
+    "slug": "otherworld-oddity",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anchoring",
+        "concentrate",
+        "focus",
+        "manipulate",
+        "witchwarper"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 round",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "34kItls2zk1I77mY",
+  "img": "icons/magic/lightning/bolt-strike-explosion-yellow.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275401,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!34kItls2zk1I77mY"
+}

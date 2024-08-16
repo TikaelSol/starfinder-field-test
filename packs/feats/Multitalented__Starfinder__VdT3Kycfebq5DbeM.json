@@ -1,0 +1,91 @@
+{
+  "_id": "VdT3Kycfebq5DbeM",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "Multitalented (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've learned to split your focus between multiple classes with ease. You gain a 2nd-level multiclass dedication feat, even if you normally couldn't take another dedication feat until you take more feats from your current archetype.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:2",
+            "item:category:class",
+            "item:trait:dedication",
+            "item:trait:multiclass"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "multitalented",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Multitalented.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.multitalented}"
+      }
+    ],
+    "slug": "multitalented",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "human"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.C80vQCKQBGRaqcmq",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722314223418,
+    "modifiedTime": 1722444020675,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.C80vQCKQBGRaqcmq"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!VdT3Kycfebq5DbeM"
+}

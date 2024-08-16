@@ -1,0 +1,140 @@
+{
+  "folder": "OoVQVkJhSjhIyN7a",
+  "name": "Streetsweeper",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This enormous portable cannon is equipped with speakers that broadcast dense ultrasonic waves powerful enough to sweep a street clean of anything in its path.</p>"
+    },
+    "rules": [],
+    "slug": "streetsweeper",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "boost-1d4",
+        "expend-2",
+        "ranged-trip",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "streetsweeper",
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 60
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "category": "advanced",
+    "group": "sonic",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "sonic",
+      "persistent": null
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 40,
+    "reload": {
+      "value": "1"
+    },
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "_id": "F2MX8cywqGu3hpsg",
+  "img": "icons/weapons/guns/gun-worn-steel.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722224731932,
+    "modifiedTime": 1722359042321,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 101563,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!F2MX8cywqGu3hpsg"
+}

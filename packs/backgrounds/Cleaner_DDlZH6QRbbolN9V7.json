@@ -1,0 +1,87 @@
+{
+  "name": "Cleaner",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You know how to remove all traces of a crime before any bystanders have a chance to become witnesses. Whether you worked under the table for legitimate clients like Abadar Corp, or learned your trade as a member of a criminal organization like the Golden League, you know how to leave a crime scene as good as new.</p><p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p><p>You're trained in the Deception skill and Underworld Lore skill. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.zqs75ZLZO2QqZT6N]{Without a Trace} skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "cleaner",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "dex"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "ctpC0": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.zqs75ZLZO2QqZT6N",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+        "name": "Without a Trace",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "deception"
+      ],
+      "lore": [
+        "Underworld Lore"
+      ]
+    }
+  },
+  "_id": "DDlZH6QRbbolN9V7",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708150262081,
+    "modifiedTime": 1722278480400,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DDlZH6QRbbolN9V7"
+}

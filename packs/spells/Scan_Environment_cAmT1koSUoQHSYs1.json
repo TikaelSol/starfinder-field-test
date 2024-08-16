@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Scan Environment",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You analyze the natural environment in the area within 20 miles, learning general information about the atmosphere, biomes, and gravity. The amount of information revealed depends on how long you concentrate on the area.</p>\n<p><span class=\"pf2-icon\"><span class=\"action-glyph\">1</span></span> Forecast the weather for the next hour, including the direction it will come from.</p>\n<p><span class=\"pf2-icon\"><span class=\"action-glyph\">2</span></span> Learn which atmospheres, biomes, and gravity are in the area, as well as the direction and distance to those elements.</p>\n<p><span class=\"pf2-icon\"><span class=\"action-glyph\">3</span></span> Learn if anything in the area presents an environmental hazard, including cold or heat dangers (at what temperature range), radiation (at what severity), smoke effects, and underwater conditions. This is enough to detect large effects that span spaces over 30 feet in diameter only. You gain a general sense of where and how far away these dangers are</p>"
+    },
+    "rules": [],
+    "slug": "scan-environment",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "cAmT1koSUoQHSYs1",
+  "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276623,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 7200000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!cAmT1koSUoQHSYs1"
+}

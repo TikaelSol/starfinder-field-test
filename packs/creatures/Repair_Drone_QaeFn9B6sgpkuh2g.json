@@ -1,0 +1,780 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Repair Drone",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Repair Drone",
+  "type": "npc",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 8,
+        "temp": 0,
+        "max": 8,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 25
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "weaknesses": [
+        {
+          "type": "electricity",
+          "value": 1,
+          "exceptions": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": -1
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Playtest Scenario #1: Shards of the Glass Planet",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 6,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 2,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 5
+      },
+      "athletics": {
+        "base": 3
+      },
+      "crafting": {
+        "base": 4
+      }
+    },
+    "traits": {
+      "value": [
+        "construct",
+        "robot",
+        "tech"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "sm"
+      }
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "name": "Laser Pistol (Commercial, Integrated)",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The trusty sidearm of most interstellar travelers, the laser pistol has an untold number of makes and models across the galaxy. These small arms work in tandem with compact batteries to unleash pinpoint shots of directed energy at their intended targets. Lower-end models tend to gobble up battery charges, while higher- end models often trade overall capacity for increased damage.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.853,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Field Test",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "laser-pistol",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": "laser",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "fire",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 40,
+        "reload": {
+          "value": "1"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "icons/weapons/guns/gun-green.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.xbbjgyxVVf61NlWs",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "DQAOKI2nYxGWAr7T",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_id": "Xird7XvykZt84BaS",
+      "_key": "!actors.items!QaeFn9B6sgpkuh2g.Xird7XvykZt84BaS"
+    },
+    {
+      "_id": "gLYDHeydd4LRieMN",
+      "name": "Laser Pistol",
+      "type": "melee",
+      "system": {
+        "slug": "laser-pistol-commercial-integrated",
+        "bonus": {
+          "value": 7
+        },
+        "damageRolls": {
+          "GpHAMQcIUf1cGalN": {
+            "damage": "1d6",
+            "damageType": "fire",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "range-increment-40"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "Xird7XvykZt84BaS"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!QaeFn9B6sgpkuh2g.gLYDHeydd4LRieMN"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/repair-kit.webp",
+      "name": "Repair Toolkit (Integrated)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A repair kit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. You can use a repair kit to Repair items using the Crafting skill. You can draw and replace a worn repair toolkit as part of the action that uses it.</p>"
+        },
+        "rules": [],
+        "slug": "repair-toolkit",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.vLGDUFrg4yGzpTQX",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.equipment-srd.Item.vLGDUFrg4yGzpTQX"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_id": "27njiB0fjjlLEZtY",
+      "_key": "!actors.items!QaeFn9B6sgpkuh2g.27njiB0fjjlLEZtY"
+    },
+    {
+      "type": "melee",
+      "name": "Sharp Tool",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "damageRolls": {
+          "S55GyyGozjkQPivO": {
+            "damage": "1d4+1",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 5
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "TTHphPYY0sDyNBL4",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!QaeFn9B6sgpkuh2g.TTHphPYY0sDyNBL4"
+    },
+    {
+      "type": "action",
+      "name": "Fire Suppressor",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The repair drone sprays a torrent of water that functions as 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f]{hydraulic push}. The drone must refill its water tanks before it can use Fire Suppressor again.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "su4lzdcbWXZVDUav",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!QaeFn9B6sgpkuh2g.su4lzdcbWXZVDUav"
+    },
+    {
+      "name": "Battery (Commercial)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "battery-commercial",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 10
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "ammo",
+        "uses": {
+          "value": 10,
+          "max": 10,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "other"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.1",
+        "createdTime": 1723235235239,
+        "modifiedTime": 1723235236451,
+        "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+      },
+      "folder": "GwujgNN7WkToI8vn",
+      "sort": 8700000,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3,
+        "UeRxAiwcqxhhjzm9": 3
+      },
+      "_id": "zCOaeaHnVbTszyZ8",
+      "_key": "!actors.items!QaeFn9B6sgpkuh2g.zCOaeaHnVbTszyZ8"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "createdTime": 1721836911328,
+    "modifiedTime": 1721850275463,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "QaeFn9B6sgpkuh2g",
+  "sort": 1450000,
+  "_key": "!actors!QaeFn9B6sgpkuh2g"
+}

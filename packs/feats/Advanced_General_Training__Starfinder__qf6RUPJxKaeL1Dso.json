@@ -1,0 +1,94 @@
+{
+  "_id": "qf6RUPJxKaeL1Dso",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "Advanced General Training (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Over the long course of your adventuring life, your adaptability has let you pick up numerous useful abilities. You gain a general feat of 7th level or lower. You must meet the feat's prerequisites.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat multiple times, choosing a different feat each time.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "lte": [
+                "item:level",
+                7
+              ]
+            },
+            "item:trait:general"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "advancedGeneralTraining",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.AdvancedGeneralTraining.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.advancedGeneralTraining}"
+      }
+    ],
+    "slug": "advanced-general-training",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "human"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.Ht6b8H9DpA9lWzAg",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722314223418,
+    "modifiedTime": 1722444023247,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.Ht6b8H9DpA9lWzAg"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!qf6RUPJxKaeL1Dso"
+}

@@ -1,0 +1,250 @@
+{
+  "name": "Witchwarper",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>A strange paradoxical event forever altered your existence, and now you can manipulate reality. You explore the infinite possibilities of the multiverse, possibly visualizing variant timelines. You create fields that subvert space and time, allowing you to cast powerful magic. You've learned to focus on an anchoring memory, concept, or object to help you identify reality.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.cqoBvyuWuy7Mm0bW]{Witchwarper}</em></p>"
+    },
+    "rules": [],
+    "slug": "witchwarper",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "int"
+      ]
+    },
+    "items": {
+      "OUC6t": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.9wTsBSFD7yzgUFmZ",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20convergence.webp",
+        "name": "Paradox",
+        "level": 1
+      },
+      "e8FC2": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.xFYouMjmIE3PiSpp",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20cube.webp",
+        "name": "Anchor",
+        "level": 1
+      },
+      "bbccq": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.xbOdcVbLjxV72uW2",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20galaxy.webp",
+        "name": "Quantum Field",
+        "level": 1
+      },
+      "LPRYg": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.H8e5dTyueecMdYZZ",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20power%20stone.webp",
+        "name": "Witchwarper Spellcasting",
+        "level": 1
+      },
+      "DJ2Ij": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.hLLMueDgbBr3iwC8",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20planet%20in%20gas%20nebula.webp",
+        "name": "Anchoring Spells",
+        "level": 3
+      },
+      "h4VE1": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.9CxS9KeITeGhmRoC",
+        "img": "icons/magic/nature/symbol-moon-stars-white.webp",
+        "name": "Signature Spells",
+        "level": 3
+      },
+      "qCpEH": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.7MO6nSfr37iQKhZg",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Reflex Expertise",
+        "level": 3
+      },
+      "rjiEj": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.vNmu3phY0F9laOn5",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20spade%20space%20emblem.webp",
+        "name": "Advanced Paradox",
+        "level": 7
+      },
+      "Tcal0": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE",
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "name": "Expert Spellcaster",
+        "level": 7
+      },
+      "qLNWQ": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.70jqXP2eS4tRZ0Ok",
+        "img": "systems/pf2e/icons/features/classes/magical-fortitude.webp",
+        "name": "Magical Fortitude",
+        "level": 9
+      },
+      "uLew3": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.iXYY5EXl61hA2yRE",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20alien%20thowing%20blade.webp",
+        "name": "Greater Paradox",
+        "level": 11
+      },
+      "eWIzf": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.cAphiFlHnSDTZ8hW",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20button.webp",
+        "name": "Defensive Aura",
+        "level": 13
+      },
+      "8l2X9": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.HufAa1imTbooconk",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20triangle.webp",
+        "name": "Transcendent Will",
+        "level": 17
+      },
+      "UWIHu": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.laHTmPTq2ncCWBxF",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20rune%20ancient.webp",
+        "name": "Quantum Thesis",
+        "level": 19
+      },
+      "VKVpZ": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.elrcGTi9dE6oZg7T",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20hex%20field%20dispersed.webp",
+        "name": "Warped Infinities",
+        "level": 19
+      },
+      "2uJqG": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 13
+      },
+      "JYtuZ": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc",
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "name": "Master Spellcaster",
+        "level": 15
+      },
+      "mlJUP": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3",
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "name": "Legendary Spellcaster",
+        "level": 19
+      }
+    },
+    "hp": 8,
+    "trainedSkills": {
+      "value": [],
+      "additional": 3
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 0,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 1,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "_id": "lyPoetdmvTRyjsSM",
+  "img": "modules/starfinder-field-test-for-pf2e/art/class-icons/witchwarper.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721443704204,
+    "modifiedTime": 1722268570916,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!lyPoetdmvTRyjsSM"
+}

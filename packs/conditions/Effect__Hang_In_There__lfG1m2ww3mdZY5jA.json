@@ -1,0 +1,114 @@
+{
+  "name": "Effect: Hang In There!",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain temporary hit points.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.Check.Result.Degree.Check.criticalSuccess",
+            "value": 2
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.success",
+            "value": 1
+          }
+        ],
+        "prompt": "PF2E.SpecificRule.Prompt.DegreeOfSuccess",
+        "key": "ChoiceSet",
+        "flag": "multiplier"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ProficiencyLevel2",
+            "value": 0
+          },
+          {
+            "label": "PF2E.ProficiencyLevel3",
+            "value": 5
+          },
+          {
+            "label": "PF2E.ProficiencyLevel4",
+            "value": 10
+          }
+        ],
+        "prompt": "SF2E.SpecificRule.Envoy.HangInThere.Prompt",
+        "key": "ChoiceSet",
+        "flag": "modifier"
+      },
+      {
+        "key": "TempHP",
+        "value": "@item.flags.pf2e.rulesSelections.multiplier * @actor.level +@item.flags.pf2e.rulesSelections.modifier"
+      }
+    ],
+    "slug": "effect-hang-in-there",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.879,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20invigoration.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722220698407,
+    "modifiedTime": 1722224851314,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "lfG1m2ww3mdZY5jA",
+  "sort": 0,
+  "_key": "!items!lfG1m2ww3mdZY5jA"
+}

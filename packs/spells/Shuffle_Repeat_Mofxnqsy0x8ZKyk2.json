@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Shuffle Repeat",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Connection</strong> rhythm</p>\n<hr />\n<p>You shuffle the cosmic mix to repeat one creature's personal anthem, further motivating and empowering them. The target's Strikes deal an additional die of sonic damage and the target gains a +1 status bonus to Will saves and Will DCs.</p>"
+    },
+    "rules": [],
+    "slug": "shuffle-repeat",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "emotion",
+        "focus",
+        "manipulate",
+        "mental",
+        "mystic"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 bonded creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "Mofxnqsy0x8ZKyk2",
+  "img": "icons/magic/time/arrows-circling-green.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276129,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 4500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Mofxnqsy0x8ZKyk2"
+}

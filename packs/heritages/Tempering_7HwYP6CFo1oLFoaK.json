@@ -1,0 +1,69 @@
+{
+  "name": "Tempering",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are undergoing your Tempering, a coming-of-age ritual in which a kasatha rejects the formal traditions of their family and experiences other customs and traditions. You may be one of the Untempered, a kasatha who chooses to continue their Tempering beyond the traditional yearlong period. You become trained in Society and gain the @UUID[Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot]{Streetwise} feat.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.society.rank",
+        "value": 1
+      }
+    ],
+    "slug": "tempering",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Kasatha",
+      "slug": "kasatha",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.XNy7Feg3Ehl8TT77"
+    }
+  },
+  "_id": "7HwYP6CFo1oLFoaK",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "tQxUFxGatZBuAo2j",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707972564376,
+    "modifiedTime": 1722111278152,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!7HwYP6CFo1oLFoaK"
+}

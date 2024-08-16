@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Selective Invisibility",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A willing creature you touch as part of casting this spell becomes @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} to everyone except a second target within the spell's range. If the invisible creature uses a hostile action against anyone who is not the target that can see them, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> You may touch an additional creature to make them invisible, but they all must have the same target.</p>"
+    },
+    "rules": [],
+    "slug": "selective-invisibility",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature touched and one within range"
+    },
+    "range": {
+      "value": "500 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "qRKiadf7GqgxPDaN",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111277243,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 10800000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!qRKiadf7GqgxPDaN"
+}

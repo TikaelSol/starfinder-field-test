@@ -1,0 +1,57 @@
+{
+  "name": "Drive",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are piloting a vehicle.</p><hr /><p>You pilot your vehicle to move. Decide how many actions you intend to spend before you begin Driving. The effects depend on the number of actions you spend. You can't Drive through spaces occupied by creatures, even if they are allies.</p><p><span class=\"pf2-icon\">1</span> Attempt a Piloting check. On a success, the vehicle moves up to its Speed and can turn normally. On a failure, the vehicle moves its Speed in a straight line. On a critical failure, the vehicle moves its Speed in a straight line and becomes uncontrolled.</p><p><span class=\"pf2-icon\">2</span> (reckless) The vehicle moves up to twice its Speed in a straight line at the vehicle's current heading.</p><p><span class=\"pf2-icon\">3</span> (reckless) You take a –5 penalty on your piloting check to maintain control of the vehicle. The vehicle moves up to three times its Speed in a straight line at the vehicle's current heading.</p>"
+    },
+    "rules": [],
+    "slug": "drive",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "move"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "OxF2dvUCdTYHrnIm",
+  "img": "systems/pf2e/icons/actions/OneThreeActions.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722130287295,
+    "modifiedTime": 1722224846505,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!OxF2dvUCdTYHrnIm"
+}

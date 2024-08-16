@@ -1,0 +1,109 @@
+{
+  "name": "Infiltrator",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You specialize in bypassing security systems, hazards, traps, and other defenses. From hacking a computer system or cutting power to a building to bypassing a biometric lock and cracking a secure vault, you're skilled at accessing locations without alerting security or tripping safeguards. You're trained in Computers. You gain a skill feat for Computers.</p><p><strong>Exploit:</strong> You cause technological items and creatures to experience glitches and malfunctions with minimal effort. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.XurgSJrHN5P8V1j1]{Sabotage} action.</p><p><strong>Enhanced Exploit:</strong> You can use Sabotage as a free action whenever you critically hit a tech creature with a melee attack or a ranged attack in your first range increment, targeting the triggering creature. You can use Sabotage as a reaction whenever a creature wielding a tech weapon, or a tech creature, critically fails a melee attack roll against you, targeting the triggering weapon or creature.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.computers.rank",
+        "value": 1
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "value": "Compendium.starfinder-field-test-for-pf2e.feats.Item.cfwf6Ar4r1kMvNub"
+          },
+          {
+            "value": "Compendium.starfinder-field-test-for-pf2e.feats.Item.5qfJ8RzeTe5ucjf1"
+          },
+          {
+            "value": "Compendium.starfinder-field-test-for-pf2e.feats.Item.uaCtE4ZtvR2ou8bz"
+          },
+          {
+            "value": "Compendium.starfinder-field-test-for-pf2e.feats.Item.90JAhMkgRdEoul4W"
+          },
+          {
+            "value": "Compendium.starfinder-field-test-for-pf2e.feats.Item.pubj4WTHFcyoOieC"
+          },
+          {
+            "value": "Compendium.starfinder-field-test-for-pf2e.feats.Item.OU8zUA79XByyhoO3"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.SkillFeat",
+        "flag": "feat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.feat}"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.XurgSJrHN5P8V1j1"
+      }
+    ],
+    "slug": "infiltrator",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "operative-specialization"
+      ],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "Rqcl0KxiEljmhyDT",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20soldier.webp",
+  "folder": null,
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.0",
+    "createdTime": 1722106001064,
+    "modifiedTime": 1722704403858,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "_key": "!items!Rqcl0KxiEljmhyDT"
+}

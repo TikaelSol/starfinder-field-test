@@ -1,0 +1,71 @@
+{
+  "name": "Adaptive Talent",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're quick thinking and adaptable, capable of picking up new skills and talents with little practice or training. During your daily preparations, select one skill feat that you meet the prerequisites for. You gain this skill feat until you prepare again. Since you have this feat temporarily, you can't use it as a prerequisite for a permanent character option. You can use this for effects that temporarily give you access to other abilities, such as taking Multilingual to temporarily learn a new language.</p>\n<p>As your envoy level increases, so does your ability to adapt to new situations. At 9th level and 15th level, increase the number of skill feats you gain this way by 1. You can use feats that you temporarily gain through adaptive talent as a prerequisite for other feats that you temporarily gain through adaptive talent, but you still can't use them as prerequisites for permanent character options.</p>"
+    },
+    "rules": [],
+    "slug": "adaptive-talent",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "0HtLXgFUqD0wYzRl",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20circuit%20board.webp",
+  "folder": null,
+  "sort": 7700000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712008115122,
+    "modifiedTime": 1722213610642,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!0HtLXgFUqD0wYzRl"
+}

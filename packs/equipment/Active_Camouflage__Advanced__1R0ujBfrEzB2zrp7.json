@@ -1,0 +1,102 @@
+{
+  "folder": "BMj8rInFB3ecSG3i",
+  "name": "Active Camouflage (Advanced)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This armor is equipped with electronic ink that changes the appearance of your armor using shifting patterns that respond to your environment. You gain a +3 item bonus to Stealth checks while wearing the armor.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "stealth",
+        "value": 3,
+        "type": "item"
+      }
+    ],
+    "slug": "active-camouflage-advanced",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 140000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "_id": "1R0ujBfrEzB2zrp7",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20dotted%20hex.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.0",
+    "createdTime": 1722406369712,
+    "modifiedTime": 1722905238644,
+    "lastModifiedBy": "X4PBxKRd2PcFy3lF"
+  },
+  "sort": 3900000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!1R0ujBfrEzB2zrp7"
+}

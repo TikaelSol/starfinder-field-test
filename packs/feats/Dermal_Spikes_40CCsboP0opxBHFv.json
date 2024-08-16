@@ -1,0 +1,89 @@
+{
+  "name": "Dermal Spikes",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Spiky protrusions jut from your body, which you can use to wound your attackers. Your Fortitude DC against Athletics checks to Grapple or Shove you increases by 1. Additionally, you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6Fl8TlxORWQAfwsh]{Piercing Spikes} reaction.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.6Fl8TlxORWQAfwsh"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fortitude-dc",
+        "value": 1,
+        "predicate": [
+          {
+            "or": [
+              "action:shove",
+              "action:grapple"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "dermal-spikes",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "barathu"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "40CCsboP0opxBHFv",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 39300000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707761105438,
+    "modifiedTime": 1722307462777,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!40CCsboP0opxBHFv"
+}

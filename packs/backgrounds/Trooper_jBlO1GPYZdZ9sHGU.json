@@ -1,0 +1,85 @@
+{
+  "name": "Trooper",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You enlisted in a military or were recruited by a paramilitary group as a career trooper. As long as you've got enough guns and the right squad to back you up, you can handle just about anything.</p><p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Strength</strong>, and one is a free attribute boost.</p><p>You're trained in the Athletics skill and the Warfare Lore skill. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.jSzuRceUiH3yspYD]{Barricade} feat.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.jSzuRceUiH3yspYD"
+      }
+    ],
+    "slug": "trooper",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "con",
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {},
+    "trainedSkills": {
+      "value": [
+        "athletics"
+      ],
+      "lore": [
+        "Warfare Lore"
+      ]
+    }
+  },
+  "_id": "jBlO1GPYZdZ9sHGU",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708155597257,
+    "modifiedTime": 1722278584173,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!jBlO1GPYZdZ9sHGU"
+}

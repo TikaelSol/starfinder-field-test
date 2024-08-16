@@ -1,0 +1,138 @@
+{
+  "folder": "fQk7OHQqEfxZoNzj",
+  "name": "Prehensile Tail (Advanced)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have a long tail attached to the base of your spine, or another suitable location on your body, improving your overall balance and climbing ability. You gain a +1 item bonus to Acrobatics checks and Athletics checks to Climb. Using your tail, you can @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Grab an Edge} even when your hands are otherwise occupied or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}.</p><p>Your tail counts as one free hand for purposes of meeting the requirements to Climb, allowing you to Climb with one free hand plus your prehensile tail.</p><p>When you roll a failure on a check to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance}, @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb}, or @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Grab an Edge}, you get a success instead. You can still critically fail.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "athletics",
+          "acrobatics"
+        ],
+        "value": 2,
+        "type": "item",
+        "predicate": [
+          {
+            "or": [
+              "action:climb",
+              "check:statistic:acrobatics"
+            ]
+          }
+        ]
+      },
+      {
+        "adjustment": {
+          "failure": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "action:climb"
+        ],
+        "selector": "athletics"
+      },
+      {
+        "adjustment": {
+          "failure": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          {
+            "or": [
+              "action:balance",
+              "action:grab-an-edge"
+            ]
+          }
+        ],
+        "selector": "acrobatics"
+      }
+    ],
+    "slug": "prehensile-tail-advanced",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "_id": "rwKtgV4LoNgUjkAU",
+  "img": "icons/commodities/biological/tail-rodent-striped-red.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722485927969,
+    "modifiedTime": 1722490279125,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 1803125,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!rwKtgV4LoNgUjkAU"
+}

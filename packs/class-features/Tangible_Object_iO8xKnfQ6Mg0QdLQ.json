@@ -1,0 +1,90 @@
+{
+  "folder": null,
+  "name": "Tangible Object",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A small object, usually something you wear or can hold with one appendage, gives you comfort. It might be a trinket or article of clothing with sentimental value, a gadget to fidget with, or perhaps it just has a texture you find pleasing. The object is a physical thing, and not a digital or illusory product. Touching or thinking about the item helps you quiet the paradoxical ideas in your mind and focus on what's around you and what is tangible.</p><p><strong>Anchor Benefit</strong> The presence or weight of your chosen object helps ground you in this reality. You gain a +1 circumstance bonus to both Perception checks and Will saves against illusions and holograms. When you come within 10 feet of an illusion or hologram that can be disbelieved, the GM rolls a secret check for you to disbelieve it, even if you didn't spend an action to Interact with the illusion or hologram.</p><p><strong>Anchoring Action</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.nqO7txndCdyRKevE]{Touch Something Real}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.nqO7txndCdyRKevE"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "perception",
+          "will"
+        ],
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:illusion",
+              "item:trait:hologram"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "tangible-object",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "witchwarper-anchor"
+      ],
+      "value": [
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/pink%20liquid%20sealed%20in%20vial.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722097756050,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "_id": "iO8xKnfQ6Mg0QdLQ",
+  "sort": 4300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!iO8xKnfQ6Mg0QdLQ"
+}

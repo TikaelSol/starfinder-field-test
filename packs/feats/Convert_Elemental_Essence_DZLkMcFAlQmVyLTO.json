@@ -1,0 +1,75 @@
+{
+  "type": "feat",
+  "name": "Convert Elemental Essence",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> An enemy targeted a bonded creature with a Strike or spell with an attack roll that has an elemental trait and the roll fails or critically fails, or you roll a critical success on a save against a foe's harmful elemental spell.</p><hr /><p>Your vitality network absorbs the essence of the attack. Your vitality network regains 2 Hit Points per rank of the triggering spell or 4 Hit Points per weapon die of the triggering Strike.</p>"
+    },
+    "rules": [],
+    "slug": "convert-elemental-essence",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mystic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "elemental connection"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "DZLkMcFAlQmVyLTO",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801567540,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 5000000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!DZLkMcFAlQmVyLTO"
+}

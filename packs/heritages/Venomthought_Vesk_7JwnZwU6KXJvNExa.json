@@ -1,0 +1,74 @@
+{
+  "name": "Venomthought Vesk",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're one of the notable vesk born with psychic talents. According to folklore, your lineage originated with an ancient cave-dwelling society on Vesk Prime who modified themselves with occult rituals, gaining \"venomous thoughts\" that could manifest in any future progeny. You can cast @UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]{Daze} as an occult innate cantrip at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You gain a +1 circumstance bonus to Occultism checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about psychic traditions and philosophies.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "occultism",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "action:recall-knowledge",
+          {
+            "or": [
+              "psychic-traditions",
+              "philosophies"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "venomthought-vesk",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.911,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Vesk",
+      "slug": "vesk",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.PczabQM7NB6EQOkS"
+    }
+  },
+  "_id": "7JwnZwU6KXJvNExa",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "Lsu94f1gl7VW38mk",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "osGt3Y9EUYsTtPet": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1704317988165,
+    "modifiedTime": 1722275787911,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!7JwnZwU6KXJvNExa"
+}

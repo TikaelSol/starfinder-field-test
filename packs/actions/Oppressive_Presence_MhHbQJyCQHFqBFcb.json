@@ -1,0 +1,59 @@
+{
+  "name": "Oppressive Presence",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>You unnerve foes with a look, or similarly attract their attention through your subtle movements or words. Target an enemy creature you can see within 60 feet. The target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of your next turn. If the targeted enemy targets you with a Strike or other offensive action, it loses the suppressed condition from this effect.</p>"
+    },
+    "rules": [],
+    "slug": "oppressive-presence",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722114226236,
+    "modifiedTime": 1722224846485,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "MhHbQJyCQHFqBFcb",
+  "sort": 200000,
+  "_key": "!items!MhHbQJyCQHFqBFcb"
+}

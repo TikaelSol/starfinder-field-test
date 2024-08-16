@@ -1,0 +1,92 @@
+{
+  "folder": null,
+  "name": "Fearsome Bulwark",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your sheer mass terrifies foes when they see you. You can use your Constitution modifier instead of your Charisma modifier on Intimidation checks, and instead of your Strength modifier on Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition} or @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "intimidation",
+          "athletics"
+        ],
+        "type": "ability",
+        "ability": "con",
+        "predicate": [
+          {
+            "or": [
+              "action:reposition",
+              "action:shove",
+              "check:statistic:intimidation"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "fearsome-bulwark",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.853,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "soldier"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1691045081589,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "6YyPbqqKM6clSVER",
+  "sort": 11600000,
+  "_key": "!items!6YyPbqqKM6clSVER"
+}

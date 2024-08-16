@@ -1,0 +1,79 @@
+{
+  "type": "feat",
+  "name": "Bullet Fever",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You take damage that would reduce you to 0 Hit Points.</p><p><strong>Frequency</strong> once per hour</p><hr /><p>You fly into a frenzy with your last ounce of strength. Instead of being knocked out, you are reduced to 1 Hit Points, gain a number of temporary Hit Points equal to your level plus your key attribute modifier for 1 minute, increase your wounded value by 1, and enter a frenzy. You can't voluntarily end your frenzy. While in a frenzy caused by Bullet Fever:</p><ul><li>You automatically apply precision damage to all targets as though you were Aiming.</li><li>You take a –2 circumstance penalty to AC.</li><li>You take a –2 circumstance penalty to Will saves.</li><li>You can't take actions that don't have the attack or move traits except to Reload your weapons. When Bullet Fever ends, you lose any remaining temporary Hit Points from Bullet Fever.</li></ul>"
+    },
+    "rules": [],
+    "slug": "bullet-fever",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.8Uh6KEkAZZOaS2CL",
+      "name": "Effect: Bullet Fever"
+    }
+  },
+  "_id": "VBjQxElwHkG5AiWl",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801583824,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 11700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!VBjQxElwHkG5AiWl"
+}

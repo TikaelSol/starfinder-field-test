@@ -1,0 +1,98 @@
+{
+  "folder": null,
+  "name": "Soldier Weapon Expert",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've learned how to use your weapons in a way that pulverizes your foes and makes the best use of your area attacks. Your proficiency ranks for simple weapons and martial weapons increases to expert. You gain access to the critical specialization effects for weapons with the area or automatic traits.</p>"
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:area",
+              "item:trait:automatic"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "soldier-weapon-expert",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.853,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "soldier"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "simple": {
+          "rank": 2
+        },
+        "martial": {
+          "rank": 2
+        },
+        "unarmed": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "img": "icons/skills/targeting/crosshair-bars-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1691045081589,
+    "modifiedTime": 1722131539081,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "7YMBeaKA39WFQfHw",
+  "sort": 11300000,
+  "_key": "!items!7YMBeaKA39WFQfHw"
+}

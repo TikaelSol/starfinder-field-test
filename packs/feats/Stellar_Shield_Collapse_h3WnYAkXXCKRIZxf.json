@@ -1,0 +1,76 @@
+{
+  "type": "feat",
+  "name": "Stellar Shield Collapse",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> Your Solar Shield is destroyed while you have it raised.</p><p><strong>Requirements</strong> You haven't used Black Hole or Supernova within the last 10 minutes.</p><hr /><p>Your Solar Shield collapses on itself, with destructive results.</p><hr /><p><strong>Graviton-Attuned</strong> Immediately use @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.YdOtskSkZXO9ERzF]{Black Hole} as a free action (if you have the Black Hole revelation).</p><hr /><p><strong>Photon-Attuned</strong> Immediately use @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.jPy4UlsL5AlVwKYC]{Supernova} as a free action (if you have the Supernova revelation).</p>"
+    },
+    "rules": [],
+    "slug": "stellar-shield-collapse",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attuned",
+        "solarian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Solar Shield"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "h3WnYAkXXCKRIZxf",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801592629,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 17100000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!h3WnYAkXXCKRIZxf"
+}

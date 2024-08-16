@@ -1,0 +1,79 @@
+{
+  "name": "Incredible Senses",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Envoy</strong> You notice things that are almost impossible for an ordinary person to detect. Your proficiency rank for Perception increases to legendary.</p><hr /><p><strong>Operative</strong> Your eyes are incredibly sharp even without a scope. Your proficiency rank for Perception increases to legendary.</p>"
+    },
+    "rules": [],
+    "slug": "incredible-senses",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy",
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "perception": {
+          "rank": 4
+        }
+      }
+    }
+  },
+  "_id": "C4GdEQb1VYWY1w4m",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20target%202.webp",
+  "folder": null,
+  "sort": 8300000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712009410382,
+    "modifiedTime": 1722139986624,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!C4GdEQb1VYWY1w4m"
+}

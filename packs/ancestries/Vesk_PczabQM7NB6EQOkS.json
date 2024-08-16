@@ -1,0 +1,105 @@
+{
+  "name": "Vesk",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Vesk are a warmongering, reptilian people who conquered the eight worlds in their solar system shortly after they developed spaceflight, forming the Veskarium empire. Vesk tend to embrace conflict and respect strength and military might.</em></p>\n<p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.1lCAkGgIYYkczZ28]{Vesk}</em></p>"
+    },
+    "rules": [],
+    "slug": "vesk",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.911,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "humanoid",
+        "vesk"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 10,
+    "size": "med",
+    "reach": 5,
+    "speed": 20,
+    "boosts": {
+      "0": {
+        "value": [
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "con"
+        ]
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "wis"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "vesk"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 1,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "low-light-vision"
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/ancestries/vesk.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "osGt3Y9EUYsTtPet": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1704314697466,
+    "modifiedTime": 1722310983895,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "PczabQM7NB6EQOkS",
+  "sort": 200000,
+  "_key": "!items!PczabQM7NB6EQOkS"
+}

@@ -1,0 +1,97 @@
+{
+  "folder": "H3wWtIPMgO6Z0PMJ",
+  "name": "Akashic Lens (Advanced)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Worn as a contact lens, spectacles, or other eyewear, these magically treated lenses project a special data display that uses rudimentary AI and rapid eye tracking to quickly cycle through information until you find what you want to know. It grants you a +2 item bonus to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} checks made with the skill chosen when you use Database Scan.</p><p><strong>Activate—Database Scan</strong> <span class=\"pf2-icon\">2</span></p><p><strong>Frequency</strong> once per 10 minutes</p><hr /><p><strong>Effect</strong> The lens casts a 4th-rank @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.bHQ8Y4XZfUa2UEno] that uses the lens instead of a comm unit.</p>"
+    },
+    "rules": [],
+    "slug": "akashic-lens-advanced",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "invested",
+        "magical",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 15
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 55555
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "subitems": []
+  },
+  "_id": "kqiR1rLpOt7rCNkj",
+  "img": "icons/equipment/head/goggles-leather-tan.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722375898334,
+    "modifiedTime": 1722376091389,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!kqiR1rLpOt7rCNkj"
+}

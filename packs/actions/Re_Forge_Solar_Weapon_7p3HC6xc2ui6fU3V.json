@@ -1,0 +1,59 @@
+{
+  "folder": null,
+  "name": "Re-Forge Solar Weapon",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You spend 10 minutes focusing on the composition of your solar weapon. You can change the damage type of your weapon (typically between bludgeoning, piercing, or slashing), the currently selected traits for your weapon, and the weapon group your weapon belongs to. Your weapon maintains your selections until the next time you Re-Forge Solar Weapon.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.lUZuBzMe0UAllDxX]{Effect: Solar Weapon}</p>"
+    },
+    "rules": [],
+    "slug": "re-forge-solar-weapon",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "exploration",
+        "solarian"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721886122279,
+    "modifiedTime": 1722114226297,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "7p3HC6xc2ui6fU3V",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!7p3HC6xc2ui6fU3V"
+}

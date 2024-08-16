@@ -1,0 +1,88 @@
+{
+  "type": "feat",
+  "name": "Plasma Ejection",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You unleash an ejection of plasma, hitting every creature in your choice of a @Template[type:emanation|distance:10] centered on yourself or in a @Template[type:line|distance:30]. Each creature in the area takes @Damage[(floor(@actor.level/2)+1)d6[fire]] damage with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save against your class DC. A creature that critically fails its save takes @Damage[1d8[persistent,electricity]] damage.</p><p><strong>Graviton-Attuned</strong> A creature failing the save is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><p><strong>Photon-Attuned</strong> Increase the fire damage to d8s.</p><hr /><p><strong>Level (+2)</strong> The damage increases by 1d6 (or 1d8 if you're photon-attuned).</p>"
+    },
+    "rules": [
+      {
+        "damageType": "fire",
+        "key": "DamageDice",
+        "override": {
+          "upgrade": true
+        },
+        "predicate": [
+          "stellar-attunement:photon"
+        ],
+        "selector": [
+          "{item|id}-inline-damage"
+        ]
+      }
+    ],
+    "slug": "plasma-ejection",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attuned",
+        "cycle",
+        "flourish",
+        "solarian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "bIJS4JYNEjRwKGcz",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801592629,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 14800000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!bIJS4JYNEjRwKGcz"
+}

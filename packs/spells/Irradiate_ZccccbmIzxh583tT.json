@@ -1,0 +1,97 @@
+{
+  "name": "Irradiate",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You rapidly destabilize and decay the atoms around you to create a burst of magically enhanced mild radiation. This magical radiation uses your spell DC in place of the radiation's normal Fortitude DC, has an immediate onset, and the interval between each stage is 1 round. Technology does not gain the glitching condition within the radiation created by this spell.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The radiation increases to severe.</p>\n<p><strong>Heightened (7th)</strong> The radiation increases to extreme.</p>\n<p><strong>Heightened (9th)</strong> The radiation increases to incredible.</p>"
+    },
+    "rules": [],
+    "slug": "irradiate",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "poison",
+        "radiation"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 hour",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "ZccccbmIzxh583tT",
+  "img": "icons/magic/symbols/triangle-glowing-green.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276498,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 6500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!ZccccbmIzxh583tT"
+}

@@ -1,0 +1,113 @@
+{
+  "name": "From the Shadows",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You prefer to direct and inspire your allies in subtle ways, without drawing too much attention from your enemies. This lets you control the flow of battle from the backfield, or be closer to the action but still just out of sight.</p><p><strong>Leadership Skill (1st)</strong> Stealth</p><p><strong>Leadership Perk (1st)</strong> You gain @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{Assurance (Stealth)} as a bonus feat.</p><p><strong>Acts of Leadership (6th)</strong> @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.stealth.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0",
+        "preselectChoices": {
+          "assurance": "stealth"
+        }
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          },
+          {
+            "or": [
+              "item:slug:hide",
+              "item:slug:sneak",
+              "item:slug:take-cover"
+            ]
+          }
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Envoy.Directive.LeadByExample.DescriptionAlteration"
+          }
+        ]
+      }
+    ],
+    "slug": "from-the-shadows",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "envoy-leadership-style"
+      ],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "etUCB6gzOPTJi9hl",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20scythe%20dipped%20in%20liquid.webp",
+  "folder": null,
+  "sort": 9800000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712005709965,
+    "modifiedTime": 1722190798430,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!etUCB6gzOPTJi9hl"
+}

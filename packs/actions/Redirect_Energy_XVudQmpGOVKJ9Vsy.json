@@ -1,0 +1,66 @@
+{
+  "name": "Redirect Energy",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You are dealt cold damage or fire damage</p><hr /><p><strong>Effect</strong> You tap into the harmful energy directed at you and redirect its essence into a melee weapon you're holding. Until the end of your next turn, the selected weapon deals an additional 1d4 damage of the triggering damage type. During this time, you lose any resistance to the triggering damage type granted to you by Perfectly Balanced.</p>"
+    },
+    "rules": [],
+    "slug": "redirect-energy",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.330",
+        "system": "6.1.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "kasatha"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.eRNtDm4tOsgaPTlO",
+      "name": "Effect: Redirect Energy"
+    }
+  },
+  "_id": "XVudQmpGOVKJ9Vsy",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "folder": null,
+  "sort": 3700000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707974434708,
+    "modifiedTime": 1722316969830,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!XVudQmpGOVKJ9Vsy"
+}

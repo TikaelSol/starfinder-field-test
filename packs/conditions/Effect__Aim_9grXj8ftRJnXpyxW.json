@@ -1,0 +1,98 @@
+{
+  "name": "Effect: Aim",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You deal an additional 1d4 precision damage, and reduce the circumstance bonus to AC your mark gets from cover by 1. These benefits only apply if your mark is within your weapon's first range increment. You can only have one mark at a time.</p><p>As your operative level increases, so does your ability to Aim. Increase the number of dice for the precision damage by one at 5th, 11th, and 17th levels. At 11th level, you reduce the circumstance bonus to AC your mark gains from cover by 2 rather than 1. At 17th level, you reduce the circumstance bonus to AC your mark gains from cover by 4 rather than 2.</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenMark",
+        "slug": "aim"
+      },
+      {
+        "category": "precision",
+        "diceNumber": "@actor.flags.pf2e.aimDamage.number",
+        "dieSize": "d{actor|flags.pf2e.aimDamage.faces}",
+        "key": "DamageDice",
+        "predicate": [
+          "target:mark:aim",
+          "item:ranged",
+          {
+            "not": "item:trait:area"
+          }
+        ],
+        "selector": "strike-damage"
+      },
+      {
+        "key": "EphemeralEffect",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.rUhMP1E6eS0PMSBG",
+        "selectors": [
+          "strike-attack-roll",
+          "spell-attack-roll",
+          "strike-damage",
+          "attack-spell-damage"
+        ],
+        "predicate": [
+          "target:mark:aim"
+        ]
+      }
+    ],
+    "slug": "effect-aim",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/orange%20target%20sign.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.0",
+    "createdTime": 1722177196249,
+    "modifiedTime": 1722896105577,
+    "lastModifiedBy": "X4PBxKRd2PcFy3lF"
+  },
+  "_id": "9grXj8ftRJnXpyxW",
+  "sort": 900000,
+  "_key": "!items!9grXj8ftRJnXpyxW"
+}

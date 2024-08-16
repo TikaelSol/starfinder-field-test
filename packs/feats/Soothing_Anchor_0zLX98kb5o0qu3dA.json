@@ -1,0 +1,79 @@
+{
+  "type": "feat",
+  "name": "Soothing Anchor",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once every 10 minutes</p><p><strong>Requirements</strong> Your last action was to use the anchoring action granted by your anchor.</p><hr /><p>You concentrate more deeply on your anchor to soothe yourself. You gain temporary Hit Points equal to your witchwarper level, which last for 1 round.</p>"
+    },
+    "rules": [],
+    "slug": "soothing-anchor",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.fBO5Q744zw7b03fp",
+      "name": "Effect: Soothing Anchor"
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "_id": "0zLX98kb5o0qu3dA",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801609295,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!0zLX98kb5o0qu3dA"
+}

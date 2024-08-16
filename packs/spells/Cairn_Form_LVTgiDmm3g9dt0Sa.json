@@ -1,0 +1,89 @@
+{
+  "name": "Cairn Form",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your target's skin becomes a thick carapace of solid stone, granting resistance 5 to physical damage, except adamantine. The target gains a fist unarmed attack that deals @Damage[2d6[bludgeoning]] damage. The target uses their highest weapon or unarmed attack proficiency with these attacks, and if they have weapon specialization or greater weapon specialization, they add this damage as well. On a critical hit with one of these unarmed attacks, the creature struck attempts a Fortitude save against the target's class DC or is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} for 1 round.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> The resistance increases to 10 and the damage dealt by the attacks increases to three dice.</p>\n<p><strong>Heightened (10th)</strong> The resistance increases to 20 and the damage dealt by the attacks increases to four dice.</p>"
+    },
+    "rules": [],
+    "slug": "cairn-form",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "earth",
+        "manipulate",
+        "morph"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "LVTgiDmm3g9dt0Sa",
+  "img": "icons/magic/earth/strike-fist-stone-light.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276098,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 4300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!LVTgiDmm3g9dt0Sa"
+}

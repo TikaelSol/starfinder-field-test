@@ -1,0 +1,22 @@
+{
+  "name": "Kasatha",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "tQxUFxGatZBuAo2j",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pf2e",
+    "systemVersion": "6.0.4",
+    "createdTime": 1721438671282,
+    "modifiedTime": 1721438671282,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "_key": "!folders!tQxUFxGatZBuAo2j"
+}

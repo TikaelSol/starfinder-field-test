@@ -1,0 +1,111 @@
+{
+  "folder": null,
+  "name": "Ricochet",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A spinning disc of shimmering force leaps from one target to another. You deal 2d4 force damage, with a basic Reflex save.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
+    },
+    "rules": [],
+    "slug": "ricochet",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "divine"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 or 2 creatures"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "zv3hmChYdF6ZYZ2W": {
+        "formula": "2d4",
+        "kinds": [
+          "damage"
+        ],
+        "type": "force",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "zv3hmChYdF6ZYZ2W": "1d4"
+      }
+    }
+  },
+  "_id": "Om6IPDH7os8DMKRb",
+  "img": "icons/skills/movement/ball-spinning-blue.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276176,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 4800000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Om6IPDH7os8DMKRb"
+}

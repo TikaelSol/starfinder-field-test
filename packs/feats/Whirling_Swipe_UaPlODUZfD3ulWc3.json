@@ -1,0 +1,87 @@
+{
+  "type": "feat",
+  "name": "Whirling Swipe",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are wielding a two-handed melee weapon.</p><hr /><p>You swipe your close combat weapon in a wide swing that leaves behind a deadly arc. Your weapon gains the area (burst 5 feet) and unwieldy traits until the end of the turn. If your weapon has reach, the burst radius becomes the reach of your weapon. Make an attack using @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}, with the burst centered on a corner of your square. You are excluded from the burst. Targets in range take damage as though struck with a melee Strike you make with your weapon, but they must succeed at a basic Reflex save as normal. If you're using a weapon with the backswing or sweep trait, you gain a +1 circumstance bonus to the save DC of the attack.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "whirling-swipe",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "class-dc",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "whirling-swipe"
+        ]
+      }
+    ],
+    "slug": "whirling-swipe",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "soldier"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "UaPlODUZfD3ulWc3",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801600625,
+    "modifiedTime": 1722302490094,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 11300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!UaPlODUZfD3ulWc3"
+}

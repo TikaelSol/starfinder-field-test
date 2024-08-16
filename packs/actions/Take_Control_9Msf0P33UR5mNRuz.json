@@ -1,0 +1,57 @@
+{
+  "name": "Take Control",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are aboard a vehicle and adjacent to its controls.</p><hr /><p>You take control of a vehicle. Attempt a @Check[type:piloting] check; on a success, you become the vehicle's pilot, or regain control of the vehicle if it was uncontrolled. Some vehicles have complicated controls that cause this action to become a multi-action activity, and most vehicles take at least 3 actions if they aren't activated.</p>"
+    },
+    "rules": [],
+    "slug": "take-control",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manipulate"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "9Msf0P33UR5mNRuz",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722130658207,
+    "modifiedTime": 1722224846415,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!9Msf0P33UR5mNRuz"
+}

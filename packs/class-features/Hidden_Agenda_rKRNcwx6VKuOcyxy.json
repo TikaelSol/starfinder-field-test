@@ -1,0 +1,71 @@
+{
+  "name": "Hidden Agenda",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've become an expert at veiling your schemes. When a creature rolls a critical success at a Perception check to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} against you, or a skill check to @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{Gather Information} or @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about your secrets, they get a success instead. When you roll a critical failure at a saving throw against an effect or ability that would read or reveal your thoughts, emotions, or intentions, magically or otherwise, you get a failure instead.</p>"
+    },
+    "rules": [],
+    "slug": "hidden-agenda",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "rKRNcwx6VKuOcyxy",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20eye.webp",
+  "folder": null,
+  "sort": 10500000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712008938883,
+    "modifiedTime": 1722214703421,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!rKRNcwx6VKuOcyxy"
+}

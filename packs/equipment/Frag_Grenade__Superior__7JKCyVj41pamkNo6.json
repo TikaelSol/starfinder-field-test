@@ -1,0 +1,104 @@
+{
+  "folder": "GwujgNN7WkToI8vn",
+  "name": "Frag Grenade (Superior)",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deals @Damage[2d8[piercing]] piercing damage in a @Template[type:burst|distance:15] with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save.</p><p><strong>Critical</strong> @Damage[1d6[persistent,bleed]] damage</p>"
+    },
+    "rules": [],
+    "slug": "frag-grenade-superior",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable",
+        "grenade",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 1500
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "_id": "7JKCyVj41pamkNo6",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/grenade%20hand.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722383737441,
+    "modifiedTime": 1722408939628,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 103125,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!7JKCyVj41pamkNo6"
+}

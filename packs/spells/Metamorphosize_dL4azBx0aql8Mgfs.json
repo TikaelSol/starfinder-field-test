@@ -1,0 +1,93 @@
+{
+  "name": "Metamorphosize",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You incite a primordial transformation in the target, causing their appendages to become blood-soaked mantid-like claws. The target gains a claw attack that deals 1d6 slashing damage and has the agile, finesse, and unarmed traits. If the target already has a claw attack, it deals 1d8 damage instead. The target cannot hold any items or perform any manipulate actions that require the use of dexterous appendages. If the target was holding any objects, they become melded into its body and return to the target's appendages when the spell ends. An unwilling target may attempt a Fortitude save to negate the effects of this spell when targeted by the spell and at the end of each of its turns.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> The spell can affect up to 6 creatures.</p>"
+    },
+    "rules": [],
+    "slug": "metamorphosize",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "morph"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "occult",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "dL4azBx0aql8Mgfs",
+  "img": "icons/creatures/claws/claw-hooked-barbed.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276707,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 7700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!dL4azBx0aql8Mgfs"
+}

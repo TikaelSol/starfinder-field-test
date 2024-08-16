@@ -1,0 +1,120 @@
+{
+  "folder": "v0wGH7ooCUwH2trp",
+  "name": "Stellar Blast Solarian Crystal",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Stellar blast crystals channel your solar energy into the point of impact when you attack, creating a small explosion. While you're attuned, Strikes with your solar weapon or solar shot deal splash damage equal to the number of weapon damage dice. This is bludgeoning damage if you're graviton attuned or fire damage if you're photon attuned. You're immune to this splash damage.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": "@weapon.system.damage.dice",
+        "damageType": "bludgeoning",
+        "damageCategory": "splash",
+        "predicate": [
+          {
+            "not": "stellar-attunement:unattuned"
+          },
+          "item:solar-weapon"
+        ],
+        "slug": "stellar-blast"
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "strike-damage",
+        "mode": "override",
+        "damageType": "fire",
+        "predicate": [
+          "stellar-attunement:photon",
+          "modifier:slug:stellar-blast"
+        ]
+      }
+    ],
+    "slug": "stellar-blast-solarian-crystal",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 45000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "_id": "Euz3hSDQ5O9q5Z9K",
+  "img": "icons/commodities/gems/gem-faceted-round-white.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722458165374,
+    "modifiedTime": 1722490271569,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 100049,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Euz3hSDQ5O9q5Z9K"
+}

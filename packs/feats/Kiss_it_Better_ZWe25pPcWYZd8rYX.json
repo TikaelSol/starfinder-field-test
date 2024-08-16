@@ -1,0 +1,72 @@
+{
+  "name": "Kiss it Better",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You have a hand free and are adjacent to an ally who isn't at full Hit Points.</p><hr /><p>You perform a token medical effort to convince an ally they've recovered from an injury. Attempt a Deception check with the same DC as for @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}. On a success, the target gains half the corresponding amount of Hit Points as temporary Hit Points. These temporary Hit Points last 1 round. Kiss It Better doesn't remove the wounded condition. Increase the DC by 2 if you aren't holding or wearing a medkit. The target is temporarily immune to Kiss it Better for 24 hours.</p>"
+    },
+    "rules": [],
+    "slug": "kiss-it-better",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "manipulate",
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "expert in Deception"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "ZWe25pPcWYZd8rYX",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 14200000,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722134495769,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!ZWe25pPcWYZd8rYX"
+}

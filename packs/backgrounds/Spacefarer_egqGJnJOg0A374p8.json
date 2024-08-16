@@ -1,0 +1,87 @@
+{
+  "name": "Spacefarer",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Some people might say you've been out in the Drift too long, but the truth is, you don't feel at home away from your post on a starship deck. You might crew a long-haul freighter, military gunship, or tourist shuttle. Truth is, you'd probably sign up for any job that took you offworld.</p><p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p><p>You're trained in the Piloting skill and the Drift Lore skill. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.lvCiVD4lVlv3chXf]{Express Driver} skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "spacefarer",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "con",
+          "dex"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "MYsuQ": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.lvCiVD4lVlv3chXf",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+        "name": "Express Driver (Starfinder)",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "piloting"
+      ],
+      "lore": [
+        "Drift Lore"
+      ]
+    }
+  },
+  "_id": "egqGJnJOg0A374p8",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "12.330",
+    "createdTime": 1708153860784,
+    "modifiedTime": 1723563092724,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!egqGJnJOg0A374p8"
+}

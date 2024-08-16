@@ -1,0 +1,79 @@
+{
+  "name": "Slip from Sight",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You successfully use Stealth to Hide and become @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} from all your current foes, or you successfully use Stealth to @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} and become undetected to all your current foes.</p><hr /><p>Whether through the use of technology, magical talent, the blessing of Lao Shu Po, or uncanny luck, you slip from sight completely, becoming @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} for 1 minute, or until you take a hostile action.</p>"
+    },
+    "rules": [],
+    "slug": "slip-from-sight",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ratfolk"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "legendary Stealth"
+        }
+      ]
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "_id": "TCZ2YntMwWiUixJm",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 34700000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "coreVersion": "12.330",
+    "createdTime": 1708144197008,
+    "modifiedTime": 1722326351401,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!TCZ2YntMwWiUixJm"
+}

@@ -1,0 +1,468 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Hatchling Swarm",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Hatchling Swarm",
+  "type": "npc",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 32,
+        "temp": 0,
+        "max": 32,
+        "details": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 20
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "immunities": [
+        {
+          "type": "precision",
+          "exceptions": []
+        },
+        {
+          "type": "swarm-mind",
+          "exceptions": []
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "area-damage",
+          "value": 5,
+          "exceptions": []
+        },
+        {
+          "type": "fire",
+          "value": 5,
+          "exceptions": []
+        },
+        {
+          "type": "splash-damage",
+          "value": 5,
+          "exceptions": []
+        }
+      ],
+      "resistances": [
+        {
+          "type": "bludgeoning",
+          "value": 2,
+          "exceptions": [],
+          "doubleVs": []
+        },
+        {
+          "type": "piercing",
+          "value": 5,
+          "exceptions": [],
+          "doubleVs": []
+        },
+        {
+          "type": "slashing",
+          "value": 5,
+          "exceptions": [],
+          "doubleVs": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 4
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Playtest Scenario #2: It Came from the Vast!",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 8,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "type": "tremorsense",
+          "acuity": "imprecise",
+          "range": 30
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 8,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 10
+      },
+      "athletics": {
+        "base": 9
+      }
+    },
+    "traits": {
+      "value": [
+        "animal",
+        "swarm"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "lg"
+      }
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Swarm Mind",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>"
+        },
+        "rules": [],
+        "slug": "swarm-mind",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.baA0nSMhQyFyJIia",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.baA0nSMhQyFyJIia"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_id": "rqNo8D9hqjZdhnvn",
+      "_key": "!actors.items!PYSJI8IGoBlZGjWt.rqNo8D9hqjZdhnvn"
+    },
+    {
+      "type": "action",
+      "name": "Sonic Chorus",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The swarm emits a chorus of ear-splitting shrieks and screeches, dealing @Damage[5d6[sonic]] damage to creatures in a 10-foot radius emanation (@Check[type:reflex|dc:21|basic:true] save). It can't use Sonic Chorus again for [[/br 1d4 #Recharge Sonic Chorus]]{1d4 rounds}.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "NfMxTh8PWbmUqTsk",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!PYSJI8IGoBlZGjWt.NfMxTh8PWbmUqTsk"
+    },
+    {
+      "type": "action",
+      "name": "Swarming Bites",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Each enemy in the swarm's space takes @Damage[2d8[piercing]] damage (@Check[type:reflex|dc:21|basic:true] save).</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "ox2XBNfD6e0LPjGf",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!PYSJI8IGoBlZGjWt.ox2XBNfD6e0LPjGf"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "createdTime": 1721839413544,
+    "modifiedTime": 1721850275463,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "PYSJI8IGoBlZGjWt",
+  "sort": 0,
+  "_key": "!actors!PYSJI8IGoBlZGjWt"
+}

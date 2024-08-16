@@ -1,0 +1,71 @@
+{
+  "type": "feat",
+  "name": "Light 'Em Up",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are wielding a weapon with the area or automatic trait.</p><hr /><p>Your opponents can run, but they can't hide! You spray your area weapon in the general direction of an unseen enemy, revealing its location. Make an @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} attack. If the primary target is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}, you don't need to attempt a flat check to target it, and if it's @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, the DC of the flat check to target it is 5. When you suppress a concealed creature with this attack, the debris around it helps reveal its current position and no flat check is needed to target it; If it is hidden, the DC of the flat check to target it becomes 5 and the creature can't become undetected. This benefit lasts as long as the creature remains @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed}.</p>"
+    },
+    "rules": [],
+    "slug": "light-em-up",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "soldier"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "wCuDzG19UpGypT7o",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801600625,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 22900000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!wCuDzG19UpGypT7o"
+}

@@ -1,0 +1,124 @@
+{
+  "name": "Venom Spur",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A retractable spur attached to one of your appendages delivers a poisonous sting. You gain a venom spur unarmed attack that deals 1d6 piercing plus 1d4 persistent poison damage. Your venom spur is in the brawling group and has the finesse, poison, and unarmed traits.</p>"
+    },
+    "rules": [
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "SF2E.SpecificRule.Equipment.Augmentations.VenomSpur.Label",
+        "slug": "venom-spur",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "poison",
+          "finesse"
+        ]
+      },
+      {
+        "key": "DamageDice",
+        "selector": "{item|id}-damage",
+        "dieSize": "d4",
+        "diceNumber": 1,
+        "damageType": "poison",
+        "category": "persistent"
+      }
+    ],
+    "slug": "venom-spur",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 320
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "_id": "40ZyIBNee9NmRYMs",
+  "img": "icons/commodities/biological/finger-clawed-green-black.webp",
+  "folder": "fQk7OHQqEfxZoNzj",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722485927969,
+    "modifiedTime": 1722490269975,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 1800013,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!40ZyIBNee9NmRYMs"
+}

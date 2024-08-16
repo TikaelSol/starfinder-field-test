@@ -1,0 +1,1239 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Spicy Sweet",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Spicy Sweet",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "temp": 0,
+        "max": 18,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "common",
+          "goblin"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Second Edition Playtest Adventure: A Cosmic Birthday",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 5,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 5,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 6
+      },
+      "athletics": {
+        "base": 6
+      },
+      "intimidation": {
+        "base": 5
+      },
+      "piloting": {
+        "base": 5
+      },
+      "stealth": {
+        "base": 6
+      }
+    },
+    "traits": {
+      "value": [
+        "goblin",
+        "humanoid"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "sm"
+      }
+    }
+  },
+  "_id": "QdGV0GZPROFChVHR",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "type": "action",
+      "name": "Space Goblin Shuffle",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A goblin ally targets Spicy Sweet with an area effect</p><hr /><p><strong>Effect</strong> Spicy Sweet Steps. If she is still in the effect's area, she gains a +2 circumstance bonus to saves against the effect.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "FW19inAxpHE5nsxv",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!QdGV0GZPROFChVHR.FW19inAxpHE5nsxv"
+    },
+    {
+      "type": "action",
+      "name": "Area Fire",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Starfall Pistol (@Template[type:line|distance:20], unwieldy)</p><p><strong>Damage</strong> @Damage[1d6[fire]] (@Check[type:reflex|dc:16|basic:true] save)</p><hr /><p>Missile Launcher (Use Strike above)</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "NDi3nUyNurGT67Dr",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!QdGV0GZPROFChVHR.NDi3nUyNurGT67Dr"
+    },
+    {
+      "_id": "wPClOOJngKPtXBZh",
+      "name": "Missile Launcher",
+      "type": "melee",
+      "system": {
+        "slug": "missile-launcher",
+        "bonus": {
+          "value": 8
+        },
+        "damageRolls": {
+          "KR4mVBa3RNR4NTAy": {
+            "damage": "1d8",
+            "damageType": "bludgeoning",
+            "category": null
+          },
+          "vOq1cxyNHEwaWXn8": {
+            "damage": "1",
+            "damageType": "fire",
+            "category": "splash"
+          }
+        },
+        "traits": {
+          "value": [
+            "analog",
+            "automatic",
+            "range-increment-60",
+            "reload-2"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "description": {
+          "value": "<p>Area Fire</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "flags": {
+        "pf2e": {}
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.1",
+        "createdTime": null,
+        "modifiedTime": 1723235407168,
+        "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+      },
+      "_key": "!actors.items!QdGV0GZPROFChVHR.wPClOOJngKPtXBZh"
+    },
+    {
+      "folder": "OoVQVkJhSjhIyN7a",
+      "name": "Starfall Pistol",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>While the original shooting star pistol was a kit-bashed plasma caster, the commercial models reliably fire deadly streams of superheated plasma. Akitonian revelers enjoy discharging these pistols at outdoor celebrations.</p>"
+        },
+        "rules": [],
+        "slug": "starfall-pistol",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "area-line",
+            "expend-5",
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "starfall-pistol",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 30
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "advanced",
+        "group": "plasma",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "fire",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 20,
+        "reload": {
+          "value": "1"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/pictol%20snub.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.BYUc6pcKzuZMMQGb",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.1",
+        "createdTime": 1723235398820,
+        "modifiedTime": 1723235398820,
+        "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+      },
+      "sort": 106250,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "UeRxAiwcqxhhjzm9": 3
+      },
+      "_id": "ZTmpPsnrkbSGBwfD",
+      "_key": "!actors.items!QdGV0GZPROFChVHR.ZTmpPsnrkbSGBwfD"
+    },
+    {
+      "name": "Missile Launcher",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Area Fire</p><hr /><p>Often mounted on a ship, tripod, or the broad shoulders of a well-armored soldier, this square-shaped launcher can hold 4 missiles and is designed to minimize recoil while keeping its wielder safe from potentially scalding backblast. A missile launcher is a martial ranged weapon, has a reload of 2, and a range of 60 feet.</p>"
+        },
+        "rules": [],
+        "slug": "missile-launcher",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "missile-launcher",
+        "bulk": {
+          "value": 3
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 200
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "martial",
+        "group": "missile",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d8",
+          "damageType": "bludgeoning",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "reload": {
+          "value": null
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/grenade%20launcher.webp",
+      "folder": "OoVQVkJhSjhIyN7a",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.mpcNkCf0K3es5uJc",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.1",
+        "createdTime": 1723235405356,
+        "modifiedTime": 1723235405356,
+        "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+      },
+      "sort": 5800000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "UeRxAiwcqxhhjzm9": 3
+      },
+      "_id": "BFaROdO7eLy9yBqx",
+      "_key": "!actors.items!QdGV0GZPROFChVHR.BFaROdO7eLy9yBqx"
+    },
+    {
+      "folder": "o4lPEY2w6k5o9O8D",
+      "name": "Freebooter Armor",
+      "type": "armor",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Freebooter armor is named for the pirates and outlaws who often wear these outfits. Freebooter armor typically consists of a breastplate worn under a jacket or flight suit, heavy boots and gloves, a helmet, and hidden straps and holsters for concealing weapons.</p>"
+        },
+        "rules": [],
+        "slug": "freebooter-armor",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 65
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "medium",
+        "group": "plate",
+        "acBonus": 4,
+        "strength": 3,
+        "dexCap": 1,
+        "checkPenalty": -2,
+        "speedPenalty": -5,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": [],
+        "specific": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/finp_275_b.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.fDkbtTBKrh5bfQ20",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.1",
+        "createdTime": 1723235417111,
+        "modifiedTime": 1723235417111,
+        "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "UeRxAiwcqxhhjzm9": 3
+      },
+      "_id": "lq6eMl9A0RAENAEy",
+      "_key": "!actors.items!QdGV0GZPROFChVHR.lq6eMl9A0RAENAEy"
+    },
+    {
+      "name": "Battery (Commercial)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "battery-commercial",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 10
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "ammo",
+        "uses": {
+          "value": 10,
+          "max": 10,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "other"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.1",
+        "createdTime": 1723235427145,
+        "modifiedTime": 1723235431641,
+        "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+      },
+      "folder": "GwujgNN7WkToI8vn",
+      "sort": 8700000,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3,
+        "UeRxAiwcqxhhjzm9": 3
+      },
+      "_id": "jvGaOeszMubX4D28",
+      "_key": "!actors.items!QdGV0GZPROFChVHR.jvGaOeszMubX4D28"
+    },
+    {
+      "folder": "GwujgNN7WkToI8vn",
+      "name": "Sharpshooter Serum (Commercial)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><hr /><p>This smoky orange liquid allows your gun Strikes to reduce the circumstance bonus to AC your targets gain from cover by 1 for 5 minutes.</p>"
+        },
+        "rules": [],
+        "slug": "sharpshooter-serum-commercial",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "serum"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 140
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/red%20fire%20furnace.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.VqNXyWsAc76gppgh",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.1",
+        "createdTime": 1723235557106,
+        "modifiedTime": 1723235557106,
+        "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+      },
+      "sort": 3700000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "UeRxAiwcqxhhjzm9": 3
+      },
+      "_id": "BcxeP7v4geuMhlAB",
+      "_key": "!actors.items!QdGV0GZPROFChVHR.BcxeP7v4geuMhlAB"
+    },
+    {
+      "folder": "GwujgNN7WkToI8vn",
+      "name": "Ballistic Missile (Commercial)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Ammunition</strong> missile launcher</p><hr /><p>This missile carries an explosive warhead that deals @Damage[1d8[bludgeoning]] damage to its target and @Damage[1[fire]] damage in the subsequent explosion with a basic Reflex save.</p>"
+        },
+        "rules": [],
+        "slug": "ballistic-missile-commercial",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "missile",
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 4,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 30
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "ammo",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "other"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/rocket%20in%20mid%20flight.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.VQiQ9yMgAZ100bo2",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.1",
+        "createdTime": 1723235567098,
+        "modifiedTime": 1723235568967,
+        "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+      },
+      "sort": 9400000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "UeRxAiwcqxhhjzm9": 3
+      },
+      "_id": "rcGt3mX1wFmxt6OP",
+      "_key": "!actors.items!QdGV0GZPROFChVHR.rcGt3mX1wFmxt6OP"
+    },
+    {
+      "folder": "GwujgNN7WkToI8vn",
+      "name": "Medpatch (Commercial)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Medpatches accelerate the body's natural healing processes and immune system.</p><p><strong>Activate—Apply</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><p>You regain @Damage[1d6[healing]] Hit Points and gain a +1 item bonus to saving throws against disease and poisons for 10 minutes.</p>"
+        },
+        "rules": [],
+        "slug": "medpatch-commercial",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "healing",
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 30
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/nj_912_b.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.epPPWPTc4W7EfUf2",
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.1",
+        "createdTime": 1723235595431,
+        "modifiedTime": 1723235595431,
+        "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+      },
+      "sort": 4800000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "UeRxAiwcqxhhjzm9": 3
+      },
+      "_id": "bOoas8qPeIQXksh1",
+      "_key": "!actors.items!QdGV0GZPROFChVHR.bOoas8qPeIQXksh1"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "createdTime": 1721155995240,
+    "modifiedTime": 1721850275463,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "sort": 3100000,
+  "_key": "!actors!QdGV0GZPROFChVHR"
+}

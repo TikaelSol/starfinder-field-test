@@ -1,0 +1,108 @@
+{
+  "type": "consumable",
+  "name": "Cairn Form Spell Amp (Tactical)",
+  "folder": "GwujgNN7WkToI8vn",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Known on most worlds as \"spell amps\", <em>spell ampoules</em> are ready-to-use magic injections that confer the benefits of a spell of the specified rank.</p><p><strong>Activate—Inject</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> 6th-rank @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.LVTgiDmm3g9dt0Sa]</p>"
+    },
+    "rules": [],
+    "slug": "cairn-form-spell-amp-tactical",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.330",
+        "system": "6.1.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable",
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 11
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 3200
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20syringe%202.webp",
+  "_id": "sk6tQeGFNnNvcqg5",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722371737741,
+    "modifiedTime": 1722383752952,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 1800000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!sk6tQeGFNnNvcqg5"
+}

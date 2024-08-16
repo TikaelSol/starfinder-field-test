@@ -1,0 +1,101 @@
+{
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "Emotionless (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your inhibited or malfunctioning emotional processors make it difficult for you to feel strong emotions. You gain a +1 circumstance bonus to saving throws against emotion effects. If you roll a success on a saving throw against an emotion effect, you get a critical success instead.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:emotion",
+              "item:trait:fear"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:emotion",
+              "item:trait:fear"
+            ]
+          }
+        ],
+        "selector": "saving-throw"
+      }
+    ],
+    "slug": "emotionless",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "android"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.eEVZ19G2BAnHQZpa",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722286627421,
+    "modifiedTime": 1722444021438,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.eEVZ19G2BAnHQZpa"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_id": "bUwU0itn7lItZTb8",
+  "sort": 25100000,
+  "_key": "!items!bUwU0itn7lItZTb8"
+}

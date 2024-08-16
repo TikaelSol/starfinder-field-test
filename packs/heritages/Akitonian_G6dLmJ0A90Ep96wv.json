@@ -1,0 +1,63 @@
+{
+  "name": "Akitonian",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You (or one of your ancestors) traveled to the Pact Worlds on the Idari and settled on Akiton. Akiton's significantly lower gravity grants you an advantage in the fun and practical art of leaping, and you likely revel in the many rituals surrounding the desert world's popular sports. You gain the @UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]{Quick Jump} feat and don't treat sand as uneven ground.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq"
+      }
+    ],
+    "slug": "akitonian",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Kasatha",
+      "slug": "kasatha",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.XNy7Feg3Ehl8TT77"
+    }
+  },
+  "_id": "G6dLmJ0A90Ep96wv",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "tQxUFxGatZBuAo2j",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707972080618,
+    "modifiedTime": 1722111278207,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!G6dLmJ0A90Ep96wv"
+}

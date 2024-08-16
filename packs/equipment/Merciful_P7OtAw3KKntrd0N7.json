@@ -1,0 +1,96 @@
+{
+  "folder": "nQnhtmjeQ9PdhEKx",
+  "name": "Merciful",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Merciful weapons are sheathed in an unmistakable wispy green aura recognized by both soldiers and law enforcement around the universe. A merciful weapon has the nonlethal trait and can't be used to make a lethal attack. Any persistent damage the weapon would deal is negated.</p><p>On a critical hit, a merciful weapon causes the target to become @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} with the weapon's wielder for 1 minute, as the target is bombarded with feelings of guilt and remorse. This is a mental effect. If you have access to the weapon's critical specialization effect, you choose whether to use it or the merciful effect.</p>"
+    },
+    "rules": [],
+    "slug": "merciful",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 700
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20flame%20burner.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722487585799,
+    "modifiedTime": 1722490272992,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "P7OtAw3KKntrd0N7",
+  "sort": 293750,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!P7OtAw3KKntrd0N7"
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Manufacturer",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your body is a living laboratory, allowing you to ingest raw materials and refine them into useful medicines and other products. You become trained in Crafting (or another skill of your choice if you're already trained in Crafting and gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.vv4y3sOs3Z5ql1hh]{Pharmaceutical Crafting} feat.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.crafting.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.vv4y3sOs3Z5ql1hh",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "manufacturer",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Barathu",
+      "slug": "barathu",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.Kc7Uag3blYKJSUyC"
+    }
+  },
+  "_id": "KGKbo4GKx3rOFIW4",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "DAoyurydTnvbTfbN",
+  "sort": 50000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707760060124,
+    "modifiedTime": 1722270499241,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!KGKbo4GKx3rOFIW4"
+}

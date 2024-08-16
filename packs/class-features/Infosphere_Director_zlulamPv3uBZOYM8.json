@@ -1,0 +1,109 @@
+{
+  "name": "Infosphere Director",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You know how to control the flow of information, which can be critical during a battle or while planning your next mission. You might spend your downtime time hacking, programing , or just surfing infospheres to stay up to date on the latest news. Issuing commands via a datapad or wirelessly just comes naturally to you.</p><p><strong>Leadership Skill (1st)</strong> Computers</p><p><strong>Leadership Perk (1st)</strong> You gain @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.cfwf6Ar4r1kMvNub]{Digital Diversion} as a bonus feat.</p><p><strong>Acts of Leadership (6th)</strong> @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} using Computers, @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.computers.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.cfwf6Ar4r1kMvNub"
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          },
+          {
+            "or": [
+              "item:slug:create-a-diversion",
+              "item:slug:recall-knowledge"
+            ]
+          }
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Envoy.Directive.LeadByExample.DescriptionAlteration"
+          }
+        ]
+      }
+    ],
+    "slug": "infosphere-director",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "envoy-leadership-style"
+      ],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "zlulamPv3uBZOYM8",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20hand%20three%20connected%20dots.webp",
+  "folder": null,
+  "sort": 10900000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712007590307,
+    "modifiedTime": 1722192928920,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!zlulamPv3uBZOYM8"
+}

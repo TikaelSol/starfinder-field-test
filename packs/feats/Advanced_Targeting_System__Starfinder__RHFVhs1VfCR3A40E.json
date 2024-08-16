@@ -1,0 +1,71 @@
+{
+  "_id": "RHFVhs1VfCR3A40E",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "name": "Advanced Targeting System (Starfinder)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your ocular processors are augmented with advanced targeting systems, allowing you to more easily pinpoint your enemy and predict their movements. You can cast @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh] once per day as a 1st-rank arcane innate spell.</p>"
+    },
+    "rules": [],
+    "slug": "advanced-targeting-system",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "android"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.ThqMksZRxNB18ivs",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722306198854,
+    "modifiedTime": 1722444019925,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.ThqMksZRxNB18ivs"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!RHFVhs1VfCR3A40E"
+}

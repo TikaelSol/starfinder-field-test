@@ -1,0 +1,94 @@
+{
+  "folder": null,
+  "name": "Erudite Warrior",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Not every situation should be solved with a gun and sometimes it's better to just talk things through. You've come to appreciate specific facets of a galactic culture and can hold your own in a conversation to avoid unnecessary conflict. However, should a conflict arise, you're the first to display your aptitude with your weapons, cowing foes with your skill.</p><p>You're trained in Diplomacy or Society and a Lore skill of your choice. When you gain armor expertise, you gain expert proficiency in Diplomacy or Society (whichever you selected). This increases to master proficiency in the selected skill when you gain armor mastery and again to legendary when you gain legendary armor. You also gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.MhHbQJyCQHFqBFcb]{Oppressive Presence} action.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.MhHbQJyCQHFqBFcb"
+      },
+      {
+        "choices": [
+          {
+            "label": "PF2E.Skill.Diplomacy",
+            "value": "diplomacy"
+          },
+          {
+            "label": "PF2E.Skill.Society",
+            "value": "society"
+          }
+        ],
+        "flag": "skill",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.skill}.rank",
+        "value": "ternary(gte(@actor.level,17),4,ternary(gte(@actor.level,13),3,ternary(gte(@actor.level,7),2,1)))"
+      }
+    ],
+    "slug": "erudite-warrior",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "soldier-fighting-style"
+      ],
+      "value": [
+        "soldier"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20sonic%20scream.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722114744305,
+    "modifiedTime": 1722224839108,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "qwEwHonSWXIMhYRC",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!qwEwHonSWXIMhYRC"
+}

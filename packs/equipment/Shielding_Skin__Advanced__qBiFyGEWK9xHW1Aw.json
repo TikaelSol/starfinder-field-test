@@ -1,0 +1,102 @@
+{
+  "folder": "fQk7OHQqEfxZoNzj",
+  "name": "Shielding Skin (Advanced)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your skin is biologically engineered to protect your entire body, including your brain, from harmful effects. You gain a +3 item bonus to saving throws.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 3,
+        "type": "item"
+      }
+    ],
+    "slug": "shielding-skin-advanced",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "biotech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 495000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "_id": "qBiFyGEWK9xHW1Aw",
+  "img": "icons/magic/defensive/armor-stone-skin.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722485927969,
+    "modifiedTime": 1722490278817,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 1800391,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!qBiFyGEWK9xHW1Aw"
+}

@@ -1,0 +1,79 @@
+{
+  "folder": null,
+  "name": "Envoy Directive",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Envoys encourage their allies by using directives. A directive is an insight, order, or stratagem that benefits any allies who follow it. Each envoy directive includes a way for the envoy to lead by example. If the envoy takes their own advice and follows through on their own directive before the end of their turn, they unlock an additional advantage for themselves and their allies. By default, most directives have the visual trait, representing the envoy performing guiding motions to assist. However, envoys can choose to replace the visual trait with, or simply add, the auditory trait to represent shouts of encouragement as part of these actions.</p>\n<p>You begin with one envoy directive. You can learn more directives through the envoy class and envoy class feats. You can use any number of directives a round, but you can't use the same directive more than once a round. An envoy's directive and the benefits it grants last until the beginning of your next turn.</p>\n<p>You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.FXlhxST6fuaFt3Nh]{Get 'Em!} envoy directive.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.FXlhxST6fuaFt3Nh"
+      }
+    ],
+    "slug": "envoy-directive",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/orange%20finger%20beam.webp",
+  "ownership": {
+    "default": 0,
+    "X4PBxKRd2PcFy3lF": 3,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1710097977843,
+    "modifiedTime": 1722187125373,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "OkAexqb0cTRAyJD2",
+  "sort": 9000000,
+  "_key": "!items!OkAexqb0cTRAyJD2"
+}

@@ -1,0 +1,117 @@
+{
+  "folder": null,
+  "name": "Anomaly",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your existence itself is an anomaly that defies the normal parameters of your current reality. You might have encountered something that disrupted your core existence, or you crossed the veil from an alternate reality. You create a bubble of altered reality, projecting elements of other realities into your current universe.</p><p><strong>Tradition</strong> arcane</p><p><strong>Paradox Skill</strong> Deception</p><p><strong>Granted Spells</strong></p><ul><li>cantrip: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.CLGyt6l3ESlOJm4l]</li><li>1st: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.FXIhLIMgi0QDTr3w]</li><li>2nd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.Yrn3lrjodiklt7l3]</li><li>3rd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.sUyKlISvDwTaJ8pg]</li><li>4th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.YK7tR3Rn9RF8rwag]</li><li>5th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.cU3H60fJk0yCc2Ua]</li><li>6th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.jn2xCGbOZn6idH0A]</li><li>7th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.GNbPLs7S7RetVuPy]</li><li>8th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.oL2Brc1eSBxrAjMP]</li><li>9th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.KQgvZaPWMVRZEyHB]</li></ul><p><strong>Warp Spells</strong></p><ul><li>initial: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.CdSavPkIJyYFhqnt]</li><li>advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.0GYvnRSnK0jaxN9h]</li><li>greater: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BoiLJzgHsyRI7N6p]</li></ul><p><strong>Quantum Field</strong> Your movements blur as images of alternate iterations of you flicker around your current form, and your speech echoes with a chorus of otherworldly sounds. Any time an enemy within the quantum field attempts an action with the concentrate trait, the action is disrupted unless they succeed at a @Check[type:flat|dc:5].</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.deception.rank",
+        "value": 1
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:quantum-field"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Witchwarper.Paradox.Anomaly.QuantumField"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:advanced-paradox"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "@UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.0GYvnRSnK0jaxN9h]"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:greater-paradox"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "@UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BoiLJzgHsyRI7N6p]"
+          }
+        ]
+      }
+    ],
+    "slug": "anomaly",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "witchwarper-paradox"
+      ],
+      "value": [
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20alien%20hand.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722058723683,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "_id": "ttsu0MLrAgQjdVbT",
+  "sort": 6800000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!ttsu0MLrAgQjdVbT"
+}

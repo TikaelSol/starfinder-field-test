@@ -1,0 +1,92 @@
+{
+  "type": "feat",
+  "name": "Twin Shooter",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are especially dangerous with twin guns. As long as you're wielding two simple guns, they gain the agile trait.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "agile",
+        "definition": [
+          "item:ranged",
+          "item:category:simple",
+          {
+            "or": [
+              "item:trait:analog",
+              "item:trait:tech"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "twin-shooter",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Double Draw"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "EPcjKOTXXOzisNWX",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801583824,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 5600000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!EPcjKOTXXOzisNWX"
+}
