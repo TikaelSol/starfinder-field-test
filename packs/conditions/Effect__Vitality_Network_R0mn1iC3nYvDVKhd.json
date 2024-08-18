@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Tracks your currently available vitality network.</p>"
+      "value": "<p>Tracks your currently available vitality network.</p><p>Your vitality network has a maximum capacity equal to @Damage[(6+(4*(@actor.level)))] Hit Points</p>"
     },
     "rules": [
       {
@@ -70,11 +70,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.2.2",
+    "coreVersion": "12.331",
     "createdTime": 1696481110957,
-    "modifiedTime": 1722218719212,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1724000513411,
+    "lastModifiedBy": "R2osuXzIwCsQDDih",
     "compendiumSource": null,
     "duplicateSource": null
   },
