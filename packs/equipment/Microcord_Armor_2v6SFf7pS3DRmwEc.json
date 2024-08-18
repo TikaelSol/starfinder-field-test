@@ -31,7 +31,7 @@
       "value": 0
     },
     "quantity": 1,
-    "baseItem": null,
+    "baseItem": "microcord-armor",
     "bulk": {
       "value": 1
     },
@@ -71,7 +71,7 @@
       "misidentified": {}
     },
     "category": "light",
-    "group": null,
+    "group": "polymer",
     "acBonus": 2,
     "strength": 1,
     "dexCap": 3,
@@ -91,12 +91,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.1",
+    "systemVersion": "6.2.2",
     "createdTime": 1722224691469,
-    "modifiedTime": 1723225518626,
-    "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+    "modifiedTime": 1723956209333,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "sort": 1000000,
   "ownership": {
