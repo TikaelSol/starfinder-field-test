@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You create a sudden vacuum in the atmosphere around you. Creatures in the area take 6d12 bludgeoning damage from decompression (unless they were already in vacuum) Creatures failing the save take an additional @Damage[1d8[persistent,bludgeoning]] damage from internal damage.</p>"
+      "value": "<p>You create a sudden vacuum, forcing creatures in the area to hold their breath or fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} and start suffocating. The explosive decompression deals 6d12 bludgeoning damage to each creature in the area when the spell is cast or that enters the area (unless they were already in a vacuum). Creatures who fail the save take an additional @Damage[(@item.rank - 4)d4[persistent,bludgeoning]] damage, and creatures who critically fail the save are knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><hr /><p><strong>Heightened (+1)</strong> The initial damage increases by 1d12 and the persistent damage increases by 1d4.</p>"
     },
     "rules": [],
     "slug": "pocket-vacuum",
@@ -83,7 +83,14 @@
     "location": {
       "value": null
     },
-    "counteraction": false
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "6IUukgoOiAIWNa0g": "1d12"
+      }
+    }
   },
   "_id": "xLAAjxlVce0zFPMs",
   "img": "icons/magic/unholy/orb-glowing-purple.webp",
@@ -91,12 +98,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.2.2",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111277498,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1723952432536,
+    "lastModifiedBy": "06a3OFnGUINoVAPe"
   },
   "sort": 12300000,
   "ownership": {
