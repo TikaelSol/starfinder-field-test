@@ -143,6 +143,12 @@
         "img": "icons/magic/symbols/triangle-glow-purple.webp",
         "name": "Transcendence",
         "level": 19
+      },
+      "VlML5": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.q9s47a0b23K40S2B",
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "name": "Mystic Weapon Expertise",
+        "level": 11
       }
     },
     "hp": 8,
@@ -243,11 +249,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
-    "coreVersion": "12.330",
+    "systemVersion": "6.2.2",
+    "coreVersion": "12.331",
     "createdTime": 1696479945768,
-    "modifiedTime": 1722442218831,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1723952636109,
+    "lastModifiedBy": "R2osuXzIwCsQDDih",
     "compendiumSource": null,
     "duplicateSource": null
   },
