@@ -43,10 +43,10 @@
     },
     "requirements": "",
     "target": {
-      "value": ""
+      "value": "1 willing creature"
     },
     "range": {
-      "value": ""
+      "value": "varies"
     },
     "area": null,
     "time": {
@@ -56,7 +56,18 @@
       "value": "",
       "sustained": false
     },
-    "damage": {},
+    "damage": {
+      "MfINgMmc2RwpSgpC": {
+        "formula": "1d6",
+        "kinds": [
+          "healing"
+        ],
+        "type": "vitality",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
     "defense": null,
     "cost": {
       "value": ""
@@ -64,7 +75,70 @@
     "location": {
       "value": null
     },
-    "counteraction": false
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "MfINgMmc2RwpSgpC": "1d6"
+      }
+    },
+    "overlays": {
+      "xiKi0yZ6gmBg9FQz": {
+        "system": {
+          "time": {
+            "value": "1"
+          },
+          "damage": {
+            "MfINgMmc2RwpSgpC": {
+              "category": null
+            }
+          },
+          "defense": null
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "rlWDlYArFNIQOkk2": {
+        "system": {
+          "range": {
+            "value": "30 feet"
+          },
+          "time": {
+            "value": "2"
+          },
+          "damage": {
+            "MfINgMmc2RwpSgpC": {
+              "formula": "1d6+6",
+              "category": null
+            }
+          },
+          "defense": null,
+          "heightening": {
+            "damage": {
+              "MfINgMmc2RwpSgpC": "1d6+6"
+            }
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      },
+      "nzFMWv83Np4WN9X8": {
+        "system": {
+          "time": {
+            "value": "3"
+          },
+          "damage": {
+            "MfINgMmc2RwpSgpC": {
+              "category": null
+            }
+          },
+          "defense": null
+        },
+        "sort": 3,
+        "overlayType": "override"
+      }
+    }
   },
   "_id": "eASNMXfMHlT8HksK",
   "img": "icons/magic/life/cross-explosion-burst-green.webp",
@@ -72,12 +146,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
+    "systemVersion": "6.2.2",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722896399283,
-    "lastModifiedBy": "X4PBxKRd2PcFy3lF"
+    "modifiedTime": 1723954545862,
+    "lastModifiedBy": "R2osuXzIwCsQDDih"
   },
   "sort": 7900000,
   "ownership": {
