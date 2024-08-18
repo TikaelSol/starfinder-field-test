@@ -33,7 +33,7 @@
       "value": 0
     },
     "quantity": 1,
-    "baseItem": null,
+    "baseItem": "second-skin",
     "bulk": {
       "value": 0.1
     },
@@ -73,7 +73,7 @@
       "misidentified": {}
     },
     "category": "light",
-    "group": null,
+    "group": "polymer",
     "acBonus": 1,
     "strength": 0,
     "dexCap": 4,
@@ -93,12 +93,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.1",
+    "systemVersion": "6.2.2",
     "createdTime": 1722224691469,
-    "modifiedTime": 1723225518817,
-    "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+    "modifiedTime": 1723956234537,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "sort": 800000,
   "ownership": {

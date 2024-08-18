@@ -32,7 +32,7 @@
       "value": 0
     },
     "quantity": 1,
-    "baseItem": null,
+    "baseItem": "quilted-armor",
     "bulk": {
       "value": 1
     },
@@ -92,12 +92,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.1",
+    "systemVersion": "6.2.2",
     "createdTime": 1722224691469,
-    "modifiedTime": 1723225518799,
-    "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+    "modifiedTime": 1723956216930,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "sort": 900000,
   "ownership": {

@@ -32,7 +32,7 @@
       "value": 0
     },
     "quantity": 1,
-    "baseItem": null,
+    "baseItem": "hidden-soldier-armor",
     "bulk": {
       "value": 3
     },
@@ -72,7 +72,7 @@
       "misidentified": {}
     },
     "category": "heavy",
-    "group": null,
+    "group": "ceramic",
     "acBonus": 5,
     "strength": 4,
     "dexCap": 1,
@@ -92,12 +92,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.1",
+    "systemVersion": "6.2.2",
     "createdTime": 1722224691469,
-    "modifiedTime": 1723225518604,
-    "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+    "modifiedTime": 1723956328025,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "sort": 1200000,
   "ownership": {
