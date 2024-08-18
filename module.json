@@ -3,8 +3,8 @@
     "title": "Starfinder 2nd Edition Playtest for PF2e",
     "url": "https://github.com/TikaelSol/starfinder-field-test",
     "manifest": "https://github.com/TikaelSol/starfinder-field-test/releases/download/Latest/module.json",
-    "download": "https://github.com/TikaelSol/starfinder-field-test/releases/download/Latest/starfinder-field-test.zip",
-    "version": "6.1",
+    "download": "https://github.com/TikaelSol/starfinder-field-test/releases/download/Latest/starfinder-field-test-for-pf2e.zip",
+    "version": "6.1.1",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
