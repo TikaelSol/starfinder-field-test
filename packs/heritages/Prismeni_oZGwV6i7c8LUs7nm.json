@@ -1,0 +1,73 @@
+{
+  "name": "Prismeni",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Prismenis are suffused with the energy of the Drift, a recently discovered hyperspace plane, and are spiritual kin to the spectra who call that plane home. Wherever they go and whatever they do, they carry a fragment of the Drift inside them, and they can access that plane and its power through this internal connection.</em></p><p>You have an innate connection to the Drift. You gain the prismeni trait, in addition to the traits from your ancestry. While in the Drift, you can automatically pinpoint the location of Drift beacons, Drift drives, Drift engines, and other Driftrelated technology within a 100-mile radius. If you're Piloting a starship that doesn't have a Drift engine, you can serve as a connection between the Drift and that starship. This is a 1-minute activity that has the concentrate trait, and it allows the starship you're Piloting to enter or exit the Drift. Once within the Drift, the starship travels via conventional thrusters, as normal. When you get a critical failure on a Piloting check to @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.hsUKPqTdAvWwsqH2]{Navigate} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.LXqcXRayK58inaKo]{Plot Course} through the Drift, you get a failure instead. You can choose from prismeni feats and feats from your ancestry whenever you gain an ancestry feat.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.Z3igGEhxnonwENAg]{Versatile Heritage - Prismeni}</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "saving-throw",
+        "adjustment": {
+          "criticalFailure": "one-degree-better"
+        },
+        "predicate": [
+          "terrain:drift",
+          {
+            "or": [
+              "action:navigate",
+              "action:plot-course"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "prismeni",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "prismeni"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": null
+  },
+  "_id": "oZGwV6i7c8LUs7nm",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/ancestries/prismeni.webp",
+  "folder": "e93crNsgYSZAWWHC",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.0",
+    "coreVersion": "12.330",
+    "createdTime": 1708147266730,
+    "modifiedTime": 1722896724689,
+    "lastModifiedBy": "X4PBxKRd2PcFy3lF",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!oZGwV6i7c8LUs7nm"
+}

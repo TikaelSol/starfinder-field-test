@@ -1,0 +1,90 @@
+{
+  "folder": null,
+  "name": "Effect: Shift Energy",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your next spell deals a different type of damage, determined by rolling a d6, as detailed on the table below. This applies to all damage the spell deals.</p><table class=\"pf2-table\"><thead><tr><th>D6</th><th>Damage Type</th></tr></thead><tbody><tr><td>1</td><td>acid</td></tr><tr><td>2</td><td>cold</td></tr><tr><td>3</td><td>fire</td></tr><tr><td>4</td><td>electricity</td></tr><tr><td>5</td><td>void</td></tr><tr><td>6</td><td>sonic</td></tr></tbody></table>"
+    },
+    "rules": [
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "spell-damage"
+        ],
+        "mode": "override",
+        "property": "damage-type",
+        "value": "{item|badge.label}"
+      }
+    ],
+    "slug": "effect-shift-energy",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": {
+      "type": "formula",
+      "value": "1d6",
+      "evaluate": true,
+      "reevaluate": null,
+      "labels": [
+        "acid",
+        "cold",
+        "fire",
+        "electricity",
+        "void",
+        "sonic"
+      ],
+      "loop": false
+    },
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20planet%20in%20gas%20nebula.webp",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722104581284,
+    "modifiedTime": 1722218719212,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "Zm5egcFVJq0Nxpfj",
+  "sort": 1200000,
+  "_key": "!items!Zm5egcFVJq0Nxpfj"
+}

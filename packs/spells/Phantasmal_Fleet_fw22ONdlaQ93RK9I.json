@@ -1,0 +1,108 @@
+{
+  "folder": null,
+  "name": "Phantasmal Fleet",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A menacing vision of a fleet of hostile starships fills the mind of each creature in the area. The ships appear to be 1,000 feet overhead bombarding the ground with laser fire. The vision deals 10d8 mental with a basic Will save. On a critical failure, the target believes it's being pursued by the hostile fleet and moves to an area where it can take cover and must @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} on each of its turns. It can attempt a new Will save at the end of each of its turns, and on a success, it disbelieves the phantasm and stops fleeing or cowering.</p>"
+    },
+    "rules": [],
+    "slug": "phantasmal-fleet",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "illusion",
+        "manipulate",
+        "mental"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 60,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "BdvJUKNejUW0XklP": {
+        "formula": "10d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "mental",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "fw22ONdlaQ93RK9I",
+  "img": "icons/magic/air/wind-weather-sailing-ship.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276812,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 8300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!fw22ONdlaQ93RK9I"
+}

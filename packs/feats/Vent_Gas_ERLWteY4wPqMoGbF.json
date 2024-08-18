@@ -1,0 +1,75 @@
+{
+  "name": "Vent Gas",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>You vent gas from sacs inside your body to propel you forward. The area you currently occupy, plus all squares in a @Template[type:emanation|distance:5], become filled with your vented gas. All creatures in the gas become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}, and all creatures outside the gas become concealed to creatures within it. This gas disperses at the beginning of your next turn.</p><p>You gain a +10-foot circumstance bonus to all your Speeds. Then you either Stride or Fly. At the end of your turn, your gas reserves are depleted, and the bonus to your Speeds ends.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.QlPWgySBDmyZujQD]{Effect: Vent Gas}</p>"
+    },
+    "rules": [],
+    "slug": "vent-gas",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "barathu"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "_id": "ERLWteY4wPqMoGbF",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 41700000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707762054837,
+    "modifiedTime": 1722308609573,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ERLWteY4wPqMoGbF"
+}

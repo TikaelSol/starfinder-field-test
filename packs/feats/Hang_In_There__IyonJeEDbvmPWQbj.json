@@ -1,0 +1,76 @@
+{
+  "name": "Hang In There!",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You encourage yourself or an ally, psyching them up for a coming challenge and granting them temporary Hit Points. Select yourself or an ally within 30 feet, then attempt a @Check[type:diplomacy|dc:20] check. If you have master proficiency in Diplomacy, you can instead attempt a @Check[type:diplomacy|dc:30] check to increase the temporary Hit Points gained on a successful check by 5. If you have legendary proficiency, you can instead attempt a @Check[type:diplomacy|dc:40] check to increase the temporary Hit Points gained on a successful check by 10. These temporary Hit Points last for one minute. The target is then temporarily immune to your Hang in There! for 1 day.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.lfG1m2ww3mdZY5jA]{Effect: Hang In There!}</p><hr /><p><strong>Critical Success</strong> The target gains temporary Hit Points equal to double their level.</p><p><strong>Success</strong> The target gains temporary Hit Points equal to their level.</p><p><strong>Failure</strong> The target is unaffected, and you can't use Hang in There! again for 1 minute.</p><p><strong>Critical Failure</strong> The target is unaffected, and you can't use Hang in There! again for 1 hour.</p>"
+    },
+    "rules": [],
+    "slug": "hang-in-there",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy",
+        "healing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "expert in Diplomacy"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "IyonJeEDbvmPWQbj",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 27200000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712003165352,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!IyonJeEDbvmPWQbj"
+}

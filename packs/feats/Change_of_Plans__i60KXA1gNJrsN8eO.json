@@ -1,0 +1,74 @@
+{
+  "folder": null,
+  "name": "Change of Plans!",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> The target of your @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.FXlhxST6fuaFt3Nh]{Get 'Em!} is reduced to 0 Hit Points.</p><p><strong>Requirements</strong> You used Get 'Em! against a creature on your last turn.</p><hr /><p>As the target you directed your allies to take down falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} or is destroyed, you quickly direct them at another target. You use Get 'Em! against a new target, following all the normal targeting restrictions for Get 'Em! You don't count as leading by example against this new target.</p>"
+    },
+    "rules": [],
+    "slug": "change-of-plans",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "ownership": {
+    "default": 0,
+    "X4PBxKRd2PcFy3lF": 3,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1710257842597,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "i60KXA1gNJrsN8eO",
+  "sort": 28400000,
+  "_key": "!items!i60KXA1gNJrsN8eO"
+}

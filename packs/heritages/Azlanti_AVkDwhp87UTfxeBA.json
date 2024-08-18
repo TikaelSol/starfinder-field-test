@@ -1,0 +1,58 @@
+{
+  "name": "Azlanti",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You or your ancestors were born on a world controlled by the Azlanti Star Empire. You may have prominent brows, purple eyes, or a widow's peak. Choose one cantrip from the arcane spell list. You can cast this spell as an arcane innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You can change this cantrip to a different one from the same list once per day by meditating to draw on the power of your runic blood; this is a 10-minute activity that has the concentrate trait.</p>"
+    },
+    "rules": [],
+    "slug": "azlanti",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Human (Starfinder)",
+      "slug": "human",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.xb9vkvAi87Xz8zUY"
+    }
+  },
+  "_id": "AVkDwhp87UTfxeBA",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "dhXYz6iHGxnjdR0d",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707763507812,
+    "modifiedTime": 1722111278170,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!AVkDwhp87UTfxeBA"
+}

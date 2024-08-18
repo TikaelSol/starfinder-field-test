@@ -1,0 +1,63 @@
+{
+  "name": "Defiant Shirren",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Despite the passage of time, you remain resolute in your defiance of the Swarm and other insectile tyrants. If you roll a success on a Will saving throw against an effect that was created by a creature with the kucharn trait, or a creature that you know is allied with the Swarm, you get a critical success instead. Additionally, you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.5uAyx0uvTE1LmoGl]{Rebellious Defiance} action.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.5uAyx0uvTE1LmoGl"
+      }
+    ],
+    "slug": "defiant-shirren",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Shirren",
+      "slug": "shirren",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.T48q71HTeCQ0TjRY"
+    }
+  },
+  "_id": "kuDJdn0r3xb8MLY8",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "hCWtsVPI37hZU6CU",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708121845989,
+    "modifiedTime": 1722274314001,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!kuDJdn0r3xb8MLY8"
+}

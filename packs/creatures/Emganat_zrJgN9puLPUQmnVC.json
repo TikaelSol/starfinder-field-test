@@ -1,0 +1,624 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Emganat",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Emganat",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 38,
+        "temp": 0,
+        "max": 38,
+        "details": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "burrow",
+            "value": 30
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "resistances": [
+        {
+          "type": "acid",
+          "value": 5,
+          "exceptions": [],
+          "doubleVs": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 3
+      },
+      "blurb": "",
+      "publicNotes": "<p>Developing from an insectile species far out in the Vast known as kucharns, the Swarm are considered the greatest threat in existence for several cultures. Composed of countless subcolonies, each consisting of countless different component subspecies, the Swarm is a vast host that acts in psychic union for the purpose of consuming all matter across the cosmos. Most frightening of all is the Swarm's ability to assimilate the knowledge and DNA of those they consume. Thanks to its pre-Gap development of star travel, the Swarm had already consumed innumerable systems before history short-circuited, and its pace only accelerated once it received access to the Signal and the hyperspace dimension known as the Drift.</p><p>Worlds touched by the Swarm are drained of their natural resources and rendered barren places known as huskworlds. What outsiders consider to be \"Swarm space\" is little more than a swathe of lifeless worlds that the Swarm have consumed in their reckless advance. The Swarm so thoroughly strips these worlds that surveyors struggle to find even trace amounts of inorganic resources, such as rare minerals and water. Few of these huskworlds have been thoroughly explored, as oftentimes exploration awakens inert drones, theorized to have been left behind in case the devoured system was ever colonized and repopulated. Pockets of Swarm activity exist well beyond this region of space, as the Swarm sent out countless subcolonies in the ages before the Gap, and even now, only some of them have reached their intended destinations.</p><p>The Swarm is perhaps most known in the current era for two important facts. First, their assault on the Pact Worlds and the Veskarium led to the cessation of hostilities and tenuous alliance between the two powers. Second, the Swarm are the direct ancestors of the shirren species. Having broken away sometime during the Gap, shirrens found succor with the deity Hylax, who was believed to have evolved from a pre-Swarm kucharn, and who turned her back on the ravenous entity the Swarm has evolved into.</p><p>In recent years, the Swarm had been seen as little more than a distant boogeyman, with no activities save for classified actions in the Suskillon system in the Vast. However, the recent discovery of the missing Szandite world of Krethiskar inadvertently awoke a dormant subcolony that had been responsible for the world's consumption. Since then, the newly dubbed Krethiskar subcolony has become a scourge of Near Space, engaged in an active invasion of Szandite Collective worlds and being poised to spill over into other powers like the Veskarium and Pact Worlds. This rediscovered subcolony has begun rapid evolution of its components and remains cut off from the wider Swarm, but it still represents a clear danger to Near Space. The dreaded bastorox is a bio-organic bulwark that uses an immense chitinous shield to deflect damage while loosing bolts of bioelectricity at foes. It holds positions for advancing Krethiskar subcolony components, such as the multitudes of agile emganats. These biohulks are but one of the new innovations found within the ranks of the Krethiskar subcolony, and they were active during the siege of Rodnarth, where they implacably advanced through that world's treacherous swamps.</p><p>Emganats were first encountered during the Krethiskar subcolony's sudden emergence and the first attacks on Szandite Collective space. These wolf-sized components can burrow beneath the ground, moving at great speeds to reach a location where they can set up an ambush. Then, once a threat is detected, the emganat springs forth and lays into its foes with an acidic cannon located in its mouth. The more emganats that unleash their bio-acid on foes, the faster the substance dissolves their targets in an agonizing display.</p><h2>Krethiskar Subcolony</h2><p>First discovered by an overeager shirren Starfinder, the Krethiskar subcolony rested in torpor within the consumed huskworld of Krethiskar following its arrival during the pre-Gap era. Once uncovered, the subcolony quickly sprung to life, but thanks to a series of events involved in the psychically attuned Szandite crystals, the subcolony formed a powerful mental link with the Starfinder who had arrived. Now completely subsumed by the Swarm, the former Starfinder has become a living avatar for the Krethiskar subcolony, which unlike the great Swarm, has become a clear and present danger in Near Space.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Second Contact",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -2
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 10,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "type": "motion-sense",
+          "acuity": "imprecise",
+          "range": 30
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 6,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 8
+      },
+      "stealth": {
+        "base": 11
+      }
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "_id": "zrJgN9puLPUQmnVC",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "type": "action",
+      "name": "Motion Sense",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>An emganat can sense nearby creatures through vibration and air or water movement.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "pf80CAQ7Ub9at7dO",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zrJgN9puLPUQmnVC.pf80CAQ7Ub9at7dO"
+    },
+    {
+      "type": "action",
+      "name": "Swarm Mind",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>30 feet. All allies with Swarm mind within the listed range of each other are in constant telepathic communication and are aware of all threats they know about. While within range of at least one ally with Swarm mind, when an emganat rolls a success on a save against a mental effect, it gets a critical success instead.</p>"
+        },
+        "rules": [
+          {
+            "key": "Aura",
+            "radius": 30
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "24EcsZ2dERgZmrK8",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zrJgN9puLPUQmnVC.24EcsZ2dERgZmrK8"
+    },
+    {
+      "type": "action",
+      "name": "Burrowing Reveal",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> Initiative has not yet been rolled and the emganat is burrowed</p><p><strong>Trigger</strong> A creature enters the range of the emganat's motion sense</p><hr /><p><strong>Effect</strong> The emganat notices the creature and Burrows before it rolls initiative. This movement must cause it to emerge from the ground.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "move"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "f01LXL93KWcjluXC",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zrJgN9puLPUQmnVC.f01LXL93KWcjluXC"
+    },
+    {
+      "type": "melee",
+      "name": "Claws",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile"
+          ]
+        },
+        "damageRolls": {
+          "RCth5LrOb7NK5MUL": {
+            "damage": "1d6+3",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 10
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "HXalDj18zgkdqqRu",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zrJgN9puLPUQmnVC.HXalDj18zgkdqqRu"
+    },
+    {
+      "type": "melee",
+      "name": "Acidic Mouth Cannon",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "acid",
+            "range-increment-30"
+          ]
+        },
+        "damageRolls": {
+          "scQnaH7NvUL1p1AA": {
+            "damage": "1d8+2",
+            "damageType": "acid",
+            "category": null
+          },
+          "BIrz1dDKoQhyrBUJ": {
+            "damage": "1d4",
+            "damageType": "acid",
+            "category": "persistent"
+          }
+        },
+        "bonus": {
+          "value": 12
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "M2yE7eMJQvlCKf5j",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zrJgN9puLPUQmnVC.M2yE7eMJQvlCKf5j"
+    },
+    {
+      "type": "action",
+      "name": "Coordinated Digestion",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>If the emganat successfully Strikes a creature with its acidic mouth cannon and that creature was already taking persistent acid damage, increase the damage dice of the persistent damage by one step (to a maximum of 1d8).</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.330",
+            "system": "6.1.3"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "tWY5GCXlxtxRkC8i",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "pf2e",
+        "systemVersion": "6.1.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zrJgN9puLPUQmnVC.tWY5GCXlxtxRkC8i"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722542389226,
+    "modifiedTime": 1722542389226,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "sort": 0,
+  "_key": "!actors!zrJgN9puLPUQmnVC"
+}

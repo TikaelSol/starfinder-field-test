@@ -1,0 +1,87 @@
+{
+  "name": "Athlete",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've strengthened your body through practice drills and workouts, making sure not a single drop of sweat is wasted in your quest for gains. You might be a champion fighting arena matches, a hardcore gym rat, or a heavy hitter on a competitive sports team—what matters to you is the rush you get when you beat a personal record.</p><p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Dexterity</strong>, and one is a free attribute boost.</p><p>You're trained in the Athletics skill and the Sports Lore skill. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.kbHmYh8UfUePwDD3]{Deadlift} skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "athlete",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "dex",
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "5M8dV": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.kbHmYh8UfUePwDD3",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+        "name": "Deadlift",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "athletics"
+      ],
+      "lore": [
+        "Sports Lore"
+      ]
+    }
+  },
+  "_id": "DNv9JRusLOF8QKda",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708149902466,
+    "modifiedTime": 1722277920489,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!DNv9JRusLOF8QKda"
+}

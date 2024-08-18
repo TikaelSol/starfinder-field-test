@@ -1,0 +1,261 @@
+{
+  "name": "Soldier",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>You are a master of area weapons, heavy armor, and taking punishment. You stand in the thick of the battle and unleash devastating salvos against your foes, while taking withering fire in return. By laying down a barrage of suppressing fire with powerful weapons, you set your allies up to fulfill their respective roles, while encouraging enemies to focus on you.</em></p><p><em>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.JQAMedkXzpu3xv8N.JournalEntryPage.qzqG51UFKlrsJGZS]{Soldier}</em></p>"
+    },
+    "rules": [],
+    "slug": "soldier",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.853,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "con"
+      ]
+    },
+    "items": {
+      "CRH2x": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.zZw2LkaBhCuHGkvM",
+        "img": "icons/skills/ranged/bullets-triple-ball-orange.webp",
+        "name": "Suppressing Fire",
+        "level": 1
+      },
+      "YTzbm": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.y43YlM0N6CaxJtLM",
+        "img": "icons/skills/melee/unarmed-punch-fist-white.webp",
+        "name": "Soldier Fighting Styles",
+        "level": 1
+      },
+      "KM914": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.8J94LU3sVZv12P2e",
+        "img": "icons/skills/ranged/target-bullseye-archer-orange.webp",
+        "name": "Primary Target",
+        "level": 1
+      },
+      "x9C5k": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.7YMBeaKA39WFQfHw",
+        "img": "icons/skills/targeting/crosshair-bars-yellow.webp",
+        "name": "Soldier Weapon Mastery",
+        "level": 5
+      },
+      "qvEPY": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.Uvr1IK2HthLtN5wC",
+        "img": "icons/skills/melee/spear-tips-triple-orange.webp",
+        "name": "Walking Armory",
+        "level": 1
+      },
+      "8i7mX": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.6YyPbqqKM6clSVER",
+        "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+        "name": "Fearsome Bulwark",
+        "level": 3
+      },
+      "bwLRF": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.x5jaCJxsmD5sx3KB",
+        "img": "systems/pf2e/icons/features/classes/armor-expertise.webp",
+        "name": "Armor Expertise",
+        "level": 7
+      },
+      "LIpIe": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.OthMI0XEOjyo89ut",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20banner.webp",
+        "name": "Tough as Nails",
+        "level": 7
+      },
+      "GQonA": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.mIE1Ss4FD7moEbQf",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20arrow%20up.webp",
+        "name": "Soldier Expertise",
+        "level": 7
+      },
+      "UZU7u": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.uPSzff7h3aRnoV6l",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 7
+      },
+      "L32oH": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.NUZA2D0qQzXtr7fB",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20star%20insignia.webp",
+        "name": "Soldier's Resolution",
+        "level": 11
+      },
+      "NDALx": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.CGB1TczFhQhdQxml",
+        "img": "icons/equipment/chest/breastplate-sculpted-grey.webp",
+        "name": "Armor Mastery",
+        "level": 13
+      },
+      "Y5Xur": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.zT7YJSzWIuJ3VEFj",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20organization%20insignia.webp",
+        "name": "Soldier Mastery",
+        "level": 15
+      },
+      "8WBFf": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.SOWohVuty754MZ3Q",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20fist%20in%20the%20air.webp",
+        "name": "Unshakable Juggernaut",
+        "level": 15
+      },
+      "Oy6rC": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.voiSCh7ZXA2ogwiC",
+        "img": "icons/equipment/head/greathelm-banded-steel.webp",
+        "name": "Legendary Armor",
+        "level": 17
+      },
+      "PEOIa": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.9ygS46eOUHJBj6A3",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20star%20with%20purple%20aura.webp",
+        "name": "Legendary Soldier",
+        "level": 19
+      },
+      "ezt9g": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.fyh1OjLRt3g9wUhW",
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "name": "Perception Expertise",
+        "level": 5
+      },
+      "NPB3M": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.7MO6nSfr37iQKhZg",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Reflex Expertise",
+        "level": 3
+      }
+    },
+    "hp": 10,
+    "trainedSkills": {
+      "value": [
+        "intimidation"
+      ],
+      "additional": 3,
+      "custom": ""
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 1,
+      "heavy": 1
+    },
+    "spellcasting": 0,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/class-icons/soldier.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "coreVersion": "12.330",
+    "createdTime": 1691044276178,
+    "modifiedTime": 1722441932418,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "QHTEOzJv0KQVzhx8",
+  "sort": 300000,
+  "_key": "!items!QHTEOzJv0KQVzhx8"
+}

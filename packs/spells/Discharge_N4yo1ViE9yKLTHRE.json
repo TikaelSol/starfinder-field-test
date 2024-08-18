@@ -1,0 +1,104 @@
+{
+  "folder": null,
+  "name": "Discharge",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You ignite a sudden spark of electricity that surges into a technological creature or object. You depower an item with the tech trait or disrupt a creature with the tech trait, with effects based on choosing creature or object.</p>\n<ul>\n<li><strong>Creature</strong> If your target is a creature with the tech trait, it attempts a Will Save. On a failure, the creature is @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}; On a critical failure, the creature is @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2}.</li>\n<li><strong>Object</strong> If you target an attended object, the creature with the object attempts a Will save. On a success, the object loses half of its maximum charges. On a failure, or if you target an unattended object, the object loses all its remaining charges.</li>\n</ul>"
+    },
+    "rules": [],
+    "slug": "discharge",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "electricity",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature or object with the tech trait"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "wDl9tDTvAm5TLTuV": {
+        "formula": "0",
+        "kinds": [
+          "damage"
+        ],
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/lightning/bolts-forked-large-blue.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1696483781033,
+    "modifiedTime": 1722111276144,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "N4yo1ViE9yKLTHRE",
+  "sort": 4600000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!N4yo1ViE9yKLTHRE"
+}

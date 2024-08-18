@@ -1,0 +1,117 @@
+{
+  "folder": null,
+  "name": "Precog",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Some event has unstuck you in time. You might come from the distant past or a far-flung future. Perhaps you've traveled from some forsaken timeline to stop a cataclysmic event. Whatever the reason, you're now gifted with the ability to see and manipulate time in a way that few others comprehend.</p><p><strong>Tradition</strong> occult</p><p><strong>Paradox Skill</strong> Piloting</p><p><strong>Granted Spells</strong></p><ul><li>cantrip: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ITK4ZWoYq5oSOTRM]</li><li>1st: @UUID[Compendium.pf2e.spells-srd.Item.aEM2cttJ2eYcLssW]</li><li>2nd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.cykzPdDC93OkC1IN]</li><li>3rd: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.41eiakxOYO96avgr]</li><li>4th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.LVTgiDmm3g9dt0Sa]</li><li>5th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.mYCwqoRRkCEjPIl8]</li><li>6th: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.zMxl2O1P5stsskdF]</li><li>7th: @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]</li><li>8th: @UUID[Compendium.pf2e.spells-srd.Item.4MOew29Z1oCX8O28]</li><li>9th: @UUID[Compendium.pf2e.spells-srd.Item.4WS7HrFjwNvTn8T2]</li></ul><p><strong>Warp Spells</strong></p><ul><li>initial: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.lmYkyB1sPQYiMeKR]</li><li>advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.wPqPSW6lwhuKE2TI]</li><li>greater: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.aeLOas6xxoPYjKOU]</li></ul><p><strong>Quantum Field</strong> You have a modicum of control of the flow of time that surrounds you, allowing you to speed yourself and others up, or decrease the flow of time for others. An enemy creature that uses a move action inside your quantum field takes a –5-foot status penalty to its Speed during that action. You and your allies gain a +5-foot status bonus to Speed when you use a move action inside your quantum field during that action.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.piloting.rank",
+        "value": 1
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:quantum-field"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Witchwarper.Paradox.Precog.QuantumField"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:advanced-paradox"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "@UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.wPqPSW6lwhuKE2TI]"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:greater-paradox"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "@UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.aeLOas6xxoPYjKOU]"
+          }
+        ]
+      }
+    ],
+    "slug": "precog",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "witchwarper-paradox"
+      ],
+      "value": [
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20spiral.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722058723683,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "_id": "N24ZQO1ZpMfTm23z",
+  "sort": 4900000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!N24ZQO1ZpMfTm23z"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Piercing Spikes",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You become @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by a creature</p><hr /><p><strong>Effect</strong> You twist and thrash your body around, dealing 1d4 plus your Strength modfier piercing damage to the triggering creature (@Damage[(ceil(@actor.level/4)+@actor.system.abilties.str.mod)[piercing]]). This damage increases by 1d4 at 5th level and every four levels thereafter.</p>"
+    },
+    "rules": [],
+    "slug": "piercing-spikes",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.330",
+        "system": "6.1.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "6Fl8TlxORWQAfwsh",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "folder": null,
+  "sort": 2800000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707761174558,
+    "modifiedTime": 1722307564245,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!6Fl8TlxORWQAfwsh"
+}

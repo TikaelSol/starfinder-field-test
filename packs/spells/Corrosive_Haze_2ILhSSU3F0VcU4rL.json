@@ -1,0 +1,125 @@
+{
+  "name": "Corrosive Haze",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You unleash a cloud of corrosive nanites. Creatures that start their turn in the area take 6d8 acid damage and 1d6 persistent acid damage with a basic Fortitude save. The nanites also corrode any unattended objects in the area, dealing @Damage[3d8[acid]] damage. Each round you Sustain the spell, you can move the cloud up to 10 feet in any direction. You can Dismiss the spell.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d12, and the persistent acid damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "corrosive-haze",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "acid",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {
+      "fbd3TQav8HcZ0Dua": {
+        "formula": "6d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "acid",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      },
+      "HNja0gkZCYfpuEW4": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "acid",
+        "category": "persistent",
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "fbd3TQav8HcZ0Dua": "1d12",
+        "HNja0gkZCYfpuEW4": "1d6"
+      }
+    }
+  },
+  "_id": "2ILhSSU3F0VcU4rL",
+  "img": "icons/magic/acid/orb-bubble-smoke-drip.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275361,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!2ILhSSU3F0VcU4rL"
+}

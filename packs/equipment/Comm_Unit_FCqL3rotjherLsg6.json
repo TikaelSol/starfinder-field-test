@@ -1,0 +1,114 @@
+{
+  "folder": "H3wWtIPMgO6Z0PMJ",
+  "name": "Comm Unit",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A personal comm unit is a pocket-sized device that combines a minor portable computer and a cellular communications device, allowing instantaneous wireless communication with other comm units in both audio- and text-based formats at planetary range. A personal comm unit also includes a calculator, a flashlight (emits bright light in a 5-foot radius around you and dim light in the next 5 feet), a browser that accesses any local infospheres, and several entertainment options (including games).</p><p>Personal comm units integrated into armor have some voice-activated capabilities; you can communicate with other comm units in audio-based formats and receive responses without needing a free hand, but typing a message, browsing the infosphere, or using an app requires the use of at least one hand.</p><p>Comm units that function at longer ranges aren't as portable; they include built-in generators that provide the necessary amount of power and rely on active Drift beacons to communicate. Short-term use of these units can be purchased in most major settlements.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "comm-unit-lit",
+        "toggleable": true,
+        "label": "SF2E.SpecificRule.Equipment.CommUnit.Lit"
+      },
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": 10,
+          "bright": 5,
+          "color": "#dfeaf1",
+          "alpha": 0.15,
+          "luminosity": 0.3
+        },
+        "predicate": [
+          "comm-unit-lit"
+        ]
+      }
+    ],
+    "slug": "comm-unit",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 7
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "_id": "FCqL3rotjherLsg6",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/walkie%20talkie.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.0",
+    "createdTime": 1722368377468,
+    "modifiedTime": 1722703914749,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "sort": 5100000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!FCqL3rotjherLsg6"
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Chrono Push",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You push a creature across the battlefield so hard it slides through time. Make a ranged spell attack. On a hit, you knock the target back 15 feet in a straight line (30 feet on a critical hit). If the pushed creature contacts a solid barrier or another creature, its movement ends. At the end of this movement, the creature reenters the flow of time with a burst of temporal energy. The target and creatures now adjacent to the target must succeed at a basic Reflex save or take 7d8 force damage.</p>"
+    },
+    "rules": [],
+    "slug": "chrono-push",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "500 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "nVnpj6PIUGCm5TSB": {
+        "formula": "7d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "force",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "passive": {
+        "statistic": "ac"
+      },
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "cU3H60fJk0yCc2Ua",
+  "img": "icons/magic/air/air-wave-gust-blue.webp",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276656,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 7400000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!cU3H60fJk0yCc2Ua"
+}

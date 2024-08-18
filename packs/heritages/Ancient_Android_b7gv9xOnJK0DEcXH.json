@@ -1,0 +1,86 @@
+{
+  "name": "Ancient Android",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your body was created by an ancient civilization, and your anatomy is forged from obsolete technology that continues to function through a combination of enduring nanites and your own willpower. Choose from one of the following ancient android heritages.</p>\n<p>@UUID[Compendium.pf2e.heritages.Item.VgL18yU7pysdoZZG]{Artisan Android}</p>\n<p>@UUID[Compendium.pf2e.heritages.Item.MQx7miBXUmOHycqJ]{Laborer Android}</p>\n<p>@UUID[Compendium.pf2e.heritages.Item.BjuZKA7lzFSjKbif]{Polyglot Android}</p>\n<p>@UUID[Compendium.pf2e.heritages.Item.RuQSx0QsirIKxwKY]{Warrior Android}</p>"
+    },
+    "rules": [
+      {
+        "adjustName": true,
+        "choices": [
+          {
+            "value": "Compendium.pf2e.heritages.Item.VgL18yU7pysdoZZG"
+          },
+          {
+            "value": "Compendium.pf2e.heritages.Item.MQx7miBXUmOHycqJ"
+          },
+          {
+            "value": "Compendium.pf2e.heritages.Item.BjuZKA7lzFSjKbif"
+          },
+          {
+            "value": "Compendium.pf2e.heritages.Item.RuQSx0QsirIKxwKY"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "Select an ancestry",
+        "flag": "ancient-android-ancestry"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.ancient-android-ancestry}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "ancient-android",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.911,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Android (Starfinder)",
+      "slug": "android",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.gL3qb9ZexNxP991p"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "YlW9CPwhf5dxVDzU",
+  "ownership": {
+    "default": 0,
+    "osGt3Y9EUYsTtPet": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1704316552419,
+    "modifiedTime": 1722111278343,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "b7gv9xOnJK0DEcXH",
+  "sort": 800000,
+  "_key": "!items!b7gv9xOnJK0DEcXH"
+}

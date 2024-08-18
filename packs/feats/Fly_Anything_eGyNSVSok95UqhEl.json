@@ -1,0 +1,76 @@
+{
+  "name": "Fly Anything",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your vast experience as a pilot lets you intuit how the most interesting vehicles function. You can pilot a ship even if it would be physiologically impossible for you, including those that require telepathy or other supernatural abilities. You can use Piloting instead of Crafting to Repair a part of a vehicle, starship or mech with a –2 circumstance penalty as long as you have the appropriate parts available to you. You can use Piloting instead of Computers to Hack a vehicle, starship or mech with a –2 circumstance penalty.</p>"
+    },
+    "rules": [],
+    "slug": "fly-anything",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "legendary in Piloting"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "eGyNSVSok95UqhEl",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 16200000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1714326834097,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!eGyNSVSok95UqhEl"
+}

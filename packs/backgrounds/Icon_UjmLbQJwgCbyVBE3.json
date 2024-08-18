@@ -1,0 +1,87 @@
+{
+  "name": "Icon",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Everybody wants their 15 minutes of fame, but for you, it's somehow become a lifestyle. Whether by luck or dedication, you are a star performer, celebrity, or popular influencer. Your face, voice, and style are commodities across known space, but for every adoring fan, there's a hater spreading gossip or paparazzi looking to capture your flaws.</p>\n<p>Choose two attribute boosts. One must be to <strong>Charisma</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Performance skill and the Media Lore skill. You gain the Sparkling Performance skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "icon",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "con"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "OQf5H": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.O5zeo938lWGoNnb3",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+        "name": "Sparkling Performance",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "performance"
+      ],
+      "lore": [
+        "Media Lore"
+      ]
+    }
+  },
+  "_id": "UjmLbQJwgCbyVBE3",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708153368511,
+    "modifiedTime": 1722278859322,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!UjmLbQJwgCbyVBE3"
+}

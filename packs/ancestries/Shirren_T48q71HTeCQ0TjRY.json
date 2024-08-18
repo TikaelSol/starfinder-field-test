@@ -1,0 +1,110 @@
+{
+  "name": "Shirren",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>The insectile shirrens split from the destructive Swarm, forsaking the ruthless hive mind to pursue their own freedom and end the cycle of interstellar violence. Shirrens are a species of telepaths devoted to their own individualism, their communities, and living in harmony with other peoples.</em></p>\n<p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-journals.JournalEntry.q5yEIEjKvnVkwxod.JournalEntryPage.13SfVMj4kCySon7T]{Shirren}</p>"
+    },
+    "rules": [],
+    "slug": "shirren",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "humanoid",
+        "shirren"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 10,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "con"
+        ]
+      },
+      "1": {
+        "value": [
+          "wis"
+        ]
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": [
+          "cha"
+        ]
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "shirren"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 1,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "UYXfP": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.60yPDglrlsZU5y0G",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20alien%20brain.webp",
+        "name": "Limited Telepathy",
+        "level": 0
+      }
+    },
+    "vision": "normal"
+  },
+  "_id": "T48q71HTeCQ0TjRY",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/ancestries/shirren.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "coreVersion": "12.330",
+    "createdTime": 1708120620721,
+    "modifiedTime": 1722378584111,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!T48q71HTeCQ0TjRY"
+}

@@ -1,0 +1,96 @@
+{
+  "folder": "fQk7OHQqEfxZoNzj",
+  "name": "Morphic Skin (Advanced)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Magical glands embedded in your skin release mutagenic enzymes and transformative energies. You can activate the glands to change your physical appearance.</p><p><strong>Activate—Change Shape</strong> <span class=\"pf2-icon\">3</span> (concentrate, magical)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Your skin ripples as you change your outward appearance to match a desired set of features. You gain a status bonus to Deception checks to Impersonate another creature depending on your morphic skin's version.</p><p>You change your appearance—including apparent age, sex, height, weight, skin tone, visible musculature, hair color, scales, or similar minor features.</p><p>You can change your appearance to gain features of another ancestry, including extra appendages, fur, scales, or similar minor and major features (although you don’t gain or lose abilities as a result).</p><p>You can change your appearance to match a specific individual, including fingerprints, retinal patterns, and other features used to bypass biometric security keyed to that individual. The status bonus is +3.</p>"
+    },
+    "rules": [],
+    "slug": "morphic-skin-advanced",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical",
+        "magitech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 10000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "_id": "Vw4upFnhTEtEz6xd",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20mutated%20hand.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722485927969,
+    "modifiedTime": 1722490274099,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 2912500,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Vw4upFnhTEtEz6xd"
+}

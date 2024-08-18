@@ -1,0 +1,124 @@
+{
+  "folder": null,
+  "name": "Solar Shot",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You use your flare to unleash a directed blast of energy at a target. Make a ranged Strike against the AC of a creature in range. Add your Strength modifier to the damage roll. Your attunement determines the damage type and maximum range of the attack.</p><p><strong>Graviton-Attuned</strong> 1d8 bludgeoning, 15 feet. On a critical success, you can attempt a @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} using your Athletics even if you don't have a free hand or are not adjacent to the target.</p><p><strong>Photon-Attuned</strong> 1d6 fire, 30 feet. On a critical success, the target also takes 1d6 persistent fire damage.</p><hr /><p><strong>Level (+4)</strong> The damage increases by one die.</p>"
+    },
+    "rules": [
+      {
+        "category": "martial",
+        "group": "brawling",
+        "damage": {
+          "base": {
+            "damageType": "fire",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "key": "Strike",
+        "range": {
+          "max": "30"
+        },
+        "ability": "dex",
+        "slug": "solar-shot",
+        "label": "SF2E.SpecificRule.Solarian.SolarShot.Label",
+        "predicate": [
+          "stellar-attunement:photon"
+        ],
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/red%20comet.webp"
+      },
+      {
+        "category": "martial",
+        "group": "brawling",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "key": "Strike",
+        "range": {
+          "max": "15"
+        },
+        "ability": "dex",
+        "slug": "solar-shot",
+        "label": "SF2E.SpecificRule.Solarian.SolarShot.Label",
+        "predicate": [
+          "stellar-attunement:graviton"
+        ],
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue comet swirling.webp"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|id}-damage",
+        "type": "ability",
+        "ability": "str",
+        "force": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "{item|id}-damage",
+        "diceNumber": "floor((@actor.level -1)/4)",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "solar-shot",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "attuned",
+        "solarian"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.0",
+    "createdTime": 1721886122279,
+    "modifiedTime": 1722703291978,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "_id": "0o7v0LwOjvvNJRCw",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!0o7v0LwOjvvNJRCw"
+}

@@ -1,0 +1,135 @@
+{
+  "type": "feat",
+  "name": "Zone Overlap",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> Your quantum field is active with one zone affecting it.</p><hr /><p>You cause a second zone to overlap your quantum field. You can choose to apply another zone you're able to create, or apply the existing zone again, improving its effects as follows: Danger Zone deals 2d6 extra damage, Debris Zone becomes greater difficult terrain, Twisted Dark Zone ignores the temporary immunity of creatures who previously attempted a save for 1 round, and Radiant Zone forces creatures to attempt another saving throw.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "zone-overlap",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "inline-damage",
+        "dieSize": "d6",
+        "diceNumber": 2,
+        "predicate": [
+          "item:slug:danger-zone",
+          "zone-overlap"
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:debris-zone",
+          "zone-overlap"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Witchwarper.ZoneOverlap.DebrisZone"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:radiant-zone",
+          "zone-overlap"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Witchwarper.ZoneOverlap.RadiantZone"
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:twisted-dark-zone",
+          "zone-overlap"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Witchwarper.ZoneOverlap.TwistedDarkZone"
+          }
+        ]
+      }
+    ],
+    "slug": "zone-overlap",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.330",
+        "system": "6.1.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anchoring",
+        "witchwarper",
+        "zone"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "zwLx8O311obRR73b",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722099813058,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 24900000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!zwLx8O311obRR73b"
+}

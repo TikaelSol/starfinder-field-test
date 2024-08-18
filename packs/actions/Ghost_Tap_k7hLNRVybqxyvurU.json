@@ -1,0 +1,57 @@
+{
+  "name": "Ghost Tap",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You take a stealthy shot then disappear into the background. Make a ranged Strike against a creature, then attempt a Stealth check to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}. In an urban setting with multiple creatures, you can instead choose to make a Deception check to Hide. You gain a +2 circumstance bonus to this check if the creature was unaware of you or has an attitude of friendly toward you.</p><hr /><p><strong>Success</strong> If the creature could see you, you're now @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} from it instead of observed. If you were hidden from or undetected by the creature, you retain that condition.</p><p><strong>Failure</strong> You become observed.</p>"
+    },
+    "rules": [],
+    "slug": "ghost-tap",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "operative"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "_id": "k7hLNRVybqxyvurU",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "folder": null,
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722105827064,
+    "modifiedTime": 1722114226297,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!k7hLNRVybqxyvurU"
+}

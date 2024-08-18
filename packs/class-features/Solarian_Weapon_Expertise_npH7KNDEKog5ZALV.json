@@ -1,0 +1,86 @@
+{
+  "folder": null,
+  "name": "Solarian Weapon Expertise",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You unlock further understanding of the many weapons of the cosmos. Your proficiency ranks for simple weapons, martial weapons and unarmed attacks increase to expert. You gain access to the critical specialization effects for your solar weapon.</p>"
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:solar-weapon"
+        ]
+      }
+    ],
+    "slug": "solarian-weapon-expertise",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "solarian"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "simple": {
+          "rank": 2
+        },
+        "martial": {
+          "rank": 2
+        },
+        "unarmed": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "createdTime": 1721886948692,
+    "modifiedTime": 1723561307757,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "_id": "npH7KNDEKog5ZALV",
+  "sort": 6500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!npH7KNDEKog5ZALV"
+}

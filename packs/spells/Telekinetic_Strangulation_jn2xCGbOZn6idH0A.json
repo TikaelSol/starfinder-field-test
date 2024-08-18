@@ -1,0 +1,100 @@
+{
+  "folder": null,
+  "name": "Telekinetic Strangulation",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You psychically grasp a creature's throat or other vital anatomy with a vicelike grip, forcefully lifting it a few inches off the ground as it struggles to breathe. Make a ranged spell attack against the target's AC. On a hit, you deal 6d12 bludgeoning damage and the target is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}. The target takes 1d12 persistent bludgeoning damage, remains immobilized and must continue holding its breath for each round you Sustain the Spell. While immobilized in this way, it must hold its breath or begin suffocating. The target can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} (the escape DC is your spell DC and the escape attempt is affected by the incapacitation trait).</p>"
+    },
+    "rules": [],
+    "slug": "telekinetic-strangulation",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "incapacitation",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {
+      "4aSpMErS6rO1Xqs0": {
+        "formula": "6d12",
+        "kinds": [
+          "damage"
+        ],
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "jn2xCGbOZn6idH0A",
+  "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111276949,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 9100000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!jn2xCGbOZn6idH0A"
+}

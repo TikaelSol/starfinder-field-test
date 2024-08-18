@@ -1,0 +1,75 @@
+{
+  "name": "Look Alive!",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You warn your ally to move away from danger. You can use Watch Out! before an ally in range attempts a Reflex save in addition to its original trigger. If you do, the circumstance bonus applies to their Reflex save against the triggering effect.</p><p>When you use @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.JZxj1PyAM54d1GEP]{Watch Out!} and the triggering attack fails or critically fails, or your ally succeeds or critically succeeds at the saving throw, they can also Stride up to 10 feet as a free action. They can Fly or Swim instead of Striding if they have the corresponding movement type.</p>"
+    },
+    "rules": [],
+    "slug": "look-alive",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Watch Out!"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "7tMWeYAaayR9419T",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 25700000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712003397059,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!7tMWeYAaayR9419T"
+}

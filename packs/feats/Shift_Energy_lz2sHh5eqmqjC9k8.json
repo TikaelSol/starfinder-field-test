@@ -1,0 +1,77 @@
+{
+  "type": "feat",
+  "name": "Shift Energy",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You draw on magical energy from another reality and infuse it into a spell you cast in this reality. If the next action you use is to Cast a Spell that deals damage, the spell instead deals a different type of damage, determined by rolling a d6, as detailed on the table below. If the result is a type of damage already dealt by the spell, roll again until you get a different result. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the damage caused by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.2ILhSSU3F0VcU4rL]. A creature's immunities are unaffected.</p><table class=\"pf2-table\"><thead><tr><th>D6</th><th>Damage Type</th></tr></thead><tbody><tr><td>1</td><td>acid</td></tr><tr><td>2</td><td>cold</td></tr><tr><td>3</td><td>fire</td></tr><tr><td>4</td><td>electricity</td></tr><tr><td>5</td><td>void</td></tr><tr><td>6</td><td>sonic</td></tr></tbody></table>"
+    },
+    "rules": [],
+    "slug": "shift-energy",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.330",
+        "system": "6.1.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manipulate",
+        "spellshape",
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.Zm5egcFVJq0Nxpfj",
+      "name": "Effect: Shift Energy"
+    }
+  },
+  "_id": "lz2sHh5eqmqjC9k8",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722099813058,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 18700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!lz2sHh5eqmqjC9k8"
+}

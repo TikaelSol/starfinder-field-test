@@ -1,0 +1,73 @@
+{
+  "folder": null,
+  "name": "Cloud Storage",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Transfer</strong> Cost 1</p><hr /><p>You can use your vitality network as an extradimensional storage space, sliding items into and out of thin air as if it were a null space chamber. You can Interact with an item that weighs 1 Bulk or less to stow it into your Cloud Storage. A creature in your bond and on the same plane can pay the transfer cost to remove an item from your Cloud Storage as an Interact action. Your Cloud Storage has a capacity of 12 Bulk. When you become expert or higher in your connection skill, it becomes 25 Bulk; 50 Bulk at master, and 75 Bulk at legendary.</p>"
+    },
+    "rules": [],
+    "slug": "cloud-storage",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "extradimensional",
+        "mystic",
+        "transfer"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "ETSpdE13hb3RDmYM",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1696482352215,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 51300000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!ETSpdE13hb3RDmYM"
+}

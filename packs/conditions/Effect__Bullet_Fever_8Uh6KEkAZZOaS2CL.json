@@ -1,0 +1,84 @@
+{
+  "name": "Effect: Bullet Fever",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<ul><li><p>You gain a number of temporary Hit Points equal to your level plus your key attribute modifier</p></li><li><p>You automatically apply precision damage to all targets as though you were Aiming.</p></li><li><p>You take a –2 circumstance penalty to AC.</p></li><li><p>You take a –2 circumstance penalty to Will saves.</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@actor.level + @actor.system.abilities.{actor|system.details.keyability.value}.mod"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac",
+          "will"
+        ],
+        "value": -2,
+        "type": "circumstance"
+      },
+      {
+        "key": "RollOption",
+        "option": "target:mark:aim"
+      }
+    ],
+    "slug": "effect-bullet-fever",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/pink%20tipped%20bullets.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722180068874,
+    "modifiedTime": 1722224851151,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "8Uh6KEkAZZOaS2CL",
+  "sort": 700000,
+  "_key": "!items!8Uh6KEkAZZOaS2CL"
+}

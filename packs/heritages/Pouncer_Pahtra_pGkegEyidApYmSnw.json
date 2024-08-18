@@ -1,0 +1,64 @@
+{
+  "name": "Pouncer Pahtra",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You excelled in the war games of your youth, and you've trained hard to maintain your athletic ability even on worlds where higher gravity makes such feats more tiring. You have lean and long legs that let you run exceptionally fast, and a large tail that acts as a rudder to maintain your balance during sharp turns. Your speed increases by 5 feet. In addition, you don't automatically fail your checks to @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump} or @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} if you don't Stride at least 10 feet first.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "value": 5
+      }
+    ],
+    "slug": "pouncer-pahtra",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Pahtra",
+      "slug": "pahtra",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.zB9NEKvcjYO66lWj"
+    }
+  },
+  "_id": "pGkegEyidApYmSnw",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "ZgMNtAFc9yrJu1I7",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708116230330,
+    "modifiedTime": 1722274266008,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!pGkegEyidApYmSnw"
+}

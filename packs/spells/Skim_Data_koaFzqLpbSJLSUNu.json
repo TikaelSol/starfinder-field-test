@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Skim Data",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You touch one object and concentrate on a data set contained within it. such as a story, message, file, infosphere site, or video. You understand the gist of the data set and can quickly locate the most relevant pages or sections to your search. If the data set is written in a language you don't know, or you attempt to gain information from a computer you don't have access to, the spell fails. If you cast this spell as part of a Research you treat a critical failure as a failure instead.</p>"
+    },
+    "rules": [],
+    "slug": "skim-data",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "one data set contained within a touched object"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "koaFzqLpbSJLSUNu",
+  "img": "icons/skills/trades/academics-investigation-puzzles.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111277036,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 9600000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!koaFzqLpbSJLSUNu"
+}

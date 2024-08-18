@@ -1,0 +1,81 @@
+{
+  "name": "Akashic Eye",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>One of your eyes has developed into a conduit for the Akashic Record, the transitory plane of all knowledge. You Recall Knowledge using @Check[type:occultism|traits:action:recall-knowledge] instead of any other skill as though Occultism were applicable to perform Recall Knowledge for that creature.</p><hr /><p><strong>Critical Success</strong> You recall accurately and gain two pieces of additional information or context.</p><p><strong>Success</strong> You recall accurately and gain a piece of additional information or context and a piece of erroneous knowledge, but don't have any way to differentiate which is which.</p><p><strong>Failure</strong> You gain a piece of additional information or context and a piece of erroneous information.</p><p><strong>Critical Failure</strong> You gain two pieces of erroneous information.</p>"
+    },
+    "rules": [],
+    "slug": "akashic-eye",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "skill",
+        "visual"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "master in Occultism"
+        }
+      ]
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "_id": "J64bu8ue5voTGoOx",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 29600000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1714323987896,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!J64bu8ue5voTGoOx"
+}

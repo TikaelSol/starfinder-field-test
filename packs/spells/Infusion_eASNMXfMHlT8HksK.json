@@ -1,0 +1,162 @@
+{
+  "folder": null,
+  "name": "Infusion",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Connection</strong> healing</p>\n<hr />\n<p>You infuse the target's essence with healing energy. If the target is a willing creature, you restore 1d6 Hit Points. The target is then temporarily immune for 10 minutes. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.</p>\n<p><span class=\"pf2-icon\">1</span> The spell has a range of touch.</p>\n<p><span class=\"pf2-icon\">2</span> The spell has a range of 30 feet. If you're healing a creature, increase the Hit Points restored by 6.</p>\n<p><span class=\"pf2-icon\">3</span> You heal all bonded creatures in a 30-foot burst.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d6, and the extra healing for the 2-action version increases by 6.</p>"
+    },
+    "rules": [],
+    "slug": "infusion",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "healing",
+        "mystic",
+        "vitality",
+        "void"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 willing creature"
+    },
+    "range": {
+      "value": "varies"
+    },
+    "area": null,
+    "time": {
+      "value": "1 to 3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "MfINgMmc2RwpSgpC": {
+        "formula": "1d6",
+        "kinds": [
+          "healing"
+        ],
+        "type": "vitality",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "MfINgMmc2RwpSgpC": "1d6"
+      }
+    },
+    "overlays": {
+      "xiKi0yZ6gmBg9FQz": {
+        "system": {
+          "time": {
+            "value": "1"
+          },
+          "damage": {
+            "MfINgMmc2RwpSgpC": {
+              "category": null
+            }
+          },
+          "defense": null
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "rlWDlYArFNIQOkk2": {
+        "system": {
+          "range": {
+            "value": "30 feet"
+          },
+          "time": {
+            "value": "2"
+          },
+          "damage": {
+            "MfINgMmc2RwpSgpC": {
+              "formula": "1d6+6",
+              "category": null
+            }
+          },
+          "defense": null,
+          "heightening": {
+            "damage": {
+              "MfINgMmc2RwpSgpC": "1d6+6"
+            }
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      },
+      "nzFMWv83Np4WN9X8": {
+        "system": {
+          "time": {
+            "value": "3"
+          },
+          "damage": {
+            "MfINgMmc2RwpSgpC": {
+              "category": null
+            }
+          },
+          "defense": null
+        },
+        "sort": 3,
+        "overlayType": "override"
+      }
+    }
+  },
+  "_id": "eASNMXfMHlT8HksK",
+  "img": "icons/magic/life/cross-explosion-burst-green.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1723954545862,
+    "lastModifiedBy": "R2osuXzIwCsQDDih"
+  },
+  "sort": 7900000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!eASNMXfMHlT8HksK"
+}

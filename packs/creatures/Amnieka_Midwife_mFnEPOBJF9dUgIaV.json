@@ -1,0 +1,2011 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Amnieka Midwife",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Amnieka Midwife",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 82,
+        "temp": 0,
+        "max": 82,
+        "details": "regeneration 12 (deactivated by mental or holy)"
+      },
+      "speed": {
+        "value": 0,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 30
+          }
+        ],
+        "details": ""
+      },
+      "ac": {
+        "value": 23,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "aklo",
+          "pact-common"
+        ],
+        "details": "Telepathy 100 feet"
+      },
+      "level": {
+        "value": 6
+      },
+      "blurb": "",
+      "publicNotes": "<p>Amnieka is one of thirteen mortal Midwives who attended the Newborn's birth and were transformed into eldritch entities by the nascent outer god's awakening. A Midwife always regenerates an identical new form so long as even a single speck of aucturnite—the name for the frozen chunks of planetcenta that once surrounded the Newborn—exists on this plane.</p><p>Amnieka is one of the thirteen types of Midwives, though whether there is only one Midwife of each type, or many, is unknown. Whether their names come from the mortal servants whose souls were the kindling for the Midwives' creation, or if they have some other significance to the Newborn, is a mystery. The only resemblance Amnieka bears to the humanoid body it may have once inhabited is the hood of writhing tentacles around its visage.</p><p>Each Midwife identifies itself by how it cared for the Newborn. Amnieka swaddled the Newborn, but others fed, carried, held, watched, warded, blessed, or performed other acts of nurturing for the outer god.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Second Edition Playtest Adventure: A Cosmic Birthday",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 7
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "perception": {
+      "details": "static sense (imprecise) 100 feet",
+      "mod": 17,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 8,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 17,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 11
+      },
+      "athletics": {
+        "base": 9
+      },
+      "occultism": {
+        "base": 13
+      },
+      "religion": {
+        "base": 15
+      }
+    },
+    "traits": {
+      "value": [
+        "aberration",
+        "cosmic",
+        "midwife",
+        "unholy"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "_id": "mFnEPOBJF9dUgIaV",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "name": "Aucturn Lore",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 13
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "Dr7RTRQPFkepZ3ZV",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.Dr7RTRQPFkepZ3ZV"
+    },
+    {
+      "name": "Newborn Lore",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 13
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "IlfVkvfrP9YIcUIV",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.IlfVkvfrP9YIcUIV"
+    },
+    {
+      "type": "action",
+      "name": "Static Sense",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Amnieka can sense the presence of any creature with a mind inside mental static's area (see below). This functions as an imprecise sense. Amnieka treats creatures that fail their save against mental static as though it can always see them, ignoring the effects of any cover or invisibility effects.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "5aFV1LCYTspkTc1A",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.5aFV1LCYTspkTc1A"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Regeneration 12 (Deactivated by Mental Or Holy)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+        },
+        "rules": [
+          {
+            "deactivatedBy": [
+              "mental",
+              "holy"
+            ],
+            "key": "FastHealing",
+            "type": "regeneration",
+            "value": 12
+          }
+        ],
+        "slug": "regeneration",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": true
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_id": "E7EOYxNcefCQ5yFR",
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.E7EOYxNcefCQ5yFR"
+    },
+    {
+      "type": "action",
+      "name": "Mental Static",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>100 feet. Amnieka's presence increases stress for creatures able to perceive its static psychic emanations. Creatures can attempt a @Check[type:will|dc:19] save to clear their minds as their central nervous system experiences a heightened anxiety response. On a failure, a creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} for 1 round; on a critical failure, it's @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round.</p>"
+        },
+        "rules": [
+          {
+            "key": "Aura",
+            "radius": 100,
+            "traits": [
+              "divine",
+              "mental"
+            ]
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "divine",
+            "mental"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "XQsUwwxW0tVy27IZ",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.XQsUwwxW0tVy27IZ"
+    },
+    {
+      "type": "action",
+      "name": "Reactive Tentacles",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature within Amnieka's reach makes an attack</p><hr /><p><strong>Effect</strong> Amnieka's tentacles flare out from its hood, exposing a misshapen skull pink with living blood. Amnieka makes a tentacle sting Strike against the triggering creature. This Strike doesn't count toward Amnieka's multiple attack penalty, and its multiple attack penalty doesn't apply to this Strike.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "mNdxGtiQvem9HxlQ",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.mNdxGtiQvem9HxlQ"
+    },
+    {
+      "type": "action",
+      "name": "Return to Aucturn",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Amnieka teleports to the location of any Aucturnite fragment within a planetary range. If Amnieka is reduced to 0 Hit Points, it reforms 24 hours later unless every piece of Aucturn's shattered mass is destroyed.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "divine"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "KEP0bW6buLYVLzAr",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.KEP0bW6buLYVLzAr"
+    },
+    {
+      "type": "melee",
+      "name": "Tentacle Sting",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse",
+            "reach-10"
+          ]
+        },
+        "damageRolls": {
+          "kZ304nP6sQINyFQv": {
+            "damage": "2d8+5",
+            "damageType": "piercing",
+            "category": null
+          },
+          "PE9Q7eK2GtoK49Uf": {
+            "damage": "1d4",
+            "damageType": "poison",
+            "category": "persistent"
+          }
+        },
+        "bonus": {
+          "value": 15
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "Ll52FtPiASay9hsJ",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.Ll52FtPiASay9hsJ"
+    },
+    {
+      "type": "melee",
+      "name": "Eldritch Ray",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-120"
+          ]
+        },
+        "damageRolls": {
+          "epQGUT5Bhvt0Hs14": {
+            "damage": "3d10",
+            "damageType": "mental",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 15
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "8bg4jT7ucEEavGM7",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.8bg4jT7ucEEavGM7"
+    },
+    {
+      "name": "Divine Innate Spells",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 16,
+          "dc": 24
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        }
+      },
+      "_id": "dUaAAbx5tQJhdqdp",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.dUaAAbx5tQJhdqdp"
+    },
+    {
+      "name": "Eldritch Wrath",
+      "type": "spell",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You channel the unspeakable powers that exist beyond the outer reaches of the universe, dealing 3d12 mental damage to each creature in the area as phantasmal claws, jaws, and tentacles lash out at each target. Each creature in the area must attempt a basic Will save. The area is difficult terrain for any creature sickened by the effects of this spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d12.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Adventure: A Cosmic Birthday",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": {
+          "value": 20,
+          "type": "burst"
+        },
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "WInxoMiuaApSjgiB": {
+            "formula": "3d12",
+            "kinds": [
+              "damage"
+            ],
+            "type": "mental",
+            "category": null,
+            "materials": [],
+            "applyMod": false
+          }
+        },
+        "defense": {
+          "save": {
+            "statistic": "will",
+            "basic": true
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "dUaAAbx5tQJhdqdp"
+        },
+        "counteraction": false,
+        "heightening": {
+          "type": "interval",
+          "interval": 1,
+          "damage": {
+            "WInxoMiuaApSjgiB": "1d12"
+          }
+        }
+      },
+      "img": "icons/magic/unholy/barrier-fire-pink.webp",
+      "folder": "bOGOHAG5GO9juEMu",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "X4PBxKRd2PcFy3lF": 3,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.YK7tR3Rn9RF8rwag",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "DMFjVGYT0eduJCW0",
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.DMFjVGYT0eduJCW0"
+    },
+    {
+      "name": "Entropy Strike",
+      "type": "spell",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You unleash a ray of entropy that rapidly and indiscriminately decays matter. Make a ranged spell attack.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes 10d8 void damage. If the target is technological, it takes 4d6 persistent acid damage and is @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Success</strong> The target takes 5d8 void damage. If the target is technological, it takes 2d6 persistent acid damage and is @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d8, and the persistent damage increases by 1d6.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "acid",
+            "attack",
+            "concentrate",
+            "manipulate",
+            "void"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Adventure: A Cosmic Birthday",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature or unattended object"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "dUaAAbx5tQJhdqdp",
+          "heightenedLevel": 3
+        },
+        "counteraction": false,
+        "overlays": {
+          "4jfBBGaTzqu7gXxU": {
+            "name": "Entropy Strike (Void)",
+            "system": {
+              "damage": {
+                "vq0U5zAwZvyvmhxF": {
+                  "formula": "5d8",
+                  "kinds": [
+                    "damage"
+                  ],
+                  "type": "void",
+                  "category": null,
+                  "materials": [],
+                  "applyMod": false
+                }
+              },
+              "defense": null,
+              "heightening": {
+                "type": "interval",
+                "interval": 1,
+                "damage": {
+                  "vq0U5zAwZvyvmhxF": "1d8"
+                }
+              }
+            },
+            "sort": 1,
+            "overlayType": "override"
+          },
+          "RUZE6BtjGEMuOT8r": {
+            "name": "Entropy Strike (Acid)",
+            "system": {
+              "damage": {
+                "hIIBgAY3LoB9pxcD": {
+                  "formula": "2d6",
+                  "kinds": [
+                    "damage"
+                  ],
+                  "type": "acid",
+                  "category": "persistent",
+                  "materials": [],
+                  "applyMod": false
+                }
+              },
+              "defense": null,
+              "heightening": {
+                "type": "interval",
+                "interval": 1,
+                "damage": {
+                  "hIIBgAY3LoB9pxcD": "1d6"
+                }
+              }
+            },
+            "sort": 2,
+            "overlayType": "override"
+          }
+        }
+      },
+      "img": "icons/magic/unholy/beam-impact-purple.webp",
+      "folder": "bOGOHAG5GO9juEMu",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "X4PBxKRd2PcFy3lF": 3,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.551Xcyo35ZCoS6WH",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "Aj16mqm7lKyA33yr",
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.Aj16mqm7lKyA33yr"
+    },
+    {
+      "folder": "bOGOHAG5GO9juEMu",
+      "name": "Void Whispers",
+      "type": "spell",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The target hears dark mysteries from beyond the stars that disorient their mind. The target attempts a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The target hears the strange whispers, becoming @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for one round.</p>\n<p><strong>Failure</strong> The target begins to wander aimlessly, using each action to Step once per round. When it moves, the target takes the safest route and doesn't enter hazardous terrain. The spell has a duration of 1 minute, or until the target is attacked or otherwise directly threatened in any way.</p>\n<p><strong>Critical Failure</strong>: As failure, except the target babbles incoherently. Any creature that begins their turn within 20 feet of the target must attempt a Will saving throw as if they were targeted by this spell. On a failure, they become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round and immune to this spell for 24 hours. This is an incapacitation effect.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "auditory",
+            "concentrate",
+            "incapacitation",
+            "linguistic",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Adventure: A Cosmic Birthday",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "varies",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "dUaAAbx5tQJhdqdp",
+          "heightenedLevel": 3
+        },
+        "counteraction": false
+      },
+      "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "X4PBxKRd2PcFy3lF": 3,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.sUyKlISvDwTaJ8pg",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "l52D7gnxDhD8Loel",
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.l52D7gnxDhD8Loel"
+    },
+    {
+      "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
+      "name": "Telekinetic Maneuver",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>With a rush of telekinetic power, you move a foe or something they carry. You can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} the target using a spell attack roll instead of an Athletics check.</p>"
+        },
+        "rules": [],
+        "slug": "telekinetic-maneuver",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "concentrate",
+            "force",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "dUaAAbx5tQJhdqdp",
+          "heightenedLevel": 2
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.mrDi3v933gsmnw25",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.spells-srd.Item.mrDi3v933gsmnw25"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_id": "0R2jMexQDVbZ43Ut",
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.0R2jMexQDVbZ43Ut"
+    },
+    {
+      "folder": null,
+      "name": "Sonic Scream",
+      "type": "spell",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You unleash a head-bursting scream. You deal 1d8 sonic damage to creatures in the area. A creature that fails its saving throw also becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increases the damage by 1d8.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.87,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "sonic"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Field Test #2",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": {
+          "value": 15,
+          "type": "cone"
+        },
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "tyL5wzIrSFbemHUK": {
+            "applyMod": false,
+            "formula": "1d8",
+            "type": "sonic",
+            "category": null,
+            "materials": [],
+            "kinds": [
+              "damage"
+            ]
+          }
+        },
+        "defense": {
+          "passive": null,
+          "save": {
+            "statistic": "fortitude",
+            "basic": true
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "dUaAAbx5tQJhdqdp",
+          "heightenedLevel": 1
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "tyL5wzIrSFbemHUK": "1d8"
+          },
+          "type": "interval",
+          "interval": 1
+        }
+      },
+      "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.gap2XOeiCcC2yeDe",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_id": "2nWB4hyxxmw2rkiR",
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.2nWB4hyxxmw2rkiR"
+    },
+    {
+      "name": "Detect Thoughts (Constant)",
+      "type": "spell",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You sense the surface thoughts of intelligent creatures around you. The amount of information revealed depends on how long you concentrate on an area or target. The spell can penetrate some barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of metal, a thin sheet of lead, or any force barrier blocks it. Creatures who are immune to mental effects are immune to detection by this spell.</p>\n<p><span class=\"pf2-icon\"><span class=\"action-glyph\">1</span></span> You detect the presence or absence of thoughts from conscious creatures that have Intelligence attribute modifiers of –3 or higher.</p>\n<p><span class=\"pf2-icon\"><span class=\"action-glyph\">2</span></span> You detect the number of thinking minds and whether or not the creatures are telepathic. Creatures with telepathy have louder thoughts than creature who don't have telepathy, and might be able to sense your intrusion, at the GM's discretion.</p>\n<p><span class=\"pf2-icon\"><span class=\"action-glyph\">3</span></span> You gain a +1 status bonus to Perception to Sense the target's Motives while the spell is sustained. A target who succeeds at its Will save prevents this.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> You gain a +2 status bonus.</p>\n<p><strong>Heightened (7th)</strong> You gain a +3 status bonus.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Adventure: A Cosmic Birthday",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": {
+          "value": 30,
+          "type": "burst"
+        },
+        "time": {
+          "value": "1 to 3"
+        },
+        "duration": {
+          "value": "Sustained up to 1 minute",
+          "sustained": true
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "statistic": "will",
+            "basic": false
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "dUaAAbx5tQJhdqdp"
+        },
+        "counteraction": false
+      },
+      "img": "icons/magic/perception/third-eye-blue-red.webp",
+      "folder": "bOGOHAG5GO9juEMu",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "X4PBxKRd2PcFy3lF": 3,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.tFsq726ZjUDAzML0",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "a8P1c75SQp6XxOse",
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.a8P1c75SQp6XxOse"
+    },
+    {
+      "name": "Eldritch Lance",
+      "type": "spell",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You condense a beam of mind-assaulting eldritch energy from the dark spaces between the stars and fire it at a target. Make a ranged spell attack roll against the target's AC. If you hit, you deal 2d6 mental damage. On a critical success, you deal double damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Adventure: A Cosmic Birthday",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "2MroRUaHLxSEM0eJ": {
+            "formula": "2d6",
+            "kinds": [
+              "damage"
+            ],
+            "type": "mental",
+            "category": null,
+            "materials": [],
+            "applyMod": false
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "dUaAAbx5tQJhdqdp"
+        },
+        "counteraction": false,
+        "heightening": {
+          "type": "interval",
+          "interval": 1,
+          "damage": {
+            "2MroRUaHLxSEM0eJ": "1d6"
+          }
+        }
+      },
+      "img": "icons/magic/unholy/energy-smoke-pink.webp",
+      "folder": "bOGOHAG5GO9juEMu",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "X4PBxKRd2PcFy3lF": 3,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.CLGyt6l3ESlOJm4l",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "AF5RDn3mojrcafQn",
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.AF5RDn3mojrcafQn"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Constant Spells",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+        },
+        "rules": [],
+        "slug": "constant-spells",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kakyXBG5WA8c6Zfd",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kakyXBG5WA8c6Zfd"
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "_id": "YusAJyDGPPHqYQWT",
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.YusAJyDGPPHqYQWT"
+    },
+    {
+      "type": "action",
+      "name": "Psychic Doula",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> Amnieka's turn begins</p><hr /><p><strong>Effect</strong> Amnieka constantly shepherds fragments of unknowable entities into its current reality. A translucent, fleshy bubble appears in Amnieka's space each round. The bubble floats toward the nearest creature at a Speed of 10 feet per round on Amnieka's turn. A bubble bursts when it enters the same square as a creature, exploding in a @Template[type:burst|distance:10] centered on the creature that deals @Damage[2d6[poison]] damage (@Check[type:fortitude|dc:21|basic:true] save). Creatures can target and attack a bubble before it enters a creature's square. A bubble uses the following statistics: AC 12, HP 6; Fort +2, Ref +8. Amnieka can only have a number of active bubbles equal to the number of enemies it's fighting at one time.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "73dn2huyVn1TFIx3",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.73dn2huyVn1TFIx3"
+    },
+    {
+      "type": "action",
+      "name": "Supercharged Eldritch Ray",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Amnieka supercharges its eldritch ray and fires, dealing @Damage[3d10[untyped]] damage to each creature in a @Template[type:cone|distance:20] (@Check[type:reflex|dc:21|basic:true] save). Roll 1d4 to randomly determine whether the supercharged eldritch ray deals cold, fire, electricity, or void damage.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "automatic"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "ZGlSLTIdpSwdOVYq",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.ZGlSLTIdpSwdOVYq"
+    },
+    {
+      "folder": "bOGOHAG5GO9juEMu",
+      "name": "Mind Skewer",
+      "type": "spell",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You overload a creature's mind with a glut of psychic information or divine judgements. The mental onslaught deals 2d6 mental damage. On a critical hit, the target takes 4d6 mental damage and is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.328",
+            "system": "6.0.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Adventure: A Cosmic Birthday",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "I9kLp8pYCTyDDlzn": {
+            "formula": "2d6",
+            "kinds": [
+              "damage"
+            ],
+            "type": "mental",
+            "category": null,
+            "materials": [],
+            "applyMod": false
+          }
+        },
+        "defense": {
+          "save": {
+            "statistic": "will",
+            "basic": false
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "dUaAAbx5tQJhdqdp"
+        },
+        "counteraction": false,
+        "heightening": {
+          "type": "interval",
+          "interval": 1,
+          "damage": {
+            "I9kLp8pYCTyDDlzn": "2d6"
+          }
+        }
+      },
+      "img": "icons/magic/light/explosion-impact-purple.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "X4PBxKRd2PcFy3lF": 3,
+        "CmdglLq38DpgHzdd": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Item.n33Jd5EBmVvnNL2O",
+        "duplicateSource": null,
+        "coreVersion": "12.328",
+        "systemId": "pf2e",
+        "systemVersion": "6.0.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "MeSkqSiqZIqidOqZ",
+      "_key": "!actors.items!mFnEPOBJF9dUgIaV.MeSkqSiqZIqidOqZ"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.1",
+    "createdTime": 1721155995240,
+    "modifiedTime": 1721850275463,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "sort": 4600000,
+  "_key": "!actors!mFnEPOBJF9dUgIaV"
+}

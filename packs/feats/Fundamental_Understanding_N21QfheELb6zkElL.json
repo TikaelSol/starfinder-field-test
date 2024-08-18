@@ -1,0 +1,75 @@
+{
+  "type": "feat",
+  "name": "Fundamental Understanding",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> A creature within your quantum field casts a spell that you don't have in your spell repertoire, or a trap or similar object casts such a spell. You must be aware of the casting.</p><hr /><p>As long as you are trained in the appropriate skill for the spell's tradition and it's a common spell, you automatically identify the spell being cast (you still roll to attempt to get a critical success, but can't get a worse result than a success). You or a visible ally within 60 feet targeted by this spell gain a +1 circumstance bonus to your saving throw or your AC against it (or a +2 if you rolled a critical success).</p>"
+    },
+    "rules": [],
+    "slug": "fundamental-understanding",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "analyst paradox"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "N21QfheELb6zkElL",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801609295,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 8100000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!N21QfheELb6zkElL"
+}

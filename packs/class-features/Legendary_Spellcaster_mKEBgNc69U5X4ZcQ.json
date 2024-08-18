@@ -1,0 +1,78 @@
+{
+  "img": "icons/sundries/books/book-open-purple.webp",
+  "name": "Legendary Spellcaster",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Mystic</strong> Magic flows through your every pore. Your proficiency ranks for spell attack modifier and spell DC increase to legendary.</p>"
+    },
+    "rules": [],
+    "slug": "legendary-spellcaster",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mystic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 19
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 4
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722100514417,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "_id": "mKEBgNc69U5X4ZcQ",
+  "sort": 1300000,
+  "_key": "!items!mKEBgNc69U5X4ZcQ"
+}

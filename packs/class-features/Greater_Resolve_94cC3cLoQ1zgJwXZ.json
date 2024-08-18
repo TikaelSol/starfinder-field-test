@@ -1,0 +1,93 @@
+{
+  "img": "systems/pf2e/icons/features/classes/greater-resolve.webp",
+  "name": "Greater Resolve",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your ambition and stubbornness grant you mental resiliency.</p><p>Your proficiency rank for Will saves increases to legendary. When you roll a success at a Will save, you get a critical success. When you roll a critical failure at a Will save, you get a failure instead. When you roll a failure on a Will save against a damaging effect, you take half damage.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "will",
+        "text": "When you roll a critical failure at a Will save, you get a failure instead. When you fail a Will save against a damaging effect, you take half damage.",
+        "title": "{item|name}"
+      },
+      {
+        "adjustment": {
+          "criticalFailure": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "will",
+        "type": "save"
+      }
+    ],
+    "slug": "greater-resolve",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "will": {
+          "rank": 4
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.5LOARurr4qWkfS9K",
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722095896717,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.5LOARurr4qWkfS9K"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "_id": "94cC3cLoQ1zgJwXZ",
+  "sort": 2800000,
+  "_key": "!items!94cC3cLoQ1zgJwXZ"
+}

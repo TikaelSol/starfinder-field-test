@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Connection",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>All mystics have a supernatural connection with a cosmic force that grants magical powers. The exact nature of your connection can vary widely—you might worship a god or pantheon, embody a metaphysical concept, commune with the souls of your ancestors, or something else—and even mystics who share the same connection may interpret it differently. Your connection determines the type of spells you cast and the spell tradition you choose spells from, the epiphanies you learn, your additional trained skill, and a harmony that usually grants creatures a special benefit when you heal them with your vitality network.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.CVyiPHkQu208wreh]{Akashic}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.lzBFo89a2Tm5rDfG]{Elemental}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.jWm80UVAXhv6Soi7]{Healing}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.kllR7YYgYcoAl28W]{Rhythm}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.mmCL4teRsMO2qNxc]{Shadow}</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:mystic-connection"
+          ]
+        },
+        "flag": "connection",
+        "key": "ChoiceSet",
+        "prompt": "Select a Connection"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.connection}"
+      }
+    ],
+    "slug": "connection",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.87,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mystic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "g8ITCb2aZvMUGq8J",
+  "img": "icons/magic/nature/leaf-juggle-humanoid-green.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1696480118345,
+    "modifiedTime": 1722127063370,
+    "lastModifiedBy": "Rx0xhdrs9eKd1Esv",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 9900000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!g8ITCb2aZvMUGq8J"
+}

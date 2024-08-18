@@ -1,0 +1,80 @@
+{
+  "name": "Social Mastermind",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You rely on your force of personality and powers of persuasion to influence others, for good or for ill. You gain the activity @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.03orjjkalSZC6Mtb]{Size Up} and the action @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.3AoG7FzHx903o4nO]{Saw It Coming}.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.3AoG7FzHx903o4nO"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.03orjjkalSZC6Mtb"
+      }
+    ],
+    "slug": "social-mastermind",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "envoy"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "p8EIY0AtbzQnruXH",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20chart.webp",
+  "folder": null,
+  "sort": 10400000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1712005080511,
+    "modifiedTime": 1722188721680,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!p8EIY0AtbzQnruXH"
+}

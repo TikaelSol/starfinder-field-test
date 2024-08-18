@@ -3,8 +3,8 @@
     "title": "Starfinder 2nd Edition Playtest for PF2e",
     "url": "https://github.com/TikaelSol/starfinder-field-test",
     "manifest": "https://github.com/TikaelSol/starfinder-field-test/releases/download/Latest/module.json",
-    "download": "https://github.com/TikaelSol/starfinder-field-test/releases/download/Latest/starfinder-field-test.zip",
-    "version": "6.0.4",
+    "download": "https://github.com/TikaelSol/starfinder-field-test/releases/download/Latest/starfinder-field-test-for-pf2e.zip",
+    "version": "6.1.1",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
@@ -16,7 +16,7 @@
                 "type": "system",
                 "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
                 "compatibility": {
-                    "minimum": "6.2.0"
+                    "minimum": "6.2.2"
                 }
             }
         ]
@@ -29,6 +29,9 @@
             "flags": {}
         }
     ],
+    "esmodules": [
+        "scripts/sf2e-playtest.mjs"
+    ],
     "languages": [
         {
             "lang": "en",
@@ -36,9 +39,6 @@
             "path": "lang/en.json",
             "flags": {}
         }
-    ],
-    "scripts": [
-        "sf2e.mjs"
     ],
     "media": [
         {
@@ -297,28 +297,32 @@
                         }
                     }
                 },
+                "armorGroups": {
+                    "ceramic": "SF2E.Armor.Group.Ceramic",
+                    "polymer": "SF2E.Armor.Group.Polymer"
+                },
                 "baseArmors": {
-                    "abadarcorp-travel-suit": "SF2E.BaseArmor.AbadarcorpTravelSuit",
-                    "armored-coat": "SF2E.BaseArmor.ArmoredCoat",
-                    "carbon-skin": "SF2E.BaseArmor.CarbonSkin",
-                    "estex-suit": "SF2E.BaseArmor.EstexSuit",
-                    "hardlight-series": "SF2E.BaseArmor.HardlightSeries",
-                    "microcord-armor": "SF2E.BaseArmor.MicrocordArmor",
-                    "quilted-armor": "SF2E.BaseArmor.QuiltedArmor",
-                    "second-skin": "SF2E.BaseArmor.SecondSkin",
-                    "tempweave": "SF2E.BaseArmor.Tempweave",
-                    "defrex-hide": "SF2E.BaseArmor.DefrexHide",
-                    "freebooter-armor": "SF2E.BaseArmor.FreebooterArmor",
-                    "lattice-armor": "SF2E.BaseArmor.LatticeArmor",
-                    "sholashu-armor": "SF2E.BaseArmor.SholashuArmor",
-                    "skyfire-armor": "SF2E.BaseArmor.SkyfireArmor",
-                    "swarmsuit": "SF2E.BaseArmor.Swarmsuit",
-                    "aegis-series": "SF2E.BaseArmor.AegisSeries",
-                    "defiance-series": "SF2E.BaseArmor.DefianceSeries",
-                    "hidden-soldier-armor": "SF2E.BaseArmor.HiddenSoldierArmor",
-                    "kyokor-plating": "SF2E.BaseArmor.KyokorPlating",
-                    "thinplate": "SF2E.BaseArmor.Thinplate",
-                    "veskarium-imperial-plate": "SF2E.BaseArmor.VeskariumImperialPlate"
+                    "abadarcorp-travel-suit": "SF2E.Armor.Base.AbadarcorpTravelSuit",
+                    "armored-coat": "SF2E.Armor.Base.ArmoredCoat",
+                    "carbon-skin": "SF2E.Armor.Base.CarbonSkin",
+                    "estex-suit": "SF2E.Armor.Base.EstexSuit",
+                    "hardlight-series": "SF2E.Armor.Base.HardlightSeries",
+                    "microcord-armor": "SF2E.Armor.Base.MicrocordArmor",
+                    "quilted-armor": "SF2E.Armor.Base.QuiltedArmor",
+                    "second-skin": "SF2E.Armor.Base.SecondSkin",
+                    "tempweave": "SF2E.Armor.Base.Tempweave",
+                    "defrex-hide": "SF2E.Armor.Base.DefrexHide",
+                    "freebooter-armor": "SF2E.Armor.Base.FreebooterArmor",
+                    "lattice-armor": "SF2E.Armor.Base.LatticeArmor",
+                    "sholashu-armor": "SF2E.Armor.Base.SholashuArmor",
+                    "skyfire-armor": "SF2E.Armor.Base.SkyfireArmor",
+                    "swarmsuit": "SF2E.Armor.Base.Swarmsuit",
+                    "aegis-series": "SF2E.Armor.Base.AegisSeries",
+                    "defiance-series": "SF2E.Armor.Base.DefianceSeries",
+                    "hidden-soldier-armor": "SF2E.Armor.Base.HiddenSoldierArmor",
+                    "kyokor-plating": "SF2E.Armor.Base.KyokorPlating",
+                    "thinplate": "SF2E.Armor.Base.Thinplate",
+                    "veskarium-imperial-plate": "SF2E.Armor.Base.VeskariumImperialPlate"
                 },
                 "baseWeapons": {
                     "baton": "SF2E.BaseWeapon.Baton",

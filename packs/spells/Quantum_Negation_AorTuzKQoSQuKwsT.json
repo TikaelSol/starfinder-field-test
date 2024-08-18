@@ -1,0 +1,93 @@
+{
+  "folder": null,
+  "name": "Quantum Negation",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You expose a target to a reality in which it's already dead, or never existed in the first place. Once targeted, the creature becomes temporarily immune for 1 minute. The effect of the spell depends on the target's level and current Hit Points.</p>\n<p><strong>13th or lower</strong> The target takes @Damage[20d10[void]] damage with a basic Will save. If it is destroyed, it ceases to exist in this reality. At the GM's discretion, this may mean it's impossible to restore them to life without the intervention of a deity, wish, or similar magic.</p>\n<p><strong>15th or lower</strong> The target takes @Damage[15d10[void]] void damage with a basic Will save.</p>\n<p><strong>16th or 17th</strong> If the target has 40 Hit Points or fewer, it drops to 0 Hit Points and becomes @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying 1}; otherwise, it takes @Damage[12d10[void]] void damage with a basic Will save.</p>\n<p><strong>18th or higher</strong> The target takes @Damage[8d10[void]] void damage damage with a basic will save. If this brings it to 0 Hit Points, it dies instantly.</p>"
+    },
+    "rules": [],
+    "slug": "quantum-negation",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "anchoring",
+        "concentrate",
+        "death",
+        "focus",
+        "mental",
+        "witchwarper"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature in your quantum field"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "AorTuzKQoSQuKwsT",
+  "img": "icons/magic/perception/mask-stone-eyes-orange.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275702,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 2200000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!AorTuzKQoSQuKwsT"
+}

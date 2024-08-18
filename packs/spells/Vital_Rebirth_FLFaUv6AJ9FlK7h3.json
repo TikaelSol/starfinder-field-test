@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Vital Rebirth",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Connection</strong> healing</p>\n<p><strong>Transfer</strong> Twice the level of the target</p>\n<p><strong>Trigger</strong> A bonded creature within range would die.</p>\n<hr />\n<p>Your network catches the soul of a bonded creature before it departs and forcefully resuscitates their body with a jolt of energy. You prevent the target from dying and restore a number of Hit Points to the target equal to twice its level. The target becomes immune to vital rebirth for 24 hours. Vital rebirth has no effect if the triggering effect was disintegrate, promession or a death effect.</p>"
+    },
+    "rules": [],
+    "slug": "vital-rebirth",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focus",
+        "manipulate",
+        "mystic",
+        "transfer",
+        "vitality"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "reaction"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "FLFaUv6AJ9FlK7h3",
+  "img": "icons/magic/life/heart-cross-strong-flame-green.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1722111275951,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 3500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!FLFaUv6AJ9FlK7h3"
+}

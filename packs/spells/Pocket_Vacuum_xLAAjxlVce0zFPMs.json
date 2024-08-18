@@ -1,0 +1,114 @@
+{
+  "folder": null,
+  "name": "Pocket Vacuum",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create a sudden vacuum, forcing creatures in the area to hold their breath or fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} and start suffocating. The explosive decompression deals 6d12 bludgeoning damage to each creature in the area when the spell is cast or that enters the area (unless they were already in a vacuum). Creatures who fail the save take an additional @Damage[(@item.rank - 4)d4[persistent,bludgeoning]] damage, and creatures who critically fail the save are knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><hr /><p><strong>Heightened (+1)</strong> The initial damage increases by 1d12 and the persistent damage increases by 1d4.</p>"
+    },
+    "rules": [],
+    "slug": "pocket-vacuum",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "divine",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": {
+      "value": 20,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "6IUukgoOiAIWNa0g": {
+        "formula": "6d12",
+        "kinds": [
+          "damage"
+        ],
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "6IUukgoOiAIWNa0g": "1d12"
+      }
+    }
+  },
+  "_id": "xLAAjxlVce0zFPMs",
+  "img": "icons/magic/unholy/orb-glowing-purple.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.2",
+    "createdTime": 1721845524751,
+    "modifiedTime": 1723952432536,
+    "lastModifiedBy": "06a3OFnGUINoVAPe"
+  },
+  "sort": 12300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!xLAAjxlVce0zFPMs"
+}

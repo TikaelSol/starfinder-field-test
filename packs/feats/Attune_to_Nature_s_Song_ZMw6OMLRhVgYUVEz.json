@@ -1,0 +1,71 @@
+{
+  "name": "Attune to Nature's Song",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are outdoors in a natural, undeveloped environment.</p><hr /><p>You open your senses to your surroundings, attuning to the underlying song of your environment and syncing your own body's rhythm to its beat. For 1 minute, you ignore non-magical difficult terrain and you treat non-magical greater difficult terrain in that area as difficult terrain. If you enter a different biome than you're currently located in, or if you enter a building or other constructed structure, these benefits immediately end.</p>"
+    },
+    "rules": [],
+    "slug": "attune-to-natures-song",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "pahtra"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "ZMw6OMLRhVgYUVEz",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 44200000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "coreVersion": "12.330",
+    "createdTime": 1708120290424,
+    "modifiedTime": 1722320954724,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZMw6OMLRhVgYUVEz"
+}

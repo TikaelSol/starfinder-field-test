@@ -1,0 +1,68 @@
+{
+  "folder": null,
+  "name": "Solar Wind",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are photon-attuned.</p><hr /><p>You can partly discorporate your body, becoming a blur of stellar matter that travels carried by invisible solar winds. While photon-attuned, you gain a +10-foot circumstance bonus to Speed and can move through the space of a single unwilling creature each time you Stride.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "value": 10,
+        "type": "circumstance",
+        "predicate": [
+          "stellar-attunement:photon"
+        ]
+      }
+    ],
+    "slug": "solar-wind",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attuned",
+        "solarian"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": true
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721886122279,
+    "modifiedTime": 1722114226297,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "ePrzwBAwVZk5OFg3",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!ePrzwBAwVZk5OFg3"
+}

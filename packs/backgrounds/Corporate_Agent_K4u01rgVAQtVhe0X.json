@@ -1,0 +1,87 @@
+{
+  "name": "Corporate Agent",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're one among many professionals working in the corporate world, but you're not just any suit. You're a negotiator, dealmaker, or perhaps even a spy working to advance a particular corporation's agendas. You might be a cog in a corporation's massive machine or a shill for an up-and-comer nobody's heard of…yet.</p><p>Choose two attribute boosts. One must be to <strong>Charisma</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p><p>You're trained in the Society skill and the Corporate Lore skill. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.WObLA9tDdom6jTTH]{Management Material} skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "corporate-agent",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "int"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "6PjF4": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.WObLA9tDdom6jTTH",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+        "name": "Management Material",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "society"
+      ],
+      "lore": [
+        "Corporate Lore"
+      ]
+    }
+  },
+  "_id": "K4u01rgVAQtVhe0X",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708150402093,
+    "modifiedTime": 1722278302985,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!K4u01rgVAQtVhe0X"
+}

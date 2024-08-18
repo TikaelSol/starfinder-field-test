@@ -1,0 +1,62 @@
+{
+  "name": "Aim",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You're wielding a ranged weapon that doesn't have the area trait.</p><hr /><p>You take careful aim at a single creature that you are aware of, designating them as your mark. Until the end of your turn, your ranged Strikes against your mark using the required ranged weapon, deal an additional 1d4 precision damage, and reduce the circumstance bonus to AC your mark gets from cover by 1. These benefits only apply if your mark is within your weapon's first range increment. You can only have one mark at a time.</p><p>As your operative level increases, so does your ability to Aim. Increase the number of dice for the precision damage by one at 5th, 11th, and 17th levels. At 11th level, you reduce the circumstance bonus to AC your mark gains from cover by 2 rather than 1. At 17th level, you reduce the circumstance bonus to AC your mark gains from cover by 4 rather than 2.</p>"
+    },
+    "rules": [],
+    "slug": "aim",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "operative"
+      ]
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.9grXj8ftRJnXpyxW",
+      "name": "Effect: Aim"
+    }
+  },
+  "_id": "LRbwV8LMLi6FFKjW",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Rx0xhdrs9eKd1Esv": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722100866124,
+    "modifiedTime": 1722177752889,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_key": "!items!LRbwV8LMLi6FFKjW"
+}

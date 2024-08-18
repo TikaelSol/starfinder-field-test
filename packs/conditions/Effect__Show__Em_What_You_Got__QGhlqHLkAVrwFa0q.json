@@ -1,0 +1,71 @@
+{
+  "name": "Effect: Show 'Em What You Got!",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your allies gain temporary Hit Points equal to your level.</p>"
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@item.origin.level"
+      }
+    ],
+    "slug": "effect-show-em-what-you-got",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20fist%20in%20the%20air.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722216596551,
+    "modifiedTime": 1722224851234,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "QGhlqHLkAVrwFa0q",
+  "sort": 500000,
+  "_key": "!items!QGhlqHLkAVrwFa0q"
+}

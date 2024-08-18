@@ -1,0 +1,95 @@
+{
+  "type": "feat",
+  "name": "Predictive Positioning",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once every 10 minutes</p><p><strong>Trigger</strong> An enemy damages you.</p><hr /><p>You react to danger by repositioning to a space you would occupy in a different reality, free from incoming danger. You gain resistance to all damage against the triggering attack equal to 2 + your level. You instantly teleport up to your Speed to an area within your quantum field. This movement doesn't trigger reactions based on movement and ignores hazards and terrain, but can't pass through walls or other such obstructions.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "predictive-positioning",
+        "toggleable": true
+      },
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "value": "2+@actor.level",
+        "predicate": [
+          "predictive-positioning"
+        ]
+      }
+    ],
+    "slug": "predictive-positioning",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "teleportation",
+        "witchwarper"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "precog paradox"
+        }
+      ]
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "_id": "t7EiYEZUQnmzXGkY",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801609295,
+    "modifiedTime": 1722286691605,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 21500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!t7EiYEZUQnmzXGkY"
+}

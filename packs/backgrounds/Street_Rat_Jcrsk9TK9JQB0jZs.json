@@ -1,0 +1,85 @@
+{
+  "name": "Street Rat",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You know the streets because they raised you. You grew up scraping by in a massive cityscape like those on Verces or Castrovel, or on a crowded space station like Absalom Station. You might have even managed to eke out a living in the claustraphobic vents of Aballon's megaplex settllements. Surfing crowds or scavenging useful rubbish is nothing new for you.</p><p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Wisdom</strong>, and one is a free attribute boost.</p><p>You're trained in the Survival skill and the Lore skill about a specific settlement. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.tEIsWBhVpv1L6OjX]{Urban Survivalist} skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "street-rat",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "dex",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "GXAiv": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.tEIsWBhVpv1L6OjX",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+        "name": "Urban Survivalist",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "survival"
+      ],
+      "lore": []
+    }
+  },
+  "_id": "Jcrsk9TK9JQB0jZs",
+  "img": "systems/pf2e/icons/default-icons/background.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708155271165,
+    "modifiedTime": 1722278614840,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Jcrsk9TK9JQB0jZs"
+}

@@ -1,0 +1,97 @@
+{
+  "folder": "SC7CMyNf70mDQTtn",
+  "name": "Irising Shield",
+  "type": "shield",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>An irising shield is made of flexible polycarbon with a retractable design. When retracted, an irising shield looks like a decorative bangle, gauntlet, or glove. When deployed, its panels flare out and form a miniature circular shield.</p>"
+    },
+    "rules": [],
+    "slug": "irising-shield",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common",
+      "integrated": null
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 6,
+      "max": 6
+    },
+    "hardness": 3,
+    "price": {
+      "value": {
+        "sp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Shield",
+        "img": "systems/pf2e/icons/unidentified_item_icons/shields.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "acBonus": 1,
+    "runes": {
+      "reinforcing": null
+    },
+    "specific": null,
+    "speedPenalty": 0,
+    "subitems": []
+  },
+  "_id": "Q7PR6XGjHG1nDdjx",
+  "img": "icons/equipment/hand/gauntlet-clawed-steel-blue.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1722224722599,
+    "modifiedTime": 1722358806417,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Q7PR6XGjHG1nDdjx"
+}

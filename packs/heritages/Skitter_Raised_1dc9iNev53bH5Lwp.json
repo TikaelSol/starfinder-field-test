@@ -1,0 +1,75 @@
+{
+  "name": "Skitter Raised",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've spent most of your life in a tight-knit community, where teamwork is expected, and crowds are just giant group hugs. You gain the @UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{Group Impression} skill feat. In addition, you gain a +2 circumstance bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid} an ally at a skill check that doesn't have the attack trait.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "skill-check",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "action:aid",
+          {
+            "not": "item:trait:attack"
+          }
+        ]
+      }
+    ],
+    "slug": "skitter-raised",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Skittermander",
+      "slug": "skittermander",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.vThlxRrOZfBPDHrO"
+    }
+  },
+  "_id": "1dc9iNev53bH5Lwp",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "WzBMoL0G9yVPHg4x",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1708133043936,
+    "modifiedTime": 1722275173766,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!1dc9iNev53bH5Lwp"
+}

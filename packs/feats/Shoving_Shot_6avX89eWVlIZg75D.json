@@ -1,0 +1,96 @@
+{
+  "type": "feat",
+  "name": "Shoving Shot",
+  "folder": null,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are wielding a weapon with the area or automatic trait.</p><hr /><p>You use the blast of your weapon to push back your adversary in preparation for an explosive shot. Attempt an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} a target within your weapon's first range increment, and then make an @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire} ranged attack, selecting the target of your Shove as the primary target. This attack uses the same multiple attack penalty as your Shove. If using an area (burst) weapon, the target of the Shove is pushed away from the center point. If your Shove failed, decrease the save DC of your area attack by 1 (or 2 on a critical failure).</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "shoving-shot-penalty",
+        "suboptions": [
+          {
+            "label": "PF2E.Check.Result.Degree.Check.failure",
+            "value": "1"
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.criticalFailure",
+            "value": "2"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "class",
+        "value": "-{item|flags.pf2e.rulesSelections.shovingShotPenalty}",
+        "predicate": [
+          "shoving-shot-penalty"
+        ]
+      }
+    ],
+    "slug": "shoving-shot",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.328",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "soldier"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "6avX89eWVlIZg75D",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "createdTime": 1721801600625,
+    "modifiedTime": 1722302568930,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!6avX89eWVlIZg75D"
+}

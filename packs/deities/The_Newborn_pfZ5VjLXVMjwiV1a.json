@@ -1,0 +1,81 @@
+{
+  "folder": null,
+  "name": "The Newborn",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h2>Aucturn's Child</h2><p>The Newborn is an outer god that hatched from the world of Aucturn, destroying the planet in the process. As the horrific joy of its birth reverberates throughout the galaxy, devotees look to this enigmatic, nascent entity as the herald of a new cosmic era.</p><p><strong>Areas of Concern</strong> birth, cosmic horrors, paradigm shifts, renewal</p><p><strong>Edicts</strong> embrace the void between stars, purge the old ways, seek truth in delirium</p><p><strong>Anathema</strong> deny occult beliefs, shut out the cosmic other, interfere with the birth of new ideas or entities</p>"
+    },
+    "rules": [],
+    "slug": "the-newborn",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "change",
+        "destruction",
+        "void"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "str",
+      "cha"
+    ],
+    "skill": [
+      "occultism"
+    ],
+    "weapons": [
+      "aucturnite-chakram"
+    ],
+    "spells": {
+      "1": "Compendium.starfinder-field-test-for-pf2e.spells.Item.FXIhLIMgi0QDTr3w",
+      "4": "Compendium.starfinder-field-test-for-pf2e.spells.Item.dL4azBx0aql8Mgfs",
+      "9": "Compendium.starfinder-field-test-for-pf2e.spells.Item.FDm63NThHyPBWmNz"
+    }
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/deities/the%20newborn.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.330",
+    "systemId": "pf2e",
+    "systemVersion": "6.1.3",
+    "createdTime": 1722414174396,
+    "modifiedTime": 1722443864665,
+    "lastModifiedBy": "CmdglLq38DpgHzdd"
+  },
+  "_id": "pfZ5VjLXVMjwiV1a",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!pfZ5VjLXVMjwiV1a"
+}

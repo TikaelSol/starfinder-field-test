@@ -1,0 +1,58 @@
+{
+  "name": "Urbanite",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've grown up in a big city and are accustomed to the press and pull of the largest crowds, the electric buzz and tangle of streets, or he dense nature of vertical living on a station or megaplex. You ignore difficult terrain from crowds and lesser cover from crowds. You become trained in Lore for one specific city of your choice.</p>"
+    },
+    "rules": [],
+    "slug": "urbanite",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.328",
+        "system": "6.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Human (Starfinder)",
+      "slug": "human",
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.xb9vkvAi87Xz8zUY"
+    }
+  },
+  "_id": "Oi0Uci7Vznv6IJjG",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "folder": "dhXYz6iHGxnjdR0d",
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "jqoxBUkgpBQ7vlMR": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.1.2",
+    "coreVersion": "12.330",
+    "createdTime": 1707970711779,
+    "modifiedTime": 1722111278260,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!Oi0Uci7Vznv6IJjG"
+}
