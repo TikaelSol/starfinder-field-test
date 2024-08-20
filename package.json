@@ -1,0 +1,13 @@
+{
+  "name": "starfinder-field-test",
+  "version": "6.1.1",
+  "description": "The official Foundry module for the [Starfinder 2nd edition playtest](https://paizo.com/starfinderplaytest)!",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "author": "Ian Blackstone",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.3"
+  }
+}
