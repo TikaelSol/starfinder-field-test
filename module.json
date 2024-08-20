@@ -427,8 +427,7 @@
                     "projectile": "SF2E.WeaponGroups.Projectile",
                     "shock": "SF2E.WeaponGroups.Shock",
                     "sniper": "SF2E.WeaponGroups.Sniper",
-                    "sonic": "SF2E.WeaponGroups.Sonic",
-                    "tech": "SF2E.WeaponGroups.Tech"
+                    "sonic": "SF2E.WeaponGroups.Sonic"
                 },
                 "creatureTraits": {
                     "barathu": "SF2E.Trait.Barathu",
