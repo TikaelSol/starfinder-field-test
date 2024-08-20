@@ -4,6 +4,25 @@
             "computers": "Computers Check",
             "piloting": "Piloting Check"
         },
+        "Item": {
+            "Weapon": {
+                "CriticalSpecialization": {
+                    "corrosive": "The target takes @Damage[(1d6 + @item.system.runes.potency)[persistent,acid]]. You gain an item bonus to this acid damage equal to the weapon's item bonus to attack rolls.",
+                    "cryo": "This weapon freezes part of the target, making it hard for them to move their body. The target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the start of your next turn.",
+                    "flame": "The target takes @Damage[(1d6 + @item.system.runes.potency)[persistent,fire]]. You gain an item bonus to this fire damage equal to the weapon's item bonus to attack rolls.",
+                    "grenade": "Apply the effect listed in the grenade's entry to each creature that rolls a critical failure against the effects of the grenade.",
+                    "laser": "The target must succeed at a @Check[fortitude|against:class] save against your class DC or be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn.",
+                    "mental": "The target must succeed at a @Check[will|against:class] save against your class DC or be @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the start of your next turn.",
+                    "missile": "The target is knocked back 5 feet from the source of the missile's explosion. This is forced movement.",
+                    "plasma": "The target takes @Damage[(1d6 + @item.system.runes.potency)[persistent,electricity]]. You gain an item bonus to this electricity damage equal to the weapon's item bonus to attack rolls. ",
+                    "poison": "The target must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} until the start of your next turn.",
+                    "projectile": "The target must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the start of your next turn.",
+                    "shock": "The target must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} until the start of your next turn.",
+                    "sniper": "The target takes 2 additional damage per weapon damage dice.",
+                    "sonic": "The target must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute."
+                }
+            }
+        },
         "TraitRatfolk": "Ysoki"
     },
     "SF2E": {
