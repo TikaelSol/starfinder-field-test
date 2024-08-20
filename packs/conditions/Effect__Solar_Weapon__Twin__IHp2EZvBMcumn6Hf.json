@@ -348,12 +348,26 @@
       },
       {
         "key": "FlatModifier",
+        "label": "SF2E.SpecificRule.Solarian.SolarWeapon.PhotonAttuned.Label",
         "selector": "{item|id}-damage",
         "value": "ceil(@actor.level/2)",
         "damageType": "fire",
         "predicate": [
           "stellar-attunement:photon"
         ]
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "criticalSuccess",
+          "success"
+        ],
+        "predicate": [
+          "stellar-attunement:graviton"
+        ],
+        "selector": "{item|id}-strike",
+        "text": "SF2E.SpecificRule.Solarian.SolarWeapon.GravitonAttuned.Note",
+        "title": "SF2E.SpecificRule.Solarian.SolarWeapon.GravitonAttuned.Label"
       }
     ],
     "slug": "effect-solar-weapon-twin",
