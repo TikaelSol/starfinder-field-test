@@ -345,6 +345,15 @@
             "not": "solar-weapon-twin-trait-one:reach"
           }
         ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|id}-damage",
+        "value": "ceil(@actor.level/2)",
+        "damageType": "fire",
+        "predicate": [
+          "stellar-attunement:photon"
+        ]
       }
     ],
     "slug": "effect-solar-weapon-twin",
@@ -399,11 +408,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.1",
+    "systemVersion": "6.2.2",
     "createdTime": 1721947027124,
-    "modifiedTime": 1723561229181,
+    "modifiedTime": 1724126107015,
     "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_id": "IHp2EZvBMcumn6Hf",

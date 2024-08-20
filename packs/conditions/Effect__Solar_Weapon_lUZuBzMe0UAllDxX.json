@@ -355,6 +355,15 @@
         ],
         "mode": "override",
         "property": "damage-type"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|id}-damage",
+        "value": "ceil(@actor.level/2)",
+        "damageType": "fire",
+        "predicate": [
+          "stellar-attunement:photon"
+        ]
       }
     ],
     "slug": "effect-solar-weapon",
@@ -409,11 +418,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
+    "systemVersion": "6.2.2",
     "createdTime": 1721947026249,
-    "modifiedTime": 1722704696386,
+    "modifiedTime": 1724126112913,
     "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_id": "lUZuBzMe0UAllDxX",
