@@ -479,6 +479,26 @@
         box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 2px rgba(0, 0, 0, 0.2);
       }
 
+      button[data-trait="versatile"].damage.color.void, button[data-trait="versatile"].damage.color.mental {
+        text-shadow: 0 0 1px var(--text-light);
+      }
+
+      .damage.color.bludgeoning i[class^=fa-], .damage.color.piercing i[class^=fa-], .damage.color.slashing i[class^=fa-] {
+        color: rgb(255, 255, 255);
+      }
+
+      button[data-trait="versatile"] i[class^="fa-"] {
+        filter: brightness(2.5);
+        opacity: 0.8;
+      }
+      button[data-trait="versatile"]:hover {
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 1);
+      }
+
+      button.selected[data-trait="versatile"] i[class^="fa-"] {
+        filter: none;
+      }
+
       .magazine .icon {
         filter: invert(1);
       }
@@ -512,8 +532,15 @@
           color: var(--text-light-inactive);
         }
         ol.actions-list {
-          li.strike .button-group button {
-            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+          li.strike .button-group {
+            button {
+              box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+            }
+
+            button[data-trait="versatile"]:not(:disabled):hover {
+              text-shadow: 0 0 2px var(--text-light);
+              box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8), inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+            }
           }
         }
       }
