@@ -26,8 +26,8 @@ Hooks.once("init", () => {
             blank: false,
             choices: {
                 none: "SF2E.SETTINGS.Theme.None",
-                light: "SF2E.SETTINGS.Theme.Light",
-                dark: "SF2E.SETTINGS.Theme.Dark",
+                "high-contrast": "SF2E.SETTINGS.Theme.HighContrast",
+                light: "SF2E.SETTINGS.Theme.Light"
             },
             initial: "none",
         }),

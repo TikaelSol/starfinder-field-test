@@ -69,8 +69,8 @@
   form.crb-style {
   /* Color Definitions */
   --color-bg-trait: #14364f;
-  --color-bg-trait-dark: #0c192b;
-  --color-bg-trait-dark-transparent: rgba(0, 0, 0, 0.2);
+  --color-bg-trait-hc: #0c192b;
+  --color-bg-trait-hc-transparent: rgba(0, 0, 0, 0.2);
   --color-bg-trait-light: #ffffff;
   --color-bd-text-input: rgba(0, 0, 0, 0.255);
   --color-border-trait: #ffffffb6;
@@ -84,9 +84,9 @@
   --c-secondary-light: #72236a;
   --c-tertiary-light: #ffffff;
   --c-accent-light: #ffffff;
-  --c-accent-dark: #14364f;
-  --c-primary-dark: hsl(207, 41%, calc(29% / 1.7));
-  --c-tertiary-dark: hsl(316, 43%, calc(52% / 1.2));
+  --c-accent-hc: #14364f;
+  --c-primary-hc: hsl(207, 41%, calc(29% / 1.7));
+  --c-tertiary-hc: hsl(316, 43%, calc(52% / 1.2));
   --c--bg-tag-primary: #14364f;
   --c--bg-tag-secondary: #c02175;
   --c--bg-tag-tertiary: #354f14;
@@ -107,7 +107,7 @@
   --sub: #ffffff;
   --alt: #14364f;
   --color-pf-alternate: var(--alt);
-  --bg-dark: #14364f;
+  --bg-hc: #14364f;
   --text-light: rgba(255, 255, 255, 0.9);
   --text-light-inactive: rgba(255, 255, 255, 0.5);
 
@@ -116,7 +116,7 @@
     background-repeat: repeat-x, repeat;
 
     .pf-rank[data-rank="1"] {
-      background: var(--c-accent-dark);
+      background: var(--c-accent-hc);
       border-radius: 2px;
       box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.7);
       color: var(--color-text-trait);
@@ -167,7 +167,7 @@
     span[data-pf2-effect-area] {
       background: var(--c--bg-tag-primary);
       border-radius: 2px;
-      border: 1px solid var(--color-border-dark-tertiary);
+      border: 1px solid var(--color-border-hc-tertiary);
       box-sizing: border-box;
       color: var(--text-light);
       padding: 0 var(--space-4);
@@ -191,7 +191,7 @@
       transition: text-shadow 0.15s ease-in-out, background-color 0.15s ease-in-out, border 0.15s ease-in-out, color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
       background: var(--inline-repost-bg);
       color: var(--text-light-inactive);
-      border-left: 1px solid var(--color-border-dark-tertiary);
+      border-left: 1px solid var(--color-border-hc-tertiary);
       background: none;
       padding: var(--space-2);
       margin-left: var(--space-2);
@@ -206,7 +206,7 @@
     span[data-pf2-check] {
       background: var(--c--bg-tag-primary);
       border-radius: 2px;
-      border: 1px solid var(--color-border-dark-tertiary);
+      border: 1px solid var(--color-border-hc-tertiary);
       box-sizing: border-box;
       color: var(--text-light);
       padding: 0 var(--space-4);
@@ -251,7 +251,7 @@
     .pf2e.item.sheet form .sheet-content input[type=checkbox],
     .pf2e.item.sheet form .sheet-content select {
       background: none;
-      accent-color: var(--color-bg-trait-dark-transparent);
+      accent-color: var(--color-bg-trait-hc-transparent);
       border: 1px solid rgb(255, 255, 255);
     }
 
@@ -291,12 +291,12 @@
       color: var(--color-text-light-7);
     }
     .prosemirror menu .pm-dropdown:hover i {
-      color: var(--color-text-dark-primary);
+      color: var(--color-text-hc-primary);
     }
 
     .tags.light > .tag,
     .tags > .tag.light {
-      --tag-color: var(--color-pf-alternate-dark);
+      --tag-color: var(--color-pf-alternate-hc);
       background: none;
       border-radius: 2px;
       border: 1px solid var(--c-accent);
@@ -339,14 +339,14 @@
     }
     .tags .tag.tag_material,
     .tags .tag option.tag_material {
-      background-color: var(--color-pf-alternate-dark);
+      background-color: var(--color-pf-alternate-hc);
     }
     .tags .tag.tag_transparent,
     .tags .tag option.tag_transparent {
       background-color: transparent;
       border-radius: 4px;
       box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.3);
-      color: var(--color-text-dark-secondary);
+      color: var(--color-text-hc-secondary);
       font-family: var(--sans-serif);
       line-height: 1.5em;
       padding: 0 0.5em;
@@ -412,7 +412,7 @@
     }
 
     nav.sub-nav {
-      background-color: var(--color-bg-trait-dark);
+      background-color: var(--color-bg-trait-hc);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
 
       a {
@@ -440,7 +440,7 @@
 
     > nav.sheet-navigation {
       z-index: 2;
-      background: linear-gradient(to right, var(--color-bg-trait-dark), var(--color-bg-trait-dark));
+      background: linear-gradient(to right, var(--color-bg-trait-hc), var(--color-bg-trait-hc));
 
       .item {
         box-shadow: 0 0 0 1px var(--color-pf-tertiary), 0 0 0 2px var(--c-accent), inset 0 0 4px rgba(0, 0, 0, 0.25);
@@ -522,7 +522,7 @@
         background: var(--color-bg-trait-light);
       }
       > .tab.active.actions ol.actions-list .toggles button.selected::before {
-        background: var(--color-bg-trait-dark-transparent);
+        background: var(--color-bg-trait-hc-transparent);
       }
 
 
@@ -539,7 +539,7 @@
       input[type="time"],
       input[type="search"] {
         color: rgba(255, 255, 255, 0.9);
-        background-color: var(--color-bg-trait-dark-transparent);
+        background-color: var(--color-bg-trait-hc-transparent);
       }
 
       .currency {
@@ -552,7 +552,7 @@
         li > button {
           background-color: var(--color-bg-trait-light);
           box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25), inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 3px rgba(0, 0, 0, 0.5);
-          color: var(--text-dark);
+          color: var(--text-hc);
         }
       }
 
@@ -655,12 +655,12 @@
         border-right-color: rgba(255, 255, 255, 0.5);
 
         a.hover {
-          text-decoration: underline var(--color-pf-tertiary-darker);
+          text-decoration: underline var(--color-pf-tertiary-hcer);
           text-underline-offset: 0.125em;
         }
 
         a.d20 {
-          filter: drop-shadow(0 0 1px var(--color-shadow-dark)) drop-shadow(0 0 2px var(--color-text-dark-4)) drop-shadow(0 0 3px var(--color-text-light-3));
+          filter: drop-shadow(0 0 1px var(--color-shadow-hc)) drop-shadow(0 0 2px var(--color-text-hc-4)) drop-shadow(0 0 3px var(--color-text-light-3));
           padding: var(--space-4);
         }
       }
@@ -688,7 +688,7 @@
         }
         section.editable .editor,
         section.editable input {
-          background: var(--color-bg-trait-dark-transparent);
+          background: var(--color-bg-trait-hc-transparent);
         }
         h1,
         h2,
@@ -777,7 +777,7 @@
 
           .value:hover,
           .value i:hover {
-            filter: drop-shadow(0 0 1px var(--color-shadow-dark)) drop-shadow(0 0 2px var(--color-text-dark-4)) drop-shadow(0 0 3px var(--color-text-light-3));
+            filter: drop-shadow(0 0 1px var(--color-shadow-hc)) drop-shadow(0 0 2px var(--color-text-hc-4)) drop-shadow(0 0 3px var(--color-text-light-3));
           }
         }
 
@@ -799,8 +799,8 @@
     }
 
     > aside {
-      --color-pf-secondary: var(--c-tertiary-dark);
-      background-image: url("../assets/theme/dark/dark_sidebar_top.webp"), url("../assets/theme/dark/dark_sidebar_bottom.webp");
+      --color-pf-secondary: var(--c-tertiary-hc);
+      background-image: url("../assets/theme/high-contrast/high_contrast_sidebar_top.webp"), url("../assets/theme/high-contrast/high_contrast_sidebar_bottom.webp");
 
       &::before {
         content: "";
@@ -820,7 +820,7 @@
       .sidebar {
         select {
           border: 1px solid var(--c-accent);
-          background-color: var(--c-accent-dark);
+          background-color: var(--c-accent-hc);
         }
         .data-value h2 {
           color: var(--c-tertiary-light);
@@ -831,13 +831,13 @@
         }
         button {
           color: var(--c-emphasis);
-          background: var(--c-accent-dark);
+          background: var(--c-accent-hc);
         }
         .hitpoints .hp-big .container.current-hp {
-          background-image: linear-gradient(to right, var(--color-bg-trait-dark), var(--c-primary-dark), var(--color-bg-trait-dark));
+          background-image: linear-gradient(to right, var(--color-bg-trait-hc), var(--c-primary-hc), var(--color-bg-trait-hc));
         }
         .roll-data a.modifier.hover {
-          text-decoration: underline var(--color-pf-tertiary-darker);
+          text-decoration: underline var(--color-pf-tertiary-hcer);
         }
         .armor-class {
           .ac {
