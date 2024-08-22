@@ -66,7 +66,7 @@
     },
     "languages": {
       "value": [
-        "common"
+        "pact-common"
       ],
       "custom": ""
     },

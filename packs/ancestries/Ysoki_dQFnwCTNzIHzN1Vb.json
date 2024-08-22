@@ -68,7 +68,7 @@
     "languages": {
       "value": [
         "akitonian",
-        "common",
+        "pact-common",
         "ysoki"
       ],
       "custom": ""

@@ -67,7 +67,7 @@
     },
     "languages": {
       "value": [
-        "common",
+        "pact-common",
         "pahtra",
         "vesk"
       ],
