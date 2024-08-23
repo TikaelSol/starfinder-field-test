@@ -75,7 +75,7 @@
       "value": "held-in-two-hands"
     },
     "category": "martial",
-    "group": "dart",
+    "group": "projectile",
     "bonus": {
       "value": 0
     },
@@ -123,12 +123,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.2.3",
     "createdTime": 1722224731932,
-    "modifiedTime": 1722359029681,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1724364341907,
+    "lastModifiedBy": "tdtSEjLzbBpwA8CI"
   },
   "sort": 2700000,
   "ownership": {
