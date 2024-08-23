@@ -71,6 +71,7 @@
 }
 
 .app.sheet.actor.character,
+.app.sheet.item,
 .sidebar-tab.chat-sidebar {
     /* Color Definitions */
     --color-bg-trait: #2d4f6a;
