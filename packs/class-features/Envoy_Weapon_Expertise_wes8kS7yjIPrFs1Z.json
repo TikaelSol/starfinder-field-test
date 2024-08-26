@@ -4,23 +4,21 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You've learned a few tricks with your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert. Whenever you attack your asset or the target of your Get 'Em!, you gain access to the critical specialization effects of all weapons for which you have expert proficiency.</p>"
+      "value": "<p>You've learned a few tricks with your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert. Whenever you attack your asset or the target of your @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.FXlhxST6fuaFt3Nh]{Get 'Em!}, you gain access to the critical specialization effects of all weapons for which you have expert proficiency.</p>"
     },
     "rules": [
       {
-        "key": "ActiveEffectLike",
-        "mode": "upgrade",
-        "path": "system.proficiencies.attacks.martial.rank",
+        "key": "CriticalSpecialization",
         "predicate": [
+          "target:effect:get-em",
+          "target:mark:asset",
           {
-            "or": [
-              "class:champion",
-              "class:investigator",
-              "class:magus"
+            "gte": [
+              "item:proficiency:rank",
+              2
             ]
           }
-        ],
-        "value": 2
+        ]
       }
     ],
     "slug": "envoy-weapon-expertise",
@@ -65,6 +63,9 @@
         },
         "unarmed": {
           "rank": 2
+        },
+        "martial": {
+          "rank": 2
         }
       }
     }
@@ -73,12 +74,12 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc",
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.2.3",
     "createdTime": 1722095579892,
-    "modifiedTime": 1722127063370,
-    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+    "modifiedTime": 1724434045271,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh"
   },
   "flags": {
     "core": {
