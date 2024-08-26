@@ -39,7 +39,7 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "reaction"
     },
     "actions": {
       "value": null
@@ -64,11 +64,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.2.3",
+    "coreVersion": "12.331",
     "createdTime": 1714327089856,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1724640459094,
+    "lastModifiedBy": "R2osuXzIwCsQDDih",
     "compendiumSource": null,
     "duplicateSource": null
   },
