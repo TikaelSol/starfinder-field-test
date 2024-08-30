@@ -131,6 +131,12 @@
           "value": 1,
           "exceptions": []
         }
+      ],
+      "immunities": [
+        {
+          "type": "mental",
+          "exceptions": []
+        }
       ]
     },
     "initiative": {
