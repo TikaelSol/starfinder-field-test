@@ -14,7 +14,7 @@
         "selector": "strike-attack-roll",
         "value": 3,
         "predicate": [
-          "item:solar-weapon"
+          "solar-weapon"
         ]
       }
     ],

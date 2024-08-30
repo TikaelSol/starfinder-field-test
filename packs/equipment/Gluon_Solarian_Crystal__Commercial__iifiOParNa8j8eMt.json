@@ -16,7 +16,7 @@
         "dieSize": "d4",
         "damageType": "bleed",
         "predicate": [
-          "item:solar-weapon"
+          "solar-weapon"
         ]
       },
       {
@@ -27,7 +27,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "item:solar-weapon"
+          "solar-weapon"
         ],
         "title": "SF2E.SpecificRule.Equipment.SolarianCrystals.Gluon.Title"
       }

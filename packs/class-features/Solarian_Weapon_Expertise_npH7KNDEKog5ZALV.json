@@ -12,7 +12,7 @@
       {
         "key": "CriticalSpecialization",
         "predicate": [
-          "item:solar-weapon"
+          "solar-weapon"
         ]
       }
     ],
@@ -69,11 +69,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.1",
+    "systemVersion": "6.3.1",
     "createdTime": 1721886948692,
-    "modifiedTime": 1723561307757,
+    "modifiedTime": 1725056151686,
     "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_id": "npH7KNDEKog5ZALV",
