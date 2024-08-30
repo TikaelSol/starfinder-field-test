@@ -318,9 +318,6 @@
         "key": "Strike",
         "range": null,
         "slug": "solar-weapon-twin",
-        "options": [
-          "item:solar-weapon"
-        ],
         "label": "SF2E.SpecificRule.Solarian.SolarWeapon.TwinLabel"
       },
       {
@@ -368,6 +365,22 @@
         "selector": "{item|id}-strike",
         "text": "SF2E.SpecificRule.Solarian.SolarWeapon.GravitonAttuned.Note",
         "title": "SF2E.SpecificRule.Solarian.SolarWeapon.GravitonAttuned.Label"
+      },
+      {
+        "key": "RollOption",
+        "option": "item:solar-weapon",
+        "predicate": [
+          "item:id:{item|id}"
+        ],
+        "domain": "{item|id}-attack"
+      },
+      {
+        "key": "RollOption",
+        "option": "item:solar-weapon",
+        "predicate": [
+          "item:id:{item|id}"
+        ],
+        "domain": "{item|id}-damage"
       }
     ],
     "slug": "effect-solar-weapon-twin",
@@ -424,9 +437,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.2",
+    "systemVersion": "6.3.1",
     "createdTime": 1721947027124,
-    "modifiedTime": 1724126107015,
+    "modifiedTime": 1725056013896,
     "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_id": "IHp2EZvBMcumn6Hf",
