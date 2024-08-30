@@ -3650,7 +3650,7 @@
           {
             "key": "CriticalSpecialization",
             "predicate": [
-              "solar-weapon"
+              "item:solar-weapon"
             ]
           }
         ],

@@ -318,9 +318,6 @@
         "key": "Strike",
         "range": null,
         "slug": "solar-weapon-twin",
-        "options": [
-          "solar-weapon"
-        ],
         "label": "SF2E.SpecificRule.Solarian.SolarWeapon.TwinLabel"
       },
       {
@@ -371,7 +368,7 @@
       },
       {
         "key": "RollOption",
-        "option": "solar-weapon",
+        "option": "item:solar-weapon",
         "predicate": [
           "item:id:{item|id}"
         ],
@@ -379,7 +376,7 @@
       },
       {
         "key": "RollOption",
-        "option": "solar-weapon",
+        "option": "item:solar-weapon",
         "predicate": [
           "item:id:{item|id}"
         ],

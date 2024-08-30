@@ -16,7 +16,7 @@
         "dieSize": "d6",
         "damageType": "fire",
         "predicate": [
-          "solar-weapon",
+          "item:solar-weapon",
           "stellar-attunement:photon"
         ]
       },
@@ -29,7 +29,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "solar-weapon",
+          "item:solar-weapon",
           "stellar-attunement:photon"
         ]
       }

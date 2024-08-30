@@ -15,7 +15,7 @@
         "diceNumber": 1,
         "dieSize": "d6",
         "predicate": [
-          "solar-weapon",
+          "item:solar-weapon",
           "stellar-attunement:graviton"
         ]
       },
@@ -28,7 +28,7 @@
           "criticalSuccess"
         ],
         "predicate": [
-          "solar-weapon",
+          "item:solar-weapon",
           "stellar-attunement:graviton"
         ]
       }

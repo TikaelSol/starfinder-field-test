@@ -19,7 +19,7 @@
           {
             "not": "stellar-attunement:unattuned"
           },
-          "solar-weapon"
+          "item:solar-weapon"
         ],
         "slug": "stellar-blast"
       },

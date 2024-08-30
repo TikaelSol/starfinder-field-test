@@ -14,7 +14,7 @@
         "selector": "strike-damage",
         "value": 2,
         "predicate": [
-          "solar-weapon"
+          "item:solar-weapon"
         ]
       }
     ],
