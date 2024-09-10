@@ -41,7 +41,7 @@
     "hp": 8,
     "size": "med",
     "reach": 5,
-    "speed": 25,
+    "speed": 5,
     "boosts": {
       "0": {
         "value": [
@@ -110,11 +110,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "systemVersion": "6.3.1",
+    "coreVersion": "12.331",
     "createdTime": 1707759416675,
-    "modifiedTime": 1722569365704,
-    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "modifiedTime": 1725990947789,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh",
     "compendiumSource": null,
     "duplicateSource": null
   },

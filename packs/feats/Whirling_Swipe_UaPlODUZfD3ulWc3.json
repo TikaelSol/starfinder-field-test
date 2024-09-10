@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> You are wielding a two-handed melee weapon.</p><hr /><p>You swipe your close combat weapon in a wide swing that leaves behind a deadly arc. Your weapon gains the area (burst 5 feet) and unwieldy traits until the end of the turn. If your weapon has reach, the burst radius becomes the reach of your weapon. Make an attack using @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}, with the burst centered on a corner of your square. You are excluded from the burst. Targets in range take damage as though struck with a melee Strike you make with your weapon, but they must succeed at a basic Reflex save as normal. If you're using a weapon with the backswing or sweep trait, you gain a +1 circumstance bonus to the save DC of the attack.</p>"
+      "value": "<p><strong>Requirements</strong> You are wielding a two-handed melee weapon.</p><hr /><p>You swipe your close combat weapon in a wide swing that leaves behind a deadly arc. Your weapon gains the area (burst 5 feet) and unwieldy traits until the end of the turn. If your weapon has reach, the burst radius becomes the reach of your weapon. Make an attack using @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}, with the burst centered on a corner of your square. You are excluded from the burst. Targets in range take damage as though struck with a melee Strike you make with your weapon, but they must succeed at a basic Reflex save as normal. If you're using a weapon with the backswing or sweep trait, you gain a +1 circumstance bonus to the save DC of the attack.</p><p>If you have the @UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.8J94LU3sVZv12P2e]{Primary Target} class feature, the follow-up Strike to a Whirling Swipe is a melee Strike.</p>"
     },
     "rules": [
       {
@@ -71,12 +71,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.3.1",
     "createdTime": 1721801600625,
-    "modifiedTime": 1722302490094,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1725992064514,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh"
   },
   "sort": 11300000,
   "ownership": {

@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You Interact twice to draw and stow one object from up to two of your pairs of arms. If you stow an object with this action, you can also draw an object with that set of arms as normal.</p>"
+      "value": "<p>You Interact to draw, stow, or swap items you have up to twice.</p>"
     },
     "rules": [],
     "slug": "double-draw",
@@ -60,11 +60,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
-    "coreVersion": "12.330",
+    "systemVersion": "6.3.1",
+    "coreVersion": "12.331",
     "createdTime": 1707973513843,
-    "modifiedTime": 1722323149552,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1725991010994,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh",
     "compendiumSource": null,
     "duplicateSource": null
   },

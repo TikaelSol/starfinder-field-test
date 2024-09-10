@@ -137,6 +137,12 @@
         "img": "icons/sundries/books/book-open-purple.webp",
         "name": "Legendary Spellcaster",
         "level": 19
+      },
+      "Yw5gc": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc",
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "name": "Weapon Expertise",
+        "level": 11
       }
     },
     "hp": 8,
@@ -239,12 +245,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.3.1",
     "createdTime": 1721443704204,
-    "modifiedTime": 1722268570916,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1725992215334,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh"
   },
   "_key": "!items!lyPoetdmvTRyjsSM"
 }
