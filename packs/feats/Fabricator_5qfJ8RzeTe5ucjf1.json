@@ -20,7 +20,10 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "general",
+        "skill"
+      ],
       "rarity": "common"
     },
     "publication": {
@@ -32,7 +35,7 @@
     "level": {
       "value": 1
     },
-    "category": "general",
+    "category": "skill",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
