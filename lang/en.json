@@ -308,6 +308,7 @@
             "Theme": {
                 "HighContrast" : "High Contrast",
                 "Light": "Light",
+                "Dark": "Dark",
                 "Name": "PC Sheet Theme",
                 "None": "None (Pathfinder)"
             }
