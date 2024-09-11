@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> You have a forcefield upgrade in your armor or are holding a shield with the tech trait.</p><hr /><p>You overcharge your defensive screen to create a concussive blast that repulses nearby foes. You take the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} action, using your forcefield or shield instead of a weapon. This attack deals @Damage[2d10[bludgeoning]] damage and is in the shield group. It affects creatures within 5 feet of you and has the tracking +1 trait. A creature who fails or critically fails its Reflex save against your Area Fire is knocked back 5 feet.</p><hr /><p><strong>Special</strong> If you use a superior forcefield or shield, this attack has the tracking +2 trait; if elite, it does @Damage[3d10[bludgeoning]] damage; if ultimate, it has the tracking +3 trait; if paragon, it deals @Damage[4d10[bludgeoning]] damage.</p>"
+      "value": "<p><strong>Requirements</strong> You have a forcefield upgrade in your armor or are holding a shield with the tech trait.</p><hr /><p>You overcharge your defensive screen to create a concussive blast that repulses nearby foes. You take the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} action, using your forcefield or shield instead of a weapon. This attack deals @Damage[2d10[bludgeoning]] damage and is in the shield group. It affects creatures within 5 feet of you and has the tracking +1 trait. A creature who fails or critically fails its Reflex save against your Area Fire is knocked back 5 feet.</p><p>If you have the @UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.8J94LU3sVZv12P2e]{Primary Target} class feature, the follow-up Strike to Offensive Defense uses your forcefield or shield.</p><hr /><p><strong>Special</strong> If you use a superior forcefield or shield, this attack has the tracking +2 trait; if elite, it does @Damage[3d10[bludgeoning]] damage; if ultimate, it has the tracking +3 trait; if paragon, it deals @Damage[4d10[bludgeoning]] damage.</p>"
     },
     "rules": [],
     "slug": "offensive-defense",
@@ -55,12 +55,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.3.1",
     "createdTime": 1721801600625,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1725992091703,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh"
   },
   "sort": 7400000,
   "ownership": {

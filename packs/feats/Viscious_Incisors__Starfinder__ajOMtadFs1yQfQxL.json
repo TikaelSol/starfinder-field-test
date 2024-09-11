@@ -5,28 +5,29 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You've let your incisors grow long enough to serve as formidable weapons. You gain a jaws unarmed attack that deals 1d6 piercing damage. Your jaws are in the brawling group and have the finesse and unarmed traits. Unlike most creatures, you can file down your teeth and regrow them later on, enabling you to select this feat at any level, and to retrain into and out of this feat.</p>"
+      "value": "<p>You've let your incisors grow long enough to serve as formidable weapons. Your jaws unarmed attack deals 1d6 piercing damage instead of 1d4, and gains the backstabber trait. You can file down your teeth and regrow them later on, enabling you to select this feat at any level, and to retrain into and out of this feat.</p>"
     },
     "rules": [
       {
-        "category": "unarmed",
-        "damage": {
-          "base": {
-            "damageType": "piercing",
-            "dice": 1,
-            "die": "d4"
-          }
-        },
-        "group": "brawling",
-        "key": "Strike",
-        "label": "PF2E.Weapon.Base.jaws",
-        "range": null,
-        "slug": "jaws",
-        "traits": [
-          "unarmed",
-          "finesse"
+        "key": "DamageAlteration",
+        "mode": "upgrade",
+        "value": 6,
+        "selectors": [
+          "jaws-damage"
         ],
-        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp"
+        "property": "dice-faces",
+        "predicate": [
+          "dice:slug:base"
+        ]
+      },
+      {
+        "definition": [
+          "item:jaws"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "backstabber"
       }
     ],
     "slug": "viscious-incisors",
@@ -80,11 +81,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
-    "coreVersion": "12.330",
+    "systemVersion": "6.3.1",
+    "coreVersion": "12.331",
     "createdTime": 1708143581112,
-    "modifiedTime": 1722444021325,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1725991507735,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh",
     "compendiumSource": null,
     "duplicateSource": null
   },

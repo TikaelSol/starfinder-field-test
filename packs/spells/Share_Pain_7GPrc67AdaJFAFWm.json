@@ -23,7 +23,8 @@
       "otherTags": [],
       "value": [
         "concentrate",
-        "manipulate"
+        "manipulate",
+        "mental"
       ],
       "rarity": "common",
       "traditions": [
@@ -109,12 +110,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.3.1",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111275643,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1725994594185,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh"
   },
   "sort": 1900000,
   "ownership": {

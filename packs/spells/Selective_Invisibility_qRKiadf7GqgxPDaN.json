@@ -22,8 +22,9 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "concentrate",
-        "manipulate"
+        "illusion",
+        "manipulate",
+        "subtle"
       ],
       "rarity": "common",
       "traditions": [
@@ -71,12 +72,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.3.1",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111277243,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1725994585976,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh"
   },
   "sort": 10800000,
   "ownership": {

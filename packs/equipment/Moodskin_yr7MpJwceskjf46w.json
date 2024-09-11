@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your skin cells contain a dye manufactured from magically infused crystals that automatically reacts to your mood by changing the pigmentation of your skin. The color change is gradual, typically taking at least thirty seconds to fully transition from one color to another. Moodskin can be customized to adjust which colors correspond to each mood during installation. The default meaning of each color is as follows.</p><ul><li><strong>Red:</strong> angry, passionate, intensely emotional</li><li><strong>Orange:</strong> irritated, surprised, unsettled</li><li><strong>Yellow:</strong> nervous, tense, cautious</li><li><strong>Green:</strong> ambivalent</li><li><strong>Blue:</strong> calm, content, collected</li><li><strong>Dark Blue:</strong> peaceful, happy, optimistic</li><li><strong>Purple:</strong> tranquil</li><li><strong>Black:</strong> sad, stressed, deflated, tired</li></ul>"
+      "value": "<p>Your skin cells contain a dye manufactured from magically infused crystals that automatically reacts to your mood by changing the pigmentation of your skin. The color change is gradual, typically taking at least thirty seconds to fully transition from one color to another. Moodskin can be customized to adjust which colors correspond to each mood during installation. The default meaning of each color is as follows.</p><ul><li><strong>Red:</strong> angry, passionate, intensely emotional</li><li><strong>Orange:</strong> irritated, surprised, unsettled</li><li><strong>Yellow:</strong> nervous, tense, cautious</li><li><strong>Green:</strong> ambivalent</li><li><strong>Blue:</strong> calm, content, collected</li><li><strong>Dark Blue:</strong> peaceful, happy, optimistic</li><li><strong>Purple:</strong> tranquil</li><li><strong>Black:</strong> sad, stressed, deflated, tired</li></ul><p> Moodskin does not count against your implant limit.</p>"
     },
     "rules": [],
     "slug": "moodskin",
@@ -80,12 +80,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
+    "systemVersion": "6.3.1",
     "createdTime": 1722485927969,
-    "modifiedTime": 1722490280294,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1725994543789,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh"
   },
   "sort": 2925000,
   "ownership": {

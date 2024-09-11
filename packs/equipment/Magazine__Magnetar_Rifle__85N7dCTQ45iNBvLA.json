@@ -69,8 +69,8 @@
     },
     "category": "ammo",
     "uses": {
-      "value": 6,
-      "max": 6,
+      "value": 20,
+      "max": 20,
       "autoDestroy": true
     },
     "damage": null,
@@ -86,12 +86,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.3.1",
     "createdTime": 1722224680311,
-    "modifiedTime": 1722383752952,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1725993020833,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh"
   },
   "_id": "85N7dCTQ45iNBvLA",
   "sort": 5700000,

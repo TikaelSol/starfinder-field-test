@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You specialize in slipping into a location, completing an objective, and extricating yourself without being discovered, often utilizing stealth tactics, cover identities, disguises, or spy tech. Whether you're an assassin getting close to your target, a spy gathering sensitive intelligence, a grifter out to dupe your mark, or a thief casing the joint for your next job, you're good at blending in and avoiding notice. You're trained in Deception. You gain a skill feat for Deception.</p><p><strong>Exploit:</strong> You're adept at taking your foes by surprise. You can @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.LRbwV8LMLi6FFKjW]{Aim} at targets that are unaware of you as a free action. If you successfully Strike a target who is unaware of you, or has an attitude of friendly toward you, they become @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round. On a critical success, they're stunned for 1 round.</p><p><strong>Enhanced Exploit:</strong> You avoid detection even after making contact with the enemy. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.k7hLNRVybqxyvurU]{Ghost Tap} action.</p>"
+      "value": "<p>You specialize in slipping into a location, completing an objective, and extricating yourself without being discovered, often utilizing stealth tactics, cover identities, disguises, or spy tech. Whether you're an assassin getting close to your target, a spy gathering sensitive intelligence, a grifter out to dupe your mark, or a thief casing the joint for your next job, you're good at blending in and avoiding notice. You're trained in Deception. You gain a skill feat for Deception.</p><p><strong>Exploit:</strong> You're adept at taking your foes by surprise. You can @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.LRbwV8LMLi6FFKjW]{Aim} at targets you are @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} by as a free action. If you successfully Strike a target you are undetected by, or has an attitude of friendly towards you, they become @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p><p><strong>Enhanced Exploit:</strong> You avoid detection even after making contact with the enemy. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.k7hLNRVybqxyvurU]{Ghost Tap} action.</p>"
     },
     "rules": [
       {
@@ -104,12 +104,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.3.1",
     "createdTime": 1722105763947,
-    "modifiedTime": 1722142935504,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1725991845376,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh"
   },
   "_key": "!items!9YYpW8GzNL5E4GXO"
 }

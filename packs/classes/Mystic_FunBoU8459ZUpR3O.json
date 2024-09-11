@@ -149,6 +149,12 @@
         "img": "icons/skills/melee/hand-grip-sword-red.webp",
         "name": "Mystic Weapon Expertise",
         "level": 11
+      },
+      "7YJBy": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.uPSzff7h3aRnoV6l",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 13
       }
     },
     "hp": 8,
@@ -249,11 +255,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.2",
+    "systemVersion": "6.3.1",
     "coreVersion": "12.331",
     "createdTime": 1696479945768,
-    "modifiedTime": 1723952636109,
-    "lastModifiedBy": "R2osuXzIwCsQDDih",
+    "modifiedTime": 1725991617295,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh",
     "compendiumSource": null,
     "duplicateSource": null
   },

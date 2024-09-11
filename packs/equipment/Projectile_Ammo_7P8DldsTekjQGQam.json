@@ -44,7 +44,7 @@
     "hardness": 0,
     "price": {
       "value": {
-        "gp": 1
+        "sp": 1
       },
       "per": 10
     },
@@ -89,11 +89,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.3.1",
+    "coreVersion": "12.331",
     "createdTime": 1691049172993,
-    "modifiedTime": 1722383752952,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1725993045107,
+    "lastModifiedBy": "4uTTBK4TzykGOYxh",
     "compendiumSource": null,
     "duplicateSource": null
   },
