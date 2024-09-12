@@ -28,11 +28,11 @@
       "remaster": true
     },
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "category": "interaction",
     "actions": {
-      "value": null
+      "value": 1
     },
     "deathNote": false
   },
@@ -48,12 +48,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.3.1",
     "createdTime": 1722130654040,
-    "modifiedTime": 1722224846589,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1726183415735,
+    "lastModifiedBy": "uTLhxExg7iyDVzDf"
   },
   "_key": "!items!ailFBRjKuGCOAsCR"
 }
