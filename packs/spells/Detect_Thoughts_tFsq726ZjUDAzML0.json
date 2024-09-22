@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You sense the surface thoughts of intelligent creatures around you. The amount of information revealed depends on how long you concentrate on an area or target. The spell can penetrate some barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of metal, a thin sheet of lead, or any force barrier blocks it. Creatures who are immune to mental effects are immune to detection by this spell.</p>\n<p><span class=\"pf2-icon\"><span class=\"action-glyph\">1</span></span> You detect the presence or absence of thoughts from conscious creatures that have Intelligence attribute modifiers of –3 or higher.</p>\n<p><span class=\"pf2-icon\"><span class=\"action-glyph\">2</span></span> You detect the number of thinking minds and whether or not the creatures are telepathic. Creatures with telepathy have louder thoughts than creature who don't have telepathy, and might be able to sense your intrusion, at the GM's discretion.</p>\n<p><span class=\"pf2-icon\"><span class=\"action-glyph\">3</span></span> You gain a +1 status bonus to Perception to Sense the target's Motives while the spell is sustained. A target who succeeds at its Will save prevents this.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> You gain a +2 status bonus.</p>\n<p><strong>Heightened (7th)</strong> You gain a +3 status bonus.</p>"
+      "value": "<p>You sense the surface thoughts of intelligent creatures around you. The amount of information revealed depends on how long you concentrate on an area or target. The spell can penetrate some barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of metal, a thin sheet of lead, or any force barrier blocks it. Creatures who are immune to mental effects are immune to detection by this spell.</p><p><span class=\"action-glyph\">1</span> You detect the presence or absence of thoughts from conscious creatures that have Intelligence attribute modifiers of –3 or higher.</p><p><span class=\"action-glyph\">2</span> You detect the number of thinking minds and whether or not the creatures are telepathic. Creatures with telepathy have louder thoughts than creature who don't have telepathy, and might be able to sense your intrusion, at the GM's discretion.</p><p><span class=\"action-glyph\">3</span> You gain a +1 status bonus to Perception to Sense the target's Motives while the spell is sustained. A target who succeeds at its Will save prevents this.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.F6GYZA5UwDN5zusb]{Spell Effect: Detect Thoughts}</p><hr /><p><strong>Heightened (5th)</strong> You gain a +2 status bonus.</p><p><strong>Heightened (7th)</strong> You gain a +3 status bonus.</p>"
     },
     "rules": [],
     "slug": "detect-thoughts",
@@ -72,7 +72,8 @@
     "location": {
       "value": null
     },
-    "counteraction": false
+    "counteraction": false,
+    "overlays": {}
   },
   "_id": "tFsq726ZjUDAzML0",
   "img": "icons/magic/perception/third-eye-blue-red.webp",
@@ -81,12 +82,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.0",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111277383,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1727011390455,
+    "lastModifiedBy": "pgdn6q5zITK2T3VN"
   },
   "sort": 11600000,
   "ownership": {

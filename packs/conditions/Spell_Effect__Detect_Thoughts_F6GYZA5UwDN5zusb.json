@@ -1,0 +1,76 @@
+{
+  "name": "Spell Effect: Detect Thoughts",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.tFsq726ZjUDAzML0]{Detect Thoughts}</p><p><span style=\"font-family:Roboto, sans-serif\">You gain a +1 status bonus to Perception to Sense the target's Motives while the spell is sustained. A target who succeeds at its Will save prevents this.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "perception",
+        "value": "ternary(gte(@item.system.level.value,7),3, ternary(gte(@item.system.level.value,5),2,1))",
+        "type": "status",
+        "predicate": [
+          "action:sense-motive"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "pgdn6q5zITK2T3VN": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727011368651,
+    "modifiedTime": 1727011368651,
+    "lastModifiedBy": "pgdn6q5zITK2T3VN"
+  },
+  "_id": "F6GYZA5UwDN5zusb",
+  "sort": 0,
+  "_key": "!items!F6GYZA5UwDN5zusb"
+}
