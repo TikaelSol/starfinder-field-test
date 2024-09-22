@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You cause the target comm unit to play a cosmically composed personal theme song specific to its owner. The creature who owns the target regains 1d8+4 Hit Points when you Cast the Spell and a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects for the duration, as long as the comm unit continues to play the ringtone. Creatures beginning their turn adjacent to an ally with an active ringtone gain the status bonus to Speeds and bonus to saves until the start of their next turn.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d8+4.</p>"
+      "value": "<p>You cause the target comm unit to play a cosmically composed personal theme song specific to its owner. The creature who owns the target regains 1d8+4 Hit Points when you Cast the Spell and a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects for the duration, as long as the comm unit continues to play the ringtone. Creatures beginning their turn adjacent to an ally with an active ringtone gain the status bonus to Speeds and bonus to saves until the start of their next turn.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.HshG8G3NgMJNlu9s]{Spell Effect: Motivating Ringtone}</p><hr /><p><strong>Heightened (+1)</strong> The amount of healing increases by 1d8+4.</p>"
     },
     "rules": [],
     "slug": "motivating-ringtone",
@@ -91,11 +91,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.0",
+    "coreVersion": "12.331",
     "createdTime": 1696483781033,
-    "modifiedTime": 1722111276915,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1727009258676,
+    "lastModifiedBy": "pgdn6q5zITK2T3VN",
     "compendiumSource": null,
     "duplicateSource": null
   },
