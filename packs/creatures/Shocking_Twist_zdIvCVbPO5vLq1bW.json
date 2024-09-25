@@ -1,0 +1,320 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Shocking Twist",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Shocking Twist",
+  "type": "hazard",
+  "effects": [],
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": 17,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 11,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 21
+      },
+      "hp": {
+        "value": 15,
+        "max": 15,
+        "temp": 0,
+        "details": "per cannon"
+      },
+      "hardness": 10,
+      "stealth": {
+        "value": 10,
+        "details": "<p>(trained)</p>"
+      },
+      "emitsSound": "encounter",
+      "immunities": [
+        {
+          "type": "electricity",
+          "exceptions": []
+        }
+      ]
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 6
+      },
+      "disable": "<p>@Check[computers|dc:25] (trained) to shut down one cannon, @Check[crafting|dc:25] (trained) to jam one cannon, or @Check[thievery|dc:23] (expert) to disable one cannon</p>",
+      "description": "<p>Four cannons fire arcs of electricity at audience selected targets.</p>",
+      "reset": "",
+      "routine": "<p>(1 action) Speakers announce the audience's selected target. Then, one cannon makes a ranged Strike at the selected target.</p>",
+      "publication": {
+        "title": "Starfinder Playtest Scenario #3: Wheel of Monsters",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "electricity",
+        "mechanical",
+        "trap",
+        "tech"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    }
+  },
+  "_id": "zdIvCVbPO5vLq1bW",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "type": "action",
+      "name": "Open Fire",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The combat begins</p><hr /><p><strong>Effect</strong> One cannon makes a ranged Strike against a PC in the arena. The trap then rolls initiative.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "b3hRJepyex1okCPM",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zdIvCVbPO5vLq1bW.b3hRJepyex1okCPM"
+    },
+    {
+      "type": "melee",
+      "name": "Lightning Cannon",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-increment-100"
+          ]
+        },
+        "damageRolls": {
+          "xZj2txxaHXOJe565": {
+            "damage": "2d8+9",
+            "damageType": "electricity",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 20
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "oT7C4ogyyV0Oflb3",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!zdIvCVbPO5vLq1bW.oT7C4ogyyV0Oflb3"
+    }
+  ],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.3.1",
+    "createdTime": 1726281653421,
+    "modifiedTime": 1726337914424,
+    "lastModifiedBy": "paBWq1lQyu1NTnYu"
+  },
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "sort": 0,
+  "_key": "!actors!zdIvCVbPO5vLq1bW"
+}

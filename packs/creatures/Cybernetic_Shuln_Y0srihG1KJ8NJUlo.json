@@ -1,0 +1,690 @@
+{
+  "prototypeToken": {
+    "displayName": 0,
+    "displayBars": 0,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Cybernetic Shuln",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false
+  },
+  "_id": "Y0srihG1KJ8NJUlo",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "_id": "mjClQEAEbQfY2Zfr",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Adamantine Claw",
+      "sort": 100000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 23
+        },
+        "damageRolls": {
+          "wq5dqagsc3rvealyfhid": {
+            "damage": "2d10+10",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "reach-15"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        }
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Y0srihG1KJ8NJUlo.mjClQEAEbQfY2Zfr"
+    },
+    {
+      "_id": "vipJW7r7EquegImq",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Adamantine Fangs",
+      "sort": 200000,
+      "system": {
+        "attackEffects": {
+          "value": [
+            "shuln-saliva"
+          ]
+        },
+        "bonus": {
+          "value": 23
+        },
+        "damageRolls": {
+          "i7sr4woj09gu4xx7dnoc": {
+            "damage": "2d12+10",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "reach-15"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        }
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Y0srihG1KJ8NJUlo.vipJW7r7EquegImq"
+    },
+    {
+      "_id": "t98B5FOZI1a1Ye46",
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Tremorsense (Imprecise) 60 feet",
+      "sort": 300000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+        },
+        "rules": [],
+        "slug": "tremorsense",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Y0srihG1KJ8NJUlo.t98B5FOZI1a1Ye46"
+    },
+    {
+      "_id": "uuMoWLbelNwKPIUM",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Tech-Rending Strikes",
+      "sort": 400000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Any time the shuln scores a critical hit with a melee Strike, one tech item worn or held by the target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} for 2 rounds.</p>"
+        },
+        "rules": [
+          {
+            "key": "Note",
+            "outcome": [
+              "criticalSuccess"
+            ],
+            "selector": "melee-strike-damage",
+            "text": "{item|system.description.value}",
+            "title": "{item|name}",
+            "visibility": "owner"
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Y0srihG1KJ8NJUlo.uuMoWLbelNwKPIUM"
+    },
+    {
+      "_id": "2V1LMw2K5gNCyFjF",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Shuln Saliva",
+      "sort": 500000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:30]</p><p><strong>Maximum Duration</strong> 6 rounds</p><p><strong>Stage 1</strong> @Damage[1d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} (1 round)</p><p><strong>Stage 2</strong> @Damage[2d6[poison]] damage and slowed 1 (1 round)</p><p><strong>Stage 3</strong> @Damage[3d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 hour.</p>"
+        },
+        "rules": [],
+        "slug": "shuln-saliva",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "incapacitation",
+            "poison"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Y0srihG1KJ8NJUlo.2V1LMw2K5gNCyFjF"
+    },
+    {
+      "_id": "gzVcZTMtslepZxcC",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Unstoppable Burrow",
+      "sort": 600000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Shulns can burrow into solid rock and any metal with a hardness less than that of adamantine as though it were soil or loose rubble, leaving a tunnel 10 feet in diameter.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Y0srihG1KJ8NJUlo.gzVcZTMtslepZxcC"
+    },
+    {
+      "type": "action",
+      "name": "Cybernetics",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The cybernetics of a cybernetic shuln can be disabled for 1 hour with a successful @Check[thievery|dc:27] to @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Disable Device} or @Check[computers|dc:27] to Disable a System. A shuln's cybernetics are disabled for 1 round if it takes any electricity damage. A cybernetic shuln with disabled cybernetics can't use tech-rending strike.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "ZH4gvmXIMAR3MlNY",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Y0srihG1KJ8NJUlo.ZH4gvmXIMAR3MlNY"
+    }
+  ],
+  "name": "Cybernetic Shuln",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 175,
+        "temp": 0,
+        "max": 175,
+        "details": ""
+      },
+      "speed": {
+        "value": 40,
+        "otherSpeeds": [
+          {
+            "type": "burrow",
+            "value": 20
+          }
+        ],
+        "details": "unstoppable burrow"
+      },
+      "ac": {
+        "value": 31,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "resistances": [
+        {
+          "exceptions": [
+            "adamantine",
+            "bludgeoning"
+          ],
+          "type": "physical",
+          "value": 10
+        },
+        {
+          "type": "poison",
+          "value": 15
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "electricity",
+          "value": 15,
+          "exceptions": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 11
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Playtest Scenario #3: Wheel of Monsters",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 7
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 6
+      },
+      "int": {
+        "mod": -3
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 20,
+      "senses": [
+        {
+          "acuity": "imprecise",
+          "range": 30,
+          "type": "scent"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 60,
+          "type": "tremorsense"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 23,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 17,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 19,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 23
+      },
+      "survival": {
+        "base": 20
+      }
+    },
+    "traits": {
+      "value": [
+        "beast",
+        "tech"
+      ],
+      "rarity": "rare",
+      "size": {
+        "value": "huge"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.3.1",
+    "createdTime": 1726281653421,
+    "modifiedTime": 1726281653421,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "sort": 0,
+  "_key": "!actors!Y0srihG1KJ8NJUlo"
+}

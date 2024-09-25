@@ -102,7 +102,7 @@
         },
         "group": "brawling",
         "key": "Strike",
-        "label": "PF2E.Weapon.Base.Tail",
+        "label": "PF2E.BattleForm.Attack.Tail",
         "range": null,
         "slug": "tail",
         "traits": [
@@ -180,10 +180,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.0",
+    "coreVersion": "12.331",
     "createdTime": 1704322456930,
-    "modifiedTime": 1722568550859,
+    "modifiedTime": 1727216094471,
     "lastModifiedBy": "qA45GVv5hySaf9b5",
     "compendiumSource": null,
     "duplicateSource": null

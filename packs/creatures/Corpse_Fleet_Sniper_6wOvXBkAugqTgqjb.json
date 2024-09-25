@@ -1,0 +1,1476 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Corpse Fleet Sniper",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Corpse Fleet Sniper",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 190,
+        "temp": 0,
+        "max": 190,
+        "details": "void healing"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 20
+          }
+        ],
+        "details": "jetpack"
+      },
+      "ac": {
+        "value": 26,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "immunities": [
+        {
+          "type": "bleed",
+          "exceptions": []
+        },
+        {
+          "type": "death-effects",
+          "exceptions": []
+        },
+        {
+          "type": "disease",
+          "exceptions": []
+        },
+        {
+          "type": "paralyzed",
+          "exceptions": []
+        },
+        {
+          "type": "poison",
+          "exceptions": []
+        },
+        {
+          "type": "unconscious",
+          "exceptions": []
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "slashing",
+          "value": 10,
+          "exceptions": []
+        },
+        {
+          "type": "vitality",
+          "value": 10,
+          "exceptions": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "common",
+          "eoxian",
+          "necril"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 9
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Playtest Scenario #3: Wheel of Monsters",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 6
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 17,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 16,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 21,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 16,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 20
+      },
+      "athletics": {
+        "base": 16
+      },
+      "deception": {
+        "base": 16
+      },
+      "stealth": {
+        "base": 20
+      }
+    },
+    "traits": {
+      "value": [
+        "undead",
+        "unholy",
+        "zombie"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "_id": "6wOvXBkAugqTgqjb",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Void Healing",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          }
+        ],
+        "slug": "void-healing",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_id": "ookxdzercnYs3Y2n",
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.ookxdzercnYs3Y2n"
+    },
+    {
+      "folder": "OoVQVkJhSjhIyN7a",
+      "name": "Advanced Injection Rifle",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Upgrades:</strong> 2</p><hr /><p>The injection rifle includes a cannister of poison that fills any empty darts loaded in the chamber. This rifle’s precursors were designed to tranquilize dangerous animals for conservation purposes, and some modern wielders use sedative or corrosive darts instead.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "{item|id}-attack",
+            "value": 1,
+            "type": "item",
+            "label": "SF2E.Trait.Tracking"
+          }
+        ],
+        "slug": "injection-rifle",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "analog",
+            "breakdown",
+            "expend-1",
+            "fatal-d10",
+            "injection",
+            "kickback",
+            "tracking-1",
+            "unwieldy",
+            "volley-30"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "injection-rifle",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 750
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "martial",
+        "group": "dart",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d8",
+          "damageType": "poison",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 100,
+        "reload": {
+          "value": "1"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/heavy%20gun%20chemical.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.7IV3ueL2q7jB0wg7",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 3100000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "NSZGkCjbv8yTkSr0",
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.NSZGkCjbv8yTkSr0"
+    },
+    {
+      "folder": "OoVQVkJhSjhIyN7a",
+      "name": "Advanced Needler Pistol",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Upgrades:</strong> 2</p><hr /><p>This snub-nosed pistol shoots syringes instead of bullets, allowing the wielder to deliver a dose of medicine or poison from a safe distance. Early needler pistols were red and white peashooters marked with a deity’s holy symbol. Antiques and replicas remain on the market, but are curiosities compared to subtler modern designs.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "{item|id}-attack",
+            "value": 1,
+            "type": "item",
+            "label": "SF2E.Trait.Tracking"
+          }
+        ],
+        "slug": "needler-pistol",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "analog",
+            "expend-1",
+            "injection",
+            "tracking-1"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "needler-pistol",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 665
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "simple",
+        "group": "dart",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 2,
+          "die": "d4",
+          "damageType": "poison",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 30,
+        "reload": {
+          "value": "1"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "icons/weapons/guns/gun-pistol-flintlock-metal.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.oybCaKBLR34P9QfN",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 2400000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "PoBAOvsTkzdHeIA8",
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.PoBAOvsTkzdHeIA8"
+    },
+    {
+      "folder": "o4lPEY2w6k5o9O8D",
+      "name": "Carbon Skin (Advanced)",
+      "type": "armor",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This form-fitting suit of carbon fiber encases the body. Mass-produced versions are usually dull-gray, functional garments, while pricier, bespoke suits dazzle like diamonds.</p>"
+        },
+        "rules": [],
+        "slug": "carbon-skin",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 8
+        },
+        "quantity": 1,
+        "baseItem": "carbon-skin",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 5030
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "light",
+        "group": "polymer",
+        "acBonus": 1,
+        "strength": 0,
+        "dexCap": 4,
+        "checkPenalty": -1,
+        "speedPenalty": 0,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": [],
+        "specific": null
+      },
+      "img": "icons/equipment/back/mantle-collared-black.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.w27SAKP67PcGSim4",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": 1726341418656,
+        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+      },
+      "sort": 1800000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "instGAQnH7q5Z9B2",
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.instGAQnH7q5Z9B2"
+    },
+    {
+      "folder": "BMj8rInFB3ecSG3i",
+      "name": "Jetpack (Commercial)",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Boosters the size of a backpack attach to the back of your armor and allow you to fly.</p><p><strong>Activate—Fly</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You activate a jetpack to gain a fly Speed of 20 feet. This effect lasts for 1 minute or until you Dismiss it. You can use an action to Fly 0 feet to hover in place, but you are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while doing so. A jetpack can't lift you if you're encumbered.</p>"
+        },
+        "rules": [],
+        "slug": "jetpack-commercial",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1600
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20energy%20thrusters.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.0s7ueohSBmTGVVgI",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 2000000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "eRgMmNGD8KzPOARr",
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.eRgMmNGD8KzPOARr"
+    },
+    {
+      "type": "melee",
+      "name": "Jaws",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "damageRolls": {
+          "WauxNqRrS5uuktwP": {
+            "damage": "2d8+8",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 17
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "QIOiSkCvVp8jZWuG",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.QIOiSkCvVp8jZWuG"
+    },
+    {
+      "_id": "1qllRbpPMf0HRxwT",
+      "name": "Injection Rifle",
+      "type": "melee",
+      "system": {
+        "slug": "injection-rifle",
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "wmVmsJzk41xkW80o": {
+            "damage": "2d8+6",
+            "damageType": "poison",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "analog",
+            "breakdown",
+            "expend-1",
+            "fatal-d10",
+            "injection",
+            "kickback",
+            "range-increment-100",
+            "reload-1",
+            "unwieldy",
+            "volley-30"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "attackEffects": {
+          "value": [
+            "tranquili-zo"
+          ]
+        }
+      },
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "NSZGkCjbv8yTkSr0"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": 1726341551908,
+        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+      },
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.1qllRbpPMf0HRxwT"
+    },
+    {
+      "_id": "zycnvZP1q6eotpsy",
+      "name": "Needler Pistol",
+      "type": "melee",
+      "system": {
+        "slug": "needler-pistol",
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "w21aB2smySF9ICQR": {
+            "damage": "2d4+6",
+            "damageType": "poison",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "analog",
+            "expend-1",
+            "injection",
+            "range-increment-30",
+            "reload-1"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "attackEffects": {
+          "value": [
+            "tranquili-zo"
+          ]
+        }
+      },
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "PoBAOvsTkzdHeIA8"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": 1726341582906,
+        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+      },
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.zycnvZP1q6eotpsy"
+    },
+    {
+      "type": "action",
+      "name": "TranquiliZo!",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:24]</p><p><strong>Maximum Duration</strong> 5 minutes</p><p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} (1 round)</p><p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} (1 round)</p><p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} with no Perception check to wake up (1 minute)</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "poison"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "F8GGgWizD1IAlARN",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.F8GGgWizD1IAlARN"
+    },
+    {
+      "type": "action",
+      "name": "Aim",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The crewmember takes careful aim against a single target. Until the end of this turn, their ranged Strikes against this mark using an injection rifle deal an additional 2d4 precision damage and reduce the circumstance bonus to AC the mark gets from cover by 1. These benefits only apply if the mark is within the weapon's first range increment.</p>"
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "aim",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "category": "precision",
+            "diceNumber": 2,
+            "dieSize": "d4",
+            "key": "DamageDice",
+            "predicate": [
+              "aim"
+            ],
+            "selector": "injection-rifle-damage"
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "fyxj4QQEDSa45y0i",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": 1726341626761,
+        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+      },
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.fyxj4QQEDSa45y0i"
+    },
+    {
+      "type": "action",
+      "name": "Defensive Reload",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The Corpse Fleet sniper reloads a weapon they're holding, then Takes Cover.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "9o8VPPH0n5QV5BBM",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.9o8VPPH0n5QV5BBM"
+    },
+    {
+      "name": "Magazine (Injection Rifle)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "magazine-injection-rifle",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 12
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "ammo",
+        "uses": {
+          "value": 12,
+          "max": 12,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "other"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "icons/weapons/ammunition/arrow-broadhead-green.webp",
+      "folder": "GwujgNN7WkToI8vn",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.qafoMgEmGjymuHMY",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": 1726341251492,
+        "modifiedTime": 1726341366987,
+        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+      },
+      "sort": 5900000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "paBWq1lQyu1NTnYu": 3
+      },
+      "_id": "2BhkKyo0eHi8UbdK",
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.2BhkKyo0eHi8UbdK"
+    },
+    {
+      "name": "Magazine (Needler Pistol)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "magazine-needler-pistol",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 4,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "ammo",
+        "uses": {
+          "value": 3,
+          "max": 3,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "other"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/syringe.webp",
+      "folder": "GwujgNN7WkToI8vn",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.0yQOOAZ1d7H6cX89",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": 1726341262432,
+        "modifiedTime": 1726341315826,
+        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+      },
+      "sort": 5600000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "paBWq1lQyu1NTnYu": 3
+      },
+      "_id": "96Gy2zX4xwGQRe3t",
+      "_key": "!actors.items!6wOvXBkAugqTgqjb.96Gy2zX4xwGQRe3t"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.3.1",
+    "createdTime": 1726281653421,
+    "modifiedTime": 1726281653421,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "sort": 0,
+  "_key": "!actors!6wOvXBkAugqTgqjb"
+}

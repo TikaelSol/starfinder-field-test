@@ -1,0 +1,261 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Ad Twist",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Ad Twist",
+  "type": "hazard",
+  "effects": [],
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": 13,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 19,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 13,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 27
+      },
+      "hp": {
+        "value": 62,
+        "max": 62,
+        "temp": 0,
+        "details": ""
+      },
+      "hardness": 15,
+      "stealth": {
+        "value": 15,
+        "details": ""
+      },
+      "emitsSound": "encounter",
+      "immunities": [
+        {
+          "type": "critical-hits",
+          "exceptions": []
+        },
+        {
+          "type": "electricity",
+          "exceptions": []
+        }
+      ]
+    },
+    "details": {
+      "isComplex": true,
+      "level": {
+        "value": 8
+      },
+      "disable": "<p>@Check[computers|dc:28] (trained) to shut down the drone, @Check[crafting|dc:27] (trained) to sabotage the drone's projector, @Check[thievery|dc:26] (trained) to disable the drone</p>",
+      "description": "<p>A hover drone projects hardlight ads that can physically push targets.</p>",
+      "reset": "",
+      "routine": "<p>(1 action) The drone emits a hardlight advertisement at a random PC who must attempt a @Check[reflex|dc:30] save.</p><hr><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target takes @Damage[1d10[bludgeoning]] damage and is pushed back 10 feet.</p><p><strong>Failure</strong> The target takes @Damage[2d10[bludgeoning]] damage and is pushed back 15 feet.</p><p><strong>Critical Failure</strong> The target takes @Damage[4d10[bludgeoning]] damage, is pushed back 20 feet, and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} if in high gravity, or becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.z1ucw4CLwLqHoAp3]{Untethered} if in zero-g.</p>",
+      "publication": {
+        "title": "Starfinder Playtest Scenario #3: Wheel of Monsters",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "mechanical",
+        "trap",
+        "tech"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    }
+  },
+  "_id": "sM1DVAhBoiaFFHxn",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "type": "action",
+      "name": "A Word from our Sponsors",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The combat begins</p><hr /><p><strong>Effect</strong> The drone emits colorful advertisements and rolls initiative.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "g4152fiFsVk9cLxq",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!sM1DVAhBoiaFFHxn.g4152fiFsVk9cLxq"
+    }
+  ],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.3.1",
+    "createdTime": 1726281653421,
+    "modifiedTime": 1726337918434,
+    "lastModifiedBy": "paBWq1lQyu1NTnYu"
+  },
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "sort": 0,
+  "_key": "!actors!sM1DVAhBoiaFFHxn"
+}

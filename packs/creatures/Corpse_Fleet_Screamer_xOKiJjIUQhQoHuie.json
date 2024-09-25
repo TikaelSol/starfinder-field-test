@@ -1,0 +1,1064 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Corpse Fleet Screamer",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Corpse Fleet Screamer",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 151,
+        "temp": 0,
+        "max": 151,
+        "details": "void healing"
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 20
+          }
+        ],
+        "details": "jetpack"
+      },
+      "ac": {
+        "value": 28,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "immunities": [
+        {
+          "type": "bleed",
+          "exceptions": []
+        },
+        {
+          "type": "death-effects",
+          "exceptions": []
+        },
+        {
+          "type": "disease",
+          "exceptions": []
+        },
+        {
+          "type": "paralyzed",
+          "exceptions": []
+        },
+        {
+          "type": "poison",
+          "exceptions": []
+        },
+        {
+          "type": "unconscious",
+          "exceptions": []
+        }
+      ],
+      "resistances": [
+        {
+          "type": "cold",
+          "value": 6,
+          "exceptions": [],
+          "doubleVs": []
+        },
+        {
+          "type": "electricity",
+          "value": 6,
+          "exceptions": [],
+          "doubleVs": []
+        },
+        {
+          "type": "piercing",
+          "value": 6,
+          "exceptions": [],
+          "doubleVs": []
+        },
+        {
+          "type": "slashing",
+          "value": 6,
+          "exceptions": [],
+          "doubleVs": []
+        },
+        {
+          "type": "fire",
+          "value": 6,
+          "exceptions": [],
+          "doubleVs": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "common",
+          "eoxian",
+          "necril"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 9
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Playtest Scenario #3: Wheel of Monsters",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 6
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 16,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 21,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 14,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 17
+      },
+      "athletics": {
+        "base": 19
+      },
+      "deception": {
+        "base": 14
+      },
+      "intimidation": {
+        "base": 16
+      }
+    },
+    "traits": {
+      "value": [
+        "skeleton",
+        "undead",
+        "unholy"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "_id": "xOKiJjIUQhQoHuie",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "name": "Battery (Advanced)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "battery-advanced",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 40
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "ammo",
+        "uses": {
+          "value": 40,
+          "max": 40,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "other"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/yellow%20battery.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.6TEtk7NaS1IxbRUl",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "folder": "GwujgNN7WkToI8vn",
+      "sort": 8800000,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "WgjlcM07cVoEh7ow",
+      "_key": "!actors.items!xOKiJjIUQhQoHuie.WgjlcM07cVoEh7ow"
+    },
+    {
+      "folder": "BMj8rInFB3ecSG3i",
+      "name": "Jetpack (Commercial)",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Boosters the size of a backpack attach to the back of your armor and allow you to fly.</p><p><strong>Activate—Fly</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You activate a jetpack to gain a fly Speed of 20 feet. This effect lasts for 1 minute or until you Dismiss it. You can use an action to Fly 0 feet to hover in place, but you are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while doing so. A jetpack can't lift you if you're encumbered.</p>"
+        },
+        "rules": [],
+        "slug": "jetpack-commercial",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1600
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20energy%20thrusters.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.0s7ueohSBmTGVVgI",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 2000000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "Fgl3fUpU1sNU5zZT",
+      "_key": "!actors.items!xOKiJjIUQhQoHuie.Fgl3fUpU1sNU5zZT"
+    },
+    {
+      "folder": "o4lPEY2w6k5o9O8D",
+      "name": "Defrex Hide (Advanced)",
+      "type": "armor",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Upgrades:</strong> 1+1</p><hr /><p>Made from the hide of a ferocious mammal native to Vesk-2, this light armor is especially popular among vesk. Tanned slabs of the creature's thick hide are stitched together with metal wires, and the joints are reinforced with metal studs or scales.</p>"
+        },
+        "rules": [],
+        "slug": "defrex-hide",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 8
+        },
+        "quantity": 1,
+        "baseItem": "defrex-hide",
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 5025
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "medium",
+        "group": "leather",
+        "acBonus": 3,
+        "strength": 2,
+        "dexCap": 2,
+        "checkPenalty": -2,
+        "speedPenalty": -5,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": [],
+        "specific": null
+      },
+      "img": "icons/equipment/chest/breastplate-layered-leather-brown.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.19hcklZtUvKsVmoO",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": 1726341102613,
+        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "0pnqIWOTXFAzFsHM",
+      "_key": "!actors.items!xOKiJjIUQhQoHuie.0pnqIWOTXFAzFsHM"
+    },
+    {
+      "folder": "OoVQVkJhSjhIyN7a",
+      "name": "Advanced Screamer",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Upgrades:</strong> 2</p><hr /><p>Resembling a large directional speaker held in two hands, a screamer produces a deafening rush of sound loud enough to shatter glass and rupture eardrums. At lower volumes, a screamer functions as a portable loudspeaker</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "{item|id}-attack",
+            "value": 1,
+            "type": "item",
+            "label": "SF2E.Trait.Tracking"
+          }
+        ],
+        "slug": "screamer",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "area-cone",
+            "expend-2",
+            "tech",
+            "tracking-1",
+            "unwieldy"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 820
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "simple",
+        "group": null,
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 2,
+          "die": "d12",
+          "damageType": "sonic",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 15,
+        "reload": {
+          "value": "1"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "icons/weapons/guns/gun-blunderbuss-steel.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.9AZcdcSNdmAD684T",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "7R9xat1ISDKUa6ut",
+      "_key": "!actors.items!xOKiJjIUQhQoHuie.7R9xat1ISDKUa6ut"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Void Healing",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          }
+        ],
+        "slug": "void-healing",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_id": "Cal7FDKGOeLzRY2p",
+      "_key": "!actors.items!xOKiJjIUQhQoHuie.Cal7FDKGOeLzRY2p"
+    },
+    {
+      "type": "melee",
+      "name": "Claw",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile"
+          ]
+        },
+        "damageRolls": {
+          "7s4uWVVInvQ32oZo": {
+            "damage": "2d6+10",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 19
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "5ZdTFnrgmBSvGhGQ",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!xOKiJjIUQhQoHuie.5ZdTFnrgmBSvGhGQ"
+    },
+    {
+      "type": "action",
+      "name": "Area Fire",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Screamer (@Template[type:cone|distance:15], expend 2, mag 40, reload 1, tech, unwieldy)</p><p><strong>Damage</strong> @Damage[(2d12+6)[sonic]] (@Check[reflex|dc:28|basic]) plus suppressing fire</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "r5wyu7SulGRfxTBc",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!xOKiJjIUQhQoHuie.r5wyu7SulGRfxTBc"
+    },
+    {
+      "type": "action",
+      "name": "Suppressing Fire",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Creatures who fail their save against a screamer's Area Fire become @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of the Corpse Fleet screamer's next turn.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "k60YnYi7ZTW4nRWR",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!xOKiJjIUQhQoHuie.k60YnYi7ZTW4nRWR"
+    },
+    {
+      "type": "action",
+      "name": "Pump up the Volume",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The Corpse Fleet screamer overcharges their screamer, increasing its potency. If their next action is to use Area Fire with their screamer, its expend increases to 4, the area increases to a @Template[type:cone|distance:30], and the damage dealt increases to @Damage[(3d12+6)[sonic]].</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "gwCBrK0wi6NDS9J3",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!xOKiJjIUQhQoHuie.gwCBrK0wi6NDS9J3"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.3.1",
+    "createdTime": 1726281653421,
+    "modifiedTime": 1726340981647,
+    "lastModifiedBy": "paBWq1lQyu1NTnYu"
+  },
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "sort": 0,
+  "_key": "!actors!xOKiJjIUQhQoHuie"
+}

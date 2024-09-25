@@ -1,0 +1,1744 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Troll Bombard",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "folder": null,
+  "name": "Troll Bombard",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 240,
+        "temp": 0,
+        "max": 240,
+        "details": "regeneration 20 (deactivated by electricity or fire)"
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 20
+          }
+        ],
+        "details": "jetpack"
+      },
+      "ac": {
+        "value": 29,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "weaknesses": [
+        {
+          "type": "electricity",
+          "value": 10,
+          "exceptions": []
+        },
+        {
+          "type": "fire",
+          "value": 10,
+          "exceptions": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "common",
+          "jotun"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 10
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Playtest Scenario #3: Wheel of Monsters",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 7
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 7
+      },
+      "int": {
+        "mod": -1
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 19,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 23,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 17,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 15,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 21
+      },
+      "intimidation": {
+        "base": 22
+      },
+      "survival": {
+        "base": 17
+      }
+    },
+    "traits": {
+      "value": [
+        "giant",
+        "humanoid",
+        "troll",
+        "wood"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "lg"
+      }
+    }
+  },
+  "_id": "yBmfHisqQg3iZEpe",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "type": "action",
+      "name": "Easily Misled",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The troll bombard gets a –4 circumstance penalty to their Perception DC against Deception checks.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "Uy3T0PqTV8a0msVP",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.Uy3T0PqTV8a0msVP"
+    },
+    {
+      "folder": "o4lPEY2w6k5o9O8D",
+      "name": "Freebooter Armor (Advanced)",
+      "type": "armor",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Freebooter armor is named for the pirates and outlaws who often wear these outfits. Freebooter armor typically consists of a breastplate worn under a jacket or flight suit, heavy boots and gloves, a helmet, and hidden straps and holsters for concealing weapons.</p>"
+        },
+        "rules": [],
+        "slug": "freebooter-armor",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 8
+        },
+        "quantity": 1,
+        "baseItem": "freebooter-armor",
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 65
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "medium",
+        "group": "plate",
+        "acBonus": 4,
+        "strength": 3,
+        "dexCap": 1,
+        "checkPenalty": -2,
+        "speedPenalty": -5,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": [],
+        "specific": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/finp_275_b.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.fDkbtTBKrh5bfQ20",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": 1726341721224,
+        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "HQbvKgCWP6MuirfO",
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.HQbvKgCWP6MuirfO"
+    },
+    {
+      "folder": "GwujgNN7WkToI8vn",
+      "name": "Frag Grenade (Superior)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deals @Damage[2d8[piercing]] piercing damage in a @Template[type:burst|distance:15] with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save.</p><p><strong>Critical</strong> @Damage[1d6[persistent,bleed]] damage</p>"
+        },
+        "rules": [],
+        "slug": "frag-grenade-superior",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "grenade",
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 9,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1500
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/grenade%20hand.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.7JKCyVj41pamkNo6",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 103125,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "JgLqssliF88NVVoZ",
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.JgLqssliF88NVVoZ"
+    },
+    {
+      "folder": "GwujgNN7WkToI8vn",
+      "name": "Incendiary Grenade (Superior)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal @Damage[2d8[fire]] damage with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save. If you have the critical weapon specialization of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p><p><strong>Radius</strong> 15 ft <strong>Critical</strong> 10 feet</p>"
+        },
+        "rules": [],
+        "slug": "incendiary-grenade-superior",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "fire",
+            "grenade",
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 10
+        },
+        "quantity": 9,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1500
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/grenade%20canister.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.Aj4TtlwVRqhUMaFe",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 7300000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "3LqWkkO6MBiwbDjh",
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.3LqWkkO6MBiwbDjh"
+    },
+    {
+      "folder": "OoVQVkJhSjhIyN7a",
+      "name": "Superior Machine Gun",
+      "type": "weapon",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Upgrades: </strong>3</p><hr /><p>These proven and reliable automatic weapons are capable of firing in short bursts or completely emptying their magazines to clear a battlefield.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "{item|id}-attack",
+            "value": 2,
+            "type": "item",
+            "label": "SF2E.Trait.Tracking"
+          }
+        ],
+        "slug": "machine-gun",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "analog",
+            "automatic",
+            "expend-1",
+            "tracking-2"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "machine-gun",
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 9080
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "martial",
+        "group": "projectile",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 2,
+          "die": "d8",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 40,
+        "reload": {
+          "value": "2"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "criticalConditionType": "",
+          "criticalConditionValue": null
+        }
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/nj_704_b.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.ueUgtt9OM3ay3yCT",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 2700000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "a0RmrCuh7plAMaNW",
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.a0RmrCuh7plAMaNW"
+    },
+    {
+      "folder": "BMj8rInFB3ecSG3i",
+      "name": "Jetpack (Commercial)",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Boosters the size of a backpack attach to the back of your armor and allow you to fly.</p><p><strong>Activate—Fly</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You activate a jetpack to gain a fly Speed of 20 feet. This effect lasts for 1 minute or until you Dismiss it. You can use an action to Fly 0 feet to hover in place, but you are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while doing so. A jetpack can't lift you if you're encumbered.</p>"
+        },
+        "rules": [],
+        "slug": "jetpack-commercial",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1600
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20energy%20thrusters.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.0s7ueohSBmTGVVgI",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 2000000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "qE85M3e8W648oiB4",
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.qE85M3e8W648oiB4"
+    },
+    {
+      "name": "Magazine (Machine Gun)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "magazine-machine-gun",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 5,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 20
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "ammo",
+        "uses": {
+          "value": 20,
+          "max": 20,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "other"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/mine.webp",
+      "folder": "GwujgNN7WkToI8vn",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.eIZRl7uImsG9IUyr",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 5800000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "mK4nsAVb5qB2d6EH",
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.mK4nsAVb5qB2d6EH"
+    },
+    {
+      "_id": "wFWQHBhUuNNI2PgW",
+      "name": "Machine Gun",
+      "type": "melee",
+      "system": {
+        "slug": "machine-gun",
+        "bonus": {
+          "value": 20
+        },
+        "damageRolls": {
+          "mNL8d4IPrnp8s3Sc": {
+            "damage": "2d8+6",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "analog",
+            "automatic",
+            "expend-1",
+            "range-increment-40",
+            "reload-2"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "a0RmrCuh7plAMaNW"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": 1726341891616,
+        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+      },
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.wFWQHBhUuNNI2PgW"
+    },
+    {
+      "type": "melee",
+      "name": "Jaws",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-10"
+          ]
+        },
+        "damageRolls": {
+          "bg5e32JwGHxXwXSs": {
+            "damage": "2d12+13",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 23
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "GdWrKRuE8qDwHIdp",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.GdWrKRuE8qDwHIdp"
+    },
+    {
+      "type": "melee",
+      "name": "Claw",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "reach-10"
+          ]
+        },
+        "damageRolls": {
+          "PBHGNIAxVXl4PArh": {
+            "damage": "2d8+13",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 23
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "b6I54YpI64raJpAf",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.b6I54YpI64raJpAf"
+    },
+    {
+      "type": "action",
+      "name": "Area Fire",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Frag grenade (@Template[type:burst|distance:15], range 30 feet)</p><p><strong>Damage</strong> @Damage[(2d8+6)[piercing]] (@Check[reflex|dc:29|basic])</p><hr /><p>Incendiary grenade (@Template[type:burst|distance:15], range 30 feet)</p><p><strong>Damage</strong> @Damage[(2d8+6)[fire]] (@Check[reflex|dc:29|basic])</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "whO2JKD5J9QEIWiH",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": 1726341955688,
+        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+      },
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.whO2JKD5J9QEIWiH"
+    },
+    {
+      "type": "action",
+      "name": "Auto-Fire",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>machine gun (@Template[type:cone|distance:20])</p><p><strong>Damage</strong> @Damage[(2d8+6)[piercing]] (@Check[reflex|dc:29|basic]) plus suppressing fire</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "BpqdZKGdHml7gmt3",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.BpqdZKGdHml7gmt3"
+    },
+    {
+      "type": "action",
+      "name": "Primordial Roar",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The troll warleader unleashes a bestial roar. Each non-troll creature in a @Template[type:emanation|distance:100] must attempt a @Check[will|dc:29] save. The creature is then temporarily immune for 10 minutes.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "auditory",
+            "emotion",
+            "fear",
+            "mental"
+          ]
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "CRN0uHLvklicZkhu",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.CRN0uHLvklicZkhu"
+    },
+    {
+      "type": "action",
+      "name": "Strafing Bombard",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The troll bombard Strides up to their Speed. At any point during this movement, the troll can Interact to draw a grenade and immediately Area Fire to throw that grenade. They can draw and throw a total of two grenades during their movement in this way.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 3
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "weBfKMxsPLzpiXUQ",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.weBfKMxsPLzpiXUQ"
+    },
+    {
+      "type": "action",
+      "name": "Vital Spray",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The bombard cuts open their chest, ripping apart their own armor as they spray a cone of viscera in a howl of pain. The troll can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} each non-troll creature in a @Template[type:cone|distance:30]. They immediately heal @Damage[60[healing]] Hit Points in a surge of regeneration. Without their armor, the bombard's AC drops to 25. This ability can't be used again for 1 hour.</p>"
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "vital-spray",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "ac",
+            "value": -4,
+            "predicate": [
+              "vital-spray"
+            ]
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "l3QjNcptY8gf1gp2",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": 1726341807011,
+        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+      },
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.l3QjNcptY8gf1gp2"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Regeneration 20 (Deactivated by Electricity Or Fire)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+        },
+        "rules": [
+          {
+            "deactivatedBy": [
+              "electricity",
+              "fire"
+            ],
+            "key": "FastHealing",
+            "type": "regeneration",
+            "value": 20
+          }
+        ],
+        "slug": "regeneration",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": true
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_id": "qSj2JyTdMDk58Vra",
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.qSj2JyTdMDk58Vra"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Reactive Strike",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+        },
+        "rules": [],
+        "slug": "reactive-strike",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Monster Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_id": "4Iv9HvoTLAc3RDRs",
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.4Iv9HvoTLAc3RDRs"
+    },
+    {
+      "type": "action",
+      "name": "Furious Roar",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The troll bombard takes electricity or fire damage</p><hr /><p><strong>Effect</strong> The troll bombard uses their Primordial Roar and, if they're aware of the damage's source, can Stride towards it. If the bombard has persistent fire damage, they attempt a @Check[flat|dc:15] to remove it.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": "defensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "Q8ltHkOUvBLqpVSq",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.Q8ltHkOUvBLqpVSq"
+    },
+    {
+      "type": "action",
+      "name": "Suppressing Fire",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Creatures who fail their save against a Troll Bombard's Area Fire become @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of the Troll Bombard's next turn.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.3.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": null,
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "H2RHUKglmSvAnXop",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "paBWq1lQyu1NTnYu": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.3.1",
+        "createdTime": 1726342025060,
+        "modifiedTime": 1726342081501,
+        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+      },
+      "_key": "!actors.items!yBmfHisqQg3iZEpe.H2RHUKglmSvAnXop"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.3.1",
+    "createdTime": 1726281653421,
+    "modifiedTime": 1726281653421,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "sort": 0,
+  "_key": "!actors!yBmfHisqQg3iZEpe"
+}
