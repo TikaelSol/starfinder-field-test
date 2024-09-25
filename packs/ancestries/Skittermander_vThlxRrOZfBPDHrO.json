@@ -20,7 +20,10 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "humanoid",
+        "skittermander"
+      ],
       "rarity": "common"
     },
     "publication": {
