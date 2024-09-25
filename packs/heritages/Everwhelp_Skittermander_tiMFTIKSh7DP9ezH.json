@@ -1,5 +1,5 @@
 {
-  "name": "Everywhelp Skittermander",
+  "name": "Everwhelp Skittermander",
   "type": "heritage",
   "effects": [],
   "system": {
@@ -30,7 +30,7 @@
         ]
       }
     ],
-    "slug": "everywhelp-skittermander",
+    "slug": "everwhelp-skittermander",
     "_migration": {
       "version": 0.932,
       "lastMigration": null,
