@@ -572,7 +572,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>The skorresh unfolds its sturdy shell-like wings to deflect attacks. This counts as Raising a Shield. A skorresh's shell has Hardness 3. Because it's a part of the skorresh, all damage in excess of the shell's Hardness is dealt only to the skorresh (not to its shell).</p><p></p>"
+          "value": "<p>The skorresh unfolds its sturdy shell-like wings to deflect attacks. This counts as Raising a Shield. A skorresh's shell has Hardness 3. Because it's a part of the skorresh, all damage in excess of the shell's Hardness is dealt only to the skorresh (not to its shell).</p>"
         },
         "rules": [],
         "slug": null,
