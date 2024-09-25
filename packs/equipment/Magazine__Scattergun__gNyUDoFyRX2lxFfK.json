@@ -42,7 +42,8 @@
     "price": {
       "value": {
         "sp": 4
-      }
+      },
+      "per": 10
     },
     "equipped": {
       "carryType": "worn",
@@ -86,12 +87,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.0",
     "createdTime": 1722224680311,
-    "modifiedTime": 1722383752952,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1727275731039,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_id": "gNyUDoFyRX2lxFfK",
   "sort": 5400000,
