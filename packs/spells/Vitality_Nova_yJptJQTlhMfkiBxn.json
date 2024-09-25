@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Connection</strong> healing</p>\n<p><strong>Transfer Cost</strong> any (minimum 2)</p>\n<hr />\n<p>You release a burst of condensed vitality energy, causing a radiant explosion of healing light. Vitality nova heals all creatures in the area 1 Hit Points for every 2 Hit Points spent to cast it. Treat this healing as a use of Transfer Vitality.</p>\n<ul>\n<li>If you spend 20 or more Hit Points and the spell was cast in an area of magical darkness, vitality nova attempts to counteract the darkness effect.</li>\n<li>If you spend 40 or more Hit Points, creatures healed by the spell can attempt a @Check[type:flat|dc:10|showDC:all] to end persistent bleed damage.</li>\n<li>If you spend 60 more Hit Points, end all persistent damage on creatures healed by this spell.\n<p> </p>\n</li>\n</ul>"
+      "value": "<p><strong>Connection</strong> healing</p>\n<p><strong>Transfer Cost</strong> any (minimum 2)</p>\n<hr />\n<p>You release a burst of condensed vitality energy, causing a radiant explosion of healing light. Vitality nova heals all creatures in the area 1 Hit Points for every 2 Hit Points spent to cast it. Treat this healing as a use of Transfer Vitality.</p>\n<ul>\n<li>If you spend 20 or more Hit Points and the spell was cast in an area of magical darkness, vitality nova attempts to counteract the darkness effect.</li>\n<li>If you spend 40 or more Hit Points, creatures healed by the spell can attempt a @Check[type:flat|dc:10|showDC:all] to end persistent bleed damage.</li>\n<li>If you spend 60 more Hit Points, end all persistent damage on creatures healed by this spell.</li>\n</ul>"
     },
     "rules": [],
     "slug": "vitality-nova",

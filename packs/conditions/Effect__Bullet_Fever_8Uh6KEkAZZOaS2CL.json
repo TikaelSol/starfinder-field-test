@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<ul><li><p>You gain a number of temporary Hit Points equal to your level plus your key attribute modifier</p></li><li><p>You automatically apply precision damage to all targets as though you were Aiming.</p></li><li><p>You take a –2 circumstance penalty to AC.</p></li><li><p>You take a –2 circumstance penalty to Will saves.</p></li></ul>"
+      "value": "<ul><li>You gain a number of temporary Hit Points equal to your level plus your key attribute modifier.</li><li>You automatically apply precision damage to all targets as though you were Aiming.</li><li>You take a –2 circumstance penalty to AC.</li><li>You take a –2 circumstance penalty to Will saves.</li></ul>"
     },
     "rules": [
       {

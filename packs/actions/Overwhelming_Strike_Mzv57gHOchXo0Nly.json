@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Trigger</strong> Your Strike hits a creature you've designated as your mark and deals damage.</p><hr /><p>You apply one of the following overwhelms, which lasts until the end of your next turn.</p><ul><li><strong>Overwhelm</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}.</li><li><strong>Overwhelm</strong> The target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed}.</li><li><p><strong>Overwhelm</strong> The target can't @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} or benefit from cover.</p><p></p></li></ul>"
+      "value": "<p><strong>Trigger</strong> Your Strike hits a creature you've designated as your mark and deals damage.</p><hr /><p>You apply one of the following overwhelms, which lasts until the end of your next turn.</p><ul><li><strong>Overwhelm</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}.</li><li><strong>Overwhelm</strong> The target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed}.</li><li><strong>Overwhelm</strong> The target can't @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} or benefit from cover.</li></ul>"
     },
     "rules": [],
     "slug": "overwhelming-strike",
