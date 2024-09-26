@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Ammunition</strong> missile launcher</p><hr /><p>This missile carries an explosive warhead that deals @Damage[1d8[bludgeoning]] damage to its target and @Damage[1[fire,splash]] damage in the subsequent explosion.</p>"
+      "value": "<p><strong>Ammunition</strong> missile launcher</p><hr /><p>This missile carries an explosive warhead that deals @Damage[1d8[bludgeoning]] damage to its target and @Damage[(1[splash])[fire]] splash damage in the subsequent explosion.</p>"
     },
     "rules": [],
     "slug": "ballistic-missile-commercial",
