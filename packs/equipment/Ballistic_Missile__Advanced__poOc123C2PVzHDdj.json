@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Ammunition</strong> missile launcher</p><hr /><p>This missile carries an explosive warhead that deals @Damage[3d8[bludgeoning]] damage to its target and @Damage[3[fire]] damage in the subsequent explosion with a basic Reflex save.</p>"
+      "value": "<p><strong>Ammunition</strong> missile launcher</p><hr /><p>This missile carries an explosive warhead that deals @Damage[3d8[bludgeoning]] damage to its target and @Damage[3[fire,splash]] damage in the subsequent explosion.</p>"
     },
     "rules": [],
     "slug": "ballistic-missile-advanced",
