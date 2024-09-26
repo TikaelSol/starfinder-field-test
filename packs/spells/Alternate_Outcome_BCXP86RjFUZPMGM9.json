@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Paradox</strong> analyst</p>\n<p><strong>Trigger</strong> A creature in your quantum field would succeed (but not critically succeed) a saving throw.</p>\n<hr />\n<p>You reject the outcome in your current existence and replace it with that of a different reality. The target must reroll the triggering saving throw and use the worse result.</p>"
+      "value": "<p><strong>Paradox</strong> analyst</p>\n<p><strong>Trigger</strong> A creature in your quantum field would succeed (but not critically succeed) a saving throw.</p>\n<hr />\n<p>You reject the outcome in your current existence and replace it with that of a different reality. The target must reroll the triggering saving throw and use the worse result.</p>"
     },
     "rules": [],
     "slug": "alternate-outcome",

@@ -14,7 +14,7 @@
                     "laser": "The target must succeed at a @Check[fortitude|against:class] save against your class DC or be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn.",
                     "mental": "The target must succeed at a @Check[will|against:class] save against your class DC or be @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the start of your next turn.",
                     "missile": "The target is knocked back 5 feet from the source of the missile's explosion. This is forced movement.",
-                    "plasma": "The target takes @Damage[(1d6 + @item.system.runes.potency)[persistent,electricity]]. You gain an item bonus to this electricity damage equal to the weapon's item bonus to attack rolls. ",
+                    "plasma": "The target takes @Damage[(1d6 + @item.system.runes.potency)[persistent,electricity]]. You gain an item bonus to this electricity damage equal to the weapon's item bonus to attack rolls.",
                     "poison": "The target must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} until the start of your next turn.",
                     "projectile": "The target must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the start of your next turn.",
                     "shock": "The target must succeed at a @Check[fortitude|against:class] or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} until the start of your next turn.",

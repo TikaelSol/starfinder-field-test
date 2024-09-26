@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p> This flexible nanocarbon circuit can be installed as an upgrade into gloves, kneepads, or similar appendage protectors to emit a powerful electric shock when forcefully applied to a target.</p>"
+      "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This flexible nanocarbon circuit can be installed as an upgrade into gloves, kneepads, or similar appendage protectors to emit a powerful electric shock when forcefully applied to a target.</p>"
     },
     "rules": [],
     "slug": "shock-pad",

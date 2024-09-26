@@ -320,7 +320,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p><strong>Trigger </strong>A creature passes within 20 feet of the glass serpent and has not detected the glass serpent</p>\n<hr />\n<p><strong>Effect</strong> The glass serpent lunges out of hiding. It Strides directly toward the triggering creature and makes a jaws Strike against it. The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to this attack.</p>"
+          "value": "<p><strong>Trigger</strong> A creature passes within 20 feet of the glass serpent and has not detected the glass serpent</p>\n<hr />\n<p><strong>Effect</strong> The glass serpent lunges out of hiding. It Strides directly toward the triggering creature and makes a jaws Strike against it. The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to this attack.</p>"
         },
         "rules": [],
         "slug": null,

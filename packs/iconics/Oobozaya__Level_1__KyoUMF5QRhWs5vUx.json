@@ -778,7 +778,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p><strong>Upgrades: </strong>1</p><hr /><p>These proven and reliable automatic weapons are capable of firing in short bursts or completely emptying their magazines to clear a battlefield.</p>"
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>These proven and reliable automatic weapons are capable of firing in short bursts or completely emptying their magazines to clear a battlefield.</p>"
         },
         "rules": [],
         "slug": "machine-gun",
@@ -919,7 +919,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p><strong>Upgrades: </strong>1</p><hr /><p>The traditional weapon of the Veskarium, this powered poleaxe features one to three triangular blades forged for both wide overhead swings and tactical parrying.</p>"
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>The traditional weapon of the Veskarium, this powered poleaxe features one to three triangular blades forged for both wide overhead swings and tactical parrying.</p>"
         },
         "rules": [],
         "slug": "doshko",

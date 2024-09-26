@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by <em>@UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.L5xqxo9onL2zcMCe]{Song of the Spheres}</em></p>\n<hr />\n<p><strong>Critical Success</strong> As success, except the effect lasts 3 rounds.</p>\n<p><strong>Success</strong> You and all bonded allies gain a +1 status bonus to attack rolls and damage rolls for 1 round.</p>\n<p><strong>Failure</strong> As success, except this only affects you and one selected bonded ally within range.</p>\n<p><strong>Critical Failure</strong> The spell has no effect.</p>"
+      "value": "<p>Granted by <em>@UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.L5xqxo9onL2zcMCe]{Song of the Spheres}</em></p>\n<hr />\n<p><strong>Critical Success</strong> As success, except the effect lasts 3 rounds.</p>\n<p><strong>Success</strong> You and all bonded allies gain a +1 status bonus to attack rolls and damage rolls for 1 round.</p>\n<p><strong>Failure</strong> As success, except this only affects you and one selected bonded ally within range.</p>\n<p><strong>Critical Failure</strong> The spell has no effect.</p>"
     },
     "rules": [
       {

@@ -1348,7 +1348,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p><strong>Upgrades: </strong>1</p><hr /><p>This bladed hoop is carved from a chunk of Aucturn and sculpted to resemble a planet's ring. The material has been found throughout the Pact Worlds and beyond, mysteriously appearing lightyears from Aucturn's original orbit.</p>"
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This bladed hoop is carved from a chunk of Aucturn and sculpted to resemble a planet's ring. The material has been found throughout the Pact Worlds and beyond, mysteriously appearing lightyears from Aucturn's original orbit.</p>"
         },
         "rules": [],
         "slug": "aucturnite-chakram",
@@ -1489,7 +1489,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p> This basic pistol automatically ejects used cartridges and loads new ammunition after every shot fired.</p>"
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This basic pistol automatically ejects used cartridges and loads new ammunition after every shot fired.</p>"
         },
         "rules": [],
         "slug": "semi-auto-pistol",

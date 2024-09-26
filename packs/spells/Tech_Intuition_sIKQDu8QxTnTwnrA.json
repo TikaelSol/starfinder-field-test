@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Trigger </strong>You attempt a skill check to Recall Knowledge about a piece of technology or use a technological device, or you roll a saving throw against an effect with the technology trait.</p>\n<hr />\n<p>Focusing on a piece of technology, you get a brief glimpse of its nature and function. You roll the triggering check twice (or the GM rolls in the case of checks to Recall Knowledge) and use the better result.</p>"
+      "value": "<p><strong>Trigger</strong> You attempt a skill check to Recall Knowledge about a piece of technology or use a technological device, or you roll a saving throw against an effect with the technology trait.</p>\n<hr />\n<p>Focusing on a piece of technology, you get a brief glimpse of its nature and function. You roll the triggering check twice (or the GM rolls in the case of checks to Recall Knowledge) and use the better result.</p>"
     },
     "rules": [],
     "slug": "tech-intuition",

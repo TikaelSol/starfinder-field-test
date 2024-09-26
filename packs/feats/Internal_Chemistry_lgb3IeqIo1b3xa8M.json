@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You tweak your anatomy and bodily systems to metabolize pharmaceuticals more efficiently. Consumable items that have the healing trait and restore Hit Points to you restore an additional number of Hit Points to you equal to half your level.</p>"
+      "value": "<p>You tweak your anatomy and bodily systems to metabolize pharmaceuticals more efficiently. Consumable items that have the healing trait and restore Hit Points to you restore an additional number of Hit Points to you equal to half your level.</p>"
     },
     "rules": [
       {

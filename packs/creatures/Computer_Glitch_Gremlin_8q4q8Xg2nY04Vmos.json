@@ -321,7 +321,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>This creature can communicate telepathically with digital devices and with other creatures that can do so.  This allows the creature to attempt Computers checks to access any computer within the telepathy's range.</p>"
+          "value": "<p>This creature can communicate telepathically with digital devices and with other creatures that can do so. This allows the creature to attempt Computers checks to access any computer within the telepathy's range.</p>"
         },
         "rules": [],
         "slug": null,
@@ -391,7 +391,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>This creature can sense items and creatures with the tech trait within the listed distance.</p>"
+          "value": "<p>This creature can sense items and creatures with the tech trait within the listed distance.</p>"
         },
         "rules": [],
         "slug": null,

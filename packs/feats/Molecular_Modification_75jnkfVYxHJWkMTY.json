@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You modify your body to resist a certain type of damage. You gain resistance to acid, bludgeoning, cold, electricity, fire, piercing, poison, slashing, or sonic damage equal to half your level.</p>\n<hr />\n<p><strong>Special</strong> You can take this feat multiple times. Each time you do so, select a different damage type.</p>"
+      "value": "<p>You modify your body to resist a certain type of damage. You gain resistance to acid, bludgeoning, cold, electricity, fire, piercing, poison, slashing, or sonic damage equal to half your level.</p>\n<hr />\n<p><strong>Special</strong> You can take this feat multiple times. Each time you do so, select a different damage type.</p>"
     },
     "rules": [
       {
