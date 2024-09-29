@@ -1,0 +1,90 @@
+{
+  "name": "Spell Effect: Anthem",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BKVIofy6uT5s6S9L]{Anthem}</p><p>All bonded creatures in the area gain a +1 status bonus to attack rolls and damage rolls, and also gain a +1 status bonus to saves against effects that cause fascination or confusion.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack-roll",
+          "damage"
+        ],
+        "value": 1,
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 1,
+        "type": "status",
+        "predicate": [
+          {
+            "or": [
+              "confusion",
+              "fascination"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "spell-effect-anthem",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": true
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "systems/pf2e/icons/spells/inspire-courage.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "HfiqVTKP7yuQgALu": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1727628710325,
+    "modifiedTime": 1727628753677,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+  },
+  "_id": "AGRWYk4Dlat0OycE",
+  "sort": 0,
+  "_key": "!items!AGRWYk4Dlat0OycE"
+}
