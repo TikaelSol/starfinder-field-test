@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal @Damage[2d8[fire]] damage with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save. If you have the critical weapon specialization of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p><p><strong>Radius</strong> 15 ft <strong>Critical</strong> 10 feet</p>"
+      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal @Damage[2d8[fire]] damage with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save. If you have the critical weapon specialization of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p><p><strong>Radius </strong>@Template[type:burst|distance:15]{15 ft} <strong>Critical</strong> 10 feet</p>"
     },
     "rules": [],
     "slug": "incendiary-grenade-superior",
@@ -89,12 +89,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
+    "systemVersion": "6.4.1",
     "createdTime": 1722224703004,
-    "modifiedTime": 1722383752952,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1727831379916,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_id": "Aj4TtlwVRqhUMaFe",
   "sort": 7300000,
