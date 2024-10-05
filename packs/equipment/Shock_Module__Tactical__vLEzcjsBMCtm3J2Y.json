@@ -1,15 +1,15 @@
 {
   "folder": "nQnhtmjeQ9PdhEKx",
-  "name": "Sniper's Scope",
+  "name": "Shock Module (Tactical)",
   "type": "equipment",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You can use a telescopic sighting attachment to help aim at enemies who are far away.</p><p><strong>Activate—Adjust Sight</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> Increase the range increment of the weapon the scope is attached to by 10 feet. If the weapon has a base range increment of 50 feet or more, increase the range of the weapon by 20 feet instead. This lasts until the beginning of your next turn or until you're no longer wielding the weapon this scope is attached to, whichever comes first. This does not increase the size of area attacks.</p>"
+      "value": "<p>This deceptively simple upgrade safely courses electricity through your weapon, dealing an extra @Damage[1d6[electricity]] damage on a hit. On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target. </p><p>Electricity damage dealt by this weapon ignores the target’s electricity resistance (and the other creatures’ on a critical hit).</p>"
     },
     "rules": [],
-    "slug": "snipers-scope",
+    "slug": "shock-module",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -17,6 +17,8 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "electricity",
+        "magical",
         "tech"
       ],
       "rarity": "common"
@@ -28,7 +30,7 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 15
     },
     "quantity": 1,
     "baseItem": null,
@@ -42,7 +44,7 @@
     "hardness": 0,
     "price": {
       "value": {
-        "sp": 150
+        "sp": 65000
       }
     },
     "equipped": {
@@ -73,23 +75,23 @@
     },
     "subitems": []
   },
-  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20light%20pointer.webp",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20streak.webp",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.3.1",
-    "createdTime": 1722487585799,
-    "modifiedTime": 1725993140762,
-    "lastModifiedBy": "4uTTBK4TzykGOYxh"
+    "systemVersion": "6.4.1",
+    "createdTime": 1728093184388,
+    "modifiedTime": 1728093902552,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
-  "_id": "M9vZjxXVI5hC2eRK",
-  "sort": 296094,
   "ownership": {
     "default": 0,
-    "CmdglLq38DpgHzdd": 3
+    "HfiqVTKP7yuQgALu": 3
   },
-  "_key": "!items!M9vZjxXVI5hC2eRK"
+  "_id": "vLEzcjsBMCtm3J2Y",
+  "sort": 100000,
+  "_key": "!items!vLEzcjsBMCtm3J2Y"
 }

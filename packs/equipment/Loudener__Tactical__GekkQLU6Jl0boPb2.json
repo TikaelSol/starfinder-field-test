@@ -1,0 +1,96 @@
+{
+  "folder": "nQnhtmjeQ9PdhEKx",
+  "name": "Loudener (Tactical)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This specialized cone is installed over the muzzle or hilt of a weapon to use pneumonic pulses and passive acoustics to increase the volume of its attacks, dealing an extra @Damage[1d6[sonic]] damage on a successful Strike. On a critical hit, the target has to succeed at a @Check[type:fortitude|dc:32] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure). </p><p>Sonic damage dealt by this weapon ignores the target’s sonic resistance.</p>"
+    },
+    "rules": [],
+    "slug": "loudener",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "sonic",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 15
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 65000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20pulse.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728096530920,
+    "modifiedTime": 1728096530920,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+  },
+  "ownership": {
+    "default": 0,
+    "HfiqVTKP7yuQgALu": 3
+  },
+  "_id": "GekkQLU6Jl0boPb2",
+  "sort": 0,
+  "_key": "!items!GekkQLU6Jl0boPb2"
+}

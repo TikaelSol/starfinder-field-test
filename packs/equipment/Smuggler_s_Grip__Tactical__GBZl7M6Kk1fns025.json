@@ -1,15 +1,15 @@
 {
   "folder": "nQnhtmjeQ9PdhEKx",
-  "name": "Undermounted Grenade Launcher",
+  "name": "Smuggler's Grip (Tactical)",
   "type": "equipment",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>This bracket-mounted grenade launcher is most often advertised for use with fragmentation grenades, but many military and law enforcement officers use this attachment to efficiently deploy utility ordinances such as smoke grenades and flashbangs. Unlike a dedicated grenade launcher, it takes ten minutes to load an undermounted grenade launcher, reassembling the grenade into ammunition by mounting it on a specialized reusable firing cap. Once a grenade has been loaded, it can only be safely removed by disassembling the entire grenade, destroying it in the process.</p><p><strong>Activate—Launch</strong> <span class=\"pf2-icon\">1</span> (attack)</p><hr /><p><strong>Effect</strong> You launch the loaded grenade.</p>"
+      "value": "<p>A <em>tactical @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.O0cuj6CI1GzAVPke]{Smuggler's Grip}</em> is a hybrid item with the extradimensional, magical, and tech traits. You can pull the weapon into an extradimensional space as an Interact action, leaving behind a palm-sized disk, granting you a +4 item bonus to your Stealth check to Conceal the Object. You can't draw the weapon while it's in the extradimensional space, but you can use an @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} action to retrieve it.</p>"
     },
     "rules": [],
-    "slug": "undermounted-grenade-launcher",
+    "slug": "smugglers-grip",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -17,6 +17,7 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "magical",
         "tech"
       ],
       "rarity": "common"
@@ -28,7 +29,7 @@
       "remaster": true
     },
     "level": {
-      "value": 0
+      "value": 6
     },
     "quantity": 1,
     "baseItem": null,
@@ -42,7 +43,7 @@
     "hardness": 0,
     "price": {
       "value": {
-        "sp": 50
+        "sp": 2600
       }
     },
     "equipped": {
@@ -73,23 +74,23 @@
     },
     "subitems": []
   },
-  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/red%20bullets%20in%20flight.webp",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/pictol%20snub.webp",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.1",
-    "createdTime": 1722487585799,
-    "modifiedTime": 1723310546653,
-    "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+    "systemVersion": "6.4.1",
+    "createdTime": 1728093611278,
+    "modifiedTime": 1728093902552,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
-  "_id": "F3eZ72QLXl2RnvOD",
-  "sort": 299219,
   "ownership": {
     "default": 0,
-    "CmdglLq38DpgHzdd": 3
+    "HfiqVTKP7yuQgALu": 3
   },
-  "_key": "!items!F3eZ72QLXl2RnvOD"
+  "_id": "GBZl7M6Kk1fns025",
+  "sort": 300000,
+  "_key": "!items!GBZl7M6Kk1fns025"
 }
