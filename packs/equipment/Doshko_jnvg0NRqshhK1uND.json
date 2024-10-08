@@ -19,7 +19,6 @@
       "value": [
         "analog",
         "parry",
-        "unwieldy",
         "vesk"
       ],
       "rarity": "common"
@@ -124,12 +123,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1722224731932,
-    "modifiedTime": 1722359029681,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1727830444217,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 3900000,
   "ownership": {
