@@ -180,7 +180,7 @@
         "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.auFsCWphZ7giY9oX",
         "img": "systems/pf2e/icons/features/classes/resolve.webp",
         "name": "Resolve",
-        "level": 11
+        "level": 17
       },
       "LJkDC": {
         "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.KjJ1TfPIQXV5mFvq",
@@ -335,11 +335,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
+    "systemVersion": "6.4.1",
     "createdTime": 1721443686098,
-    "modifiedTime": 1722703353545,
+    "modifiedTime": 1728413653411,
     "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_key": "!items!hHxWeUg8C1A7qho9"
