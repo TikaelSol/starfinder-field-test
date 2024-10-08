@@ -1,15 +1,15 @@
 {
   "folder": "nQnhtmjeQ9PdhEKx",
-  "name": "Fear Projector",
+  "name": "Loudener (Commercial)",
   "type": "equipment",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>This integrated hologram projector makes the wounds caused by the weapon look way worse than they are. When you critically hit with this weapon, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+      "value": "<p>This specialized cone is installed over the muzzle or hilt of a weapon to use pneumonic pulses and passive acoustics to increase the volume of its attacks, dealing an extra @Damage[1d6[sonic]] damage on a successful Strike. On a critical hit, the target has to succeed at a @Check[type:fortitude|dc:24] save or be @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute (or 1 hour on a critical failure).</p>"
     },
     "rules": [],
-    "slug": "fear-projector",
+    "slug": "loudener",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -17,10 +17,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "emotion",
-        "fear",
-        "magical",
-        "mental",
+        "sonic",
         "tech"
       ],
       "rarity": "common"
@@ -32,7 +29,7 @@
       "remaster": true
     },
     "level": {
-      "value": 5
+      "value": 8
     },
     "quantity": 1,
     "baseItem": null,
@@ -46,7 +43,7 @@
     "hardness": 0,
     "price": {
       "value": {
-        "sp": 1600
+        "sp": 5000
       }
     },
     "equipped": {
@@ -77,23 +74,23 @@
     },
     "subitems": []
   },
-  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20life%20form.webp",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20pulse.webp",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.3",
     "createdTime": 1722487585799,
-    "modifiedTime": 1722490274810,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1728093902552,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
-  "_id": "YcqFOXbBPbRSxG0x",
-  "sort": 250000,
+  "_id": "zc7Kh2psza1YAcgy",
+  "sort": 1700000,
   "ownership": {
     "default": 0,
     "CmdglLq38DpgHzdd": 3
   },
-  "_key": "!items!YcqFOXbBPbRSxG0x"
+  "_key": "!items!zc7Kh2psza1YAcgy"
 }

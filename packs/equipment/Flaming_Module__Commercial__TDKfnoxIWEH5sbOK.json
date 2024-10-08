@@ -1,26 +1,15 @@
 {
   "folder": "nQnhtmjeQ9PdhEKx",
-  "name": "Truesight Sight",
+  "name": "Flaming Module (Commercial)",
   "type": "equipment",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>These specialized lenses are made of crystals specially infused with spells as they are cut. They are then installed into sights that conserve their magical energy with the use of integrated computer imagery. You gain a +1 item bonus to visual Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} when looking through the scope.</p><p><strong>Activate—See the Truth</strong> <span class=\"pf2-icon\">2</span> (manipulate)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> For the next 10 minutes, while looking through the scope, you can see @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} creatures as though they weren't invisible. Additionally, you can see incorporeal creatures, like ghosts, within 10 feet of an object's surface.</p>"
+      "value": "<p>This module overheats the weapon's striking edge and ammunition. The weapon deals an additional @Damage[1d6[fire]] damage on a successful Strike, plus @Damage[1d10[persistent,fire]] damage on a critical hit.</p>"
     },
-    "rules": [
-      {
-        "key": "FlatModifier",
-        "selector": "perception",
-        "value": 1,
-        "type": "item",
-        "predicate": [
-          "item:trait:visual",
-          "action:seek"
-        ]
-      }
-    ],
-    "slug": "truesight-sight",
+    "rules": [],
+    "slug": "flaming-module",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -28,6 +17,7 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "fire",
         "magical",
         "tech"
       ],
@@ -54,7 +44,7 @@
     "hardness": 0,
     "price": {
       "value": {
-        "sp": 8000
+        "sp": 5000
       }
     },
     "equipped": {
@@ -85,23 +75,23 @@
     },
     "subitems": []
   },
-  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20organization%20insignia%202.webp",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20sun%20flames.webp",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.1",
+    "systemVersion": "6.1.3",
     "createdTime": 1722487585799,
-    "modifiedTime": 1723562675395,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "modifiedTime": 1728093902552,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
-  "_id": "XF5ojfhO90XKUuEF",
-  "sort": 286719,
+  "_id": "TDKfnoxIWEH5sbOK",
+  "sort": 1600000,
   "ownership": {
     "default": 0,
     "CmdglLq38DpgHzdd": 3
   },
-  "_key": "!items!XF5ojfhO90XKUuEF"
+  "_key": "!items!TDKfnoxIWEH5sbOK"
 }

@@ -1,15 +1,15 @@
 {
   "folder": "nQnhtmjeQ9PdhEKx",
-  "name": "Frost Module",
+  "name": "Fear Projector (Commercial)",
   "type": "equipment",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>This module siphons the heat from the weapon's striking edge and ammunition, powering itself with the excess energy as it chills the air around it. It deals an additional @Damage[1d6[cold]] damage on a successful Strike. On a critical hit, the target is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the end of your next turn unless it succeeds at a @Check[type:fortitude|dc:24] save.</p>"
+      "value": "<p>This integrated hologram projector makes the wounds caused by the weapon look way worse than they are. When you critically hit with this weapon, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
     },
     "rules": [],
-    "slug": "frost-module",
+    "slug": "fear-projector",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -17,8 +17,10 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "cold",
+        "emotion",
+        "fear",
         "magical",
+        "mental",
         "tech"
       ],
       "rarity": "common"
@@ -30,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 8
+      "value": 5
     },
     "quantity": 1,
     "baseItem": null,
@@ -44,7 +46,7 @@
     "hardness": 0,
     "price": {
       "value": {
-        "sp": 5000
+        "sp": 1600
       }
     },
     "equipped": {
@@ -75,23 +77,23 @@
     },
     "subitems": []
   },
-  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20snowflake%20insignia.webp",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20life%20form.webp",
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.3",
     "createdTime": 1722487585799,
-    "modifiedTime": 1722490280478,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1728093902552,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
-  "_id": "zeJ3c8JYJygFcMss",
-  "sort": 262500,
+  "_id": "YcqFOXbBPbRSxG0x",
+  "sort": 1400000,
   "ownership": {
     "default": 0,
     "CmdglLq38DpgHzdd": 3
   },
-  "_key": "!items!zeJ3c8JYJygFcMss"
+  "_key": "!items!YcqFOXbBPbRSxG0x"
 }
