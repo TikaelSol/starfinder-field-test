@@ -619,7 +619,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p><strong>Upgrades: </strong>3</p><hr /><p>These proven and reliable automatic weapons are capable of firing in short bursts or completely emptying their magazines to clear a battlefield.</p>"
+          "value": "<p><strong>Upgrades:</strong> 3</p><hr /><p>These proven and reliable automatic weapons are capable of firing in short bursts or completely emptying their magazines to clear a battlefield.</p>"
         },
         "rules": [
           {

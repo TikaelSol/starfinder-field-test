@@ -371,7 +371,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>You can communicate mentally with creatures within 30 feet. You can communicate only with creatures that share a language with you. This doesn't give you any access to their thoughts, and it communicates no more information than normal speech would</p>"
+          "value": "<p>You can communicate mentally with creatures within 30 feet. You can communicate only with creatures that share a language with you. This doesn't give you any access to their thoughts, and it communicates no more information than normal speech would</p>"
         },
         "rules": [],
         "slug": "limited-telepathy",

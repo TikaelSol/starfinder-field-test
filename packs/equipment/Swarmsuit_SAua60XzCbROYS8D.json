@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Upgrades: </strong>0</p><hr /><p>Specialized nanites form a mesh suit that changes to fit wearers with unique or transformable physiologies.</p>"
+      "value": "<p><strong>Upgrades:</strong> 0</p><hr /><p>Specialized nanites form a mesh suit that changes to fit wearers with unique or transformable physiologies.</p>"
     },
     "rules": [],
     "slug": "swarmsuit",

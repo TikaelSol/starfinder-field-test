@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You can tap into one of your merged minds to better focus. If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}, roll the Recall Knowledge check twice and use the better result.</p>"
+      "value": "<p>You can tap into one of your merged minds to better focus. If your next action is to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}, roll the Recall Knowledge check twice and use the better result.</p>"
     },
     "rules": [],
     "slug": "collective-connection",

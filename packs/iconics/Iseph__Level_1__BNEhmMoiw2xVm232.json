@@ -1050,7 +1050,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p> This basic pistol automatically ejects used cartridges and loads new ammunition after every shot fired.</p>"
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This basic pistol automatically ejects used cartridges and loads new ammunition after every shot fired.</p>"
         },
         "rules": [],
         "slug": "semi-auto-pistol",

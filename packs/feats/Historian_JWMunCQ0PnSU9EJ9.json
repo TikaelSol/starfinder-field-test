@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You become trained in a Lore skill of your choice. You can spend 10 minutes checking your notes or research materials to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about a piece of history with any Lore skill in which you are not trained, using your highest Lore modifier instead of your modifier with that skill.</p>"
+      "value": "<p>You become trained in a Lore skill of your choice. You can spend 10 minutes checking your notes or research materials to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about a piece of history with any Lore skill in which you are not trained, using your highest Lore modifier instead of your modifier with that skill.</p>"
     },
     "rules": [],
     "slug": "historian",

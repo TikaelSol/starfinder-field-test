@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You can extend your claws to aid you in climbing. You gain a climb Speed equal to your land Speed.</p>"
+      "value": "<p>You can extend your claws to aid you in climbing. You gain a climb Speed equal to your land Speed.</p>"
     },
     "rules": [
       {

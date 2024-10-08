@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The target loses the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} condition if they have it. The target becomes immune to the off-guard condition until the start of their next turn, even if it would be circumstantially applied, such as being flanked or @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+      "value": "<p>The target loses the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} condition if they have it. The target becomes immune to the off-guard condition until the start of their next turn, even if it would be circumstantially applied, such as being flanked or @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
     },
     "rules": [
       {

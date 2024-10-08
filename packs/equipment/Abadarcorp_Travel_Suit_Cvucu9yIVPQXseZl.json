@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Upgrades: </strong>2</p><hr /><p>AbadarCorp executives popularized these armored business suits for boardrooms and diplomatic meetings. Contingent force fields and <a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W\" data-id=\"DmAIPqOBomZ7H95W\" data-type=\"Item\" data-pack=\"pf2e.conditionitems\" data-tooltip=\"Condition Item\"><i class=\"fa-solid fa-face-zany\"></i>Concealed</a> plating protect the wearer in hostile situations. Higher grades of travel suits offer more protection—along with a designer label.</p>"
+      "value": "<p><strong>Upgrades:</strong> 2</p><hr /><p>AbadarCorp executives popularized these armored business suits for boardrooms and diplomatic meetings. Contingent force fields and <a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W\" data-id=\"DmAIPqOBomZ7H95W\" data-type=\"Item\" data-pack=\"pf2e.conditionitems\" data-tooltip=\"Condition Item\"><i class=\"fa-solid fa-face-zany\"></i>Concealed</a> plating protect the wearer in hostile situations. Higher grades of travel suits offer more protection—along with a designer label.</p>"
     },
     "rules": [],
     "slug": "abadarcorp-travel-suit",

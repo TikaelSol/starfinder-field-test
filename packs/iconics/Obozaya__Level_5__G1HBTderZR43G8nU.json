@@ -1723,7 +1723,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p><strong>Upgrades: </strong>1</p><hr /><p>This suit of heavy armor features a slitted helmet that reveals only the wearer's eyes. This ceramic suit consists of a breastplate, shoulder guards, bracers, and greaves that flex with the body's movements.</p>"
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This suit of heavy armor features a slitted helmet that reveals only the wearer's eyes. This ceramic suit consists of a breastplate, shoulder guards, bracers, and greaves that flex with the body's movements.</p>"
         },
         "rules": [],
         "slug": "hidden-soldier-armor",
@@ -1832,7 +1832,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p><strong>Upgrades: </strong>1</p><hr /><p>The traditional weapon of the Veskarium, this powered poleaxe features one to three triangular blades forged for both wide overhead swings and tactical parrying.</p>"
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>The traditional weapon of the Veskarium, this powered poleaxe features one to three triangular blades forged for both wide overhead swings and tactical parrying.</p>"
         },
         "rules": [],
         "slug": "doshko",
@@ -1973,7 +1973,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p><strong>Upgrades: </strong>1</p><hr /><p>These proven and reliable automatic weapons are capable of firing in short bursts or completely emptying their magazines to clear a battlefield.</p>"
+          "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>These proven and reliable automatic weapons are capable of firing in short bursts or completely emptying their magazines to clear a battlefield.</p>"
         },
         "rules": [],
         "slug": "machine-gun",

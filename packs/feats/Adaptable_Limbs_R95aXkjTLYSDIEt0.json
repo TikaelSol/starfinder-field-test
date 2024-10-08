@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You grow sturdy lower limbs that allow you to walk on land. Increase your Speed to 20 feet. Additionally, you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.q65trZhn6OgdxRxN]{Adaptive Locomotion} action.</p>"
+      "value": "<p>You grow sturdy lower limbs that allow you to walk on land. Increase your Speed to 20 feet. Additionally, you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.q65trZhn6OgdxRxN]{Adaptive Locomotion} action.</p>"
     },
     "rules": [
       {

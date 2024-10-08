@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You can transform your limbs more often. The frequency of @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.q65trZhn6OgdxRxN]{Adaptive Locomotion} becomes at will.</p>"
+      "value": "<p>You can transform your limbs more often. The frequency of @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.q65trZhn6OgdxRxN]{Adaptive Locomotion} becomes at will.</p>"
     },
     "rules": [],
     "slug": "plentiful-adaptation",
