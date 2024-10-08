@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Ammunition</strong> missile launcher</p><hr /><p>This missile carries an explosive warhead that deals @Damage[5d8[bludgeoning]] damage to its target and @Damage[5[fire]] damage in the subsequent explosion (20-foot-radius) with a basic Reflex save.</p>"
+      "value": "<p><strong>Ammunition</strong> missile launcher</p><hr /><p>This missile carries an explosive warhead that deals @Damage[5d8[bludgeoning]] damage to its target and @Damage[(5[splash])[fire]] splash damage in the subsequent explosion (20-foot-radius).</p>"
     },
     "rules": [],
     "slug": "ballistic-missile-paragon",
@@ -44,7 +44,7 @@
     "hardness": 0,
     "price": {
       "value": {
-        "sp": 100000
+        "sp": 90000
       }
     },
     "equipped": {
