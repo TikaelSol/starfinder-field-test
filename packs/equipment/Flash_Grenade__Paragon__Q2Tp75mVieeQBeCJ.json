@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> Area Fire</p><hr /><p>A flash grenade unleashes a blast of bright light that requires creatures in a @Template[type:burst|distance:20] to make a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save. On a failure the creature is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 2 rounds.</p>"
+      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}</p><hr /><p>A flash grenade unleashes a blast of bright light that requires creatures in a @Template[type:burst|distance:20] to make a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save. On a failure the creature is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 2 rounds.</p>"
     },
     "rules": [],
     "slug": "flash-grenade-paragon",
@@ -90,12 +90,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
+    "systemVersion": "6.4.1",
     "createdTime": 1722383737441,
-    "modifiedTime": 1722408941444,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1727831884836,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 6900000,
   "ownership": {
