@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BKVIofy6uT5s6S9L]{Anthem}</p><p>All bonded creatures in the area gain a +1 status bonus to attack rolls and damage rolls, and also gain a +1 status bonus to saves against effects that cause fascination or confusion.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BKVIofy6uT5s6S9L]{Anthem}</p><p>You gain a +1 status bonus to attack rolls, damage rolls, and saves against effects that cause fascinated or confusion.</p>"
     },
     "rules": [
       {
@@ -25,8 +25,8 @@
         "predicate": [
           {
             "or": [
-              "confusion",
-              "fascination"
+              "inflicts:confusion",
+              "inflicts:fascinated"
             ]
           }
         ]
