@@ -204,10 +204,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Starfinder Second Edition Playtest Rulebook",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -243,7 +243,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.4.1",
     "createdTime": 1728524845227,
-    "modifiedTime": 1728525252052,
+    "modifiedTime": 1728525424841,
     "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_id": "xK3oQUWYXlJ6z49T",
