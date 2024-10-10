@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Transfer</strong> Cost half the prevented damage</p><p><strong>Trigger</strong> You are hit by an attack.</p><hr /><p>You condense the energy of your vitality network into a shield. Your shield's appearance is your choice, but always relates to your connection; for example, an Akashic mystic's shield might appear as a globe of glowing text, and a shadow mystic's shield might coalesce from shadows. You gain resistance equal to twice your level against all damage from the triggering attack or effect.</p>"
+      "value": "<p><strong>Transfer Cost</strong> half the prevented damage</p><p><strong>Trigger</strong> You are hit by an attack.</p><hr /><p>You condense the energy of your vitality network into a shield. Your shield's appearance is your choice, but always relates to your connection; for example, an Akashic mystic's shield might appear as a globe of glowing text, and a shadow mystic's shield might coalesce from shadows. You gain resistance equal to twice your level against all damage from the triggering attack or effect.</p>"
     },
     "rules": [],
     "slug": "network-shield",

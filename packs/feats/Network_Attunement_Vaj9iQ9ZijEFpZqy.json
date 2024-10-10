@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Transfer</strong> Cost 5 per target</p><p><strong>Target</strong> any number of your bonded allies within 120 feet</p><hr /><p>Temporarily attuning your vitality network to the spiritual wavelength of your allies allows them to access it as if it were second nature. Until the start of your next turn, at the beginning of each of the target's next turns they can choose to gain an additional reaction that can only be used to make transfer reactions, or gain the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition and can use the extra action that round for only transfer actions.</p>"
+      "value": "<p><strong>Transfer Cost</strong> 5 per target</p><p><strong>Target</strong> any number of your bonded allies within 120 feet</p><hr /><p>Temporarily attuning your vitality network to the spiritual wavelength of your allies allows them to access it as if it were second nature. Until the start of your next turn, at the beginning of each of the target's next turns they can choose to gain an additional reaction that can only be used to make transfer reactions, or gain the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition and can use the extra action that round for only transfer actions.</p>"
     },
     "rules": [],
     "slug": "network-attunement",

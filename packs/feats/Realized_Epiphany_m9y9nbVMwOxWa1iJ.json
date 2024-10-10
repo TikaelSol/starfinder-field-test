@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Transfer</strong> Cost 20</p><p><strong>Frequency</strong> once per minute</p><hr /><p>You've come to learn that your vitality network isn't just a manifestation of your magic, it's a metaphysical manifestation of your magic's will. If your next action is to cast an epiphany spell, you don't spend a Focus Point to cast it.</p>"
+      "value": "<p><strong>Transfer Cost</strong> 20</p><p><strong>Frequency</strong> once per minute</p><hr /><p>You've come to learn that your vitality network isn't just a manifestation of your magic, it's a metaphysical manifestation of your magic's will. If your next action is to cast an epiphany spell, you don't spend a Focus Point to cast it.</p>"
     },
     "rules": [],
     "slug": "realized-epiphany",
