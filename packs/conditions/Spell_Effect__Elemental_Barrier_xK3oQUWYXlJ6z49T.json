@@ -213,9 +213,9 @@
       "value": 1
     },
     "duration": {
-      "value": -1,
-      "unit": "unlimited",
-      "expiry": null,
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
       "sustained": false
     },
     "start": {
@@ -243,7 +243,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.4.1",
     "createdTime": 1728524845227,
-    "modifiedTime": 1728524880248,
+    "modifiedTime": 1728525252052,
     "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_id": "xK3oQUWYXlJ6z49T",
