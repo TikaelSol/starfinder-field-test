@@ -20,6 +20,34 @@
         "mode": "add",
         "path": "inventory.bulk.maxAddend",
         "value": "@actor.system.abilities.con.mod"
+      },
+      {
+        "key": "AdjustModifier",
+        "suppress": true,
+        "slug": "armor-speed-penalty",
+        "predicate": [
+          {
+            "gte": [
+              "attribute:con:mod",
+              "armor:strength"
+            ]
+          }
+        ],
+        "selector": "speed"
+      },
+      {
+        "key": "AdjustModifier",
+        "suppress": true,
+        "slug": "armor-check-penalty",
+        "predicate": [
+          {
+            "gte": [
+              "attribute:con:mod",
+              "armor:strength"
+            ]
+          }
+        ],
+        "selector": "skill-check"
       }
     ],
     "slug": "walking-armory",
@@ -72,11 +100,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.1",
+    "coreVersion": "12.331",
     "createdTime": 1691045081589,
-    "modifiedTime": 1722704210012,
-    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "modifiedTime": 1729034328534,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },
