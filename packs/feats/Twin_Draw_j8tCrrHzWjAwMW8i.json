@@ -1,11 +1,11 @@
 {
-  "name": "Double Draw (Operative)",
+  "name": "Twin Draw",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> You have two free hands.</p><hr /><p>You have practiced dual wielding and smoothly draw two weapons at once. When you Interact to draw a one-handed weapon, you draw another one-handed weapon as a free action.</p>"
+      "value": "<p><strong>Requirements</strong> You have two free hands.</p><hr /><p>You have practiced dual wielding and smoothly drawing and taking aim with your weapons. Draw up to two one-handed weapons and Aim.</p>"
     },
     "rules": [],
     "slug": "double-draw-operative",
@@ -59,11 +59,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.1",
+    "coreVersion": "12.331",
     "createdTime": 1708135049394,
-    "modifiedTime": 1722376084449,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1729383682898,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

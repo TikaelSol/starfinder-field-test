@@ -1,7 +1,6 @@
 {
-  "folder": null,
-  "name": "Force Connection",
-  "type": "action",
+  "name": "Network Connection",
+  "type": "feat",
   "effects": [],
   "system": {
     "description": {
@@ -9,17 +8,19 @@
       "value": "<p>You concentrate your telepathy toward a bonded ally within 120 feet and invite them into a temporary understanding of your connection. If the next action you use is to Cast a Spell and the target would be affected, choose one: either that spell only affects the target, or that spell doesn't affect your target.</p><p>If the next action you use has the transfer trait and uses the same target, your vitality network regains up to 4 of those lost Hit Points; if you are master in your connection skill, it regains 6 Hit Points instead; if you are legendary, it regains 8 Hit Points. Your vitality network can never regain more Hit Points than was spent to use the transfer action and can't exceed its maximum capacity.</p>"
     },
     "rules": [],
-    "slug": "force-connection",
+    "slug": null,
     "_migration": {
-      "version": 0.932,
+      "version": 0.933,
       "lastMigration": null
     },
     "traits": {
       "otherTags": [],
       "value": [
         "concentrate",
-        "mental"
-      ]
+        "mental",
+        "mystic"
+      ],
+      "rarity": "common"
     },
     "publication": {
       "title": "Starfinder Second Edition Playtest Rulebook",
@@ -27,32 +28,41 @@
       "license": "ORC",
       "remaster": true
     },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
     "actionType": {
       "value": "action"
     },
-    "category": "offensive",
     "actions": {
       "value": 1
     },
-    "deathNote": false
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
   },
-  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "_id": "yrfR0WJ93lXgwNol",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "folder": null,
+  "sort": 0,
   "ownership": {
     "default": 0,
-    "CmdglLq38DpgHzdd": 3
+    "HfiqVTKP7yuQgALu": 3
   },
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "createdTime": 1721803813662,
-    "modifiedTime": 1722114226297,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "systemVersion": "6.4.1",
+    "createdTime": 1729382672203,
+    "modifiedTime": 1729382999467,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
-  "_id": "BNAIkrz6vEeFcfLB",
-  "sort": 4400000,
-  "_key": "!items!BNAIkrz6vEeFcfLB"
+  "_key": "!items!yrfR0WJ93lXgwNol"
 }
