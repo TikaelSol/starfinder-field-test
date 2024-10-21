@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You use your size against larger foes, moving through them in a variety of ways to avoid notice and move undisturbed. As long as you are Small, you can end a successful @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through} action in a Medium or larger sized enemy's space. The enemy must have appropriate limbs or otherwise leave you enough room for this maneuver, as determined by the GM. You could not, for example, occupy the space of an ooze that matches the full dimensions of the square. While you occupy an enemy's space, that enemy is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to you, and it treats its space as difficult terrain.</p>"
+      "value": "<p>You use your size against larger foes, moving through them in a variety of ways to avoid notice and move undisturbed. As long as you are Small, you can end a successful @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through} action in a Medium or larger sized enemy's space. The enemy must have appropriate limbs or otherwise leave you enough room for this maneuver, as determined by the GM. You could not, for example, occupy the space of an ooze that matches the full dimensions of the square. While you occupy an enemy's space, that enemy is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to you.</p>"
     },
     "rules": [],
     "slug": "underfoot",
@@ -63,11 +63,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.1",
+    "coreVersion": "12.331",
     "createdTime": 1708143883679,
-    "modifiedTime": 1722325752469,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1729301627586,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

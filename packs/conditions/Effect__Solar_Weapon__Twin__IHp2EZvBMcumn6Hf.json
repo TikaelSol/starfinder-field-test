@@ -344,6 +344,18 @@
         ]
       },
       {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          "stellar-attunement:photon"
+        ],
+        "property": "weapon-traits",
+        "value": "light",
+        "definition": [
+          "item:id:{item|id}"
+        ]
+      },
+      {
         "key": "FlatModifier",
         "label": "SF2E.SpecificRule.Solarian.SolarWeapon.PhotonAttuned.Label",
         "selector": "{item|id}-damage",
@@ -437,12 +449,12 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.3.1",
+    "systemVersion": "6.4.1",
     "createdTime": 1721947027124,
-    "modifiedTime": 1725056013896,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "modifiedTime": 1729543668150,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_id": "IHp2EZvBMcumn6Hf",
-  "sort": 1900000,
+  "sort": 3300000,
   "_key": "!items!IHp2EZvBMcumn6Hf"
 }

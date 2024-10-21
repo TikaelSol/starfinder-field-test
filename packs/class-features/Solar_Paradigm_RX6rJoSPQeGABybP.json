@@ -6,16 +6,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your proficiency rank for your solar weapon increases to legendary. Your proficiency rank for your solarian class DC increases to master.</p>"
+      "value": "<p>Your proficiency rank for your solar weapon increases to legendary.</p>"
     },
-    "rules": [
-      {
-        "key": "ActiveEffectLike",
-        "path": "system.proficiencies.classDCs.solarian.rank",
-        "mode": "override",
-        "value": 3
-      }
-    ],
+    "rules": [],
     "slug": "solar-paradigm",
     "_migration": {
       "version": 0.932,
@@ -56,12 +49,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1721886948692,
-    "modifiedTime": 1722127063370,
-    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+    "modifiedTime": 1729544282304,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_id": "RX6rJoSPQeGABybP",
   "sort": 5200000,

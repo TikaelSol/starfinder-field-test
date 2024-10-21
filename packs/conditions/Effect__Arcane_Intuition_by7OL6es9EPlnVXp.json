@@ -71,7 +71,7 @@
   "_id": "by7OL6es9EPlnVXp",
   "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
   "folder": null,
-  "sort": 3900000,
+  "sort": 5300000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -80,10 +80,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1714324197301,
-    "modifiedTime": 1722269000430,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1728524845280,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

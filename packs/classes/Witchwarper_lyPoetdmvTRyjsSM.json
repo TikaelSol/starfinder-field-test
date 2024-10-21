@@ -143,6 +143,12 @@
         "img": "icons/skills/melee/hand-grip-sword-red.webp",
         "name": "Weapon Expertise",
         "level": 11
+      },
+      "CyJ0v": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.xbOdcVbLjxV72uW2",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20galaxy.webp",
+        "name": "Quantum Field",
+        "level": 1
       }
     },
     "hp": 8,
@@ -247,10 +253,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.3.1",
+    "systemVersion": "6.4.1",
     "createdTime": 1721443704204,
-    "modifiedTime": 1725992215334,
-    "lastModifiedBy": "4uTTBK4TzykGOYxh"
+    "modifiedTime": 1729544981129,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_key": "!items!lyPoetdmvTRyjsSM"
 }

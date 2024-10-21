@@ -58,14 +58,14 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722100237809,
-    "modifiedTime": 1722218719212,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1728524845280,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_id": "fBO5Q744zw7b03fp",
-  "sort": 2300000,
+  "sort": 3700000,
   "_key": "!items!fBO5Q744zw7b03fp"
 }
