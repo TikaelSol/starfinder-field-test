@@ -344,6 +344,18 @@
         ]
       },
       {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          "stellar-attunement:photon"
+        ],
+        "property": "weapon-traits",
+        "value": "light",
+        "definition": [
+          "item:id:{item|id}"
+        ]
+      },
+      {
         "key": "DamageAlteration",
         "value": "{item|flags.pf2e.rulesSelections.damageType}",
         "predicate": [
@@ -449,10 +461,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.3.1",
+    "systemVersion": "6.4.1",
     "createdTime": 1721947026249,
-    "modifiedTime": 1728420317397,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "modifiedTime": 1729543589284,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_id": "lUZuBzMe0UAllDxX",
   "sort": 3500000,

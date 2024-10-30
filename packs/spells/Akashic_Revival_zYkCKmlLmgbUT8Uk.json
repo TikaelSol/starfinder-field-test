@@ -48,7 +48,7 @@
     },
     "area": null,
     "time": {
-      "value": "3"
+      "value": "10 minutes"
     },
     "duration": {
       "value": "1 day",
@@ -71,12 +71,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111277630,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729546222554,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 13100000,
   "ownership": {

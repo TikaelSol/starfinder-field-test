@@ -240,7 +240,7 @@
     "savingThrows": {
       "fortitude": 1,
       "reflex": 2,
-      "will": 1
+      "will": 2
     },
     "attacks": {
       "simple": 1,
@@ -339,8 +339,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.4.1",
     "createdTime": 1721443686098,
-    "modifiedTime": 1728413653411,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "modifiedTime": 1729383301074,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_key": "!items!hHxWeUg8C1A7qho9"
 }

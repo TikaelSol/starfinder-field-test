@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>Despite being stunned, there is a part of your mind in another reality still processing your situation. Decrease your @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} value by 2 or @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed} value by 1. If you already lost an action this turn due to that condition, you can @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} with any skill you are trained in.</p>"
+      "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>There is a part of your mind in another reality always processing your situation. You can @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} with any skill you are trained in. Decrease your @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} value by 2 or @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed} value by 1. If you lost an action this turn due to the stunned or slowed condition, you can use Restorative Recollection as a free action.</p>"
     },
     "rules": [],
     "slug": "restorative-recollection",
@@ -50,12 +50,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1722096992162,
-    "modifiedTime": 1722114226297,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729544867656,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_id": "MtvUbSOHg3afFmqu",
   "sort": 400000,

@@ -1,19 +1,24 @@
 {
-  "name": "Effect: Show 'Em What You Got!",
+  "name": "Spell Effect: Genetic Regeneration",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your allies gain temporary Hit Points equal to your level.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.6koMxltOVtV6BT6U]{Genetic Regeneration}</p><p>You gain regeneration equal to twice the spell rank.</p>"
     },
     "rules": [
       {
-        "key": "TempHP",
-        "value": "@item.origin.level"
+        "key": "FastHealing",
+        "value": "(@item.level)*2",
+        "type": "regeneration",
+        "deactivatedBy": [
+          "fire",
+          "acid"
+        ]
       }
     ],
-    "slug": "effect-show-em-what-you-got",
+    "slug": null,
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -29,12 +34,12 @@
       "remaster": true
     },
     "level": {
-      "value": 14
+      "value": 4
     },
     "duration": {
-      "value": 1,
-      "unit": "minutes",
-      "expiry": "turn-start",
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
       "sustained": false
     },
     "start": {
@@ -48,11 +53,11 @@
     "context": null,
     "unidentified": false
   },
-  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20fist%20in%20the%20air.webp",
+  "img": "icons/magic/life/cross-beam-green.webp",
   "folder": null,
   "ownership": {
     "default": 0,
-    "CmdglLq38DpgHzdd": 3
+    "HfiqVTKP7yuQgALu": 3
   },
   "flags": {},
   "_stats": {
@@ -60,12 +65,12 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "createdTime": 1722216596551,
-    "modifiedTime": 1728524845280,
+    "systemVersion": "6.4.1",
+    "createdTime": 1728516296470,
+    "modifiedTime": 1728516296526,
     "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
-  "_id": "QGhlqHLkAVrwFa0q",
-  "sort": 1900000,
-  "_key": "!items!QGhlqHLkAVrwFa0q"
+  "_id": "DO3P3N9kSQzUSg0U",
+  "sort": 1100000,
+  "_key": "!items!DO3P3N9kSQzUSg0U"
 }

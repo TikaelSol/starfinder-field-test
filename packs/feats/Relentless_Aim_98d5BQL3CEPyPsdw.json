@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You carefully aim your shots so your bullets ricochet off solid surfaces and find their target. When you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.LRbwV8LMLi6FFKjW]{Aim} at targets within your first range increment, you ignore up to greater cover that they would otherwise have against your attacks.</p>"
+      "value": "<p>When determining if you have line of effect to a target you've aimed at, you can choose one solid surface within your weapon's first range increment to ricochet your shot to hit your target. You must be aware of the target and its position, and do not need to attempt a flat check to affect a hidden creature. If the creature is undetected, the GM still rolls a flat check in secret to see if you missed, but the flat check becomes DC 5.</p>"
     },
     "rules": [],
     "slug": "relentless-aim",
@@ -55,12 +55,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1721801583824,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729383734529,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 3600000,
   "ownership": {

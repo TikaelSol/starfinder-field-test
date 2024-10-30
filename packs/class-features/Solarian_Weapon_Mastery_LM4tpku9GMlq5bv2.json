@@ -6,16 +6,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your weapon becomes and extension of yourself. Your proficiency ranks for simple weapons, martial weapons and unarmed attacks increases to master. Your proficiency rank for your solarian class DC increases to expert.</p>"
+      "value": "<p>Your weapon becomes and extension of yourself. Your proficiency ranks for simple weapons, martial weapons and unarmed attacks increases to master.</p>"
     },
-    "rules": [
-      {
-        "key": "ActiveEffectLike",
-        "path": "system.proficiencies.classDCs.solarian.rank",
-        "mode": "override",
-        "value": 2
-      }
-    ],
+    "rules": [],
     "slug": "solarian-weapon-mastery",
     "_migration": {
       "version": 0.932,
@@ -69,12 +62,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1721886948692,
-    "modifiedTime": 1722127063370,
-    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+    "modifiedTime": 1729544086465,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_id": "LM4tpku9GMlq5bv2",
   "sort": 4800000,

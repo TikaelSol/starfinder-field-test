@@ -2,7 +2,7 @@
   "type": "feat",
   "name": "Quantum Pulse",
   "folder": null,
-  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20pulse.webp",
   "system": {
     "description": {
       "gm": "",
@@ -11,12 +11,12 @@
     "rules": [],
     "slug": "quantum-pulse",
     "_migration": {
-      "version": 0.932,
+      "version": 0.933,
       "lastMigration": null,
       "previous": {
-        "schema": null,
-        "foundry": "12.328",
-        "system": "6.0.4"
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.4.1"
       }
     },
     "traits": {
@@ -35,7 +35,7 @@
     "level": {
       "value": 1
     },
-    "category": "class",
+    "category": "classfeature",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -49,23 +49,24 @@
     },
     "location": null
   },
-  "_id": "smqrzzE7bTjcb8zB",
   "effects": [],
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "createdTime": 1721801609295,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "systemVersion": "6.4.1",
+    "createdTime": 1729544938988,
+    "modifiedTime": 1729544938988,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
-  "sort": 21100000,
   "ownership": {
     "default": 0,
-    "CmdglLq38DpgHzdd": 3
+    "CmdglLq38DpgHzdd": 3,
+    "HfiqVTKP7yuQgALu": 3
   },
-  "_key": "!items!smqrzzE7bTjcb8zB"
+  "_id": "Uxoa3lMuD8HzSXXd",
+  "sort": 0,
+  "_key": "!items!Uxoa3lMuD8HzSXXd"
 }

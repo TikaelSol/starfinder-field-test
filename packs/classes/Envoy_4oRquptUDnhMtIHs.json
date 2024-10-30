@@ -199,7 +199,7 @@
         "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.iMzgjJkCS7T17jTp",
         "img": "icons/skills/social/diplomacy-peace-alliance.webp",
         "name": "Effortless Influencer",
-        "level": 13
+        "level": 18
       },
       "3BcKt": {
         "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.UkPowNaI78r51cks",
@@ -348,11 +348,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.1",
+    "coreVersion": "12.331",
     "createdTime": 1710095395761,
-    "modifiedTime": 1722570196978,
-    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "modifiedTime": 1729301688262,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

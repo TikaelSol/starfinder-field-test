@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You adjust the angle of your firepower to maximize the impact of your shot on your foes' bodies. Increase the distance you @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} your opponent with @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.6avX89eWVlIZg75D]{Shoving Shot} to 10 feet on a success or 20 feet on a critical success. In addition, on a critical success, the target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} after moving. When you use Shoving Shot, you also Shove the target 5 feet on a failure.</p>"
+      "value": "<p>You adjust the angle of your firepower to maximize the impact of your shot on your foes' bodies. Increase the distance you @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} your opponent with @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.6avX89eWVlIZg75D]{Shoving Shot} to 10 feet on a success or 20 feet on a critical success. In addition, on a critical success, the target is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} after being Shoved. When you use Shoving Shot, you also Shove the target 5 feet on a failure.</p>"
     },
     "rules": [],
     "slug": "hammer-the-nail",
@@ -59,12 +59,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1721801600625,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729544709394,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 4000000,
   "ownership": {

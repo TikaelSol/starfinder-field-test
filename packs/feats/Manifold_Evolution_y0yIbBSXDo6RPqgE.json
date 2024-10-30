@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You've catalogued genetic code from countless ancestries and can draw upon any of them to enhance and evolve your body. Increase the number of ancestries you can select with @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.Cyua98uitiwSFRIa]{Convergent Evolution} to six. You gain two additional ancestry feats you qualify for of 17th level or lower, chosen from among the ancestries selected with Convergent Evolution. You can retrain one or both of these selected feats once per day during your daily preparations.</p>"
+      "value": "<p>You've catalogued genetic code from countless ancestries and can draw upon any of them to enhance and evolve your body. Increase the number of ancestries you can select with @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.Cyua98uitiwSFRIa]{Convergent Evolution} to six. You gain two additional ancestry feats you qualify for of 13th level or lower, chosen from among the ancestries selected with Convergent Evolution. You can retrain one or both of these selected feats once per day during your daily preparations.</p>"
     },
     "rules": [
       {
@@ -108,11 +108,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.1",
+    "coreVersion": "12.331",
     "createdTime": 1707762890702,
-    "modifiedTime": 1722311247008,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1729301456900,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You use your connection to form a bond between yourself and others, most typically your closest companions or those you'll be working with for a prolonged period of time. Forming bonds is different for every mystic, but always involves using a 10-minute activity related to the mystic's connection that requires you to be adjacent to the creature with whom you wish to bond. You can maintain a bond with up to 10 other willing creatures, and the bond lasts until you or the bonded creature are no longer willing to be part of the bond. You are always considered part of your own bond and don't count toward the 10-creature limit.</p><p>You always know the general distance and direction toward other bonded creatures, and if they are conscious, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying}, or dead. This ability doesn't work across planes (including when in transit in the Drift), and some special magical or technological effects might interfere with your ability to detect your allies.</p>"
+      "value": "<p>You use your connection to form a bond between yourself and others, most typically your closest companions or those you'll be working with for a prolonged period of time. Forming bonds is different for every mystic, but always involves using a 10-minute activity related to the mystic's connection that requires you to be adjacent to the creature with whom you wish to bond. You can maintain a bond with up to 10 other willing creatures, and the bond lasts until you or the bonded creature are no longer willing to be part of the bond. You are always considered part of your own bond and don't count toward the 10-creature limit.</p><p>You always know the general distance and direction toward other bonded creatures, their Hit Point totals, and if they are conscious, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying}, or dead. This ability doesn't work across planes (including when in transit in the Drift), and some special magical or technological effects might interfere with your ability to detect your allies.</p>"
     },
     "rules": [],
     "slug": "mystic-bond",
@@ -55,11 +55,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.1",
+    "coreVersion": "12.331",
     "createdTime": 1696480118345,
-    "modifiedTime": 1722127063370,
-    "lastModifiedBy": "Rx0xhdrs9eKd1Esv",
+    "modifiedTime": 1729301833561,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

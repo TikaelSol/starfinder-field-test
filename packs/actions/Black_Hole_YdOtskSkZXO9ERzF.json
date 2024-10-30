@@ -18,7 +18,6 @@
       "otherTags": [],
       "value": [
         "attuned",
-        "cycle",
         "solarian"
       ]
     },
@@ -46,12 +45,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1721886122279,
-    "modifiedTime": 1722114226297,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729544392384,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_id": "YdOtskSkZXO9ERzF",
   "sort": 1800000,

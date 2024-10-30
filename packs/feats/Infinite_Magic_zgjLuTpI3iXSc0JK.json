@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You draw spells from other worlds, even when your own magic reserves are spent. Twice per day, you can cast a spell after you've run out of spell slots of the appropriate spell rank; the two spells you cast with this feat must be of different spell ranks.</p>"
+      "value": "<p>You draw spells from other worlds, even when your own magic reserves are spent. Twice per day, you can cast a 9th-rank or lower spell after you've run out of spell slots of the appropriate spell rank; the two spells you cast with this feat must of different spell ranks.</p>"
     },
     "rules": [],
     "slug": "infinite-magic",
@@ -55,12 +55,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1722099813058,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729545560834,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 24400000,
   "ownership": {

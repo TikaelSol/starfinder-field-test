@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Connection</strong> elemental</p>\n<hr />\n<p>You create an advanced, martial, or simple weapon out of elemental energy that materializes in the hands of a bonded creature within 30 feet. Select an elemental trait for the created weapon: air, earth, fire, metal, water, or wood. The weapon is commercial grade and comes fully charged and loaded with basic ammunition and cannot be made of any special materials. The weapon has one fewer upgrade slot but can be upgraded with any upgrades you hold in your hands as a locus when casting this spell, which become inert until the spell ends. The weapon deals damage as normal plus 1d4 additional damage based on the chosen trait: electricity for air, bludgeoning for earth, fire for fire, acid for metal, cold for water, or poison for wood.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can create a tactical weapon.</p>\n<p><strong>Heightened (4th)</strong> You can create an advanced weapon.</p>\n<p><strong>Heightened (5th)</strong> You can create a superior weapon.</p>\n<p><strong>Heightened (6th)</strong> You can create an elite weapon.</p>\n<p><strong>Heightened (8th)</strong> You can create an ultimate weapon.</p>\n<p><strong>Heightened (9th)</strong> You can create a paragon weapon.</p>"
+      "value": "<p><strong>Connection</strong> elemental</p><hr /><p>You create an advanced, martial, or simple weapon out of elemental energy that materializes in the hands of a bonded creature within 30 feet. Select an elemental trait for the created weapon: air, earth, fire, metal, water, or wood. The weapon is tactical grade and comes fully charged and loaded with basic ammunition and cannot be made of any special materials. The weapon has one fewer upgrade slot but can be upgraded with any upgrades you hold in your hands as a locus when casting this spell, which become inert until the spell ends. The weapon deals damage as normal plus 1d4 additional damage based on the chosen trait: electricity for air, bludgeoning for earth, fire for fire, acid for metal, cold for water, or poison for wood.</p><hr /><p><strong>Heightened (2nd)</strong> You can create a advanced weapon.</p><p><strong>Heightened (5th)</strong> You can create a superior weapon.</p><p><strong>Heightened (6th)</strong> You can create an elite weapon.</p><p><strong>Heightened (8th)</strong> You can create an ultimate weapon.</p><p><strong>Heightened (9th)</strong> You can create a paragon weapon.</p>"
     },
     "rules": [],
     "slug": "elemental-weapon",
@@ -70,12 +70,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111276589,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729383281760,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 7000000,
   "ownership": {

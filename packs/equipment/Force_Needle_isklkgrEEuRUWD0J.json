@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Upgrades:</strong> 3</p><hr /><p>This subtle weapon resembles a grip without a blade. When a full vial of liquid is inserted into the bottom of the hilt, it generates a needle of pure energy to hold and inject the consumed dose of medicine or poison.</p>"
+      "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This subtle weapon resembles a grip without a blade. When a full vial of liquid is inserted into the bottom of the hilt, it generates a needle of pure energy to hold and inject the consumed dose of medicine or poison.</p>"
     },
     "rules": [],
     "slug": "force-needle",
@@ -22,8 +22,7 @@
         "injection",
         "powered",
         "tech",
-        "thrown-20",
-        "ysoki"
+        "thrown-20"
       ],
       "rarity": "common"
     },
@@ -128,12 +127,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1722224731932,
-    "modifiedTime": 1722359029681,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729545066292,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 3500000,
   "ownership": {

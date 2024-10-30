@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Transfer</strong> Cost 1</p><hr /><p>You can use your vitality network as an extradimensional storage space, sliding items into and out of thin air as if it were a null space chamber. You can Interact with an item that weighs 1 Bulk or less to stow it into your Cloud Storage. A creature in your bond and on the same plane can pay the transfer cost to remove an item from your Cloud Storage as an Interact action. Your Cloud Storage has a capacity of 12 Bulk. When you become expert or higher in your connection skill, it becomes 25 Bulk; 50 Bulk at master, and 75 Bulk at legendary.</p>"
+      "value": "<p><strong>Transfer Cost</strong> 1</p><hr /><p>You can use your vitality network as an extradimensional storage space, sliding items into and out of thin air as if it were a <em>null space chamber</em>. You can Interact with an item that weighs 1 Bulk or less to stow it into your Cloud Storage. A creature in your bond and on the same plane can pay the transfer cost to remove an item from your Cloud Storage as an Interact action. Your Cloud Storage has a capacity of 12 Bulk. When you become expert or higher in your connection skill, it becomes 25 Bulk; 50 Bulk at master, and 75 Bulk at legendary.</p>"
     },
     "rules": [],
     "slug": "cloud-storage",

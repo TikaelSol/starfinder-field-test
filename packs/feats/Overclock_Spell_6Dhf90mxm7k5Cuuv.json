@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Transfer</strong> Cost the spell's rank</p><hr /><p>You infuse your magic with vital energy that empowers the target of your spell. If your next action is to cast a spell, bonded creatures you target with that spell becomes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} until the end of your next turn and can use the extra action each round for only Strike and Stride actions.</p>"
+      "value": "<p><strong>Transfer Cost</strong> the spell's rank</p><hr /><p>You infuse your magic with vital energy that empowers the target of your spell. If your next action is to cast a spell, bonded creatures you target with that spell becomes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} until the end of your next turn and can use the extra action each round for only Strike and Stride actions.</p>"
     },
     "rules": [],
     "slug": "overclock-spell",

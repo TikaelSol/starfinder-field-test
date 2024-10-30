@@ -413,6 +413,14 @@
                     },
                     "Elemental": {
                         "AdvancedEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ufwuEqjIg3yALnLL] epiphany spell.",
+                        "ElementalBarrier": {
+                            "Air": "Defending against electricity or sonic damage",
+                            "Earth": "Defending against bludgeoning or piercing damage",
+                            "Fire": "Defending against fire damage",
+                            "Metal": "Defending against acid or slashing damage",
+                            "Water": "Defending against cold damage",
+                            "Wood": "Defending against poison damage"
+                            },
                         "GreaterEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5zWyADC0jPsAlvcd] epiphany spell.",
                         "Harmony": "When you heal a bonded creature with your vitality network, choose an elemental trait: air, earth, fire, metal, water, or wood. If one or more of your elemental epiphanies are active, you must select the elemental trait you chose as part of casting those spells. Until the end of their next turn, the target's next Strike deals 1d4 persistent damage based on the chosen trait: electricity or sonic for air, bludgeoning or piercing for earth, acid or slashing for metal, fire for fire, cold for water, or poison for wood. This increases to 1d6 when you learn your advanced epiphany and 1d8 when you learn your greater epiphany.",
                         "InitialEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.bS8Au4zlZG3RR78G] epiphany spell.",

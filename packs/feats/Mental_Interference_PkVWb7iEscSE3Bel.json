@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Transfer</strong> Cost 2</p><p><strong>Requirements</strong> You are within 30 feet of an enemy that can see you.</p><hr /><p>You project your bond into the target's mind to cause a bout of hesitation-inducing sympathy. Roll a check with your connection skill against the target's Will DC. The target is them temporarily immune for 1 hour.</p><hr /><p><strong>Critical Success</strong> The flash of insight imposes a –1 status penalty to attack rolls and a –3 status penalty to Will saves on the target for 1 minute. This effect ends early if it uses a single action with the concentrate trait to shake off the effects of the interference or immediately after you target the creature with a hostile action.</p><p><strong>Success</strong> As critical success, but the penalty to Will saves is –2.</p><p><strong>Critical Failure</strong> The brief connection causes you to lower your guard. You become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the next attack the target attempts against you before the end of your next turn.</p>"
+      "value": "<p><strong>Transfer Cost</strong> 2</p><p><strong>Requirements</strong> You are within 30 feet of an enemy that can see you.</p><hr /><p>You project your bond into the target's mind to cause a bout of hesitation-inducing sympathy. Roll a check with your connection skill against the target's Will DC. The target is them temporarily immune for 1 hour.</p><hr /><p><strong>Critical Success</strong> The flash of insight imposes a –1 status penalty to attack rolls and a –3 status penalty to Will saves on the target for 1 minute. This effect ends early if it uses a single action with the concentrate trait to shake off the effects of the interference or immediately after you target the creature with a hostile action.</p><p><strong>Success</strong> As critical success, but the penalty to Will saves is –2.</p><p><strong>Critical Failure</strong> The brief connection causes you to lower your guard. You become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the next attack the target attempts against you before the end of your next turn.</p>"
     },
     "rules": [],
     "slug": "mental-interference",
@@ -22,6 +22,7 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "mental",
         "mystic"
       ],
       "rarity": "common"
@@ -53,11 +54,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.1",
+    "coreVersion": "12.331",
     "createdTime": 1696482352215,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1729383137134,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },
