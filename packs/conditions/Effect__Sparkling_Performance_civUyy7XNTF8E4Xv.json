@@ -85,7 +85,7 @@
   "_id": "civUyy7XNTF8E4Xv",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20streak.webp",
   "folder": null,
-  "sort": 4000000,
+  "sort": 5400000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -94,10 +94,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1714325110999,
-    "modifiedTime": 1722269614899,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1728420317397,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
     "compendiumSource": null,
     "duplicateSource": null
   },

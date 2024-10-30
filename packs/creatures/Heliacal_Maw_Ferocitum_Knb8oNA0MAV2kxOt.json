@@ -1,0 +1,1022 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "sight": {
+      "color": null,
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Heliacal Maw Ferocitum",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false
+  },
+  "type": "npc",
+  "folder": null,
+  "name": "Heliacal Maw Ferocitum",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 66,
+        "temp": 0,
+        "max": 66,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "ac": {
+        "value": 28,
+        "details": "(30 with shield raised)"
+      },
+      "allSaves": {
+        "value": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "common",
+          "vesk"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 10
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Second Edition Playtest Adventure: Empires Devoured",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 6
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 4
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 20,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 22,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 16,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 19,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 19
+      },
+      "athletics": {
+        "base": 22
+      },
+      "computers": {
+        "base": 17
+      },
+      "intimidation": {
+        "base": 21
+      },
+      "religion": {
+        "base": 19
+      }
+    },
+    "traits": {
+      "value": [
+        "android",
+        "humanoid"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "_id": "Knb8oNA0MAV2kxOt",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "folder": "o4lPEY2w6k5o9O8D",
+      "name": "Advanced Kyokor Plating",
+      "type": "armor",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Upgrade:</strong> 1</p><hr /><p>This heavy armor incorporates a full-coverage polycarbon suit studded with ports and sockets and layered with plates from Daimalko's infamous colossi. Kyokor plating comes with boots, gloves, and a helmet with a clear visor.</p>"
+        },
+        "rules": [],
+        "slug": "kyokor-plating",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bulwark",
+            "tech"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "kyokor-plating",
+        "bulk": {
+          "value": 4
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 250
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Armor",
+            "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "heavy",
+        "group": "plate",
+        "acBonus": 6,
+        "strength": 4,
+        "dexCap": 0,
+        "checkPenalty": -3,
+        "speedPenalty": -10,
+        "runes": {
+          "potency": 1,
+          "resilient": 1,
+          "property": []
+        },
+        "subitems": [],
+        "specific": null
+      },
+      "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/finp_270_b.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.TrN6Keb7IiE09lZE",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "kGeIXAe8y2H478T2",
+      "_key": "!actors.items!Knb8oNA0MAV2kxOt.kGeIXAe8y2H478T2"
+    },
+    {
+      "folder": "SC7CMyNf70mDQTtn",
+      "name": "Advanced Phase Shield",
+      "type": "shield",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A phase shield is an intricate but durable technological device worn strapped to a limb that projects a protective hardlight barrier when deployed. Phase shields are translucent and tinted, with fully customizable colors and image projectors. Many wielders choose an image of a celebrity, a loved one, or pleasant scenery to bolster their spirits in dire situations.</p>"
+        },
+        "rules": [],
+        "slug": "phase-shield",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "integrated": null
+        },
+        "publication": {
+          "title": "Starfinder Second Edition Playtest Rulebook",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 8
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 66,
+          "max": 66
+        },
+        "hardness": 8,
+        "price": {
+          "value": {
+            "sp": 3000
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "handsHeld": 1
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Shield",
+            "img": "systems/pf2e/icons/unidentified_item_icons/shields.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "acBonus": 2,
+        "runes": {
+          "reinforcing": 0
+        },
+        "specific": null,
+        "speedPenalty": 0,
+        "subitems": []
+      },
+      "img": "icons/magic/defensive/shield-barrier-blue.webp",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.QpRjxcDlKQcak6UZ",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "sort": 103125,
+      "ownership": {
+        "default": 0,
+        "CmdglLq38DpgHzdd": 3,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "_id": "psyBF3GgsqF5SqyO",
+      "_key": "!actors.items!Knb8oNA0MAV2kxOt.psyBF3GgsqF5SqyO"
+    },
+    {
+      "type": "action",
+      "name": "Attunement",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "description": {
+          "value": "<p>A ferocitum begins combat graviton attuned. They shift between photon or graviton attuned when they use an ability with the cycle trait. Some of their abilities gain additional benefits depending on their current attunement state.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "stellar-attunement",
+            "suboptions": [
+              {
+                "label": "SF2E.SpecificRule.Solarian.Attunement.Graviton",
+                "value": "graviton"
+              },
+              {
+                "label": "SF2E.SpecificRule.Solarian.Attunement.Photon",
+                "value": "photon"
+              },
+              {
+                "label": "SF2E.SpecificRule.Solarian.Attunement.Unattuned",
+                "value": "unattuned"
+              }
+            ],
+            "toggleable": true,
+            "alwaysActive": true,
+            "label": "SF2E.SpecificRule.Solarian.Attunement.Label",
+            "value": true,
+            "selection": "unattuned"
+          },
+          {
+            "key": "BaseSpeed",
+            "selector": "fly",
+            "value": 20,
+            "predicate": [
+              "stellar-attunement:graviton"
+            ]
+          },
+          {
+            "key": "DamageDice",
+            "selector": "solar-shot-damage",
+            "override": {
+              "dieSize": "d8",
+              "damageType": "bludgeoning"
+            },
+            "predicate": [
+              "stellar-attunement:graviton"
+            ]
+          },
+          {
+            "key": "DamageDice",
+            "selector": "solar-shot-damage",
+            "dieSize": "d6",
+            "critical": true,
+            "diceNumber": 1,
+            "predicate": [
+              "stellar-attunement:photon"
+            ],
+            "damageType": "fire",
+            "category": "persistent"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "solar-weapon-damage",
+            "value": 5,
+            "damageType": "fire",
+            "predicate": [
+              "stellar-attunement:photon"
+            ]
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.4.1"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "uY6Mj1kDwkNxeO2u",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Knb8oNA0MAV2kxOt.uY6Mj1kDwkNxeO2u"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Reactive Strike",
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "reactive-strike",
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_id": "SbiNQcd9P89X1lIn",
+      "_key": "!actors.items!Knb8oNA0MAV2kxOt.SbiNQcd9P89X1lIn"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Shield Block",
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "shield-block",
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY",
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_id": "phvU1VHA15DSfUJL",
+      "_key": "!actors.items!Knb8oNA0MAV2kxOt.phvU1VHA15DSfUJL"
+    },
+    {
+      "type": "melee",
+      "name": "Solar Weapon",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "<p><strong>Graviton Attuned:</strong> The Strike causes the target to treat all adjacent squares as difficult terrain until the end of its next turn.</p><p><strong>Photon Attuned:</strong> The Strike deals an additional 5 fire damage.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "shove",
+            "versatile-s"
+          ]
+        },
+        "damageRolls": {
+          "ar62V03Iwu16EzJh": {
+            "damage": "2d10+14",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 22
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "hVKJgfLR75Nqkvmw",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Knb8oNA0MAV2kxOt.hVKJgfLR75Nqkvmw"
+    },
+    {
+      "type": "melee",
+      "name": "Solar Shot",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        },
+        "description": {
+          "value": "<p><strong>Graviton Attuned:</strong> Increase the damage to 3d8+10 and change the damage to bludgeoning. The shot has a range of 15 feet.</p><p><strong>Photon Attuned:</strong> On a critical hit, the target also takes 1d6 persistent fire damage.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-30"
+          ]
+        },
+        "damageRolls": {
+          "xxrl4Xn5vpzLrb3V": {
+            "damage": "3d6+10",
+            "damageType": "fire",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 19
+        },
+        "attackEffects": {
+          "value": []
+        }
+      },
+      "_id": "GvoWNIfttfxW2PWg",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Knb8oNA0MAV2kxOt.GvoWNIfttfxW2PWg"
+    },
+    {
+      "type": "action",
+      "name": "Attune",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "description": {
+          "value": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> If the ferocitum is unattuned or photon attuned, they become graviton attuned. They recreate their stellar weapon in a free hand if it has been destroyed or disarmed.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.4.1"
+          }
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "frequency": {
+          "max": 1,
+          "per": "round",
+          "value": 1
+        }
+      },
+      "effects": [],
+      "_id": "NtUg9xdgav3WA4Dd",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Knb8oNA0MAV2kxOt.NtUg9xdgav3WA4Dd"
+    },
+    {
+      "type": "action",
+      "name": "Blood Accretion",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "description": {
+          "value": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Requirements</strong> The ferocitum is graviton attuned</p><hr /><p><strong>Effect</strong> The ferocitum channels the entropic nature of the Devourer, creating a miniature black hole with a red tinge. The ferocitum selects any number of creatures within a 30-foot radius. Each affected creature takes @Damage[5d8[void]] damage and must attempt a @Check[fortitude|dc:29] save.</p><hr /><p><strong>Critical Success</strong> The creature takes no damage and is unaffected.</p><p><strong>Success</strong> The creature takes half damage and is pulled 5 feet toward the ferocitum.</p><p><strong>Failure</strong> The creature takes full damage, is pulled 15 feet toward the ferocitum, and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><p><strong>Critical Failure</strong> The creature takes double damage, is pulled 30 feet toward the ferocitum, and is @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.z1ucw4CLwLqHoAp3]{Untethered} for 1 round.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cycle"
+          ]
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.4.1"
+          }
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "frequency": {
+          "max": 1,
+          "per": "PT10M",
+          "value": 1
+        }
+      },
+      "effects": [],
+      "_id": "xRi3j5CEdNRwJ15w",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Knb8oNA0MAV2kxOt.xRi3j5CEdNRwJ15w"
+    },
+    {
+      "type": "action",
+      "name": "Shattering Impact",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "description": {
+          "value": "<p>The ferocitum makes a Strike with their solar weapon. If successful, increase the damage die by one step (to 2d12+14). The solar weapon then shatters.</p><p><strong>Graviton Attuned:</strong> If the ferocitum hits, their target takes a –10-foot status penalty to Speed until the start of the ferocitum's next turn.</p><p><strong>Photon Attuned:</strong> If the ferocitum hits, their target takes an additional 5 persistent fire damage.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "shattering-impact",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "DamageDice",
+            "selector": "solar-weapon-damage",
+            "override": {
+              "dieSize": "d12"
+            },
+            "predicate": [
+              "shattering-impact"
+            ]
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "solar-weapon-damage",
+            "value": 5,
+            "predicate": [
+              "shattering-impact",
+              "stellar-attunement:photon"
+            ],
+            "damageType": "fire",
+            "damageCategory": "persistent"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.4.1"
+          }
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "ywhHJCV6ZE0g7Gl9",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pf2e",
+        "systemVersion": "6.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Knb8oNA0MAV2kxOt.ywhHJCV6ZE0g7Gl9"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728590575335,
+    "modifiedTime": 1729555334799,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
+  },
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "sort": 2300000,
+  "_key": "!actors!Knb8oNA0MAV2kxOt"
+}

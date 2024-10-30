@@ -101,14 +101,14 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722220698407,
-    "modifiedTime": 1722224851314,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1728420317397,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_id": "lfG1m2ww3mdZY5jA",
-  "sort": 0,
+  "sort": 1200000,
   "_key": "!items!lfG1m2ww3mdZY5jA"
 }

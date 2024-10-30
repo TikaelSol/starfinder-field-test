@@ -528,17 +528,17 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
     "createdTime": 1721155995240,
-    "modifiedTime": 1722901409035,
-    "lastModifiedBy": "X4PBxKRd2PcFy3lF"
+    "modifiedTime": 1729555334799,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "ownership": {
     "default": 0,
     "CmdglLq38DpgHzdd": 3
   },
-  "sort": 3600000,
+  "sort": 11300000,
   "_key": "!actors!SJuv45dgCZ3Pssww"
 }

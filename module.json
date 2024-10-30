@@ -4,7 +4,7 @@
     "url": "https://github.com/TikaelSol/starfinder-field-test",
     "manifest": "https://github.com/TikaelSol/starfinder-field-test/releases/latest/download/module.json",
     "download": "https://github.com/TikaelSol/starfinder-field-test/releases/latest/download/starfinder-field-test-for-pf2e.zip",
-    "version": "6.5",
+    "version": "6.6",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
@@ -405,6 +405,7 @@
                     "diasporan": "SF2E.Language.Diasporan",
                     "eoxian": "SF2E.Language.Eoxian",
                     "kasatha": "SF2E.Language.Kasatha",
+                    "kothama": "SF2E.Language.Kothama",
                     "kucharn": "SF2E.Language.Kucharn",
                     "pact-common": "SF2E.Language.PactCommon",
                     "pahtra": "SF2E.Language.Pahtra",
@@ -433,8 +434,10 @@
                     "barathu": "SF2E.Trait.Barathu",
                     "borai": "SF2E.Trait.Borai",
                     "cosmic": "SF2E.Trait.Cosmic",
+                    "drift": "SF2E.Trait.Drift",
                     "jinsul": "SF2E.Trait.Jinsul",
                     "kasatha": "SF2E.Trait.Kasatha",
+                    "kothama": "SF2E.Trait.Kothama",
                     "kucharn": "SF2E.Trait.Kucharn",
                     "lashunta": "SF2E.Trait.Lashunta",
                     "midwife": "SF2E.Trait.Midwife",
@@ -588,6 +591,10 @@
                     },
                     "area-burst-10-ft": {
                         "label": "SF2E.Trait.AreaBurst10Ft",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "area-burst-15-ft": {
+                        "label": "SF2E.Trait.AreaBurst15Ft",
                         "description": "SF2E.TraitDescription.Area"
                     },
                     "area-cone": {
