@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You can transfer one or more Hit Points from your vitality network into yourself or a bonded creature you can see within 60 feet.</p>"
+      "value": "<p>You can transfer one or more Hit Points from your vitality network into yourself or a bonded creature you can see within 60 feet. This ability works on creatures with void healing as though this action had the void trait.</p>"
     },
     "rules": [],
     "slug": "transfer-vitality",
@@ -59,11 +59,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.1",
+    "coreVersion": "12.331",
     "createdTime": 1696481293703,
-    "modifiedTime": 1722297516011,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1729302205644,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

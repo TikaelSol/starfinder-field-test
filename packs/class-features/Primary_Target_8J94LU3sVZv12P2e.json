@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You can pick out a single target to bring down greater fire on when unleashing the full devastation of your powerful area weaponry. When you make an attack with an area of effect weapon (such as from the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire} actions), you can choose a single creature either adjacent to the center point of the attack or the closest to you within a cone or line to be your primary target. After resolving the area of effect attack, make a ranged Strike using your weapon against the selected target. Ignore the unwieldy trait on your weapon when using this action. This follow-up Strike consumes an amount of ammo from the weapon equal to its expend, and you can't make this additional Strike if you don't have sufficient ammo. If two or more creatures are equidistant or closest, you can choose which one is your primary target. If you successfully hit your primary target with this Strike, then that target is @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of your next turn. This Strike uses the same multiple attack penalty as your Area Fire or Auto-Fire action but doesn't count toward your multiple attack penalty.</p>"
+      "value": "<p>You can pick out a single target to bring down greater fire on when unleashing the full devastation of your powerful area weaponry.</p><p>When you make an attack with an area of effect weapon (such as from the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.6ctkxUnVwqooSvgg]{Auto-Fire} actions), you can choose a single creature either adjacent to the center point of the attack or the closest to you within a cone or line to be your primary target.</p><p>Before resolving the area of effect attack, make a ranged Strike using your weapon against the selected target. Ignore the unwieldy trait on your weapon when using this action. If two or more creatures are equidistant or closest, you can choose which one is your primary target. If you successfully hit your primary target with this Strike and the target rolls a success against your Area Fire or Auto-Fire action, they get a failure instead. This Strike doesn’t count toward your multiple attack penalty.</p>"
     },
     "rules": [],
     "slug": "primary-target",
@@ -59,11 +59,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.1",
+    "coreVersion": "12.331",
     "createdTime": 1691045081589,
-    "modifiedTime": 1722127063370,
-    "lastModifiedBy": "Rx0xhdrs9eKd1Esv",
+    "modifiedTime": 1729544498502,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

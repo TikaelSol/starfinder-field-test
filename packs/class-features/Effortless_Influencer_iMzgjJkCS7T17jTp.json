@@ -57,7 +57,7 @@
       "remaster": true
     },
     "level": {
-      "value": 13
+      "value": 18
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -84,11 +84,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.1",
+    "coreVersion": "12.331",
     "createdTime": 1712009077600,
-    "modifiedTime": 1722215555768,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1729301650502,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You magically split an atom, creating an explosion with radioactive fallout. All targets in the area take 5d12 bludgeoning damage and 5d12 fire damage, and are exposed to extreme radiation. The onset and frequency of this magical radiation is 1 round, and the area remains radioactive for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes half damage.</p>\n<p><strong>Success</strong> The target takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 minute.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 minute.</p>\n<p><strong>Critical Failure</strong> As failure, and the target takes double damage.</p>"
+      "value": "<p>You magically split an atom, creating an explosion with radioactive fallout. All targets in the area take 5d12 bludgeoning damage and 5d12 fire damage, and are exposed to extreme radiation that uses your Spellcasting DC as the @Check[fortitude|against:spell] for Radiation Sickness incurred by exposure to this radiation . The onset and frequency of this magical radiation is 1 round, and the area remains radioactive for 10 minutes.</p><hr /><p><strong>Critical Success</strong> The target is unaffected by the initial damage.</p><p><strong>Success</strong> The target takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 minute.</p><p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 minute.</p><p><strong>Critical Failure</strong> As failure, and the target takes double damage.</p>"
     },
     "rules": [],
     "slug": "atomic-blast",
@@ -85,7 +85,7 @@
     "defense": {
       "save": {
         "statistic": "reflex",
-        "basic": false
+        "basic": true
       }
     },
     "cost": {
@@ -103,12 +103,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111275913,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729546554231,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 3300000,
   "ownership": {

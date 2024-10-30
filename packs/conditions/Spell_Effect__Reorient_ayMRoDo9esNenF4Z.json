@@ -77,15 +77,15 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1696515508732,
-    "modifiedTime": 1722218719212,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1728524845280,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "ayMRoDo9esNenF4Z",
-  "sort": 3800000,
+  "sort": 5200000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

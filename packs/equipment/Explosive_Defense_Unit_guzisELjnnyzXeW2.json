@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>These reinforced custom armor plates automatically generate containment fields to protect you from nearby explosions, granting you a +1 item bonus to Reflex saving throws against Area Fire effects (such as grenades and missiles). You can also store a grenade in the explosive defense unit and detonate it without harming yourself.</p><hr /><p><strong>Activate—Store Grenade</strong> <span class=\"pf2-icon\">2</span> (manipulate)</p><p><strong>Effect</strong> You place a grenade inside a reinforced compartment in the explosive defense unit. You can Interact to retrieve the grenade normally. You can store only one grenade in the armor upgrade at a time.</p><hr /><p><strong>Activate—Defensive Detonation</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><p><strong>Requirements</strong> You have a stored grenade</p><p><strong>Effect</strong> You detonate the grenade stored in the explosive defense unit. The explosion is centered on your space, but the upgrade generates a containment field to protect you from its effects. The grenade otherwise functions as if you had activated it normally.</p>"
+      "value": "<p>These reinforced custom armor plates automatically generate containment fields to protect you from nearby explosions, granting you resistance 2 to area damage (acid, cold, electricity, and fire damage only). You can also store a grenade in the explosive defense unit and detonate it without harming yourself.</p><hr /><p><strong>Activate—Store Grenade</strong> <span class=\"pf2-icon\">2</span> (manipulate)</p><p><strong>Effect</strong> You place a grenade inside a reinforced compartment in the explosive defense unit. You can Interact to retrieve the grenade normally. You can store only one grenade in the armor upgrade at a time.</p><hr /><p><strong>Activate—Defensive Detonation</strong> <span class=\"pf2-icon\">1</span> (manipulate)</p><p><strong>Requirements</strong> You have a stored grenade</p><p><strong>Effect</strong> You detonate the grenade stored in the explosive defense unit. The explosion is centered on your space, but the upgrade generates a containment field to protect you from its effects. The grenade otherwise functions as if you had activated it normally.</p>"
     },
     "rules": [],
     "slug": "explosive-defense-unit",
@@ -79,12 +79,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
+    "systemVersion": "6.4.1",
     "createdTime": 1722406369712,
-    "modifiedTime": 1722408942972,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729545491552,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 3300000,
   "ownership": {

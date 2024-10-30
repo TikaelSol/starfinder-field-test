@@ -155,6 +155,12 @@
         "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
         "name": "Weapon Specialization",
         "level": 13
+      },
+      "2TsaH": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.fyh1OjLRt3g9wUhW",
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "name": "Perception Expertise",
+        "level": 11
       }
     },
     "hp": 8,
@@ -255,11 +261,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.3.1",
+    "systemVersion": "6.4.1",
     "coreVersion": "12.331",
     "createdTime": 1696479945768,
-    "modifiedTime": 1725991617295,
-    "lastModifiedBy": "4uTTBK4TzykGOYxh",
+    "modifiedTime": 1729302420385,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

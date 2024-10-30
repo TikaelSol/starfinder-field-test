@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You've learned how to use your weapons in a way that pulverizes your foes and makes the best use of your area attacks. Your proficiency ranks for simple weapons and martial weapons increases to expert. You gain access to the critical specialization effects for weapons with the area or automatic traits.</p>"
+      "value": "<p>You've learned how to use your weapons in a way that pulverizes your foes and makes the best use of your area attacks. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increases to expert. You gain access to the critical specialization effects for weapons with the area or automatic traits.</p>"
     },
     "rules": [
       {
@@ -84,11 +84,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.1",
+    "coreVersion": "12.331",
     "createdTime": 1691045081589,
-    "modifiedTime": 1722131539081,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1729544557482,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -32,7 +32,7 @@
       "value": 0
     },
     "quantity": 1,
-    "baseItem": "crossbolter",
+    "baseItem": "crossbow",
     "bulk": {
       "value": 2
     },
@@ -122,12 +122,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1722224731932,
-    "modifiedTime": 1722359029681,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729545091408,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 4200000,
   "ownership": {

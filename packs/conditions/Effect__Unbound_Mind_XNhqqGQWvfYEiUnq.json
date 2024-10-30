@@ -61,7 +61,7 @@
   "_id": "XNhqqGQWvfYEiUnq",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/brain%20in%20a%20jar.webp",
   "folder": null,
-  "sort": 3600000,
+  "sort": 5000000,
   "ownership": {
     "default": 0,
     "jqoxBUkgpBQ7vlMR": 3
@@ -70,10 +70,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1708112568786,
-    "modifiedTime": 1722269510579,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1728524845280,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

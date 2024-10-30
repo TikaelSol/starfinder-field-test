@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Requirements</strong> You are wielding a weapon with the area trait.</p><hr /><p>You hold down the trigger and push your weapons to their absolute limits with a ceaseless barrage of constant firepower. Make an @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} attack with a weapon you're currently wielding. Immediately after resolving this attack, make a second Area Fire with the same weapon. Ignore the unwieldy trait on your weapon when using this action. Creatures affected by the second Strike gain a +2 circumstance bonus to their save.</p><p>After you use this action, your weapon becomes unusable for 1 round as it cools off.</p>"
+      "value": "<p><strong>Requirements</strong> You are wielding a weapon with the area trait.</p><hr /><p>You hold down the trigger and push your weapons to their absolute limits with a ceaseless barrage of constant firepower. Make an @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire} attack with a weapon you're currently wielding. Immediately after resolving this attack, make a second Area Fire with the same weapon. Ignore the unwieldy trait on your weapon when using this action. Creatures affected by the second Strike gain a +2 circumstance bonus to their save.</p><p>After you use this action, your weapon needs to cool off and cannot be used until after your next turn or until you take any amount of cold damage.</p>"
     },
     "rules": [],
     "slug": "run-hot",
@@ -55,12 +55,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1721801600625,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729544735891,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 17600000,
   "ownership": {

@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Trigger</strong> A creature critically fails on a melee Strike's attack roll against you.</p>\n<p><strong>Requirements</strong> The triggering creature is within your reach, you have at least one free active hand, and your target is no more than one size larger than you.</p>\n<hr />\n<p>You seize the opportunity to give your foe a big hug to help them feel better or calm down. You attempt an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the triggering creature.</p>"
+      "value": "<p><strong>Trigger</strong> A creature critically fails on a melee Strike's attack roll against you.</p><p><strong>Requirements</strong> The triggering creature is within your reach, you have at least one free active hand, and your target is no more than one size larger than you.</p><hr /><p>You seize the opportunity to give your foe a big hug to help them feel better or calm down. You attempt an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} the triggering creature.</p><p><strong>Special</strong> If you have the  @UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8]{Titan Wrestler} skill feat, you can use Opportunistic Hug against creatures up to two sizes larger than you, or up to three sizes larger than you if you’re legendary in Athletics.</p>"
     },
     "rules": [],
     "slug": "opportunistic-hug",
@@ -59,11 +59,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.4.1",
+    "coreVersion": "12.331",
     "createdTime": 1708135736789,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1729301575551,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },

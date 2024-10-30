@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You prepare your vitality network to catch some of your excess magic, allowing it to flow back and bolster your bond's defenses. If the next action you use is to Cast a Spell that deals damage, whether or not it successfully deals damage, you and your bonded allies gain resistance to that type of damage equal to the spell's rank (minimum 1) until the end of your next turn. If the spell deals more than one type of damage, choose one and gain resistance to that type.</p>"
+      "value": "<p><strong>Transfer Cost</strong> 2</p><hr /><p>You prepare your vitality network to catch some of your excess magic, allowing it to flow back and bolster your bond's defenses. If the next action you use is to Cast a Spell that deals damage, whether or not it successfully deals damage, you and your bonded allies gain resistance to that type of damage equal to the spell's rank (minimum 1) until the end of your next turn. If the spell deals more than one type of damage, choose one and gain resistance to that type.</p>"
     },
     "rules": [],
     "slug": "adaptive-defense",
@@ -61,12 +61,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.4.1",
     "createdTime": 1721801567540,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729383095313,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 5800000,
   "ownership": {
