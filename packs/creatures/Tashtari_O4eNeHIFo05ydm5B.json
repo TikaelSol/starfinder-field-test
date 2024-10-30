@@ -619,14 +619,14 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.1",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1691066999902,
-    "modifiedTime": 1722569105641,
+    "modifiedTime": 1729555334799,
     "lastModifiedBy": "qA45GVv5hySaf9b5",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "O4eNeHIFo05ydm5B",
-  "sort": 5400000,
+  "sort": 13100000,
   "_key": "!actors!O4eNeHIFo05ydm5B"
 }

@@ -658,14 +658,14 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
     "createdTime": 1722571407005,
-    "modifiedTime": 1722571407005,
+    "modifiedTime": 1729555334799,
     "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_id": "w87AFcaoVu0ibwnn",
-  "sort": 0,
+  "sort": 6600000,
   "_key": "!actors!w87AFcaoVu0ibwnn"
 }

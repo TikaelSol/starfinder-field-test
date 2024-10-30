@@ -14,7 +14,10 @@
         "key": "ItemAlteration",
         "mode": "downgrade",
         "property": "badge-max",
-        "value": "6+4*@actor.level"
+        "value": "6+4*@actor.level",
+        "predicate": [
+          "item:id:{item|id}"
+        ]
       }
     ],
     "slug": "effect-vitality-network",
@@ -70,7 +73,7 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.2",
+    "systemVersion": "6.4.1",
     "coreVersion": "12.331",
     "createdTime": 1696481110957,
     "modifiedTime": 1728524845280,

@@ -1079,18 +1079,18 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.328",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.1",
     "createdTime": 1721155995240,
-    "modifiedTime": 1721850275463,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1729555334799,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_id": "O5ziRt5dmeNmPbtQ",
   "ownership": {
     "default": 0,
     "CmdglLq38DpgHzdd": 3
   },
-  "sort": 2100000,
+  "sort": 9800000,
   "_key": "!actors!O5ziRt5dmeNmPbtQ"
 }

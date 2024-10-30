@@ -1067,11 +1067,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.1",
     "createdTime": 1721860400699,
-    "modifiedTime": 1722569163092,
+    "modifiedTime": 1729555334799,
     "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "ownership": {
@@ -1079,6 +1079,6 @@
     "CmdglLq38DpgHzdd": 3
   },
   "_id": "RaLY79Wsy1Fw9eyk",
-  "sort": 0,
+  "sort": 2900000,
   "_key": "!actors!RaLY79Wsy1Fw9eyk"
 }

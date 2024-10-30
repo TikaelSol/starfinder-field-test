@@ -1007,13 +1007,13 @@
     "systemId": "pf2e",
     "systemVersion": "6.3.1",
     "createdTime": 1726281653421,
-    "modifiedTime": 1726338236728,
-    "lastModifiedBy": "paBWq1lQyu1NTnYu"
+    "modifiedTime": 1729555334799,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3
   },
-  "sort": 0,
+  "sort": 5100000,
   "_key": "!actors!j4WT4V8Gd7H2Dp1S"
 }

@@ -1396,14 +1396,14 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.1",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1691065889815,
-    "modifiedTime": 1722569172031,
+    "modifiedTime": 1729555334799,
     "lastModifiedBy": "qA45GVv5hySaf9b5",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "8q4q8Xg2nY04Vmos",
-  "sort": 5300000,
+  "sort": 13000000,
   "_key": "!actors!8q4q8Xg2nY04Vmos"
 }
