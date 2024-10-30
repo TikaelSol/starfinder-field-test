@@ -21,35 +21,35 @@
           {
             "label": "PF2E.TraitEarth",
             "value": {
-              "label": "Earth",
+              "label": "PF2E.TraitEarth",
               "option": "earth"
             }
           },
           {
             "label": "PF2E.TraitFire",
             "value": {
-              "label": "Fire",
+              "label": "PF2E.TraitFire",
               "option": "fire"
             }
           },
           {
             "label": "PF2E.TraitMetal",
             "value": {
-              "label": "Metal",
+              "label": "PF2E.TraitMetal",
               "option": "metal"
             }
           },
           {
             "label": "PF2E.TraitWater",
             "value": {
-              "label": "Water",
+              "label": "PF2E.TraitWater",
               "option": "water"
             }
           },
           {
             "label": "PF2E.TraitWood",
             "value": {
-              "label": "Wood",
+              "label": "PF2E.TraitWood",
               "option": "wood"
             }
           }
