@@ -1,0 +1,76 @@
+{
+  "name": "Spell Effect: Genetic Regeneration",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.6koMxltOVtV6BT6U]{Genetic Regeneration}</p><p>You gain regeneration equal to twice the spell rank.</p>"
+    },
+    "rules": [
+      {
+        "key": "FastHealing",
+        "value": "(@item.level)*2",
+        "type": "regeneration",
+        "deactivatedBy": [
+          "fire",
+          "acid"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/life/cross-beam-green.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "HfiqVTKP7yuQgALu": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728516296470,
+    "modifiedTime": 1728516296526,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+  },
+  "_id": "DO3P3N9kSQzUSg0U",
+  "sort": 1100000,
+  "_key": "!items!DO3P3N9kSQzUSg0U"
+}
