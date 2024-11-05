@@ -149,6 +149,12 @@
         "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20galaxy.webp",
         "name": "Quantum Field",
         "level": 1
+      },
+      "Q94pA": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.Uxoa3lMuD8HzSXXd",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20pulse.webp",
+        "name": "Quantum Pulse",
+        "level": 1
       }
     },
     "hp": 8,
@@ -253,10 +259,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1",
+    "systemVersion": "6.6.1",
     "createdTime": 1721443704204,
-    "modifiedTime": 1729544981129,
-    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+    "modifiedTime": 1730802020223,
+    "lastModifiedBy": "jWraEZiHJiAiiaaD"
   },
   "_key": "!items!lyPoetdmvTRyjsSM"
 }
