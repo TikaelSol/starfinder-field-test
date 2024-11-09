@@ -69,7 +69,7 @@
         },
         "group": "brawling",
         "key": "Strike",
-        "label": "PF2E.Weapon.Base.Claw",
+        "label": "PF2E.Weapon.Base.claw",
         "range": null,
         "slug": "claw",
         "traits": [
@@ -98,12 +98,12 @@
     ],
     "slug": "predatory",
     "_migration": {
-      "version": 0.932,
+      "version": 0.933,
       "lastMigration": null,
       "previous": {
-        "schema": 0.917,
-        "foundry": "12.328",
-        "system": "6.1.1"
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.6.1"
       }
     },
     "traits": {
@@ -147,11 +147,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
-    "coreVersion": "12.330",
+    "systemVersion": "6.6.1",
+    "coreVersion": "12.331",
     "createdTime": 1708119275981,
-    "modifiedTime": 1722324116335,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1731180775349,
+    "lastModifiedBy": "OGwaDXDqOs6Elu3u",
     "compendiumSource": null,
     "duplicateSource": null
   },
