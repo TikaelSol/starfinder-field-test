@@ -21,6 +21,7 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "area",
         "attack"
       ]
     },
@@ -49,11 +50,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.1",
-    "coreVersion": "12.330",
+    "systemVersion": "6.6.2",
+    "coreVersion": "12.331",
     "createdTime": 1691045523432,
-    "modifiedTime": 1723561686892,
-    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "modifiedTime": 1731728106869,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },
