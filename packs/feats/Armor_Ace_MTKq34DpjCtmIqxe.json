@@ -11,7 +11,7 @@
       {
         "key": "AdjustModifier",
         "mode": "upgrade",
-        "selector": "ac",
+        "selector": "reflex",
         "slug": "bulwark",
         "value": 4
       }
@@ -67,11 +67,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
-    "coreVersion": "12.330",
+    "systemVersion": "6.6.2",
+    "coreVersion": "12.331",
     "createdTime": 1708136115114,
-    "modifiedTime": 1722323736792,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1731725974033,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },
