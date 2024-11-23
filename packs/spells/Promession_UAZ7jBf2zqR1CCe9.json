@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You flash freeze a target then send subsonic waves through it, potentially reducing it into fine powder. Make a spell attack against the target. If you hit a target, then the target takes 6d10 cold damage and must make a Fortitude save. A creature reduced to 0 HP is blasted to fine powder; its gear remains.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected by further damage.</p>\n<p><strong>Success</strong> The target takes an additional @Damage[floor(@item.level - 3)d10[cold]] damage.</p>\n<p><strong>Failure</strong> The target takes an additional @Damage[floor(@item.level)d10[cold]] damage.</p>\n<p><strong>Critical Failure</strong> The target takes an additional @Damage[floor(@item.level + 4)d10[cold]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The cold and sonic damage increases by 1d10.</p>"
+      "value": "<p>You flash freeze a target then send subsonic waves through it, potentially reducing it into fine powder. Make a spell attack against the target. If you hit a target, then the target takes 6d10 cold damage and must make a Fortitude save. A creature reduced to 0 HP is blasted to fine powder; its gear remains.</p><hr /><p><strong>Critical Success</strong> The target is unaffected by further damage.</p><p><strong>Success</strong> The target takes an additional @Damage[floor(@item.level - 3)d10[sonic]] damage.</p><p><strong>Failure</strong> The target takes an additional @Damage[floor(@item.level)d10[sonic]] damage.</p><p><strong>Critical Failure</strong> The target takes an additional @Damage[floor(@item.level + 4)d10[sonic]] damage.</p><hr /><p><strong>Heightened (+1)</strong> The cold and sonic damage increases by 1d10.</p>"
     },
     "rules": [],
     "slug": "promession",
@@ -102,12 +102,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.7.0",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111276264,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1732328742872,
+    "lastModifiedBy": "WM9AgIaDHAkyzTEo"
   },
   "sort": 5400000,
   "ownership": {
