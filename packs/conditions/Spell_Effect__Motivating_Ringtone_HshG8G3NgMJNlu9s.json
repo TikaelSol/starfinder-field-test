@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.jCr8Airvs1u5D1yR]{Motivating Ringtone}</p>\n<hr />\n<p>The creature who owns the target gains a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects for the duration, as long as the comm unit continues to play the ringtone.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.jCr8Airvs1u5D1yR]{Motivating Ringtone}</p><p>You gain a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects.</p>"
     },
     "rules": [
       {
@@ -20,7 +20,7 @@
         "selector": "saving-throw",
         "value": 1,
         "predicate": [
-          "fear"
+          "item:trait:fear"
         ],
         "type": "status"
       }
@@ -76,7 +76,7 @@
     "unidentified": false
   },
   "_id": "HshG8G3NgMJNlu9s",
-  "img": "icons/magic/sonic/bell-alarm-red-purple.webp",
+  "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
   "flags": {
     "core": {},
     "exportSource": {
@@ -88,15 +88,15 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.6.2",
     "coreVersion": "12.331",
     "createdTime": 1696515181513,
-    "modifiedTime": 1728524845280,
+    "modifiedTime": 1731775677478,
     "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "sort": 4400000,
+  "sort": 5200000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

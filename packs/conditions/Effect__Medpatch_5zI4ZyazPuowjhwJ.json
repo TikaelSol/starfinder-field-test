@@ -1,0 +1,211 @@
+{
+  "name": "Effect: Medpatch",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.epPPWPTc4W7EfUf2]{Medpatch (Commercial)}, @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.acDATgrAmxjhfEFB]{Medpatch (Tactical)}, @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.ROnqVxG1z9wm6CBA]{Medpatch (Advanced)}, @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.DcTKWLfdYTL43Ks5]{Medpatch (Superior)}, @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.PkvcfbTHVMLlz2UO]{Medpatch (Elite)}, @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.KCH0gSUZwQtMLu9G]{Medpatch (Ultimate)}</p><p>You gain an item bonus against disease and poisons.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:medpatch-commercial",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.epPPWPTc4W7EfUf2"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:medpatch-tactical",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.acDATgrAmxjhfEFB"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:medpatch-advanced",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.ROnqVxG1z9wm6CBA"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:medpatch-superior",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.DcTKWLfdYTL43Ks5"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:medpatch-elite",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.PkvcfbTHVMLlz2UO"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:medpatch-ultimate",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.KCH0gSUZwQtMLu9G"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.EquipmentVariety",
+        "rollOption": "medpatch"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:disease",
+              "item:trait:poison"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "slug": "medpatch-bonus",
+        "type": "item",
+        "value": 1
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              "medpatch:medpatch-advanced",
+              "medpatch:medpatch-superior"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "slug": "medpatch-bonus",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              "medpatch:medpatch-elite"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "slug": "medpatch-bonus",
+        "value": 3
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              "medpatch:medpatch-ultimate"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "slug": "medpatch-bonus",
+        "value": 4
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.934,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 10,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/nj_912_b.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "HfiqVTKP7yuQgALu": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.6.2",
+    "createdTime": 1731775677396,
+    "modifiedTime": 1731775975424,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+  },
+  "_id": "5zI4ZyazPuowjhwJ",
+  "sort": 400000,
+  "_key": "!items!5zI4ZyazPuowjhwJ"
+}
