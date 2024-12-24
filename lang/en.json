@@ -467,6 +467,7 @@
                 "Proficiency": {
                     "AdvancedGuns": "Advanced Guns",
                     "MartialAndSimpleGuns": "Martial and Simple Guns",
+                    "SimpleGuns": "Simple Guns",
                     "OneHandedAgileWeapons": "One-handed Agile Weapons"
                 },
                 "Specialization": {
