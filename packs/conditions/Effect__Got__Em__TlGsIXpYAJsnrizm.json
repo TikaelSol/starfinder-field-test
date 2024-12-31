@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The creature takes a circumstance penalty to attack and damage rolls against you.</p>"
+      "value": "<p>You gain a number of temporary Hit Points equal to half the origin level, or equal to the origin level if the Strike was a critical hit.</p>"
     },
     "rules": [
       {
