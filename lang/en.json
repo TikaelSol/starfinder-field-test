@@ -466,7 +466,9 @@
             "Operative": {
                 "Proficiency": {
                     "AdvancedGuns": "Advanced Guns",
-                    "MartialAndSimpleGuns": "Martial and Simple Guns"
+                    "MartialAndSimpleGuns": "Martial and Simple Guns",
+                    "SimpleGuns": "Simple Guns",
+                    "OneHandedAgileWeapons": "One-Handed Agile Weapons"
                 },
                 "Specialization": {
                     "Prompt": "Select a specialization"
