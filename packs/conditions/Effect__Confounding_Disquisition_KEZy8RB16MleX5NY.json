@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The creature takes a circumstance penalty to attack and damage rolls against you.</p>"
+      "value": "<p>You take a –1 status penalty to Perception checks and Will saves.</p>"
     },
     "rules": [
       {
