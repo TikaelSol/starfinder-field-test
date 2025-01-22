@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You cause the ground to swell and erupt into a fiery crater, dealing 4d6 fire damage to all creatures in a @Template[type:burst|distance:30] and any creature who ends their turn in the area of the spell (Reflex half). The area becomes difficult terrain and hazardous terrain. Whenever you Sustain the Spell, roll a @Check[type:flat|dc:10|showDC:all]. On a success, the volcano erupts and deals 4d6 fire damage to all creatures in a 30-foot burst. On a failure, the flat check becomes a @Check[type:flat|dc:5|showDC:all] the next time you Sustain the Spell.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+      "value": "<p>You cause the ground to swell and erupt into a fiery crater, dealing 4d6 fire damage to all creatures in a @Template[type:burst|distance:30] any creature who ends their turn in the area of the spell, with a basic Reflex save. The area becomes difficult terrain and hazardous terrain. Whenever you Sustain the Spell, roll a @Check[type:flat|dc:10|showDC:all]. On a success, the volcano erupts and deals 4d6 fire damage to all creatures in a 30-foot burst. On a failure, the flat check becomes a @Check[type:flat|dc:5|showDC:all] the next time you Sustain the Spell.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
     },
     "rules": [],
     "slug": "uncanny-eruption",
