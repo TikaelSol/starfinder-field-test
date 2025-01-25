@@ -493,6 +493,21 @@
                     "Alteration": "When you use an action with the disharmony trait, you gain a number of temporary Hit Points equal to half your level."
                 },
                 "IndomitableBodyAndMind": "When you roll a success at a Fortitude or Will save against a mental or incapacitation effect, you can choose to change your current attunement. @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.mzW6zQ1SPEVq8yA9]",
+                "SolarShield": {
+                    "Description": {
+                        "PartOne": "Your solar manifestations now include the ability to create a small shield of celestial energy. This energy shield does not require a hand to use, as it floats near you. You can Raise a Shield, giving you a +1 circumstance bonus to AC until the start of your next turn.",
+                        "PartTwo": "While the shield is raised, you can use the Shield Block reaction with your shield. The shield has 5 + 2 × your level Hit Points and no Hardness. Your shield can't be broken, but if it's destroyed, you cannot manifest a new shield for 10 minutes. If your shield vanishes due to you losing attunement, when you Attune to reform it, the shield returns with however many Hit Points it previously had. The shield regains all its lost Hit Points during your daily preparations or whenever you rest for at least 10 minutes, even if it's been destroyed."
+                    },
+                    "Effect": "@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.q5W7fV1wXvqBFxt8]{Effect: Solar Shield}",
+                    "GravitonAttuned": {
+                        "Label": "Graviton-Attuned",
+                        "Note": "Your shield has Hardness equal to half your level rounded up."
+                    },
+                    "PhotonAttuned": {
+                        "Label": "Photon-Attuned",
+                        "Note": "If your shield is destroyed, adjacent enemies must succeed at a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC or be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round. On a critical failure they are instead @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round."
+                    }
+                },
                 "SolarShot": {
                     "Label": "Solar Shot"
                 },
