@@ -116,9 +116,9 @@
     },
     "publication": {
       "title": "",
-      "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "authors": "Starfinder Second Edition Playtest Rulebook",
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
