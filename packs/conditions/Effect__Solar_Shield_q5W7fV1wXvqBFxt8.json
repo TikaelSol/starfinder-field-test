@@ -145,14 +145,7 @@
   "ownership": {
     "default": 0,
     "HfiqVTKP7yuQgALu": 3
-  },
-  "flags": {
-    "exportSource": {
-      "world": "pf2e-data-entry-v20241223",
-      "system": "pf2e",
-      "coreVersion": "12.331",
-      "systemVersion": "6.8.4"
-    }
+  }
   },
   "_stats": {
     "compendiumSource": null,
