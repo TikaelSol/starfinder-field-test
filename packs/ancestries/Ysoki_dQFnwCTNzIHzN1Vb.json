@@ -78,7 +78,14 @@
       "value": [],
       "custom": ""
     },
-    "items": {},
+    "items": {
+      "ePWiZ": {
+        "uuid": "Compendium.pf2e.ancestryfeatures.Item.sW4ObB8wyLPPYvGj",
+        "img": "icons/commodities/bones/skull-lizard-tan.webp",
+        "name": "Sharp Teeth",
+        "level": 0
+      }
+    },
     "vision": "low-light-vision"
   },
   "_id": "dQFnwCTNzIHzN1Vb",
@@ -92,11 +99,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
-    "coreVersion": "12.330",
+    "systemVersion": "6.8.5",
+    "coreVersion": "12.331",
     "createdTime": 1708138284144,
-    "modifiedTime": 1722325781979,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1738798569563,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },
