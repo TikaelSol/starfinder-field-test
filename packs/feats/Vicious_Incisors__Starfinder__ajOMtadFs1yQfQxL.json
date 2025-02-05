@@ -1,5 +1,5 @@
 {
-  "name": "Viscious Incisors (Starfinder)",
+  "name": "Vicious Incisors (Starfinder)",
   "type": "feat",
   "effects": [],
   "system": {
@@ -30,7 +30,7 @@
         "value": "backstabber"
       }
     ],
-    "slug": "viscious-incisors",
+    "slug": "vicious-incisors",
     "_migration": {
       "version": 0.932,
       "lastMigration": null,
