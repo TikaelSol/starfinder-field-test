@@ -1,0 +1,163 @@
+{
+  "name": "Effect: Solar Shield",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.ZPj5TjISL153EGpW]{Solar Shield}</p><p>You can Raise a Shield, giving you a +1 circumstance bonus to AC. While the shield is raised, you can use the Shield Block reaction with your shield.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.shield",
+        "predicate": [
+          {
+            "or": [
+              "self:type:character",
+              "self:type:npc"
+            ]
+          }
+        ],
+        "value": {
+          "ac": 1,
+          "broken": false,
+          "brokenThreshold": 0,
+          "destroyed": false,
+          "hp": {
+            "max": 0,
+            "value": 0
+          },
+          "icon": "systems/pf2e/icons/spells/shield.webp",
+          "itemId": "{item|_id}",
+          "name": "PF2E.ShieldLabel"
+        }
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "self:shield:equipped",
+        "predicate": [
+          {
+            "or": [
+              "self:type:character",
+              "self:type:npc"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.shield.hardness",
+        "predicate": [
+          "stellar-attunement:photon",
+          {
+            "or": [
+              "self:type:character",
+              "self:type:npc"
+            ]
+          }
+        ],
+        "value": 0
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.shield.hardness",
+        "predicate": [
+          "stellar-attunement:graviton",
+          {
+            "or": [
+              "self:type:character",
+              "self:type:npc"
+            ]
+          }
+        ],
+        "value": "ceil(@actor.level/2)"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.solarShield.level",
+        "value": "5 + 2*(@actor.level)"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.shield.hp",
+        "predicate": [
+          {
+            "or": [
+              "self:type:character",
+              "self:type:npc"
+            ]
+          }
+        ],
+        "value": {
+          "max": "{actor|flags.pf2e.solarShield.level}",
+          "value": "{actor|flags.pf2e.solarShield.level}"
+        }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "Starfinder Second Edition Playtest Rulebook",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/symbols/runes-star-orange.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "HfiqVTKP7yuQgALu": 3
+  }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4",
+    "createdTime": 1737778405572,
+    "modifiedTime": 1737778652968,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+  },
+  "_id": "q5W7fV1wXvqBFxt8",
+  "sort": 0,
+  "_key": "!items!q5W7fV1wXvqBFxt8"
+}
