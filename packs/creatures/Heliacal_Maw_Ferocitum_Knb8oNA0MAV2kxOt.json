@@ -99,9 +99,9 @@
   "system": {
     "attributes": {
       "hp": {
-        "value": 66,
+        "value": 180,
         "temp": 0,
-        "max": 66,
+        "max": 180,
         "details": ""
       },
       "speed": {
@@ -1008,10 +1008,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1",
+    "systemVersion": "6.8.5",
     "createdTime": 1728590575335,
-    "modifiedTime": 1729555334799,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "modifiedTime": 1738797484859,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "ownership": {
     "default": 0,
