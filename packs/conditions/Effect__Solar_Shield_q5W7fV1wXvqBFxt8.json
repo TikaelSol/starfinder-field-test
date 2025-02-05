@@ -103,6 +103,10 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY"
       }
     ],
     "slug": null,
@@ -145,16 +149,16 @@
   "ownership": {
     "default": 0,
     "HfiqVTKP7yuQgALu": 3
-  }
   },
+  "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.8.4",
+    "systemVersion": "6.8.5",
     "createdTime": 1737778405572,
-    "modifiedTime": 1737778652968,
+    "modifiedTime": 1738797169861,
     "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_id": "q5W7fV1wXvqBFxt8",
