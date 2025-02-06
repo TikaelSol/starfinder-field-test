@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>A well of desolate darkness scours all life from the area, dealing 10d10 void damage to all living creatures in the area. Each creature in the area must attempt a Reflex save. If void scour overlaps with an area of magical light or affects a creature affected by magical light, void scour attempts to counteract the light effect.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and @Damage[(@item.level - 6)d6[persistent,void]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, @Damage[((@item.level - 6) * 2)d6[persistent,void]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the initial void damage by 2d10. The persistent negative damage increases by 1d6 on a failure, or by 2d6 on critical failure.</p>"
+      "value": "<p>A well of desolate darkness scours all life from the area, dealing 10d10 void damage to all living creatures in the area. Each creature in the area must attempt a Reflex save. If void scour overlaps with an area of magical light or affects a creature affected by magical light, void scour attempts to counteract the light effect.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage.</p><p><strong>Failure</strong> The creature takes full damage and @Damage[(@item.level - 6)d6[persistent,void]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p><p><strong>Critical Failure</strong> The creature takes double damage, @Damage[((@item.level - 6) * 2)d6[persistent,void]] damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}.</p><hr /><p><strong>Heightened (+1)</strong> Increase the initial void damage by 2d10. The void negative damage increases by 1d6 on a failure, or by 2d6 on critical failure.</p>"
     },
     "rules": [],
     "slug": "void-scour",
@@ -90,7 +90,8 @@
       "interval": 1,
       "damage": {
         "qYP1Sk2N4tBmrdU2": "2d10"
-      }
+      },
+      "area": 0
     }
   },
   "_id": "GNbPLs7S7RetVuPy",
@@ -99,12 +100,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.8.5",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111275989,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1738800301666,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 3700000,
   "ownership": {
