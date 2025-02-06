@@ -15,7 +15,7 @@
         "path": "system.proficiencies.defenses.heavy.rank",
         "value": 2,
         "predicate": [
-          "feature:armor-expertise-solarian"
+          "feature:solarian-armor-expertise"
         ]
       },
       {
@@ -85,12 +85,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.8.5",
     "createdTime": 1721801592629,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1738800956195,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 9000000,
   "ownership": {
