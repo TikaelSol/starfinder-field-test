@@ -1,5 +1,5 @@
 {
-  "name": "Soul Sustinance",
+  "name": "Soul Sustenance",
   "type": "feat",
   "effects": [],
   "system": {
@@ -8,7 +8,7 @@
       "value": "<p>Your soul is nearly whole and can sustain your living body indefinitely, without the need for outside nourishment. You don't need to eat or drink.</p>"
     },
     "rules": [],
-    "slug": "soul-sustinance",
+    "slug": "soul-sustenance",
     "_migration": {
       "version": 0.932,
       "lastMigration": null,
