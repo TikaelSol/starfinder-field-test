@@ -9,19 +9,14 @@
     },
     "rules": [
       {
-        "itemType": "action",
+        "itemType": "feat",
         "key": "ItemAlteration",
         "mode": "upgrade",
         "predicate": [
-          {
-            "gte": [
-              "self:level",
-              14
-            ]
-          }
+          "item:slug:got-em"
         ],
         "property": "frequency-max",
-        "value": "ternary(gte(@actor.level,18),3,2)"
+        "value": "ternary(gte(@actor.level, 18),3,ternary(gte(@actor.level, 14),2, 1))"
       }
     ],
     "slug": "got-em",
@@ -79,11 +74,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.8.5",
+    "coreVersion": "12.331",
     "createdTime": 1712003768841,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1738884956430,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },
