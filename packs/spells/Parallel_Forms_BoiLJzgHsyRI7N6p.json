@@ -28,7 +28,7 @@
         "manipulate",
         "witchwarper"
       ],
-      "rarity": "common",
+      "rarity": "uncommon",
       "traditions": []
     },
     "publication": {
@@ -38,7 +38,7 @@
       "remaster": true
     },
     "level": {
-      "value": 5
+      "value": 6
     },
     "requirements": "",
     "target": {
@@ -71,12 +71,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.8.5",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111275800,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1738799906966,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 2700000,
   "ownership": {

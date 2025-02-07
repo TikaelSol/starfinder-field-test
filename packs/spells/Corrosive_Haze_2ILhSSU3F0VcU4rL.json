@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You unleash a cloud of corrosive nanites. Creatures that start their turn in the area take 6d8 acid damage and 1d6 persistent acid damage with a basic Fortitude save. The nanites also corrode any unattended objects in the area, dealing @Damage[3d8[acid]] damage. Each round you Sustain the spell, you can move the cloud up to 10 feet in any direction. You can Dismiss the spell.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d12, and the persistent acid damage increases by 1d6.</p>"
+      "value": "<p>You unleash a cloud of corrosive nanites. Creatures that start their turn in the area take 6d8 acid damage and 1d6 persistent acid damage with a basic Fortitude save. The nanites also corrode any unattended objects in the area, dealing @Damage[3d8[acid]] damage. Each round you Sustain the spell, you can move the cloud up to 10 feet in any direction. You can Dismiss the spell.</p><hr /><p><strong>Heightened (+1)</strong> The initial damage increases by 1d8, and the persistent acid damage increases by 1d6.</p>"
     },
     "rules": [],
     "slug": "corrosive-haze",
@@ -97,9 +97,10 @@
       "type": "interval",
       "interval": 1,
       "damage": {
-        "fbd3TQav8HcZ0Dua": "1d12",
+        "fbd3TQav8HcZ0Dua": "1d8",
         "HNja0gkZCYfpuEW4": "1d6"
-      }
+      },
+      "area": 0
     }
   },
   "_id": "2ILhSSU3F0VcU4rL",
@@ -109,12 +110,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.8.5",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111275361,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1738800108713,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 500000,
   "ownership": {

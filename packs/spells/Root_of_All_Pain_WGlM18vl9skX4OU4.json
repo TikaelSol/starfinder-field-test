@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your finger pushes a tiny root into the target's body that begins to grow, burrowing through the nervous system as it feeds off the electric signals triggered by the agonizing pain of its intrusive spread. The target attempts a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes @Damage[2d8[mental]] damage the first time each round they perform any action they could not perform while paralyzed.</p>\n<p><strong>Failure</strong> As Success, except the target takes @Damage[4d8[mental]] damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for the remainder of the duration if it takes 50 or more damage from this spell, including later persistent damage accrued.</p>\n<p><strong>Critical Failure</strong> As Success, except the target takes @Damage[6d8[mental]] damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for the remainder of the duration if it takes 50 or more damage from this spell, including later persistent damage accrued.</p>"
+      "value": "<p>Your finger pushes a tiny root into the target's body that begins to grow, burrowing through the nervous system as it feeds off the electric signals triggered by the agonizing pain of its intrusive spread. The target attempts a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target takes @Damage[2d8[mental]] damage the first time each round they perform any action they could not perform while paralyzed.</p><p><strong>Failure</strong> As Success, except the target takes @Damage[4d8[mental]] damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for the remainder of the duration if it takes 50 or more damage from this spell, including later damage accrued.</p><p><strong>Critical Failure</strong> As Success, except the target takes @Damage[6d8[mental]] damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for the remainder of the duration if it takes 50 or more damage from this spell, including later damage accrued.</p>"
     },
     "rules": [],
     "slug": "root-of-all-pain",
@@ -76,12 +76,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.8.5",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111276400,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1738800508059,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 5800000,
   "ownership": {

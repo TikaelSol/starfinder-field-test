@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You taunt your enemy mercilessly. Attempt an @Check[type:intimidation|defense:will] check and compare it to the Will DC of one enemy creature within 60 feet. The target is then temporarily immune to any use of Intimidating Taunt for 1 hour. This action has the auditory trait or visual trait, depending on how you taunt your enemy.</p><hr /><p><strong>Critical Success</strong> On their next turns, any hostile actions that the creature takes must include you as a target or include you in the area as long as you are visible to the target, otherwise the action takes a –2 circumstance penalty if its an attack or reduces the save DC by 2.</p><p><strong>Success</strong> As success, but only the first hostile action that the creature takes is affected.</p><p><strong>Failure</strong> The creature is unaffected.</p>"
+      "value": "<p>You taunt your enemy mercilessly. Attempt an @Check[type:intimidation|defense:will] check and compare it to the Will DC of one enemy creature within 60 feet. The target is then temporarily immune to any use of Intimidating Taunt for 1 hour. This action has the auditory trait or visual trait, depending on how you taunt your enemy.</p><hr /><p><strong>Critical Success</strong> On their next turns, any hostile actions that the creature takes must include you as a target or include you in the area as long as you are visible to the target, otherwise the action takes a –2 circumstance penalty if its an attack or reduces the save DC by 2.</p><p><strong>Success</strong> As critical success, but only the first hostile action that the creature takes is affected.</p><p><strong>Failure</strong> The creature is unaffected.</p>"
     },
     "rules": [],
     "slug": "intimidating-taunt",
@@ -62,12 +62,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.8.5",
     "createdTime": 1721801600625,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1738799811254,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "sort": 5100000,
   "ownership": {
