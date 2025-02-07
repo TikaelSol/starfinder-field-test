@@ -22,7 +22,9 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "solarian"
+      ],
       "rarity": "common"
     },
     "publication": {
@@ -62,9 +64,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1",
+    "systemVersion": "6.8.5",
     "createdTime": 1729543743636,
-    "modifiedTime": 1729544063164,
+    "modifiedTime": 1738970421335,
     "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_key": "!items!8vpG3ipA3q66Kt3T"
