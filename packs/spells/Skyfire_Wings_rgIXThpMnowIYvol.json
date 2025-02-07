@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Wings of plasma grow from your body that propel you to soar high above your enemies, or scorch them for getting too close. You gain a fly Speed equal to your Speed or 20 feet, whichever is greater. Your arms (or primary set of arms) turn into wings that cannot hold items or wield weapons. You drop any held equipment in those arms. Your wings are unarmed attacks that deal 1d8 Fire damage and has the backswing, reach, and unarmed traits; On a critical hit, a target of your wing attack takes 2 persistent electricity damage.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> Your wings do 2d8 fire damage and 4 persistent electricity damage on a critical hit. The duration increases to 5 minutes.</p>\n<p><strong>Heightened (7th)</strong> Your wings do 3d8 fire damage and 6 persistent elecricity damage on a critical hit. The duration increases to 1 hour.</p>\n<p><strong>Heightened (9th)</strong> Your wings do 4d8 fire damage and 8 persistent electricity damage on a critical hit. The duration increases to 8 hours.</p>"
+      "value": "<p>Wings of plasma grow from your body that propel you to soar high above your enemies, or scorch them for getting too close. You gain a fly Speed equal to your Speed or 20 feet, whichever is greater. Your arms (or primary set of arms) turn into wings that cannot hold items or wield weapons. You drop any held equipment in those arms. Your wings are unarmed attacks that deal 1d8 fire damage and has the backswing, reach, and unarmed traits; On a critical hit, a target of your wing attack takes 2 persistent electricity damage.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.2O63RRDOEQlGL2BS]{Spell Effect: Skyfire Wings}</p><hr /><p><strong>Heightened (5th)</strong> Your wings do 2d8 fire damage and 4 persistent electricity damage on a critical hit. The duration increases to 5 minutes.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.9wtEBwpUhvRdnqJz]{Spell Effect: Skyfire Wings (5 Minutes)}</p><p><strong>Heightened (7th)</strong> Your wings do 3d8 fire damage and 6 persistent elecricity damage on a critical hit. The duration increases to 1 hour.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.oYOt7f1cyXs3jj8P]{Spell Effect: Skyfire Wings (1 Hour)}</p><p><strong>Heightened (9th)</strong> Your wings do 4d8 fire damage and 8 persistent electricity damage on a critical hit. The duration increases to 8 hours.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.Oc7rfrPBpjKhcYXc]{Spell Effect: Skyfire Wings (8 Hours)}</p>"
     },
     "rules": [],
     "slug": "skyfire-wings",
@@ -21,11 +21,16 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "morph"
+      ],
       "rarity": "common",
       "traditions": [
         "divine",
-        "primal"
+        "primal",
+        "arcane"
       ]
     },
     "publication": {
@@ -68,12 +73,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.8.5",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111277277,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1738942041818,
+    "lastModifiedBy": "AhhBYTk3xYRMuz4T"
   },
   "sort": 11000000,
   "ownership": {
