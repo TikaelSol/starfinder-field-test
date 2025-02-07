@@ -53,7 +53,7 @@
         },
         "group": "brawling",
         "key": "Strike",
-        "label": "PF2E.Weapon.Base.Claw",
+        "label": "PF2E.BattleForm.Attack.Claw",
         "range": null,
         "slug": "claw",
         "traits": [
@@ -180,11 +180,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.4.0",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "createdTime": 1704322456930,
-    "modifiedTime": 1727216094471,
-    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "modifiedTime": 1738797829803,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },
