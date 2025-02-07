@@ -19,10 +19,7 @@
         "key": "DamageDice",
         "predicate": [
           "target:mark:aim",
-          "item:ranged",
-          {
-            "not": "item:trait:area"
-          }
+          "item:tag:aim"
         ],
         "selector": "strike-damage"
       },
@@ -36,7 +33,8 @@
           "attack-spell-damage"
         ],
         "predicate": [
-          "target:mark:aim"
+          "target:mark:aim",
+          "item:tag:aim"
         ]
       }
     ],
@@ -87,10 +85,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
+    "systemVersion": "6.8.5",
     "createdTime": 1722177196249,
-    "modifiedTime": 1728524845280,
-    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+    "modifiedTime": 1738938864947,
+    "lastModifiedBy": "AhhBYTk3xYRMuz4T"
   },
   "_id": "9grXj8ftRJnXpyxW",
   "sort": 2300000,
