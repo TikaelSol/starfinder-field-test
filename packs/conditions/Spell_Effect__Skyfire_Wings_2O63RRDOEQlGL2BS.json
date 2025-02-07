@@ -1,0 +1,100 @@
+{
+  "name": "Spell Effect: Skyfire Wings",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.rgIXThpMnowIYvol]{Skyfire Wings}</p><p>You gain a fly Speed equal to your Speed or 20 feet. Your wings are unarmed attacks that deal 1d8 fire damage and has the backswing, reach, and unarmed traits; On a critical hit, a target of your wing attack takes 2 persistent electricity damage.</p><hr /><p><strong>Heightened (5th)</strong> Your wings do 2d8 fire damage and 4 persistent electricity damage on a critical hit. The duration increases to 5 minutes.</p><p><strong>Heightened (7th)</strong> Your wings do 3d8 fire damage and 6 persistent elecricity damage on a critical hit. The duration increases to 1 hour.</p><p><strong>Heightened (9th)</strong> Your wings do 4d8 fire damage and 8 persistent electricity damage on a critical hit. The duration increases to 8 hours.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": "max(20,@actor.attributes.speed.total)"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "fire",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Wing",
+        "range": null,
+        "slug": "wing",
+        "traits": [
+          "backswing",
+          "reach",
+          "unarmed"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|id}-damage",
+        "value": 2,
+        "damageType": "electricity",
+        "damageCategory": "persistent",
+        "critical": true
+      }
+    ],
+    "slug": "spell-effect-skyfire-wings",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "2O63RRDOEQlGL2BS",
+  "img": "icons/magic/fire/projectile-feathers-embers-gold.webp",
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "AhhBYTk3xYRMuz4T": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.5",
+    "createdTime": 1738940700008,
+    "modifiedTime": 1738942020464,
+    "lastModifiedBy": "AhhBYTk3xYRMuz4T"
+  },
+  "_key": "!items!2O63RRDOEQlGL2BS"
+}
