@@ -15,6 +15,23 @@
         "value": 1
       },
       {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "other-tags",
+        "itemType": "weapon",
+        "value": "aim",
+        "predicate": [
+          {
+            "or": [
+              "item:usage:hands:1",
+              "item:category:unarmed"
+            ]
+          },
+          "item:melee",
+          "item:trait:agile"
+        ]
+      },
+      {
         "definition": [
           "item:trait:agile",
           "item:melee",
@@ -143,10 +160,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1",
+    "systemVersion": "6.8.5",
     "createdTime": 1722106103963,
-    "modifiedTime": 1729383532632,
-    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+    "modifiedTime": 1738939426803,
+    "lastModifiedBy": "AhhBYTk3xYRMuz4T"
   },
   "_key": "!items!OBUIFNBSHc2EfDER"
 }
