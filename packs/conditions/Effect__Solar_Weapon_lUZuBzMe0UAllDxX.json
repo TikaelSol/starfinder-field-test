@@ -83,6 +83,10 @@
             ]
           },
           {
+            "label": "PF2E.TraitTwoHandD10",
+            "value": "two-hand-d10"
+          },
+          {
             "label": "PF2E.TraitVersatileB",
             "value": "versatile-b",
             "predicate": [
@@ -253,7 +257,10 @@
         "rollOption": "solar-weapon-trait-two",
         "predicate": [
           {
-            "not": "solar-weapon-trait-one:reach"
+            "nor": [
+              "solar-weapon-trait-one:reach",
+              "solar-weapon-trait-one:two-hand-d10"
+            ]
           }
         ]
       },
@@ -321,39 +328,41 @@
         "label": "SF2E.SpecificRule.Solarian.SolarWeapon.Label"
       },
       {
-        "key": "AdjustStrike",
+        "key": "ItemAlteration",
         "mode": "add",
-        "property": "weapon-traits",
+        "property": "traits",
         "value": "{item|flags.pf2e.rulesSelections.traitOne}",
-        "definition": [
+        "itemType": "weapon",
+        "predicate": [
           "item:id:{item|id}"
         ]
       },
       {
-        "key": "AdjustStrike",
+        "key": "ItemAlteration",
         "mode": "add",
-        "property": "weapon-traits",
+        "property": "traits",
         "value": "{item|flags.pf2e.rulesSelections.traitTwo}",
-        "definition": [
-          "item:id:{item|id}"
-        ],
+        "itemType": "weapon",
         "predicate": [
           {
-            "not": "solar-weapon-trait-one:reach"
-          }
+            "nor": [
+              "solar-weapon-trait-one:reach",
+              "solar-weapon-trait-one:two-hand-d10"
+            ]
+          },
+          "item:id:{item|id}"
         ]
       },
       {
-        "key": "AdjustStrike",
+        "key": "ItemAlteration",
         "mode": "add",
         "predicate": [
-          "stellar-attunement:photon"
-        ],
-        "property": "weapon-traits",
-        "value": "light",
-        "definition": [
+          "stellar-attunement:photon",
           "item:id:{item|id}"
-        ]
+        ],
+        "property": "traits",
+        "value": "light",
+        "itemType": "weapon"
       },
       {
         "key": "DamageAlteration",
@@ -461,10 +470,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1",
+    "systemVersion": "6.8.5",
     "createdTime": 1721947026249,
-    "modifiedTime": 1729543589284,
-    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+    "modifiedTime": 1738948627798,
+    "lastModifiedBy": "AhhBYTk3xYRMuz4T"
   },
   "_id": "lUZuBzMe0UAllDxX",
   "sort": 3500000,

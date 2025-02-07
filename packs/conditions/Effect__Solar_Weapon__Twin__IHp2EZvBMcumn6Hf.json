@@ -83,6 +83,10 @@
             ]
           },
           {
+            "label": "PF2E.TraitTwoHandD10",
+            "value": "two-hand-d10"
+          },
+          {
             "label": "PF2E.TraitVersatileB",
             "value": "versatile-b",
             "predicate": [
@@ -253,7 +257,10 @@
         "rollOption": "solar-weapon-twin-trait-two",
         "predicate": [
           {
-            "not": "solar-weapon-twin-trait-one:reach"
+            "nor": [
+              "solar-weapon-twin-trait-one:reach",
+              "solar-weapon-twin-trait-one:two-hand-d10"
+            ]
           }
         ]
       },
@@ -321,39 +328,41 @@
         "label": "SF2E.SpecificRule.Solarian.SolarWeapon.TwinLabel"
       },
       {
-        "key": "AdjustStrike",
+        "key": "ItemAlteration",
         "mode": "add",
-        "property": "weapon-traits",
+        "property": "traits",
         "value": "{item|flags.pf2e.rulesSelections.traitOne}",
-        "definition": [
+        "itemType": "weapon",
+        "predicate": [
           "item:id:{item|id}"
         ]
       },
       {
-        "key": "AdjustStrike",
+        "key": "ItemAlteration",
         "mode": "add",
-        "property": "weapon-traits",
+        "property": "traits",
         "value": "{item|flags.pf2e.rulesSelections.traitTwo}",
-        "definition": [
-          "item:id:{item|id}"
-        ],
+        "itemType": "weapon",
         "predicate": [
           {
-            "not": "solar-weapon-twin-trait-one:reach"
-          }
+            "nor": [
+              "solar-weapon-twin-trait-one:reach",
+              "solar-weapon-twin-trait-one:two-hand-d10"
+            ]
+          },
+          "item:id:{item|id}"
         ]
       },
       {
-        "key": "AdjustStrike",
+        "key": "ItemAlteration",
         "mode": "add",
         "predicate": [
-          "stellar-attunement:photon"
-        ],
-        "property": "weapon-traits",
-        "value": "light",
-        "definition": [
+          "stellar-attunement:photon",
           "item:id:{item|id}"
-        ]
+        ],
+        "property": "traits",
+        "value": "light",
+        "itemType": "weapon"
       },
       {
         "key": "FlatModifier",
@@ -449,10 +458,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1",
+    "systemVersion": "6.8.5",
     "createdTime": 1721947027124,
-    "modifiedTime": 1729543668150,
-    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+    "modifiedTime": 1738948919385,
+    "lastModifiedBy": "AhhBYTk3xYRMuz4T"
   },
   "_id": "IHp2EZvBMcumn6Hf",
   "sort": 3300000,
