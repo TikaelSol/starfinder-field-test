@@ -18,7 +18,7 @@
         "damage": {
           "base": {
             "damageType": "fire",
-            "dice": "ternary(gte(@item.level,9),4,ternary(gte(@item.level,7),3,ternary(gte(@item.level,5),2,1)))",
+            "dice": 1,
             "die": "d8"
           }
         },
@@ -36,7 +36,7 @@
       {
         "key": "FlatModifier",
         "selector": "{item|id}-damage",
-        "value": "ternary(gte(@item.level,9),8,ternary(gte(@item.level,7),6,ternary(gte(@item.level,5),4,2)))",
+        "value": 2,
         "damageType": "electricity",
         "damageCategory": "persistent",
         "critical": true
