@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.3r9Xrt8qqTQbcw26]{Wild Bond}</p>\n<hr />\n<p>Tapping into the universal life code, you infuse the target with the primal essence of another living creature and grant them one of the following abilities.</p>\n<ul>\n<li>A burrow Speed of 15 feet</li>\n<li>A climb Speed of 20 feet</li>\n<li>A fly Speed of 20 feet</li>\n<li>A swim Speed of 25 feet</li>\n<li>A Speed of 40 feet</li>\n<li>A jaw unarmed attack that deals @Damage[1d8[piercing]] damage</li>\n<li>A claw unarmed attack that deals @Damage[1d6[slashing]] damage and has the agile and finesse traits</li>\n<li>Darkvision</li>\n</ul>\n<hr />\n<p><strong>Heightened (+1)</strong> You may target 1 additional willing bonded creature. This heightened is in addition to the following.</p>\n<p><strong>Heightened (5th)</strong> The damage dealt by the attacks increases to two dice.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.3r9Xrt8qqTQbcw26]{Wild Bond}</p><hr /><p>Tapping into the universal life code, you infuse the target with the primal essence of another living creature and grant them one of the following abilities.</p><ul><li>A burrow Speed of 15 feet</li><li>A climb Speed of 20 feet</li><li>A fly Speed of 20 feet</li><li>A swim Speed of 25 feet</li><li>A Speed of 40 feet</li><li>A jaw unarmed attack that deals @Damage[1d8[piercing]] damage</li><li>A claw unarmed attack that deals @Damage[1d6[slashing]] damage and has the agile and finesse traits</li><li>Darkvision</li></ul><hr /><p><strong>Heightened (3rd)</strong> The damage dealt by the attacks increases to two dice.</p><p><strong>Heightened (6th)</strong> The damage dealt by the attacks increases to three dice.</p><p><strong>Heightened (9th)</strong> The damage dealt by the attacks increases to four dice.</p>"
     },
     "rules": [
       {
@@ -93,7 +93,7 @@
         "damage": {
           "base": {
             "damageType": "piercing",
-            "dice": "ternary(gte(@item.level,5),2,1)",
+            "dice": "ternary(gte(@item.level,9),4, ternary(gte(@item.level,6),3,ternary(gte(@item.level,3),2,1)))",
             "die": "d8"
           }
         },
@@ -112,7 +112,7 @@
         "damage": {
           "base": {
             "damageType": "slashing",
-            "dice": "ternary(gte(@item.level,5),2,1)",
+            "dice": "ternary(gte(@item.level,9),4, ternary(gte(@item.level,6),3,ternary(gte(@item.level,3),2,1)))",
             "die": "d6"
           }
         },
@@ -201,10 +201,10 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.8.5",
     "coreVersion": "12.331",
     "createdTime": 1696516363969,
-    "modifiedTime": 1728524845280,
+    "modifiedTime": 1738889114151,
     "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null

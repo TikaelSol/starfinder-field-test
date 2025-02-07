@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>That creature takes a –1 circumstance penalty to AC and Reflex saves.</p><p><strong>Lead by Example</strong> If you attack the target you select before the end of your turn, you reveal a weak point in your foe's defenses. You gain a circumstance bonus to damage rolls against the target equal to 1 + half your Charisma modifier, and your allies gain a +1 circumstance bonus to damage rolls against the target. As your envoy level increases, so does this damage. Increase the damage by 1 at 5th, 10th, 15th, and 20th levels.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.hXcgSVdVJcA5cqnh]{Steel Yourselves!}</p><p>You gain Temporary Hit Points equal to the origin's Charisma modifier + half their level</p><p><strong>Lead by Example</strong> If you spend an action to Brace For Impact before the end of your turn, you and any ally who Braces for Impact before the start of your next turn also gain a +1 status bonus to saving throws against effects that deal damage.</p>"
     },
     "rules": [
       {
@@ -85,9 +85,9 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.8.5",
     "createdTime": 1722214521532,
-    "modifiedTime": 1728524845280,
+    "modifiedTime": 1738889401128,
     "lastModifiedBy": "HfiqVTKP7yuQgALu"
   },
   "_id": "JaysqWTGfMgvx93E",
