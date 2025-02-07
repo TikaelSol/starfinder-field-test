@@ -42,9 +42,9 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 13
     },
-    "category": "bonus",
+    "category": "ancestry",
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
@@ -69,11 +69,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.8.5",
+    "coreVersion": "12.331",
     "createdTime": 1707762494283,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1738888254276,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },
