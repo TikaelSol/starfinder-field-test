@@ -23,7 +23,9 @@
       "otherTags": [
         "soldier-fighting-style"
       ],
-      "value": [],
+      "value": [
+        "soldier"
+      ],
       "rarity": "common"
     },
     "publication": {
@@ -59,11 +61,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "6.8.5",
+    "coreVersion": "12.331",
     "createdTime": 1691046041065,
-    "modifiedTime": 1722127063370,
-    "lastModifiedBy": "Rx0xhdrs9eKd1Esv",
+    "modifiedTime": 1738970378314,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
   },
