@@ -1,0 +1,120 @@
+{
+  "name": "Effect: Armor Ace",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.MTKq34DpjCtmIqxe]{Armor Ace}</p><p>Armor you wear gains the bulwark trait. When you're wearing armor that already has the bulwark trait, increase the modifier to Reflex saves to avoid damaging effects granted by that armor to +4, rather than +3.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              "armor:trait:bulwark"
+            ],
+            "value": "improve-bulwark"
+          },
+          {
+            "predicate": [
+              {
+                "not": "armor:trait:bulwark"
+              }
+            ],
+            "value": "bulwark"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.EquipmentVariety",
+        "rollOption": "bulwark",
+        "priority": 20
+      },
+      {
+        "itemType": "armor",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:bulwark"
+        ],
+        "property": "other-tags",
+        "value": "improve-bulwark",
+        "priority": 30
+      },
+      {
+        "itemType": "armor",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "bulwark",
+        "priority": 100
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "add",
+        "predicate": [
+          "bulwark:improve-bulwark"
+        ],
+        "selector": "reflex",
+        "slug": "bulwark",
+        "value": 1,
+        "priority": 120
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20criss.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "HfiqVTKP7yuQgALu": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0",
+    "createdTime": 1739111459201,
+    "modifiedTime": 1739111459201,
+    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+  },
+  "_id": "AaSdt2iMDrKoeLYF",
+  "sort": 0,
+  "_key": "!items!AaSdt2iMDrKoeLYF"
+}

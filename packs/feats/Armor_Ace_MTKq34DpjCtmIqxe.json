@@ -5,17 +5,9 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You've learned through trial and painful error how to make the most out of your armor, deflecting damage from explosions and similar effects. Armor you wear gains the bulwark trait. When you're wearing armor that already has the bulwark trait, increase the modifier to Reflex saves to avoid damaging effects granted by that armor to +4, rather than +3.</p>"
+      "value": "<p>You've learned through trial and painful error how to make the most out of your armor, deflecting damage from explosions and similar effects. Armor you wear gains the bulwark trait. When you're wearing armor that already has the bulwark trait, increase the modifier to Reflex saves to avoid damaging effects granted by that armor to +4, rather than +3.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.AaSdt2iMDrKoeLYF]{Effect: Armor Ace}</p>"
     },
-    "rules": [
-      {
-        "key": "AdjustModifier",
-        "mode": "upgrade",
-        "selector": "reflex",
-        "slug": "bulwark",
-        "value": 4
-      }
-    ],
+    "rules": [],
     "slug": "armor-ace",
     "_migration": {
       "version": 0.932,
@@ -67,10 +59,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.6.2",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "createdTime": 1708136115114,
-    "modifiedTime": 1731725974033,
+    "modifiedTime": 1739111884734,
     "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
