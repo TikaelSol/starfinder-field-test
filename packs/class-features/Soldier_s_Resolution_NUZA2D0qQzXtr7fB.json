@@ -11,7 +11,7 @@
     "rules": [
       {
         "adjustment": {
-          "success": "one-degree-wbetter"
+          "success": "one-degree-better"
         },
         "key": "AdjustDegreeOfSuccess",
         "selector": "will"
@@ -68,12 +68,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.9.0",
     "createdTime": 1722131420571,
-    "modifiedTime": 1722224838664,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1739943528592,
+    "lastModifiedBy": "RPzJkeziZBD7sbya"
   },
   "_id": "NUZA2D0qQzXtr7fB",
   "sort": 0,
