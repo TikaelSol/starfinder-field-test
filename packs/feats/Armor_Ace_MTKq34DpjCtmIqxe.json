@@ -9,11 +9,37 @@
     },
     "rules": [
       {
+        "itemType": "armor",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "item:trait:bulwark"
+          }
+        ],
+        "property": "other-tags",
+        "value": "bulwark-added",
+        "priority": 50
+      },
+      {
+        "itemType": "armor",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "bulwark"
+      },
+      {
         "key": "AdjustModifier",
-        "mode": "upgrade",
+        "mode": "add",
+        "value": 1,
         "selector": "reflex",
         "slug": "bulwark",
-        "value": 4
+        "predicate": [
+          {
+            "not": "armor:tag:bulwark-added"
+          }
+        ],
+        "priority": 150
       }
     ],
     "slug": "armor-ace",
@@ -67,10 +93,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.6.2",
+    "systemVersion": "6.9.0",
     "coreVersion": "12.331",
     "createdTime": 1708136115114,
-    "modifiedTime": 1731725974033,
+    "modifiedTime": 1739924078742,
     "lastModifiedBy": "HfiqVTKP7yuQgALu",
     "compendiumSource": null,
     "duplicateSource": null
