@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Lao Shu Po notices your devotion. You can shroud yourself in darkness, and when you pray. You gain @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} and @UUID[Compendium.pf2e.spells-srd.Item.pkcOby5prOausy1k]{Read Omens} as 4th-rank divine innate spells. You can Cast each Spell once per day. You can see through the darkness created by your own darkness spells without difficulty, as if you had greater darkvision</p>"
+      "value": "<p>Lao Shu Po notices your devotion. You can shroud yourself in darkness, and when you pray, she may even deign to give you a morsel of information. You gain @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} and @UUID[Compendium.pf2e.spells-srd.Item.pkcOby5prOausy1k]{Read Omens} as 4th-rank divine innate spells. You can Cast each Spell once per day. You can see through the darkness created by your own <em>darkness</em> spells without difficulty, as if you had greater darkvision.</p>"
     },
     "rules": [],
     "slug": "grandmothers-blessing",
