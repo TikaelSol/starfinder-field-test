@@ -1,5 +1,5 @@
 {
-  "name": "Cosmic Traveller",
+  "name": "Cosmic Traveler",
   "type": "feat",
   "effects": [],
   "system": {
@@ -18,7 +18,7 @@
         ]
       }
     ],
-    "slug": "cosmic-traveller",
+    "slug": "cosmic-traveler",
     "_migration": {
       "version": 0.932,
       "lastMigration": null,
