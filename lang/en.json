@@ -372,6 +372,14 @@
                 "Flashlight": {
                     "Lit": "Flashlight Lit"
                 },
+                "ForceField": {
+                    "Advanced": "Attempt a @Check[flat|dc:19] check. On a success, the critical hit becomes a normal hit.",
+                    "Elite": "Attempt a @Check[flat|dc:17] check. On a success, the critical hit becomes a normal hit.",
+                    "Tactical": "Attempt a @Check[flat|dc:20] check. On a success, the critical hit becomes a normal hit.",
+                    "Paragon": "Attempt a @Check[flat|dc:15] check. On a success, the critical hit becomes a normal hit.",
+                    "Superior": "Attempt a @Check[flat|dc:18] check. On a success, the critical hit becomes a normal hit.",
+                    "Ultimate": "Attempt a @Check[flat|dc:16] check. On a success, the critical hit becomes a normal hit."
+                },
                 "SolarianCrystals": {
                     "Gluon": {
                         "Note": "On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until it recovers from the persistent bleed damage.",
