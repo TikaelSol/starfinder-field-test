@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The soles of your feet, palms of your hands, or the surfaces of other appropriate appendages are covered in fleshy slats that can open and close to improve your climbing grip. You gain a climb Speed based on the version of climbing suckers you have installed. You don't benefit from climbing suckers unless you leave your appendages uncovered or are wearing custom clothing.</p><p>You gain a 15-foot climb Speed as long as you're wearing light armor or no armor.</p>"
+      "value": "<p>The soles of your feet, palms of your hands, or the surfaces of other appropriate appendages are covered in fleshy slats that can open and close to improve your climbing grip. You gain a climb Speed based on the version of climbing suckers you have installed. You don't benefit from climbing suckers unless you leave your appendages uncovered or are wearing custom clothing.</p><p>You gain a 25-foot climb Speed while wearing light armor or no armor, or a 15-foot climb Speed while wearing medium armor.</p>"
     },
     "rules": [
       {
