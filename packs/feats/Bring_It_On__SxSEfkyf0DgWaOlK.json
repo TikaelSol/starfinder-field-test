@@ -8,11 +8,7 @@
       "gm": "",
       "value": "<p><strong>Requirements</strong> You are wielding a two-handed weapon.</p><hr /><p>You lower your guard while bracing yourself for the inevitable blows of predatory opportunists. Until the start of your next turn, you take a –2 circumstance penalty to AC and gain resistance to all damage equal to half your level. If you have the @UUID[Compendium.starfinder-field-test-for-pf2e.class-features.Item.sy40CowlzpsjQkKd]{armor storm} fighting style, you gain resistance equal to your level against attacks made by @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} enemies.</p>"
     },
-    "rules": [
-      {
-        "key": "ActiveEffectLike"
-      }
-    ],
+    "rules": [],
     "slug": "bring-it-on",
     "_migration": {
       "version": 0.932,
@@ -63,12 +59,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.10.2",
     "createdTime": 1721801600625,
-    "modifiedTime": 1722286691605,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1742886285717,
+    "lastModifiedBy": "RPzJkeziZBD7sbya"
   },
   "sort": 10100000,
   "ownership": {
