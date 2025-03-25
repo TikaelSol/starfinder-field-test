@@ -1,0 +1,83 @@
+{
+  "img": "icons/sundries/books/book-backed-silver-gold.webp",
+  "name": "Expert Spellcaster (Witchwarper)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Extended practice of magic has improved your capabilities. Your proficiency ranks for class DC, spell attack modifier, and spell DC increase to expert.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.witchwarper.rank",
+        "value": 2
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 2,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "witchwarper"
+      ],
+      "otherTags": []
+    },
+    "slug": "expert-spellcaster-witchwarper",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1742889885971,
+    "modifiedTime": 1742890455461,
+    "lastModifiedBy": "RPzJkeziZBD7sbya"
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "RPzJkeziZBD7sbya": 3
+  },
+  "flags": {},
+  "_id": "SIfwdlRHf4vDYe9B",
+  "sort": 2300000,
+  "_key": "!items!SIfwdlRHf4vDYe9B"
+}

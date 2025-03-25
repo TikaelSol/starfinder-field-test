@@ -78,12 +78,6 @@
         "name": "Advanced Paradox",
         "level": 7
       },
-      "Tcal0": {
-        "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE",
-        "img": "icons/sundries/books/book-backed-silver-gold.webp",
-        "name": "Expert Spellcaster",
-        "level": 7
-      },
       "qLNWQ": {
         "uuid": "Compendium.pf2e.classfeatures.Item.70jqXP2eS4tRZ0Ok",
         "img": "systems/pf2e/icons/features/classes/magical-fortitude.webp",
@@ -126,12 +120,6 @@
         "name": "Weapon Specialization",
         "level": 13
       },
-      "JYtuZ": {
-        "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc",
-        "img": "icons/skills/trades/academics-book-study-purple.webp",
-        "name": "Master Spellcaster",
-        "level": 15
-      },
       "mlJUP": {
         "uuid": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3",
         "img": "icons/sundries/books/book-open-purple.webp",
@@ -155,6 +143,18 @@
         "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20pulse.webp",
         "name": "Quantum Pulse",
         "level": 1
+      },
+      "PrmdB": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.SIfwdlRHf4vDYe9B",
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "name": "Expert Spellcaster (Witchwarper)",
+        "level": 7
+      },
+      "Dfz16": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.tSisqFztXZD0ZiF9",
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "name": "Master Spellcaster (Witchwarper)",
+        "level": 15
       }
     },
     "hp": 8,
@@ -259,10 +259,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.6.1",
+    "systemVersion": "6.10.2",
     "createdTime": 1721443704204,
-    "modifiedTime": 1730802020223,
-    "lastModifiedBy": "jWraEZiHJiAiiaaD"
+    "modifiedTime": 1742892447473,
+    "lastModifiedBy": "RPzJkeziZBD7sbya"
   },
   "_key": "!items!lyPoetdmvTRyjsSM"
 }
