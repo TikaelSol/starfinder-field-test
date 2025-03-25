@@ -64,10 +64,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 2
     },
     "prerequisites": {
       "value": []
@@ -80,12 +80,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.10.2",
     "createdTime": 1721801600625,
-    "modifiedTime": 1722302568930,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1742892393088,
+    "lastModifiedBy": "RPzJkeziZBD7sbya"
   },
   "sort": 2500000,
   "ownership": {
