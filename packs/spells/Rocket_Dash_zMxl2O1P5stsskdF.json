@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You emit a rocket of flame from your backside and blast forward. You move in a straight line up to twice your Speed; you can move through spaces occupied by creatures and the movement doesn't trigger reactions. Creatures in the area take 8d12 fire damage, with a basic Reflex save. On a critical failure, a creature also takes @Damage[ceil((@item.level -3)/2)d6[persistent,fire]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}. You reappear at the end of the line.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The fire damage increases by 2d12 and the persistent fire damage increases by 1d6.</p>"
+      "value": "<p>You emit a rocket of flame from behind you and blast forward. You move in a straight line up to twice your Speed; you can move through spaces occupied by creatures, and the movement doesn't trigger reactions. Creatures in the area take 8d12 fire damage, with a basic Reflex save. On a critical failure, a creature also takes @Damage[ceil((@item.level -3)/2)d6[persistent,fire]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}. You reappear at the end of the line.</p><hr /><p><strong>Heightened (+2)</strong> The fire damage increases by 2d12 and the persistent fire damage increases by 1d6.</p>"
     },
     "rules": [],
     "slug": "rocket-dash",
@@ -23,8 +23,7 @@
       "otherTags": [],
       "value": [
         "concentrate",
-        "manipulate",
-        "teleportation"
+        "manipulate"
       ],
       "rarity": "common",
       "traditions": [
@@ -94,12 +93,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.10.2",
     "createdTime": 1721845524751,
-    "modifiedTime": 1722111277614,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1742886228693,
+    "lastModifiedBy": "RPzJkeziZBD7sbya"
   },
   "sort": 13000000,
   "ownership": {
