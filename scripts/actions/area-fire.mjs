@@ -104,7 +104,7 @@ function listenAreaFireMessage(message, html) {
                     origin: {
                         name: item.name,
                         slug: item.slug,
-                        traits: fu.deepClone(item.system.traits.value),
+                        traits: foundry.utils.deepClone(item.system.traits.value),
                         ...item.getOriginData(),
                     },
                     areaShape: type,
