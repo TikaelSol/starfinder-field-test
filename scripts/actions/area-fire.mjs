@@ -9,7 +9,7 @@ async function createAreaFireMessage(weapon) {
 
     const savingThrow = calculateSaveDC(weapon);
     const areaLabel = createAreaLabel(calculateArea(weapon));
-    const content = await renderTemplate("/modules/starfinder-field-test-for-pf2e/area-fire-message.hbs", {
+    const content = await renderTemplate("/modules/starfinder-field-test-for-pf2e/templates/area-fire-message.hbs", {
         actor,
         item: {
             img: weapon.img,
