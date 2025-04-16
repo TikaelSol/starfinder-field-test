@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Ephermeral effect.</p><p>If you attack the target you select before the end of your turn, you reveal a weak point in your foe's defenses. You gain a circumstance bonus to damage rolls against the target equal to 1 + half your Charisma modifier, and your allies gain a +1 circumstance bonus to damage rolls against the target. As your envoy level increases, so does this damage. Increase the damage by 1 at 5th, 10th, 15th, and 20th levels.</p>"
+      "value": "<p>Ephemeral effect.</p><p>If you attack the target you select before the end of your turn, you reveal a weak point in your foe's defenses. You gain a circumstance bonus to damage rolls against the target equal to 1 + half your Charisma modifier, and your allies gain a +1 circumstance bonus to damage rolls against the target. As your envoy level increases, so does this damage. Increase the damage by 1 at 5th, 10th, 15th, and 20th levels.</p>"
     },
     "rules": [
       {

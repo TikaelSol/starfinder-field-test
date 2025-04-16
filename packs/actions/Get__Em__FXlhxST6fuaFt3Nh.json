@@ -11,19 +11,20 @@
       {
         "key": "AdjustModifier",
         "selector": "damage",
-        "slug": "get-em-lead-by-example",
+        "predicate": [
+          "self:effect:get-em-lead-by-example"
+        ],
         "mode": "add",
         "value": "floor(@actor.system.abilities.cha.mod/2)"
       }
     ],
     "slug": "get-em",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
+      "version": 0.935,
       "previous": {
-        "schema": 0.925,
-        "foundry": "12.330",
-        "system": "6.1.2"
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.11.1"
       }
     },
     "traits": {
@@ -60,11 +61,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
-    "coreVersion": "12.330",
+    "systemVersion": "6.11.1",
+    "coreVersion": "12.331",
     "createdTime": 1712004671684,
-    "modifiedTime": 1722568778532,
-    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "modifiedTime": 1744784991594,
+    "lastModifiedBy": "fLrrEyu988kalUMX",
     "compendiumSource": null,
     "duplicateSource": null
   },
