@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Ephermeral effect for the marked target.</p>"
+      "value": "<p>Ephemeral effect for the marked target.</p>"
     },
     "rules": [
       {
