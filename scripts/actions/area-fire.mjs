@@ -125,12 +125,19 @@ function listenAreaFireMessage(message, html) {
 /** Determines the area of an area or automatic weapon based on its traits */
 function calculateArea(weapon) {
     const traits = weapon.system.traits.value;
-    const area = traits.includes("automatic") ? "cone" : weapon.system.traits.value.find((t) => t.startsWith("area-"))?.replace("area-", "");
+    const isAutomatic = traits.includes("automatic");
+    const area = isAutomatic ? "cone" : weapon.system.traits.value.find((t) => t.startsWith("area-"))?.replace("area-", "");
     if (area.startsWith("burst")) {
         const value = Number(/burst-(\d*)-ft/.exec(area)[1]);
         return { type: "burst", value };
     } else {
-        return { type: area, value: weapon.system.range };
+        // Set the range based on the weapon's range increment.
+        // If its automatic we halve the range and round to the nearest multiple of 5
+        const weaponRange = weapon.system.range;
+        const range = isAutomatic
+            ? Math.max(5, Math.floor(weaponRange / 2) - Math.floor(weaponRange / 2) % 5)
+            : weaponRange;
+        return { type: area, value: range };
     }
 }
 
