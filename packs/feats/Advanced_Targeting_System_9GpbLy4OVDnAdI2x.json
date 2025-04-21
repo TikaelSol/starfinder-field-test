@@ -1,0 +1,79 @@
+{
+  "folder": "WVaOnnM64aLQG2Dx",
+  "name": "Advanced Targeting System",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've improved your targeting system for higher accuracy. Once per 10 minutes, when you roll an attack roll that's affected by Activate Targeting System, you can choose to add the fortune trait to that roll. If you do, you roll the attack roll twice and use the higher result.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mechanic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Activate Targeting System"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "_id": "9GpbLy4OVDnAdI2x",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254207349,
+    "modifiedTime": 1745254207349,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!9GpbLy4OVDnAdI2x"
+}

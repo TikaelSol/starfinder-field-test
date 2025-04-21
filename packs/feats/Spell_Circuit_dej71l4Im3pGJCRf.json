@@ -1,0 +1,73 @@
+{
+  "folder": "vkGwHxssBZftcBKR",
+  "name": "Spell Circuit",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You create a network of magical circuitry linking your spell cache to magical hardware in your possession. If the next action you use is to Cast a Spell from a <em>spell chip</em> or <em>spell gem</em>, you do not have to be holding the item.</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape with a <em>spell gem</em>, you can pick another of your <em>spell gems</em> with an equal or higher item level that is consumed instead.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "spellshape",
+        "technomancer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "dej71l4Im3pGJCRf",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254256588,
+    "modifiedTime": 1745254256588,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!dej71l4Im3pGJCRf"
+}

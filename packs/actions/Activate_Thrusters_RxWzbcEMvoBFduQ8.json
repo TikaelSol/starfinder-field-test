@@ -1,0 +1,59 @@
+{
+  "folder": "oaHMiZzaNSPGH14X",
+  "name": "Activate Thrusters",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your drone Strides twice, moving through the spaces of any creatures in the way, dealing them @Damage[5d6[bludgeoning]] damage with a @Check[reflex|against:class|basic] save against your class DC. A creature that critically fails its saving throw is additionally knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Your drone's movement doesn't trigger reactions.</p><hr /><p><strong>Level (+2)</strong> The damage increases by [[/r 1d6]].</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "_id": "RxWzbcEMvoBFduQ8",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745253995559,
+    "modifiedTime": 1745253995559,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!RxWzbcEMvoBFduQ8"
+}

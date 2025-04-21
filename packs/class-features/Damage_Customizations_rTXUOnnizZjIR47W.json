@@ -1,0 +1,71 @@
+{
+  "folder": "LhdfGVgPMQncD5yl",
+  "name": "Damage Customizations",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've developed the tools to temporarily transmute energy from one type to another, and you've solved complex calculations required to add versatility to your physical attacks. Add the following mods to the list of options you can select with Modify.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mechanic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "rTXUOnnizZjIR47W",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254380633,
+    "modifiedTime": 1745254380633,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!rTXUOnnizZjIR47W"
+}

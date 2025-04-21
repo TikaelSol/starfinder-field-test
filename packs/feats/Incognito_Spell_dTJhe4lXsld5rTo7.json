@@ -1,0 +1,73 @@
+{
+  "folder": "vkGwHxssBZftcBKR",
+  "name": "Incognito Spell",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Through sheer mental effort, you can simplify the incantations and gestures needed to cast, leaving them barely noticeable. If the next action you use is to Cast a Spell, the spell gains the subtle trait, hiding the shining runes, sparks of magic, and other manifestations that would usually give away your spellcasting. The trait hides only the spell's spellcasting actions and manifestations, not its effects, so an observer might still see a ray streak out from you or see you vanish into thin air.</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} one creature using Arcana instead of Intimidation by making the effects of the spell seem effortless on your part.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "spellshape",
+        "technomancer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "dTJhe4lXsld5rTo7",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254256588,
+    "modifiedTime": 1745254256588,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!dTJhe4lXsld5rTo7"
+}

@@ -1,0 +1,73 @@
+{
+  "folder": "vkGwHxssBZftcBKR",
+  "name": "Split Tunneling",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You program a ranged spell to split off from your target and connect to a second foe. If your next action is to Cast a Spell without a duration that requires an attack roll against a single target, you can choose a second target within range. You roll a single attack roll and compare the result to the AC of both targets. This counts as one attack for your multiple attack penalty. To the second target, the spell deals only half the amount of damage it would normally deal for its degree of success, and it has no effects beyond the spell's initial damage (such as imposing conditions or penalties). </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape and fail to affect your primary target (whether your attack fails or the target is immune to the spell), your secondary target becomes your primary target, taking full damage and all effects of the spell.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "spellshape",
+        "technomancer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "BJxMFILV1gKfOA76",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254256588,
+    "modifiedTime": 1745254256588,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!BJxMFILV1gKfOA76"
+}

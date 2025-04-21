@@ -1,0 +1,73 @@
+{
+  "folder": "vkGwHxssBZftcBKR",
+  "name": "Shatter Spell",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You don't simply defuse enemy spells—you shatter them in a blast of magical force. If the next action you use is to cast dispel magic and you successfully counteract the target, one creature of your choice occupying the same space as the spell effect or magic item takes force damage equal to 1d4 × the target's counteract rank with a basic Reflex save against your spell DC; if the target has a trait corresponding to a type of damage, such as fire, this effect deals that damage instead of force. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, choose one: you can deal damage to every creature in the area of the spell effect or adjacent to the targeted magic item, or you can deal @Damage[1d6[untyped]] damage × the target's counteract rank instead of @Damage[1d4[untyped]] damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "spellshape",
+        "technomancer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "jQG74CujXd5Nmqfm",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254256588,
+    "modifiedTime": 1745254256588,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!jQG74CujXd5Nmqfm"
+}

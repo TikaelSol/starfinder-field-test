@@ -1,0 +1,58 @@
+{
+  "folder": "oaHMiZzaNSPGH14X",
+  "name": "Detonate Mine",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> A mine you deployed is within 100 feet. With a moment's thought, you trigger the detonation of a mine you deployed within 100 feet, causing it to explode in a @Template[type:burst|distance:10]. This mine deals 2d6 fire or piercing damage, based on the damage type you selected when that mine was deployed. Creatures in the area can attempt a @Check[reflex|against:class|basic] save against your class DC. </p><hr /><p>You can Detonate Mine as a reaction, with the following trigger.</p><p><strong>Trigger</strong> A creature enters or leaves a square within the burst area of a mine you have deployed.</p><hr /><p>At 3rd level and every 2 levels thereafter, the damage increases by [[/r 1d6]].</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "mechanic"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "_id": "S3iCDy8ppR8eXp8V",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745253995559,
+    "modifiedTime": 1745253995559,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!S3iCDy8ppR8eXp8V"
+}

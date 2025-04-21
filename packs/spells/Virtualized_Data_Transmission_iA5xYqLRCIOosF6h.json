@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Virtualized Data Transmission",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You're wielding a ranged weapon with the tech trait.</p><hr /><p>You digitize yourself using your magic to move across the battlefield. If your next action is to Cast a Spell with a range and an area, you teleport yourself and your gear to one open space within the spell's area. You can choose to arrive before or after the spell takes effect. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell with this spellshape to modify a spell that targets a single creature, you can teleport to any open space within the spell's range.</p><p></p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "spellshape",
+        "technomancer",
+        "teleportation"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "iA5xYqLRCIOosF6h",
+  "img": "systems/pf2e/icons/default-icons/spell.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254426024,
+    "modifiedTime": 1745254426024,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!iA5xYqLRCIOosF6h"
+}

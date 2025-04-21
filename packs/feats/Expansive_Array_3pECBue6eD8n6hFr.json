@@ -1,0 +1,75 @@
+{
+  "folder": "WVaOnnM64aLQG2Dx",
+  "name": "Expansive Array",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You design additional custom arrays for your turret. Select two of the following arrays. Add the selected arrays to your list of available arrays.</p><ul><li>@Damage[2d8[mental]] damage, range increment 60 feet, tech trait, mental weapon group</li><li>@Damage[2d8[poison]] damage, range increment 60 feet, tech trait, dart weapon group</li><li>@Damage[2d8[vitality]] damage, range increment 60 feet, tech trait, laser weapon group</li><li>@Damage[2d8[void]] damage, range increment 60 feet, tech trait, void weapon group</li></ul><hr /><p><strong>Special</strong> You can take this feat a second time. When you do, you must select different arrays.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mechanic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "turret exocortex"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "3pECBue6eD8n6hFr",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254207349,
+    "modifiedTime": 1745254207349,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!3pECBue6eD8n6hFr"
+}
