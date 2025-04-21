@@ -1,0 +1,58 @@
+{
+  "folder": "oaHMiZzaNSPGH14X",
+  "name": "Reposition Exocortex",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> A mine or turret you deployed is within 100 feet.</p><hr /><p> You direct your exocortex to deploy technological legs and move across the battlefield, redeploying to a more tactically sound location. One of your deployed mines or turrets Strides up to 30 feet as you direct, remaining Deployed in its new location.</p><hr /><p><strong>Level (+5)</strong> The distance it Strides increases by 10 feet.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "mechanic"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "_id": "cMJvHMtzcdbA2stn",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745253995559,
+    "modifiedTime": 1745253995559,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!cMJvHMtzcdbA2stn"
+}

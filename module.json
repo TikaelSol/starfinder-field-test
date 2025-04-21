@@ -487,6 +487,7 @@
                         "label": "SF2E.Trait.Manifestation",
                         "description": "SF2E.TraitDescription.Manifestation"
                     },
+                    "mechanic":  "SF2E.Trait.Mechanic",
                     "mystic": "SF2E.Trait.Mystic",
                     "operative": "SF2E.Trait.Operative",
                     "pahtra": "SF2E.Trait.Pahtra",
@@ -495,10 +496,12 @@
                     "skittermander": "SF2E.Trait.Skittermander",
                     "solarian": "SF2E.Trait.Solarian",
                     "soldier": "SF2E.Trait.Soldier",
+                    "technomancer":  "SF2E.Trait.Technomancer",
                     "transfer": {
                         "label": "SF2E.Trait.Transfer",
                         "description": "SF2E.TraitDescription.Transfer"
                     },
+                    "traversal":  "SF2E.Trait.Traversal",
                     "vesk": "SF2E.Trait.Vesk",
                     "witchwarper": "SF2E.Trait.Witchwarper",
                     "zone": {
@@ -513,6 +516,7 @@
                     },
                     "gravity": "SF2E.Trait.Gravity",
                     "mystic": "SF2E.Trait.Mystic",
+                    "technomancer":  "SF2E.Trait.Technomancer",
                     "transfer": {
                         "label": "SF2E.Trait.Transfer",
                         "description": "SF2E.TraitDescription.Transfer"

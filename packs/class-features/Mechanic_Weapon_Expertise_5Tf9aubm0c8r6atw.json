@@ -1,0 +1,97 @@
+{
+  "folder": "LhdfGVgPMQncD5yl",
+  "name": "Mechanic Weapon Expertise",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You know how to use constructed weapons to their best advantage. Your proficiency ranks for simple and martial weapons and unarmed attacks increase to expert. You gain access to the critical specialization effect of all weapons for which you have expert proficiency. If you have a drone exocortex, your drone additionally gains access to the critical specialization effects of all weapons for which it has expert proficiency.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "item:proficiency:rank",
+              2
+            ]
+          },
+          "class:mechanic"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mechanic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "simple": {
+          "rank": 2,
+          "attribute": null
+        },
+        "martial": {
+          "rank": 2,
+          "attribute": null
+        },
+        "unarmed": {
+          "rank": 2,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "5Tf9aubm0c8r6atw",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254380633,
+    "modifiedTime": 1745254380633,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!5Tf9aubm0c8r6atw"
+}

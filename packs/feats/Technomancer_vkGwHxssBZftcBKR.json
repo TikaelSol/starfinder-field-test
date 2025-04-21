@@ -1,0 +1,22 @@
+{
+  "name": "Technomancer",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "vkGwHxssBZftcBKR",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254256330,
+    "modifiedTime": 1745254256823,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!folders!vkGwHxssBZftcBKR"
+}

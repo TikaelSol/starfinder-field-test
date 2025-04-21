@@ -1,0 +1,75 @@
+{
+  "folder": "WVaOnnM64aLQG2Dx",
+  "name": "Ultimate Drone",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>With your guidance and consciousness upgrades, your drone transcends its code and develops true artificial intelligence. Your drone becomes a creature with the tech trait that has free will but otherwise uses its companion statistics. Your drone can act independently even if you're out of range or @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}. You and your drone each roll initiative and can choose to act on the better result. You also make the following adjustments.</p><ul><li>Increase two of its attribute modifiers by 2.</li><li><p>Apply the extra benefits of one path listed below.</p></li></ul><p><strong>Bodyguard</strong>: Your drone is a master in Athletics. The drone's Strength and Constitution modifiers increase by 1. Its proficiency rank for unarmed attacks and integrated weapons increases to master, and it gains an additional integrated weapon.</p><p><strong>Diplomat</strong>: Your drone is a master in Diplomacy, and its Charisma modifier increases by 2. It gains the No Cause for Alarm feat.</p><p><strong>Diva</strong>: Your drone is a master in Performance and Media Lore. The drone's Charisma modifier increases by 2. It gains the Fascinating Performance feat.</p><p><strong>Hacker</strong>: Your drone is a master in Computers, and its Intelligence modifier increases by 2. It gains the Combat Hack feat.</p><p><strong>Nurse</strong>: Your drone is a master in Medicine, and its Wisdom modifier increases by 2. It gains the Battle Medicine feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mechanic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "drone exocortex"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "QOPSHo0fmdeCnOR8",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254207349,
+    "modifiedTime": 1745254207349,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!QOPSHo0fmdeCnOR8"
+}

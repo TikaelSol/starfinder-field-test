@@ -1,0 +1,71 @@
+{
+  "folder": "WVaOnnM64aLQG2Dx",
+  "name": "Multidisciplinary Mechanic",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>In addition to industrial and technological engineering, you've studied a specialized form of invention. Select either biotech, magitech, or necrotech. In addition, you become trained in the associated skill and gain the Additional Lore feat in the associated lore. </p><p><strong>Biotech</strong>: Your inventions incorporate synthetic or vatgrown flesh, or they might resemble hybrid organic machines. You become trained in Nature. You gain the Additional Lore skill feat for Biotech Lore. </p><p><strong>Magitech</strong>: Your devices shimmer with arcane runes or hybrid circuitry, or defy reality with their strange configurations. Your exocortex's Strikes gain the magic trait. You become trained in Arcana. You gain the Additional Lore skill feat for Magitech Lore. </p><p><strong>Necrotech</strong>: Your grisly tech might resemble a necrotic heart pulsating inside a metal ribcage or a bone. You become trained in Religion. You gain the Additional Lore skill feat for Necrograft Lore.</p><hr /><p><strong>Special</strong> If you have the Critical Explosion feat and plant a mine, you can choose to deal a different type of damage depending on your choice of discipline. If you have the Explosive Shot feat, when you Modify a weapon with Explosive Shot, you can choose the splash damage dealt to be a different type of damage depending on your choice of discipline. Biotech deals acid damage, magitech deals force damage, and necrotech deals void damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mechanic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "1wgw9S5WDS9nbdKR",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254207349,
+    "modifiedTime": 1745254207349,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_key": "!items!1wgw9S5WDS9nbdKR"
+}

@@ -1,0 +1,109 @@
+{
+  "folder": "GwujgNN7WkToI8vn",
+  "name": "Electromag Grenade (Ultimate)",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>These grenades discharge a shocking field that deals electricity damage with a basic Reflex save. If you have access to the critical specialization effect of grenades, tech creatures and unattended tech items that critically fail their saving throw against electromag grenades become glitching.</p><p>@Template[type:burst|distance:20]</p><p><strong>Critical</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2}</p><p></p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable",
+        "electricity",
+        "grenade",
+        "tech"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 13000
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": {
+      "formula": "12d8",
+      "type": "electricity",
+      "kind": "damage"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/grenade%20chemical.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.Yd7fYKLm5c9OCNZp",
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745254406735,
+    "modifiedTime": 1745254406735,
+    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+  },
+  "_id": "yug7ELXs59M7lHOy",
+  "_key": "!items!yug7ELXs59M7lHOy"
+}
