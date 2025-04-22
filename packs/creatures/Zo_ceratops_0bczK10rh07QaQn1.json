@@ -252,10 +252,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "effects": [],
       "folder": null,
@@ -325,10 +322,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!0bczK10rh07QaQn1.5AYCTMNQji7cRt9A"
     },
@@ -387,10 +381,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!0bczK10rh07QaQn1.SCclw6a7zbuYrqNC"
     },
@@ -449,10 +440,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!0bczK10rh07QaQn1.EN9JNZpt1NkOizdO"
     },
@@ -509,10 +497,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!0bczK10rh07QaQn1.QWxRxui0f5GDh7uQ"
     },
@@ -587,10 +572,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": 1726339587729,
-        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!0bczK10rh07QaQn1.JIEJ5QI00X7pvK1W"
     },
@@ -635,10 +617,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "effects": [],
       "folder": null,
@@ -658,10 +637,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.3.1",
-    "createdTime": 1726281653421,
-    "modifiedTime": 1729555334799,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "systemVersion": "6.3.1"
   },
   "ownership": {
     "default": 0,

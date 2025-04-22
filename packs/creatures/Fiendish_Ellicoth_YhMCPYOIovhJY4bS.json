@@ -297,10 +297,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": 1726340227023,
-        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!YhMCPYOIovhJY4bS.UaPNr6BBulM4j0pq"
     },
@@ -359,10 +356,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!YhMCPYOIovhJY4bS.BAr9qGyh5x3FGPq7"
     },
@@ -423,10 +417,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!YhMCPYOIovhJY4bS.dpLkEYkT47h8Q8Lt"
     },
@@ -483,10 +474,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!YhMCPYOIovhJY4bS.eUCNWqcRGkUeyFgl"
     },
@@ -545,10 +533,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!YhMCPYOIovhJY4bS.Dhl95Oejyh1TLh99"
     }
@@ -559,10 +544,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.3.1",
-    "createdTime": 1726281653421,
-    "modifiedTime": 1729555334799,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "systemVersion": "6.3.1"
   },
   "ownership": {
     "default": 0,

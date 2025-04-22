@@ -105,10 +105,7 @@
     "duplicateSource": null,
     "coreVersion": "12.330",
     "systemId": "pf2e",
-    "systemVersion": "6.2.0",
-    "createdTime": 1722368385303,
-    "modifiedTime": 1722704855597,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "systemVersion": "6.2.0"
   },
   "sort": 3400000,
   "ownership": {

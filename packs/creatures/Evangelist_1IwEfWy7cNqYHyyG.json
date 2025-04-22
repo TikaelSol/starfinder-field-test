@@ -265,10 +265,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "_key": "!actors.items!1IwEfWy7cNqYHyyG.ykL2DnSQpCpRXzoB"
     },
@@ -333,10 +330,7 @@
         "duplicateSource": null,
         "coreVersion": "12.330",
         "systemId": "pf2e",
-        "systemVersion": "6.2.1",
-        "createdTime": null,
-        "modifiedTime": 1723234858437,
-        "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+        "systemVersion": "6.2.1"
       },
       "_key": "!actors.items!1IwEfWy7cNqYHyyG.eZKzC2DzpuLfrVjb"
     },
@@ -402,10 +396,7 @@
         "duplicateSource": null,
         "coreVersion": "12.330",
         "systemId": "pf2e",
-        "systemVersion": "6.2.1",
-        "createdTime": null,
-        "modifiedTime": 1723234858437,
-        "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+        "systemVersion": "6.2.1"
       },
       "_key": "!actors.items!1IwEfWy7cNqYHyyG.Bl763faBwJKFhPaj"
     },
@@ -466,10 +457,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "_key": "!actors.items!1IwEfWy7cNqYHyyG.M1OfCvyhpUO3CXAI"
     },
@@ -600,10 +588,7 @@
         "duplicateSource": null,
         "coreVersion": "12.330",
         "systemId": "pf2e",
-        "systemVersion": "6.2.1",
-        "createdTime": 1723234856916,
-        "modifiedTime": 1723234856916,
-        "lastModifiedBy": "UeRxAiwcqxhhjzm9"
+        "systemVersion": "6.2.1"
       },
       "sort": 5100000,
       "ownership": {
@@ -621,10 +606,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.1",
-    "createdTime": 1721155995240,
-    "modifiedTime": 1729555334799,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "systemVersion": "6.1.1"
   },
   "_id": "1IwEfWy7cNqYHyyG",
   "ownership": {

@@ -225,10 +225,7 @@
         "duplicateSource": null,
         "coreVersion": "12.330",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.1.3"
       },
       "_key": "!actors.items!B7nTPKZIVzJKC1Yv.0UHp76A4g0T1XKaQ"
     }
@@ -245,10 +242,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
-    "createdTime": 1722460756328,
-    "modifiedTime": 1729555334799,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "systemVersion": "6.1.3"
   },
   "_id": "B7nTPKZIVzJKC1Yv",
   "ownership": {

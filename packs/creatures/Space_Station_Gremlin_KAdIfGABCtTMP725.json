@@ -304,10 +304,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "_key": "!actors.items!KAdIfGABCtTMP725.GjA9U5p7oPGF1kRC"
     },
@@ -369,10 +366,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "_key": "!actors.items!KAdIfGABCtTMP725.3EtWqOPC1IIvBZob"
     },
@@ -499,10 +493,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "_key": "!actors.items!KAdIfGABCtTMP725.6ECQgPX51m5MIVNG"
     },
@@ -574,10 +565,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "flags": {
         "core": {
@@ -686,10 +674,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "flags": {
         "core": {
@@ -776,10 +761,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "flags": {
         "core": {
@@ -883,10 +865,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "_id": "UJYisEFXkQ2n2e1l",
       "_key": "!actors.items!KAdIfGABCtTMP725.UJYisEFXkQ2n2e1l"
@@ -972,10 +951,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "_id": "eNVHkJ9rBzzAv0MA",
       "_key": "!actors.items!KAdIfGABCtTMP725.eNVHkJ9rBzzAv0MA"
@@ -1085,10 +1061,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "_id": "ykAOhWYVV3mWHUKv",
       "_key": "!actors.items!KAdIfGABCtTMP725.ykAOhWYVV3mWHUKv"
@@ -1146,10 +1119,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "_key": "!actors.items!KAdIfGABCtTMP725.XnrnWQn3QaJT2VE5"
     },
@@ -1209,10 +1179,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "_key": "!actors.items!KAdIfGABCtTMP725.pLZFJUh2WDqiYWFH"
     },
@@ -1289,10 +1256,7 @@
         "duplicateSource": null,
         "coreVersion": "12.328",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.0.4"
       },
       "flags": {
         "core": {
@@ -1316,10 +1280,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.1",
-    "createdTime": 1721155995240,
-    "modifiedTime": 1729555334799,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "systemVersion": "6.1.1"
   },
   "ownership": {
     "default": 0,

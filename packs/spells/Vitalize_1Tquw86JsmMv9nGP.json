@@ -97,9 +97,7 @@
           "defense": null
         },
         "sort": 1,
-        "_stats": {
-          "modifiedTime": 1696484204247
-        },
+        "_stats": {},
         "_id": "jNOsRlofX1lVBOnp",
         "overlayType": "override"
       },
@@ -127,9 +125,7 @@
           "defense": null
         },
         "sort": 2,
-        "_stats": {
-          "modifiedTime": 1696484227268
-        },
+        "_stats": {},
         "_id": "74MZPmckdKH5fcMe",
         "overlayType": "override"
       },
@@ -151,9 +147,7 @@
           "defense": null
         },
         "sort": 3,
-        "_stats": {
-          "modifiedTime": 1696484253209
-        },
+        "_stats": {},
         "_id": "wdkMOF3kqo0zO6le",
         "overlayType": "override"
       }
@@ -165,9 +159,6 @@
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "coreVersion": "12.330",
-    "createdTime": 1696483781033,
-    "modifiedTime": 1722111275343,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
     "compendiumSource": null,
     "duplicateSource": null
   },

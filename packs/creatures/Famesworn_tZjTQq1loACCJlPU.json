@@ -280,10 +280,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "effects": [],
       "folder": null,
@@ -344,10 +341,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "effects": [],
       "folder": null,
@@ -413,10 +407,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!tZjTQq1loACCJlPU.4SbQ82MZWXzGnmZ0"
     },
@@ -477,10 +468,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "effects": [],
       "folder": null,
@@ -548,10 +536,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!tZjTQq1loACCJlPU.0P3w1ctslBLMEp1U"
     },
@@ -612,10 +597,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!tZjTQq1loACCJlPU.cq9ymeANcJg762kh"
     },
@@ -672,10 +654,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": 1726340883768,
-        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!tZjTQq1loACCJlPU.AGJeauVHeeupmMg6"
     },
@@ -735,10 +714,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!tZjTQq1loACCJlPU.URI0C2oZO13iyITH"
     },
@@ -799,10 +775,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!tZjTQq1loACCJlPU.Kd1ufwOwgvaVSOtl"
     },
@@ -861,10 +834,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1",
-        "createdTime": null,
-        "modifiedTime": 1726340809634,
-        "lastModifiedBy": "paBWq1lQyu1NTnYu"
+        "systemVersion": "6.3.1"
       },
       "_key": "!actors.items!tZjTQq1loACCJlPU.jh7dfWtqKYbjJHZL"
     }
@@ -875,10 +845,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.3.1",
-    "createdTime": 1726281653421,
-    "modifiedTime": 1729555334799,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "systemVersion": "6.3.1"
   },
   "ownership": {
     "default": 0,
