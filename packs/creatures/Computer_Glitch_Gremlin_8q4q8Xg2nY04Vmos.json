@@ -306,9 +306,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
         "coreVersion": "12.328",
-        "createdTime": 1691065970339,
-        "modifiedTime": 1691065987365,
-        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -375,9 +372,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
         "coreVersion": "12.328",
-        "createdTime": 1691066224795,
-        "modifiedTime": 1691066324923,
-        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
         "compendiumSource": "Compendium.world.starfinder-2e-bestiary-ability-glossary.Item.ptTZxiNqtUYtmxqd",
         "duplicateSource": null
       },
@@ -448,9 +442,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
         "coreVersion": "12.328",
-        "createdTime": 1691066338169,
-        "modifiedTime": 1691066391721,
-        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
         "compendiumSource": "Compendium.world.starfinder-2e-bestiary-ability-glossary.Item.3D7Pa17Ygasm9Yf6",
         "duplicateSource": null
       },
@@ -518,9 +509,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.3.0",
         "coreVersion": "12.328",
-        "createdTime": 1691066446128,
-        "modifiedTime": 1691084379983,
-        "lastModifiedBy": "qA45GVv5hySaf9b5",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -586,9 +574,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
         "coreVersion": "12.328",
-        "createdTime": 1691066662243,
-        "modifiedTime": 1691066692460,
-        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -655,9 +640,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
         "coreVersion": "12.328",
-        "createdTime": 1691066695268,
-        "modifiedTime": 1691066732092,
-        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -794,9 +776,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
         "coreVersion": "12.328",
-        "createdTime": 1691066751321,
-        "modifiedTime": 1691066755475,
-        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -910,9 +889,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
         "coreVersion": "12.328",
-        "createdTime": 1691066766014,
-        "modifiedTime": 1691066766014,
-        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf",
         "duplicateSource": null
       },
@@ -1039,9 +1015,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
         "coreVersion": "12.328",
-        "createdTime": 1691066780666,
-        "modifiedTime": 1691066780666,
-        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.zDJS8E66UI0himqV",
         "duplicateSource": null
       },
@@ -1132,9 +1105,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
         "coreVersion": "12.328",
-        "createdTime": 1691066789061,
-        "modifiedTime": 1691066789061,
-        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI",
         "duplicateSource": null
       },
@@ -1217,9 +1187,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
         "coreVersion": "12.328",
-        "createdTime": 1691066793703,
-        "modifiedTime": 1691066806039,
-        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -1300,9 +1267,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
         "coreVersion": "12.328",
-        "createdTime": 1691066809401,
-        "modifiedTime": 1691066819953,
-        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -1373,9 +1337,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
         "coreVersion": "12.328",
-        "createdTime": 1691067097767,
-        "modifiedTime": 1691067097767,
-        "lastModifiedBy": "s3Zxb9MShdjB5vHZ",
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.fFu2sZz4KB01fVRc",
         "duplicateSource": null
       },
@@ -1397,9 +1358,6 @@
     "systemId": "pf2e",
     "systemVersion": "6.1.1",
     "coreVersion": "12.331",
-    "createdTime": 1691065889815,
-    "modifiedTime": 1729555334799,
-    "lastModifiedBy": "qA45GVv5hySaf9b5",
     "compendiumSource": null,
     "duplicateSource": null
   },

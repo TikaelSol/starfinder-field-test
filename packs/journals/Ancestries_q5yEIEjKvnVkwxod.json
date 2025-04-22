@@ -34,9 +34,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
         "coreVersion": "12.328",
-        "createdTime": null,
-        "modifiedTime": 1708121366682,
-        "lastModifiedBy": "jqoxBUkgpBQ7vlMR",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -70,9 +67,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
         "coreVersion": "12.328",
-        "createdTime": null,
-        "modifiedTime": 1708121527883,
-        "lastModifiedBy": "jqoxBUkgpBQ7vlMR",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -106,9 +100,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
         "coreVersion": "12.328",
-        "createdTime": 1707688510373,
-        "modifiedTime": 1708121178844,
-        "lastModifiedBy": "jqoxBUkgpBQ7vlMR",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -143,9 +134,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
         "coreVersion": "12.328",
-        "createdTime": 1707688510373,
-        "modifiedTime": 1708121304508,
-        "lastModifiedBy": "jqoxBUkgpBQ7vlMR",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -180,9 +168,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
         "coreVersion": "12.328",
-        "createdTime": 1707688510373,
-        "modifiedTime": 1708121315050,
-        "lastModifiedBy": "jqoxBUkgpBQ7vlMR",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -218,9 +203,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
         "coreVersion": "12.328",
-        "createdTime": 1707688510373,
-        "modifiedTime": 1708121327329,
-        "lastModifiedBy": "jqoxBUkgpBQ7vlMR",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -256,9 +238,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
         "coreVersion": "12.328",
-        "createdTime": 1707688510373,
-        "modifiedTime": 1708121153989,
-        "lastModifiedBy": "jqoxBUkgpBQ7vlMR",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -294,9 +273,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
         "coreVersion": "12.328",
-        "createdTime": 1707688510373,
-        "modifiedTime": 1708125648532,
-        "lastModifiedBy": "jqoxBUkgpBQ7vlMR",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -332,9 +308,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
         "coreVersion": "12.328",
-        "createdTime": 1707688510373,
-        "modifiedTime": 1708125895914,
-        "lastModifiedBy": "jqoxBUkgpBQ7vlMR",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -369,9 +342,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
         "coreVersion": "12.331",
-        "createdTime": 1708138557609,
-        "modifiedTime": 1738798626279,
-        "lastModifiedBy": "HfiqVTKP7yuQgALu",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -406,9 +376,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
         "coreVersion": "12.330",
-        "createdTime": 1708138557609,
-        "modifiedTime": 1722275941425,
-        "lastModifiedBy": "CmdglLq38DpgHzdd",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -443,9 +410,6 @@
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
         "coreVersion": "12.328",
-        "createdTime": 1708138557609,
-        "modifiedTime": 1708147317518,
-        "lastModifiedBy": "jqoxBUkgpBQ7vlMR",
         "compendiumSource": null,
         "duplicateSource": null
       },
@@ -461,9 +425,6 @@
     "systemId": "pf2e",
     "systemVersion": "5.13.5",
     "coreVersion": "12.328",
-    "createdTime": 1704315822262,
-    "modifiedTime": 1708147317518,
-    "lastModifiedBy": "jqoxBUkgpBQ7vlMR",
     "compendiumSource": null,
     "duplicateSource": null
   },

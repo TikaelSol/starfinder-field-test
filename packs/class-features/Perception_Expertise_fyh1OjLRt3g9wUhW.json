@@ -58,10 +58,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1",
-    "createdTime": 1722095467283,
-    "modifiedTime": 1745278675854,
-    "lastModifiedBy": "eUnac0oMbpEwem24"
+    "systemVersion": "6.11.1"
   },
   "flags": {
     "core": {

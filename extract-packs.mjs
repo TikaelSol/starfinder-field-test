@@ -11,6 +11,13 @@ if (!existsSync(packsCompiled)) {
 
 const packFolders = await fs.readdir(packsCompiled);
 
+const replacer = (key, value) => {
+      if (key === "createdTime") return undefined
+      if (key === "modifiedTime") return undefined
+      if (key === "lastModifiedBy") return undefined
+      return value
+}
+
 console.log("Cleaning packs");
 for (const pack of packFolders) {
     const files = await fs.readdir(`packs/${pack}`, { withFileTypes: true });
@@ -24,7 +31,7 @@ for (const pack of packFolders) {
 
 for (const pack of packFolders) {
     console.log(`Extracting pack: ${pack}`);
-    await extractPack(path.resolve(packsCompiled, pack), `packs/${pack}`);
+    await extractPack(path.resolve(packsCompiled, pack), `packs/${pack}`, {jsonOptions: {replacer: replacer, space: 2}});
 }
 
 console.log("Extraction Complete");
