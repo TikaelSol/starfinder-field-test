@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your devices can emit a disrupting pulse that causes tech to malfunction. You gain the following new mod.</p>",
+      "value": "<p>Your devices can emit a disrupting pulse that causes tech to malfunction. You gain the following new mod.</p><p><strong>Glitch Pulse (exocortex or weapon):</strong> Strikes from the modded exocortex or weapon disrupt technology. On a hit, Strikes cause a random tech item held by the target to gain the @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 3} condition for 1 round. If the creature has the tech trait, the creature must attempt a @Check[fortitude|against:mechanic] save against your class DC.</p><hr /><p><strong>Critical Success</strong> The creature is immune to your glitch pulse for 24 hours.</p><p><strong>Success</strong> No effect.</p><p><strong>Failure</strong> The creature is glitching 3 for 1 round.</p><p><strong>Critical Failure</strong> The creature is glitching 3 for 1 minute.</p>",
       "gm": ""
     },
     "publication": {

@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your drone is programmed to protect your allies and other nearby creatures. Your drone gains the Covering Posture action.</p>",
+      "value": "<p>Your drone is programmed to protect your allies and other nearby creatures. Your drone gains the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.tZhKyMiM7q3KLHfN]{Covering Posture} action.</p>",
       "gm": ""
     },
     "publication": {

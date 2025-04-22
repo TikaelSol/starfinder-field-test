@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> You roll initiative. </p><hr /><p>You're always ready to unleash your exocortex. If you have a drone exocortex, your drone Strides. If you have a mine or turret exocortex, you can Deploy Mine or Deploy Turret.</p>",
+      "value": "<p><strong>Trigger</strong> You roll initiative.</p><hr /><p>You're always ready to unleash your exocortex. If you have a drone exocortex, your drone Strides. If you have a mine or turret exocortex, you can @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ccVcznj9KVYHLVaY]{Deploy Mine} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.1vWiNk1jbqCq4O16]{Deploy Turret}.</p>",
       "gm": ""
     },
     "publication": {

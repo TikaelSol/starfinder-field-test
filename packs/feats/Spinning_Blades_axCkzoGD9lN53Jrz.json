@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your drone can spin around while attacking with its integrated weapons. It gains the Spin to Win action.</p>",
+      "value": "<p>Your drone can spin around while attacking with its integrated weapons. It gains the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ZMP8wqASFRTl8gfc]{Spin to Win} action.</p>",
       "gm": ""
     },
     "publication": {

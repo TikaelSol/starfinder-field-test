@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've added armored plates or deflective shielding to your turret, to better protect you and any allies who hunker down behind it. Your turret provides cover, rather than lesser cover. Taking Cover behind your turret provides greater cover.</p>",
+      "value": "<p>You've added armored plates or deflective shielding to your turret, to better protect you and any allies who hunker down behind it. Your turret provides cover, rather than lesser cover. @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Taking Cover} behind your turret provides greater cover.</p>",
       "gm": ""
     },
     "publication": {

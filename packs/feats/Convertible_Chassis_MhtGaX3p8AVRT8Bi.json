@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your drone easily converts into additional forms. Reconfiguring your drone into a different chassis is a 1-hour activity with the concentrate and manipulate traits. When you select this feat, choose one chassis as your alternate chassis. Your drone gains the Mobile Reconfiguration action.</p>",
+      "value": "<p>Your drone easily converts into additional forms. Reconfiguring your drone into a different chassis is a 1-hour activity with the concentrate and manipulate traits. When you select this feat, choose one chassis as your alternate chassis. Your drone gains the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.8yr4VNRWAvrLtzb3]{Mobile Reconfiguration} action.</p>",
       "gm": ""
     },
     "publication": {

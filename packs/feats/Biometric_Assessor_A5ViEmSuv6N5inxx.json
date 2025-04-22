@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've uploaded a biometric and genetic database to your exocortex. You gain the following new mod.</p>",
+      "value": "<p>You've uploaded a biometric and genetic database to your exocortex. You gain the following new mod.</p><p><strong>Biometric Assessor (weapon):</strong> You modify the weapon to take a genetic sample upon contact, which you can rapidly compare to a database using your exocortex. When the modded weapon successfully deals damage to a creature, you can immediately @Compendium[pf2e.actionspf2e.Recall Knowledge]{Recall Knowledge} about the target as a free action, with a +1 circumstance bonus to the skill check. If you are untrained in the skill you would roll for this Recall Knowledge check, you roll the check as if you were trained in that skill.</p>",
       "gm": ""
     },
     "publication": {

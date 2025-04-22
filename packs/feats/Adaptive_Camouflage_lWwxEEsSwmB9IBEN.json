@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You install a modified hologram projector into a suit of armor, giving it rudimentary cloaking capabilities. You gain the following new mod.</p>",
+      "value": "<p>You install a modified hologram projector into a suit of armor, giving it rudimentary cloaking capabilities. You gain the following new mod.</p><p><strong>Adaptive Camouflage (armor):</strong> Using auto-populating holograms, you veil the target. The creature wearing the modded armor does not need cover or concealment to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}.</p>",
       "gm": ""
     },
     "publication": {

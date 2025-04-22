@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your items can release a sudden pulse of force to topple enemies over. You gain the following new mod.</p>",
+      "value": "<p>Your items can release a sudden pulse of force to topple enemies over. You gain the following new mod.</p><p><strong>Shockwave Pulse (grenade, weapon):</strong> The item releases a pulse of force upon use. If the item has the area trait, all creatures who fail their save against the item are additionally knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Otherwise, a creature damaged by the item is knocked prone unless they succeed at a @Check[fortitude|against:mechanic] save against your class DC.</p>",
       "gm": ""
     },
     "publication": {

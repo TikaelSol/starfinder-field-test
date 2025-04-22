@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Your drone reconfigures itself into a gyroscope and spins around, colliding with anything in range. Your drone deals its melee Strike damage to all creatures within a @Template[type:emanation|distance:20] (@Check[reflex|against:class|basic] save against your class DC). Your drone can't use this ability again for [[/gmr 1d4 #Recharge this ability]]{1d4 rounds}.</p><hr /><p><strong>Level (+2)</strong> The damage increases by [[/r 1d6]].</p>",
+      "value": "<p>Your drone reconfigures itself into a gyroscope and spins around, colliding with anything in range. Your drone deals its melee Strike damage to all creatures within a @Template[type:emanation|distance:20] (@Check[reflex|against:class|basic] save against your class DC). Your drone can't use this ability again for [[/gmr 1d4 #Recharge this ability]]{1d4 rounds}.</p><hr /><p><strong>Level (+2)</strong> The damage increases by 1d6.</p>",
       "gm": ""
     },
     "publication": {

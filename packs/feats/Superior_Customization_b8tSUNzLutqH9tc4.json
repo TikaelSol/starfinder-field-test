@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've further modified your drone, granting it a new ability. You drone gains one superior customization.</p>",
+      "value": "<p>You've further modified your drone, granting it a new ability. You drone gains one superior customization.</p><hr /><p><strong>Special</strong> You can select this feat up to three times.</p>",
       "gm": ""
     },
     "publication": {
@@ -32,7 +32,7 @@
     },
     "category": "class",
     "onlyLevel1": false,
-    "maxTakable": 1,
+    "maxTakable": 3,
     "actionType": {
       "value": "passive"
     },
@@ -42,7 +42,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "CLARIFICATION NEEDED"
+          "value": "Superior Drone"
         }
       ]
     },

@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Whenever you Deploy a Mine, you can choose to make the deployed mine a proximity alert mine. If you do, the mine automatically Detonates when a creature enters or leaves a square within the burst area of the mine. This does not take an action, and you can't choose to delay the mine's detonation when it would trigger.</p>",
+      "value": "<p>Whenever you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ccVcznj9KVYHLVaY]{Deploy a Mine}, you can choose to make the deployed mine a proximity alert mine. If you do, the mine automatically @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.S3iCDy8ppR8eXp8V]{Detonates} when a creature enters or leaves a square within the burst area of the mine. This does not take an action, and you can't choose to delay the mine's detonation when it would trigger.</p>",
       "gm": ""
     },
     "publication": {

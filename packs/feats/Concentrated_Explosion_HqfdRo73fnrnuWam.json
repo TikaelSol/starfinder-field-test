@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>When it comes to setting off explosions, there's only one rule: the bigger the boom, the better. You gain the following new mod.</p>",
+      "value": "<p>When it comes to setting off explosions, there's only one rule: the bigger the boom, the better. You gain the following new mod.</p><p><strong>Concentrated Explosion (grenade):</strong> You pack extra explosives into the grenade's casing. The item's area is halved (rounded down; a @Template[type:burst|distance:5] is reduced to one 5-foot square) but it deals one additional die of damage.</p>",
       "gm": ""
     },
     "publication": {
