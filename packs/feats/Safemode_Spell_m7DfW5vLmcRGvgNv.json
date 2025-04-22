@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You can alter offensive spells to be less deadly. If your next action is to Cast a Spell that deals damage and doesn't have the death or void trait, that spell gains the nonlethal trait. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you can choose to make the spell an illusion that deals nonlethal mental damage. If the spell requires a Fortitude or Reflex save, it becomes a Will save. If the spell requires a spell attack roll against AC, you make your spell attack roll against the target's Will DC instead. The spell gains the illusion and mental traits.</p>",
+      "value": "<p>You can alter offensive spells to be less deadly. If your next action is to Cast a Spell that deals damage and doesn't have the death or void trait, that spell gains the nonlethal trait.</p><p><strong>Jailbreak</strong> If you use @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.EE07CnQmn8Xg4gkd]{Jailbreak Spell} to use this spellshape, you can choose to make the spell an illusion that deals nonlethal mental damage. If the spell requires a Fortitude or Reflex save, it becomes a Will save. If the spell requires a spell attack roll against AC, you make your spell attack roll against the target's Will DC instead. The spell gains the illusion and mental traits.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,8 +18,103 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
-    "slug": null,
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "safemode-spell"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:safemode-spell",
+          {
+            "nor": [
+              "item:trait:death",
+              "item:trait:void"
+            ]
+          }
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "PF2E.SpecificRule.Spellshape.NonLethal"
+          },
+          {
+            "title": "SF2E.SpecificRule.Technomancer.Jailbreak",
+            "text": "SF2E.SpecificRule.Technomancer.SafemodeSpell.Jailbreak",
+            "predicate": [
+              "jailbreak-spell"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "spellshape:safemode-spell",
+          "jailbreak-spell",
+          {
+            "nor": [
+              "item:trait:death",
+              "item:trait:void"
+            ]
+          }
+        ],
+        "property": "damage-type",
+        "selectors": [
+          "spell-damage"
+        ],
+        "value": "mental"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:safemode-spell",
+          "jailbreak-spell",
+          {
+            "nor": [
+              "item:trait:death",
+              "item:trait:void"
+            ]
+          }
+        ],
+        "property": "traits",
+        "value": "illusion"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:safemode-spell",
+          "jailbreak-spell",
+          {
+            "nor": [
+              "item:trait:death",
+              "item:trait:void"
+            ]
+          }
+        ],
+        "property": "traits",
+        "value": "mental"
+      }
+    ],
+    "slug": "safemode-spell",
     "traits": {
       "otherTags": [],
       "value": [

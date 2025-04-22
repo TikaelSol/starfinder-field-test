@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> You cast a non-cantrip spell that is not modified by Jailbreak Spell.</p><p><strong>Requirements</strong> Your gear is overclocked.</p><hr /><p> You are an expert in testing the cyber defenses of tech gear and bolstering it against incoming damage. You use the magic energy of the last spell you cast to reduce the glitching condition by half the spell's rank (minimum 1) of up to one tech creature or tech item within 100 feet for every rank of the triggering spell. For the next minute, affected targets roll flat checks to recover from the glitching condition twice and take the higher result; this is a fortune effect.</p>",
+      "value": "<p><strong>Trigger</strong> You cast a non-cantrip spell that is not modified by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.EE07CnQmn8Xg4gkd]{Jailbreak Spell}.</p><p><strong>Requirements</strong> Your gear is overclocked.</p><hr /><p>You are an expert in testing the cyber defenses of tech gear and bolstering it against incoming damage. You use the magic energy of the last spell you cast to reduce the @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd] condition by half the spell's rank (minimum 1) of up to one tech creature or tech item within 100 feet for every rank of the triggering spell. For the next minute, affected targets roll flat checks to recover from the glitching condition twice and take the higher result; this is a fortune effect.</p>",
       "gm": ""
     },
     "publication": {
@@ -19,7 +19,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "white-hat-hack",
     "traits": {
       "otherTags": [],
       "value": [

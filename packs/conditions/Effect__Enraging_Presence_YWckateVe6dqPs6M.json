@@ -15,7 +15,7 @@
         "type": "status"
       }
     ],
-    "slug": null,
+    "slug": "effect-enraging-presence",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -62,7 +62,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "6.11.1"
   },
   "_id": "YWckateVe6dqPs6M",
   "sort": 1100000,

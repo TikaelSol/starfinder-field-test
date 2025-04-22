@@ -9,7 +9,7 @@
       "value": "<p>You infuse yourself with magic energy to speed up your attacks. You gain the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition and can use the extra action each round to Strike.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "overclock-brain",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

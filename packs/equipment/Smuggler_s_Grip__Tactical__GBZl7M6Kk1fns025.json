@@ -9,7 +9,7 @@
       "value": "<p>A <em>tactical @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.O0cuj6CI1GzAVPke]{Smuggler's Grip}</em> is a hybrid item with the extradimensional, magical, and tech traits. You can pull the weapon into an extradimensional space as an Interact action, leaving behind a palm-sized disk, granting you a +4 item bonus to your Stealth check to Conceal the Object. You can't draw the weapon while it's in the extradimensional space, but you can use an @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} action to retrieve it.</p>"
     },
     "rules": [],
-    "slug": "smugglers-grip",
+    "slug": "smugglers-grip-tactical",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -81,7 +81,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "6.11.1"
   },
   "ownership": {
     "default": 0,

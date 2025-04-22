@@ -9,7 +9,7 @@
       "value": "<p>You infuse your armor with magical energy to bolster your defense. You materialize a shimmering layer of energy encasing your armor that functions as a @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.8yEnhqeRKBxO02M2]{superior force field}. You then become immune to overclock armor for 10 minutes.</p><hr /><p><strong>Heightened (7th)</strong> The energy functions as an @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.l91L8dHQT2ddmufW]{elite force field} instead.</p><p><strong>Heightened (9th)</strong> The energy functions as an @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.Hqxyg3xDDoqYLNO3]{ultimate force field} instead.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "overclock-armor",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

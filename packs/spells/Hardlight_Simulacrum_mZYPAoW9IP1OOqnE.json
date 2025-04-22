@@ -9,7 +9,7 @@
       "value": "<p>You can generate holographic replicas of monsters to fight for you. If the next action you use is to Cast a Spell that has the summon trait, you summon a hardlight simulacrum of the creature instead. A hardlight simulacrum uses the same statistics as the base creature with the following adjustments: It has the construct and tech traits, resistance equal to its level to physical damage (except ghost killer), and immunities to bleed, death effects, disease, doomed, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, spirit, unconscious, vitality, and void; it loses any abilities and the ability to cast any spells with those traits or that confer those conditions.</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you can Overclock Gear the summoned creature as a free action immediately after it is summoned.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "hardlight-simulacrum",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

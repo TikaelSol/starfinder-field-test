@@ -9,7 +9,7 @@
       "value": "<p>This deceptively simple upgrade safely courses electricity through your weapon, dealing an extra @Damage[1d6[electricity]] damage on a hit. On a critical hit, electricity arcs out to deal an equal amount of electricity damage to up to two other creatures of your choice within 10 feet of the target. </p><p>Electricity damage dealt by this weapon ignores the target’s electricity resistance (and the other creatures’ on a critical hit).</p>"
     },
     "rules": [],
-    "slug": "shock-module",
+    "slug": "shock-module-tactical",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -82,7 +82,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "6.11.1"
   },
   "ownership": {
     "default": 0,

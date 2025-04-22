@@ -8,7 +8,7 @@
       "value": "<p><em>You know that magic and technology are all part of the same code—a code you've learned to hack. You're versed in a magical programming language that allows you to overclock your equipment into higher performance and versatility. You've learned to jailbreak your spells, pushing your magic past the limits. You're here to hack reality.</em></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "technomancer",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

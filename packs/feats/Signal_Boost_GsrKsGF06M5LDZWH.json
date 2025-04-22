@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You can extend the reach of your magic. If the next action you use is to Cast a Spell that has a range, increase that spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you increase the spell's range by 60 feet.</p>",
+      "value": "<p>You can extend the reach of your magic. If the next action you use is to Cast a Spell that has a range, increase that spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.</p><p><strong>Jailbreak</strong> If you use @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.EE07CnQmn8Xg4gkd]{Jailbreak Spell} to use this spellshape, you increase the spell's range by 60 feet.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,8 +18,55 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
-    "slug": null,
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "signal-boost"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:signal-boost",
+          {
+            "not": "jailbreak-spell"
+          }
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Technomancer.SignalBoost.Alteration"
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:signal-boost",
+          "jailbreak-spell"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Technomancer.SignalBoost.Jailbreak"
+          }
+        ]
+      }
+    ],
+    "slug": "signal-boost",
     "traits": {
       "otherTags": [],
       "value": [

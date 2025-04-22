@@ -9,7 +9,7 @@
       "value": "<p><strong>Requirements</strong> You're wielding a ranged weapon with the tech trait.</p><hr /><p>You digitize yourself using your magic to move across the battlefield. If your next action is to Cast a Spell with a range and an area, you teleport yourself and your gear to one open space within the spell's area. You can choose to arrive before or after the spell takes effect. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell with this spellshape to modify a spell that targets a single creature, you can teleport to any open space within the spell's range.</p><p></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "virtualized-data-transmission",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You briefly hack reality, allowing you to pass through walls, ignore damage, and phase through enemies. You gain the <em>speedrun</em> magic hack.</p>",
+      "value": "<p>You briefly hack reality, allowing you to pass through walls, ignore damage, and phase through enemies. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.q0uvyDi1wQgre2u3] magic hack.</p>",
       "gm": ""
     },
     "publication": {
@@ -19,7 +19,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "speedrun",
     "traits": {
       "otherTags": [],
       "value": [

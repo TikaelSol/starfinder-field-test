@@ -20,7 +20,7 @@
         ]
       }
     ],
-    "slug": "truesight-sight",
+    "slug": "truesight-sight-tactical",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -92,7 +92,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "6.11.1"
   },
   "ownership": {
     "default": 0,

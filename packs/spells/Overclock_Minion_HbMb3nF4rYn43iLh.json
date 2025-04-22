@@ -9,7 +9,7 @@
       "value": "<p>You infuse your minion with leftover magical energy to increase its speed. The target gains the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition and can only use the extra action each round for Stride or Strike actions.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "overclock-minion",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

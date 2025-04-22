@@ -544,6 +544,19 @@
                     "Prompt": "Select a fighting style."
                 }
             },
+            "Technomancer": {
+                "IncognitoSpell": {
+                    "Jailbreak": "You can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} one creature using Arcana instead of Intimidation by making the effects of the spell seem effortless on your part."
+                },
+                "Jailbreak": "Jailbreak",
+                "SafemodeSpell": {
+                    "Jailbreak": "You can choose to make the spell an illusion that deals nonlethal mental damage. If the spell requires a Fortitude or Reflex save, it becomes a Will save. If the spell requires a spell attack roll against AC, you make your spell attack roll against the target's Will DC instead. The spell gains the illusion and mental traits."
+                },
+                "SignalBoost": {
+                    "Alteration": "Increase the spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.",
+                    "Jailbreak": "Increase that spell's range by 60 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 60 feet."
+                }
+            },
             "Witchwarper": {
                 "Anchor": {
                     "Prompt": "Select an anchor."

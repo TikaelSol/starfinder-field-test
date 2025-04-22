@@ -9,7 +9,7 @@
       "value": "<p>This module overheats the weapon's striking edge and ammunition. The weapon deals an additional @Damage[1d6[fire]] damage on a successful Strike, plus @Damage[2d10[persistent,fire]] damage on a critical hit. </p><p>Fire damage dealt by this weapon (including the persistent fire damage) ignores the target’s fire resistance.</p>"
     },
     "rules": [],
-    "slug": "flaming-module",
+    "slug": "flaming-module-tactical",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -82,7 +82,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "6.11.1"
   },
   "ownership": {
     "default": 0,

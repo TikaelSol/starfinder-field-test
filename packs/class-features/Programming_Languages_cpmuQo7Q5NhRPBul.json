@@ -35,7 +35,7 @@
         "uuid": "{item|flags.pf2e.rulesSelections.programmingLanguage}"
       }
     ],
-    "slug": null,
+    "slug": "programming-languages",
     "traits": {
       "otherTags": [],
       "value": [],

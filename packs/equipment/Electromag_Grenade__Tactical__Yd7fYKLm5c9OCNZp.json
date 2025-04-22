@@ -9,7 +9,7 @@
       "value": "<p>These grenades discharge a shocking field that deals electricity damage with a basic Reflex save. If you have access to the critical specialization effect of grenades, tech creatures and unattended tech items that critically fail their saving throw against electromag grenades become glitching.</p><p>@Template[type:burst|distance:10]</p><p><strong>Critical</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}</p><p></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "electromag-grenade-tactical",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

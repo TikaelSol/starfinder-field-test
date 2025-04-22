@@ -153,7 +153,7 @@
         "value": 4
       }
     ],
-    "slug": null,
+    "slug": "effect-medpatch",
     "_migration": {
       "version": 0.934,
       "lastMigration": null
@@ -200,7 +200,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.6.2"
+    "systemVersion": "6.11.1"
   },
   "_id": "5zI4ZyazPuowjhwJ",
   "sort": 400000,
