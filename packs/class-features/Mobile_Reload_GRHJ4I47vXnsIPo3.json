@@ -46,7 +46,7 @@
   "_id": "GRHJ4I47vXnsIPo3",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20ammunition.webp",
   "folder": null,
-  "sort": 500000,
+  "sort": 2800000,
   "ownership": {
     "default": 0,
     "Rx0xhdrs9eKd1Esv": 3
@@ -55,12 +55,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722126019807,
-    "modifiedTime": 1722224838533,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!GRHJ4I47vXnsIPo3"
 }

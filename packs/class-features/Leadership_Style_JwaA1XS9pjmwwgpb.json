@@ -67,7 +67,7 @@
   "_id": "JwaA1XS9pjmwwgpb",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20alien%20face.webp",
   "folder": null,
-  "sort": 8700000,
+  "sort": 11000000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -76,10 +76,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712007910113,
-    "modifiedTime": 1722192768028,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

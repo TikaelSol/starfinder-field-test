@@ -86,7 +86,7 @@
   "_id": "CNtcTOw0dLHdNna1",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20mech%20blade.webp",
   "folder": null,
-  "sort": 400000,
+  "sort": 2700000,
   "ownership": {
     "default": 0,
     "Rx0xhdrs9eKd1Esv": 3
@@ -95,12 +95,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.3",
     "createdTime": 1722106054323,
-    "modifiedTime": 1722414907398,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!CNtcTOw0dLHdNna1"
 }

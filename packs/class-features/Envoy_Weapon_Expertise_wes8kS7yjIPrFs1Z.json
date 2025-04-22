@@ -78,8 +78,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.2.3",
     "createdTime": 1722095579892,
-    "modifiedTime": 1724434045271,
-    "lastModifiedBy": "4uTTBK4TzykGOYxh"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "flags": {
     "core": {
@@ -93,6 +93,6 @@
     "Rx0xhdrs9eKd1Esv": 3
   },
   "_id": "wes8kS7yjIPrFs1Z",
-  "sort": 7600000,
+  "sort": 10000000,
   "_key": "!items!wes8kS7yjIPrFs1Z"
 }

@@ -51,7 +51,7 @@
   "_id": "0HtLXgFUqD0wYzRl",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20circuit%20board.webp",
   "folder": null,
-  "sort": 7700000,
+  "sort": 10100000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -60,10 +60,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712008115122,
-    "modifiedTime": 1722213610642,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

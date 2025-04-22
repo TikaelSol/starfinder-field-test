@@ -81,7 +81,7 @@
   "_id": "OsSmz8cRu0tiTaKO",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20military%20organization%20emblem.webp",
   "folder": null,
-  "sort": 9100000,
+  "sort": 11400000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -90,10 +90,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712008169091,
-    "modifiedTime": 1722213804684,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

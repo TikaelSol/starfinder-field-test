@@ -89,7 +89,7 @@
   "_id": "zlulamPv3uBZOYM8",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20hand%20three%20connected%20dots.webp",
   "folder": null,
-  "sort": 10900000,
+  "sort": 13200000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -98,10 +98,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712007590307,
-    "modifiedTime": 1722192928920,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

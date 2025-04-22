@@ -26,6 +26,7 @@
       "otherTags": [],
       "value": [
         "envoy",
+        "mechanic",
         "operative",
         "solarian"
       ],
@@ -58,12 +59,12 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9",
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.11.1",
     "createdTime": 1722095749230,
-    "modifiedTime": 1722128420059,
-    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "flags": {
     "core": {
@@ -77,6 +78,6 @@
     "Rx0xhdrs9eKd1Esv": 3
   },
   "_id": "wP2Dn7u51xuuwLX7",
-  "sort": 2600000,
+  "sort": 5000000,
   "_key": "!items!wP2Dn7u51xuuwLX7"
 }

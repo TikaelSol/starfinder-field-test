@@ -1,0 +1,71 @@
+{
+  "folder": "VR2dEsNooGTwusIk",
+  "name": "FORTRUN",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>This programming language began as the AbadarCorp standard for heat sinks, especially in hostile environments, and was quickly adopted as the universal language of armor, environmental protection, and satellite defense software. The simple but elegant code is designed to minimize the possibility of potentially life-threatening errors that could cause a system to malfunction and has endless applications for personal defense.</p><p><strong>Spell Cache</strong> 1st @UUID[Compendium.pf2e.spells-srd.Item.gMODOGamz88rgHuf]{protection}; 2nd @UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n]{resist energy}; 3rd @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{haste}; 4th @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]{unfettered movement}; 5th @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]{scouting eye}; 6th @UUID[Compendium.pf2e.spells-srd.Item.yrZA4k2VAqEP8xx7]{repulsion}; 7th @UUID[Compendium.pf2e.spells-srd.Item.m2xFMNyQiUKQDRaj]{energy aegis}; 8th @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.bQ08S60JJPe8Q0iK]{gravity field}; 9th @UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]{foresight}</p><p><strong>Magic Hack</strong> initial: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.75E9LlqNjHseSerF]{energy sink}; advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.sxnYY0EChhDP1Fa6]{active defense firewall}; greater: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.YatlrDaULkzo3nSA]{overclock armor}</p><p><strong>Spellshape</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.2jgnYZoAlcbZXRPL]{Denial of Safety}</p><p><strong>Overclock Boost</strong> (armor) You gain a +1 circumstance bonus to your AC until the beginning of your next turn. Each time a hostile creature touches you or damages you with an unarmed melee attack or non-reach melee weapon, it takes force damage equal to the rank of the spell you cast to overclock your gear. If the spell dealt damage, this damage is of the same type of damage the spell dealt. If the spell dealt multiple types of damage, select one damage type from among those options.</p><p><strong>Jailbreak Spellshape</strong> When you Jailbreak Spell to apply the Denial of Safety spellshape to a spell that deals damage, you can use the spell's surplus energy to move yourself in any direction, up to one square per rank of the spell. This is forced movement and does not trigger reactions. The origin of the spell and its area are selected before you move; if this ability moves you out of the spell's area, you are not affected by the spell.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [
+        "technomancer-programming-language"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "TfuF2jToUCzbp5Zb",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20beam%20sabre.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eUnac0oMbpEwem24": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745280894586,
+    "modifiedTime": 1745281177152,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
+  },
+  "_key": "!items!TfuF2jToUCzbp5Zb"
+}

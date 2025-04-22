@@ -51,7 +51,7 @@
   "_id": "Qb9Gxz77VHUL769Q",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20flame.webp",
   "folder": null,
-  "sort": 9300000,
+  "sort": 11600000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -60,10 +60,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712009468913,
-    "modifiedTime": 1722216874992,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

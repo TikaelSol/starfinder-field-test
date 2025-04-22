@@ -149,7 +149,7 @@
   "_id": "OBUIFNBSHc2EfDER",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20cattle%20prod.webp",
   "folder": null,
-  "sort": 600000,
+  "sort": 2900000,
   "ownership": {
     "default": 0,
     "Rx0xhdrs9eKd1Esv": 3
@@ -162,8 +162,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.8.5",
     "createdTime": 1722106103963,
-    "modifiedTime": 1738939426803,
-    "lastModifiedBy": "AhhBYTk3xYRMuz4T"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!OBUIFNBSHc2EfDER"
 }

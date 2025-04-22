@@ -23,9 +23,9 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "traversal",
         "flourish",
-        "mechanic"
+        "mechanic",
+        "traversal"
       ]
     },
     "actionType": {
@@ -52,8 +52,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.11.1",
     "createdTime": 1745253995559,
-    "modifiedTime": 1745253995559,
-    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+    "modifiedTime": 1745276515788,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!VYzw8sB3V5w0FyOP"
 }

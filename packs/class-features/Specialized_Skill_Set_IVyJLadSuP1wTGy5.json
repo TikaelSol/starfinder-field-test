@@ -46,7 +46,7 @@
   "_id": "IVyJLadSuP1wTGy5",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/red%20crosshairs.webp",
   "folder": null,
-  "sort": 1800000,
+  "sort": 4100000,
   "ownership": {
     "default": 0,
     "Rx0xhdrs9eKd1Esv": 3
@@ -55,12 +55,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722126702765,
-    "modifiedTime": 1722224838555,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!IVyJLadSuP1wTGy5"
 }

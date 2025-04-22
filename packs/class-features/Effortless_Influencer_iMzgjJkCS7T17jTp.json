@@ -76,7 +76,7 @@
   "_id": "iMzgjJkCS7T17jTp",
   "img": "icons/skills/social/diplomacy-peace-alliance.webp",
   "folder": null,
-  "sort": 10100000,
+  "sort": 12400000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -87,8 +87,8 @@
     "systemVersion": "6.4.1",
     "coreVersion": "12.331",
     "createdTime": 1712009077600,
-    "modifiedTime": 1729301650502,
-    "lastModifiedBy": "HfiqVTKP7yuQgALu",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

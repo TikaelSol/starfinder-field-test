@@ -1,0 +1,76 @@
+{
+  "img": "systems/pf2e/icons/features/classes/walls-of-will.webp",
+  "name": "Will Expertise",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Your mental defenses grow stronger. Your proficiency rank for Will saves increases to expert.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Starfinder Tech Class Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {
+        "will": {
+          "rank": 2,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "mechanic"
+      ],
+      "otherTags": []
+    },
+    "slug": "will-expertise",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745273617806,
+    "modifiedTime": 1745273637435,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
+  },
+  "effects": [],
+  "folder": "LhdfGVgPMQncD5yl",
+  "ownership": {
+    "default": 0,
+    "eUnac0oMbpEwem24": 3
+  },
+  "flags": {},
+  "_id": "KQ3FNIMOgtyOywgj",
+  "sort": 0,
+  "_key": "!items!KQ3FNIMOgtyOywgj"
+}

@@ -1,0 +1,95 @@
+{
+  "img": "systems/pf2e/icons/features/classes/magical-fortitude.webp",
+  "name": "Magical Fortitude",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Magical power has improved your body's resiliency. Your proficiency rank for Fortitude saves increases to expert.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Starfinder Tech Class Playtest",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "text": "PF2E.SpecificRule.ClassFeatures.MagicalFortitude.{actor|class.slug}.Description"
+          }
+        ]
+      },
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "{actor|class.slug}"
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {
+        "fortitude": {
+          "rank": 2,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "technomancer"
+      ],
+      "otherTags": []
+    },
+    "slug": "magical-fortitude",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745278593596,
+    "modifiedTime": 1745278874122,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
+  },
+  "effects": [],
+  "folder": "VR2dEsNooGTwusIk",
+  "ownership": {
+    "default": 0,
+    "eUnac0oMbpEwem24": 3
+  },
+  "flags": {},
+  "_id": "SsgKClXrept6iOxE",
+  "sort": 100000,
+  "_key": "!items!SsgKClXrept6iOxE"
+}

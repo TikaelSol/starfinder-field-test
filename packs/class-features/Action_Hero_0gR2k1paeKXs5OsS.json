@@ -52,14 +52,14 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722114744305,
-    "modifiedTime": 1722224838323,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
-  "sort": 100000,
+  "sort": 2300000,
   "ownership": {
     "default": 0,
     "CmdglLq38DpgHzdd": 3

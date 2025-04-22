@@ -73,8 +73,8 @@
     "location": null
   },
   "_id": "OnnL3sBnXdTSKeT6",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
-  "sort": 0,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/blue%20wrapped%20brick.webp",
+  "sort": 1300000,
   "ownership": {
     "default": 0,
     "qObU1d4eWFf9XwnO": 3
@@ -87,8 +87,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.11.1",
     "createdTime": 1745254380633,
-    "modifiedTime": 1745254380633,
-    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+    "modifiedTime": 1745274663952,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!OnnL3sBnXdTSKeT6"
 }

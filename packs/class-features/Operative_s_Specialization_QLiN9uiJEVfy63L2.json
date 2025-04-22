@@ -62,7 +62,7 @@
   "_id": "QLiN9uiJEVfy63L2",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20future%20circle%20insignia.webp",
   "folder": null,
-  "sort": 800000,
+  "sort": 3100000,
   "ownership": {
     "default": 0,
     "Rx0xhdrs9eKd1Esv": 3
@@ -71,12 +71,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722105705879,
-    "modifiedTime": 1722140356174,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!QLiN9uiJEVfy63L2"
 }

@@ -56,7 +56,7 @@
   "_id": "UkPowNaI78r51cks",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20triad%20hexagons.webp",
   "folder": null,
-  "sort": 9400000,
+  "sort": 11700000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -65,10 +65,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712009267428,
-    "modifiedTime": 1722216310809,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

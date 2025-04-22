@@ -1,0 +1,84 @@
+{
+  "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+  "name": "Prodigious Will",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Your mind is simply too complex and sophisticated to be tampered with. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 17
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Starfinder Tech Class Playtest",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "will"
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {
+        "will": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "technomancer"
+      ],
+      "otherTags": []
+    },
+    "slug": "prodigious-will",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745279446322,
+    "modifiedTime": 1745279460894,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
+  },
+  "effects": [],
+  "folder": "VR2dEsNooGTwusIk",
+  "ownership": {
+    "default": 0,
+    "eUnac0oMbpEwem24": 3
+  },
+  "flags": {},
+  "_id": "2LssJ7QH1IaGTIje",
+  "sort": 0,
+  "_key": "!items!2LssJ7QH1IaGTIje"
+}

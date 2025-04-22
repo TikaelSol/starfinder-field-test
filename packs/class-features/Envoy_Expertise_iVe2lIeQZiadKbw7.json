@@ -58,7 +58,7 @@
   "_id": "iVe2lIeQZiadKbw7",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20star%20emblem%202.webp",
   "folder": null,
-  "sort": 10200000,
+  "sort": 12500000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -67,10 +67,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712008832015,
-    "modifiedTime": 1722214584311,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -326,14 +326,14 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1721806161812,
-    "modifiedTime": 1722233391174,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_id": "lzBFo89a2Tm5rDfG",
-  "sort": 6300000,
+  "sort": 8700000,
   "_key": "!items!lzBFo89a2Tm5rDfG"
 }

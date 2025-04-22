@@ -1,0 +1,69 @@
+{
+  "name": "Custom Rig",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You begin with a specialized toolkit called a custom rig. Your custom rig weighs 1 Bulk and counts as both a commercial repair toolkit plus any one of the following toolkits of your choice: a commercial hacking toolkit, a commercial infiltrator's toolkit, or a commercial maker's toolkit. You can use your custom rig with one hand if you're wearing it or two hands if you're holding it.</p><p>Whenever you purchase one of the listed toolkits, or a higher-grade version of one of the listed toolkits, you can spend 10 minutes integrating that toolkit into your custom rig. If you do, your custom rig gains the properties of the toolkit. This does not increase the Bulk of your custom rig. Your custom rig and any integrated toolkits can't be sold or used by another creature.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20circuit%20board.webp",
+  "folder": "LhdfGVgPMQncD5yl",
+  "ownership": {
+    "default": 0,
+    "eUnac0oMbpEwem24": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745272254503,
+    "modifiedTime": 1745272279528,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
+  },
+  "_id": "Z2VZiwUlCKJdnvmH",
+  "sort": 1800000,
+  "_key": "!items!Z2VZiwUlCKJdnvmH"
+}

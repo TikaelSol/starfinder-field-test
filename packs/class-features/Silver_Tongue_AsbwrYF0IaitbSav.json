@@ -83,7 +83,7 @@
   "_id": "AsbwrYF0IaitbSav",
   "img": "icons/skills/social/diplomacy-writing-letter.webp",
   "folder": null,
-  "sort": 8200000,
+  "sort": 10600000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -92,10 +92,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712009518651,
-    "modifiedTime": 1722216938813,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

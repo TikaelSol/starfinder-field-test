@@ -1,0 +1,74 @@
+{
+  "name": "Modify",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your custom rig allows you to customize items in your possession on the fly, increasing their effectiveness or versatility for a limited time. You can make such adjustments using the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.neyS5TJB8fTmQEKu]{Modify} action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.neyS5TJB8fTmQEKu"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/commodities/tech/transmission.webp",
+  "folder": "LhdfGVgPMQncD5yl",
+  "ownership": {
+    "default": 0,
+    "eUnac0oMbpEwem24": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745272279502,
+    "modifiedTime": 1745272863635,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
+  },
+  "_id": "FxVyOgF0QY7Teb8X",
+  "sort": 300000,
+  "_key": "!items!FxVyOgF0QY7Teb8X"
+}

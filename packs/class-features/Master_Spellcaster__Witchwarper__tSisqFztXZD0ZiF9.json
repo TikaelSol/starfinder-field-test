@@ -67,8 +67,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.10.2",
     "createdTime": 1742890365835,
-    "modifiedTime": 1742890479868,
-    "lastModifiedBy": "RPzJkeziZBD7sbya"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "effects": [],
   "folder": null,
@@ -78,6 +78,6 @@
   },
   "flags": {},
   "_id": "tSisqFztXZD0ZiF9",
-  "sort": 200000,
+  "sort": 2500000,
   "_key": "!items!tSisqFztXZD0ZiF9"
 }

@@ -89,7 +89,7 @@
   "_id": "zG1PJsUA6goaGayk",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20hand.webp",
   "folder": null,
-  "sort": 10800000,
+  "sort": 13100000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -98,10 +98,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712007413332,
-    "modifiedTime": 1722192835242,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -4,7 +4,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Envoy</strong> You've a keen eye for details and always manage to remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p><p><strong>Soldier</strong> You remain alert to threats around you and can react a moment's notice. Your proficiency rank for Perception increases to expert.</p><p><strong>Mystic</strong> You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p>"
+      "value": "<p><strong>Envoy</strong> You've a keen eye for details and always manage to remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p><p><strong>Soldier</strong> You remain alert to threats around you and can react a moment's notice. Your proficiency rank for Perception increases to expert.</p><p><strong>Mystic</strong> You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p><p><strong>Technomancer </strong>You remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p>"
     },
     "rules": [],
     "slug": "perception-expertise",
@@ -58,10 +58,10 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1",
+    "systemVersion": "6.11.1",
     "createdTime": 1722095467283,
-    "modifiedTime": 1729302407171,
-    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+    "modifiedTime": 1745278675854,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "flags": {
     "core": {
@@ -75,6 +75,6 @@
     "Rx0xhdrs9eKd1Esv": 3
   },
   "_id": "fyh1OjLRt3g9wUhW",
-  "sort": 7200000,
+  "sort": 9600000,
   "_key": "!items!fyh1OjLRt3g9wUhW"
 }

@@ -58,8 +58,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.4.1",
     "createdTime": 1729544938988,
-    "modifiedTime": 1729544938988,
-    "lastModifiedBy": "HfiqVTKP7yuQgALu"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "ownership": {
     "default": 0,
@@ -67,6 +67,6 @@
     "HfiqVTKP7yuQgALu": 3
   },
   "_id": "Uxoa3lMuD8HzSXXd",
-  "sort": 0,
+  "sort": 1500000,
   "_key": "!items!Uxoa3lMuD8HzSXXd"
 }

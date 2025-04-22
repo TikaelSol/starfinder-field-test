@@ -4,7 +4,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Mystic</strong> You command powerful magic channeled through your connection. Your proficiency ranks for spell attack modifier and spell DC increase to master.</p>"
+      "value": "<p><strong>Mystic</strong> You command powerful magic channeled through your connection. Your proficiency ranks for spell attack modifier and spell DC increase to master.</p><hr /><p><strong>Technomancer</strong> You command superlative spellcasting. Your proficiency ranks for spell attack modifier and spell DC increase to master.</p>"
     },
     "rules": [],
     "slug": "master-spellcaster",
@@ -16,7 +16,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "mystic"
+        "mystic",
+        "technomancer"
       ],
       "rarity": "common"
     },
@@ -54,12 +55,12 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc",
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.11.1",
     "createdTime": 1722100513240,
-    "modifiedTime": 1722127063370,
-    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+    "modifiedTime": 1745279418278,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "flags": {
     "core": {
@@ -73,6 +74,6 @@
     "Rx0xhdrs9eKd1Esv": 3
   },
   "_id": "b1F4hLZ3AOCDpFlW",
-  "sort": 1200000,
+  "sort": 3500000,
   "_key": "!items!b1F4hLZ3AOCDpFlW"
 }

@@ -1,0 +1,76 @@
+{
+  "folder": "LhdfGVgPMQncD5yl",
+  "name": "Turret",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your exocortex connects to a deployable turret that is easily collapsed and stored in your custom rig when not in use. You can only deploy one turret, and your turret retains its current HP when stored in your custom rig. It occupies a 5-foot square and provides lesser cover. You can @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} behind your turret. Once deployed, you can fire this turret remotely if you are within 100 feet of the turret, as a ranged Strike originating from the turret's location. Your turret has its own targeting sensors, including darkvision, and doesn't rely on your vision. Your turret uses your attack modifier and shares your multiple attack penalty.</p><p>Your turret is a commercial martial ranged weapon with 2 upgrade slots. You can improve your turret, making it tactical or better, following the typical rules for improving weapons (Starfinder Playtest Rulebook 236). Your turret's upgrade slots are located on your custom rig, rather than the turret itself, and are automatically remotely installed in any turret you Deploy. Your turret has an expend of 0 and does not require ammo. Its level is equal to your level, its AC is equal to your mechanic class DC, and it has Hardness equal to half your level (rounded up). It has trained proficiency in Reflex and Fortitude saves, using your Intelligence modifier to calculate these bonuses. It has 6 Hit Points, plus a number of Hit Points equal to 2 plus your Intelligence modifier for each level you have. Its Broken Threshold is equal to half its total Hit Points (rounded down). During your daily preparations, you automatically repair your turret, restoring it to maximum Hit Points. If your turret is destroyed, the next time you Deploy Turret, you deploy a repaired turret with maximum Hit Points. You can only have one turret deployed at a time.</p><p>At 5th level, your turret's Hardness increases to 10. At 10th level, it increases to 15 and its proficiency rank in Reflex and Fortitude saves increases to expert. At 15th level, its Hardness increases to 20, and its proficiency rank in Reflex and Fortitude saves increases to master.</p><p>Select one of the following arrays for your turret, which determines its damage type and range increment. You can spend 10 minutes modifying your turret using your custom rig to change its selected array.</p><ul><li><strong>Chaingun:</strong> @Damage[1d8[piercing]] damage, range increment 90 feet, analog trait, projectile weapon group</li><li><strong>Disintegrator:</strong> @Damage[1d8[acid]] damage, range increment 60 feet, tech trait, corrosive weapon group</li><li><strong>Laser Beam:</strong> @Damage[1d8[fire]] damage, range increment 60 feet, tech trait, laser weapon group</li><li><strong>Thunderclap:</strong> @Damage[1d8[sonic]] damage, range increment 60 feet, tech trait, sonic weapon group</li><li><strong>Volt Thrower:</strong> @Damage[1d8[electricity]] damage, range increment 60 feet, tech trait, shock weapon group</li><li><strong>Zero Emitter:</strong> @Damage[1d8[cold]] damage, range increment 60 feet, tech trait, cryo weapon group</li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.1vWiNk1jbqCq4O16"
+      }
+    ],
+    "slug": "turret",
+    "traits": {
+      "otherTags": [
+        "mechanic-exocortex"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/teal%20sci-fi%20gun.webp",
+  "ownership": {
+    "default": 0,
+    "eUnac0oMbpEwem24": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745272284585,
+    "modifiedTime": 1745273352892,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
+  },
+  "_id": "7cVI2aiS1lg0caWx",
+  "sort": 0,
+  "_key": "!items!7cVI2aiS1lg0caWx"
+}

@@ -89,7 +89,7 @@
   "_id": "Rqcl0KxiEljmhyDT",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20soldier.webp",
   "folder": null,
-  "sort": 900000,
+  "sort": 3200000,
   "ownership": {
     "default": 0,
     "Rx0xhdrs9eKd1Esv": 3
@@ -98,12 +98,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.2.0",
     "createdTime": 1722106001064,
-    "modifiedTime": 1722704403858,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!Rqcl0KxiEljmhyDT"
 }

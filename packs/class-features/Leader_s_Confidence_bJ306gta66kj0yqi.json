@@ -56,7 +56,7 @@
   "_id": "bJ306gta66kj0yqi",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20comet%20insignia.webp",
   "folder": null,
-  "sort": 9700000,
+  "sort": 12000000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -65,10 +65,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712008777792,
-    "modifiedTime": 1722214081727,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -81,7 +81,7 @@
   "_id": "Y818cqHsMTNMap2E",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20person%20running.webp",
   "folder": null,
-  "sort": 1100000,
+  "sort": 3400000,
   "ownership": {
     "default": 0,
     "Rx0xhdrs9eKd1Esv": 3
@@ -90,12 +90,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722126189576,
-    "modifiedTime": 1722224838826,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!Y818cqHsMTNMap2E"
 }

@@ -89,7 +89,7 @@
   "_id": "FZzsSAI4JUgTEb3H",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/armor%20chestplate%20bue.webp",
   "folder": null,
-  "sort": 8400000,
+  "sort": 10800000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -98,10 +98,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712005205705,
-    "modifiedTime": 1722190347413,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -4,7 +4,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Mystic</strong> You've honed your ability to dodge dangers and more easily move around the battlefield without taking damage from area attacks. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Soldier</strong> Your reactionary defenses grow stronger. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Witchwarper</strong> Your awareness of possible dangers, through incredible analysis or an understanding of the wider multiverse, increases your reflexes. Your proficiency rank for Reflex saves increases to expert.</p>"
+      "value": "<p><strong>Mystic</strong> You've honed your ability to dodge dangers and more easily move around the battlefield without taking damage from area attacks. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Soldier</strong> Your reactionary defenses grow stronger. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Witchwarper</strong> Your awareness of possible dangers, through incredible analysis or an understanding of the wider multiverse, increases your reflexes. Your proficiency rank for Reflex saves increases to expert.</p><hr /><p><strong>Technomancer</strong> You've developed a knack for dodging danger. Your proficiency rank for Reflex saves increases to expert.</p>"
     },
     "rules": [],
     "slug": "reflex-expertise",
@@ -18,6 +18,7 @@
       "value": [
         "mystic",
         "soldier",
+        "technomancer",
         "witchwarper"
       ],
       "rarity": "common"
@@ -56,12 +57,12 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0",
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.11.1",
     "createdTime": 1722097764863,
-    "modifiedTime": 1722128799092,
-    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "flags": {
     "core": {
@@ -75,6 +76,6 @@
     "Rx0xhdrs9eKd1Esv": 3
   },
   "_id": "7MO6nSfr37iQKhZg",
-  "sort": 2300000,
+  "sort": 4600000,
   "_key": "!items!7MO6nSfr37iQKhZg"
 }
