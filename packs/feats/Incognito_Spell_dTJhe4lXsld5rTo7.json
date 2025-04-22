@@ -54,7 +54,7 @@
         "property": "description",
         "value": [
           {
-            "text": "SF2E.Technomancer.IncognitoSpell.Jailbreak"
+            "text": "SF2E.SpecificRule.Technomancer.IncognitoSpell.Jailbreak"
           }
         ]
       }
