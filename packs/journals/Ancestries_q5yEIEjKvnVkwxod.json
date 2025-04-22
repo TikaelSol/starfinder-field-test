@@ -350,7 +350,7 @@
     },
     {
       "image": {},
-      "name": "Versatile Heritage - Boarai",
+      "name": "Versatile Heritage - Borai",
       "sort": 3600000,
       "src": null,
       "system": {},
@@ -375,7 +375,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.13.5",
-        "coreVersion": "12.330",
+        "coreVersion": "12.331",
         "compendiumSource": null,
         "duplicateSource": null
       },

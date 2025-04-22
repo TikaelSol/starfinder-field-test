@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You're good with your hands and can quickly improvise a fix for broken or damaged equipment.</p><p>You’re trained in Crafting. If you are trained in Crafting from another source (from your background or class, for example), you instead become trained in a skill of your choice. You can @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Repair} an item without using a @UUID[Compendium.pf2e.equipment-srd.Item.vLGDUFrg4yGzpTQX]{Repair Toolkit} without taking the –2 circumstance penalty, improvising tools from whatever you have at hand. You gain a +1 circumstance bonus to Crafting checks to Repair an item when you have a repair toolkit.</p>"
+      "value": "<p>You're good with your hands and can quickly improvise a fix for broken or damaged equipment.</p><p>You're trained in Crafting. If you are trained in Crafting from another source (from your background or class, for example), you instead become trained in a skill of your choice. You can @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{Repair} an item without using a @UUID[Compendium.pf2e.equipment-srd.Item.vLGDUFrg4yGzpTQX]{Repair Toolkit} without taking the –2 circumstance penalty, improvising tools from whatever you have at hand. You gain a +1 circumstance bonus to Crafting checks to Repair an item when you have a repair toolkit.</p>"
     },
     "rules": [
       {

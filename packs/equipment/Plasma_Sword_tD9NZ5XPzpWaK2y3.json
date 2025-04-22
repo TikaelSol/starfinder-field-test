@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This sword generates a focused beam of plasma around a localized force field powered by a generator in the sword’s hilt. The beam only blazes to life when the sword is powered.</p>"
+      "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This sword generates a focused beam of plasma around a localized force field powered by a generator in the sword's hilt. The beam only blazes to life when the sword is powered.</p>"
     },
     "rules": [],
     "slug": "plasma-sword",

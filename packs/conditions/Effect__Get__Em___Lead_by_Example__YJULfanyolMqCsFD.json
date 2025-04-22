@@ -12,7 +12,8 @@
         "key": "FlatModifier",
         "selector": "damage",
         "value": "@item.origin.flags.pf2e.getEmLeadByExampleDamage",
-        "type": "circumstance"
+        "type": "circumstance",
+        "slug": "get-em-lead-by-example"
       }
     ],
     "slug": "effect-get-em-lead-by-example",
@@ -62,7 +63,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "6.11.1"
   },
   "_id": "YJULfanyolMqCsFD",
   "sort": 2200000,

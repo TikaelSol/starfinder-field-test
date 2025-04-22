@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "Time’s Edge",
+  "name": "Time's Edge",
   "type": "spell",
   "effects": [],
   "system": {
@@ -88,7 +88,8 @@
       "interval": 1,
       "damage": {
         "g0b4facIQT3ifdZT": "2d6"
-      }
+      },
+      "area": 0
     }
   },
   "_id": "0xB5qQ0smA236y8D",
@@ -97,9 +98,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "6.11.1"
   },
   "sort": 200000,
   "ownership": {

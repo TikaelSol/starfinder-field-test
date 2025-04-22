@@ -139,7 +139,7 @@
       },
       "disable": "<p>@Check[type:computers|dc:23] (trained) or @Check[type:crafting|dc:23] (trained) to scramble the <em>Bloom's</em> sensors, @Check[type:arcana|dc:23] (trained) or @Check[type:nature|dc:23] (trained) to manipulate the <em>Bloom's</em> magical or natural components, @Check[type:occultism|dc:20] (expert) to psychically bond with the <em>Bloom</em> and urge it to stop its assault (counts as two successes); three total successes are required to disable the trap</p>",
       "description": "<p>The <em>Bloom</em> acts to defend Sample 62, attacking with lashing vines and releasing biopods to heal the monster's wounds.</p>",
-      "reset": "<p>Once Sample 62 is defeated, the hazard is disabled and doesn’t reset.</p>",
+      "reset": "<p>Once Sample 62 is defeated, the hazard is disabled and doesn't reset.</p>",
       "routine": "<p>(3 actions) The trap uses 3 actions, 2 actions to attack PCs on the hull with a vine Strikes (favoring anchored or stable targets over @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.z1ucw4CLwLqHoAp3]{Untethered} targets), and 1 action to bolster Sample 62 with a biopod</p>",
       "publication": {
         "title": "Starfinder Playtest Scenario #2: It Came from the Vast!",
