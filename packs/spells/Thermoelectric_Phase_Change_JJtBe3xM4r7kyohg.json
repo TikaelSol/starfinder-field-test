@@ -9,7 +9,7 @@
       "value": "<p>You compile a program to alter the type of energy that's output by your magic. If your next action is to Cast a Spell with no duration that has an elemental trait (air, earth, fire, metal, water, or wood) and deals one type of damage, replace the elemental trait with a different elemental trait and the damage it deals with one of the corresponding damage types: air (electricity or sonic), earth (bludgeoning or piercing), metal (acid or slashing), fire (fire), water (cold), wood (poison). </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell with this spellshape to modify a spell that uses a basic save or spell attack roll, each creature who rolled a critical failure against the spell's basic saving throw or were critically hit by the spell's attack roll additionally takes 1d6 persistent damage of the same type chosen for the spell. Do not increase the amount of persistent damage dealt due to the spell's heightened entry.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "thermoelectric-phase-change",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

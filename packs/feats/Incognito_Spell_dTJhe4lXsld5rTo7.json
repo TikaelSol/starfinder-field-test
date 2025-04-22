@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Through sheer mental effort, you can simplify the incantations and gestures needed to cast, leaving them barely noticeable. If the next action you use is to Cast a Spell, the spell gains the subtle trait, hiding the shining runes, sparks of magic, and other manifestations that would usually give away your spellcasting. The trait hides only the spell's spellcasting actions and manifestations, not its effects, so an observer might still see a ray streak out from you or see you vanish into thin air.</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} one creature using Arcana instead of Intimidation by making the effects of the spell seem effortless on your part.</p>",
+      "value": "<p>Through sheer mental effort, you can simplify the incantations and gestures needed to cast, leaving them barely noticeable. If the next action you use is to Cast a Spell, the spell gains the subtle trait, hiding the shining runes, sparks of magic, and other manifestations that would usually give away your spellcasting. The trait hides only the spell's spellcasting actions and manifestations, not its effects, so an observer might still see a ray streak out from you or see you vanish into thin air.</p><p><strong>Jailbreak</strong> If you use @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.EE07CnQmn8Xg4gkd]{Jailbreak Spell} to use this spellshape, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} one creature using Arcana instead of Intimidation by making the effects of the spell seem effortless on your part.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,8 +18,48 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
-    "slug": null,
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "incognito-spell"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:incognito-spell"
+        ],
+        "property": "traits",
+        "value": "subtle"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:incognito-spell",
+          "jailbreak-spell"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.Technomancer.IncognitoSpell.Jailbreak"
+          }
+        ]
+      }
+    ],
+    "slug": "incognito-spell",
     "traits": {
       "otherTags": [],
       "value": [

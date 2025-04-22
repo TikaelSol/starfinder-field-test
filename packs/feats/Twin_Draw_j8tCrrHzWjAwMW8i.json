@@ -8,7 +8,7 @@
       "value": "<p><strong>Requirements</strong> You have two free hands.</p><hr /><p>You have practiced dual wielding and smoothly drawing and taking aim with your weapons. Draw up to two one-handed weapons and Aim.</p>"
     },
     "rules": [],
-    "slug": "double-draw-operative",
+    "slug": "twin-draw",
     "_migration": {
       "version": 0.932,
       "lastMigration": null,
@@ -59,7 +59,7 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.4.1",
+    "systemVersion": "6.11.1",
     "coreVersion": "12.331",
     "compendiumSource": null,
     "duplicateSource": null

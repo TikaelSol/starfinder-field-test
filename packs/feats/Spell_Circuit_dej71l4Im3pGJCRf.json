@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You create a network of magical circuitry linking your spell cache to magical hardware in your possession. If the next action you use is to Cast a Spell from a <em>spell chip</em> or <em>spell gem</em>, you do not have to be holding the item.</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape with a <em>spell gem</em>, you can pick another of your <em>spell gems</em> with an equal or higher item level that is consumed instead.</p>",
+      "value": "<p>You create a network of magical circuitry linking your spell cache to magical hardware in your possession. If the next action you use is to Cast a Spell from a <em>spell chip</em> or <em>spell gem</em>, you do not have to be holding the item.</p><p><strong>Jailbreak</strong> If you use @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.EE07CnQmn8Xg4gkd]{Jailbreak Spell} to use this spellshape with a <em>spell gem</em>, you can pick another of your <em>spell gems</em> with an equal or higher item level that is consumed instead.</p>",
       "gm": ""
     },
     "publication": {
@@ -19,7 +19,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "spell-circuit",
     "traits": {
       "otherTags": [],
       "value": [

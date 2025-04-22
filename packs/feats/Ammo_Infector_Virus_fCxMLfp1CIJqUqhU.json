@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You quickly program a worm into your ammo to infect tech worn by your target. Strike with a ranged weapon. If your Strike hits, you can attempt to Combat Hack the creature or an item the creature is holding or wielding.</p>",
+      "value": "<p>You quickly program a worm into your ammo to infect tech worn by your target. Strike with a ranged weapon. If your Strike hits, you can attempt to @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.V0nHjdYpGGit2Eyk]{Combat Hack} the creature or an item the creature is holding or wielding.</p>",
       "gm": ""
     },
     "publication": {
@@ -19,7 +19,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "ammo-infector-virus",
     "traits": {
       "otherTags": [],
       "value": [

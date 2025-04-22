@@ -8,7 +8,7 @@
       "value": "<p>You concentrate your telepathy toward a bonded ally within 120 feet and invite them into a temporary understanding of your connection. If the next action you use is to Cast a Spell and the target would be affected, choose one: either that spell only affects the target, or that spell doesn't affect your target.</p><p>If the next action you use has the transfer trait and uses the same target, your vitality network regains up to 4 of those lost Hit Points; if you are master in your connection skill, it regains 6 Hit Points instead; if you are legendary, it regains 8 Hit Points. Your vitality network can never regain more Hit Points than was spent to use the transfer action and can't exceed its maximum capacity.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "network-connection",
     "_migration": {
       "version": 0.933,
       "lastMigration": null
@@ -59,7 +59,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "6.11.1"
   },
   "_key": "!items!yrfR0WJ93lXgwNol"
 }

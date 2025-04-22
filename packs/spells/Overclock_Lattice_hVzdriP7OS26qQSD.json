@@ -9,7 +9,7 @@
       "value": "<p>Magical circuitry blazes all over your body and empowers your spell code. When you Cast a Spell by activating a spell chip or spell gem, heighten the spell up to 2 ranks lower than the highest-rank spell slot you have. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you can heighten the spell up to the same rank as the spell you cast to overclock your gear.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "overclock-lattice",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

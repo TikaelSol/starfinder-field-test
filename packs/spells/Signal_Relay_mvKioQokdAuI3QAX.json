@@ -9,7 +9,7 @@
       "value": "<p><strong>Requirements</strong> You have line of effect to a tech minion under your control.</p><hr /><p> If the next action you use is to Cast a Spell that only affects you, the spell affects your minion instead. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape with a harmless spell, the spell affects the minion in addition to its original target.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "signal-relay",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

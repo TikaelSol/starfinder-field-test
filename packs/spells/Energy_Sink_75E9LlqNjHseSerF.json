@@ -9,7 +9,7 @@
       "value": "<p>You can divert some of the magic used to contain and direct destructive energy into your armor to protect you from harm. If your next action is to Cast a Spell that deals at least one type of energy damage (acid, cold, electricity, fire, force, sonic, vitality, or void), you gain resistance to an energy damage type of your choice equal to twice the spell's rank for 1 minute. You get the resistance regardless of whether or not your spell dealt damage. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell with this spellshape, you gain resistance to all energy damage equal to twice the spell's rank.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "energy-sink",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

@@ -9,7 +9,7 @@
       "value": "<p>This bracket-mounted grenade launcher is most often advertised for use with fragmentation grenades, but many military and law enforcement officers use this attachment to efficiently deploy utility ordinances such as smoke grenades and flashbangs. Unlike a dedicated grenade launcher, it takes ten minutes to load an undermounted grenade launcher, reassembling the grenade into ammunition by mounting it on a specialized reusable firing cap. Once a grenade has been loaded, it can only be safely removed by disassembling the entire grenade, destroying it in the process.</p><p>This grenade launcher has a range of 40 feet.</p><p><strong>Activate—Launch</strong> <span class=\"pf2-icon\">1</span> (attack)</p><hr /><p><strong>Effect</strong> You launch the loaded grenade.</p>"
     },
     "rules": [],
-    "slug": "undermounted-grenade-launcher",
+    "slug": "undermounted-grenade-launcher-advanced",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -80,7 +80,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "6.11.1"
   },
   "ownership": {
     "default": 0,

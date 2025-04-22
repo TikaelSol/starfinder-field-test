@@ -8,7 +8,7 @@
       "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.YEuvWZhtsvTqJJo1]{Celebrity Serum}</p><p>You gain a +1 item bonus to Performance checks.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "effect-celebrity-serum",
     "_migration": {
       "version": 0.934,
       "lastMigration": null
@@ -55,7 +55,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.6.2"
+    "systemVersion": "6.11.1"
   },
   "_id": "JCNX5U0rHcEhraIK",
   "sort": 0,

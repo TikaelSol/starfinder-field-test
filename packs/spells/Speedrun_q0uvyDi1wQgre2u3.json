@@ -9,7 +9,7 @@
       "value": "<p>You become a flickering echo clipping through the normal parameters of reality. You gain resistance 10 to all damage (except force damage). You gain the cosmic and incorporeal traits, allowing you to phase through walls and move through the air as easily as you would normally walk. You can move through enemy squares (unless the enemy is incorporeal), though your movement still triggers reactions. If your gear is overclocked, you can extend its duration an additional round by making your gear no longer overclocked.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "speedrun",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

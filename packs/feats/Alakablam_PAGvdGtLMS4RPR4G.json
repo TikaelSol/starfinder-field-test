@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> You are holding a weapon and your last action was to Cast a Spell from a spell gem or spell chip.</p><hr /><p>You can use the delicate remains of a consumed spell gem or spell chip as ammunition by firing it before the last of its magic fades away. You Reload a ranged weapon using the consumed item and Overclock Gear. If the spell was not damaging, the weapon deals an extra @Damage[1d6[force]] damage and gains the arcane and magical traits. If the spell dealt damage, the Strike deals this type of damage instead (or one type of your choice if the spell could deal multiple types of damage).</p><p></p>",
+      "value": "<p><strong>Requirements</strong> You are holding a weapon and your last action was to Cast a Spell from a <em>spell gem</em> or <em>spell chip</em>.</p><hr /><p>You can use the delicate remains of a consumed <em>spell gem</em> or <em>spell chip</em> as ammunition by firing it before the last of its magic fades away. You Reload a ranged weapon using the consumed item and @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.VMH34bRidGNubqYz]{Overclock Gear}. If the spell was not damaging, the weapon deals an extra 1d6 force damage and gains the arcane and magical traits. If the spell dealt damage, the Strike deals this type of damage instead (or one type of your choice if the spell could deal multiple types of damage).</p><p></p>",
       "gm": ""
     },
     "publication": {
@@ -19,7 +19,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "alakablam",
     "traits": {
       "otherTags": [],
       "value": [

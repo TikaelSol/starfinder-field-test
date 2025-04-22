@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You're quick to copy and paste spells you like into your cache. When you successfully use Counterspell to counteract a spell that affects targeted creatures or an area, you can install a temporary copy of that spell into your spell cache that lasts until you use Download a Spell to replace a prepared spell with the temporary copy or your next daily preparations, whichever comes first.</p>",
+      "value": "<p>You're quick to copy and paste spells you like into your cache. When you successfully use @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.onqxEjE7qYDBT6nV]{Counterspell} to counteract a spell that affects targeted creatures or an area, you can install a temporary copy of that spell into your spell cache that lasts until you use Download a Spell to replace a prepared spell with the temporary copy or your next daily preparations, whichever comes first.</p>",
       "gm": ""
     },
     "publication": {
@@ -19,7 +19,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "pirate-spell",
     "traits": {
       "otherTags": [],
       "value": [

@@ -18,8 +18,15 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
-    "slug": null,
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "jailbreak-spell",
+        "toggleable": true,
+        "placement": "spellcasting"
+      }
+    ],
+    "slug": "jailbreak-spell",
     "traits": {
       "otherTags": [],
       "value": [

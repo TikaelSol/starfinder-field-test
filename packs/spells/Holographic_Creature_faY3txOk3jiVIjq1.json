@@ -8,7 +8,7 @@
       "value": "<p>You weave nearby photons into an illusory hologram of a Large or smaller creature. It generates the appropriate sounds, smells, and feels believable to the touch. If you and the hologram are ever farther than 500 feet apart, the spell ends.</p><p>The hologram can't speak, but you can use your actions to speak through it, with the spell disguising your voice as appropriate. You might need to attempt a Deception or Performance check to mimic the creature, as determined by the GM. This is especially likely if you're trying to imitate a specific person's mannerisms or engage with someone that person knows.</p><p>In combat, the hologram can use 2 actions per turn, which it uses when you Sustain the Spell. It can Stride up to 20 feet using any movement type it wishes, as it's not real. It uses your spell attack roll for attack rolls and your spell DC for its AC. Its saving throw modifiers are equal to your spell DC – 10. It's substantial enough that it can flank other creatures. If the hologram is hit by an attack or fails a save, the spell ends.</p><p>The hologram can cause damage by making the target believe the hologram's attacks are real, but it cannot otherwise directly affect the physical world. If the hologram hits with a Strike, the target takes 2d6 mental damage. This damage is a mental effect. The hologram's Strikes are nonlethal. If the damage doesn't correspond to the image of the creature—for example, if a holographic Large dragon deals only 5 damage—the GM might allow the target to attempt an immediate Perception check to disbelieve the spell.</p><p>Any creature that touches the hologram or uses the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to examine it can attempt to disbelieve your illusion.</p><hr /><p><strong>Heightened (+1)</strong> The damage of the hologram's Strikes increases by 1d4, and the maximum size of creature you can create increases by one (to a maximum of Gargantuan). The maximum duration also increases by 1 minute.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "holographic-creature",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -73,9 +73,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.3"
+    "systemVersion": "6.11.1"
   },
   "_id": "faY3txOk3jiVIjq1",
   "sort": 0,

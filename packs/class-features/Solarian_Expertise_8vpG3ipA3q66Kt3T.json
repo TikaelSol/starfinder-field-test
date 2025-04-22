@@ -15,7 +15,7 @@
         "value": 2
       }
     ],
-    "slug": null,
+    "slug": "solarian-expertise",
     "_migration": {
       "version": 0.933,
       "lastMigration": null
@@ -64,7 +64,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "6.11.1"
   },
   "_key": "!items!8vpG3ipA3q66Kt3T"
 }

@@ -15,7 +15,7 @@
         "value": 3
       }
     ],
-    "slug": null,
+    "slug": "solarian-mastery",
     "_migration": {
       "version": 0.933,
       "lastMigration": null
@@ -64,7 +64,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "6.11.1"
   },
   "_key": "!items!uM3KrfCt7ycuAqtT"
 }

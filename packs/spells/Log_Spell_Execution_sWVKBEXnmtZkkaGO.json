@@ -9,7 +9,7 @@
       "value": "<p>You fetch the code from a hybrid item and decode a temporary copy of its executed spell into your spell cache. If your next action is to Cast a Spell from a spell chip or spell gem, add the spell to your spell cache until you use Download Spell to replace a prepared spell with the logged spell, or the next time you cast log spell execution (whichever comes first). You can only use this spellshape to log spells that appear on the arcane spell list. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you can log a spell of any tradition as an arcane spell, but you must use the Overclock Gear effect of the viper programming language or get a success using @UUID[Compendium.pf2e.feats-srd.Item.uR62fVC9FyQAMCO1]{Trick Magic Item}.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "log-spell-execution",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

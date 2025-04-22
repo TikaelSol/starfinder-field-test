@@ -9,7 +9,7 @@
       "value": "<p>You reprogram reality to link together two spaces. Create two hyperlinks in unoccupied squares in line of effect that are at least 15 feet apart. When a creature enters a hyperlink's space, they emerge in an unoccupied space of their choice adjacent to the other hyperlink. A creature that isn't flying treats all spaces lacking solid ground as occupied. If there is no valid space for the creature to enter, then both hyperlinks collapse and the creature remains in the space where it entered the first hyperlink.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "liminal-hyperlink",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

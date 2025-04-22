@@ -19,10 +19,11 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "grenade-spell",
     "traits": {
       "otherTags": [],
       "value": [
+        "spellshape",
         "technomancer"
       ],
       "rarity": "common"

@@ -9,7 +9,7 @@
       "value": "<p>By supplying your own magic energy, you minimize the amount of magic energy used by your hybrid items, protecting their delicate lattice from wear so they can be used again. If your next action is to Cast a Spell from a spell gem, instead of being destroyed, the spell gem becomes a temporary item that can't be sold and only lasts until you use it again or the next time you make your daily preparations (whichever comes first). If your next action is to Cast a Spell from a spell gem that has already been used once today, it is destroyed. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape with a spell gem, it only becomes broken on a critical failure.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "dynamic-frequency-scaling",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

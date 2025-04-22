@@ -34,7 +34,7 @@
         "uuid": "{item|flags.pf2e.rulesSelections.exocortex}"
       }
     ],
-    "slug": null,
+    "slug": "exocortex",
     "traits": {
       "otherTags": [],
       "value": [],

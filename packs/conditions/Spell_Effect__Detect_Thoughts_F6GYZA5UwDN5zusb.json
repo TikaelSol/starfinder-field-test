@@ -18,7 +18,7 @@
         ]
       }
     ],
-    "slug": null,
+    "slug": "spell-effect-detect-thoughts",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -65,7 +65,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.0"
+    "systemVersion": "6.11.1"
   },
   "_id": "F6GYZA5UwDN5zusb",
   "sort": 500000,

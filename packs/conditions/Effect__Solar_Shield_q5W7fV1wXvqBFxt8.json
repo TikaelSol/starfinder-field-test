@@ -109,7 +109,7 @@
         "uuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY"
       }
     ],
-    "slug": null,
+    "slug": "effect-solar-shield",
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -156,7 +156,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "6.11.1"
   },
   "_id": "q5W7fV1wXvqBFxt8",
   "sort": 0,

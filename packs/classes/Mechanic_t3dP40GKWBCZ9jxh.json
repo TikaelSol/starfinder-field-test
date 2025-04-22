@@ -8,7 +8,7 @@
       "value": "<p><em>When it comes to tech, your understanding is unmatched. You're constantly crafting and modifying gear, whether that's computers, explosives, tools, weapons, or items of your own design. You've constructed a sophisticated exocortex, a custom neural implant linking your own mind to your most complex creation: a robot companion, a weapon turret, or remote mines. If something's broken—or needs breaking—you're the one.</em></p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "mechanic",
     "_migration": {
       "version": 0.935,
       "lastMigration": null

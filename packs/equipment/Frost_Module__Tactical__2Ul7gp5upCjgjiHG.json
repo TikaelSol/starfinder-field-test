@@ -9,7 +9,7 @@
       "value": "<p>This module siphons the heat from the weapon's striking edge and ammunition, powering itself with the excess energy as it chills the air around it. It deals an additional @Damage[1d6[cold]] damage on a successful Strike. On a critical hit, the target is also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the end of your next turn unless it succeeds at a @Check[type:fortitude|dc:34] save. </p><p>Cold damage dealt by this weapon ignores the target’s cold resistance.</p>"
     },
     "rules": [],
-    "slug": "frost-module",
+    "slug": "frost-module-tactical",
     "_migration": {
       "version": 0.932,
       "lastMigration": null
@@ -82,7 +82,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "6.11.1"
   },
   "ownership": {
     "default": 0,
