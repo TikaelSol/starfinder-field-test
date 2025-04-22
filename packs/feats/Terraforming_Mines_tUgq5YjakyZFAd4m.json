@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You install artificial gravity fields into your mines that activate when they explode. When you Deploy a mine, choose one of the following effects. </p><p><strong>Big Bang</strong>: When your mines detonate, they push creatures 5 feet away from the mine in a random direction (10 feet plus knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} on a critical failure). </p><p><strong>Gravity Field</strong>: When your mines detonate, the area affected by the explosion becomes your choice of high gravity, low gravity, normal gravity, or zero gravity for 1 minute.</p>",
+      "value": "<p>You install artificial gravity fields into your mines that activate when they explode. When you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ccVcznj9KVYHLVaY]{Deploy} a mine, choose one of the following effects.</p><p><strong>Big Bang</strong>: When your mines detonate, they push creatures 5 feet away from the mine in a random direction (10 feet plus knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} on a critical failure).</p><p><strong>Gravity Field</strong>: When your mines detonate, the area affected by the explosion becomes your choice of high gravity, low gravity, normal gravity, or zero gravity for 1 minute.</p>",
       "gm": ""
     },
     "publication": {

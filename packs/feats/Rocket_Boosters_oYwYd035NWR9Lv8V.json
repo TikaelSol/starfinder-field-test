@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You incorporate rocket boosters into your drone's chassis. Your drone gains a fly Speed of 20 feet. Additionally, it gains the Activate Thrusters action.</p>",
+      "value": "<p>You incorporate rocket boosters into your drone's chassis. Your drone gains a fly Speed of 20 feet. Additionally, it gains the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.RxWzbcEMvoBFduQ8]{Activate Thrusters} action.</p>",
       "gm": ""
     },
     "publication": {

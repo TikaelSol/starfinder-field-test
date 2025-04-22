@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> your turret is Deployed and within 100 feet. </p><hr /><p>You overload your turret's systems, causing it to selfdestruct in a volatile explosion. Your turret deals @Damage[1d6[piercing]] damage and @Damage[1d6[fire]] damage to all creatures in a @Template[type:emanation|distance:20]. Creatures in the area can attempt a @Check[reflex|against:class|basic] save against your class DC. Your turret is destroyed.</p><hr /><p><strong>Level (+2)</strong> The piercing damage increases by [[/r 1d6]].</p>",
+      "value": "<p><strong>Requirements</strong> your turret is Deployed and within 100 feet.</p><hr /><p>You overload your turret's systems, causing it to selfdestruct in a volatile explosion. Your turret deals @Damage[((floor((@actor.level - 2)/2))d6)[piercing],1d6[fire]] damage to all creatures in a @Template[type:emanation|distance:20]. Creatures in the area can attempt a @Check[reflex|against:class|basic] save against your class DC. Your turret is destroyed.</p><hr /><p><strong>Level (+2)</strong> The piercing damage increases by 1d6.</p>",
       "gm": ""
     },
     "publication": {

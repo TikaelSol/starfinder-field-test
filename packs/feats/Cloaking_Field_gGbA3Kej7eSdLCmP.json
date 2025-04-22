@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You install a device that deploys static, smoke, or self populating holograms to create a cloaking field. You gain the following new mod.</p>",
+      "value": "<p>You install a device that deploys static, smoke, or self populating holograms to create a cloaking field. You gain the following new mod.</p><p><strong>Cloaking Field (armor or exocortex):</strong> You customize the armor to emit a cloaking field in a @Template[type:emanation|distance:5]. All creatures within the cloaking field become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}, and those outside the area become concealed to those within. You (and your drone, if applicable) can see through the cloaking field unhindered.</p>",
       "gm": ""
     },
     "publication": {

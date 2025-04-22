@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've modified your drone's power cell to create and store excess electricity, which your drone can release in a sudden jolt. Your drone gains the Electrical Discharge action.</p>",
+      "value": "<p>You've modified your drone's power cell to create and store excess electricity, which your drone can release in a sudden jolt. Your drone gains the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.KMq4iGwE0RU2WpLU]{Electrical Discharge} action.</p>",
       "gm": ""
     },
     "publication": {

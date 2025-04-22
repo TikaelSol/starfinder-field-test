@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You design additional custom arrays for your turret. Select two of the following arrays. Add the selected arrays to your list of available arrays.</p><ul><li>@Damage[2d8[mental]] damage, range increment 60 feet, tech trait, mental weapon group</li><li>@Damage[2d8[poison]] damage, range increment 60 feet, tech trait, dart weapon group</li><li>@Damage[2d8[vitality]] damage, range increment 60 feet, tech trait, laser weapon group</li><li>@Damage[2d8[void]] damage, range increment 60 feet, tech trait, void weapon group</li></ul><hr /><p><strong>Special</strong> You can take this feat a second time. When you do, you must select different arrays.</p>",
+      "value": "<p>You design additional custom arrays for your turret. Select two of the following arrays. Add the selected arrays to your list of available arrays.</p><ul><li>2d8 mental damage, range increment 60 feet, tech trait, mental weapon group</li><li>2d8 poison damage, range increment 60 feet, tech trait, dart weapon group</li><li>2d8 vitality damage, range increment 60 feet, tech trait, laser weapon group</li><li>2d8 void damage, range increment 60 feet, tech trait, void weapon group</li></ul><hr /><p><strong>Special</strong> You can take this feat a second time. When you do, you must select different arrays.</p>",
       "gm": ""
     },
     "publication": {
@@ -32,7 +32,7 @@
     },
     "category": "class",
     "onlyLevel1": false,
-    "maxTakable": 1,
+    "maxTakable": 2,
     "actionType": {
       "value": "passive"
     },

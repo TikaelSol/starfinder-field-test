@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Frequency</strong> once per round </p><hr /><p>You unleash a flurry of synchronized explosions by activating two of your mines at once. You Detonate Mine twice. If a creature is in the area of both of these detonations, combine the damage for the purposes of calculating that creature's resistances and weaknesses.</p>",
+      "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>You unleash a flurry of synchronized explosions by activating two of your mines at once. You @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.S3iCDy8ppR8eXp8V]{Detonate Mine} twice. If a creature is in the area of both of these detonations, combine the damage for the purposes of calculating that creature's resistances and weaknesses.</p>",
       "gm": ""
     },
     "publication": {
