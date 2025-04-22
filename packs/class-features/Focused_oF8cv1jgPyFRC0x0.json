@@ -53,7 +53,7 @@
   "_id": "oF8cv1jgPyFRC0x0",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20target.webp",
   "folder": null,
-  "sort": 1400000,
+  "sort": 3700000,
   "ownership": {
     "default": 0,
     "Rx0xhdrs9eKd1Esv": 3
@@ -62,12 +62,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722126151805,
-    "modifiedTime": 1722224839073,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!oF8cv1jgPyFRC0x0"
 }

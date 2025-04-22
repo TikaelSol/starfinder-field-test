@@ -51,7 +51,7 @@
   "_id": "Z0RVyPAEzlBQM1mt",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/dice.webp",
   "folder": null,
-  "sort": 9500000,
+  "sort": 11800000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -60,10 +60,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712009321000,
-    "modifiedTime": 1722216791342,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

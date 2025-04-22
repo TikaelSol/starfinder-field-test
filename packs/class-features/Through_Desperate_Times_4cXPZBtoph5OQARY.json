@@ -104,7 +104,7 @@
   "_id": "4cXPZBtoph5OQARY",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20paragon%20of%20health.webp",
   "folder": null,
-  "sort": 7900000,
+  "sort": 10300000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -113,10 +113,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712007683036,
-    "modifiedTime": 1722193009786,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

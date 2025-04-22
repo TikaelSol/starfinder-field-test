@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've developed the tools to temporarily transmute energy from one type to another, and you've solved complex calculations required to add versatility to your physical attacks. Add the following mods to the list of options you can select with Modify.</p>",
+      "value": "<p>You've developed the tools to temporarily transmute energy from one type to another, and you've solved complex calculations required to add versatility to your physical attacks. Add the following mods to the list of options you can select with Modify.</p><ul><li><strong>Energy Versatility (grenade or weapon that deals energy damage):</strong> You add a custom energy converter to the item. The item deals one of the following damage types, rather than its typical damage type: acid, cold, electricity, fire, sonic.</li><li><strong>Physical Versatility (grenade or weapon that deals physical damage):</strong> You modify the item's structure, changing its destructive potential. The item deals one of the following damage types, rather than its typical damage type: bludgeoning, piercing, slashing.</li></ul>",
       "gm": ""
     },
     "publication": {
@@ -50,8 +50,8 @@
     "location": null
   },
   "_id": "rTXUOnnizZjIR47W",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
-  "sort": 0,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20fist%20in%20the%20air.webp",
+  "sort": 1700000,
   "ownership": {
     "default": 0,
     "qObU1d4eWFf9XwnO": 3
@@ -64,8 +64,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.11.1",
     "createdTime": 1745254380633,
-    "modifiedTime": 1745254380633,
-    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+    "modifiedTime": 1745273762604,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!rTXUOnnizZjIR47W"
 }

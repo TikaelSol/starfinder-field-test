@@ -1,0 +1,71 @@
+{
+  "folder": "VR2dEsNooGTwusIk",
+  "name": "DPS++",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>DPS++ is the premier programming language for weapons, incorporating tactical commands, shortcuts, and innovations from programming languages found across the galaxy to cause maximum destruction. This incredible feat of computer science is responsible for the universal compatibility of weapon upgrades.</p><p><strong>Spell Cache</strong> 1st @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.naP8amjLGSEARe9V]{supercharge weapon}; 2nd @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ygjHoKJSmAViJHJq]{caustic conversion}; 3rd electrotether; 4th @UUID[Compendium.pf2e.spells-srd.Item.Y3G6Y6EDgCY0s3fq]{hydraulic torrent}; 5th @UUID[Compendium.pf2e.spells-srd.Item.oXeEbcUdgJGWHGEJ]{impaling spike}; 6th @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{disintegrate}; 7th @UUID[Compendium.pf2e.spells-srd.Item.AlbpWWN87yGegoAF]{true target}; 8th @UUID[Compendium.pf2e.spells-srd.Item.C2GYCH3TtUFqPfdX]{arctic rift}; 9th @UUID[Compendium.pf2e.spells-srd.Item.4WS7HrFjwNvTn8T2]{implosion}</p><p><strong>Magic Hacks</strong> initial: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.JJtBe3xM4r7kyohg]{thermoelectric phase change}; advanced: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.iA5xYqLRCIOosF6h]{virtualized data transmission}; greater: @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BKe64JRvtCjGvcrB]{overclock brain}</p><p><strong>Spellshape</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.GsrKsGF06M5LDZWH]{Signal Boost}</p><p><strong>Overclock Boost</strong> (weapon) You reduce the circumstance bonus to AC your targets have from cover by an amount equal to half the rank of the spell you cast to overclock your gear (minimum 1). Reduce any penalties due to range by 1. You gain a circumstance bonus to weapon damage equal to the rank of the spell you cast to overclock your gear. If the spell dealt damage, this bonus damage is of the same type of damage the spell dealt, rather than the weapon's normal damage (if the spell dealt multiple types of damage, select one damage type from among those options).</p><p><strong>Jailbreak Spellshape</strong> When you Jailbreak Spell to apply the Signal Boost spellshape to a spell that deals damage, you gain an item bonus to damage equal to the base weapon die of your weapon to one target of the spell. Do not apply any other modifiers to the damage, including feats, attribute modifiers, weapon traits, and weapon upgrades.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [
+        "technomancer-programming-language"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "AJ2wjmAsKWz2xygG",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20eruption.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eUnac0oMbpEwem24": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745280141425,
+    "modifiedTime": 1745280846036,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
+  },
+  "_key": "!items!AJ2wjmAsKWz2xygG"
+}

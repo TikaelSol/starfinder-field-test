@@ -46,7 +46,7 @@
   "_id": "EidBcs75FekiCUn3",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20timer.webp",
   "folder": null,
-  "sort": 2000000,
+  "sort": 4300000,
   "ownership": {
     "default": 0,
     "Rx0xhdrs9eKd1Esv": 3
@@ -55,12 +55,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722126782112,
-    "modifiedTime": 1722224838504,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!EidBcs75FekiCUn3"
 }

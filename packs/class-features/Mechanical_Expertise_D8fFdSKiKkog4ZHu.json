@@ -57,8 +57,8 @@
     "location": null
   },
   "_id": "D8fFdSKiKkog4ZHu",
-  "img": "systems/pf2e/icons/default-icons/feat.svg",
-  "sort": 0,
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20mechanical%20arm.webp",
+  "sort": 1100000,
   "ownership": {
     "default": 0,
     "qObU1d4eWFf9XwnO": 3
@@ -71,8 +71,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.11.1",
     "createdTime": 1745254380633,
-    "modifiedTime": 1745254380633,
-    "lastModifiedBy": "qObU1d4eWFf9XwnO"
+    "modifiedTime": 1745274150904,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!D8fFdSKiKkog4ZHu"
 }

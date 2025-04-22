@@ -101,7 +101,7 @@
   "_id": "WCbFOSycmBVHQfnN",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/bl.webp",
   "folder": null,
-  "sort": 1000000,
+  "sort": 3300000,
   "ownership": {
     "default": 0,
     "Rx0xhdrs9eKd1Esv": 3
@@ -114,8 +114,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.3.1",
     "createdTime": 1722106078247,
-    "modifiedTime": 1725991946721,
-    "lastModifiedBy": "4uTTBK4TzykGOYxh"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!WCbFOSycmBVHQfnN"
 }

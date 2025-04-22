@@ -56,8 +56,10 @@
       "otherTags": [],
       "value": [
         "envoy",
+        "mechanic",
         "operative",
-        "solarian"
+        "solarian",
+        "technomancer"
       ],
       "rarity": "common"
     },
@@ -88,12 +90,12 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt",
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.11.1",
     "createdTime": 1722095747637,
-    "modifiedTime": 1722224839159,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745279165898,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "flags": {
     "core": {
@@ -107,6 +109,6 @@
     "Rx0xhdrs9eKd1Esv": 3
   },
   "_id": "uPSzff7h3aRnoV6l",
-  "sort": 2500000,
+  "sort": 4900000,
   "_key": "!items!uPSzff7h3aRnoV6l"
 }

@@ -1,0 +1,71 @@
+{
+  "folder": "LhdfGVgPMQncD5yl",
+  "name": "Drone",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your exocortex connects to a basic robot companion called a drone, which accompanies you on your adventures and follows your neural commands to the best of its abilities. See Robot Companions for more information. Drone types are detailed on page 16. In addition to the customization all robot companions receive, your drone begins with one integrated weapon mount. You control your drone with your thoughts at a range of up to 150 feet; only you can operate, control, and repair your drone. If your drone is ever beyond your range of control, it can't perform any actions. During your daily preparations, you automatically repair your drone, restoring it to maximum Hit Points, even if it's been destroyed. You can further customize and advance your drone by taking feats.</p><p>You can spend additional time directing your drone for a more complex plan of action. You can spend 2 actions to Command instead of 1 when commanding your drone; your drone can then use an additional action (normally 3 actions, rather than 2).</p><p>You can Modify your drone and any weapons it wields when you are within reach. The drone counts as armor for the purposes of Modify. You gain the following new mods.</p><ul><li><strong>Desperate Repair (drone exocortex):</strong> Your drone gains temporary Hit Points equal to your level plus your Intelligence modifier.</li><li><p><strong>Killbot (drone exocortex):</strong> Your drone gains a +2 status bonus to damage rolls. If your drone's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [
+        "mechanic-exocortex"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/mechanical%20claw.webp",
+  "ownership": {
+    "default": 0,
+    "eUnac0oMbpEwem24": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745272256262,
+    "modifiedTime": 1745272675790,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
+  },
+  "_id": "dqAFaLUCYOpUbtJR",
+  "sort": 100000,
+  "_key": "!items!dqAFaLUCYOpUbtJR"
+}

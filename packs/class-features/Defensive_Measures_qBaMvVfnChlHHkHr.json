@@ -1,0 +1,73 @@
+{
+  "folder": "VR2dEsNooGTwusIk",
+  "name": "Defensive Measures",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The residual magic in your body and your training helps you avoid attacks. Your proficiency rank in unarmored defense increases to expert.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "unarmored": {
+          "rank": 2
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "qBaMvVfnChlHHkHr",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20ancient%20armor.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eUnac0oMbpEwem24": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745279011102,
+    "modifiedTime": 1745279126320,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
+  },
+  "_key": "!items!qBaMvVfnChlHHkHr"
+}

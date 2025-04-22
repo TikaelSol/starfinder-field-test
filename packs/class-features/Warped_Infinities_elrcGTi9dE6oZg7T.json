@@ -49,15 +49,15 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722096320144,
-    "modifiedTime": 1722127063370,
-    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_id": "elrcGTi9dE6oZg7T",
-  "sort": 3900000,
+  "sort": 6300000,
   "ownership": {
     "default": 0,
     "CmdglLq38DpgHzdd": 3

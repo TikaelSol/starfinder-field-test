@@ -72,7 +72,7 @@
   "_id": "ZZhd7RuSCIsTy4bl",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/alien%20eye.webp",
   "folder": null,
-  "sort": 2100000,
+  "sort": 4400000,
   "ownership": {
     "default": 0,
     "Rx0xhdrs9eKd1Esv": 3
@@ -81,12 +81,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722126836093,
-    "modifiedTime": 1722224838858,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!ZZhd7RuSCIsTy4bl"
 }

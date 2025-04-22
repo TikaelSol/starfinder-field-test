@@ -4,7 +4,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Envoy</strong> Through your adventures, you've developed keen awareness and attention to detail. Your proficiency rank in Perception increases to master.</p>"
+      "value": "<p><strong>Envoy</strong> Through your adventures, you've developed keen awareness and attention to detail. Your proficiency rank in Perception increases to master.</p><p><strong>Mechanic</strong> Your attention to detail enables you to remain alert to threats around you. Your proficiency rank for Perception increases to master.</p>"
     },
     "rules": [],
     "slug": "perception-mastery",
@@ -16,7 +16,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "envoy"
+        "envoy",
+        "mechanic"
       ],
       "rarity": "common"
     },
@@ -54,12 +55,12 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13",
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
+    "systemVersion": "6.11.1",
     "createdTime": 1722095548296,
-    "modifiedTime": 1722127063370,
-    "lastModifiedBy": "Rx0xhdrs9eKd1Esv"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "flags": {
     "core": {
@@ -73,6 +74,6 @@
     "Rx0xhdrs9eKd1Esv": 3
   },
   "_id": "YmHbmXltNVwdOqVU",
-  "sort": 7400000,
+  "sort": 9800000,
   "_key": "!items!YmHbmXltNVwdOqVU"
 }

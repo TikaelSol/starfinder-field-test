@@ -1,0 +1,242 @@
+{
+  "name": "Technomancer",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>You know that magic and technology are all part of the same code—a code you've learned to hack. You're versed in a magical programming language that allows you to overclock your equipment into higher performance and versatility. You've learned to jailbreak your spells, pushing your magic past the limits. You're here to hack reality.</em></p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "int"
+      ]
+    },
+    "items": {
+      "2VM2E": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.N7dlWNJFV8xoWZEI",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20convergence.webp",
+        "name": "Technomancer Spellcasting",
+        "level": 1
+      },
+      "j41Xz": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.6Neao6r6InbEUc5F",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/cerulean%20circular%20sign.webp",
+        "name": "Overclock Gear",
+        "level": 1
+      },
+      "v5nBF": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.o3p2SF4yrtS8n6m8",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/cerulean%20lightning%20streak.webp",
+        "name": "Jailbreak Spell",
+        "level": 1
+      },
+      "DnrpM": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.7MO6nSfr37iQKhZg",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Reflex Expertise",
+        "level": 5
+      },
+      "r1KmS": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.Og2I66ZrLKX6qLeE",
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "name": "Expert Spellcaster",
+        "level": 7
+      },
+      "OvpbA": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.SsgKClXrept6iOxE",
+        "img": "systems/pf2e/icons/features/classes/magical-fortitude.webp",
+        "name": "Magical Fortitude",
+        "level": 9
+      },
+      "gJuqy": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.fyh1OjLRt3g9wUhW",
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "name": "Perception Expertise",
+        "level": 11
+      },
+      "HvOFd": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.qBaMvVfnChlHHkHr",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20ancient%20armor.webp",
+        "name": "Defensive Measures",
+        "level": 13
+      },
+      "6A8YR": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.uPSzff7h3aRnoV6l",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 13
+      },
+      "li12a": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.XN7aWaTnW2zM7QPR",
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "name": "Weapon Expertise",
+        "level": 11
+      },
+      "LPbow": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.b1F4hLZ3AOCDpFlW",
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "name": "Master Spellcaster",
+        "level": 15
+      },
+      "0Ae64": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.2LssJ7QH1IaGTIje",
+        "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+        "name": "Prodigious Will",
+        "level": 17
+      },
+      "1mKnJ": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.NbkWZuYD74QclaHK",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/crown%20insignia.webp",
+        "name": "Administrator Privileges",
+        "level": 19
+      },
+      "UJrJY": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.mKEBgNc69U5X4ZcQ",
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "name": "Legendary Spellcaster",
+        "level": 19
+      },
+      "UpRgh": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.cpmuQo7Q5NhRPBul",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20circuit%20board%202.webp",
+        "name": "Programming Languages",
+        "level": 1
+      },
+      "hSkhp": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.vC7Ux66pSXPMqWwm",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20circle%20emblem.webp",
+        "name": "Spell Cache",
+        "level": 1
+      }
+    },
+    "hp": 6,
+    "trainedSkills": {
+      "value": [
+        "arcana",
+        "computers"
+      ],
+      "additional": 1
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 0,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 1,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "_id": "YNtABUYj2Vsm2xEa",
+  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "eUnac0oMbpEwem24": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745276536986,
+    "modifiedTime": 1745282759808,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
+  },
+  "_key": "!items!YNtABUYj2Vsm2xEa"
+}

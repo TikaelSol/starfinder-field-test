@@ -89,7 +89,7 @@
   "_id": "0jwYW7VIT2cxKYzG",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/space%20machine%20gun.webp",
   "folder": null,
-  "sort": 7800000,
+  "sort": 10200000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -98,10 +98,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712007338062,
-    "modifiedTime": 1722190796472,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },

@@ -63,12 +63,12 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.classfeatures.Item.oa3TJpPnvL98EUHh",
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722095867241,
-    "modifiedTime": 1722224838454,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "flags": {
     "core": {
@@ -82,6 +82,6 @@
     "Rx0xhdrs9eKd1Esv": 3
   },
   "_id": "BLw2hnUnw0VU0at0",
-  "sort": 2700000,
+  "sort": 5100000,
   "_key": "!items!BLw2hnUnw0VU0at0"
 }

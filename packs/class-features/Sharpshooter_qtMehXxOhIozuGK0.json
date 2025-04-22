@@ -93,7 +93,7 @@
   "_id": "qtMehXxOhIozuGK0",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/rifle%20scoped.webp",
   "folder": null,
-  "sort": 1600000,
+  "sort": 3900000,
   "ownership": {
     "default": 0,
     "Rx0xhdrs9eKd1Esv": 3
@@ -102,12 +102,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
     "createdTime": 1722100825696,
-    "modifiedTime": 1722177047656,
-    "lastModifiedBy": "CmdglLq38DpgHzdd"
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24"
   },
   "_key": "!items!qtMehXxOhIozuGK0"
 }

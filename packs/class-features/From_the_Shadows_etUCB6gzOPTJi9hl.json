@@ -93,7 +93,7 @@
   "_id": "etUCB6gzOPTJi9hl",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20scythe%20dipped%20in%20liquid.webp",
   "folder": null,
-  "sort": 9800000,
+  "sort": 12100000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -102,10 +102,10 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "coreVersion": "12.331",
     "createdTime": 1712005709965,
-    "modifiedTime": 1722190798430,
-    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "modifiedTime": 1745278593707,
+    "lastModifiedBy": "eUnac0oMbpEwem24",
     "compendiumSource": null,
     "duplicateSource": null
   },
