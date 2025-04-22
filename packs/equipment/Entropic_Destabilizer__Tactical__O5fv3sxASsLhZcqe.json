@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Tendrils of dark energy soar from the unit affixed to this weapon, coating it and its ammunition in a disturbing purple hue. When you hit with the weapon, add @Damage[1d4[void]] damage to the damage dealt. The void damage dealt by this weapon ignores the target’s void resistance or immunity. In addition, on a critical hit, the target takes @Damage[4d4[persistent,void]] damage; if the target has a shield raised, the shield takes the same amount of persistent damage (its wielder rolls the flat check to see if the persistent damage ends, or the GM rolls if the shield is no longer in someone's possession). Unlike normal void damage, the void damage from an entropic destabilizer damages objects, constructs, and the like by eroding them away.</p>"
+      "value": "<p>Tendrils of dark energy soar from the unit affixed to this weapon, coating it and its ammunition in a disturbing purple hue. When you hit with the weapon, add @Damage[1d4[void]] damage to the damage dealt. The void damage dealt by this weapon ignores the target's void resistance or immunity. In addition, on a critical hit, the target takes @Damage[4d4[persistent,void]] damage; if the target has a shield raised, the shield takes the same amount of persistent damage (its wielder rolls the flat check to see if the persistent damage ends, or the GM rolls if the shield is no longer in someone's possession). Unlike normal void damage, the void damage from an entropic destabilizer damages objects, constructs, and the like by eroding them away.</p>"
     },
     "rules": [],
     "slug": "entropic-destabilizer-tactical",

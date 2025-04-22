@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your body is a temple to change and technology. Ever since a young age you've been upgrading your anatomy with augmentations, perhaps after a terrible accident, as part of an experiment, or because you desire to transform your body into something more.</p><p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Strength</strong>, and one is a free attribute boost.</p><p>You’re trained in the Crafting skill and the Augmentation Lore skill. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.FceVOOFha1gbd95w]{Augmented Body} feat.</p>"
+      "value": "<p>Your body is a temple to change and technology. Ever since a young age you've been upgrading your anatomy with augmentations, perhaps after a terrible accident, as part of an experiment, or because you desire to transform your body into something more.</p><p>Choose two attribute boosts. One must be to <strong>Constitution</strong> or <strong>Strength</strong>, and one is a free attribute boost.</p><p>You're trained in the Crafting skill and the Augmentation Lore skill. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.FceVOOFha1gbd95w]{Augmented Body} feat.</p>"
     },
     "rules": [],
     "slug": "cyberborn",
