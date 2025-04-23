@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You weave hardlight technology into your illusions to make them more believable. If your next action is to Cast a Spell with the illusion trait, creatures cannot attempt to disbelieve your illusion by merely touching or attempting to damage it, but they can still use the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to examine it and attempt to disbelieve your illusion. When a creature succeeds (but not critically succeeds) at a Perception check or Will save to disbelieve the illusion, you can reprogram it as a reaction by attempting a Computers check against the target's Perception DC. If you succeed, the target fails to disbelieve the illusion. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape and modify an illusion spell that deals mental damage, that spell deals another appropriate type of damage based on the type of illusion. This damage does not need to be nonlethal, can deactivate regeneration, and otherwise functions like normal damage.</p>",
+      "value": "<p>You weave hardlight technology into your illusions to make them more believable. If your next action is to Cast a Spell with the illusion trait, creatures cannot attempt to disbelieve your illusion by merely touching or attempting to damage it, but they can still use the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to examine it and attempt to disbelieve your illusion. When a creature succeeds (but not critically succeeds) at a Perception check or Will save to disbelieve the illusion, you can reprogram it as a reaction by attempting a Computers check against the target's Perception DC. If you succeed, the target fails to disbelieve the illusion.</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape and modify an illusion spell that deals mental damage, that spell deals another appropriate type of damage based on the type of illusion. This damage does not need to be nonlethal, can deactivate regeneration, and otherwise functions like normal damage.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,44 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "hardlight-illusion"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:hardlight-illusion",
+          "item:trait:illusion"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Spellshape.HardlightIllusion.Alteration"
+          },
+          {
+            "title": "SF2E.SpecificRule.Technomancer.Jailbreak",
+            "text": "SF2E.SpecificRule.Technomancer.HardlightIllusion.Jailbreak",
+            "predicate": [
+              "jailbreak-spell"
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "hardlight-illusion",
     "traits": {
       "otherTags": [],

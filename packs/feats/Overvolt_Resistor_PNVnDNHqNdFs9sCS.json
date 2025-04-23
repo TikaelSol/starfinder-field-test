@@ -18,7 +18,43 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "overvolt-resistor"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:overvolt-resistor"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Spellshape.OvervoltResistor.Alteration"
+          },
+          {
+            "title": "SF2E.SpecificRule.Technomancer.Jailbreak",
+            "text": "SF2E.SpecificRule.Technomancer.OvervoltResistor.Jailbreak",
+            "predicate": [
+              "jailbreak-spell"
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "overvolt-resistor",
     "traits": {
       "otherTags": [],

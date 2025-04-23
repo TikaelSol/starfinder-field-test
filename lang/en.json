@@ -545,16 +545,59 @@
                 }
             },
             "Technomancer": {
+                "BoomingBootloader": {
+                    "Alteration": "All creatures in a @Template[type:emanation|distance:10] around the creature you summoned take 1d4 sonic damage per spell rank (@Damage[((@item.level)d4)[sonic]]).",
+                    "Jailbreak": "One creature of your choice within 10 feet of the creature you summoned must succeed at a Will save against your spell DC or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} (or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical failure)."
+                },
+                "DebugSpell": {
+                    "Alteration": "Any die you roll for damage that has a result lower than 2 becomes a result of 2 instead.",
+                    "Jailbreak": "Any die you roll for damage that has a result lower than 3 becomes a result of 3 instead."
+                },
+                "DeleteRootAccess": {
+                    "Alteration": "Replace *delete's* target with \"one construct or tech creature.\" Instead of delete's normal effects, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr] by you if its level is equal to or lower than your level – 3. It can attempt a Will saving throw to resist being controlled by you. If the target is already under someone else's command, the controlling creature also rolls a saving throw, and the construct uses the better result.",
+                    "DegreeOfSuccess": {
+                        "CriticalFailure": "**Critical Failure** As failure, but the duration is 1 hour.</p>",
+                        "CriticalSuccess": "**Critical Success** The target is unaffected and is temporarily immune for 24 hours.",
+                        "Failure": "**Failure** The construct or tech creature becomes a minion under your control. The spell gains a duration of 1 minute, but it is dismissed if you or an ally attacks the construct or tech minion.",
+                        "Success": "**Success** The target is unaffected."
+
+                    },
+                    "AlterationThree": "",
+                    "Jailbreak": "If the construct or tech creature succeeds at its save but doesn't critically succeed, it is your minion for 1 round. If the construct fails its save, it is your minion for 10 minutes. If it critically fails, it is your minion for 24 hours.</p>"
+                },
+                "GrenadeSpell": {
+                    "Alteration": "If your next action is to Cast a Spell with a burst effect that requires a Reflex save, the spell does not immediately take effect, but it instead is installed into the held grenade. Until the end of your next turn, any creatures caught in the Area Fire of the grenade are also affected by the installed spell; creatures do not make a separate Reflex save against the spell and instead use the same result they rolled against the grenade.",
+                    "Jailbreak": "You can install any spell into a grenade. In that case, creatures roll a separate saving throw against your spell DC if it's not a Reflex save. If you apply the effects of this spellshape to a spell with a basic Reflex save, you can use your spell DC instead of your class DC for the grenade."
+                },
+                "HardlightIllusion": {
+                    "Alteration": "Creatures cannot attempt to disbelieve your illusion by merely touching or attempting to damage it, but they can still use the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to examine it and attempt to disbelieve your illusion. When a creature succeeds (but not critically succeeds) at a Perception check or Will save to disbelieve the illusion, you can reprogram it as a reaction by attempting a Computers check against the target's Perception DC. If you succeed, the target fails to disbelieve the illusion.",
+                    "Jailbreak": "If you use Jailbreak Spell to use this spellshape and modify an illusion spell that deals mental damage, that spell deals another appropriate type of damage based on the type of illusion. This damage does not need to be nonlethal, can deactivate regeneration, and otherwise functions like normal damage."
+                },
                 "IncognitoSpell": {
                     "Jailbreak": "You can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} one creature using Arcana instead of Intimidation by making the effects of the spell seem effortless on your part."
                 },
                 "Jailbreak": "Jailbreak",
+                "OvervoltResistor": {
+                    "Alteration": "The spell ignores an amount of the target's resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by wall of fire. A creature's immunities are unaffected.",
+                    "Jailbreak": "You deal damage equal to your level even if the target is immune to acid, cold, electricity, fire, or sonic damage. Only ignore the first listed immunity this way, even if the target has immunities to multiple listed damage types."
+                },
                 "SafemodeSpell": {
                     "Jailbreak": "You can choose to make the spell an illusion that deals nonlethal mental damage. If the spell requires a Fortitude or Reflex save, it becomes a Will save. If the spell requires a spell attack roll against AC, you make your spell attack roll against the target's Will DC instead. The spell gains the illusion and mental traits."
+                },
+                "ShatterSpell": {
+                    "Alteration": "You successfully counteract the target, one creature of your choice occupying the same space as the spell effect or magic item takes force damage equal to 1d4 × the target's counteract rank with a basic Reflex save against your spell DC; if the target has a trait corresponding to a type of damage, such as fire, this effect deals that damage instead of force.",
+                    "Jailbreak": "You can deal damage to every creature in the area of the spell effect or adjacent to the targeted magic item, or you can deal 1d6 damage × the target's counteract rank instead of 1d4 damage."
                 },
                 "SignalBoost": {
                     "Alteration": "Increase the spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet.",
                     "Jailbreak": "Increase that spell's range by 60 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 60 feet."
+                },
+                "SplitTunneling": {
+                    "Alteration": "You can choose a second target within range. You roll a single attack roll and compare the result to the AC of both targets. This counts as one attack for your multiple attack penalty. To the second target, the spell deals only half the amount of damage it would normally deal for its degree of success, and it has no effects beyond the spell's initial damage (such as imposing conditions or penalties).",
+                    "Jailbreak": "If you fail to affect your primary target (whether your attack fails or the target is immune to the spell), your secondary target becomes your primary target, taking full damage and all effects of the spell."
+                },
+                "SudoSpell": {
+                    "Alteration": "The spell's energy reverberates and echoes. You can Cast the Spell a second time before the end of your next turn without expending a spell slot."
                 }
             },
             "Witchwarper": {

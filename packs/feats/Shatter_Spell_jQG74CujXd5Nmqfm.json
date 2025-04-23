@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You don't simply defuse enemy spells—you shatter them in a blast of magical force. If the next action you use is to cast dispel magic and you successfully counteract the target, one creature of your choice occupying the same space as the spell effect or magic item takes force damage equal to 1d4 × the target's counteract rank with a basic Reflex save against your spell DC; if the target has a trait corresponding to a type of damage, such as fire, this effect deals that damage instead of force.</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, choose one: you can deal damage to every creature in the area of the spell effect or adjacent to the targeted magic item, or you can deal 1d6 damage × the target's counteract rank instead of 1d4 damage.</p>",
+      "value": "<p>You don't simply defuse enemy spells—you shatter them in a blast of magical force. If the next action you use is to cast @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] and you successfully counteract the target, one creature of your choice occupying the same space as the spell effect or magic item takes force damage equal to 1d4 × the target's counteract rank with a basic Reflex save against your spell DC; if the target has a trait corresponding to a type of damage, such as fire, this effect deals that damage instead of force.</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, choose one: you can deal damage to every creature in the area of the spell effect or adjacent to the targeted magic item, or you can deal 1d6 damage × the target's counteract rank instead of 1d4 damage.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,44 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "shatter-spell"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:shatter-spell",
+          "item:slug:dispel-magic"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Spellshape.ShatterSpell.Alteration"
+          },
+          {
+            "title": "SF2E.SpecificRule.Technomancer.Jailbreak",
+            "text": "SF2E.SpecificRule.Technomancer.ShatterSpell.Jailbreak",
+            "predicate": [
+              "jailbreak-spell"
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "shatter-spell",
     "traits": {
       "otherTags": [],

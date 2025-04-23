@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've programmed a custom sound to play so your summoned creature appears with unexpected fanfare. If your next action is to Cast a Spell with the summon trait, all creatures in a @Template[type:emanation|distance:10] around the creature you summoned take @Damage[1d4[sonic]] damage per spell rank. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, one creature of your choice within 10 feet of the creature you summoned must succeed at a Will save against your spell DC or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} (or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical failure).</p>",
+      "value": "<p>You've programmed a custom sound to play so your summoned creature appears with unexpected fanfare. If your next action is to Cast a Spell with the summon trait, all creatures in a @Template[type:emanation|distance:10] around the creature you summoned take 1d4 sonic damage per spell rank.</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, one creature of your choice within 10 feet of the creature you summoned must succeed at a Will save against your spell DC or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} (or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical failure).</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,44 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "booming-bootloader"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:booming-bootloader",
+          "item:trait:summon"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Spellshape.BoomingBootloader.Alteration"
+          },
+          {
+            "title": "SF2E.SpecificRule.Technomancer.Jailbreak",
+            "text": "SF2E.SpecificRule.Technomancer.BoomingBootloader.Jailbreak",
+            "predicate": [
+              "jailbreak-spell"
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "booming-bootloader",
     "traits": {
       "otherTags": [],
