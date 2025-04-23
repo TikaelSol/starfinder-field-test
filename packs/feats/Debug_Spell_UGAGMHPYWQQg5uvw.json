@@ -18,7 +18,48 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "debug-spell"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:debug-spell",
+          "damaging-effect"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Spellshape.DebugSpell.Alteration",
+            "predicate": [
+              {
+                "not": "jailbreak-spell"
+              }
+            ]
+          },
+          {
+            "text": "SF2E.SpecificRule.Technomancer.DebugSpell.Jailbreak",
+            "predicate": [
+              "jailbreak-spell"
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "debug-spell",
     "traits": {
       "otherTags": [],

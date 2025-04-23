@@ -18,7 +18,58 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "sudo-spell"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:sudo-spell",
+          "item:duration:0",
+          {
+            "or": [
+              {
+                "and": [
+                  "jailbreak-spell",
+                  {
+                    "lte": [
+                      "item:rank",
+                      5
+                    ]
+                  }
+                ]
+              },
+              {
+                "lte": [
+                  "item:rank",
+                  4
+                ]
+              }
+            ]
+          }
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Spellshape.SudoSpell.Alteration"
+          }
+        ]
+      }
+    ],
     "slug": "sudo-spell",
     "traits": {
       "otherTags": [],

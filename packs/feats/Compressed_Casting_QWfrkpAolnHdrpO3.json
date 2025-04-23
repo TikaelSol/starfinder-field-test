@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Straining both your mind and your equipment, you compress as much of your spell's programming as you can, resulting in a faster compiling but much more complex code. If your next action is to cast a technomancer cantrip or a technomancer spell that is at least 2 ranks lower than the highest-rank technomancer spell slot you have, reduce the number of actions to cast it by 1 (minimum 1 action). </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape using the Double Spellshape feat, you can apply both this jailbreak benefit and the other spellshape's original jailbreak benefit to the spell.</p>",
+      "value": "<p>Straining both your mind and your equipment, you compress as much of your spell's programming as you can, resulting in a faster compiling but much more complex code. If your next action is to cast a technomancer cantrip or a technomancer spell that is at least 2 ranks lower than the highest-rank technomancer spell slot you have, reduce the number of actions to cast it by 1 (minimum 1 action).</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape using the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.MKgHjc8DEB2XsRa8]{Double Spellshape} feat, you can apply both this jailbreak benefit and the other spellshape's original jailbreak benefit to the spell.</p>",
       "gm": ""
     },
     "publication": {

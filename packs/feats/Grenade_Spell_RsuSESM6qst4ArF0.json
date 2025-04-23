@@ -18,7 +18,43 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "grenade-spell"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:grenade-spell"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Spellshape.GrenadeSpell.Alteration"
+          },
+          {
+            "title": "SF2E.SpecificRule.Technomancer.Jailbreak",
+            "text": "SF2E.SpecificRule.Technomancer.BoomingBootloader.Jailbreak",
+            "predicate": [
+              "jailbreak-spell"
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "grenade-spell",
     "traits": {
       "otherTags": [],

@@ -18,7 +18,45 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.TraitSpellshape",
+        "mergeable": true,
+        "option": "spellshape",
+        "placement": "spellcasting",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "split-tunneling"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "spellshape:split-tunneling",
+          "item:duration:0",
+          "item:trait:attack"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Spellshape.SplitTunneling.Alteration"
+          },
+          {
+            "title": "SF2E.SpecificRule.Technomancer.Jailbreak",
+            "text": "SF2E.SpecificRule.Technomancer.SplitTunneling.Jailbreak",
+            "predicate": [
+              "jailbreak-spell"
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "split-tunneling",
     "traits": {
       "otherTags": [],
