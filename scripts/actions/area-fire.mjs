@@ -146,7 +146,7 @@ function calculateSaveDC(weapon) {
     const ModifierPF2e = game.pf2e.Modifier;
     const actor = weapon.actor;
     const classDC = actor.getStatistic("class");
-    const itemBonus = new ModifierPF2e({ label: "Tracking Bonus", type: "item", modifier: weapon.system.runes.potency });
+    const itemBonus = new ModifierPF2e({ label: "Tracking Bonus", type: "item", modifier: weapon.flags.pf2e.attackItemBonus });
     return classDC.extend({ modifiers: itemBonus.modifier ? [itemBonus] : [] });
 }
 
