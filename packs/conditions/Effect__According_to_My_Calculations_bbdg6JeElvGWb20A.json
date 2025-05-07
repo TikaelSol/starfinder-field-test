@@ -1,12 +1,12 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: According to My Calculations",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by According to My Calculations</p><p>You gain a circumstance bonus or penalty to your next skill check or attack roll depending on the result.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.IJvX7FJ40i84XPuR]{According to My Calculations}</p><p>You gain a circumstance bonus or penalty to your next skill check or attack roll depending on the result.</p>"
     },
     "rules": [
       {
@@ -75,7 +75,7 @@
     "unidentified": false
   },
   "_id": "bbdg6JeElvGWb20A",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "img": "icons/commodities/currency/coins-shield-sword-stack-silver.webp",
   "sort": 100000,
   "ownership": {
     "default": 0,

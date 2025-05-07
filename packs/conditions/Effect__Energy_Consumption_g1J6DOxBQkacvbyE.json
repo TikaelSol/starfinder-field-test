@@ -1,17 +1,21 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Energy Consumption",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.3RqBU4dfoegOPzqw]{Energy Consumption}</p><p>When you use your Energy Deflection reaction, if the attack was a failure or critical failure, you gain temporary Hit Points equal to your level; you also gain the Energy Shielding feat (selecting a different type of energy). These temporary Hit Points and the Energy Shielding feat last 1 minute.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.3RqBU4dfoegOPzqw]{Energy Consumption}</p><p>You gain temporary Hit Points equal to your level and the Energy Shielding feat.</p>"
     },
     "rules": [
       {
         "key": "TempHP",
         "value": "@actor.level"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.lmowZWTzJaZfM3bb"
       }
     ],
     "slug": "effect-energy-consumption",
@@ -24,10 +28,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Starfinder Galaxy Guide",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 13
@@ -50,7 +54,7 @@
     "unidentified": false
   },
   "_id": "g1J6DOxBQkacvbyE",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
   "sort": 121875,
   "ownership": {
     "default": 0,

@@ -1,12 +1,12 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Shielding Arrogance",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by Shielding Arrogance</p><p>You gain temporary Hit Points equal to your level.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.wI0g2nRfu2d0YFAd]{Shielding Arrogance}</p><p>You gain temporary Hit Points equal to your level.</p>"
     },
     "rules": [
       {
@@ -55,7 +55,7 @@
     "unidentified": false
   },
   "_id": "af3dMl0TEkqOp2K9",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "img": "icons/magic/life/heart-cross-blue.webp",
   "sort": 171875,
   "ownership": {
     "default": 0,

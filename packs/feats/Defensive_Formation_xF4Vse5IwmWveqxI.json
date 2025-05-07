@@ -47,7 +47,11 @@
       "senses": {},
       "suppressedFeatures": []
     },
-    "location": null
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.6gduthFziKA5pU53",
+      "name": "Effect: Defensive Formation"
+    }
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
   "sort": 500000,

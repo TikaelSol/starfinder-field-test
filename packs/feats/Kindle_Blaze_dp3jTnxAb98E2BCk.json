@@ -50,7 +50,11 @@
       "senses": {},
       "suppressedFeatures": []
     },
-    "location": null
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.x4fR05693ijNBCii",
+      "name": "Effect: Kindle Blaze"
+    }
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
   "sort": 25000,

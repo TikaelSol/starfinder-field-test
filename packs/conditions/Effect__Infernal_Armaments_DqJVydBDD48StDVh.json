@@ -1,19 +1,19 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Infernal Armaments",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by Infernal Armaments</p><p>Your gain a status bonus equal to twice the number of weapon damage dice on your first weapon Strike each round. The damage type of this additional damage is determined by your Hellknight's Order.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.WpJCB3dCycbIzG3w]{Infernal Armaments}</p><p>Your gain a status bonus equal to twice the number of weapon damage dice on your first weapon Strike each round. The damage type of this additional damage is determined by your Hellknight's Order.</p>"
     },
     "rules": [
       {
         "key": "RollOption",
         "option": "infernal-armaments",
         "toggleable": true,
-        "label": "SF2E.SpecificRule.Equipment.Hellknight.InfernalArmaments.ToggleLabel"
+        "label": "PF2E.GenericLabel.StrikeCount.First"
       },
       {
         "key": "FlatModifier",
@@ -62,7 +62,7 @@
     "unidentified": false
   },
   "_id": "DqJVydBDD48StDVh",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
   "sort": 125000,
   "ownership": {
     "default": 0,

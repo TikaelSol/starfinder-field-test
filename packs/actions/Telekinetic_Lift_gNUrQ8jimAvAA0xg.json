@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirements</strong> You have at least one telekinetic hand free</p><hr /><p><strong>Effect</strong> Your telekinetic hand lifts an object of up to 8 Bulk as though it were weightless. If the object is locked or otherwise held in place, you can attempt to Force it Open using Arcana, Athletics, Occultism, or Physical Science Lore as part of this action. The object still has its full weight and Bulk for all other purposes—you just ignore that weight. This effect lasts until the end of your turn.</p>",
+      "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirements</strong> You have at least one telekinetic hand free</p><hr /><p><strong>Effect</strong> Your telekinetic hand lifts an object of up to 8 Bulk as though it were weightless. If the object is locked or otherwise held in place, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force it Open} using Arcana, Athletics, Occultism, or Physical Science Lore as part of this action. The object still has its full weight and Bulk for all other purposes—you just ignore that weight. This effect lasts until the end of your turn.</p>",
       "gm": ""
     },
     "publication": {

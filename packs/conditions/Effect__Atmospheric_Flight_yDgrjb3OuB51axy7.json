@@ -1,12 +1,12 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Atmospheric Flight",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by Atmospheric Flight</p><p>You can manifest your energy wings while within an atmosphere for a short time. Your energy wings manifest, granting you a fly Speed equal to your land Speed plus 10 feet for 10 minutes. You can end this duration early as a single action.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.wZyBTTRM2BjC93gg]{Atmospheric Flight}</p><p>You gain a fly Speed equal to your land Speed plus 10 feet.</p>"
     },
     "rules": [
       {
@@ -51,7 +51,7 @@
     "unidentified": false
   },
   "_id": "yDgrjb3OuB51axy7",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "img": "icons/commodities/biological/wing-insect-green.webp",
   "sort": 120704,
   "ownership": {
     "default": 0,

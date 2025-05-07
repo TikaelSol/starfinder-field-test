@@ -1,12 +1,12 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Telekinetic Titan",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by Telekinetic Titan</p><p>Straining every neuron, you briefly supercharge your telekinetic abilities. Choose Charisma, Intelligence, or Wisdom when you activate this ability. For 1 minute, you can carry Bulk equal to 7 + the chosen attribute modifier before becoming encumbered, and you can hold and carry a total Bulk of 12 + the chosen attribute modifier. Your telekinetic hands can hold and wield objects heavier than 1 Bulk, and you ignore the effects of your atrophied ability. Finally, you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.PHd4zzOcNPGO0A0B]{Telekinetic Lift} action. When the duration ends, you become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} for 1 minute, and your telekinetic hands drop any objects they can no longer hold.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.Cj9UI2RZL6WBJ6EB]{Telekinetic Titan}</p><p>You can carry Bulk equal to 7 + the chosen attribute modifier before becoming encumbered, and you can hold and carry a total Bulk of 12 + the chosen attribute modifier. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.gNUrQ8jimAvAA0xg]{Telekinetic Lift} action.</p>"
     },
     "rules": [
       {
@@ -41,7 +41,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.PHd4zzOcNPGO0A0B"
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.gNUrQ8jimAvAA0xg"
       }
     ],
     "slug": "effect-telekinetic-titan",
@@ -80,7 +80,7 @@
     "unidentified": false
   },
   "_id": "gFELDtZR5N3jx7fl",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "img": "icons/skills/melee/unarmed-punch-fist-blue.webp",
   "sort": 187500,
   "ownership": {
     "default": 0,

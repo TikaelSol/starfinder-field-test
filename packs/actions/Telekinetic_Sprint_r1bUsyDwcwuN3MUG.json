@@ -31,7 +31,11 @@
       "value": 1
     },
     "category": "interaction",
-    "deathNote": false
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.8HDUnGy6hfvj6p37",
+      "name": "Effect: Telekinetic Sprint"
+    }
   },
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "sort": 162500,

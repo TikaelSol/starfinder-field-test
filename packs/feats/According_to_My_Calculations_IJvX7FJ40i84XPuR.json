@@ -58,7 +58,11 @@
       "senses": {},
       "suppressedFeatures": []
     },
-    "location": null
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.bbdg6JeElvGWb20A",
+      "name": "Effect: According to My Calculations"
+    }
   },
   "_id": "IJvX7FJ40i84XPuR",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",

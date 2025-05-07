@@ -1,12 +1,12 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Focus Senses",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain echolocation (precise) 30 feet until the end of your next turn.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.0vqXr3SYakIa19k3]{Focus Senses}</p><p>You gain echolocation (precise) 30 feet.</p>"
     },
     "rules": [
       {
@@ -26,10 +26,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Starfinder Galaxy Guide",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 9
@@ -52,7 +52,7 @@
     "unidentified": false
   },
   "_id": "YbBoPkBHnyyy3xLd",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "img": "icons/magic/sonic/explosion-shock-sound-wave.webp",
   "sort": 118750,
   "ownership": {
     "default": 0,

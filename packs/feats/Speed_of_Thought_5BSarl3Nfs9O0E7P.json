@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You have honed your telekinetic maneuverability, enabling greater bursts of speed. Increase your fly Speed by 5 feet. In addition, you gain the Telekinetic Sprint action.</p><p></p>",
+      "value": "<p>You have honed your telekinetic maneuverability, enabling greater bursts of speed. Increase your fly Speed by 5 feet. In addition, you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.r1bUsyDwcwuN3MUG]{Telekinetic Sprint} action.</p><p></p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,12 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.r1bUsyDwcwuN3MUG"
+      }
+    ],
     "slug": "speed-of-thought",
     "traits": {
       "otherTags": [],

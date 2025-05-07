@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You fight hardest when the odds are at their most dire, and the specter of death looms over you. As long as you have temporary Hit Points from Heroic Last Stand, your Strikes and spells deal additional damage. You gain a status bonus to damage with your Strikes equal to the number of weapon damage dice. Spells you cast from spell slots gain a status bonus to damage equal to the level of the spell; this bonus applies only to spells that deal damage and don't have a duration.</p>",
+      "value": "<p>You fight hardest when the odds are at their most dire, and the specter of death looms over you. As long as you have temporary Hit Points from @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.a9ER2amvCuQEJODm]{Heroic Last Stand}, your Strikes and spells deal additional damage. You gain a status bonus to damage with your Strikes equal to the number of weapon damage dice. Spells you cast from spell slots gain a status bonus to damage equal to the level of the spell; this bonus applies only to spells that deal damage and don't have a duration.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,29 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": "@weapon.system.damage.dice",
+        "predicate": [
+          "self:effect:heroic-last-stand"
+        ],
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "spell-damage",
+        "value": "@spell.rank",
+        "type": "status",
+        "predicate": [
+          "self:effect:heroic-last-stand",
+          "item:spell-slot",
+          "item:duration:0",
+          "damaging-effect"
+        ]
+      }
+    ],
     "slug": "heros-edge",
     "traits": {
       "otherTags": [],

@@ -1,21 +1,21 @@
 {
-  "folder": null,
-  "name": "Effect: Manifest Energy Wings",
+  "name": "Effect: Telekinetic Sprint",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.NEYVJWYtgl0rRSwg]{Manifest Energy Wings}</p><p>You gain a fly Speed equal to your land Speed plus 10 feet.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.r1bUsyDwcwuN3MUG]{Telekinetic Sprint}</p><p>You gain a +5-foot status bonus to your Speeds.</p>"
     },
     "rules": [
       {
-        "key": "BaseSpeed",
-        "selector": "fly",
-        "value": "@actor.system.attributes.speed.total + 10"
+        "key": "FlatModifier",
+        "selector": "all-speeds",
+        "value": 5,
+        "type": "status"
       }
     ],
-    "slug": "manifest-energy-wings",
+    "slug": null,
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -34,9 +34,9 @@
       "value": 1
     },
     "duration": {
-      "value": -1,
-      "unit": "unlimited",
-      "expiry": null,
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
       "sustained": false
     },
     "start": {
@@ -50,13 +50,11 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "81igjVgKBDXMomwb",
-  "img": "icons/commodities/biological/wing-insect-blue.webp",
-  "sort": 174219,
+  "img": "icons/skills/movement/ball-spinning-blue.webp",
+  "folder": null,
   "ownership": {
     "default": 0,
-    "mcr1uhoMfGHRQJHX": 3,
-    "xrkQVtB9iGZvxqph": 3
+    "qA45GVv5hySaf9b5": 3
   },
   "flags": {},
   "_stats": {
@@ -66,5 +64,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },
-  "_key": "!items!81igjVgKBDXMomwb"
+  "_id": "8HDUnGy6hfvj6p37",
+  "sort": 0,
+  "_key": "!items!8HDUnGy6hfvj6p37"
 }

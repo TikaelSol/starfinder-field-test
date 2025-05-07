@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You effortlessly juggle an assortment of gear with your telepathy, giving you the appearance of a solar cerebellum orbited by planetoid items. You gain a second set of telekinetic hands, per Mind Over Matter, granting a typical contemplative six hands total. While at least one of your telekinetic hands is empty, you can deflect incoming attacks, granting your fist attack the parry trait. You gain the Eccentric Orbit free action.</p>",
+      "value": "<p>You effortlessly juggle an assortment of gear with your telepathy, giving you the appearance of a solar cerebellum orbited by planetoid items. You gain a second set of telekinetic hands, per Mind Over Matter, granting a typical contemplative six hands total. While at least one of your telekinetic hands is empty, you can deflect incoming attacks, granting your fist attack the parry trait. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.fQJ8xyZH3Dch5xtN]{Eccentric Orbit} free action.</p>",
       "gm": ""
     },
     "publication": {
@@ -41,6 +41,10 @@
         "fist": true,
         "img": "systems/pf2e/icons/features/classes/powerful-fist.webp",
         "key": "Strike"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.fQJ8xyZH3Dch5xtN"
       }
     ],
     "slug": "psychic-constellation",

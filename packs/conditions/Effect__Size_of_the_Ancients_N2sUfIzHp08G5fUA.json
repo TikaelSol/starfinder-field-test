@@ -1,40 +1,21 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Size of the Ancients",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You grow to size Huge. Your equipment grows with you, but it returns to its natural size if removed or dropped. Your reach increases by 5 feet (or by 10 feet if you are a shipborn dragonkin), and you gain a +4 status bonus to melee damage. This transformation lasts for 10 minutes. You can end this transformation early as a single action that has the concentrate trait.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.ri5qV0g9RwwWLiBk]{Size of the Ancients}</p><p>You grow to size Huge. Your reach increases by 5 feet (or by 10 feet if you are a shipborn dragonkin), and you gain a +4 status bonus to melee damage.</p>"
     },
     "rules": [
       {
         "key": "CreatureSize",
+        "reach": {
+          "override": 15
+        },
         "resizeEquipment": true,
         "value": "huge"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "mode": "add",
-        "path": "system.attributes.reach.base",
-        "phase": "afterDerived",
-        "predicate": [
-          {
-            "not": "heritage:shipborn-dragonkin"
-          }
-        ],
-        "value": 5
-      },
-      {
-        "key": "ActiveEffectLike",
-        "mode": "add",
-        "path": "system.attributes.reach.base",
-        "phase": "afterDerived",
-        "predicate": [
-          "heritage:shipborn-dragonkin"
-        ],
-        "value": 10
       },
       {
         "key": "FlatModifier",
@@ -79,7 +60,7 @@
     "unidentified": false
   },
   "_id": "N2sUfIzHp08G5fUA",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
   "sort": 165625,
   "ownership": {
     "default": 0,

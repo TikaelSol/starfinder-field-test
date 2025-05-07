@@ -1,12 +1,12 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Skillful Encouragement",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by Skillful Encouragement</p><p>You gain a +2 circumstance bonus to your skill checks.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.EFkWRLQwain42TFm]{Skillful Encouragement}</p><p>You gain a +2 circumstance bonus to skill checks.</p>"
     },
     "rules": [
       {

@@ -18,7 +18,22 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "line-up-the-shot",
+        "toggleable": true
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "multiply",
+        "property": "range-increment",
+        "value": 2,
+        "predicate": [
+          "line-up-the-shot"
+        ]
+      }
+    ],
     "slug": "line-up-the-shot",
     "traits": {
       "otherTags": [],
