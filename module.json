@@ -431,11 +431,15 @@
                     "sonic": "SF2E.WeaponGroups.Sonic"
                 },
                 "creatureTraits": {
+                    "astrazoan": "SF2E.Trait.Astrazoan",
                     "barathu": "SF2E.Trait.Barathu",
                     "borai": "SF2E.Trait.Borai",
                     "cosmic": "SF2E.Trait.Cosmic",
+                    "contemplative": "SF2E.Trait.Contemplative",
+                    "dragonkin": "SF2E.Trait.Dragonkin",
                     "drift": "SF2E.Trait.Drift",
                     "jinsul": "SF2E.Trait.Jinsul",
+                    "kalo": "SF2E.Trait.Kalo",
                     "kasatha": "SF2E.Trait.Kasatha",
                     "kothama": "SF2E.Trait.Kothama",
                     "kucharn": "SF2E.Trait.Kucharn",
@@ -444,10 +448,12 @@
                     "pahtra": "SF2E.Trait.Pahtra",
                     "prismeni": "SF2E.Trait.Prismeni",
                     "robot": "SF2E.Trait.Robot",
+                    "sarcesian": "SF2E.Trait.Sarcesian",
                     "shirren": "SF2E.Trait.Shirren",
                     "skittermander": "SF2E.Trait.Skittermander",
                     "tech": "SF2E.Trait.Tech",
-                    "vesk": "SF2E.Trait.Vesk"
+                    "vesk": "SF2E.Trait.Vesk",
+                    "vlaka": "SF2E.Trait.Vlaka"
                 },
                 "featTraits": {
                     "anchoring": {
@@ -458,6 +464,7 @@
                         "label": "SF2E.Trait.Area",
                         "description": "SF2E.TraitDescription.Area"
                     },
+                    "astrazoan": "SF2E.Trait.Astrazoan",
                     "attuned": {
                         "label": "SF2E.Trait.Attuned",
                         "description": "SF2E.TraitDescription.Attuned"
@@ -468,6 +475,7 @@
                     },
                     "barathu": "SF2E.Trait.Barathu",
                     "borai": "SF2E.Trait.Borai",
+                    "contemplative": "SF2e.Trait.Contemplative",
                     "cycle": {
                         "label": "SF2E.Trait.Cycle",
                         "description": "SF2E.TraitDescription.Cycle"
@@ -480,7 +488,9 @@
                         "label": "SF2E.Trait.Disharmony",
                         "description": "SF2E.TraitDescription.Disharmony"
                     },
+                    "dragonkin": "SF2e.Trait.Dragonkin",
                     "envoy": "SF2E.Trait.Envoy",
+                    "kalo": "SF2E.Trait.Kalo",
                     "kasatha": "SF2E.Trait.Kasatha",
                     "lashunta": "SF2E.Trait.Lashunta",
                     "manifestation": {
@@ -492,6 +502,7 @@
                     "operative": "SF2E.Trait.Operative",
                     "pahtra": "SF2E.Trait.Pahtra",
                     "prismeni": "SF2E.Trait.Prismeni",
+                    "sarcesian": "SF2E.Trait.Sarcesian",
                     "shirren": "SF2E.Trait.Shirren",
                     "skittermander": "SF2E.Trait.Skittermander",
                     "solarian": "SF2E.Trait.Solarian",
@@ -503,6 +514,7 @@
                     },
                     "traversal":  "SF2E.Trait.Traversal",
                     "vesk": "SF2E.Trait.Vesk",
+                    "vlaka": "SF2E.Trait.Vlaka",
                     "witchwarper": "SF2E.Trait.Witchwarper",
                     "zone": {
                         "label": "SF2E.Trait.Zone",
