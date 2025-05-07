@@ -1,0 +1,101 @@
+{
+  "folder": "rqQcHcNBbgIFHZXO",
+  "name": "Effect: Large Reach",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by Large Reach</p><p>Using your large size, you can extend your reach to attack targets that are farther away. When you wield a melee weapon that requires two hands and doesn't have reach, you can change between a typical two-handed grip and an extended two-handed stretch using an Interact action. Weapons wielded in your extended stretch gain a reach of 10 feet.</p>"
+    },
+    "rules": [
+      {
+        "choices": {
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ],
+          "predicate": [
+            "item:melee",
+            "item:usage:hands:2",
+            {
+              "not": "item:trait:reach"
+            }
+          ]
+        },
+        "flag": "weapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:id:{item|flags.pf2e.rulesSelections.weapon}",
+          "large-reach-active"
+        ],
+        "property": "traits",
+        "value": "reach"
+      },
+      {
+        "key": "RollOption",
+        "option": "large-reach-active",
+        "toggleable": true,
+        "label": "Extended Two-Handed Grip",
+        "value": true
+      }
+    ],
+    "slug": "effect-large-reach",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "Ep0w1aFM3k114JCM",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "sort": 173829,
+  "ownership": {
+    "default": 0,
+    "mcr1uhoMfGHRQJHX": 3,
+    "xrkQVtB9iGZvxqph": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1"
+  },
+  "_key": "!items!Ep0w1aFM3k114JCM"
+}

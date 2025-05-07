@@ -1,0 +1,19 @@
+{
+  "name": "Kalo",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "yKY3ocbQ87Nw77p4",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1"
+  },
+  "_key": "!folders!yKY3ocbQ87Nw77p4"
+}

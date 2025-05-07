@@ -1,0 +1,19 @@
+{
+  "name": "Ancestry Features",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "KUf5bVKVWf62ZAgU",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1"
+  },
+  "_key": "!folders!KUf5bVKVWf62ZAgU"
+}

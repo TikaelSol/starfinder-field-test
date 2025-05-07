@@ -1,0 +1,71 @@
+{
+  "folder": "rqQcHcNBbgIFHZXO",
+  "name": "Effect: Skillful Encouragement",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by Skillful Encouragement</p><p>You gain a +2 circumstance bonus to your skill checks.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "skill-check",
+        "value": 2,
+        "type": "circumstance"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Galaxy Guide",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "TMarUs51Jg7v3g3f",
+  "img": "icons/skills/social/thumbsup-approval-like.webp",
+  "sort": 168750,
+  "ownership": {
+    "default": 0,
+    "Pp2zLaNIShTxHiU5": 3,
+    "xrkQVtB9iGZvxqph": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1"
+  },
+  "_key": "!items!TMarUs51Jg7v3g3f"
+}
