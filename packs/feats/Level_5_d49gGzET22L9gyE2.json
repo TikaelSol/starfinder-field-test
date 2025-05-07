@@ -1,11 +1,11 @@
 {
-  "name": "Feat 5",
+  "name": "Level 5",
   "sorting": "a",
-  "folder": "WXG7fHNLCZ6n4mZe",
+  "folder": "TvkDuCc1a1h911pN",
   "type": "Item",
-  "_id": "xLLN8X3CfQ2oM8nt",
+  "_id": "d49gGzET22L9gyE2",
   "description": "",
-  "sort": 200000,
+  "sort": 0,
   "color": null,
   "flags": {},
   "_stats": {
@@ -15,5 +15,5 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },
-  "_key": "!folders!xLLN8X3CfQ2oM8nt"
+  "_key": "!folders!d49gGzET22L9gyE2"
 }
