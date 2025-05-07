@@ -31,7 +31,11 @@
       "value": 1
     },
     "category": "interaction",
-    "deathNote": false
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.81igjVgKBDXMomwb",
+      "name": "Effect: Manifest Energy Wings"
+    }
   },
   "_id": "NEYVJWYtgl0rRSwg",
   "img": "systems/pf2e/icons/actions/OneAction.webp",

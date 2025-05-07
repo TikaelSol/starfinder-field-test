@@ -54,7 +54,11 @@
       "value": null
     },
     "category": "offensive",
-    "deathNote": false
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.9wWPl1LVWgqiZ2Wz",
+      "name": "Effect: Holo-Roger"
+    }
   },
   "_id": "8zWFGKRXg1SxIwFH",
   "img": "systems/pf2e/icons/actions/FreeAction.webp",

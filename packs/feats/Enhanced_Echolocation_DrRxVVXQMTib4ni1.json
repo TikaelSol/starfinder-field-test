@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've learned to quiet your other senses and focus your attention on your echolocation. The range of your echolocation imprecise sense doubles to 60 feet (or 120 feet underwater), and you gain the Focus Senses action.</p>",
+      "value": "<p>You've learned to quiet your other senses and focus your attention on your echolocation. The range of your echolocation imprecise sense doubles to 60 feet (or 120 feet underwater), and you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.0vqXr3SYakIa19k3]{Focus Senses} action.</p>",
       "gm": ""
     },
     "publication": {
@@ -48,6 +48,10 @@
         "predicate": [
           "focus-senses"
         ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.0vqXr3SYakIa19k3"
       }
     ],
     "slug": "enhanced-echolocation",

@@ -78,6 +78,10 @@
     "frequency": {
       "max": 1,
       "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.MVoUvf0bzUUSUkiR",
+      "name": "Effect: Willful Defiance"
     }
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",

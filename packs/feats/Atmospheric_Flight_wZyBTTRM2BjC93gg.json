@@ -51,6 +51,10 @@
     "frequency": {
       "max": 1,
       "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.yDgrjb3OuB51axy7",
+      "name": "Effect: Atmospheric Flight"
     }
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",

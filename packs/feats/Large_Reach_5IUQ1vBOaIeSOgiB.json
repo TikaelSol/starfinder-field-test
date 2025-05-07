@@ -18,7 +18,24 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "large-reach",
+        "toggleable": true
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:usage:hands:2",
+          "large-reach"
+        ],
+        "property": "traits",
+        "value": "reach"
+      }
+    ],
     "slug": "large-reach",
     "traits": {
       "otherTags": [],

@@ -1,12 +1,12 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Holo-Roger",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by Holo-Roger</p><p>You gain a +1 circumstance bonus to Intimidation checks to Coerce.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.8zWFGKRXg1SxIwFH]{Holo-Roger}</p><p>You gain a +1 circumstance bonus to Intimidation checks to Coerce.</p>"
     },
     "rules": [
       {
@@ -55,7 +55,7 @@
     "unidentified": false
   },
   "_id": "9wWPl1LVWgqiZ2Wz",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "img": "icons/sundries/flags/banner-flag-pirate-swords.webp",
   "sort": 137500,
   "ownership": {
     "default": 0,

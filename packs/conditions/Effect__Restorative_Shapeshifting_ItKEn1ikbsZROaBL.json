@@ -1,12 +1,12 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Restorative Shapeshifting",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by Restorative Shapeshifting</p><p>You gain a number of temporary Hit Points equal to half your level.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.7yIxWfNZ7yEKs0Fd]{Restorative Shapeshifting}</p><p>You gain a number of temporary Hit Points equal to half your level.</p>"
     },
     "rules": [
       {
@@ -50,7 +50,7 @@
     "unidentified": false
   },
   "_id": "ItKEn1ikbsZROaBL",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "img": "icons/magic/life/heart-shadow-red.webp",
   "sort": 173438,
   "ownership": {
     "default": 0,

@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've become more adept at using your energy wings within an atmosphere. Atmospheric Flight no longer has a frequency and can be used as often as desired. When you use Atmospheric Flight, your wings remain manifested until you spend a single action to purposefully dismiss them.</p>",
+      "value": "<p>You've become more adept at using your energy wings within an atmosphere. @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.wZyBTTRM2BjC93gg]{Atmospheric Flight} no longer has a frequency and can be used as often as desired. When you use Atmospheric Flight, your wings remain manifested until you spend a single action to purposefully dismiss them.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,13 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": "@actor.attributes.speed.total"
+      }
+    ],
     "slug": "advanced-atmospheric-flight",
     "traits": {
       "otherTags": [],

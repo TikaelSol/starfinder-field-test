@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>When in a vacuum, you can manifest butterfly-like wings of pure energy that function as solar sails and enable you to fly through the void of space. You gain the Manifest Energy Wings action.</p><p><strong>Manifest Energy Wings</strong> <span class=\"pf2-icon\">1</span></p><p><strong>Requirements</strong> you are in a vacuum</p><hr /><p><strong>Effect</strong> You manifest your energy wings, gaining a fly Speed equal to your land Speed plus 10 feet. These wings allow you to fly through a vacuum. Your energy wings remain manifested for as long as you are in a vacuum, or until you choose to disperse them as a single action.</p>",
+      "value": "<p>When in a vacuum, you can manifest butterfly-like wings of pure energy that function as solar sails and enable you to fly through the void of space. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.NEYVJWYtgl0rRSwg]{Manifest Energy Wings} action.</p>",
       "gm": ""
     },
     "publication": {
@@ -18,7 +18,12 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.NEYVJWYtgl0rRSwg"
+      }
+    ],
     "slug": null,
     "traits": {
       "otherTags": [],

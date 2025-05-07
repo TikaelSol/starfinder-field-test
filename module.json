@@ -475,7 +475,7 @@
                     },
                     "barathu": "SF2E.Trait.Barathu",
                     "borai": "SF2E.Trait.Borai",
-                    "contemplative": "SF2e.Trait.Contemplative",
+                    "contemplative": "SF2E.Trait.Contemplative",
                     "cycle": {
                         "label": "SF2E.Trait.Cycle",
                         "description": "SF2E.TraitDescription.Cycle"
@@ -488,7 +488,7 @@
                         "label": "SF2E.Trait.Disharmony",
                         "description": "SF2E.TraitDescription.Disharmony"
                     },
-                    "dragonkin": "SF2e.Trait.Dragonkin",
+                    "dragonkin": "SF2E.Trait.Dragonkin",
                     "envoy": "SF2E.Trait.Envoy",
                     "kalo": "SF2E.Trait.Kalo",
                     "kasatha": "SF2E.Trait.Kasatha",
@@ -631,6 +631,10 @@
                     },
                     "boost-1d4": {
                         "label": "SF2E.Trait.Boost1d4",
+                        "description": "SF2E.TraitDescription.Boost"
+                    },
+                    "boost-1d10": {
+                        "label": "SF2E.Trait.Boost1d10",
                         "description": "SF2E.TraitDescription.Boost"
                     },
                     "breakdown": {

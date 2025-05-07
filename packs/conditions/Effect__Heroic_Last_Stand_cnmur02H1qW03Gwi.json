@@ -1,22 +1,22 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Heroic Last Stand",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.a9ER2amvCuQEJODm]{Heroic Last Stand}</p><p>You gain temporary Hit Points equal to your level for 1 minute. As long as you have these temporary Hit Points, you gain a +1 circumstance bonus to Will saves against fear effects and a +2 circumstance bonus to your Will DC against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} you.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.a9ER2amvCuQEJODm]{Heroic Last Stand}</p><p>You gain temporary Hit Points equal to your level. As long as you have these temporary Hit Points, you gain a +1 circumstance bonus to Will saves against fear effects and a +2 circumstance bonus to your Will DC against attempts to Demoralize you.</p>"
     },
     "rules": [
       {
         "key": "TempHP",
-        "value": "@item.badge.value"
+        "value": "@actor.flags.pf2e.dragonkin.heroicTempHp"
       },
       {
         "key": "FlatModifier",
         "predicate": [
-          "fear"
+          "item:trait:fear"
         ],
         "selector": "will-dc",
         "slug": "dragonkin-heroic-last-stand-fear",
@@ -32,27 +32,6 @@
         "slug": "dragonkin-heroic-last-stand-demoralize",
         "type": "circumstance",
         "value": 2
-      },
-      {
-        "key": "FlatModifier",
-        "selector": "strike-damage",
-        "value": "@weapon.system.damage.dice",
-        "predicate": [
-          "feat:heros-edge"
-        ],
-        "type": "status"
-      },
-      {
-        "key": "FlatModifier",
-        "selector": "spell-damage",
-        "value": "@spell.rank",
-        "type": "status",
-        "predicate": [
-          "feat:heros-edge",
-          "item:spell-slot",
-          "item:duration:0",
-          "damaging-effect"
-        ]
       }
     ],
     "slug": "effect-heroic-last-stand",
@@ -65,10 +44,10 @@
       "value": []
     },
     "publication": {
-      "title": "",
+      "title": "Starfinder Galaxy Guide",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 1
@@ -86,17 +65,12 @@
     "tokenIcon": {
       "show": true
     },
-    "badge": {
-      "type": "formula",
-      "value": "@actor.flags.pf2e.dragonkin.heroicTempHp",
-      "evaluate": true,
-      "reevaluate": null
-    },
+    "badge": null,
     "context": null,
     "unidentified": false
   },
   "_id": "cnmur02H1qW03Gwi",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
   "sort": 112500,
   "ownership": {
     "default": 0,

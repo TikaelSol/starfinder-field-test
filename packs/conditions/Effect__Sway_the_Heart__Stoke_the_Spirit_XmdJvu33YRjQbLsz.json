@@ -1,14 +1,21 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Sway the Heart, Stoke the Spirit",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by Sway the Heart, Stoke the Spirit</p><p>You gain a +1 circumstance bonus to Will saves.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.ypSQT2urAcrgaoQ1]{Sway the Heart, Stoke the Spirit}</p><p>You gain a +1 circumstance bonus to Will saves.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "will",
+        "value": 1,
+        "type": "circumstance"
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.935,

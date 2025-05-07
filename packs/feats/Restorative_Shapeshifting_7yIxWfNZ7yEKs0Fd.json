@@ -51,6 +51,10 @@
     "frequency": {
       "max": 1,
       "per": "PT1M"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.ItKEn1ikbsZROaBL",
+      "name": "Effect: Restorative Shapeshifting"
     }
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",

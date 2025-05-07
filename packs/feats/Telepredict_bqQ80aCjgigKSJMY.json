@@ -105,7 +105,11 @@
       "senses": {},
       "suppressedFeatures": []
     },
-    "location": null
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.V2RD3qNBmkrzXb4K",
+      "name": "Effect: Telepredict"
+    }
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
   "sort": 400000,

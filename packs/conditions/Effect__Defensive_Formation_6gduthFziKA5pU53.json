@@ -1,12 +1,12 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Defensive Formation",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by Defensive Formation</p><p>You gain a +1 circumstance bonus to AC and Reflex saving throws. If one of these adjacent allies is your bonded partner, that bonded partner gains the same benefit that you do. This benefit lasts until you are no longer adjacent to at least two of your allies.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.xF4Vse5IwmWveqxI]{Defensive Formation}</p><p>You gain a +1 circumstance bonus to AC and Reflex saving throws.</p>"
     },
     "rules": [
       {
@@ -55,7 +55,7 @@
     "unidentified": false
   },
   "_id": "6gduthFziKA5pU53",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "img": "icons/equipment/shield/targe-steel-blue.webp",
   "sort": 120313,
   "ownership": {
     "default": 0,

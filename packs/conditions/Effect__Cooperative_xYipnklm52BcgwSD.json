@@ -1,12 +1,12 @@
 {
-  "folder": "rqQcHcNBbgIFHZXO",
+  "folder": null,
   "name": "Effect: Cooperative",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Item.LHtaCR4gS4kozJyP]{Cooperative}</p><p>You gain a +2 circumstance bonus to checks to Aid.</p>"
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.LHtaCR4gS4kozJyP]{Cooperative}</p><p>You gain a +2 circumstance bonus to checks to Aid.</p>"
     },
     "rules": [
       {

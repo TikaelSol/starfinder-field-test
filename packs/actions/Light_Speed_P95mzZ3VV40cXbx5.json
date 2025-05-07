@@ -34,7 +34,11 @@
       "value": 1
     },
     "category": "interaction",
-    "deathNote": false
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
   },
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "sort": 125000,

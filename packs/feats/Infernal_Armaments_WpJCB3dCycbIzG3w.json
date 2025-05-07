@@ -52,7 +52,10 @@
       "suppressedFeatures": []
     },
     "location": null,
-    "selfEffect": null,
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.DqJVydBDD48StDVh",
+      "name": "Effect: Infernal Armaments"
+    },
     "frequency": {
       "max": 1,
       "per": "PT10M"

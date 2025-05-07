@@ -40,6 +40,23 @@
         ],
         "property": "other-tags",
         "value": "ancestral-spell:kalo"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:electric-arc"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Kalo.ElectricKalo.Alteration"
+          },
+          {
+            "text": "@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.xQvyfiOh05xK2A5A]"
+          }
+        ]
       }
     ],
     "slug": "electric-kalo",

@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You can absorb the solar and electromagnetic radiation in your surroundings, transforming it into kinetic energy that propels your body faster. Your Speeds increase by 5 feet. In addition, you gain the Light Speed action.</p>",
+      "value": "<p>You can absorb the solar and electromagnetic radiation in your surroundings, transforming it into kinetic energy that propels your body faster. Your Speeds increase by 5 feet. In addition, you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.P95mzZ3VV40cXbx5]{Light Speed} action.</p>",
       "gm": ""
     },
     "publication": {
@@ -21,8 +21,12 @@
     "rules": [
       {
         "key": "FlatModifier",
-        "selector": "speed",
+        "selector": "all-speeds",
         "value": 5
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.P95mzZ3VV40cXbx5"
       }
     ],
     "slug": "accelerated-step",

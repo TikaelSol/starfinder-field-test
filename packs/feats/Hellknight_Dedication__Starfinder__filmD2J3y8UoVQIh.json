@@ -70,31 +70,26 @@
         "adjustName": false,
         "choices": [
           {
-            "label": "SF2E.SpecificRule.Equipment.Hellknight.Order.Chain.Label",
+            "label": "SF2E.SpecificRule.Hellknight.Order.Chain",
             "value": "electricity"
           },
           {
-            "label": "SF2E.SpecificRule.Equipment.Hellknight.Order.Crucible.Label",
+            "label": "SF2E.SpecificRule.Hellknight.Order.Crucible",
             "value": "cold"
           },
           {
-            "label": "SF2E.SpecificRule.Equipment.Hellknight.Order.Eclipse.Label",
+            "label": "SF2E.SpecificRule.Hellknight.Order.Eclipse",
             "value": "void"
           },
           {
-            "label": "SF2E.SpecificRule.Equipment.Hellknight.Order.Pyre.Label",
+            "label": "SF2E.SpecificRule.Hellknight.Order.Pyre",
             "value": "fire"
           }
         ],
-        "flag": "damage",
+        "actorFlag": "",
+        "flag": "hellknightOrderDamage",
         "key": "ChoiceSet",
-        "prompt": "SF2E.SpecificRule.Equipment.Hellknight.Order.Prompt"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e.hellknightOrderDamage",
-        "value": "{item|flags.pf2e.rulesSelections.damage}"
+        "prompt": "SF2E.SpecificRule.Hellknight.Order.Prompt"
       }
     ],
     "slug": "hellknight-dedication",

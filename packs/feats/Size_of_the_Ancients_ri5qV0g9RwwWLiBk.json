@@ -54,6 +54,10 @@
     "frequency": {
       "max": 1,
       "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.N2sUfIzHp08G5fUA",
+      "name": "Effect: Size of the Ancients"
     }
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
