@@ -1,0 +1,70 @@
+{
+  "folder": "rqQcHcNBbgIFHZXO",
+  "name": "Effect: Advanced Atmospheric Flight",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by Atmospheric Flight</p><p>You can manifest your energy wings while within an atmosphere for a short time. Your energy wings manifest, granting you a fly Speed equal to your land Speed plus 10 feet for 10 minutes. You can end this duration early as a single action.</p><p>You've become more adept at using your energy wings within an atmosphere. Atmospheric Flight no longer has a frequency and can be used as often as desired. When you use Atmospheric Flight, your wings remain manifested until you spend a single action to purposefully dismiss them.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": "@actor.attributes.speed.total"
+      }
+    ],
+    "slug": "effect-advanced-atmospheric-flight",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Galaxy Guide",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "bs5OPF5ApZRL6WwT",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "sort": 121485,
+  "ownership": {
+    "default": 0,
+    "mcr1uhoMfGHRQJHX": 3,
+    "xrkQVtB9iGZvxqph": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1"
+  },
+  "_key": "!items!bs5OPF5ApZRL6WwT"
+}

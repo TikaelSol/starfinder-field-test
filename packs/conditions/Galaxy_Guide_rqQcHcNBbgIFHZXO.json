@@ -1,0 +1,19 @@
+{
+  "name": "Galaxy Guide",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "rqQcHcNBbgIFHZXO",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1"
+  },
+  "_key": "!folders!rqQcHcNBbgIFHZXO"
+}

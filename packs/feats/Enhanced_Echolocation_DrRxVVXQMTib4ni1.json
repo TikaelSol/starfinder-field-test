@@ -1,0 +1,104 @@
+{
+  "folder": "jAQB3gjRkg4nMQl0",
+  "name": "Enhanced Echolocation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've learned to quiet your other senses and focus your attention on your echolocation. The range of your echolocation imprecise sense doubles to 60 feet (or 120 feet underwater), and you gain the Focus Senses action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Galaxy Guide",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "selector": "echolocation",
+        "range": 60,
+        "acuity": "imprecise"
+      },
+      {
+        "key": "Sense",
+        "selector": "echolocation",
+        "range": 120,
+        "acuity": "imprecise",
+        "predicate": [
+          "underwater"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "option": "focus-senses",
+        "toggleable": true,
+        "label": "Focus Senses"
+      },
+      {
+        "key": "Sense",
+        "selector": "echolocation",
+        "range": 30,
+        "acuity": "precise",
+        "predicate": [
+          "focus-senses"
+        ]
+      }
+    ],
+    "slug": "enhanced-echolocation",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "kalo"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "deep kalo heritage"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Pp2zLaNIShTxHiU5": 3,
+    "xrkQVtB9iGZvxqph": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1"
+  },
+  "_id": "DrRxVVXQMTib4ni1",
+  "_key": "!items!DrRxVVXQMTib4ni1"
+}

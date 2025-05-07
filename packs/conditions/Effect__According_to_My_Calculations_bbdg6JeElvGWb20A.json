@@ -1,0 +1,94 @@
+{
+  "folder": "rqQcHcNBbgIFHZXO",
+  "name": "Effect: According to My Calculations",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by According to My Calculations</p><p>You gain a circumstance bonus or penalty to your next skill check or attack roll depending on the result.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.Check.Result.Degree.Check.criticalFailure",
+            "value": -1
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.success",
+            "value": 1
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.criticalSuccess",
+            "value": 2
+          }
+        ],
+        "flag": "modifier",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.DegreeOfSuccess"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack-roll",
+          "skill check"
+        ],
+        "value": "@item.flags.pf2e.rulesSelections.modifier",
+        "type": "circumstance",
+        "removeAfterRoll": true
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Galaxy Guide",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "bbdg6JeElvGWb20A",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "mcr1uhoMfGHRQJHX": 3,
+    "xrkQVtB9iGZvxqph": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1"
+  },
+  "_key": "!items!bbdg6JeElvGWb20A"
+}
