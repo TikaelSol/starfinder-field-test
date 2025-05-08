@@ -56,7 +56,7 @@
   },
   "_id": "FzrDh0V32bxz6Sbq",
   "img": "icons/commodities/biological/hand-clawed-blue.webp",
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "Pp2zLaNIShTxHiU5": 3,

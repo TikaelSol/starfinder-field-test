@@ -72,7 +72,20 @@
       "value": [],
       "custom": ""
     },
-    "items": {},
+    "items": {
+      "RvhYK": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.KOeKAm4rLPTHKH9B",
+        "img": "icons/magic/perception/hand-eye-fire-blue.webp",
+        "name": "Sensory Diversity",
+        "level": 1
+      },
+      "NVBwk": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.FzrDh0V32bxz6Sbq",
+        "img": "icons/commodities/biological/hand-clawed-blue.webp",
+        "name": "Versed",
+        "level": 1
+      }
+    },
     "vision": "normal"
   },
   "_id": "mBsOLC7cRc7nkzV2",

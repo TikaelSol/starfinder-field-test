@@ -63,7 +63,7 @@
     "location": null
   },
   "img": "systems/pf2e/icons/features/classes/unleash-psyche.webp",
-  "sort": 0,
+  "sort": 1000000,
   "ownership": {
     "default": 0,
     "Pp2zLaNIShTxHiU5": 3,
