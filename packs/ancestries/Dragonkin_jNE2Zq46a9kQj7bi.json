@@ -81,7 +81,14 @@
       "value": [],
       "custom": ""
     },
-    "items": {},
+    "items": {
+      "B8M2h": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.UbvcNMZbrddJGkae",
+        "img": "icons/magic/control/energy-stream-link-large-blue.webp",
+        "name": "Partner Bond",
+        "level": 1
+      }
+    },
     "vision": "darkvision"
   },
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",

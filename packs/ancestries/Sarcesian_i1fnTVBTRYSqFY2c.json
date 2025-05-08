@@ -72,7 +72,14 @@
       "value": [],
       "custom": ""
     },
-    "items": {},
+    "items": {
+      "GSRHg": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.R1kVOn2CnpoPpFlC",
+        "img": "icons/commodities/biological/wing-insect-blue.webp",
+        "name": "Energy Wings",
+        "level": 1
+      }
+    },
     "vision": "normal"
   },
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",

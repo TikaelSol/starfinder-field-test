@@ -79,7 +79,14 @@
       "value": [],
       "custom": ""
     },
-    "items": {},
+    "items": {
+      "u8y89": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.ohwbVSRM9FAhDXJi",
+        "img": "icons/commodities/materials/slime-thick-blue.webp",
+        "name": "Hydration",
+        "level": 1
+      }
+    },
     "vision": "darkvision"
   },
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",

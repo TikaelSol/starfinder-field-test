@@ -72,7 +72,14 @@
       "value": [],
       "custom": ""
     },
-    "items": {},
+    "items": {
+      "fzOVI": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.KWYzcUf5wBdWYRUd",
+        "img": "icons/magic/symbols/triangle-glow-purple.webp",
+        "name": "Change Shape",
+        "level": 1
+      }
+    },
     "vision": "low-light-vision"
   },
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",

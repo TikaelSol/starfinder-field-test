@@ -79,7 +79,26 @@
       "value": [],
       "custom": ""
     },
-    "items": {},
+    "items": {
+      "R7wKw": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.HoPeAN7U7Re7g3Vv",
+        "img": "icons/magic/movement/chevrons-down-yellow.webp",
+        "name": "Atrophied",
+        "level": 1
+      },
+      "tXos7": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.yGyqpW1qVrEj54AH",
+        "img": "systems/pf2e/icons/features/classes/unleash-psyche.webp",
+        "name": "Thoughtsense",
+        "level": 1
+      },
+      "Ml5US": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.60yPDglrlsZU5y0G",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20alien%20brain.webp",
+        "name": "Limited Telepathy",
+        "level": 1
+      }
+    },
     "vision": "low-light-vision"
   },
   "img": "systems/pf2e/icons/default-icons/ancestry.svg",
