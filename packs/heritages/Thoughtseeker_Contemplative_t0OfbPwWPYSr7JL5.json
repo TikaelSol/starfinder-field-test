@@ -24,6 +24,28 @@
         "mode": "add",
         "path": "flags.pf2e.contemplative.vagueThoughtsenseRange",
         "value": 10
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:detect-thoughts",
+          "spellcasting:innate"
+        ],
+        "property": "other-tags",
+        "value": "ancestral-spell"
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:detect-thoughts",
+          "spellcasting:innate"
+        ],
+        "property": "other-tags",
+        "value": "ancestral-spell:contemplative"
       }
     ],
     "slug": "thoughtseeker-contemplative",
