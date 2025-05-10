@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You refuse to give up or give in to despair, even when all seems hopeless. You gain a +1 circumstance bonus to saving throws against emotion and fear effects. If you roll a success on a saving throw against an emotion or fear effect, you get a critical success instead.</p><hr /><p><strong>Special</strong> You can't select this feat if you have the Heightened Paranoia feat.</p>",
+      "value": "<p>You refuse to give up or give in to despair, even when all seems hopeless. You gain a +1 circumstance bonus to saving throws against emotion and fear effects. If you roll a success on a saving throw against an emotion or fear effect, you get a critical success instead.</p><hr /><p><strong>Special</strong> You can't select this feat if you have the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.ZiyExMCbCKHwgbzh]{Heightened Paranoia} feat.</p>",
       "gm": ""
     },
     "publication": {
@@ -90,7 +90,7 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

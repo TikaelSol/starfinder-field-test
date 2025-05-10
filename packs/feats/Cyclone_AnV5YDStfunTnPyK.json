@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> You aren't in a vacuum.</p><hr /><p>You take inspiration from schools of hunting manta rays, creating a vortex to draw in your foe before striking. You spin in place and can attempt an <code>@Check[athletics] </code>check against the Fortitude DC of all creatures within 20 feet of you (or 40 feet if you and the target are in water). On a success, that creature is moved adjacent to you. On a critical success, it's also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. If a creature is within melee reach of you after this check is resolved, you can Strike that creature.</p>",
+      "value": "<p><strong>Requirements</strong> You aren't in a vacuum.</p><hr /><p>You take inspiration from schools of hunting manta rays, creating a vortex to draw in your foe before striking. You spin in place and can attempt an @Check[athletics|against:fortitude] check against the Fortitude DC of all creatures within 20 feet of you (or 40 feet if you and the target are in water). On a success, that creature is moved adjacent to you. On a critical success, it's also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. If a creature is within melee reach of you after this check is resolved, you can Strike that creature.</p>",
       "gm": ""
     },
     "publication": {
@@ -65,7 +65,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

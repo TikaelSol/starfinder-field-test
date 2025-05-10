@@ -444,8 +444,14 @@
                 "Prompt": "Select a hellknight order"
             },
             "Kalo": {
+                "ArcticBite": {
+                    "Note": "Ignores an amount of the target's cold resistance equal to your level. A creature's immunities are unaffected."
+                },
                 "ElectricKalo": {
                     "Alteration": "If you cast this spell with only 1 target, you gain electricity resistance equal to half your level (minimum 1) until the end of your next turn."
+                },
+                "GelidBite": {
+                    "Note": "On a critical hit, the target is also @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of your next turn, unless it succeeds at a @Check[fortitude|against:class-spell] save against your class DC or spell DC, whichever is higher."
                 }
             },
             "Kasatha": {
@@ -529,6 +535,14 @@
             "Skittermander": {
                 "ClingingBite": {
                     "GrabAlteration": "You can only use Grab following a successful critical hit with your jaws (rather than on a hit) or when you have a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}."
+                }
+            },
+            "Sarcesian": {
+                "CoronalFlare": {
+                    "Note": "Coronal Flare"
+                },
+                "WillfulDefiance": {
+                    "Label":"Target Selected for Wlilful Defiance"
                 }
             },
             "Solarian": {
@@ -634,6 +648,11 @@
                 },
                 "SudoSpell": {
                     "Alteration": "The spell's energy reverberates and echoes. You can Cast the Spell a second time before the end of your next turn without expending a spell slot."
+                }
+            },
+            "Vlaka": {
+                "MenacingSnarl": {
+                    "Label": "Target frightened by Menacing Snarl"
                 }
             },
             "Witchwarper": {

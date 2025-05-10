@@ -33,7 +33,7 @@
       {
         "key": "Note",
         "selector": "strike-attack-roll",
-        "text": "Ignores an amount of the target's cold resistance equal to your level. A creature's immunities are unaffected.",
+        "text": "SF2E.SpecificRule.Kalo.ArcticBite.Note",
         "outcome": [
           "success",
           "criticalSuccess"
@@ -89,7 +89,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },
