@@ -335,6 +335,11 @@
                 "Two": "2",
                 "Three": "3"
             },
+            "Astrazoan": {
+                "DigestiveOutburst": {
+                    "Label": "Stomach"
+                }
+            },
             "Barathu": {
                 "AdaptativeLocomotion": {
                     "Flippers": "Flippers",
@@ -349,6 +354,18 @@
                 }
             },
             "Contemplative": {
+                "IntensifiedPsychicShock": {
+                    "ExtendedShock": "Extended Shock",
+                    "MindCrusher": "Mind Crusher",
+                    "PeerPressure": {
+                        "Label": "Peer Pressure",
+                        "Note": "Your psychic shock gains the arc trait, but it deals mental damage rather than electricity damage."
+                    },
+                    "PsychicWave": "Psychic Wave"
+                },
+                "Mindrender": {
+                    "Label": "Psychic Shock"
+                },
                 "Telepredict": {
                     "Toggle": "Telepredict: Dealt mental damage"
                 }
