@@ -51,6 +51,10 @@
     "frequency": {
       "max": 1,
       "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.22BLEySiAaQwoO6f",
+      "name": "Effect: Cellular Regeneration"
     }
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",

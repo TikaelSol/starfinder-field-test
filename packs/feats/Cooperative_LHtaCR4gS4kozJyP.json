@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You work well on a team, and you're always ready to lend a hand and accept the help offered by others. You gain a +2 circumstance bonus to checks to Aid, and your allies gain a +2 circumstance bonus to checks to Aid you.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.P8WZZAiAe47my2JR]{Effect: Cooperative}</p>",
+      "value": "<p>You work well on a team, and you're always ready to lend a hand and accept the help offered by others. You gain a +2 circumstance bonus to checks to Aid, and your allies gain a +2 circumstance bonus to checks to Aid you.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.xYipnklm52BcgwSD]{Effect: Cooperative}</p>",
       "gm": ""
     },
     "publication": {
@@ -70,7 +70,7 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

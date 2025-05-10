@@ -18,7 +18,18 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "value": 2,
+        "predicate": [
+          "action:trip",
+          "draconic-lethality:tail"
+        ],
+        "type": "circumstance"
+      }
+    ],
     "slug": "tactical-bully",
     "traits": {
       "otherTags": [],
@@ -64,7 +75,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

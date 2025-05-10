@@ -23,19 +23,19 @@
         "key": "RollOption",
         "suboptions": [
           {
-            "label": "Extended Shock",
+            "label": "SF2E.Contemplative.IntensifiedPsychicShock.ExtendedShock",
             "value": "extended-shock"
           },
           {
-            "label": "Mind Crusher",
+            "label": "SF2E.Contemplative.IntensifiedPsychicShock.MindCrusher",
             "value": "mind-crusher"
           },
           {
-            "label": "Peer Pressure",
+            "label": "SF2E.Contemplative.IntensifiedPsychicShock.PeerPressure.Label",
             "value": "peer-pressure"
           },
           {
-            "label": "Psychic Wave",
+            "label": "SF2E.Contemplative.IntensifiedPsychicShock.PsychicWave",
             "value": "psychic-wave"
           }
         ],
@@ -83,12 +83,12 @@
       {
         "key": "Note",
         "selector": "attack-damage",
-        "text": "Your psychic shock gains the arc trait, but it deals mental damage rather than electricity damage.",
+        "text": "SF2E.Contemplative.IntensifiedPsychicShock.PeerPressure.Note",
         "predicate": [
           "item:tag:contemplative-psychic-shock",
           "intensified-psychic-shock:peer-pressure"
         ],
-        "title": "Peer Pressure",
+        "title": "SF2E.Contemplative.IntensifiedPsychicShock.PeerPressure.Label",
         "outcome": [
           "success"
         ]

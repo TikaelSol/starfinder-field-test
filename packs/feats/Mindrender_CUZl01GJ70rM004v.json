@@ -34,7 +34,7 @@
         "range": {
           "increment": 30
         },
-        "label": "Psychic Shock",
+        "label": "SF2E.SpecificRule.Contemplative.Mindrender.Label",
         "slug": "psychic-shock",
         "traits": [
           "unarmed",

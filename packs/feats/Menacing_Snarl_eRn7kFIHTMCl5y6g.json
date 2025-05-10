@@ -22,7 +22,7 @@
       {
         "key": "RollOption",
         "option": "target-of-menacing-snarl",
-        "label": "Target frightened by Menacing Snarl",
+        "label": "SF2E.SpecificRule.Vlaka.MenacingSnarl.Label",
         "toggleable": true
       },
       {
@@ -92,7 +92,7 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

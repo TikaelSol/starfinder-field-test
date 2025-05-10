@@ -33,7 +33,7 @@
       {
         "key": "Note",
         "selector": "strike-attack-roll",
-        "text": "On a critical hit, the target is also @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of your next turn, unless it succeeds at a @Check[fortitude|against:class-spell] save against your class DC or spell DC, whichever is higher.",
+        "text": "SF2E.SpecificRule.Kalo.GelidBite.Note",
         "outcome": [
           "criticalSuccess"
         ],
@@ -88,7 +88,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

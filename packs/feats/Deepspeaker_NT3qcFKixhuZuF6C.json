@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You're descended from a long line of deepspeakers, dating back to an ancestor who served as liaison for a linnorm. You've been chosen to carry on the tradition, learning secrets passed down through generations of your people. You become trained in Performance and gain the Impressive Performance skill feat.</p>",
+      "value": "<p>You're descended from a long line of deepspeakers, dating back to an ancestor who served as liaison for a linnorm. You've been chosen to carry on the tradition, learning secrets passed down through generations of your people. You become trained in Performance and gain the @UUID[Compendium.pf2e.feats-srd.Item.xqAdXRd2gSQcqp5E]{Impressive Performance}  skill feat.</p>",
       "gm": ""
     },
     "publication": {
@@ -71,7 +71,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },
