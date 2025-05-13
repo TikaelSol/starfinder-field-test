@@ -47,7 +47,7 @@
           },
           {
             "title": "SF2E.SpecificRule.Technomancer.Jailbreak",
-            "text": "SF2E.SpecificRule.Technomancer.BoomingBootloader.Jailbreak",
+            "text": "SF2E.SpecificRule.Technomancer.GrenadeSpell.Jailbreak",
             "predicate": [
               "jailbreak-spell"
             ]

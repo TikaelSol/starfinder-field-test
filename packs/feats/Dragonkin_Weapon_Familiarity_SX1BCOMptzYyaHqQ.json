@@ -31,7 +31,7 @@
           "item:category:martial"
         ],
         "key": "MartialProficiency",
-        "label": "SF2E.SpecificRule.MartialProficiency.MartialDragonkinWeapons",
+        "label": "SF2E.SpecificRule.Dragonkin.WeaponFamiliarity.MartialWeapons",
         "sameAs": "simple",
         "slug": "martial-dragonkin-weapons"
       },
@@ -46,7 +46,7 @@
           "item:category:advanced"
         ],
         "key": "MartialProficiency",
-        "label": "SF2E.SpecificRule.MartialProficiency.AdvancedDragonkinWeapons",
+        "label": "SF2E.SpecificRule.Dragonkin.WeaponFamiliarity.AdvancedWeapons",
         "sameAs": "simple",
         "slug": "advanced-dragonkin-weapons"
       },

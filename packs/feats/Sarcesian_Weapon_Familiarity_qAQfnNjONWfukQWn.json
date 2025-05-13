@@ -34,7 +34,7 @@
           }
         ],
         "key": "MartialProficiency",
-        "label": "SF2E.SpecificRule.MartialProficiency.MartialSarcesianWeapons",
+        "label": "SF2E.SpecificRule.Sarcesian.WeaponFamiliarity.MartialWeapons",
         "sameAs": "simple",
         "slug": "martial-sarcesian-weapons"
       },
@@ -53,7 +53,7 @@
           }
         ],
         "key": "MartialProficiency",
-        "label": "SF2E.SpecificRule.MartialProficiency.AdvancedSarcesianWeapons",
+        "label": "SF2E.SpecificRule.Sarcesian.WeaponFamiliarity.AdvancedWeapons",
         "sameAs": "martial",
         "slug": "advanced-sarcesian-weapons"
       },
