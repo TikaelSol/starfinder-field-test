@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You move forward alongside your exocortex, attacking while remaining defensive. If you have a drone, you Synchronized Step. If you have a turret, you Stride and @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition} Exocortex. If you end this movement adjacent to your drone or turret, you make a ranged Strike and then @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} behind your drone or turret.</p>",
+      "value": "<p>You move forward alongside your exocortex, attacking while remaining defensive. If you have a drone, you Synchronized Step. If you have a turret, you Stride and @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.cMJvHMtzcdbA2stn]{Reposition Exocortex}. If you end this movement adjacent to your drone or turret, you make a ranged Strike and then @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} behind your drone or turret.</p>",
       "gm": ""
     },
     "publication": {
@@ -64,9 +64,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "6.12.1"
   },
   "_key": "!items!NYlp6k2v0YYRo83L"
 }

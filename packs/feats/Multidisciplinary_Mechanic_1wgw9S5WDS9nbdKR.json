@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>In addition to industrial and technological engineering, you've studied a specialized form of invention. Select either biotech, magitech, or necrotech. In addition, you become trained in the associated skill and gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} feat in the associated lore.</p><p><strong>Biotech</strong>: Your inventions incorporate synthetic or vatgrown flesh, or they might resemble hybrid organic machines. You become trained in Nature. You gain the Additional Lore skill feat for Biotech Lore.</p><p><strong>Magitech</strong>: Your devices shimmer with arcane runes or hybrid circuitry, or defy reality with their strange configurations. Your exocortex's Strikes gain the magic trait. You become trained in Arcana. You gain the Additional Lore skill feat for Magitech Lore.</p><p><strong>Necrotech</strong>: Your grisly tech might resemble a necrotic heart pulsating inside a metal ribcage or a bone. You become trained in Religion. You gain the Additional Lore skill feat for Necrograft Lore.</p><hr /><p><strong>Special</strong> If you have the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.zsXV8mcHVZqx6FVj]{Critical Explosion} feat and plant a mine, you can choose to deal a different type of damage depending on your choice of discipline. If you have the @UUID[Compendium.pf2e.kingmaker-features.Item.ZSUPsqeMBDTaX2H4]{Explosive Shot} feat, when you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.neyS5TJB8fTmQEKu]{Modify} a weapon with Explosive Shot, you can choose the splash damage dealt to be a different type of damage depending on your choice of discipline. Biotech deals acid damage, magitech deals force damage, and necrotech deals void damage.</p>",
+      "value": "<p>In addition to industrial and technological engineering, you've studied a specialized form of invention. Select either biotech, magitech, or necrotech. In addition, you become trained in the associated skill and gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} feat in the associated lore.</p><p><strong>Biotech</strong>: Your inventions incorporate synthetic or vatgrown flesh, or they might resemble hybrid organic machines. You become trained in Nature. You gain the Additional Lore skill feat for Biotech Lore.</p><p><strong>Magitech</strong>: Your devices shimmer with arcane runes or hybrid circuitry, or defy reality with their strange configurations. Your exocortex's Strikes gain the magic trait. You become trained in Arcana. You gain the Additional Lore skill feat for Magitech Lore.</p><p><strong>Necrotech</strong>: Your grisly tech might resemble a necrotic heart pulsating inside a metal ribcage or a bone. You become trained in Religion. You gain the Additional Lore skill feat for Necrograft Lore.</p><hr /><p><strong>Special</strong> If you have the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.zsXV8mcHVZqx6FVj]{Critical Explosion} feat and plant a mine, you can choose to deal a different type of damage depending on your choice of discipline. If you have the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.JoA3Q3W5a70g3aZV]{Explosive Shot} feat, when you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.neyS5TJB8fTmQEKu]{Modify} a weapon with Explosive Shot, you can choose the splash damage dealt to be a different type of damage depending on your choice of discipline. Biotech deals acid damage, magitech deals force damage, and necrotech deals void damage.</p>",
       "gm": ""
     },
     "publication": {
@@ -65,9 +65,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "6.12.1"
   },
   "_key": "!items!1wgw9S5WDS9nbdKR"
 }
