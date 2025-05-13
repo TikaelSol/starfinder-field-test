@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You witnessed the ritual that supposedly rekindled Sota's flame up close, and while it was certainly impressive, you don't believe it should've worked. You can't seem to shake the feeling that something else is at work behind the scenes—something dangerous and unknown. Whatever it is, you intend to face this threat head on. When you succeed on a Will saving throw against an effect that could impose the @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} condition, you get a critical success instead.</p><hr /><p><strong>Special</strong> You can't select this feat if you have the Determined Optimist feat.</p>",
+      "value": "<p>You witnessed the ritual that supposedly rekindled Sota's flame up close, and while it was certainly impressive, you don't believe it should've worked. You can't seem to shake the feeling that something else is at work behind the scenes—something dangerous and unknown. Whatever it is, you intend to face this threat head on. When you succeed on a Will saving throw against an effect that could impose the @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} condition, you get a critical success instead.</p><hr /><p><strong>Special</strong> You can't select this feat if you have the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.fXQxrEuO2ER8fUgW]{Determined Optimist} feat.</p>",
       "gm": ""
     },
     "publication": {
@@ -81,7 +81,7 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

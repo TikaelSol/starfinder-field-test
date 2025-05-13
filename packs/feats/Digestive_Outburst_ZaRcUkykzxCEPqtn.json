@@ -31,7 +31,7 @@
         },
         "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20protoplasm.webp",
         "group": "corrosive",
-        "label": "Stomach",
+        "label": "SF2E.SpecificRule.Astrazoan.DigestiveOutburst.Label",
         "traits": [
           "analog",
           "unwieldy",

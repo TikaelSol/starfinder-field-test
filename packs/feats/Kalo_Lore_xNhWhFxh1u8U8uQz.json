@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>Growing up among the blooms and glowing spires of Kalo-Mahoi has instilled in you a deep appreciation of the beauty around you, both natural and constructed. You're trained in Crafting and Nature. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.</p><p>You also gain the Additional Lore general feat for Kalo Lore.</p>",
+      "value": "<p>Growing up among the blooms and glowing spires of Kalo-Mahoi has instilled in you a deep appreciation of the beauty around you, both natural and constructed. You're trained in Crafting and Nature. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.</p><p>You also gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} general feat for Kalo Lore.</p>",
       "gm": ""
     },
     "publication": {
@@ -77,7 +77,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You've broadened your senses and are better able to comprehend the unseen answers all around you. When you use Student of the Unseen during your daily preparations, you gain Additional Lore twice.</p>",
+      "value": "<p>You've broadened your senses and are better able to comprehend the unseen answers all around you. When you use Student of the Unseen during your daily preparations, you gain @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} twice.</p>",
       "gm": ""
     },
     "publication": {
@@ -64,7 +64,7 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

@@ -22,7 +22,7 @@
       {
         "domain": "all",
         "key": "RollOption",
-        "label": "Target Selected for Wlilful Defiance",
+        "label": "SF2E.SpecificRule.Sarcesian.WillfulDefiance.Label",
         "option": "origin:mark:willful-defiance",
         "toggleable": true
       },
@@ -95,7 +95,7 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

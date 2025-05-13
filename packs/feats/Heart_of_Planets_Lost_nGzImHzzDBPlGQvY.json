@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p>You grew up hearing stories about Damiar and Iovo, the long-destroyed sarcesian home worlds remembered today only in legends, shattered rock, and the hearts of your people. You gain the Additional Lore general feat for Damiar Lore, Iovo Lore, and Diaspora Lore.</p>",
+      "value": "<p>You grew up hearing stories about Damiar and Iovo, the long-destroyed sarcesian home worlds remembered today only in legends, shattered rock, and the hearts of your people. You gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} general feat for Damiar Lore, Iovo Lore, and Diaspora Lore.</p>",
       "gm": ""
     },
     "publication": {
@@ -65,7 +65,7 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },
