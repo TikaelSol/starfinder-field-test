@@ -316,7 +316,7 @@
         },
         "SETTINGS": {
             "Theme": {
-                "HighContrast" : "High Contrast",
+                "HighContrast": "High Contrast",
                 "Light": "Light",
                 "Dark": "Dark",
                 "Name": "PC Sheet Theme",
@@ -484,7 +484,7 @@
                             "Metal": "Defending against acid or slashing damage",
                             "Water": "Defending against cold damage",
                             "Wood": "Defending against poison damage"
-                            },
+                        },
                         "GreaterEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.5zWyADC0jPsAlvcd] epiphany spell.",
                         "Harmony": "When you heal a bonded creature with your vitality network, choose an elemental trait: air, earth, fire, metal, water, or wood. If one or more of your elemental epiphanies are active, you must select the elemental trait you chose as part of casting those spells. Until the end of their next turn, the target's next Strike deals 1d4 persistent damage based on the chosen trait: electricity or sonic for air, bludgeoning or piercing for earth, acid or slashing for metal, fire for fire, cold for water, or poison for wood. This increases to 1d6 when you learn your advanced epiphany and 1d8 when you learn your greater epiphany.",
                         "InitialEpiphany": "You learn the @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.bS8Au4zlZG3RR78G] epiphany spell.",
@@ -547,7 +547,7 @@
                     "MartialWeapons": "Martial Sarcesian Weapons"
                 },
                 "WillfulDefiance": {
-                    "Label":"Target Selected for Wlilful Defiance"
+                    "Label": "Target Selected for Wlilful Defiance"
                 }
             },
             "Skittermander": {
@@ -618,7 +618,6 @@
                         "CriticalSuccess": "**Critical Success** The target is unaffected and is temporarily immune for 24 hours.",
                         "Failure": "**Failure** The construct or tech creature becomes a minion under your control. The spell gains a duration of 1 minute, but it is dismissed if you or an ally attacks the construct or tech minion.",
                         "Success": "**Success** The target is unaffected."
-
                     }
                 },
                 "GrenadeSpell": {
@@ -776,7 +775,7 @@
             "Lashunta": "Lashunta",
             "Magitech": "Magitech",
             "Manifestation": "Manifestation",
-            "Mechanic":  "Mechanic",
+            "Mechanic": "Mechanic",
             "Midwife": "Midwife",
             "Missile": "Missile",
             "ModularArcOrNonlethal": "Modular (Arc or Nonlethal)",
@@ -804,14 +803,14 @@
             "Solarian": "Solarian",
             "Soldier": "Soldier",
             "Tech": "Tech",
-            "Technomancer":  "Technomancer",
+            "Technomancer": "Technomancer",
             "Thought": "Thought",
             "Tracking": "Tracking",
             "Tracking1": "Tracking +1",
             "Tracking2": "Tracking +2",
             "Tracking3": "Tracking +3",
             "Transfer": "Transfer",
-            "Traversal":  "Traversal",
+            "Traversal": "Traversal",
             "Unwieldy": "Unwieldy",
             "Upgrade": "Upgrade",
             "Vesk": "Vesk",
