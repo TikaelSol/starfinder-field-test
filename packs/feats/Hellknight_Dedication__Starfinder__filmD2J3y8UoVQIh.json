@@ -89,7 +89,7 @@
         "actorFlag": "",
         "flag": "hellknightOrderDamage",
         "key": "ChoiceSet",
-        "prompt": "SF2E.SpecificRule.Hellknight.Order.Prompt"
+        "prompt": "SF2E.SpecificRule.Hellknight.Prompt"
       }
     ],
     "slug": "hellknight-dedication",
