@@ -52,7 +52,7 @@
   },
   "_id": "81igjVgKBDXMomwb",
   "img": "icons/commodities/biological/wing-insect-blue.webp",
-  "sort": 174219,
+  "sort": 3600000,
   "ownership": {
     "default": 0,
     "mcr1uhoMfGHRQJHX": 3,
@@ -62,7 +62,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

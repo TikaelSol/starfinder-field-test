@@ -91,7 +91,7 @@
   },
   "_id": "V2RD3qNBmkrzXb4K",
   "img": "icons/commodities/biological/organ-brain-red.webp",
-  "sort": 175000,
+  "sort": 3800000,
   "ownership": {
     "default": 0,
     "mcr1uhoMfGHRQJHX": 3,
@@ -101,7 +101,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

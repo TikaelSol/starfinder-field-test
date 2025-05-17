@@ -52,7 +52,7 @@
   },
   "_id": "22BLEySiAaQwoO6f",
   "img": "icons/magic/life/cross-beam-green.webp",
-  "sort": 121094,
+  "sort": 2400000,
   "ownership": {
     "default": 0,
     "mcr1uhoMfGHRQJHX": 3,
@@ -62,7 +62,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

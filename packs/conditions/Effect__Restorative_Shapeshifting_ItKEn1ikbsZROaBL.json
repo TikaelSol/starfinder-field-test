@@ -51,7 +51,7 @@
   },
   "_id": "ItKEn1ikbsZROaBL",
   "img": "icons/magic/life/heart-shadow-red.webp",
-  "sort": 173438,
+  "sort": 3500000,
   "ownership": {
     "default": 0,
     "V4DL7FqWwg5mhC94": 3,
@@ -61,7 +61,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

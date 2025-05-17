@@ -56,11 +56,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.11.1"
   },
   "_id": "WAXL7euS0jMn5oWi",
-  "sort": 0,
+  "sort": 800000,
   "_key": "!items!WAXL7euS0jMn5oWi"
 }

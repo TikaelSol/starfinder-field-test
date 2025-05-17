@@ -53,7 +53,7 @@
   },
   "_id": "XmdJvu33YRjQbLsz",
   "img": "icons/magic/life/heart-cross-strong-flame-blue.webp",
-  "sort": 162500,
+  "sort": 3100000,
   "ownership": {
     "default": 0,
     "Pp2zLaNIShTxHiU5": 3,
@@ -63,7 +63,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

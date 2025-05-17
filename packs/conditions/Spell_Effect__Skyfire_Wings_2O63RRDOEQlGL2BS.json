@@ -80,7 +80,7 @@
   "_id": "2O63RRDOEQlGL2BS",
   "img": "icons/magic/fire/projectile-feathers-embers-gold.webp",
   "folder": null,
-  "sort": 100000,
+  "sort": 1800000,
   "ownership": {
     "default": 0,
     "AhhBYTk3xYRMuz4T": 3
@@ -89,7 +89,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
