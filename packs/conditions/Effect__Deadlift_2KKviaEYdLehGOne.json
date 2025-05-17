@@ -64,7 +64,7 @@
   "_id": "2KKviaEYdLehGOne",
   "img": "systems/pf2e/icons/spells/athletic-rush.webp",
   "folder": null,
-  "sort": 3800000,
+  "sort": 8100000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -73,7 +73,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "compendiumSource": null,
     "duplicateSource": null
   },

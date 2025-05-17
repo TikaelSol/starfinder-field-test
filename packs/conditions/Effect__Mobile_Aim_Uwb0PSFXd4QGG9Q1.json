@@ -82,11 +82,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.11.1"
   },
   "_id": "Uwb0PSFXd4QGG9Q1",
-  "sort": 0,
+  "sort": 700000,
   "_key": "!items!Uwb0PSFXd4QGG9Q1"
 }

@@ -63,7 +63,7 @@
   },
   "_id": "MVoUvf0bzUUSUkiR",
   "img": "icons/magic/control/buff-flight-wings-blue.webp",
-  "sort": 200000,
+  "sort": 4100000,
   "ownership": {
     "default": 0,
     "mcr1uhoMfGHRQJHX": 3,
@@ -73,7 +73,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

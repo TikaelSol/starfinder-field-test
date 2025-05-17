@@ -1,16 +1,30 @@
 {
-  "name": "Effect: Celebrity Serum",
+  "name": "Effect: Sharpshooter",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.YEuvWZhtsvTqJJo1]{Celebrity Serum}</p><p>You gain a +1 item bonus to Performance checks.</p>"
+      "value": "<p>Your AC bonus from lesser or standard cover is reduced by 1.</p>"
     },
-    "rules": [],
-    "slug": "effect-celebrity-serum",
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": -1,
+        "predicate": [
+          {
+            "or": [
+              "self:cover-level:lesser",
+              "self:cover-level:standard"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": null,
     "_migration": {
-      "version": 0.934,
+      "version": 0.935,
       "lastMigration": null
     },
     "traits": {
@@ -18,10 +32,10 @@
       "value": []
     },
     "publication": {
-      "title": "Starfinder Second Edition Playtest Rulebook",
+      "title": "",
       "authors": "",
-      "license": "ORC",
-      "remaster": true
+      "license": "OGL",
+      "remaster": false
     },
     "level": {
       "value": 1
@@ -43,11 +57,11 @@
     "context": null,
     "unidentified": false
   },
-  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/pink%20foam%20beaker.webp",
+  "img": "icons/skills/targeting/target-strike-gray.webp",
   "folder": null,
   "ownership": {
     "default": 0,
-    "HfiqVTKP7yuQgALu": 3
+    "eUnac0oMbpEwem24": 3
   },
   "flags": {},
   "_stats": {
@@ -55,9 +69,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "6.12.1"
   },
-  "_id": "JCNX5U0rHcEhraIK",
-  "sort": 500000,
-  "_key": "!items!JCNX5U0rHcEhraIK"
+  "_id": "fO2TefkI6oundpRm",
+  "sort": 1600000,
+  "_key": "!items!fO2TefkI6oundpRm"
 }

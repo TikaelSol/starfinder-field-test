@@ -57,7 +57,7 @@
   "_id": "R8YaCCdrsc1kyVmO",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20wing%20insignia.webp",
   "folder": null,
-  "sort": 4800000,
+  "sort": 9000000,
   "ownership": {
     "default": 0,
     "jqoxBUkgpBQ7vlMR": 3
@@ -66,7 +66,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "compendiumSource": null,
     "duplicateSource": null
   },

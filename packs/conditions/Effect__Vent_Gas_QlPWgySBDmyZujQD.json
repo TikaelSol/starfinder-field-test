@@ -58,7 +58,7 @@
   "_id": "QlPWgySBDmyZujQD",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20triple%20streak.webp",
   "folder": null,
-  "sort": 4600000,
+  "sort": 8800000,
   "ownership": {
     "default": 0,
     "jqoxBUkgpBQ7vlMR": 3
@@ -67,7 +67,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "compendiumSource": null,
     "duplicateSource": null
   },

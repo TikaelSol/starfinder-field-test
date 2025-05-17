@@ -83,12 +83,12 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.1",
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "6gwYukkRVzjWQ9v8",
-  "sort": 4100000,
+  "sort": 8400000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

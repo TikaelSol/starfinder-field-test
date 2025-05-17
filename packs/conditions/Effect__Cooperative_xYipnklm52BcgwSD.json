@@ -57,7 +57,7 @@
   },
   "_id": "xYipnklm52BcgwSD",
   "img": "icons/skills/social/diplomacy-unity-alliance.webp",
-  "sort": 123438,
+  "sort": 2600000,
   "ownership": {
     "default": 0,
     "Pp2zLaNIShTxHiU5": 3,
@@ -67,7 +67,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

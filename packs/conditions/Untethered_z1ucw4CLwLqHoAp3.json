@@ -56,7 +56,7 @@
   "_id": "z1ucw4CLwLqHoAp3",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20planet%20pillar%20of%20light.webp",
   "folder": null,
-  "sort": 5500000,
+  "sort": 9800000,
   "ownership": {
     "default": 0,
     "jqoxBUkgpBQ7vlMR": 3
@@ -65,7 +65,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "compendiumSource": null,
     "duplicateSource": null
   },

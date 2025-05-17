@@ -61,7 +61,7 @@
   },
   "_id": "N2sUfIzHp08G5fUA",
   "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
-  "sort": 165625,
+  "sort": 3200000,
   "ownership": {
     "default": 0,
     "mcr1uhoMfGHRQJHX": 3,
@@ -71,7 +71,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

@@ -76,7 +76,7 @@
   },
   "_id": "bbdg6JeElvGWb20A",
   "img": "icons/commodities/currency/coins-shield-sword-stack-silver.webp",
-  "sort": 100000,
+  "sort": 1900000,
   "ownership": {
     "default": 0,
     "mcr1uhoMfGHRQJHX": 3,
@@ -86,7 +86,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },

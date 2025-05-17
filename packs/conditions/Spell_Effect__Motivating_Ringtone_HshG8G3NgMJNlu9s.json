@@ -89,11 +89,11 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.6.2",
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "compendiumSource": null,
     "duplicateSource": null
   },
-  "sort": 5200000,
+  "sort": 9400000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

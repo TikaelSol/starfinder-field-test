@@ -202,12 +202,12 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.8.5",
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "aFR3wmqJ83sccJ1p",
-  "sort": 5100000,
+  "sort": 9300000,
   "ownership": {
     "default": 0,
     "qA45GVv5hySaf9b5": 3

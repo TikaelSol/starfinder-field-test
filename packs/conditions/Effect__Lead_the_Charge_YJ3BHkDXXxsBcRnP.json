@@ -1,24 +1,23 @@
 {
-  "folder": null,
-  "name": "Effect: Energy Consumption",
+  "name": "Effect: Lead the Charge",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.3RqBU4dfoegOPzqw]{Energy Consumption}</p><p>You gain temporary Hit Points equal to your level and the Energy Shielding feat.</p>"
+      "value": "<p>You gain a +1 circumstance bonus to attack the target of the Sihedron Guard Commander's strike.</p>"
     },
     "rules": [
       {
-        "key": "TempHP",
-        "value": "@actor.level"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-pf2e.feats.Item.lmowZWTzJaZfM3bb"
+        "affects": "origin",
+        "key": "EphemeralEffect",
+        "selectors": [
+          "strike-attack-roll"
+        ],
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.gJMF6Gnl6Opcgnon"
       }
     ],
-    "slug": "effect-energy-consumption",
+    "slug": null,
     "_migration": {
       "version": 0.935,
       "lastMigration": null
@@ -28,18 +27,18 @@
       "value": []
     },
     "publication": {
-      "title": "Starfinder Galaxy Guide",
+      "title": "Paizo Blog: Tech Class Playtest Encounter 2",
       "authors": "",
       "license": "ORC",
       "remaster": true
     },
     "level": {
-      "value": 13
+      "value": 1
     },
     "duration": {
-      "value": 1,
-      "unit": "minutes",
-      "expiry": "turn-start",
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
       "sustained": false
     },
     "start": {
@@ -53,13 +52,11 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "g1J6DOxBQkacvbyE",
-  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
-  "sort": 2500000,
+  "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
+  "folder": null,
   "ownership": {
     "default": 0,
-    "mcr1uhoMfGHRQJHX": 3,
-    "xrkQVtB9iGZvxqph": 3
+    "eUnac0oMbpEwem24": 3
   },
   "flags": {},
   "_stats": {
@@ -69,5 +66,7 @@
     "systemId": "pf2e",
     "systemVersion": "6.12.1"
   },
-  "_key": "!items!g1J6DOxBQkacvbyE"
+  "_id": "YJ3BHkDXXxsBcRnP",
+  "sort": 1300000,
+  "_key": "!items!YJ3BHkDXXxsBcRnP"
 }

@@ -58,7 +58,7 @@
   "_id": "UQJIKzYOhfPuxYUi",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20eye.webp",
   "folder": null,
-  "sort": 4900000,
+  "sort": 9100000,
   "ownership": {
     "default": 0,
     "Wdx2rirHxbejveh1": 3
@@ -67,7 +67,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.1.2",
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "compendiumSource": null,
     "duplicateSource": null
   },
