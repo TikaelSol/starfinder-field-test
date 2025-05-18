@@ -20,6 +20,10 @@
     },
     "rules": [
       {
+        "key": "CreatureSize",
+        "value": "medium"
+      },
+      {
         "key": "FlatModifier",
         "selector": "skill-check",
         "value": 1,
