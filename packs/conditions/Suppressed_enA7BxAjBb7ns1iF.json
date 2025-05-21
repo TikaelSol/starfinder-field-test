@@ -73,11 +73,11 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "6.3.1",
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "compendiumSource": null,
     "duplicateSource": null
   },
   "_id": "enA7BxAjBb7ns1iF",
-  "sort": 5700000,
+  "sort": 10000000,
   "_key": "!items!enA7BxAjBb7ns1iF"
 }

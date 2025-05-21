@@ -87,11 +87,11 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "12.343",
     "systemId": "pf2e",
     "systemVersion": "6.8.5"
   },
   "_id": "Oc7rfrPBpjKhcYXc",
-  "sort": 0,
+  "sort": 600000,
   "_key": "!items!Oc7rfrPBpjKhcYXc"
 }

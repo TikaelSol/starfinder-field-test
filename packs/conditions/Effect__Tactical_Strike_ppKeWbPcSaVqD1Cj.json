@@ -1,24 +1,26 @@
 {
-  "name": "Effect: Get in There!",
+  "name": "Effect: Tactical Strike",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain a +5-foot status bonus to Speed. Increase the distance by an additional 5 feet at 7th level, 12th level, and 17th level.</p>"
+      "value": "<p>You gain a +1 status bonus to attack and damage rolls.</p>"
     },
     "rules": [
       {
         "key": "FlatModifier",
-        "selector": "land-speed",
-        "slug": "incredible-movement",
-        "type": "status",
-        "value": "ternary(gte(@item.origin.level,17),20,ternary(gte(@item.origin.level,12),15,ternary(gte(@item.origin.level,7),10,5)))"
+        "selector": [
+          "attack-roll",
+          "attack-damage"
+        ],
+        "value": 1,
+        "type": "status"
       }
     ],
-    "slug": "effect-get-in-there",
+    "slug": null,
     "_migration": {
-      "version": 0.932,
+      "version": 0.935,
       "lastMigration": null
     },
     "traits": {
@@ -26,18 +28,18 @@
       "value": []
     },
     "publication": {
-      "title": "Starfinder Second Edition Playtest Rulebook",
+      "title": "Paizo Blog: Tech Class Playtest Encounter 2",
       "authors": "",
       "license": "ORC",
       "remaster": true
     },
     "level": {
-      "value": 14
+      "value": 1
     },
     "duration": {
       "value": 1,
       "unit": "rounds",
-      "expiry": "turn-start",
+      "expiry": "turn-end",
       "sustained": false
     },
     "start": {
@@ -51,11 +53,11 @@
     "context": null,
     "unidentified": false
   },
-  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20person%20running.webp",
+  "img": "icons/skills/targeting/target-glowing-yellow.webp",
   "folder": null,
   "ownership": {
     "default": 0,
-    "CmdglLq38DpgHzdd": 3
+    "eUnac0oMbpEwem24": 3
   },
   "flags": {},
   "_stats": {
@@ -63,9 +65,9 @@
     "duplicateSource": null,
     "coreVersion": "12.343",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "6.12.1"
   },
-  "_id": "QGL2W4n9DS2knbWJ",
-  "sort": 6300000,
-  "_key": "!items!QGL2W4n9DS2knbWJ"
+  "_id": "ppKeWbPcSaVqD1Cj",
+  "sort": 200000,
+  "_key": "!items!ppKeWbPcSaVqD1Cj"
 }
