@@ -605,12 +605,28 @@
                         "label": "SF2E.Trait.Archaic",
                         "description": "SF2E.TraitDescription.Archaic"
                     },
+                    "area-burst-5-ft": {
+                        "label": "SF2E.Trait.AreaBurst5Ft",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
                     "area-burst-10-ft": {
                         "label": "SF2E.Trait.AreaBurst10Ft",
                         "description": "SF2E.TraitDescription.Area"
                     },
                     "area-burst-15-ft": {
                         "label": "SF2E.Trait.AreaBurst15Ft",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "area-burst-20-ft": {
+                        "label": "SF2E.Trait.AreaBurst20Ft",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "area-burst-25-ft": {
+                        "label": "SF2E.Trait.AreaBurst25Ft",
+                        "description": "SF2E.TraitDescription.Area"
+                    },
+                    "area-burst-30-ft": {
+                        "label": "SF2E.Trait.AreaBurst30Ft",
                         "description": "SF2E.TraitDescription.Area"
                     },
                     "area-cone": {
