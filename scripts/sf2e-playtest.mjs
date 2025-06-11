@@ -59,15 +59,20 @@ Hooks.on("renderCharacterSheetPF2e", (sheet, html) => {
         if (!auxActions) continue;
 
         const label = game.i18n.localize(`SF2E.Actions.${isArea ? "AreaFire" : "AutoFire"}.Title`);
-        const button = $(`<button class="use-action" type="button"><span>${label}</span> <span class="action-glyph">2</span></button>`);
-        $(auxActions).prepend(button);
-        button.on("click", () => {
+        const button = createHTMLElement(`<button class="use-action" type="button"><span>${label}</span> <span class="action-glyph">2</span></button>`);
+        auxActions.prepend(button);
+        button.addEventListener("click", () => {
             createAreaFireMessage(item);
         });
     }
 });
 
+function createHTMLElement(elementString) {
+    const element = document.createElement("template");
+    element.innerHTML = elementString?.trim();
+    return element.content.firstElementChild;
+}
 
-Hooks.on('renderChatMessage', (message, $html) => {
-    listenAreaFireMessage(message, $html.get(0));
+Hooks.on('renderChatMessageHTML', (message, html) => {
+    listenAreaFireMessage(message, html);
 });
