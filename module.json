@@ -114,6 +114,19 @@
             "flags": {}
         },
         {
+            "name": "companions",
+            "label": "Companions",
+            "path": "packs/companions",
+            "type": "Item",
+            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_0.webp",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
             "name": "ancestries",
             "label": "Ancestries",
             "path": "packs/ancestries",
@@ -158,19 +171,6 @@
             "path": "packs/class-features",
             "type": "Item",
             "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_4.webp",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "pf2e",
-            "flags": {}
-        },
-        {
-            "name": "companions",
-            "label": "Companions",
-            "path": "packs/companions",
-            "type": "Item",
-            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_6.webp",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
