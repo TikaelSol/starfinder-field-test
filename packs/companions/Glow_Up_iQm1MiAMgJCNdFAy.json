@@ -1,6 +1,6 @@
 {
   "folder": "dH0nx59Q75tk2TT8",
-  "name": "Linguistic Upload",
+  "name": "Glow Up",
   "type": "feat",
   "effects": [],
   "system": {
@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Your robot companion can speak two additional languages. It must have the artificial personality or sapient customization to select this customization.</p>",
+      "value": "<p>Your robot companion is a made to be expressive and evoke emotion. Its proficiency ranks for Diplomacy increases to expert (or master if it was already expert) and its Charisma modifier increases to +3. It must have the artificial personality or sapient customizations to select this customization.</p>",
       "gm": ""
     },
     "publication": {
@@ -22,15 +22,22 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
-    "slug": "linguistic-upload",
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.diplomacy.rank",
+        "value": 2
+      }
+    ],
+    "slug": "camouflage",
     "traits": {
       "otherTags": [],
       "value": [],
       "rarity": "common"
     },
     "level": {
-      "value": 1
+      "value": 16
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -44,7 +51,10 @@
     "prerequisites": {
       "value": [
         {
-          "value": "artificial personality or sapient customization"
+          "value": "Artificial Personality"
+        },
+        {
+          "value": "Sapient"
         }
       ]
     },
@@ -54,7 +64,7 @@
       "suppressedFeatures": [],
       "languages": {
         "granted": [],
-        "slots": 2
+        "slots": 0
       }
     },
     "location": null
@@ -69,11 +79,11 @@
     "systemId": "pf2e",
     "systemVersion": "7.2.0"
   },
-  "_id": "mcYaQyHX4oCWEDiu",
-  "sort": 1700000,
+  "_id": "iQm1MiAMgJCNdFAy",
+  "sort": 0,
   "ownership": {
     "default": 0,
     "kFKtt3r5Xd5l6LFK": 3
   },
-  "_key": "!items!mcYaQyHX4oCWEDiu"
+  "_key": "!items!iQm1MiAMgJCNdFAy"
 }

@@ -1,6 +1,6 @@
 {
   "folder": "dH0nx59Q75tk2TT8",
-  "name": "Linguistic Upload",
+  "name": "Neural Upload",
   "type": "feat",
   "effects": [],
   "system": {
@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Your robot companion can speak two additional languages. It must have the artificial personality or sapient customization to select this customization.</p>",
+      "value": "<p>Once every 10 minutes, you can use a single action with the concentrate trait to temporarily upload your mind fully into your robot companion, controlling it directly by thought. When you do, you lose all sensory information from your own body, but can sense through your robot companion's body. For up to 1 minute, any actions you perform are instead performed by your robot companion. You can Dismiss this effect.</p>",
       "gm": ""
     },
     "publication": {
@@ -23,14 +23,14 @@
       "remaster": false
     },
     "rules": [],
-    "slug": "linguistic-upload",
+    "slug": "neural-upload",
     "traits": {
       "otherTags": [],
       "value": [],
       "rarity": "common"
     },
     "level": {
-      "value": 1
+      "value": 10
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -42,11 +42,7 @@
       "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "artificial personality or sapient customization"
-        }
-      ]
+      "value": []
     },
     "subfeatures": {
       "proficiencies": {},
@@ -54,7 +50,7 @@
       "suppressedFeatures": [],
       "languages": {
         "granted": [],
-        "slots": 2
+        "slots": 0
       }
     },
     "location": null
@@ -69,11 +65,11 @@
     "systemId": "pf2e",
     "systemVersion": "7.2.0"
   },
-  "_id": "mcYaQyHX4oCWEDiu",
-  "sort": 1700000,
   "ownership": {
     "default": 0,
     "kFKtt3r5Xd5l6LFK": 3
   },
-  "_key": "!items!mcYaQyHX4oCWEDiu"
+  "_id": "ohaPG3gKj8GCZzQP",
+  "sort": 0,
+  "_key": "!items!ohaPG3gKj8GCZzQP"
 }

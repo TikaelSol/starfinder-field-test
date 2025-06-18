@@ -1,6 +1,6 @@
 {
   "folder": "dH0nx59Q75tk2TT8",
-  "name": "Linguistic Upload",
+  "name": "Speedster",
   "type": "feat",
   "effects": [],
   "system": {
@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Your robot companion can speak two additional languages. It must have the artificial personality or sapient customization to select this customization.</p>",
+      "value": "<p>Your robot companion is incredibly fast. It gains a +10-foot status bonus to all of its Speeds.</p>",
       "gm": ""
     },
     "publication": {
@@ -22,15 +22,22 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
-    "slug": "linguistic-upload",
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "all-speeds",
+        "value": 10,
+        "type": "status"
+      }
+    ],
+    "slug": "camouflage",
     "traits": {
       "otherTags": [],
       "value": [],
       "rarity": "common"
     },
     "level": {
-      "value": 1
+      "value": 16
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -42,11 +49,7 @@
       "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "artificial personality or sapient customization"
-        }
-      ]
+      "value": []
     },
     "subfeatures": {
       "proficiencies": {},
@@ -54,7 +57,7 @@
       "suppressedFeatures": [],
       "languages": {
         "granted": [],
-        "slots": 2
+        "slots": 0
       }
     },
     "location": null
@@ -69,11 +72,11 @@
     "systemId": "pf2e",
     "systemVersion": "7.2.0"
   },
-  "_id": "mcYaQyHX4oCWEDiu",
-  "sort": 1700000,
+  "_id": "48UJvYJCqH67GxfX",
+  "sort": 0,
   "ownership": {
     "default": 0,
     "kFKtt3r5Xd5l6LFK": 3
   },
-  "_key": "!items!mcYaQyHX4oCWEDiu"
+  "_key": "!items!48UJvYJCqH67GxfX"
 }

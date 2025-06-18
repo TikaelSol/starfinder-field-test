@@ -1,6 +1,6 @@
 {
   "folder": "dH0nx59Q75tk2TT8",
-  "name": "Linguistic Upload",
+  "name": "Recharge",
   "type": "feat",
   "effects": [],
   "system": {
@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>Your robot companion can speak two additional languages. It must have the artificial personality or sapient customization to select this customization.</p>",
+      "value": "<p>Your drone can recharge a battery it touches as a single action with the concentrate trait, transferring some of its own power reserves into the battery. When it does, it becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round.</p>",
       "gm": ""
     },
     "publication": {
@@ -23,14 +23,14 @@
       "remaster": false
     },
     "rules": [],
-    "slug": "linguistic-upload",
+    "slug": "recharge",
     "traits": {
       "otherTags": [],
       "value": [],
       "rarity": "common"
     },
     "level": {
-      "value": 1
+      "value": 10
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -42,11 +42,7 @@
       "value": null
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "artificial personality or sapient customization"
-        }
-      ]
+      "value": []
     },
     "subfeatures": {
       "proficiencies": {},
@@ -54,7 +50,7 @@
       "suppressedFeatures": [],
       "languages": {
         "granted": [],
-        "slots": 2
+        "slots": 0
       }
     },
     "location": null
@@ -69,11 +65,11 @@
     "systemId": "pf2e",
     "systemVersion": "7.2.0"
   },
-  "_id": "mcYaQyHX4oCWEDiu",
-  "sort": 1700000,
   "ownership": {
     "default": 0,
     "kFKtt3r5Xd5l6LFK": 3
   },
-  "_key": "!items!mcYaQyHX4oCWEDiu"
+  "_id": "ewUhRxp98qcgXqez",
+  "sort": 0,
+  "_key": "!items!ewUhRxp98qcgXqez"
 }
