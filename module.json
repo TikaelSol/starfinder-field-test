@@ -6,7 +6,7 @@
     "download": "https://github.com/TikaelSol/starfinder-field-test/releases/latest/download/module.zip",
     "version": "6.8",
     "compatibility": {
-        "minimum": "12.331",
+        "minimum": "13",
         "verified": "13"
     },
     "relationships": {
