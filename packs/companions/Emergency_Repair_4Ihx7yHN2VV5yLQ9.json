@@ -1,0 +1,75 @@
+{
+  "folder": "dH0nx59Q75tk2TT8",
+  "name": "Emergency Repair",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "description": {
+      "value": "<p>Once every 10 minutes, your drone can use a single action to initiate an emergency repair sequence, restoring @Damage[@actor.level[healing]]{Hit Points equal to its level}. If your drone is superior, it instead restores @Damage[(2 * @actor.level)[healing]]{Hit Points equal to twice its level}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "emergency-repair",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      }
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_id": "4Ihx7yHN2VV5yLQ9",
+  "sort": 0,
+  "_key": "!items!4Ihx7yHN2VV5yLQ9"
+}

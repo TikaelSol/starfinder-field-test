@@ -1,0 +1,92 @@
+{
+  "folder": "dH0nx59Q75tk2TT8",
+  "name": "Sapient",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "description": {
+      "value": "<p>Your robot companion has achieved sapience, though it's yet to become a fully autonomous being. It is no longer immune to mental or spirit damage, its Intelligence increases to +0, and it can attempt actions that require Intelligence and Charisma. It can speak Common. Due to the stress of combat, you must still Command your robot companion in battle for it to act.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Immunity",
+        "mode": "remove",
+        "type": [
+          "mental"
+        ]
+      },
+      {
+        "key": "Immunity",
+        "mode": "remove",
+        "type": [
+          "spirit"
+        ]
+      }
+    ],
+    "slug": "sapient",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "languages": {
+        "granted": [
+          "common"
+        ],
+        "slots": 0
+      }
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "_id": "TNhICCqZcD8roLJS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_key": "!items!TNhICCqZcD8roLJS"
+}

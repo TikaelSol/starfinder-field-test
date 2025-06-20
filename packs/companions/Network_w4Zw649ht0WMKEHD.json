@@ -1,0 +1,75 @@
+{
+  "folder": "dH0nx59Q75tk2TT8",
+  "name": "Network",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "description": {
+      "value": "<p>Your robot companion has an integrated hacking kit and can connect to an adjacent computer as a single action. When it's connected, you can perform Computers checks on the connected computer as if you were adjacent to it.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "network",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      }
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "_id": "w4Zw649ht0WMKEHD",
+  "sort": 1100000,
+  "_key": "!items!w4Zw649ht0WMKEHD"
+}

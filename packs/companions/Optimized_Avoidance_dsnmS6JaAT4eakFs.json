@@ -1,0 +1,95 @@
+{
+  "folder": "dH0nx59Q75tk2TT8",
+  "name": "Optimized Avoidance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "description": {
+      "value": "<p>Choose one type of saving throw. Your robot companion takes no damage when it rolls a success on that type of save; this doesn't prevent effects other than damage. You can select this customization more than once.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "Fortitude",
+            "value": "fortitude"
+          },
+          {
+            "label": "Reflex",
+            "value": "reflex"
+          },
+          {
+            "label": "Will",
+            "value": "will"
+          }
+        ],
+        "flag": "skill",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      }
+    ],
+    "slug": "optimized-avoidance",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      }
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_id": "dsnmS6JaAT4eakFs",
+  "sort": 0,
+  "_key": "!items!dsnmS6JaAT4eakFs"
+}

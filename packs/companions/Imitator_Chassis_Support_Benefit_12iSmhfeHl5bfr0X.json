@@ -1,0 +1,59 @@
+{
+  "name": "Imitator Chassis Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": "SiMAXne6xGVfFOHF",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your robot companion focuses on the same target as you, distracting one enemy within the first range increment of its weapon. Until the start of your next turn, your Strikes against that target that deal damage make the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}.</p>"
+    },
+    "rules": [],
+    "slug": "imitator-chassis-support-benefit",
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "_id": "12iSmhfeHl5bfr0X",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_key": "!items!12iSmhfeHl5bfr0X"
+}

@@ -1,0 +1,75 @@
+{
+  "folder": "dH0nx59Q75tk2TT8",
+  "name": "Neural Upload",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "description": {
+      "value": "<p>Once every 10 minutes, you can use a single action with the concentrate trait to temporarily upload your mind fully into your robot companion, controlling it directly by thought. When you do, you lose all sensory information from your own body, but can sense through your robot companion's body. For up to 1 minute, any actions you perform are instead performed by your robot companion. You can Dismiss this effect.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "neural-upload",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      }
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_id": "ohaPG3gKj8GCZzQP",
+  "sort": 0,
+  "_key": "!items!ohaPG3gKj8GCZzQP"
+}

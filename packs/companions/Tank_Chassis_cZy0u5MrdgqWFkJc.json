@@ -1,0 +1,180 @@
+{
+  "name": "Tank Chassis",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "SiMAXne6xGVfFOHF",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is built to endure.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.traits.size.value",
+        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "value": "sm"
+          }
+        ],
+        "flag": "companionSize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.companions.Item.pP88IFN21PD50k53",
+        "predicate": [
+          {
+            "not": "class:robot-companion"
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": -1,
+        "mode": "add",
+        "path": "system.abilities.cha.mod"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "Battering Ram",
+        "range": {
+          "increment": 30
+        },
+        "traits": [
+          "shove"
+        ],
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.companions.Item.VHsk2zAVDC7CNg3r"
+      }
+    ],
+    "slug": "tank-chassis",
+    "_migration": {
+      "version": 0.94,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "construct",
+        "minion",
+        "robot"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 10,
+    "size": "med",
+    "reach": 5,
+    "speed": 20,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {},
+    "vision": "low-light-vision"
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "_id": "cZy0u5MrdgqWFkJc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_key": "!items!cZy0u5MrdgqWFkJc"
+}

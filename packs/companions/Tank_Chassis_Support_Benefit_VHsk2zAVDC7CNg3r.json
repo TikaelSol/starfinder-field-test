@@ -1,0 +1,59 @@
+{
+  "name": "Tank Chassis Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": "SiMAXne6xGVfFOHF",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your robot companion assists you in battle. You gain a +1 circumstance bonus on your next attack roll to Strike a foe within the robot companion's reach. The bonus lasts until the first time you use it or until the beginning of your next turn, whichever comes first.</p>"
+    },
+    "rules": [],
+    "slug": "imitator-chassis-support-benefit",
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "_id": "VHsk2zAVDC7CNg3r",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_key": "!items!VHsk2zAVDC7CNg3r"
+}

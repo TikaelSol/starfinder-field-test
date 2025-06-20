@@ -1,0 +1,84 @@
+{
+  "folder": "dH0nx59Q75tk2TT8",
+  "name": "Integrated Weapon Mount",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "description": {
+      "value": "<p>Your robot companion becomes trained in simple and martial weapons. It has one weapon mount. You can install (or uninstall) a weapon into this weapon mount as a 10-minute activity with the manipulate trait. When a weapon is installed in this weapon mount, your robot companion can wield the weapon and can't be Disarmed of the weapon. You can take this customization twice, to gain a second weapon mount.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "integrated-weapon-mount",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "martial": {
+          "rank": 1,
+          "attribute": null
+        },
+        "simple": {
+          "rank": 1,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      }
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "_id": "DDpS9OJ0tVrth9t2",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_key": "!items!DDpS9OJ0tVrth9t2"
+}

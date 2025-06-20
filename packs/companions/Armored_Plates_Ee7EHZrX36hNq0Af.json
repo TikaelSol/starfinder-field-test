@@ -1,0 +1,88 @@
+{
+  "folder": "dH0nx59Q75tk2TT8",
+  "name": "Armored Plates",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "description": {
+      "value": "<p>Your robot companion gains a +1 item bonus to AC, or a +2 item bonus to AC if it is a superior robot companion. It still uses its unarmored proficiency to calculate its AC.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": 1,
+        "type": "item"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": 2,
+        "type": "item",
+        "label": "Armored Plates (Superior)",
+        "predicate": [
+          "feature:superior-robot-companion"
+        ]
+      }
+    ],
+    "slug": "armored-plates",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "Ee7EHZrX36hNq0Af",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_key": "!items!Ee7EHZrX36hNq0Af"
+}

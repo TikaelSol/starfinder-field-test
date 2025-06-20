@@ -1,0 +1,115 @@
+{
+  "folder": "dH0nx59Q75tk2TT8",
+  "name": "Resistant Panels",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "description": {
+      "value": "<p>Choose one of the following damage types: acid, bludgeoning, cold, fire, piercing, slashing, or sonic. Your robot companion gains resistance equal to half its level (rounded up) against the chosen damage type. You can select this customization more than once.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Acid",
+            "value": "acid"
+          },
+          {
+            "label": "Bludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "Cold",
+            "value": "cold"
+          },
+          {
+            "label": "Fire",
+            "value": "fire"
+          },
+          {
+            "label": "Piercing",
+            "value": "piercing"
+          },
+          {
+            "label": "Slashing",
+            "value": "slashing"
+          },
+          {
+            "label": "Sonic",
+            "value": "sonic"
+          }
+        ],
+        "flag": "damageType"
+      },
+      {
+        "key": "Resistance",
+        "type": "{item|flags.pf2e.rulesSelections.damageType}",
+        "value": "ceil(@actor.level / 2)"
+      }
+    ],
+    "slug": "recharge",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      }
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "_id": "F6tpALr5dTvNjChV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_key": "!items!F6tpALr5dTvNjChV"
+}
