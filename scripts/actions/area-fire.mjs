@@ -9,17 +9,25 @@ async function createAreaFireMessage(weapon) {
 
     const savingThrow = calculateSaveDC(weapon);
     const areaLabel = createAreaLabel(calculateArea(weapon));
-    const content = await renderTemplate("/modules/starfinder-field-test-for-pf2e/templates/area-fire-message.hbs", {
+    const templatePath = "/modules/starfinder-field-test-for-pf2e/templates/area-fire-message.hbs";
+    const content = await foundry.applications.handlebars.renderTemplate(templatePath, {
         actor,
         item: {
             img: weapon.img,
             name: game.i18n.localize(`SF2E.Actions.${key}.Title`),
-            traits: ["area", "attack"].map((t) => ({ name: t, label: CONFIG.PF2E.actionTraits[t], description: CONFIG.PF2E.traitsDescriptions[t] })),
+            traits: ["area", "attack"].map((t) => ({
+                name: t,
+                label: CONFIG.PF2E.actionTraits[t],
+                description: CONFIG.PF2E.traitsDescriptions[t]
+            })),
             actionCost: 2,
             description: game.i18n.localize(`SF2E.Actions.${key}.Description`),
         },
         areaLabel,
-        saveLabel: game.i18n.format("PF2E.SaveDCLabelBasic", { dc: savingThrow.dc.value, type: game.i18n.localize(CONFIG.PF2E.saves.reflex) }),
+        saveLabel: game.i18n.format("PF2E.SaveDCLabelBasic", {
+            dc: savingThrow.dc.value,
+            type: game.i18n.localize(CONFIG.PF2E.saves.reflex)
+        }),
         saveBreakdown: savingThrow.dc.breakdown,
     });
 
