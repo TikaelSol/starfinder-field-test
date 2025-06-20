@@ -7,7 +7,7 @@
     "version": "6.8",
     "compatibility": {
         "minimum": "12.331",
-        "verified": "12.331"
+        "verified": "13"
     },
     "relationships": {
         "systems": [
@@ -289,7 +289,8 @@
                         "equipment",
                         "heritages",
                         "iconics",
-                        "spells"
+                        "spells",
+                        "companions"
                     ]
                 }
             ]
