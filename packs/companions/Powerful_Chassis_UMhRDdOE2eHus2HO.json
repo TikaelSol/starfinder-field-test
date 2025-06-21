@@ -114,6 +114,12 @@
       {
         "key": "GrantItem",
         "uuid": "Item.ITgBCntpB0o6ciUy"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.starfinder-field-test-for-pf2e.companions.Item.swLxghJie3RS9vRJ"
       }
     ],
     "slug": "powerful-chassis",
@@ -182,7 +188,7 @@
     "systemVersion": "7.2.0"
   },
   "_id": "UMhRDdOE2eHus2HO",
-  "sort": 0,
+  "sort": 600000,
   "ownership": {
     "default": 0,
     "kFKtt3r5Xd5l6LFK": 3

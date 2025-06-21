@@ -1,5 +1,5 @@
 {
-  "name": "Mature Robot Companion",
+  "name": "Burly Robot Companion",
   "type": "feat",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
   "effects": [],
@@ -10,7 +10,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>When you advance a robot companion to a mature robot companion:</p><ul><li>If your companion is Medium or smaller, it grows by one size.</li><li>Increase its Strength, Dexterity, Constitution, and Wisdom modifiers by 1.</li><li>Increase its proficiency rank for Perception and all saving throws to expert. Increase its proficiency ranks in Intimidation, Stealth, and Survival to trained, and if it was already trained in one of those skills from its type, increase its proficiency rank in that skill to expert.</li><li>Increase its unarmed attack damage from one die to two dice (for instance 1d8 to 2d8)</li></ul>"
+      "value": "<p>To advance a mature robot companion to a burly robot companion:</p><ul><li><p>If your companion is Medium or smaller, it grows by one size.</p></li><li><p>Increase its Strength modifier by 2 and its Dexterity, Constitution, and Wisdom modifiers by 1.</p></li><li><p>Increase its proficiency rank in Athletics to expert.</p></li><li><p>It deals 3 additional damage with its unarmed attacks.</p></li><li><p>Its attacks become magical for the purpose of ignoring resistances. It learns the advanced maneuver for its type.</p></li></ul>"
     },
     "rules": [
       {
@@ -20,7 +20,7 @@
       },
       {
         "key": "ActiveEffectLike",
-        "value": 1,
+        "value": 2,
         "mode": "add",
         "path": "system.abilities.str.mod"
       },
@@ -44,60 +44,32 @@
       },
       {
         "key": "ActiveEffectLike",
-        "value": 1,
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "unarmed-damage",
+        "value": 3,
+        "slug": "companion-additional-damage"
+      },
+      {
+        "key": "ItemAlteration",
         "mode": "add",
-        "path": "system.skills.intimidation.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 1,
-        "mode": "add",
-        "path": "system.skills.stealth.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 1,
-        "mode": "add",
-        "path": "system.skills.survival.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 2,
-        "mode": "upgrade",
-        "path": "system.saves.fortitude.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 2,
-        "mode": "upgrade",
-        "path": "system.saves.reflex.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 2,
-        "mode": "upgrade",
-        "path": "system.saves.will.rank"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "value": 2,
-        "mode": "upgrade",
-        "path": "system.perception.rank"
-      },
-      {
-        "key": "DamageAlteration",
-        "selectors": [
-          "unarmed-damage"
-        ],
-        "value": 2,
-        "mode": "upgrade",
-        "property": "dice-number",
+        "property": "traits",
+        "value": "magical",
         "predicate": [
-          "dice:slug:base"
-        ]
+          "item:category:unarmed"
+        ],
+        "itemType": "weapon"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{actor|flags.pf2e.companionCompendia.advancedManeuver}"
       }
     ],
-    "slug": "mature-robot-companion",
+    "slug": "burly-robot-companion",
     "_migration": {
       "version": 0.94,
       "previous": {
@@ -118,7 +90,7 @@
       "remaster": false
     },
     "level": {
-      "value": 4
+      "value": 8
     },
     "category": "ancestryfeature",
     "onlyLevel1": false,
@@ -147,11 +119,11 @@
     "systemId": "pf2e",
     "systemVersion": "7.2.0"
   },
-  "_id": "RxoYFhBOejwtKTFQ",
-  "sort": 400000,
+  "_id": "XAKLwaG8dLngkAbf",
+  "sort": 1400000,
   "ownership": {
     "default": 0,
     "kFKtt3r5Xd5l6LFK": 3
   },
-  "_key": "!items!RxoYFhBOejwtKTFQ"
+  "_key": "!items!XAKLwaG8dLngkAbf"
 }
