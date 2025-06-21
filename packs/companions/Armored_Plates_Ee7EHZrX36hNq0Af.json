@@ -26,18 +26,19 @@
       {
         "key": "FlatModifier",
         "selector": "ac",
+        "slug": "armored-plates-bonus",
         "value": 1,
         "type": "item"
       },
       {
-        "key": "FlatModifier",
-        "selector": "ac",
-        "value": 2,
-        "type": "item",
-        "label": "Armored Plates (Superior)",
+        "key": "AdjustModifier",
+        "mode": "upgrade",
         "predicate": [
           "feature:superior-robot-companion"
-        ]
+        ],
+        "selector": "ac",
+        "slug": "armored-plates-bonus",
+        "value": 2
       }
     ],
     "slug": "armored-plates",
