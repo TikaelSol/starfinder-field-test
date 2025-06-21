@@ -23,19 +23,19 @@
         "key": "RollOption",
         "suboptions": [
           {
-            "label": "SF2E.Contemplative.IntensifiedPsychicShock.ExtendedShock",
+            "label": "SF2E.SpecificRule.Contemplative.IntensifiedPsychicShock.ExtendedShock",
             "value": "extended-shock"
           },
           {
-            "label": "SF2E.Contemplative.IntensifiedPsychicShock.MindCrusher",
+            "label": "SF2E.SpecificRule.Contemplative.IntensifiedPsychicShock.MindCrusher",
             "value": "mind-crusher"
           },
           {
-            "label": "SF2E.Contemplative.IntensifiedPsychicShock.PeerPressure.Label",
+            "label": "SF2E.SpecificRule.Contemplative.IntensifiedPsychicShock.PeerPressure.Label",
             "value": "peer-pressure"
           },
           {
-            "label": "SF2E.Contemplative.IntensifiedPsychicShock.PsychicWave",
+            "label": "SF2E.SpecificRule.Contemplative.IntensifiedPsychicShock.PsychicWave",
             "value": "psychic-wave"
           }
         ],
@@ -83,12 +83,12 @@
       {
         "key": "Note",
         "selector": "attack-damage",
-        "text": "SF2E.Contemplative.IntensifiedPsychicShock.PeerPressure.Note",
+        "text": "SF2E.SpecificRule.Contemplative.IntensifiedPsychicShock.PeerPressure.Note",
         "predicate": [
           "item:tag:contemplative-psychic-shock",
           "intensified-psychic-shock:peer-pressure"
         ],
-        "title": "SF2E.Contemplative.IntensifiedPsychicShock.PeerPressure.Label",
+        "title": "SF2E.SpecificRule.Contemplative.IntensifiedPsychicShock.PeerPressure.Label",
         "outcome": [
           "success"
         ]
