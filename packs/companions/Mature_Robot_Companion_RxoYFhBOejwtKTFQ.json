@@ -14,11 +14,6 @@
     },
     "rules": [
       {
-        "key": "CreatureSize",
-        "value": 1,
-        "maximumSize": "lg"
-      },
-      {
         "key": "ActiveEffectLike",
         "value": 1,
         "mode": "add",
@@ -95,6 +90,29 @@
         "predicate": [
           "dice:slug:base"
         ]
+      },
+      {
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeLarge",
+            "value": "large"
+          },
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "medium"
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "value": "small"
+          }
+        ],
+        "flag": "size",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "CreatureSize",
+        "value": "{item|flags.pf2e.rulesSelections.size}"
       }
     ],
     "slug": "mature-robot-companion",

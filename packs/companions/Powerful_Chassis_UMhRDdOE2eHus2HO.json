@@ -137,7 +137,8 @@
       "value": [
         "construct",
         "minion",
-        "robot"
+        "robot",
+        "tech"
       ],
       "rarity": "common"
     },
