@@ -22,7 +22,113 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "PF2E.Actions.Disarm.Title",
+            "value": "disarm"
+          },
+          {
+            "label": "PF2E.Actions.Grapple.Title",
+            "value": "grapple"
+          },
+          {
+            "label": "PF2E.Actions.Reposition.Title",
+            "value": "reposition"
+          },
+          {
+            "label": "PF2E.Actions.Shove.Title",
+            "value": "shove"
+          },
+          {
+            "label": "PF2E.Actions.Trip.Title",
+            "value": "trip"
+          }
+        ],
+        "flag": "maneuverFirst",
+        "rollOption": "maneuver-first"
+      },
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "PF2E.Actions.Disarm.Title",
+            "predicate": [
+              {
+                "not": "maneuver-first:disarm"
+              }
+            ],
+            "value": "disarm"
+          },
+          {
+            "label": "PF2E.Actions.Grapple.Title",
+            "predicate": [
+              {
+                "not": "maneuver-first:grapple"
+              }
+            ],
+            "value": "grapple"
+          },
+          {
+            "label": "PF2E.Actions.Reposition.Title",
+            "predicate": [
+              {
+                "not": "maneuver-first:reposition"
+              }
+            ],
+            "value": "reposition"
+          },
+          {
+            "label": "PF2E.Actions.Shove.Title",
+            "predicate": [
+              {
+                "not": "maneuver-first:shove"
+              }
+            ],
+            "value": "shove"
+          },
+          {
+            "label": "PF2E.Actions.Trip.Title",
+            "predicate": [
+              {
+                "not": "maneuver-first:trip"
+              }
+            ],
+            "value": "trip"
+          }
+        ],
+        "flag": "maneuverSecond",
+        "rollOption": "maneuver-second"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "slug": "maneuver-module-bonus",
+        "value": 1,
+        "predicate": [
+          {
+            "or": [
+              "action:{item|flags.pf2e.rulesSelections.maneuverFirst}",
+              "action:{item|flags.pf2e.rulesSelections.maneuverSecond}"
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "feature:superior-companion"
+        ],
+        "selector": "athletics",
+        "value": 2
+      }
+    ],
     "slug": "manual-dexterity",
     "traits": {
       "otherTags": [],
