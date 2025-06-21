@@ -36,6 +36,12 @@
         "type": [
           "spirit"
         ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
       }
     ],
     "slug": "sapient",
