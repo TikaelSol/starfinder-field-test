@@ -1,5 +1,5 @@
 {
-  "folder": "dH0nx59Q75tk2TT8",
+  "folder": "5KwLUOxsnskzKUfv",
   "name": "Sapient",
   "type": "feat",
   "effects": [],
@@ -36,6 +36,12 @@
         "type": [
           "spirit"
         ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
       }
     ],
     "slug": "sapient",

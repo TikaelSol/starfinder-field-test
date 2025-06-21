@@ -3,7 +3,7 @@
   "type": "action",
   "img": "systems/pf2e/icons/actions/OneAction.webp",
   "effects": [],
-  "folder": "SiMAXne6xGVfFOHF",
+  "folder": "Ph9bSU1nSrfbJLlc",
   "flags": {
     "core": {}
   },
@@ -50,7 +50,7 @@
     "systemVersion": "7.2.0"
   },
   "_id": "12iSmhfeHl5bfr0X",
-  "sort": 0,
+  "sort": 400000,
   "ownership": {
     "default": 0,
     "kFKtt3r5Xd5l6LFK": 3

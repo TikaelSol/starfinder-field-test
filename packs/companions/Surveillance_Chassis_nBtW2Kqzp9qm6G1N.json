@@ -84,6 +84,12 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.starfinder-field-test-for-pf2e.companions.Item.bjkYMKStMpRz8cUr"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "value": "Compendium.starfinder-field-test-for-pf2e.companions.Item.FLOeCcf1xhwduJKR"
       }
     ],
     "slug": "surveillance-chassis",
@@ -101,7 +107,8 @@
       "value": [
         "construct",
         "minion",
-        "robot"
+        "robot",
+        "tech"
       ],
       "rarity": "common"
     },
@@ -152,7 +159,7 @@
     "systemVersion": "7.2.0"
   },
   "_id": "nBtW2Kqzp9qm6G1N",
-  "sort": 0,
+  "sort": 1100000,
   "ownership": {
     "default": 0,
     "kFKtt3r5Xd5l6LFK": 3
