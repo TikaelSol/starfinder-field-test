@@ -1,0 +1,141 @@
+{
+  "name": "Specialized Robot Companion",
+  "type": "feat",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "effects": [],
+  "folder": "SiMAXne6xGVfFOHF",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Specialized robot companions are more intelligent and engage in more complex behaviors. Most robot companions can have only one specialization. The first time an robot gains a specialization, it also gains the following.</p><ul><li>Its proficiency rank for unarmed attacks increases to expert.</li><li>Its proficiency ranks for saving throws and Perception increase to master.</li><li>Increase its Dexterity modifier by 1 and its Intelligence modifier by 2.</li><li>Its unarmed attack damage increases from two dice to three dice, and it increases its additional damage with unarmed attacks from 2 to 4 or from 3 to 6.</li></ul>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.int.mod"
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "unarmed-damage"
+        ],
+        "value": 3,
+        "mode": "upgrade",
+        "property": "dice-number",
+        "predicate": [
+          "dice:slug:base"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "unarmed-damage",
+        "mode": "multiply",
+        "slug": "companion-additional-damage",
+        "value": 2
+      },
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": {
+          "filter": [
+            "item:tag:specialized-robot-companion-benefit"
+          ]
+        },
+        "flag": "benefit",
+        "prompt": "Select a specialized companion you have access to"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.benefit}"
+      }
+    ],
+    "slug": "graceful-robot-companion",
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 18
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "perception": {
+          "rank": 3,
+          "attribute": null
+        },
+        "fortitude": {
+          "rank": 3,
+          "attribute": null
+        },
+        "reflex": {
+          "rank": 3,
+          "attribute": null
+        },
+        "will": {
+          "rank": 3,
+          "attribute": null
+        },
+        "unarmed": {
+          "rank": 2,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_id": "9WDoVtM07OpS6DRy",
+  "sort": 0,
+  "_key": "!items!9WDoVtM07OpS6DRy"
+}

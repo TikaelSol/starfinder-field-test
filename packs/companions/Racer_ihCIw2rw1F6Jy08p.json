@@ -1,0 +1,121 @@
+{
+  "name": "Racer",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/heal-animal.webp",
+  "effects": [],
+  "folder": "KJWaFUSsP3YwJjta",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion races. It gains a +10-foot status bonus to its Speed, swim Speed, or fly Speed (your choice). Its proficiency in Fortitude saves increases to legendary, and its Constitution modifier increases by 1.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "PF2E.Actor.Speed.Type.Fly",
+            "value": "fly-speed",
+            "predicate": [
+              "speed:fly"
+            ]
+          },
+          {
+            "label": "PF2E.Actor.Speed.Type.Land",
+            "value": "land-speed",
+            "predicate": [
+              "speed:land"
+            ]
+          },
+          {
+            "label": "PF2E.Actor.Speed.Type.Swim",
+            "value": "swim-speed",
+            "predicate": [
+              "speed:swim"
+            ]
+          }
+        ],
+        "flag": "speed"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|flags.pf2e.rulesSelections.speed}",
+        "value": 10,
+        "type": "status"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      }
+    ],
+    "slug": "racer",
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.345",
+        "system": "7.2.0"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "specialized-robot-companion-benefit"
+      ],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "fortitude": {
+          "rank": 4,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_id": "ihCIw2rw1F6Jy08p",
+  "sort": 100000,
+  "_key": "!items!ihCIw2rw1F6Jy08p"
+}

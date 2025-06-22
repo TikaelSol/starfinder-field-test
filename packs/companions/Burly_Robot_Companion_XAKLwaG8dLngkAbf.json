@@ -1,0 +1,129 @@
+{
+  "name": "Burly Robot Companion",
+  "type": "feat",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "effects": [],
+  "folder": "SiMAXne6xGVfFOHF",
+  "flags": {
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>To advance a mature robot companion to a burly robot companion:</p><ul><li><p>If your companion is Medium or smaller, it grows by one size.</p></li><li><p>Increase its Strength modifier by 2 and its Dexterity, Constitution, and Wisdom modifiers by 1.</p></li><li><p>Increase its proficiency rank in Athletics to expert.</p></li><li><p>It deals 3 additional damage with its unarmed attacks.</p></li><li><p>Its attacks become magical for the purpose of ignoring resistances. It learns the advanced maneuver for its type.</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "CreatureSize",
+        "value": 1,
+        "maximumSize": "lg"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "unarmed-damage",
+        "value": 3,
+        "slug": "companion-additional-damage"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "magical",
+        "predicate": [
+          "item:category:unarmed"
+        ],
+        "itemType": "weapon"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{actor|flags.pf2e.companionCompendia.advancedManeuver}"
+      }
+    ],
+    "slug": "burly-robot-companion",
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "_id": "XAKLwaG8dLngkAbf",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_key": "!items!XAKLwaG8dLngkAbf"
+}
