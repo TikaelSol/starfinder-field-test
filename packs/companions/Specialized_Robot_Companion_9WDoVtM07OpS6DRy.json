@@ -49,7 +49,7 @@
         "key": "ChoiceSet",
         "choices": {
           "filter": [
-            "item:tag:specialized-companion-benefit"
+            "item:tag:specialized-robot-companion-benefit"
           ]
         },
         "flag": "benefit",
