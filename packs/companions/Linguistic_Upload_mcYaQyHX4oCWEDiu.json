@@ -22,7 +22,14 @@
       "license": "OGL",
       "remaster": false
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.max",
+        "value": 2
+      }
+    ],
     "slug": "linguistic-upload",
     "traits": {
       "otherTags": [],
