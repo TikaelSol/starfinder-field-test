@@ -24,21 +24,26 @@ for (const pack of packFolders) {
 
 console.log("Build Packs Finished");
 
+// Copy files and folders to output
 const files = ["art", "assets", "fonts", "lang", "scripts", "styles", "templates", "module.json", "ORCLicense.md"];
+for (const file of files) {
+    await fs.cp(file, path.resolve(outDir, file), { recursive: true });
+}
+console.log("Build Complete");
+
 if (process.argv[2] === "--watch") {
     const watcher = fs.watch(process.cwd(), { recursive: true });
     console.log("Watching Files");
     for await (const event of watcher) {
         const file = event.filename.split(path.sep)[0];
         if (files.includes(file)) {
-            await fs.cp(file, path.resolve(outDir, file), { recursive: true });
+            const outFile = path.resolve(outDir, file);
+            if (existsSync(file)) {
+                await fs.cp(file, outFile , { recursive: true });
+            } else {
+                await fs.rm(outFile, { recursive: true })
+            }
             console.log("Files updated");
         }
     }
-} else {
-    // Copy files and folders to output
-    for (const file of files) {
-        await fs.cp(file, path.resolve(outDir, file), { recursive: true });
-    }
-    console.log("Build Complete");
 }
