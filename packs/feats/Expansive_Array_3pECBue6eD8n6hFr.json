@@ -18,7 +18,225 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "alwaysActive": true,
+        "domain": "all",
+        "key": "RollOption",
+        "option": "weaponArray",
+        "predicate": [],
+        "priority": 50,
+        "suboptions": [
+          {
+            "label": "Expansive Array (Mental)",
+            "value": "mental"
+          },
+          {
+            "label": "Expansive Array (Poison)",
+            "value": "poison"
+          },
+          {
+            "label": "Expansive Array (Vitality)",
+            "value": "vitality"
+          },
+          {
+            "label": "Expansive Array (Void)",
+            "value": "void"
+          }
+        ],
+        "label": "Turret Weapon Array",
+        "toggleable": true,
+        "mergeable": true,
+        "value": true,
+        "selection": "chaingun"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "mental",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:mental"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "poison",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:poison"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "vitality",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:vitality"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "void",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:void"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "add",
+        "property": "traits",
+        "value": "tech",
+        "predicate": [
+          "item:slug:turret-weapon",
+          {
+            "or": [
+              "weaponArray:mental",
+              "weaponArray:poison",
+              "weaponArray:vitality",
+              "weaponArray:void"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "range-increment",
+        "value": 60,
+        "predicate": [
+          "item:slug:turret-weapon",
+          {
+            "or": [
+              "weaponArray:mental",
+              "weaponArray:poison",
+              "weaponArray:vitality",
+              "weaponArray:void"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "group",
+        "value": "mental",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:mental"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "group",
+        "value": "dart",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:poison"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "group",
+        "value": "laser",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:vitality"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "group",
+        "value": "void",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:void"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "name",
+        "value": "Expansive Array (Mental)",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:mental"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "name",
+        "value": "Expansive Array (Poison)",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:poison"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "name",
+        "value": "Expansive Array (Vitality)",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:vitality"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "name",
+        "value": "Expansive Array (Void)",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:void"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "upgrade",
+        "property": "damage-dice-number",
+        "value": "2",
+        "predicate": [
+          "item:slug:turret-weapon",
+          {
+            "or": [
+              "weaponArray:mental",
+              "weaponArray:poison",
+              "weaponArray:vitality",
+              "weaponArray:void"
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "expansive-array",
     "traits": {
       "otherTags": [],
@@ -64,9 +282,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.0",
+    "exportSource": null
   },
   "_key": "!items!3pECBue6eD8n6hFr"
 }
