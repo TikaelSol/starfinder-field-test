@@ -88,9 +88,9 @@
       "value": 0
     },
     "range": 90,
-    "expend": 1,
+    "expend": null,
     "reload": {
-      "value": "0"
+      "value": null
     },
     "runes": {
       "potency": 0,
@@ -117,7 +117,7 @@
       "criticalConditionValue": null
     }
   },
-  "img": "systems/pf2e/icons/default-icons/weapon.svg",
+  "img": "icons/weapons/guns/gun-worn-steel.webp",
   "ownership": {
     "default": 0,
     "kFKtt3r5Xd5l6LFK": 3

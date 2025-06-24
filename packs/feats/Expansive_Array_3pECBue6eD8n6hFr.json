@@ -20,6 +20,92 @@
     },
     "rules": [
       {
+        "choices": [
+          {
+            "label": "Mental",
+            "predicate": [
+              {
+                "not": "expansive-array:mentalArray"
+              }
+            ],
+            "value": "mentalArray"
+          },
+          {
+            "label": "Poison",
+            "predicate": [
+              {
+                "not": "expansive-array:poisonArray"
+              }
+            ],
+            "value": "poisonArray"
+          },
+          {
+            "label": "Vitality",
+            "predicate": [
+              {
+                "not": "expansive-array:vitalityArray"
+              }
+            ],
+            "value": "vitalityArray"
+          },
+          {
+            "label": "Void",
+            "predicate": [
+              {
+                "not": "expansive-array:voidArray"
+              }
+            ],
+            "value": "voidArray"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.TerrainExpertise.Prompt",
+        "rollOption": "expansive-array"
+      },
+      {
+        "choices": [
+          {
+            "label": "Mental",
+            "predicate": [
+              {
+                "not": "expansive-array:mentalArray"
+              }
+            ],
+            "value": "mentalArray"
+          },
+          {
+            "label": "Poison",
+            "predicate": [
+              {
+                "not": "expansive-array:poisonArray"
+              }
+            ],
+            "value": "poisonArray"
+          },
+          {
+            "label": "Vitality",
+            "predicate": [
+              {
+                "not": "expansive-array:vitalityArray"
+              }
+            ],
+            "value": "vitalityArray"
+          },
+          {
+            "label": "Void",
+            "predicate": [
+              {
+                "not": "expansive-array:voidArray"
+              }
+            ],
+            "value": "voidArray"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.TerrainExpertise.Prompt",
+        "rollOption": "expansive-array"
+      },
+      {
         "alwaysActive": true,
         "domain": "all",
         "key": "RollOption",
@@ -29,26 +115,37 @@
         "suboptions": [
           {
             "label": "Expansive Array (Mental)",
-            "value": "mental"
+            "value": "mental",
+            "predicate": [
+              "expansive-array:mentalArray"
+            ]
           },
           {
             "label": "Expansive Array (Poison)",
-            "value": "poison"
+            "value": "poison",
+            "predicate": [
+              "expansive-array:poisonArray"
+            ]
           },
           {
             "label": "Expansive Array (Vitality)",
-            "value": "vitality"
+            "value": "vitality",
+            "predicate": [
+              "expansive-array:vitalityArray"
+            ]
           },
           {
             "label": "Expansive Array (Void)",
-            "value": "void"
+            "value": "void",
+            "predicate": [
+              "expansive-array:voidArray"
+            ]
           }
         ],
         "label": "Turret Weapon Array",
         "toggleable": true,
         "mergeable": true,
-        "value": true,
-        "selection": "chaingun"
+        "value": true
       },
       {
         "key": "ItemAlteration",
@@ -234,6 +331,50 @@
               "weaponArray:void"
             ]
           }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "img",
+        "value": "systems/pf2e/icons/equipment/weapons/tamchal-chakram.webp",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:mental"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "img",
+        "value": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/heavy%20gun%20chemical.webp",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:poison"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "img",
+        "value": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/teal%20sci-fi%20gun.webp",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:vitality"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "img",
+        "value": "icons/weapons/wands/wand-skull-horned.webp",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:void"
         ]
       }
     ],

@@ -277,7 +277,7 @@
         "itemType": "weapon",
         "mode": "override",
         "property": "name",
-        "value": "Chaingun",
+        "value": "Turret Chaingun",
         "predicate": [
           "item:slug:turret-weapon",
           "weaponArray:chaingun"
@@ -288,7 +288,7 @@
         "itemType": "weapon",
         "mode": "override",
         "property": "name",
-        "value": "Disintegrator",
+        "value": "Turret Disintegrator",
         "predicate": [
           "item:slug:turret-weapon",
           "weaponArray:disintegrator"
@@ -299,7 +299,7 @@
         "itemType": "weapon",
         "mode": "override",
         "property": "name",
-        "value": "Laser Beam",
+        "value": "Turret Laser Beam",
         "predicate": [
           "item:slug:turret-weapon",
           "weaponArray:laserBeam"
@@ -310,7 +310,7 @@
         "itemType": "weapon",
         "mode": "override",
         "property": "name",
-        "value": "Thunderclap",
+        "value": "Turret Thunderclap",
         "predicate": [
           "item:slug:turret-weapon",
           "weaponArray:thunderclap"
@@ -321,7 +321,7 @@
         "itemType": "weapon",
         "mode": "override",
         "property": "name",
-        "value": "Volt Thrower",
+        "value": "Turret Volt Thrower",
         "predicate": [
           "item:slug:turret-weapon",
           "weaponArray:voltThrower"
@@ -332,7 +332,7 @@
         "itemType": "weapon",
         "mode": "override",
         "property": "name",
-        "value": "Zero Emitter",
+        "value": "Turret Zero Emitter",
         "predicate": [
           "item:slug:turret-weapon",
           "weaponArray:zeroEmitter"
@@ -346,6 +346,72 @@
         "value": "1",
         "predicate": [
           "item:slug:turret-weapon"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "img",
+        "value": "icons/weapons/guns/rifle-fluted.webp",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:chaingun"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "img",
+        "value": "icons/weapons/guns/gun-wood.webp",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:disintegrator"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "img",
+        "value": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/teal%20sci-fi%20gun.webp",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:disintegrator"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "img",
+        "value": "icons/weapons/guns/gun-blunderbuss-gold.webp",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:thunderclap"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "img",
+        "value": "icons/commodities/tech/conduit-transmission-red.webp",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:voltThrower"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "img",
+        "value": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/blue%20sci-fi%20gun.webp",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:zeroEmitter"
         ]
       }
     ],
