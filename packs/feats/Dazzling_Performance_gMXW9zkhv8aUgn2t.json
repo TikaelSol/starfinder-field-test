@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You shine even brighter on stage. When you use @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.O5zeo938lWGoNnb3]{Sparkling Performance}, creatures within your light's radius must attempt a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classOrSpellDC.value)] save against your class DC or spell DC (whichever is higher). Your allies are immune to this effect.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p><strong>Failure</strong> The creature is dazzled for 2 rounds.</p><p><strong>Critical Failure</strong> The creature is dazzled for 1 minute.</p>"
+      "value": "<p>You shine even brighter on stage. When you use @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.O5zeo938lWGoNnb3]{Sparkling Performance}, creatures within your light's radius must attempt a @Check[type:fortitude|against:class-spell] save against your class DC or spell DC (whichever is higher). Your allies are immune to this effect.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p><strong>Failure</strong> The creature is dazzled for 2 rounds.</p><p><strong>Critical Failure</strong> The creature is dazzled for 1 minute.</p>"
     },
     "rules": [],
     "slug": "dazzling-performance",

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You expose this reality to a realm of pure darkness filled with gibbering voices and otherworldly entities. The area of your quantum field functions as though it were an area of 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]. Creatures that begin their turn in the area must succeed at a @Check[type:will|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC or become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round. They are then immune for 24 hours.</p>"
+      "value": "<p>You expose this reality to a realm of pure darkness filled with gibbering voices and otherworldly entities. The area of your quantum field functions as though it were an area of 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]. Creatures that begin their turn in the area must succeed at a @Check[type:will|against:class] save against your class DC or become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round. They are then immune for 24 hours.</p>"
     },
     "rules": [],
     "slug": "twisted-dark-zone",

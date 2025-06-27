@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your quantum field is extremely dangerous. Any creature that moves through the area takes @Damage[(floor(@actor.level/4)d6)[@item.flags.pf2e.rulesSelections.dangerZone]] damage, with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save against your class DC at the end of each move action they take through the area. You select the damage type the first time each day you use this ability: acid, bludgeoning, cold, electricity, fire, piercing, slashing, or sonic. Increase the number of damage dice by one at 12th, 16th, and 20th levels.</p>"
+      "value": "<p>Your quantum field is extremely dangerous. Any creature that moves through the area takes @Damage[(floor(@actor.level/4)d6)[@item.flags.pf2e.rulesSelections.dangerZone]] damage, with a @Check[type:reflex|against:class|basic:true] save against your class DC at the end of each move action they take through the area. You select the damage type the first time each day you use this ability: acid, bludgeoning, cold, electricity, fire, piercing, slashing, or sonic. Increase the number of damage dice by one at 12th, 16th, and 20th levels.</p>"
     },
     "rules": [
       {

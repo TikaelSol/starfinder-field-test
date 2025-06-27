@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You prevent creatures from leaving your quantum field and returning to reality. Until the start of your next turn, any creature who begins their turn inside your quantum field must succeed at a @Check[type:will|dc:resolve(@actor.system.attributes.classDC.value)] saving throw against your witchwarper class DC to move outside your quantum field. On a failure, the action is disrupted. A creature who succeeds at this save is immune to your Quantum Entanglement for 24 hours.</p>"
+      "value": "<p>You prevent creatures from leaving your quantum field and returning to reality. Until the start of your next turn, any creature who begins their turn inside your quantum field must succeed at a @Check[type:will|against:class] saving throw against your witchwarper class DC to move outside your quantum field. On a failure, the action is disrupted. A creature who succeeds at this save is immune to your Quantum Entanglement for 24 hours.</p>"
     },
     "rules": [],
     "slug": "quantum-entanglement",

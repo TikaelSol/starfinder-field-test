@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}</p><hr /><p>A flash grenade unleashes a blast of bright light that requires creatures in a @Template[type:burst|distance:10] to make a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save. On a failure the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds.</p><p><strong>Critical</strong> @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.</p>"
+      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}</p><hr /><p>A flash grenade unleashes a blast of bright light that requires creatures in a @Template[type:burst|distance:10] to make a @Check[type:fortitude|against:class] save. On a failure the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds.</p><p><strong>Critical</strong> @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.</p>"
     },
     "rules": [],
     "slug": "flash-grenade-advanced",

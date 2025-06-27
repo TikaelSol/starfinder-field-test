@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You're dealt electricity damage, and your electricity resistance doesn't reduce this damage to 0</p><hr /><p><strong>Effect</strong> After being shocked, you seize the electricity coursing through your body and redirect it at another creature within 30 feet. That creature cannot have already taken damage from the effect that damaged you. That creature is dealt electricity damage equal to the amount of Hit Points you lost from the triggering electricity damage (@Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] save using your class DC or spell DC, whichever is higher).</p>"
+      "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You're dealt electricity damage, and your electricity resistance doesn't reduce this damage to 0</p><hr /><p><strong>Effect</strong> After being shocked, you seize the electricity coursing through your body and redirect it at another creature within 30 feet. That creature cannot have already taken damage from the effect that damaged you. That creature is dealt electricity damage equal to the amount of Hit Points you lost from the triggering electricity damage (@Check[type:reflex|against:class-spell|basic:true] save using your class DC or spell DC, whichever is higher).</p>"
     },
     "rules": [],
     "slug": "redirect-current",

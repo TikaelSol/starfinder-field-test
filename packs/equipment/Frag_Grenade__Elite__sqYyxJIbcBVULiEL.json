@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deals @Damage[3d8[piercing]] piercing damage in a @Template[type:burst|distance:15] with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save.</p><p><strong>Critical</strong> @Damage[1d6[persistent,bleed]] damage</p>"
+      "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deals @Damage[3d8[piercing]] piercing damage in a @Template[type:burst|distance:15] with a @Check[type:reflex|against:class|basic:true] save.</p><p><strong>Critical</strong> @Damage[1d6[persistent,bleed]] damage</p>"
     },
     "rules": [],
     "slug": "frag-grenade-elite",
