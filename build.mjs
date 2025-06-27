@@ -35,7 +35,7 @@ if (process.argv[2] === "--watch") {
     const watcher = fs.watch(process.cwd(), { recursive: true });
     console.log("Watching Files");
     for await (const event of watcher) {
-        const file = event.filename.split(path.sep)[0];
+        const file = (event.filename ?? "").split(path.sep)[0];
         if (files.includes(file)) {
             const outFile = path.resolve(outDir, file);
             if (existsSync(file)) {
