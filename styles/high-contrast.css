@@ -129,6 +129,8 @@
     --text-light: rgba(255, 255, 255, 0.9);
     --text-light-inactive: rgba(255, 255, 255, 0.5);
 
+    --color-pf-bulk-normal: var(--c-secondary);
+
     background: none,
         linear-gradient(
             45deg,
@@ -298,15 +300,16 @@
         color: var(--color-text-dark-primary);
     }
 
+
+    --tag-color: var(--color-pf-alternate-dark);
+
     .tags.light > .tag,
     .tags > .tag.light {
-        --tag-color: var(--color-pf-alternate-dark);
         background: none;
-        border-radius: 2px;
-        border: 1px solid var(--c-accent);
-        box-shadow: none;
-        color: var(--text-light);
-        padding-bottom: 3px;
+        &.over-limit {
+            --tag-color: var(--color-pf-alternate-dark);
+            opacity: 0.8;
+        }
     }
 
     .tags .tag[data-action="strike-damage"],
