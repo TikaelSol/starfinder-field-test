@@ -1,65 +1,73 @@
 @font-face {
-  font-family: "Exo2";
-  src: local("Exo2"), url("../fonts/Exo2.woff2") format("woff2 supports variations"),
-    url("../fonts/Exo2.woff2") format("woff2-variations");
-  font-weight: 350;
-  font-style: normal;
+    font-family: "Exo2";
+    src: local("Exo2"),
+        url("../fonts/Exo2.woff2") format("woff2 supports variations"),
+        url("../fonts/Exo2.woff2") format("woff2-variations");
+    font-weight: 350;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Exo2";
-  src: local("Exo2"), url("../fonts/Exo2.woff2") format("woff2 supports variations"),
-    url("../fonts/Exo2.woff2") format("woff2-variations");
-  font-weight: 600;
-  font-style: normal;
+    font-family: "Exo2";
+    src: local("Exo2"),
+        url("../fonts/Exo2.woff2") format("woff2 supports variations"),
+        url("../fonts/Exo2.woff2") format("woff2-variations");
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Exo2";
-  src: local("Exo2-Italic"), url("../fonts/Exo2-Italic.woff2") format("woff2 supports variations"),
-    url("../fonts/Exo2-Italic.woff2") format("woff2-variations");
-  font-weight: 350;
-  font-style: italic;
+    font-family: "Exo2";
+    src: local("Exo2-Italic"),
+        url("../fonts/Exo2-Italic.woff2") format("woff2 supports variations"),
+        url("../fonts/Exo2-Italic.woff2") format("woff2-variations");
+    font-weight: 350;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: "Exo2";
-  src: local("Exo2-Italic"), url("../fonts/Exo2-Italic.woff2") format("woff2 supports variations"),
-    url("../fonts/Exo2-Italic.woff2") format("woff2-variations");
-  font-weight: 600;
-  font-style: italic;
+    font-family: "Exo2";
+    src: local("Exo2-Italic"),
+        url("../fonts/Exo2-Italic.woff2") format("woff2 supports variations"),
+        url("../fonts/Exo2-Italic.woff2") format("woff2-variations");
+    font-weight: 600;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: "Saira";
-  src: local("Saira"), url("../fonts/Saira.woff2") format("woff2 supports variations"),
-    url("../fonts/Saira.woff2") format("woff2-variations");
-  font-weight: 350;
-  font-style: normal;
+    font-family: "Saira";
+    src: local("Saira"),
+        url("../fonts/Saira.woff2") format("woff2 supports variations"),
+        url("../fonts/Saira.woff2") format("woff2-variations");
+    font-weight: 350;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Saira";
-  src: local("Saira"), url("../fonts/Saira.woff2") format("woff2 supports variations"),
-    url("../fonts/Saira.woff2") format("woff2-variations");
-  font-weight: 600;
-  font-style: normal;
+    font-family: "Saira";
+    src: local("Saira"),
+        url("../fonts/Saira.woff2") format("woff2 supports variations"),
+        url("../fonts/Saira.woff2") format("woff2-variations");
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Saira";
-  src: local("Saira-Italic"), url("../fonts/Saira-Italic.woff2") format("woff2 supports variations"),
-    url("../fonts/Saira-Italic.woff2") format("woff2-variations");
-  font-weight: 350;
-  font-style: italic;
+    font-family: "Saira";
+    src: local("Saira-Italic"),
+        url("../fonts/Saira-Italic.woff2") format("woff2 supports variations"),
+        url("../fonts/Saira-Italic.woff2") format("woff2-variations");
+    font-weight: 350;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: "Exo2";
-  src: local("Saira-Italic"), url("../fonts/Saira-Italic.woff2") format("woff2 supports variations"),
-    url("../fonts/Saira-Italic.woff2") format("woff2-variations");
-  font-weight: 600;
-  font-style: italic;
+    font-family: "Exo2";
+    src: local("Saira-Italic"),
+        url("../fonts/Saira-Italic.woff2") format("woff2 supports variations"),
+        url("../fonts/Saira-Italic.woff2") format("woff2-variations");
+    font-weight: 600;
+    font-style: italic;
 }
 
 .app.sheet.actor.character,
@@ -77,303 +85,349 @@
 }
 
 .app.sheet.actor.character section.window-content form.crb-style {
-  /************ Font Overrides ************/
-  --serif: Saira, sans-serif;
-  --body-serif: Exo2, sans-serif;
+    /************ Font Overrides ************/
+    --serif: Saira, sans-serif;
+    --body-serif: Exo2, sans-serif;
 
-  /************ Color Definitions ************/
-  
-  --sat-factor: 0.7;
-  
-  --sf-primary: #2c4e69; /* teal */
-  --sf-secondary: #5b3a96; /* purple */
-  --sf-tertiary: #b9519e; /* pink */
-  --sf-accent: #9dd9e5; /* baby blue */
-  --sf-emphasis: #ec2026; /* red */
-  --sf-green: #3a7b59;
-  --sf-orange: #98503d;
-  --sf-blue-gray: #777f93;
-  --sf-purple-gray: #576293;
+    /************ Color Definitions ************/
 
-  --c-primary: var(--sf-primary);
-  --c-secondary: hsl(from var(--sf-secondary) h calc(s * var(--sat-factor)) l);
-  --c-tertiary: hsl(from var(--sf-tertiary) h calc(s * var(--sat-factor)) l);
-  --c-accent: hsl(from var(--sf-accent) h calc(s * var(--sat-factor)) l);
-  --c-emphasis: hsl(from var(--sf-emphasis) h calc(s * var(--sat-factor)) l);
-  --c-secondary-light: hsl(from var(--sf-secondary) h calc(s * var(--sat-factor)) calc(l / 0.7));
-  --c-secondary-dark: hsl(from var(--sf-secondary) h calc(s * var(--sat-factor)) calc(l / 1.7));
-  --c-tertiary-light: hsl(from var(--sf-tertiary) h calc(s * var(--sat-factor)) calc(l / 0.7));
-  --c-accent-light: hsl(from var(--sf-accent) h calc(s * var(--sat-factor)) calc(l / 0.95));
-  --c-primary-dark: hsl(from var(--sf-primary) h calc(s * var(--sat-factor)) calc(l / 1.7));
-  --c-tertiary-dark: hsl(from var(--sf-tertiary) h calc(s * var(--sat-factor)) calc(l / 1.2));
-  --c-accent-dark: hsl(from var(--sf-accent) h calc(s * var(--sat-factor)) calc(l / 4));
-  --color-bg-trait: #2d4f6a;
-  --color-border-trait: #9edae6;
+    --sat-factor: 0.7;
 
+    --sf-primary: #2c4e69; /* teal */
+    --sf-secondary: #5b3a96; /* purple */
+    --sf-tertiary: #b9519e; /* pink */
+    --sf-accent: #9dd9e5; /* baby blue */
+    --sf-emphasis: #ec2026; /* red */
+    --sf-green: #3a7b59;
+    --sf-orange: #98503d;
+    --sf-blue-gray: #777f93;
+    --sf-purple-gray: #576293;
 
-  /************ Color Overrides ************/
-  --sidebar-title: var(--c-accent);
-  --color-pf-tertiary: var(--c-accent-light);
-  --sub: #576293;
-  --rare: #777F93;
-  --uncommon: #98503d;
-
-  --primary: var(--c-accent);
-  --alt: var(--c-accent-dark);
-  --secondary: var(--c-secondary-light);
-  --tertiary: var(--rare);
-  --bg: var(--c-primary-dark);
-  --bg-dark: var(--c-secondary-light);
-  --text-dark: var(--c-tertiary-light);
-  --text-light: var(--c-accent-light);
-  --sidebar-label: var(--c-tertiary);
-  --color-text-dark-primary: var(--c-accent-light);
-  --color-text-dark-1: var(--rare);
-  --color-text-dark-2: var(--rare);
-  --color-text-dark-4: var(--rare);
-  --color-border-divider: var(--c-secondary-light);
-  --color-border-dark-input: var(--alt);
-  --color-pf-primary: var(--c-accent);
-  --color-pf-secondary: var(--c-secondary);
-  --color-pf-tertiary-darker: var(--sf-green);
-  --color-pf-alternate: var(--sf-green);
-  --color-pf-alternate-dark: var(--rare);
-  --rare-transparent: hsla(from var(--rare) h s l / 0.25);
-  
-  a.content-link, a.inline-roll {
-    color: var(--c-primary-dark);
-  }
-
-  background: url("../assets/theme/dark/blue-gradient.webp");
-  background-size: auto 100%;
-  background-position-x: 100%;
-  background-repeat: repeat-x;
-  
-  &> section.sheet-body {
-    backdrop-filter: blur(2px);
-
-    &> section.sheet-content {
-      
-      &> section.tab.active.character {
-        
-        &> div.subsection.details > div.abcd > div.detail { 
-          &> h3:has(> span.value),
-          input.details-input {
-            background-color: var(--rare-transparent);
-          }
-        }
-        div.subsection.attributes ul li.attribute {
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: center;
-
-          & > h2.abbreviation {
-            & > i.fa-solid.fa-key.key::before {
-              position: relative;
-              left: -1.2rem;
-            }
-          }
-
-          h3.modifier {
-            /* border-image-source: url("../assets/theme/dark/frame-elegant.svg"); */
-            border-image: none;
-            border: none;
-            background-image: url("../assets/theme/dark/secondary-attribute.svg");
-            background-repeat: no-repeat;
-            background-size: 4rem 100%;
-            background-position: 50% 50%;
-            color: var(--c-accent-light);
-            width: 4rem;
-          }
-        } 
-      }
-
-      &> div.tab.inventory.item-container.active > section.inventory-list ul.items 
-      > li > div.data {
-        
-        &> div.item-name > h4.name:not(.rarity-common, :hover) {
-          --color-rarity-uncommon: hsl( from var(--sf-orange) h s calc( l * 1.5 ));
-          --color-rarity-rare: hsl(from var(--rare) h s calc( l * 1.5 ));
-        }
-
-        &> div.item-controls {
-
-          &> a.item-carry-type,
-          &> a.toggle-invested {
-            color: var(--rare-transparent);
-            &.active {
-              color: var(--c-secondary-light);
-            }
-          }
-        }
-      }
-
-      &> section.tab.proficiencies.active {
-
-        &>ul.proficiencies-list > li {
-          border-image: linear-gradient(to right, var(--c-secondary), var(--c-secondary) 75%, var(--c-tertiary));
-          border-image-width: 0.2rem;
-          border-image-slice: 10% 10% 10% 10%;
-          border-style: solid;
-
-          &> input.name {
-            background-color: var(--rare-transparent);
-          }
-        }
-      }
-
-      &> section.tab.feats.active {
-
-        ol.feats-list > li.slot:nth-child(odd) {
-          background-color: var(--rare-transparent);
-        }
-
-      }
-
-      &> div.tab.active {
-        
-        nav.sub-nav {
-          --color-pf-alternate: hsl(from var(--sf-green) h s calc( l * 1.5 ));
-        }
-
-        div.action-header {
-          --color-pf-primary: var(--c-accent-dark);
-        }
-
-        div.item-name h4.name:hover {
-          --color-pf-secondary: var(--c-accent);
-        }
-      }
-    }
-  }
-
-  /************ General Settings ************/
-  --color-rarity-uncommon: var(--uncommon);
-  --color-rarity-rare: var(--rare);
-
-  div.data-value {
-    input {
-      position: relative;
-      top: -0.3rem;
-    }
-  }
-
-  > header.char-header .char-level .level {
-    filter: hue-rotate(270deg) brightness(1.6);
-    input {
-      font-size: 1rem;
-      position: relative;
-      top: -0.2rem;
-    }
-  }
-
-  ol.spell-list > li.header-row {
-    background-color: rgba(58, 123, 89, 0.1);
-  }
-
-  ul.items > li:nth-of-type(even),
-  ol.feats-list li.slot:nth-child(odd),
-  ol.spell-list li:nth-child(odd):not(.header-row) {
-    background-color: rgba(113, 127, 127, 0.1);
-  }
-
-  > nav.sheet-navigation {
-    z-index: 2;
-    filter: brightness(1.2);
-    background: linear-gradient(to right, var(--c-primary), var(--c-primary));
-
-    .item {
-      box-shadow: 0 0 0 1px var(--color-pf-tertiary), 0 0 0 2px var(--c-accent), inset 0 0 4px rgba(0, 0, 0, 0.25);
-      &.active {
-        background-image: radial-gradient(circle at center, var(--c-secondary), var(--c-secondary));
-        box-shadow: 0 0 0 1px var(--color-pf-tertiary), 0 0 0 2px var(--c-accent), inset 0 0 4px rgba(0, 0, 0, 0.25),
-          0 0 8px var(--color-pf-tertiary);
-      }
-
-      &:hover,
-      &.active:hover {
-        background-image: radial-gradient(circle at center, var(--c-secondary), var(--c-tertiary));
-        box-shadow: 0 0 0 1px var(--color-pf-tertiary), 0 0 0 2px var(--c-accent), inset 0 0 4px rgba(0, 0, 0, 0.25),
-          0 0 8px var(--color-pf-tertiary);
-      }
-    }
-  }
-
-  > .sheet-body .sheet-content .tab {
-    &.active.character .subsection.details .image-container .actor-image {
-      box-shadow: 0 0 0 1px #888e91, 0 0 0 2px #d0e0e2, 0 0 0 3px var(--c-accent), inset 0 0 8px rgba(0, 0, 0, 0.5),
-        0 0 8px black;
-    }
-  }
-
-  > aside {
-    --color-pf-primary: var(--c-secondary);
-    --color-pf-secondary: var(--c-primary);
-    filter: brightness(1.2);
-    background-image: linear-gradient(
-      to bottom,
-      var(--c-secondary-dark),
-      var(--c-secondary) 75%,
-      var(--c-tertiary-dark) 100%
+    --c-primary: var(--sf-primary);
+    --c-secondary: hsl(
+        from var(--sf-secondary) h calc(s * var(--sat-factor)) l
     );
-    background-repeat: repeat;
-    background-size: contain;
-    background-position-x: unset;
-    background-position-y: unset;
+    --c-tertiary: hsl(from var(--sf-tertiary) h calc(s * var(--sat-factor)) l);
+    --c-accent: hsl(from var(--sf-accent) h calc(s * var(--sat-factor)) l);
+    --c-emphasis: hsl(from var(--sf-emphasis) h calc(s * var(--sat-factor)) l);
+    --c-secondary-light: hsl(
+        from var(--sf-secondary) h calc(s * var(--sat-factor)) calc(l / 0.7)
+    );
+    --c-secondary-dark: hsl(
+        from var(--sf-secondary) h calc(s * var(--sat-factor)) calc(l / 1.7)
+    );
+    --c-tertiary-light: hsl(
+        from var(--sf-tertiary) h calc(s * var(--sat-factor)) calc(l / 0.7)
+    );
+    --c-accent-light: hsl(
+        from var(--sf-accent) h calc(s * var(--sat-factor)) calc(l / 0.95)
+    );
+    --c-primary-dark: hsl(
+        from var(--sf-primary) h calc(s * var(--sat-factor)) calc(l / 1.7)
+    );
+    --c-tertiary-dark: hsl(
+        from var(--sf-tertiary) h calc(s * var(--sat-factor)) calc(l / 1.2)
+    );
+    --c-accent-dark: hsl(
+        from var(--sf-accent) h calc(s * var(--sat-factor)) calc(l / 4)
+    );
+    --color-bg-trait: #2d4f6a;
+    --color-border-trait: #9edae6;
 
-    &::before {
-      content: "";
-      float: left;
-      opacity: 1;
-      background-image: url("../assets/sf-logo.webp");
-      background-size: contain;
-      width: 234px;
-      height: 56px;
-      position: relative;
-      left: -0.5rem;
-      top: 0;
+    /************ Color Overrides ************/
+    --sidebar-title: var(--c-accent);
+    --color-pf-tertiary: var(--c-accent-light);
+    --sub: #576293;
+    --rare: #898f9f;
+    --uncommon: #98503d;
+
+    --primary: var(--c-accent);
+    --alt: var(--c-accent-dark);
+    --secondary: var(--c-secondary-light);
+    --tertiary: var(--rare);
+    --bg: var(--c-primary-dark);
+    --bg-dark: var(--c-secondary-light);
+    --text-dark: var(--c-tertiary-light);
+    --text-light: var(--c-accent-light);
+    --sidebar-label: var(--c-tertiary);
+    --color-text-dark-primary: var(--c-accent-light);
+    --color-text-dark-1: var(--rare);
+    --color-text-dark-2: var(--rare);
+    --color-text-dark-4: var(--rare);
+    --color-border-divider: var(--c-secondary-light);
+    --color-border-dark-input: var(--alt);
+    --color-pf-primary: var(--c-accent);
+    --color-pf-secondary: var(--c-secondary);
+    --color-pf-tertiary-darker: var(--sf-green);
+    --color-pf-alternate: var(--sf-green);
+    --color-pf-alternate-dark: var(--rare);
+    --color-pf-inventory-header-bg: var(--alt);
+    --rare-transparent: hsla(from var(--rare) h s l / 0.25);
+
+    --tag-color: var(--rare);
+
+    a.content-link,
+    a.inline-roll {
+        color: var(--c-primary-dark);
     }
 
-    .sidebar {
-      select {
-        border: 1px solid var(--c-accent);
-      }
-      .data-value h2 {
-        color: var(--c-accent);
-      }
-      a.modifier {
-        color: var(--c-accent-light);
-        text-decoration: underline var(--c-accent-light);
-      }
-      button {
-        color: hsl( from var(--c-emphasis) h s calc( l * 0.8 ));
-        background: var(--c-accent-light);
-      }
-      .hitpoints .hp-big .container.current-hp {
-        background-image: linear-gradient(to right, var(--c-secondary-dark), var(--c-secondary), var(--c-secondary-dark));
-      }
-      .armor-class {
-        display: grid;
-        grid:
-            "ac shield-hp shield-footer" 4.625rem
-            "shield-data shield-data shield-data" auto / 4rem 3.875rem auto;
-        grid-column-gap: var(--space-4);
+    background: url("../assets/theme/dark/blue-gradient.webp");
+    background-size: auto 100%;
+    background-position-x: 100%;
+    background-repeat: repeat-x;
 
-        .ac {
-          background: url('../assets/theme/dark/primary-shield.svg');
-          background-repeat: no-repeat;
-        }
-        .shield.hp {
-          background: url('../assets/theme/dark/tertiary-shield.svg');
-          background-repeat: no-repeat;
+    & > section.sheet-body {
+        backdrop-filter: blur(2px);
 
-          
-          & > label.sidebar_label {
-            color: var(--c-primary);
-          }
+        & > section.sheet-content {
+            & > section.tab.active.character {
+                & > div.subsection.details > div.abcd > div.detail {
+                    & > h3:has(> span.value),
+                    input.details-input {
+                        background-color: var(--rare-transparent);
+                    }
+                }
+                div.subsection.attributes ul li.attribute {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    & > h2.abbreviation {
+                        & > i.fa-solid.fa-key.key::before {
+                            position: relative;
+                            left: -1.2rem;
+                        }
+                    }
+
+                    h3.modifier {
+                        /* border-image-source: url("../assets/theme/dark/frame-elegant.svg"); */
+                        border-image: none;
+                        border: none;
+                        background-image: url("../assets/theme/dark/secondary-attribute.svg");
+                        background-repeat: no-repeat;
+                        background-size: 4rem 100%;
+                        background-position: 50% 50%;
+                        color: var(--c-accent-light);
+                        width: 4rem;
+                    }
+                }
+            }
+
+            &
+                > div.tab.inventory.item-container.active
+                > section.inventory-list
+                ul.items
+                > li
+                > div.data {
+                & > div.item-name > h4.name:not(.rarity-common, :hover) {
+                    --color-rarity-uncommon: hsl(
+                        from var(--sf-orange) h s calc(l * 1.5)
+                    );
+                    --color-rarity-rare: hsl(
+                        from var(--rare) h s calc(l * 1.5)
+                    );
+                }
+
+                & > div.item-controls {
+                    & > a.item-carry-type,
+                    & > a.toggle-invested {
+                        color: var(--rare-transparent);
+                        &.active {
+                            color: var(--c-secondary-light);
+                        }
+                    }
+                }
+            }
+
+            & > section.tab.proficiencies.active {
+                & > ul.proficiencies-list > li {
+                    border-image: linear-gradient(
+                        to right,
+                        var(--c-secondary),
+                        var(--c-secondary) 75%,
+                        var(--c-tertiary)
+                    );
+                    border-image-width: 0.2rem;
+                    border-image-slice: 10% 10% 10% 10%;
+                    border-style: solid;
+
+                    & > input.name {
+                        background-color: var(--rare-transparent);
+                    }
+                }
+            }
+
+            & > section.tab.feats.active {
+                ol.feats-list > li.slot:nth-child(odd) {
+                    background-color: var(--rare-transparent);
+                }
+            }
+
+            & > div.tab.active {
+                nav.sub-nav {
+                    --color-pf-alternate: hsl(
+                        from var(--sf-green) h s calc(l * 1.5)
+                    );
+                }
+
+                div.action-header {
+                    --color-pf-primary: var(--c-accent-dark);
+                }
+
+                div.item-name h4.name:hover {
+                    --color-pf-secondary: var(--c-accent);
+                }
+            }
         }
-        /* .shield-stats {
+    }
+
+    /************ General Settings ************/
+    --color-rarity-uncommon: var(--uncommon);
+    --color-rarity-rare: var(--rare);
+
+    div.data-value {
+        input {
+            position: relative;
+            top: -0.3rem;
+        }
+    }
+
+    > header.char-header .char-level .level {
+        filter: hue-rotate(270deg) brightness(1.6);
+        input {
+            font-size: 1rem;
+            position: relative;
+            top: -0.2rem;
+        }
+    }
+
+    ol.spell-list > li.header-row {
+        background-color: rgba(58, 123, 89, 0.1);
+    }
+
+    ul.items > li:nth-of-type(even),
+    ol.feats-list li.slot:nth-child(odd),
+    ol.spell-list li:nth-child(odd):not(.header-row) {
+        background-color: rgba(113, 127, 127, 0.1);
+    }
+
+    > nav.sheet-navigation {
+        z-index: 2;
+        filter: brightness(1.2);
+        background: linear-gradient(
+            to right,
+            var(--c-primary),
+            var(--c-primary)
+        );
+
+        .item {
+            box-shadow: 0 0 0 1px var(--color-pf-tertiary),
+                0 0 0 2px var(--c-accent), inset 0 0 4px rgba(0, 0, 0, 0.25);
+            &.active {
+                background-image: radial-gradient(
+                    circle at center,
+                    var(--c-secondary),
+                    var(--c-secondary)
+                );
+                box-shadow: 0 0 0 1px var(--color-pf-tertiary),
+                    0 0 0 2px var(--c-accent), inset 0 0 4px rgba(0, 0, 0, 0.25),
+                    0 0 8px var(--color-pf-tertiary);
+            }
+
+            &:hover,
+            &.active:hover {
+                background-image: radial-gradient(
+                    circle at center,
+                    var(--c-secondary),
+                    var(--c-tertiary)
+                );
+                box-shadow: 0 0 0 1px var(--color-pf-tertiary),
+                    0 0 0 2px var(--c-accent), inset 0 0 4px rgba(0, 0, 0, 0.25),
+                    0 0 8px var(--color-pf-tertiary);
+            }
+        }
+    }
+
+    > .sheet-body .sheet-content .tab {
+        &.active.character .subsection.details .image-container .actor-image {
+            box-shadow: 0 0 0 1px #888e91, 0 0 0 2px #d0e0e2,
+                0 0 0 3px var(--c-accent), inset 0 0 8px rgba(0, 0, 0, 0.5),
+                0 0 8px black;
+        }
+    }
+
+    > aside {
+        --color-pf-primary: var(--c-secondary);
+        --color-pf-secondary: var(--c-primary);
+        filter: brightness(1.2);
+        background-image: linear-gradient(
+            to bottom,
+            var(--c-secondary-dark),
+            var(--c-secondary) 75%,
+            var(--c-tertiary-dark) 100%
+        );
+        background-repeat: repeat;
+        background-size: contain;
+        background-position-x: unset;
+        background-position-y: unset;
+
+        &::before {
+            content: "";
+            float: left;
+            opacity: 1;
+            background-image: url("../assets/sf-logo.webp");
+            background-size: contain;
+            width: 234px;
+            height: 56px;
+            position: relative;
+            left: -0.5rem;
+            top: 0;
+        }
+
+        .sidebar {
+            select {
+                border: 1px solid var(--c-accent);
+            }
+            .data-value h2 {
+                color: var(--c-accent);
+            }
+            a.modifier {
+                color: var(--c-accent-light);
+                text-decoration: underline var(--c-accent-light);
+            }
+            button {
+                color: hsl(from var(--c-emphasis) h s calc(l * 0.8));
+                background: var(--c-accent-light);
+            }
+            .hitpoints .hp-big .container.current-hp {
+                background-image: linear-gradient(
+                    to right,
+                    var(--c-secondary-dark),
+                    var(--c-secondary),
+                    var(--c-secondary-dark)
+                );
+            }
+            .armor-class {
+                display: grid;
+                grid:
+                    "ac shield-hp shield-footer" 4.625rem
+                    "shield-data shield-data shield-data" auto / 4rem 3.875rem auto;
+                grid-column-gap: var(--space-4);
+
+                .ac {
+                    background: url("../assets/theme/dark/primary-shield.svg");
+                    background-repeat: no-repeat;
+                }
+                .shield.hp {
+                    background: url("../assets/theme/dark/tertiary-shield.svg");
+                    background-repeat: no-repeat;
+
+                    & > label.sidebar_label {
+                        color: var(--c-primary);
+                    }
+                }
+                /* .shield-stats {
           float: right;
           position: relative;
           bottom: 0;
@@ -383,12 +437,11 @@
           position: relative;
           top: 0;
         } */
+            }
+        }
 
-      }
+        img.logo {
+            display: none;
+        }
     }
-
-    img.logo {
-      display: none;
-    }
-  }
 }
