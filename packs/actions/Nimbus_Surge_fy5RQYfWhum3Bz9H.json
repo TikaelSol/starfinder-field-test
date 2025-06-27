@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Trigger</strong> You take damage from a melee attack.</p><hr /><p>Your nimbus reacts to trauma.</p><p><strong>Graviton-Attuned</strong> The triggering creature must succeed at a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC or be pushed 5 feet away from you.</p><p><strong>Photon-Attuned</strong> The triggering creature takes @Damage[(ceil(@actor.level/2))[fire]]{fire damage} equal to half your level (rounded up).</p>"
+      "value": "<p><strong>Trigger</strong> You take damage from a melee attack.</p><hr /><p>Your nimbus reacts to trauma.</p><p><strong>Graviton-Attuned</strong> The triggering creature must succeed at a @Check[type:fortitude|against:class] save against your class DC or be pushed 5 feet away from you.</p><p><strong>Photon-Attuned</strong> The triggering creature takes @Damage[(ceil(@actor.level/2))[fire]]{fire damage} equal to half your level (rounded up).</p>"
     },
     "rules": [
       {

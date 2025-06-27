@@ -581,7 +581,7 @@
                     },
                     "PhotonAttuned": {
                         "Label": "Photon-Attuned",
-                        "Note": "If your shield is destroyed, adjacent enemies must succeed at a @Check[type:fortitude|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC or be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round. On a critical failure they are instead @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round."
+                        "Note": "If your shield is destroyed, adjacent enemies must succeed at a @Check[type:fortitude|against:class] save against your class DC or be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round. On a critical failure they are instead @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round."
                     }
                 },
                 "SolarShot": {
