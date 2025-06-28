@@ -105,10 +105,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Starfinder Tech Class Playtest",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "keyAbility": {
       "value": [],
