@@ -6,9 +6,24 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Each time you use Warp Reality to activate your quantum field, you can choose for your quantum field to be an aura around you that moves with you. If you do, your Warp Reality action gains the aura trait and the quantum field you create is a 10-foot-radius emanation targeting you.</p>"
+      "value": "<p>Each time you use Warp Reality to activate your quantum field, you can choose for your quantum field to be an aura around you that moves with you. If you do, your Warp Reality action gains the aura trait and the quantum field you create is a 10-foot-radius emanation targeting you.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.j6USFHjcfObXnPpg]{Effect: Quantum Aura}</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:warp-reality"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "{item|description}"
+          }
+        ]
+      }
+    ],
     "slug": "quantum-aura",
     "_migration": {
       "version": 0.932,
@@ -55,9 +70,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.0",
+    "exportSource": null
   },
   "sort": 20100000,
   "ownership": {
