@@ -56,6 +56,20 @@
             "text": "@UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.z4tEoxGxNlgMzIQs]"
           }
         ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:slug:warp-reality"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Witchwarper.Paradox.GapInfluenced.QuantumField"
+          }
+        ]
       }
     ],
     "slug": "gap-influenced",
@@ -100,9 +114,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.0",
+    "exportSource": null
   },
   "_id": "fQRiPpFybICoKXsj",
   "sort": 8300000,
