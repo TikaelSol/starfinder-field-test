@@ -386,6 +386,17 @@
         "itemType": "weapon",
         "mode": "override",
         "property": "img",
+        "value": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/teal%20sci-fi%20gun.webp",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:laserBeam"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "img",
         "value": "icons/weapons/guns/gun-blunderbuss-gold.webp",
         "predicate": [
           "item:slug:turret-weapon",
@@ -456,7 +467,7 @@
     "duplicateSource": null,
     "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "7.2.0",
+    "systemVersion": "7.2.1",
     "exportSource": null
   },
   "_id": "7cVI2aiS1lg0caWx",
