@@ -332,50 +332,6 @@
             ]
           }
         ]
-      },
-      {
-        "key": "ItemAlteration",
-        "itemType": "weapon",
-        "mode": "override",
-        "property": "img",
-        "value": "systems/pf2e/icons/equipment/weapons/tamchal-chakram.webp",
-        "predicate": [
-          "item:slug:turret-weapon",
-          "weaponArray:mental"
-        ]
-      },
-      {
-        "key": "ItemAlteration",
-        "itemType": "weapon",
-        "mode": "override",
-        "property": "img",
-        "value": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/heavy%20gun%20chemical.webp",
-        "predicate": [
-          "item:slug:turret-weapon",
-          "weaponArray:poison"
-        ]
-      },
-      {
-        "key": "ItemAlteration",
-        "itemType": "weapon",
-        "mode": "override",
-        "property": "img",
-        "value": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/teal%20sci-fi%20gun.webp",
-        "predicate": [
-          "item:slug:turret-weapon",
-          "weaponArray:vitality"
-        ]
-      },
-      {
-        "key": "ItemAlteration",
-        "itemType": "weapon",
-        "mode": "override",
-        "property": "img",
-        "value": "icons/weapons/wands/wand-skull-horned.webp",
-        "predicate": [
-          "item:slug:turret-weapon",
-          "weaponArray:void"
-        ]
       }
     ],
     "slug": "expansive-array",
@@ -425,7 +381,7 @@
     "duplicateSource": null,
     "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "7.2.0",
+    "systemVersion": "7.2.1",
     "exportSource": null
   },
   "_key": "!items!3pECBue6eD8n6hFr"
