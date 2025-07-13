@@ -86,15 +86,15 @@
 
 .app.sheet.actor.character section.window-content form.crb-style {
     /* Color Definitions */
-    --c-primary: #2c4e69; /* teal */
-    --c-secondary: #5b3a96; /* purple */
+    --c-primary: #2a4d6a; /* teal */
+    --c-secondary: #613d9e; /* purple */
     --c-tertiary: #b9519e; /* pink */
     --c-accent: #9dd9e5; /* baby blue */
     --c-emphasis: #ec2026; /* red */
-    --c-secondary-light: hsl(262, 44%, calc(41% / 0.7));
+    --c-secondary-light: hsl(262, 44%, calc(43% / 0.74));
     --c-tertiary-light: hsl(316, calc(43% / 0.7), calc(52% / 0.6));
     --c-accent-light: hsl(190, 58%, calc(76% / 0.7));
-    --c-primary-dark: hsl(207, 41%, calc(29% / 1.7));
+    --c-primary-dark: hsl(207, 43%, calc(29% / 1.7));
     --c-tertiary-dark: hsl(316, 43%, calc(52% / 1.2));
 
     /* Font Overrides */
@@ -102,18 +102,22 @@
     --body-serif: Exo2, sans-serif;
 
     /* Color Overrides */
-    --sidebar-title: var(--c-accent);
-    --sidebar-label: var(--c-tertiary-light);
     --color-pf-primary: var(--c-primary);
-    --color-pf-secondary: var(--c-secondary-light);
+    --color-pf-secondary-lighter: var(--c-secondary-light);
+    --color-pf-secondary-light: var(--c-secondary-light);
+    --color-pf-secondary: var(--c-secondary);
     --color-pf-tertiary: var(--c-tertiary-light);
+    --color-pf-bulk-normal: var(--c-primary);
+    --color-pf-inventory-header-bg: var(--color-pf-primary);
     --primary: var(--c-primary);
     --sub: #576293;
     --alt: #3a7b59;
     --color-pf-alternate: var(--alt);
     --bg-dark: #b0dfe8;
+    --sidebar-title: var(--c-accent);
+    --sidebar-label: var(--c-tertiary-light);
 
-    background: url("../assets/theme/light/blue-gradient-bottom.webp"), #e2e7e9;
+    background: url("../assets/theme/light/blue-gradient-bottom.webp"), #e3e7e8;
     background-size: 100% 5.625rem, auto;
     background-repeat: repeat-x, repeat;
 
@@ -190,12 +194,11 @@
 
     > aside {
         --color-pf-secondary: var(--c-tertiary-dark);
-        filter: brightness(1.2);
         background-image: linear-gradient(
             to right,
             var(--c-accent),
-            var(--c-primary) 3%,
-            var(--c-primary) 97%,
+            var(--c-primary) 2%,
+            var(--c-primary) 98%,
             var(--c-accent)
         );
         background-repeat: repeat;

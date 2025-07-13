@@ -31,7 +31,7 @@ if (symlinkStats) {
             type: "confirm",
             name: "value",
             initial: false,
-            message: `A "starfinder-field-test-for-pf2e" ${atPath} already exists in the "systems" subfolder. Replace with new symlink?`,
+            message: `A "starfinder-field-test-for-pf2e" ${atPath} already exists in the "modules" subfolder. Replace with new symlink?`,
         })
     ).value;
     if (!proceed) {
