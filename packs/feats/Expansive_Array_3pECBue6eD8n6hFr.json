@@ -18,7 +18,322 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "Mental",
+            "predicate": [
+              {
+                "not": "expansive-array:mentalArray"
+              }
+            ],
+            "value": "mentalArray"
+          },
+          {
+            "label": "Poison",
+            "predicate": [
+              {
+                "not": "expansive-array:poisonArray"
+              }
+            ],
+            "value": "poisonArray"
+          },
+          {
+            "label": "Vitality",
+            "predicate": [
+              {
+                "not": "expansive-array:vitalityArray"
+              }
+            ],
+            "value": "vitalityArray"
+          },
+          {
+            "label": "Void",
+            "predicate": [
+              {
+                "not": "expansive-array:voidArray"
+              }
+            ],
+            "value": "voidArray"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.TerrainExpertise.Prompt",
+        "rollOption": "expansive-array"
+      },
+      {
+        "choices": [
+          {
+            "label": "Mental",
+            "predicate": [
+              {
+                "not": "expansive-array:mentalArray"
+              }
+            ],
+            "value": "mentalArray"
+          },
+          {
+            "label": "Poison",
+            "predicate": [
+              {
+                "not": "expansive-array:poisonArray"
+              }
+            ],
+            "value": "poisonArray"
+          },
+          {
+            "label": "Vitality",
+            "predicate": [
+              {
+                "not": "expansive-array:vitalityArray"
+              }
+            ],
+            "value": "vitalityArray"
+          },
+          {
+            "label": "Void",
+            "predicate": [
+              {
+                "not": "expansive-array:voidArray"
+              }
+            ],
+            "value": "voidArray"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.TerrainExpertise.Prompt",
+        "rollOption": "expansive-array"
+      },
+      {
+        "alwaysActive": true,
+        "domain": "all",
+        "key": "RollOption",
+        "option": "weaponArray",
+        "predicate": [],
+        "priority": 50,
+        "suboptions": [
+          {
+            "label": "Expansive Array (Mental)",
+            "value": "mental",
+            "predicate": [
+              "expansive-array:mentalArray"
+            ]
+          },
+          {
+            "label": "Expansive Array (Poison)",
+            "value": "poison",
+            "predicate": [
+              "expansive-array:poisonArray"
+            ]
+          },
+          {
+            "label": "Expansive Array (Vitality)",
+            "value": "vitality",
+            "predicate": [
+              "expansive-array:vitalityArray"
+            ]
+          },
+          {
+            "label": "Expansive Array (Void)",
+            "value": "void",
+            "predicate": [
+              "expansive-array:voidArray"
+            ]
+          }
+        ],
+        "label": "Turret Weapon Array",
+        "toggleable": true,
+        "mergeable": true,
+        "value": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "mental",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:mental"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "poison",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:poison"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "vitality",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:vitality"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "void",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:void"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "add",
+        "property": "traits",
+        "value": "tech",
+        "predicate": [
+          "item:slug:turret-weapon",
+          {
+            "or": [
+              "weaponArray:mental",
+              "weaponArray:poison",
+              "weaponArray:vitality",
+              "weaponArray:void"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "range-increment",
+        "value": 60,
+        "predicate": [
+          "item:slug:turret-weapon",
+          {
+            "or": [
+              "weaponArray:mental",
+              "weaponArray:poison",
+              "weaponArray:vitality",
+              "weaponArray:void"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "group",
+        "value": "mental",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:mental"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "group",
+        "value": "dart",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:poison"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "group",
+        "value": "laser",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:vitality"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "group",
+        "value": "void",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:void"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "name",
+        "value": "Expansive Array (Mental)",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:mental"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "name",
+        "value": "Expansive Array (Poison)",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:poison"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "name",
+        "value": "Expansive Array (Vitality)",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:vitality"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "name",
+        "value": "Expansive Array (Void)",
+        "predicate": [
+          "item:slug:turret-weapon",
+          "weaponArray:void"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "upgrade",
+        "property": "damage-dice-number",
+        "value": "2",
+        "predicate": [
+          "item:slug:turret-weapon",
+          {
+            "or": [
+              "weaponArray:mental",
+              "weaponArray:poison",
+              "weaponArray:vitality",
+              "weaponArray:void"
+            ]
+          }
+        ]
+      }
+    ],
     "slug": "expansive-array",
     "traits": {
       "otherTags": [],
@@ -64,9 +379,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.345",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.1",
+    "exportSource": null
   },
   "_key": "!items!3pECBue6eD8n6hFr"
 }
