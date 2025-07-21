@@ -1,0 +1,20 @@
+{
+  "type": "Actor",
+  "folder": null,
+  "name": "Battle for Nova Rush",
+  "color": null,
+  "sorting": "a",
+  "_id": "LO3WAhSBOqXNFcFk",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "7.2.0"
+  },
+  "_key": "!folders!LO3WAhSBOqXNFcFk"
+}
