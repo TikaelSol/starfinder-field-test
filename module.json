@@ -30,6 +30,7 @@
         }
     ],
     "esmodules": [
+        "scripts/anachronism-announcement.mjs",
         "scripts/sf2e-playtest.mjs"
     ],
     "languages": [
