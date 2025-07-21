@@ -17,10 +17,10 @@
       "gm": ""
     },
     "publication": {
-      "title": "",
+      "title": "Starfinder Tech Class Playtest",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "rules": [],
     "slug": "artificial-personality",
