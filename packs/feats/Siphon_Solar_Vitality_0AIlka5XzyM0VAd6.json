@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your starburst markings store solar energy that you can tap into to revitalize your body and magically heal your wounds. You regain Hit Points equal to @Damage[(@actor.level+ 1d6)[healing]](1d6 plus your character level). If you're in an area of natural sunlight, you instead regain Hit Points equal to @Damage[((2*@actor.level)+1d6)[healing]] (1d6 plus twice your character level).</p>",
@@ -69,9 +73,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "0AIlka5XzyM0VAd6",
   "_key": "!items!0AIlka5XzyM0VAd6"

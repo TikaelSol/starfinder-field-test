@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You overcharge your spell to arc past your enemy's defenses. If the next action you use is to Cast a Spell, the spell ignores an amount of the target's resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by wall of fire. A creature's immunities are unaffected. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you deal damage equal to your level even if the target is immune to acid, cold, electricity, fire, or sonic damage. Only ignore the first listed immunity this way, even if the target has immunities to multiple listed damage types.</p>",
@@ -98,9 +102,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!PNVnDNHqNdFs9sCS"
 }

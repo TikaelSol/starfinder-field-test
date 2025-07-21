@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> You are holding or wearing your custom rig.</p><hr /><p>Using your trusty custom rig, you quickly customize a piece of gear. Interact to draw, retrieve, or swap an item, then add one of the mods listed below to the item. The item remains modded until the start of your next turn, but the effect ends early if you use Modify again or if the item is destroyed or leaves your possession. When you Modify an item you can apply one of the following effects of your choice, called a mod, or any other mod you know. Some mods can only be applied to items of specific types or items with certain traits; these requirements are listed in parentheses. The selected mod lasts as long as the item is your modded item.</p><ul><li><strong>Big Boom (grenade or area weapon)</strong>: You know how to cram a lot of explosives and accelerant into a small package. Increase the item's radius by 5 feet (if it's a burst), its area by 5 feet (if it's a cone), or its area by 10 feet (if it's a line).</li><li><strong>Bunker Buster (grenade or weapon)</strong>: You amp the destructive capabilities of an item. The item bypasses 5 Hardness, or if it has razing, Hardness equal to 5 + its razing value.</li><li><strong>Incapacitant (grenade or weapon)</strong>: You swap live ammunition for dummy rounds. The item gains the nonlethal trait.</li><li><strong>Magnetic Levitators (armor)</strong>: You activate powerful magnets in your armor that propel you off the ground. Your base land Speed gains hover.</li><li><strong>Long-Range Propulsors (grenade or ranged weapon)</strong>: You increase the distance you can reliably shoot or throw the item. Increase the item's range by 10 feet (if it's a grenade) or its range increment by 30 feet (if it's a ranged weapon).</li><li><strong>Troubleshoot (item, drone exocortex, turret exocortex)</strong>: You quickly recalibrate a malfunctioning item. Reduce the value of the item's glitching condition by 1.</li></ul>",
@@ -47,9 +51,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!neyS5TJB8fTmQEKu"
 }

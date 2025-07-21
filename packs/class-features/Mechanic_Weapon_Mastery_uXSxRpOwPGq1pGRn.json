@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You fully understand the intricacies of weapons. Your proficiency rank for simple and martial weapons and unarmed attacks increases to master.</p>",
@@ -73,9 +77,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!uXSxRpOwPGq1pGRn"
 }

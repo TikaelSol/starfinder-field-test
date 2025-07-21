@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You've built your turret so it can rain down widespread destruction, in addition to performing targeted shots. You can use 2 actions to Area Fire your turret. When you do, your turret gains the area (cone) or area (line) trait (your choice whenever you Area Fire) and its range is halved.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!RU9a0ySCuPhxw0yT"
 }

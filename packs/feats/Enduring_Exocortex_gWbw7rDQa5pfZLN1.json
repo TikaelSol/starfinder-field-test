@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Painstaking contingency plans and a reliable backup power source allow your exocortex to continue processing data and following your programming even when you're @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf] or @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]. When you have 0 Hit Points or are otherwise unable to act, your exocortex remains functional and can take 3 actions per round on your turn. Your enduring exocortex can act while you're dying or unconscious, but it ceases to function if you are dead.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!gWbw7rDQa5pfZLN1"
 }

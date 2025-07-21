@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You work well on a team, and you're always ready to lend a hand and accept the help offered by others. You gain a +2 circumstance bonus to checks to Aid, and your allies gain a +2 circumstance bonus to checks to Aid you.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.xYipnklm52BcgwSD]{Effect: Cooperative}</p>",
@@ -70,9 +74,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "LHtaCR4gS4kozJyP",
   "_key": "!items!LHtaCR4gS4kozJyP"

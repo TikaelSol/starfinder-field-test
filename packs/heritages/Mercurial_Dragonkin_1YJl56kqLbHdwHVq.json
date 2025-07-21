@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Whether by fluke, the whims of fate, or deep-seated fear of codependency, you can't form a permanent partner bond. Instead, you can form a temporary partner bond. The time it takes you to form a partner bond is reduced to 10 minutes, and the duration of this partner bond is reduced to 1 day. You can choose to sever a partner bond early as a single action that has the concentration trait. If you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.y9tYChycW6xcdT7J]{Transfer Vitality} to your partner, reduce the Hit Point cost by 1 plus 1 for every 4 levels you have (to a minimum of 1).</p>",
@@ -42,9 +46,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "1YJl56kqLbHdwHVq",
   "_key": "!items!1YJl56kqLbHdwHVq"

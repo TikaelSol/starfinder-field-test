@@ -10,12 +10,12 @@
     "rules": [],
     "slug": "control-machine",
     "_migration": {
-      "version": 0.932,
+      "version": 0.94,
       "lastMigration": null,
       "previous": {
-        "schema": 0.926,
-        "foundry": "12.328",
-        "system": "6.0.4"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -77,9 +77,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.6.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "sort": 10100000,
   "ownership": {

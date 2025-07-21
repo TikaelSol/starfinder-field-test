@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> Your last action was a successful @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}.</p><hr /><p>You leverage your knowledge of energy, mass, and motion against your opponents to manipulate their battlefield positioning. The Shoved creature continues moving. They're pushed back an additional 5 feet, or 10 feet if the required Shove was a critical success. If they would collide with a solid surface due to this movement, you immediately attempt to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} them as a free action, even if they're no longer within your reach.</p>",
@@ -77,9 +81,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "dtyolFw2GkOB2vYY",
   "_key": "!items!dtyolFw2GkOB2vYY"

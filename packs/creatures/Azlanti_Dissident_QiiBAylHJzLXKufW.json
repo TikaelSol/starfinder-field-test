@@ -38,7 +38,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "type": "npc",
   "folder": null,
@@ -144,8 +150,12 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.932,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "abilities": {
       "str": {
@@ -232,9 +242,13 @@
         "rules": [],
         "slug": "lattice-armor",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -307,9 +321,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.IyBL38UtL4MDN6b5",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -343,14 +358,18 @@
         ],
         "slug": "seeker-rifle",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
           "value": [
             "analog",
-            "expend-1",
             "tracking-1",
             "volley-60"
           ],
@@ -418,13 +437,11 @@
           "damageType": "piercing",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
         "range": 120,
+        "expend": 1,
         "reload": {
           "value": "2"
         },
@@ -435,6 +452,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -455,9 +475,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.iVXp5YJmxysaYSJz",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "sort": 800000,
       "ownership": {
@@ -514,11 +535,11 @@
           "remaster": false
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "attackEffects": {
@@ -541,9 +562,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!QiiBAylHJzLXKufW.gWWZ8Mi3vagOuGq4"
     },
@@ -553,8 +575,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "description": {
           "value": "",
@@ -602,9 +628,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!QiiBAylHJzLXKufW.qTvL7mCcGE6i9mZ3"
     },
@@ -619,8 +646,13 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": []
@@ -729,9 +761,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!QiiBAylHJzLXKufW.MoC8w1chTTi9w7IT"
     },
@@ -746,9 +779,13 @@
         "rules": [],
         "slug": "haste",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -812,9 +849,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -840,12 +878,12 @@
         "rules": [],
         "slug": "gravity-tether",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.0.4"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -926,9 +964,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.NtlvrkW23KGGwjp6",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "sort": 0,
       "ownership": {
@@ -949,9 +988,13 @@
         "rules": [],
         "slug": "detect-magic",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1010,9 +1053,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -1049,11 +1093,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -1075,9 +1119,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!QiiBAylHJzLXKufW.gUZ4tRS6hLNsUcFh"
     }
@@ -1086,9 +1131,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

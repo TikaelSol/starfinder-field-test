@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Channeling the heat of Sota's rekindled sun, you unleash a blast of plasma across the battlefield. You deal @Damage[10d8[fire]] damage in a @Template[line|distance:120]. Creatures in the area must attempt a @Check[reflex|against:class-spell] save using your class DC or spell DC, whichever is higher.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage.</p><p><strong>Failure</strong> The creature takes full damage, plus @Damage[1d6[electricity]] damage, and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p><strong>Critical Failure</strong> The creature takes double damage, plus @Damage[1d6[persistent,electricity]] damage, and is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round. For 1 minute afterward, your body is awash with solar energy. Creatures that Grab you or that hit you with an unarmed Strike or a non-reach melee weapon take @Damage[1d6[fire]] damage.</p>",
@@ -66,9 +70,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "c0Jduoit1Lzo7gxF",
   "_key": "!items!c0Jduoit1Lzo7gxF"

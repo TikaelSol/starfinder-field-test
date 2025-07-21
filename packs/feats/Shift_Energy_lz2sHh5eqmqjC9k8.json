@@ -11,12 +11,11 @@
     "rules": [],
     "slug": "shift-energy",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
+      "version": 0.94,
       "previous": {
-        "schema": null,
-        "foundry": "12.330",
-        "system": "6.1.2"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -53,6 +52,11 @@
     "selfEffect": {
       "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.Zm5egcFVJq0Nxpfj",
       "name": "Effect: Shift Energy"
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
     }
   },
   "_id": "lz2sHh5eqmqjC9k8",
@@ -61,9 +65,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "sort": 18700000,
   "ownership": {

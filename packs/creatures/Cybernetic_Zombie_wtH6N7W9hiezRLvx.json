@@ -75,7 +75,6 @@
     },
     "detectionModes": [],
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,7 +89,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "folder": null,
   "name": "Cybernetic Zombie",
@@ -178,11 +184,11 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.932,
+      "version": 0.94,
       "previous": {
-        "schema": 0.926,
-        "foundry": "12.328",
-        "system": "6.1.1"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "abilities": {
@@ -276,12 +282,11 @@
         ],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -316,9 +321,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!wtH6N7W9hiezRLvx.YQi4pEcsJfon1nS3"
     },
@@ -333,12 +339,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -373,9 +378,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!wtH6N7W9hiezRLvx.VTtnqCB7pHtTrVJJ"
     },
@@ -390,11 +396,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -434,9 +440,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!wtH6N7W9hiezRLvx.4GNGBNHB4UH2ViIl"
     },
@@ -451,11 +458,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -498,28 +505,30 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!wtH6N7W9hiezRLvx.vha0fY8zaZwuM8zg"
     }
   ],
   "flags": {
-    "core": {},
-    "exportSource": {
-      "world": "starfinder-data-entry",
-      "system": "pf2e",
-      "coreVersion": "11.315",
-      "systemVersion": "5.15.3"
-    }
+    "core": {}
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.1"
+    "systemVersion": "7.2.3",
+    "exportSource": {
+      "worldId": "starfinder-data-entry",
+      "uuid": null,
+      "coreVersion": "11.315",
+      "systemId": "pf2e",
+      "systemVersion": "5.15.3"
+    }
   },
   "ownership": {
     "default": 0,

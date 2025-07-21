@@ -11,12 +11,11 @@
     "rules": [],
     "slug": "in-another-life",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
+      "version": 0.94,
       "previous": {
-        "schema": null,
-        "foundry": "12.330",
-        "system": "6.1.2"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -47,7 +46,12 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
   },
   "_id": "IZ3xr3jJLJ5AWPUU",
   "effects": [],
@@ -55,9 +59,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "sort": 6500000,
   "ownership": {

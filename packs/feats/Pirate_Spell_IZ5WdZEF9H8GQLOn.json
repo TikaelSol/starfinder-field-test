@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You're quick to copy and paste spells you like into your cache. When you successfully use @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.onqxEjE7qYDBT6nV]{Counterspell} to counteract a spell that affects targeted creatures or an area, you can install a temporary copy of that spell into your spell cache that lasts until you use Download a Spell to replace a prepared spell with the temporary copy or your next daily preparations, whichever comes first.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!IZ5WdZEF9H8GQLOn"
 }

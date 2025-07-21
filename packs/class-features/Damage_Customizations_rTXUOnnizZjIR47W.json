@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You've developed the tools to temporarily transmute energy from one type to another, and you've solved complex calculations required to add versatility to your physical attacks. Add the following mods to the list of options you can select with Modify.</p><ul><li><strong>Energy Versatility (grenade or weapon that deals energy damage):</strong> You add a custom energy converter to the item. The item deals one of the following damage types, rather than its typical damage type: acid, cold, electricity, fire, sonic.</li><li><strong>Physical Versatility (grenade or weapon that deals physical damage):</strong> You modify the item's structure, changing its destructive potential. The item deals one of the following damage types, rather than its typical damage type: bludgeoning, piercing, slashing.</li></ul>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!rTXUOnnizZjIR47W"
 }

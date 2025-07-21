@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You fight hardest when the odds are at their most dire, and the specter of death looms over you. As long as you have temporary Hit Points from @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.a9ER2amvCuQEJODm]{Heroic Last Stand}, your Strikes and spells deal additional damage. You gain a status bonus to damage with your Strikes equal to the number of weapon damage dice. Spells you cast from spell slots gain a status bonus to damage equal to the level of the spell; this bonus applies only to spells that deal damage and don't have a duration.</p>",
@@ -86,9 +90,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "CBuBWa9a7FgDp3x0",
   "_key": "!items!CBuBWa9a7FgDp3x0"

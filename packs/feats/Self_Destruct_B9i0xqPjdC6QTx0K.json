@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> your turret is Deployed and within 100 feet.</p><hr /><p>You overload your turret's systems, causing it to selfdestruct in a volatile explosion. Your turret deals @Damage[((floor((@actor.level - 2)/2))d6)[piercing],1d6[fire]] damage to all creatures in a @Template[type:emanation|distance:20]. Creatures in the area can attempt a @Check[reflex|against:class|basic] save against your class DC. Your turret is destroyed.</p><hr /><p><strong>Level (+2)</strong> The piercing damage increases by 1d6.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!B9i0xqPjdC6QTx0K"
 }

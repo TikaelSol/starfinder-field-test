@@ -10,12 +10,11 @@
     "rules": [],
     "slug": "limited-telepathy",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
+      "version": 0.94,
       "previous": {
-        "schema": 0.917,
-        "foundry": "12.328",
-        "system": "6.1.1"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -33,7 +32,7 @@
       "remaster": true
     },
     "level": {
-      "value": 0
+      "value": 1
     },
     "category": "ancestryfeature",
     "onlyLevel1": false,
@@ -47,7 +46,12 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20alien%20brain.webp",
   "folder": "KUf5bVKVWf62ZAgU",
@@ -62,9 +66,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "60yPDglrlsZU5y0G",
   "sort": 800000,

@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your custom rig allows you to customize items in your possession on the fly, increasing their effectiveness or versatility for a limited time. You can make such adjustments using the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.neyS5TJB8fTmQEKu]{Modify} action.</p>",
@@ -61,9 +65,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "FxVyOgF0QY7Teb8X",
   "sort": 300000,

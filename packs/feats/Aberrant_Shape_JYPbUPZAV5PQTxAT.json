@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You can take the form of a terrifying aberration. When you Change Shape, you can choose one of the following: gain the effects of a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{enlarge} spell and 6th-rank @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.fiwhzHpbOsugCrON]{eldritch bond} spell; gain the effects of a 2nd-rank enlarge spell and 6th-rank eldritch bond spell granting three abilities; or gain the effects of a 6th-rank eldritch bond spell granting four abilities. This effect lasts for 1 minute or until you shift back, whichever comes first.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "JYPbUPZAV5PQTxAT",
   "_key": "!items!JYPbUPZAV5PQTxAT"

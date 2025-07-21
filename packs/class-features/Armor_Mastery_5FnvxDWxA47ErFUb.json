@@ -10,8 +10,12 @@
     "rules": [],
     "slug": "armor-mastery",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -45,15 +49,20 @@
     "subfeatures": {
       "proficiencies": {
         "light": {
-          "rank": 3
+          "rank": 3,
+          "attribute": null
         },
         "medium": {
-          "rank": 3
+          "rank": 3,
+          "attribute": null
         },
         "unarmored": {
-          "rank": 3
+          "rank": 3,
+          "attribute": null
         }
-      }
+      },
+      "senses": {},
+      "suppressedFeatures": []
     }
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/finp_275_b.webp",
@@ -66,9 +75,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "5FnvxDWxA47ErFUb",
   "sort": 6800000,

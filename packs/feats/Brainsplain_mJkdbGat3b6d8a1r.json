@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> You succeed at a check to Recall Knowledge to identify a foe within range of your limited telepathy.</p><hr /><p>Upon carefully analyzing a creature, you helpfully send it a telepathic lecture regarding its physiological and psychological inadequacies. For inexplicable reasons, doing so tends to aggravate the creature rather than educate it. The creature must attempt a @Check[will|against:class] save against your class DC. If you critically succeeded at the triggering check to Recall Knowledge, the target takes a –1 status penalty to its Will save. The creature is then temporarily immune for 24 hours.</p><hr /><p><strong>Critical Success</strong> You accidentally overshare, exposing your own foibles. The creature gains a +1 circumstance bonus to its next attack roll against you, as long as that attack is made within 1 minute.</p><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round, after which it is stupefied 1 for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>",
@@ -67,9 +71,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "mJkdbGat3b6d8a1r",
   "_key": "!items!mJkdbGat3b6d8a1r"

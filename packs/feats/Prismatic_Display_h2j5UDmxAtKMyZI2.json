@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You rapidly shift the colors of your skin to throw off the senses of those around you. Attempt a @Check[deception|against:perception] check against the Perception DCs of all creatures within melee reach. On a success, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of your turn (@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} on a critical success). Regardless of the result of your check, each creature is then temporarily immune to Prismatic Display for 10 minutes.</p>",
@@ -62,9 +66,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "h2j5UDmxAtKMyZI2",
   "_key": "!items!h2j5UDmxAtKMyZI2"

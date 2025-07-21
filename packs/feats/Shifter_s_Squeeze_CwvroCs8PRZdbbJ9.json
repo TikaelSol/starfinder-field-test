@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You can easily contort and resize your limbs to squeeze into smaller spaces. You gain the trained proficiency rank in Acrobatics. If you are already trained in Acrobatics (from your background or class, for example), you instead become trained in a skill of your choice. You gain the @UUID[Compendium.pf2e.feats-srd.Item.3G8xUlgCjRmRJNfP]{Quick Squeeze} feat.</p>",
@@ -72,9 +76,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": "Item.R6IusnBEHihQWPF6",
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "CwvroCs8PRZdbbJ9",
   "_key": "!items!CwvroCs8PRZdbbJ9"

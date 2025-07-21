@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>By imitating your ancestors' diet, taking synthetic supplements, or unlocking your genetic potential with magic, you've enhanced your bioelectrical network. All your Strikes or spells that deal electricity damage or have the electricity trait gain the arc trait. If you're wielding an active forcefield, it regenerates twice its normal HP for 1 round after you hit an enemy with an arc attack.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "D9VmYez4TIczPdFy",
   "_key": "!items!D9VmYez4TIczPdFy"

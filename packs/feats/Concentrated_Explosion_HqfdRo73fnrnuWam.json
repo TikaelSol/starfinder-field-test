@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>When it comes to setting off explosions, there's only one rule: the bigger the boom, the better. You gain the following new mod.</p><p><strong>Concentrated Explosion (grenade):</strong> You pack extra explosives into the grenade's casing. The item's area is halved (rounded down; a @Template[type:burst|distance:5] is reduced to one 5-foot square) but it deals one additional die of damage.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!HqfdRo73fnrnuWam"
 }

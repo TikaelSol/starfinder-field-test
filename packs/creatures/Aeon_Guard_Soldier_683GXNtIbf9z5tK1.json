@@ -75,7 +75,6 @@
     },
     "detectionModes": [],
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,7 +89,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "folder": null,
   "name": "Aeon Guard Soldier",
@@ -144,11 +150,11 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.932,
+      "version": 0.94,
       "previous": {
-        "schema": 0.926,
-        "foundry": "12.328",
-        "system": "6.1.1"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "abilities": {
@@ -233,12 +239,12 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -270,9 +276,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!683GXNtIbf9z5tK1.ruNpGeFOaBwvAgLa"
     },
@@ -287,12 +294,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -327,9 +333,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!683GXNtIbf9z5tK1.tvQ0StdpNg7LbQpb"
     },
@@ -356,11 +363,11 @@
         ],
         "slug": null,
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -406,9 +413,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!683GXNtIbf9z5tK1.UL6Yp3HpISV7rgJN"
     },
@@ -423,11 +431,11 @@
         "rules": [],
         "slug": "aeon-rifle",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -471,9 +479,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!683GXNtIbf9z5tK1.uXKsZVzrtXcUrITu"
     },
@@ -488,12 +497,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -528,9 +536,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!683GXNtIbf9z5tK1.oPxCFqeEjw1o2aWq"
     },
@@ -545,12 +554,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -585,9 +593,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!683GXNtIbf9z5tK1.N1ZBkPXhD17mEqpo"
     },
@@ -612,12 +621,11 @@
         ],
         "slug": "show-no-mercy",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -652,9 +660,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!683GXNtIbf9z5tK1.uigaQFvMSkaFxIGb"
     },
@@ -670,12 +679,12 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -755,9 +764,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.2.1"
+        "systemVersion": "6.2.1",
+        "exportSource": null
       },
       "_key": "!actors.items!683GXNtIbf9z5tK1.GTmawuW29O9NQm9H"
     },
@@ -773,12 +783,12 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -846,13 +856,11 @@
           "damageType": "slashing",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
         "range": null,
+        "expend": null,
         "reload": {
           "value": null
         },
@@ -863,6 +871,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -890,9 +901,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!683GXNtIbf9z5tK1.jCBBqHGgk2uoK1D8"
     },
@@ -908,12 +920,12 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -981,13 +993,11 @@
           "damageType": "slashing",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
         "range": null,
+        "expend": null,
         "reload": {
           "value": null
         },
@@ -998,6 +1008,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -1025,9 +1038,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!683GXNtIbf9z5tK1.9HTCggLTyOQqh58Z"
     },
@@ -1043,12 +1057,12 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -1117,16 +1131,15 @@
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.NbZBvTjVNBaIYHCI"
-        }
+        "core": {}
       },
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.NbZBvTjVNBaIYHCI",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.2.1"
+        "systemVersion": "6.2.1",
+        "exportSource": null
       },
       "folder": "roXeAuXxYtBw6a38",
       "sort": 0,
@@ -1149,12 +1162,12 @@
         "rules": [],
         "slug": "aeon-stone-consumed",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -1219,9 +1232,7 @@
       },
       "type": "equipment",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.equipment-srd.Item.CVTbxCY85nLoHYuw"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -1233,29 +1244,31 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.CVTbxCY85nLoHYuw",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_id": "TYHQZ1H3Wi03ZxHq",
       "_key": "!actors.items!683GXNtIbf9z5tK1.TYHQZ1H3Wi03ZxHq"
     }
   ],
   "flags": {
-    "core": {},
-    "exportSource": {
-      "world": "starfinder-data-entry",
-      "system": "pf2e",
-      "coreVersion": "11.315",
-      "systemVersion": "5.15.3"
-    }
+    "core": {}
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.1"
+    "systemVersion": "7.2.3",
+    "exportSource": {
+      "worldId": "starfinder-data-entry",
+      "uuid": null,
+      "coreVersion": "11.315",
+      "systemId": "pf2e",
+      "systemVersion": "5.15.3"
+    }
   },
   "ownership": {
     "default": 0,

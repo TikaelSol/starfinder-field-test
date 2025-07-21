@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You suddenly change your appearance to create an opening for your next attack. Change Shape and @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint}. You gain a circumstance bonus to your Deception check to Feint equal to the number of steps between your sizes when you Change Shape (+1 if you are one size smaller or larger, +2 if you are two sizes smaller or larger, and so on). Regardless of the results of your check, each creature who observes you Change Shape is temporarily immune to Shifter's Feint for 1 minute.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "7Th5q3QVYL2KzKEy",
   "_key": "!items!7Th5q3QVYL2KzKEy"

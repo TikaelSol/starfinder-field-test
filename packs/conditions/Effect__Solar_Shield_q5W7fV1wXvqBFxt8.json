@@ -111,8 +111,12 @@
     ],
     "slug": "effect-solar-shield",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -142,7 +146,8 @@
     },
     "badge": null,
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "img": "icons/magic/symbols/runes-star-orange.webp",
   "folder": null,
@@ -154,9 +159,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "q5W7fV1wXvqBFxt8",
   "sort": 1100000,

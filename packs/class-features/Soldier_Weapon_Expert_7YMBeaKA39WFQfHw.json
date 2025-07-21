@@ -23,12 +23,11 @@
     ],
     "slug": "soldier-weapon-expert",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
+      "version": 0.94,
       "previous": {
-        "schema": 0.853,
-        "foundry": "12.328",
-        "system": "6.1.1"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -63,15 +62,20 @@
     "subfeatures": {
       "proficiencies": {
         "simple": {
-          "rank": 2
+          "rank": 2,
+          "attribute": null
         },
         "martial": {
-          "rank": 2
+          "rank": 2,
+          "attribute": null
         },
         "unarmed": {
-          "rank": 2
+          "rank": 2,
+          "attribute": null
         }
-      }
+      },
+      "senses": {},
+      "suppressedFeatures": []
     }
   },
   "img": "icons/skills/targeting/crosshair-bars-yellow.webp",
@@ -84,10 +88,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.4.1",
-    "coreVersion": "12.331",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "7YMBeaKA39WFQfHw",
   "sort": 13600000,

@@ -11,8 +11,13 @@
     "rules": [],
     "slug": "electromag-grenade-commercial",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null
+      "version": 0.94,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -49,7 +54,8 @@
       }
     },
     "equipped": {
-      "carryType": "worn"
+      "carryType": "worn",
+      "handsHeld": 0
     },
     "containerId": null,
     "size": "med",
@@ -98,9 +104,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!kjNZ2skzduDT0wVx"
 }

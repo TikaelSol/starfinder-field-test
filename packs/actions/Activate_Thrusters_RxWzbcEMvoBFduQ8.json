@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your drone Strides twice, moving through the spaces of any creatures in the way, dealing them @Damage[5d6[bludgeoning]] damage with a @Check[reflex|against:class|basic] save against your class DC. A creature that critically fails its saving throw is additionally knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Your drone's movement doesn't trigger reactions.</p><hr /><p><strong>Level (+2)</strong> The damage increases by [[/r 1d6]].</p>",
@@ -48,9 +52,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!RxWzbcEMvoBFduQ8"
 }

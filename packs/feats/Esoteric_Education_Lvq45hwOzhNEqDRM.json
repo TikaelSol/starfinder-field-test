@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>For all their practicality, broader fields of study don't capture your imagination when there are more specialized disciplines you might explore. Choose two Lore skill subcategories. You gain the Additional Lore general feat for both skills.</p><hr /><p><strong>Special</strong> You can take this feat three times. Each time you do, you gain the Additional Lore general feat for a new subcategory of Lore, and you become trained in one other Lore skill subcategory of your choice.</p>",
@@ -65,9 +69,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "Lvq45hwOzhNEqDRM",
   "_key": "!items!Lvq45hwOzhNEqDRM"

@@ -11,12 +11,11 @@
     "rules": [],
     "slug": "bring-it-on",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
+      "version": 0.94,
       "previous": {
-        "schema": null,
-        "foundry": "12.328",
-        "system": "6.0.4"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -51,6 +50,11 @@
     "selfEffect": {
       "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.xbzQX1BBgNwNkig6",
       "name": "Effect: Bring It On!"
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
     }
   },
   "_id": "SxSEfkyf0DgWaOlK",
@@ -59,9 +63,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.10.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "sort": 10100000,
   "ownership": {

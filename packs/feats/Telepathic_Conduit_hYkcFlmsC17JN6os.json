@@ -10,12 +10,11 @@
     "rules": [],
     "slug": "telepathic-conduit",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
+      "version": 0.94,
       "previous": {
-        "schema": 0.917,
-        "foundry": "12.328",
-        "system": "6.1.1"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -47,7 +46,12 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
   },
   "_id": "hYkcFlmsC17JN6os",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
@@ -60,10 +64,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.3",
-    "coreVersion": "12.330",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!hYkcFlmsC17JN6os"
 }

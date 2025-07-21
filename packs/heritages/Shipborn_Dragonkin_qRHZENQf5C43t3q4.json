@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your ancestors adapted to live on a starship or in a settlement sized for people much smaller than your own. Being large was a disadvantage—one that subsequent generations shed. Instead of Large, your size is Medium. You gain a +1 circumstance bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Squeeze}, and you can use Acrobatics or Athletics when you Squeeze.</p>",
@@ -56,9 +60,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "qRHZENQf5C43t3q4",
   "_key": "!items!qRHZENQf5C43t3q4"

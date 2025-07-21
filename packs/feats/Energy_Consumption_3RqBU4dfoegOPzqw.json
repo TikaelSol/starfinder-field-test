@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your body has adapted over to consume the excess energy it uses to shield itself, allowing it to neutralize other forms of energy that could harm it. When you use your @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.hvWJRc0dGF3ivrb6]{Energy Deflection} reaction, if the attack was a failure or critical failure, you gain temporary Hit Points equal to your level; you also gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.lmowZWTzJaZfM3bb]{Energy Shielding} feat (selecting a different type of energy). These temporary Hit Points and the Energy Shielding feat last 1 minute.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.g1J6DOxBQkacvbyE]{Effect: Energy Consumption}</p>",
@@ -80,9 +84,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "3RqBU4dfoegOPzqw",
   "_key": "!items!3RqBU4dfoegOPzqw"

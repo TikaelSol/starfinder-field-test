@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You manifest your faith as a shield. Your armor and the armor of up to five allies you can see within 30 feet gains the benefits of an activated @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.WgLegYXfJWtPOB3m]{Tactical Force Field} upgrade with 14 Hit Points that replenishes 2 Hit Points on your turn but does not protect from critical hits like a normal force field. The force field lasts for one minute. After receiving the benefits of Iomedae's Shield, you and your allies are immune to the effect for one hour.</p><p>At level 10, this becomes a @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.8yEnhqeRKBxO02M2]{Superior Force Field} with 26 HP and replenishes 5 Hit Points on your turn, and at level 16, this becomes an @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.Hqxyg3xDDoqYLNO3]{Ultimate Force Field} with 37 HP and replenishes 7 Hit Points on your turn.</p>",
@@ -67,9 +71,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!ZOuBKbHt7E3BrksL"
 }

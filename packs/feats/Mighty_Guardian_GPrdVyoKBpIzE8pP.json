@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>The magical spark you use to protect others grows in power. You can cast @UUID[Compendium.pf2e.spells-srd.Item.d7Lwx6KAs47MtF0q]{Share Life} and @UUID[Compendium.pf2e.spells-srd.Item.HTou8cG05yuSkesj]{Status} as 2nd-rank divine innate spells, once per day each.</p>",
@@ -89,9 +93,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "GPrdVyoKBpIzE8pP",
   "_key": "!items!GPrdVyoKBpIzE8pP"

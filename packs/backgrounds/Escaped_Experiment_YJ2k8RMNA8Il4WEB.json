@@ -16,8 +16,13 @@
     ],
     "slug": "escaped-experiment",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null
+      "version": 0.94,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -76,20 +81,20 @@
     "xrkQVtB9iGZvxqph": 3,
     "mcr1uhoMfGHRQJHX": 3
   },
-  "flags": {
-    "exportSource": {
-      "world": "data-entry",
-      "system": "pf2e",
-      "coreVersion": "12.331",
-      "systemVersion": "6.12.1"
-    }
-  },
+  "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": {
+      "worldId": "data-entry",
+      "uuid": null,
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.12.1"
+    }
   },
   "_key": "!items!YJ2k8RMNA8Il4WEB"
 }

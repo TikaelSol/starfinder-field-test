@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You loudly proclaim your opposition to a single creature you're aware of within 60 feet. You gain a +1 circumstance bonus to Armor Class and saving throws against the selected creature's attacks, spells, and other effects for 1 minute. During that time, if you would fail or critically fail a saving throw against the selected creature, you can choose to reroll the failed save. If you do, after rerolling, Willful Defiance ends.</p>",
@@ -95,9 +99,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "NUZClDNinM6oVgJN",
   "_key": "!items!NUZClDNinM6oVgJN"

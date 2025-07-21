@@ -16,12 +16,11 @@
     ],
     "slug": "glitching",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
+      "version": 0.94,
       "previous": {
-        "schema": 0.853,
-        "foundry": "12.328",
-        "system": "6.1.1"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -52,10 +51,13 @@
     },
     "badge": {
       "type": "counter",
-      "value": 1
+      "value": 1,
+      "labels": null,
+      "loop": false
     },
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
   "folder": null,
@@ -64,20 +66,21 @@
     "qA45GVv5hySaf9b5": 3
   },
   "flags": {
-    "core": {},
-    "exportSource": {
-      "world": "starfinder-2e",
-      "system": "pf2e",
-      "coreVersion": "11.306",
-      "systemVersion": "5.2.3"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.343",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "starfinder-2e",
+      "uuid": null,
+      "coreVersion": "11.306",
+      "systemId": "pf2e",
+      "systemVersion": "5.2.3"
+    }
   },
   "_id": "6A2QDy8wRGCVQsSd",
   "sort": 9900000,

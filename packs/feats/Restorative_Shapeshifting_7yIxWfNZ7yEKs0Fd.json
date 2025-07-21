@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once per minute</p><p><strong>Trigger</strong> You use Change Shape.</p><hr /><p>You renew and reinforce your body with elements of your new form. You gain a number of temporary Hit Points equal to half your level (minimum 1) that last until the end of your next turn.</p>",
@@ -68,9 +72,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "7yIxWfNZ7yEKs0Fd",
   "_key": "!items!7yIxWfNZ7yEKs0Fd"

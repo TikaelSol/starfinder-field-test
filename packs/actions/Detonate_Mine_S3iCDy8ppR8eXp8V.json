@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> A mine you deployed is within 100 feet. With a moment's thought, you trigger the detonation of a mine you deployed within 100 feet, causing it to explode in a @Template[type:burst|distance:10]. This mine deals 2d6 fire or piercing damage, based on the damage type you selected when that mine was deployed. Creatures in the area can attempt a @Check[reflex|against:class|basic] save against your class DC. </p><hr /><p>You can Detonate Mine as a reaction, with the following trigger.</p><p><strong>Trigger</strong> A creature enters or leaves a square within the burst area of a mine you have deployed.</p><hr /><p>At 3rd level and every 2 levels thereafter, the damage increases by [[/r 1d6]].</p>",
@@ -47,9 +51,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!S3iCDy8ppR8eXp8V"
 }

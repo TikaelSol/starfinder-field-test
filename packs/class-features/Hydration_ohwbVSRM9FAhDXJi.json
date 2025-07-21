@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your body requires you to return to aquatic environments or to don armor with environmental protections at least once in a 24-hour period. You must submerge in water in order to rehydrate your water-acclimated skin.</p><p>If you fail to do this, your skin begins to crack and your gills become painful. After the first 24 hours outside of water, you take a -1 status penalty to Fortitude saves. After 48 hours, you struggle to breathe air and begin to suffocate until returned to water.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.Q5FUu7yhWPJlcXei]{Effect: Dehydrated}</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "ohwbVSRM9FAhDXJi",
   "_key": "!items!ohwbVSRM9FAhDXJi"

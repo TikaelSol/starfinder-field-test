@@ -11,8 +11,13 @@
     "rules": [],
     "slug": "talon",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null
+      "version": 0.94,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -86,13 +91,11 @@
       "damageType": "slashing",
       "persistent": null
     },
-    "bonusDamage": {
-      "value": 0
-    },
     "splashDamage": {
       "value": 0
     },
     "range": null,
+    "expend": null,
     "reload": {
       "value": null
     },
@@ -103,6 +106,9 @@
     },
     "specific": null,
     "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
     "property1": {
       "value": "",
       "dice": 0,
@@ -124,9 +130,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "sort": 100391,
   "ownership": {

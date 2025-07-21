@@ -42,8 +42,13 @@
     ],
     "slug": "ancient-elebrian",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null
+      "version": 0.94,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -94,9 +99,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!nS1azun1ePntzbYJ"
 }

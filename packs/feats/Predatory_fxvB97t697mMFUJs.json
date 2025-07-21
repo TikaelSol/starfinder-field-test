@@ -98,12 +98,11 @@
     ],
     "slug": "predatory",
     "_migration": {
-      "version": 0.933,
-      "lastMigration": null,
+      "version": 0.94,
       "previous": {
-        "schema": 0.932,
-        "foundry": "12.331",
-        "system": "6.6.1"
+        "schema": 0.933,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -134,7 +133,12 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
   },
   "_id": "fxvB97t697mMFUJs",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
@@ -147,10 +151,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.6.1",
-    "coreVersion": "12.331",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_key": "!items!fxvB97t697mMFUJs"
 }

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Each of your forms has unusually thick skin. Your DC on flat checks to end persistent bleed damage is reduced from 15 to 10, or from 10 to 5 after receiving especially appropriate assistance.</p><hr /><p><strong>Special</strong> You can use the Restorative Shapeshifting feat to attempt an additional flat check to end persistent bleed damage, but this is not considered especially appropriate assistance.</p>",
@@ -71,9 +75,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "Cizv80DJNxT9OCrN",
   "_key": "!items!Cizv80DJNxT9OCrN"

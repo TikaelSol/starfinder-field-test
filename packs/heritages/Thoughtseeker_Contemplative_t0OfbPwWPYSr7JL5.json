@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Not content with their own thoughts, some contemplatives opened themselves to other minds seeking knowledge throughout the galaxy, developing far-reaching awareness as a result. You are descended from these psychic explorers or trained extensively with their successors. You gain @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.tFsq726ZjUDAzML0]{Detect Thoughts} as an occult innate cantrip, which you can cast at will. A cantrip is heightened to a spell rank equal to half your level, rounded up. In addition, increase the range of your thoughtsense by 10 feet.</p>",
@@ -71,9 +75,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "t0OfbPwWPYSr7JL5",
   "_key": "!items!t0OfbPwWPYSr7JL5"

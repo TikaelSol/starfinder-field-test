@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> You are adjacent to an ally or your ally is riding you and you have one or more hands free. </p><hr /><p>You use your innate strength to hurl an ally across the battlefield. Pick up an adjacent ally of your size or smaller and throw them to an unoccupied space you can see within 20 feet, or within 40 feet if you throw your bonded partner. Their movement doesn't trigger reactions. Your ally ends this movement on their feet and treats the fall as 20 feet lower, or 40 feet lower if you throw your bonded partner.</p>",
@@ -61,9 +65,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "SJATkfqF5IeTwBRd",
   "_key": "!items!SJATkfqF5IeTwBRd"

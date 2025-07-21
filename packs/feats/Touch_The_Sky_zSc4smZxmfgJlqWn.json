@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>There's nothing you love more than soaring through the air. When you fly, you don't count moving upward (straight up or diagonally) as moving through difficult terrain. This does not apply to flying with equipment or vehicles, such as jet packs and hover boards.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "zSc4smZxmfgJlqWn",
   "_key": "!items!zSc4smZxmfgJlqWn"

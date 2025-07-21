@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Through practice, you've learned how to increase the intensity of your bioluminescence. The range of your bioluminescence increases to 50 feet. Your dazzling glare misleads your foes, allowing you to use the @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} action against a creature within the range of your bioluminescence, rather than within melee range.</p>",
@@ -71,9 +75,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "TuY90W5JlyUgdYtJ",
   "_key": "!items!TuY90W5JlyUgdYtJ"

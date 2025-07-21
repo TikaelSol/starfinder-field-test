@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You shift the color and texture of your skin to match your surroundings. You Change Shape, but instead of taking on the form of another creature, you blend in with your environment. As long as an observer is at least 20 feet away from you, you don't need cover from that observer to Hide or @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}. This lasts as long as you stay in your new form or until you move to an area with substantially different terrain.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "PF5sBTrvGTyGALfG",
   "_key": "!items!PF5sBTrvGTyGALfG"

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You don't simply defuse enemy spells—you shatter them in a blast of magical force. If the next action you use is to cast @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] and you successfully counteract the target, one creature of your choice occupying the same space as the spell effect or magic item takes force damage equal to 1d4 × the target's counteract rank with a basic Reflex save against your spell DC; if the target has a trait corresponding to a type of damage, such as fire, this effect deals that damage instead of force.</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, choose one: you can deal damage to every creature in the area of the spell effect or adjacent to the targeted magic item, or you can deal 1d6 damage × the target's counteract rank instead of 1d4 damage.</p>",
@@ -99,9 +103,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!jQG74CujXd5Nmqfm"
 }

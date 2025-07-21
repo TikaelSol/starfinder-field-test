@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Straining both your mind and your equipment, you compress as much of your spell's programming as you can, resulting in a faster compiling but much more complex code. If your next action is to cast a technomancer cantrip or a technomancer spell that is at least 2 ranks lower than the highest-rank technomancer spell slot you have, reduce the number of actions to cast it by 1 (minimum 1 action).</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape using the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.MKgHjc8DEB2XsRa8]{Double Spellshape} feat, you can apply both this jailbreak benefit and the other spellshape's original jailbreak benefit to the spell.</p>",
@@ -66,9 +70,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!QWfrkpAolnHdrpO3"
 }

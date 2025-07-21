@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You know how to use constructed weapons to their best advantage. Your proficiency ranks for simple and martial weapons and unarmed attacks increase to expert. You gain access to the critical specialization effect of all weapons for which you have expert proficiency. If you have a drone exocortex, your drone additionally gains access to the critical specialization effects of all weapons for which it has expert proficiency.</p>",
@@ -86,9 +90,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!5Tf9aubm0c8r6atw"
 }

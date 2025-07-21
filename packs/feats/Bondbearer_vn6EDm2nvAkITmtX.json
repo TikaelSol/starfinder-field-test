@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You and your bonded partner have learned the ancient art of dragonriding. Your bonded partner can ride you if they are one size category smaller than you (Medium size, for most dragonkin), rather than needing to be two size categories smaller. When your bonded partner rides you as a mount, your synchronicity enables them to gain three actions at the start of their turn, rather than the two they normally would for riding another PC. You still gain only two actions at the start of your turn, rather than three.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "vn6EDm2nvAkITmtX",
   "_key": "!items!vn6EDm2nvAkITmtX"

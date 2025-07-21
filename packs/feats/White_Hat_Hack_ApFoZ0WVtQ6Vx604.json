@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> You cast a non-cantrip spell that is not modified by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.EE07CnQmn8Xg4gkd]{Jailbreak Spell}.</p><p><strong>Requirements</strong> Your gear is overclocked.</p><hr /><p>You are an expert in testing the cyber defenses of tech gear and bolstering it against incoming damage. You use the magic energy of the last spell you cast to reduce the @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd] condition by half the spell's rank (minimum 1) of up to one tech creature or tech item within 100 feet for every rank of the triggering spell. For the next minute, affected targets roll flat checks to recover from the glitching condition twice and take the higher result; this is a fortune effect.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!ApFoZ0WVtQ6Vx604"
 }

@@ -27,7 +27,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "folder": null,
   "name": "Hesper",
@@ -151,8 +157,12 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.932,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "abilities": {
       "str": {
@@ -230,12 +240,12 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": null,
-            "foundry": "12.328",
-            "system": "6.0.4"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -267,9 +277,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!QA0LD0fcjZL5cF3J.l8NV8s9LYWE4aO7e"
     },
@@ -284,12 +295,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.328",
-            "system": "6.0.4"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -324,9 +334,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!QA0LD0fcjZL5cF3J.5hnnztReMFY845Zu"
     },
@@ -341,12 +352,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.328",
-            "system": "6.0.4"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -381,9 +391,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!QA0LD0fcjZL5cF3J.z9QzESGsOF6eAO6R"
     },
@@ -393,8 +404,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "description": {
           "value": "",
@@ -442,9 +457,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!QA0LD0fcjZL5cF3J.0CKKSBKOO1gqAgLE"
     },
@@ -454,8 +470,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "description": {
           "value": "",
@@ -504,9 +524,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!QA0LD0fcjZL5cF3J.KKnnsBMqbRwf1KQw"
     },
@@ -521,12 +542,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.328",
-            "system": "6.0.4"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -561,9 +581,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!QA0LD0fcjZL5cF3J.YdIBSyXo3vEb1lrA"
     },
@@ -578,8 +599,13 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": []
@@ -688,9 +714,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!QA0LD0fcjZL5cF3J.UwvDvyq9XxLEt8AK"
     },
@@ -705,9 +732,13 @@
         "rules": [],
         "slug": "charm",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -780,14 +811,13 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -810,9 +840,13 @@
         "rules": [],
         "slug": "thunderstrike",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -901,14 +935,13 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.zDJS8E66UI0himqV",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.Item.zDJS8E66UI0himqV"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -931,9 +964,13 @@
         "rules": [],
         "slug": "light",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -989,14 +1026,13 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -1019,9 +1055,13 @@
         "rules": [],
         "slug": "prestidigitation",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1076,14 +1116,13 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -1106,12 +1145,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.328",
-            "system": "6.0.4"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -1146,9 +1184,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!QA0LD0fcjZL5cF3J.H2iaZL3sRVMqGL7P"
     }
@@ -1157,9 +1196,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

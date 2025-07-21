@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> You cast a non-cantrip spell that is not modified by Jailbreak Spell.</p><p><strong>Requirements</strong> Your gear is overclocked.</p><hr /><p>You route the excess energy from your spell into your spell database. Once during the next minute, you can Cast a Spell directly from your spell cache, up to the same rank as the triggering spell, without using a spell slot.</p><p></p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!aQWCy9zNU1fo3rCs"
 }

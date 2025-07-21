@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your ability to breathe energy is unparalleled. The area of your Dragonkin Breath increases to a @Template[type:cone|distance:30] and the damage dice are d6s instead of d4s. If you have the critical specialization effect of any weapon, a creature that gets a critical failure on their Reflex save against your dragonkin breath are affected by its corresponding critical weapon specialization effect.</p>",
@@ -79,9 +83,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "I3WFIdKurB9OIYZM",
   "_key": "!items!I3WFIdKurB9OIYZM"

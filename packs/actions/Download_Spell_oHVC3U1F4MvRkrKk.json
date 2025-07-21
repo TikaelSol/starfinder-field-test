@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You overwrite one of your prepared spells with one of the spells in your spell cache of the same rank or lower. Select one of your prepared non-cantrip spells that has not been expended. This spell slot is emptied and one of your cached spells is instantly prepared in its place, heightened to the slot it fills.</p>",
@@ -51,9 +55,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!oHVC3U1F4MvRkrKk"
 }

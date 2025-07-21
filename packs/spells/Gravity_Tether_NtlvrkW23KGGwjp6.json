@@ -11,12 +11,12 @@
     "rules": [],
     "slug": "gravity-tether",
     "_migration": {
-      "version": 0.932,
+      "version": 0.94,
       "lastMigration": null,
       "previous": {
-        "schema": 0.926,
-        "foundry": "12.328",
-        "system": "6.0.4"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -95,10 +95,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "NtlvrkW23KGGwjp6",
   "sort": 4700000,

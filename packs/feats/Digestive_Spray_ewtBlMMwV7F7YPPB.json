@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>You force your body to produce an excess of powerful corrosive digestive enzymes that you can use to spray in a @Template[type:cone|distance:30], dealing @Damage[7d6[acid]] damage (@Check[reflex|against:class-spell|basic] save against the higher of your class DC or spell DC). A creature that gets a critical failure on this Reflex save is also @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>",
@@ -68,9 +72,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "ewtBlMMwV7F7YPPB",
   "_key": "!items!ewtBlMMwV7F7YPPB"

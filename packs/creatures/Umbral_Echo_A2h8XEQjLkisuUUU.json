@@ -27,7 +27,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "folder": null,
   "name": "Umbral Echo",
@@ -186,8 +192,12 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.932,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "abilities": {
       "str": {
@@ -274,14 +284,16 @@
         ],
         "slug": "void-healing",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
-          "value": [],
-          "rarity": "common"
+          "value": []
         },
         "publication": {
           "title": "Pathfinder Monster Core",
@@ -302,14 +314,13 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -332,12 +343,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.328",
-            "system": "6.0.4"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -372,9 +382,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!A2h8XEQjLkisuUUU.ImXVd15cSyyPapOD"
     },
@@ -384,8 +395,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "description": {
           "value": "",
@@ -432,9 +447,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!A2h8XEQjLkisuUUU.gy5ydTiHKpjUOblQ"
     },
@@ -449,12 +465,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.328",
-            "system": "6.0.4"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -489,9 +504,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!A2h8XEQjLkisuUUU.pyR5BamzgZnHVmSm"
     },
@@ -506,12 +522,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.328",
-            "system": "6.0.4"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -546,9 +561,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!A2h8XEQjLkisuUUU.JwrpKiqu5Ws4kpqs"
     },
@@ -563,12 +579,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.328",
-            "system": "6.0.4"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -603,9 +618,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "_key": "!actors.items!A2h8XEQjLkisuUUU.LyjjZJkRWvoACT21"
     }
@@ -614,9 +630,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

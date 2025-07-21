@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your time spent in another skin has allowed you to shape your own body into a weapon. You gain a feat associated with a chosen ancestry or heritage that grants an unarmed attack. You can select ancestry feats that include that feat as a prerequisite as if you were a member of that ancestry or heritage. You can use the unarmed attack only when you're transformed into a member of that ancestry.</p><hr /><p><strong>Special</strong> You can select this feat multiple times, choosing a different ancestry or feat each time.</p>",
@@ -88,9 +92,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!nrBRVbQ8LvGO3HEm"
 }

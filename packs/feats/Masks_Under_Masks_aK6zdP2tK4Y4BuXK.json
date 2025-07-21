@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Even if you are forced to reveal your natural appearance, you have an additional layer of security in the form of a backup shapeshifting identity. Choose one form during your daily preparations. Waving away your ability to transform as some unrelated magic or technology, you gain a +3 circumstance bonus to Deception checks to Lie that the chosen form is your true form. You can tell lies that protect your identity even against magical spells, and effects like truesight reveal the chosen form as your true form. You revert to this form if you become the target of a spell or effect that causes you to unwillingly shift back to your true form.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "aK6zdP2tK4Y4BuXK",
   "_key": "!items!aK6zdP2tK4Y4BuXK"

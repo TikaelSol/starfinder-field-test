@@ -38,7 +38,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "name": "Jeskraal",
   "type": "npc",
@@ -148,8 +154,12 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.932,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "abilities": {
       "str": {
@@ -221,8 +231,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "description": {
           "value": "",
@@ -266,9 +280,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.2.0"
+        "systemVersion": "6.2.0",
+        "exportSource": null
       },
       "_key": "!actors.items!H4SuCGcpCWXwN7us.m962TaU12lApGZoW"
     },
@@ -278,8 +293,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "description": {
           "value": "",
@@ -325,9 +344,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.2.0"
+        "systemVersion": "6.2.0",
+        "exportSource": null
       },
       "_key": "!actors.items!H4SuCGcpCWXwN7us.WwRli9WqWmploXdU"
     },
@@ -342,12 +362,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.330",
-            "system": "6.2.0"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -382,9 +401,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.2.0"
+        "systemVersion": "6.2.0",
+        "exportSource": null
       },
       "_key": "!actors.items!H4SuCGcpCWXwN7us.JegrPcVgX1FYsnby"
     }
@@ -394,9 +414,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.2.0"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "H4SuCGcpCWXwN7us",
   "sort": 2000000,

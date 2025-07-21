@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You read the subtle cues of a target's brainwaves to anticipate the mental state of a single creature within range of your limited telepathy that you can detect with thoughtsense. You gain a +1 circumstance bonus to Deception checks and Intimidation checks targeting the creature, to saves against the target's effects that have the fear trait, and to your Will DC against the target's Intimidation skill actions, such as @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}. If you deal mental damage to the target, increase this bonus to +2.</p><p>You can Telepredict the actions of only one creature at a time. Telepredict ends if you use it on a different creature or the creature leaves the range of your limited telepathy.</p>",
@@ -122,9 +126,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "bqQ80aCjgigKSJMY",
   "_key": "!items!bqQ80aCjgigKSJMY"

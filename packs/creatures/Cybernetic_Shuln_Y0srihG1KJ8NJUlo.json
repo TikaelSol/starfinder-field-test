@@ -32,7 +32,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "autoscale": true
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "_id": "Y0srihG1KJ8NJUlo",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
@@ -134,17 +140,22 @@
           "otherTags": []
         },
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         }
       },
       "type": "melee",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1"
+        "systemVersion": "6.3.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -194,17 +205,22 @@
           "otherTags": []
         },
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         }
       },
       "type": "melee",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1"
+        "systemVersion": "6.3.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -217,9 +233,7 @@
     {
       "_id": "t98B5FOZI1a1Ye46",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Tremorsense (Imprecise) 60 feet",
@@ -232,14 +246,16 @@
         "rules": [],
         "slug": "tremorsense",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
-          "value": [],
-          "rarity": "common"
+          "value": []
         },
         "publication": {
           "title": "Pathfinder Monster Core",
@@ -260,9 +276,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1"
+        "systemVersion": "6.3.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -295,14 +312,16 @@
         ],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
-          "value": [],
-          "rarity": "common"
+          "value": []
         },
         "publication": {
           "title": "",
@@ -323,9 +342,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1"
+        "systemVersion": "6.3.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -348,17 +368,19 @@
         "rules": [],
         "slug": "shuln-saliva",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
           "value": [
             "incapacitation",
             "poison"
-          ],
-          "rarity": "common"
+          ]
         },
         "publication": {
           "title": "",
@@ -379,9 +401,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1"
+        "systemVersion": "6.3.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -404,14 +427,16 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
-          "value": [],
-          "rarity": "common"
+          "value": []
         },
         "publication": {
           "title": "",
@@ -432,9 +457,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1"
+        "systemVersion": "6.3.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -455,12 +481,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.3.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -495,9 +520,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.3.1"
+        "systemVersion": "6.3.1",
+        "exportSource": null
       },
       "_key": "!actors.items!Y0srihG1KJ8NJUlo.ZH4gvmXIMAR3MlNY"
     }
@@ -573,8 +599,12 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.932,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "abilities": {
       "str": {
@@ -650,9 +680,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.3.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "effects": [],
   "folder": null,

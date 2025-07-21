@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> You, your bonded partner, or both you and your bonded partner would roll a Will saving throw against a spell or effect that could impose the @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} or controlled condition.</p><p><strong>Requirements</strong> You and your bonded partner are within 60 feet of one another, and are willing. </p><hr /><p>You and your bonded partner are two halves of the same spirit, entwined together in different bodies. Both you and your bonded partner roll the triggering Will saving throw. The triggering creature (or creatures) uses the higher result. Both you and your bonded partner are affected by the triggering spell or effect, even if it would normally only affect one of you.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "6n8lPrRSBvWu9Dpa",
   "_key": "!items!6n8lPrRSBvWu9Dpa"

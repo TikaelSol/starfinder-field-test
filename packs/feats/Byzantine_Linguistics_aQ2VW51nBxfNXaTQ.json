@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You've spent hours poring over dusty tombs and ancient inscriptions, giving you practiced insight into linguistic problems. You gain access to uncommon languages that are restricted due to belonging to ancient civilizations or long-lost cultures. This does not give you access to languages that are restricted for additional reasons, such as not being decoded yet or being a secret language.</p><p>You can use Society or Delve Lore to Decipher Writing and you gain a +1 circumstance bonus on checks made to decipher text in a language that you don't know.</p>",
@@ -80,9 +84,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!aQ2VW51nBxfNXaTQ"
 }

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your drone discharges electricity around it in a volatile attack, dealing @Damage[1d6[electricity]] damage in your choice of a @Template[type:cone|distance:15] or a @Template[type:line|distance:30]. Creatures in the area can attempt a @Check[reflex|against:class|basic] save against your class DC. Your drone can't use this ability again for [[/gmr 1d4 #Recharge this ability]]{1d4 rounds}. For every additional two levels you have, the damage increases by [[/r 1d6]].</p>",
@@ -44,9 +48,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!KMq4iGwE0RU2WpLU"
 }

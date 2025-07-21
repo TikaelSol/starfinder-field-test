@@ -38,7 +38,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "type": "npc",
   "folder": null,
@@ -178,8 +184,12 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.932,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "abilities": {
       "str": {
@@ -299,17 +309,22 @@
         },
         "slug": "1-status-to-all-saves-vs-magic",
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         }
       },
       "type": "action",
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -328,8 +343,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "description": {
           "value": "",
@@ -375,9 +394,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!mNCjjyuPkKnvWQd6.rc8HKWEsxnymoJsY"
     },
@@ -387,8 +407,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "description": {
           "value": "",
@@ -437,9 +461,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!mNCjjyuPkKnvWQd6.t9lE3f20JHTEkJg4"
     },
@@ -467,11 +492,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -493,9 +518,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!mNCjjyuPkKnvWQd6.HUqjvJfUIbi4x8fc"
     },
@@ -510,8 +536,13 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": []
@@ -620,9 +651,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!mNCjjyuPkKnvWQd6.YxnXKZfOwDxByn8B"
     },
@@ -637,9 +669,13 @@
         "rules": [],
         "slug": "teleport",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -693,9 +729,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.69L70wKfGDY66Mk9",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -721,12 +758,12 @@
         "rules": [],
         "slug": "void-scour",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.0.4"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -813,9 +850,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.GNbPLs7S7RetVuPy",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "sort": 0,
       "ownership": {
@@ -837,9 +875,13 @@
         "rules": [],
         "slug": "warp-mind",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -900,9 +942,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -926,9 +969,13 @@
         "rules": [],
         "slug": "disintegrate",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1008,9 +1055,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -1034,9 +1082,13 @@
         "rules": [],
         "slug": "spellwrack",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1097,9 +1149,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.8Umt1AzYfFbC4fui",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -1123,9 +1176,13 @@
         "rules": [],
         "slug": "translocate",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1189,9 +1246,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -1215,9 +1273,13 @@
         "rules": [],
         "slug": "truesight",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1273,9 +1335,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -1312,11 +1375,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -1338,9 +1401,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!mNCjjyuPkKnvWQd6.OHt2jYgoS3BR4dUq"
     },
@@ -1368,11 +1432,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -1394,9 +1458,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!mNCjjyuPkKnvWQd6.14ELo7FevLqtXtsi"
     }
@@ -1405,9 +1470,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

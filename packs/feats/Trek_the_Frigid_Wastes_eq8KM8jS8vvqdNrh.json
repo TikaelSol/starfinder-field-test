@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You've spent many long years traversing Lajok's surface, moving from city to city or hunting for food and resources. You're accustomed to moving across slippery ice sheets and plowing through deep snow. When moving over ice or snow in arctic terrain, you always gain the benefits of the @UUID[Compendium.pf2e.actionspf2e.Item.SB7cMECVtE06kByk]{Cover Tracks} action without needing to use the activity or having to move half your Speed. You don't treat icy terrain as uneven ground (though it's still difficult terrain for you), and you ignore difficult terrain caused by snow.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "eq8KM8jS8vvqdNrh",
   "_key": "!items!eq8KM8jS8vvqdNrh"

@@ -16,8 +16,12 @@
     ],
     "slug": "effect-shielding-arrogance",
     "_migration": {
-      "version": 0.935,
-      "lastMigration": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -49,10 +53,12 @@
       "type": "formula",
       "value": "@actor.level+(@actor.flags.pf2e.contemplative.shieldingArroganceDiceCount)d8",
       "evaluate": true,
-      "reevaluate": null
+      "reevaluate": null,
+      "labels": null
     },
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "_id": "af3dMl0TEkqOp2K9",
   "img": "icons/magic/life/heart-cross-blue.webp",
@@ -66,9 +72,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!af3dMl0TEkqOp2K9"
 }

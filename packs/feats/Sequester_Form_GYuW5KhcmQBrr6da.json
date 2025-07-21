@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> You're targeted by a mental effect. </p><hr /><p>You can shield your consciousness by blocking one of your neural networks from the others, cutting yourself off from the identity until it's safe. You Change Shape and become immune to the triggering mental effect. You are no longer immune and the mental effect continues to affect you if you Change Shape into any form that shares an ancestry with that form before the duration of the mental effect expires.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "GYuW5KhcmQBrr6da",
   "_key": "!items!GYuW5KhcmQBrr6da"

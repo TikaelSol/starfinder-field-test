@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Like the heroes who inspire you, you rally yourself to persevere against death itself. When you use Heroic Last Stand, you gain temporary Hit Points equal to twice your level for 1 minute, rather than equal to your level for 1 minute.</p>",
@@ -71,9 +75,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "4fUYVzqPQTfz1cNd",
   "_key": "!items!4fUYVzqPQTfz1cNd"

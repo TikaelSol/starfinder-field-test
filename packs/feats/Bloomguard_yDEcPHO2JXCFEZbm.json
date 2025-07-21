@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>After years of meritorious military service, you were chosen for the elite Bloomguard, where you underwent rigorous training that honed your defenses against the tricks of First World creatures. You gain a +2 circumstance bonus to Will saving throws and Will DCs against mental effects and effects created by fey, and once per day, you can roll twice and take the better on a save against a mental effect or an effect created by a fey.</p>",
@@ -75,9 +79,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "yDEcPHO2JXCFEZbm",
   "_key": "!items!yDEcPHO2JXCFEZbm"

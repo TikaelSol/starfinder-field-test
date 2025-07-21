@@ -75,7 +75,6 @@
     },
     "detectionModes": [],
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,7 +89,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "folder": null,
   "name": "Glass Serpent",
@@ -149,11 +155,11 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.932,
+      "version": 0.94,
       "previous": {
-        "schema": 0.926,
-        "foundry": "12.328",
-        "system": "6.1.1"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "abilities": {
@@ -265,12 +271,11 @@
         ],
         "slug": "ravenous-invisibility",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -305,9 +310,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bpWBGwiDMTaPSZwu.kUMUN8NjFHJpd7Vt"
     },
@@ -322,12 +328,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -362,9 +367,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bpWBGwiDMTaPSZwu.5H9zbFfiLVDHGcyJ"
     },
@@ -379,11 +385,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -427,9 +433,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bpWBGwiDMTaPSZwu.DjcKtG7oDxC3hSak"
     },
@@ -444,11 +451,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -491,9 +498,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bpWBGwiDMTaPSZwu.VBwxFKJyZtrDqoHn"
     },
@@ -508,18 +516,16 @@
         "rules": [],
         "slug": "grab",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
           "otherTags": [],
-          "value": [],
-          "rarity": "common"
+          "value": []
         },
         "publication": {
           "title": "Pathfinder Monster Core",
@@ -538,9 +544,7 @@
       },
       "type": "action",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -552,9 +556,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_id": "amNl4N1bpMp3VC9F",
       "_key": "!actors.items!bpWBGwiDMTaPSZwu.amNl4N1bpMp3VC9F"
@@ -570,12 +575,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -610,9 +614,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bpWBGwiDMTaPSZwu.dQXffmE9QiXZzh9l"
     },
@@ -627,20 +632,18 @@
         "rules": [],
         "slug": "swallow-whole",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.926,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
           "otherTags": [],
           "value": [
             "attack"
-          ],
-          "rarity": "common"
+          ]
         },
         "publication": {
           "title": "Pathfinder Monster Core",
@@ -659,9 +662,7 @@
       },
       "type": "action",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -673,29 +674,31 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.1"
+        "systemVersion": "6.1.1",
+        "exportSource": null
       },
       "_id": "44DUOxS3Y34kVT2f",
       "_key": "!actors.items!bpWBGwiDMTaPSZwu.44DUOxS3Y34kVT2f"
     }
   ],
   "flags": {
-    "core": {},
-    "exportSource": {
-      "world": "starfinder-data-entry",
-      "system": "pf2e",
-      "coreVersion": "11.315",
-      "systemVersion": "5.15.3"
-    }
+    "core": {}
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.1"
+    "systemVersion": "7.2.3",
+    "exportSource": {
+      "worldId": "starfinder-data-entry",
+      "uuid": null,
+      "coreVersion": "11.315",
+      "systemId": "pf2e",
+      "systemVersion": "5.15.3"
+    }
   },
   "ownership": {
     "default": 0,

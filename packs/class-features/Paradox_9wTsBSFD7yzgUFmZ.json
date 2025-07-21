@@ -27,8 +27,12 @@
     ],
     "slug": "paradox",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -58,7 +62,12 @@
     "prerequisites": {
       "value": []
     },
-    "location": null
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
   },
   "_id": "9wTsBSFD7yzgUFmZ",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20convergence.webp",
@@ -66,9 +75,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "sort": 5900000,
   "ownership": {

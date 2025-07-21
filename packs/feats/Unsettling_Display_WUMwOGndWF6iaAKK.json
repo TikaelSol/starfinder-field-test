@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You can @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} those around you by shifting your muscular and skeletal systems around. When you do, Demoralize loses the auditory trait and gains the visual trait, and you don't take a penalty if the creature doesn't understand your language.</p>",
@@ -61,9 +65,10 @@
   "_stats": {
     "compendiumSource": "Item.tEDa3aTb0rUt0wox",
     "duplicateSource": "Item.tEDa3aTb0rUt0wox",
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "WUMwOGndWF6iaAKK",
   "_key": "!items!WUMwOGndWF6iaAKK"

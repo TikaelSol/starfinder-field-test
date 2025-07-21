@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You're an abundant source of electromagnetic radiation, which naturally amplifies the radiance of lights around you. Light sources in your possession (including those carried, cast on you, worn, or otherwise a part of you) are more luminous—double the area illuminated by these light sources. If a light source you possess would deal damage or cause a harmful effect based on its area, the area of those additional effects are not increased by Amplify Radiance. Additionally, you gain a +2 circumstance bonus to counteract checks made to counteract darkness.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "wADHwJTSe9ZIar9j",
   "_key": "!items!wADHwJTSe9ZIar9j"

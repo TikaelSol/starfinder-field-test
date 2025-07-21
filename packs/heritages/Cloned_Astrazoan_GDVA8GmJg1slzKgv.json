@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You were either born in a laboratory using genetic samples preserved from a distant ancestor or budded from a parent astrazoan. Your body stubbornly refuses additional external attempts to change you. If you roll a success on a saving throw against a curse, disease, or polymorph effect, you get a critical success instead.</p>",
@@ -55,9 +59,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "GDVA8GmJg1slzKgv",
   "_key": "!items!GDVA8GmJg1slzKgv"

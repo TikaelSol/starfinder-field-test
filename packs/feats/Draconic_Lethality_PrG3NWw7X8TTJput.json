@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your draconic body is a weapon. When you select this feat, you gain one of the following unarmed attacks of your choice: claw, horn, jaws, or tail. Each of these attacks is in the brawling weapon group and has the listed damage die and traits.</p><ul><li>Claw 1d6 slashing (agile, finesse, unarmed)</li><li>Horn 1d6 piercing (finesse, unarmed)</li><li>Jaws 1d6 piercing (grapple, unarmed)</li><li>Tail 1d6 bludgeoning (sweep, trip, unarmed)</li></ul><p>At 5th level, whenever you get a critical hit with one of these attacks, you get its critical specialization effect.</p><hr /><p><strong>Special</strong> You can take this feat four times. Each time you do, select a different attack from the options listed above.</p>",
@@ -221,9 +225,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "PrG3NWw7X8TTJput",
   "_key": "!items!PrG3NWw7X8TTJput"

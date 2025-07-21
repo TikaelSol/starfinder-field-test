@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your infernal countenance is a scourge. You gain expert proficiency in Intimidation (or in another skill in which you're trained of your choice, if you were already an expert in Intimidation). You treat medium armor as light armor when determining your proficiency, and you treat heavy armor as medium armor. You customize your armor using specialized Hellknight regalia, gaining the armor specialization effects of that armor and one additional armor upgrade. Your resistance (or reduction from critical hits) from that armor's specialization is 1 higher than normal. In addition, while wearing your Hellknight regalia, you gain an item bonus to Intimidation checks equal to 1 + your armor's resilience value.</p><h2>Hellknight Orders</h2><table class=\"pf2e remaster\"><thead><tr><th>Hellknight Order</th><th>Edicts</th><th>Infernal Damage and Resistance</th></tr></thead><tbody><tr><td><strong>Order of the Chain</strong></td><td>punish lawbreakers</td><td>electricity</td></tr><tr><td><strong>Order of the Crucible</strong></td><td>test civilizations</td><td>cold</td></tr><tr><td><strong>Order of the Eclipse</strong></td><td>control dangerous information</td><td>void</td></tr><tr><td><strong>Order of the Pyre</strong></td><td>purge subversive media with fire</td><td>fire</td></tr></tbody></table>",
@@ -141,9 +145,10 @@
   "_stats": {
     "compendiumSource": "Item.LpnCyjMJL6d5yIRS",
     "duplicateSource": "Item.LpnCyjMJL6d5yIRS",
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "filmD2J3y8UoVQIh",
   "_key": "!items!filmD2J3y8UoVQIh"

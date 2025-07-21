@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>While traversing the Diaspora, you've witnessed countless magical anomalies and survived to tell the tale. This persistent exposure to magical energy has rubbed off on you, leaving traces of magic behind that shield your body from harmful energy. Select one of the following types of energy damage: acid, cold, electricity, fire, or sonic. You gain resistance 5 to that damage type.</p><hr /><p><strong>Special</strong> You can select this feat multiple times. Each time you do, select a different energy type.</p>",
@@ -119,9 +123,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "lmowZWTzJaZfM3bb",
   "_key": "!items!lmowZWTzJaZfM3bb"

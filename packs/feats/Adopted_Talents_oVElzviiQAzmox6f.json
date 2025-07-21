@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> You have a bonded partner.</p><hr /><p>Since becoming bonded with your partner, you've learned a lot about them, and you're beginning to pick up their habits, interests, and knowledge. You gain the @UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{Adopted Ancestry}, but you must select the ancestry of your bonded partner. You also gain one 1st-level ancestry feat from the ancestry you chose for Adopted Ancestry.</p><hr /><p><strong>Special</strong> You must have a permanent partner bond to select this feat, meaning you can't be a mercurial dragonkin.</p>",
@@ -65,9 +69,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "oVElzviiQAzmox6f",
   "_key": "!items!oVElzviiQAzmox6f"

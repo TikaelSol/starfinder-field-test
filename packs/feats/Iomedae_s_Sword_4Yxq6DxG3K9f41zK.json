@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You've trained to fight the ancient enemies of lost Golarion. When you deal damage to a demon, devil, dragon, or undead with a weapon, you deal persistent spirit damage with the holy trait equal to the number of weapon damage dice. When you deal damage to one of these creatures with a spell cast from a spell slot that does not have a duration, you deal persistent spirit damage with the holy trait equal to the spell's rank.</p>",
@@ -143,9 +147,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!4Yxq6DxG3K9f41zK"
 }

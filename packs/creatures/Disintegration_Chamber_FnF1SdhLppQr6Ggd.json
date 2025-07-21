@@ -38,7 +38,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "folder": null,
   "name": "Disintegration Chamber",
@@ -99,16 +105,13 @@
   "system": {
     "saves": {
       "fortitude": {
-        "value": 19,
-        "saveDetail": ""
+        "value": 19
       },
       "reflex": {
-        "value": 13,
-        "saveDetail": ""
+        "value": 13
       },
       "will": {
-        "value": 0,
-        "saveDetail": ""
+        "value": 0
       }
     },
     "attributes": {
@@ -136,7 +139,9 @@
           "type": "precision",
           "exceptions": []
         }
-      ]
+      ],
+      "weaknesses": [],
+      "resistances": []
     },
     "details": {
       "isComplex": true,
@@ -154,7 +159,6 @@
         "remaster": true
       }
     },
-    "statusEffects": [],
     "traits": {
       "value": [
         "mechanical",
@@ -166,8 +170,12 @@
       }
     },
     "_migration": {
-      "version": 0.932,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     }
   },
   "img": "systems/pf2e/icons/default-icons/hazard.svg",
@@ -183,12 +191,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.330",
-            "system": "6.1.3"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -223,9 +230,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "_key": "!actors.items!FnF1SdhLppQr6Ggd.egJI1tVFnyvSOXZi"
     },
@@ -240,12 +248,11 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.330",
-            "system": "6.1.3"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -280,9 +287,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "_key": "!actors.items!FnF1SdhLppQr6Ggd.NO842nXiJah8ULim"
     },
@@ -292,8 +300,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "description": {
           "value": "<p>no multiple attack penalty</p>",
@@ -337,9 +349,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "_key": "!actors.items!FnF1SdhLppQr6Ggd.qCMgVJDyYZUjzNZ4"
     }
@@ -354,9 +367,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.3"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "FnF1SdhLppQr6Ggd",
   "ownership": {

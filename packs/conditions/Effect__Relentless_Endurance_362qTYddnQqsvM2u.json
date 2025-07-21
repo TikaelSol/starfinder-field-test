@@ -15,12 +15,11 @@
     ],
     "slug": "effect-relentless-endurance",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
+      "version": 0.94,
       "previous": {
-        "schema": 0.879,
-        "foundry": "12.328",
-        "system": "6.1.1"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -53,12 +52,12 @@
       "type": "formula",
       "value": "(floor((@actor.level +2)/4))d8+4*floor((@actor.level +2)/4)",
       "evaluate": true,
-      "-=min": null,
-      "-=max": null,
-      "reevaluate": null
+      "reevaluate": null,
+      "labels": null
     },
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
   "folder": null,
@@ -71,10 +70,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.343",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "362qTYddnQqsvM2u",
   "sort": 8200000,

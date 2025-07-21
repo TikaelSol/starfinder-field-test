@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once every 10 minutes</p><p><strong>Trigger</strong> A creature Grabs you or successfully Strikes you with an unarmed melee strike or a non-reach melee weapon.</p><hr /><p>You flex the spines running down the back of your head and neck as a defensive response. The attacking creature takes @Damage[(floor((@actor.level + 1) / 3 + 1))d6[piercing]] damage, with a @Check[reflex|against:class-spell|basic] save against your class DC or spell DC, whichever is higher. On a critical failure, the target also takes @Damage[(floor((@actor.level + 1) / 3 + 1))[persistent,bleed]] damage. At 8th level and every 3 levels thereafter, the damage increases by 1d6, and the persistent bleed damage increases by 1.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "ruiw4DcY40C58F8f",
   "_key": "!items!ruiw4DcY40C58F8f"

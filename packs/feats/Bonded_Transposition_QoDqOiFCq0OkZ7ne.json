@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once every 10 minutes.</p><p><strong>Trigger</strong> Your bonded partner is within 40 feet and would be damaged by an enemy. </p><hr /><p>Instinctively sensing your bonded partner is in danger, you swoop in to save them from harm. You and your bonded partner immediately swap places with one another, teleporting into one another's locations. The damage that would be dealt to your bonded partner is dealt to you instead.</p>",
@@ -67,9 +71,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "QoDqOiFCq0OkZ7ne",
   "_key": "!items!QoDqOiFCq0OkZ7ne"

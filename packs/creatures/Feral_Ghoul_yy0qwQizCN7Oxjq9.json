@@ -21,7 +21,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "autoscale": true
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "_id": "yy0qwQizCN7Oxjq9",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
@@ -133,17 +139,22 @@
           "otherTags": []
         },
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         }
       },
       "type": "melee",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -194,17 +205,22 @@
           "otherTags": []
         },
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         }
       },
       "type": "melee",
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -217,9 +233,7 @@
     {
       "_id": "YzGXgyojcjzXVipz",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.PqGX4Dgy9siZJitH"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Stench",
@@ -241,9 +255,12 @@
         ],
         "slug": "stench",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -271,9 +288,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.PqGX4Dgy9siZJitH",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -285,9 +303,7 @@
     {
       "_id": "dSMYHVMIltxeN4ms",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "name": "Void Healing",
@@ -307,14 +323,16 @@
         ],
         "slug": "void-healing",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
-          "value": [],
-          "rarity": "common"
+          "value": []
         },
         "publication": {
           "title": "Pathfinder Monster Core",
@@ -335,9 +353,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -349,9 +368,7 @@
     {
       "_id": "7RTjFlVzsxhjtwX4",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/actions/OneAction.webp",
       "name": "Consume Flesh",
@@ -364,16 +381,18 @@
         "rules": [],
         "slug": "ghoul-consume-flesh",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
           "value": [
             "manipulate"
-          ],
-          "rarity": "common"
+          ]
         },
         "publication": {
           "title": "Pathfinder Monster Core",
@@ -394,9 +413,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-family-ability-glossary.Item.ixPqVlqLaYTB1b23",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -408,9 +428,7 @@
     {
       "_id": "rvraBop9oOSwcjkq",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/actions/OneAction.webp",
       "name": "Swift Leap",
@@ -423,16 +441,18 @@
         "rules": [],
         "slug": "ghoul-swift-leap",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
           "value": [
             "move"
-          ],
-          "rarity": "common"
+          ]
         },
         "publication": {
           "title": "Pathfinder Monster Core",
@@ -453,9 +473,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-family-ability-glossary.Item.UU1Fp3PRuTFONjC9",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -467,9 +488,7 @@
     {
       "_id": "NaSXwkNPzNz5tsgw",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr"
-        }
+        "core": {}
       },
       "img": "systems/pf2e/icons/actions/OneAction.webp",
       "name": "Grab",
@@ -482,14 +501,16 @@
         "rules": [],
         "slug": "grab",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
-          "value": [],
-          "rarity": "common"
+          "value": []
         },
         "publication": {
           "title": "Pathfinder Monster Core",
@@ -510,9 +531,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr",
         "duplicateSource": null,
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.0.4"
+        "systemVersion": "6.0.4",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -600,8 +622,12 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.932,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "abilities": {
       "str": {
@@ -677,14 +703,13 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.pathfinder-monster-core.Actor.iLkQt8A99nQWUI8k",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.pathfinder-monster-core.Actor.iLkQt8A99nQWUI8k"
-    }
+    "core": {}
   },
   "effects": [],
   "folder": null,

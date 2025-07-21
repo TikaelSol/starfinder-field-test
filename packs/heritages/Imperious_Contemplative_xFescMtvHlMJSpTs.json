@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Whether it's a nurtured response or a natural consequence of your instinctive genius, your brain rewards you with endorphins whenever you witness your inferior rivals flailing helplessly in a mental sea. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.wI0g2nRfu2d0YFAd]{Shielding Arrogance} reaction.</p>",
@@ -53,9 +57,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "xFescMtvHlMJSpTs",
   "_key": "!items!xFescMtvHlMJSpTs"

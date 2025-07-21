@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your travels have taught you to pack smart for any situation. You've got really big pockets, and you've crammed a whole lot of useful stuff into them. You can use Just the Thing… once per hour, rather than once per day.</p>",
@@ -75,9 +79,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "TlZnjM85BmkiAqAQ",
   "_key": "!items!TlZnjM85BmkiAqAQ"

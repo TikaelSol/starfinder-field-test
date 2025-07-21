@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You instinctively sense when the people around you are feeling strong emotions or inner conflict. You gain a +2 circumstance bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive}. If you aren't actively using Sense Motive on a creature who's enchanted, possessed, or subject to an emotion effect, the GM rolls a secret check, without the usual circumstance bonus and with a –2 circumstance penalty, for you to potentially notice the enchantment, possession, or emotion effect anyway.</p>",
@@ -52,9 +56,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "2EBZRLWaeSJULFZb",
   "_key": "!items!2EBZRLWaeSJULFZb"

@@ -10,8 +10,12 @@
     "rules": [],
     "slug": "effect-celebrity-serum",
     "_migration": {
-      "version": 0.934,
-      "lastMigration": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -41,7 +45,8 @@
     },
     "badge": null,
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/pink%20foam%20beaker.webp",
   "folder": null,
@@ -53,9 +58,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "JCNX5U0rHcEhraIK",
   "sort": 500000,

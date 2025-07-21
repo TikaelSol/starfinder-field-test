@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You know the galaxy is a dangerous place, and you've made a few technological breakthroughs to help you make the most of limited medical supplies. You can store up to 3 items with the healing trait in your custom rig. You gain the following new mods.</p><p><strong>Concentrated Dosage (item):</strong> You disassemble the item to deliver a powerful dose of analgesics. If a targeted creature has the clumsy or sickened condition, the item decreases the value of that condition by 1. At 6th level, you can choose to suppress persistent damage afflicting the target until the beginning of your next turn. At 12th level, you can choose to grant the target fast healing equal to your Intelligence modifier or the item's level (whichever is higher) until the beginning of your next turn.</p><p><strong>Healbot (drone exocortex):</strong> You command your exocortex to deliver stored medication to a nearby ally. Your drone administers the item as an action with the manipulate trait. Healing items administered in this way heal an additional amount of Hit Points equal to your Intelligence modifier or half the item's level, whichever is higher.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!NpRE5BSd1GUyMeCn"
 }

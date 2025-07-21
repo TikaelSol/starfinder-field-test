@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You've poured all your creativity into making your weapon truly eye-catching. Choose one weapon you own to decorate in your own style. While wielding your chosen weapon, add the weapon's tracking value as an item bonus to Deception checks to @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} and Intimidation checks to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}. You can only have one such weapon active at a time. You can spend 24 hours customizing a new weapon, at which point your connection with your previous weapon is lost.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "yGVUJszXrL6sicX7",
   "_key": "!items!yGVUJszXrL6sicX7"

@@ -38,7 +38,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "type": "npc",
   "folder": null,
@@ -143,8 +149,12 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.932,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "abilities": {
       "str": {
@@ -234,8 +244,13 @@
         "rules": [],
         "slug": "kyokor-plating",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -312,9 +327,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.TrN6Keb7IiE09lZE",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "sort": 1100000,
       "ownership": {
@@ -338,8 +354,13 @@
         "rules": [],
         "slug": "phase-shield",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -407,9 +428,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.QpRjxcDlKQcak6UZ",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "sort": 103125,
       "ownership": {
@@ -509,11 +531,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -535,9 +557,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!Knb8oNA0MAV2kxOt.uY6Mj1kDwkNxeO2u"
     },
@@ -569,17 +592,22 @@
         },
         "slug": "reactive-strike",
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         }
       },
       "type": "action",
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -620,17 +648,22 @@
         },
         "slug": "shield-block",
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         }
       },
       "type": "action",
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY",
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -649,8 +682,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "description": {
           "value": "<p><strong>Graviton Attuned:</strong> The Strike causes the target to treat all adjacent squares as difficult terrain until the end of its next turn.</p><p><strong>Photon Attuned:</strong> The Strike deals an additional 5 fire damage.</p>",
@@ -697,9 +734,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!Knb8oNA0MAV2kxOt.hVKJgfLR75Nqkvmw"
     },
@@ -709,8 +747,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.932,
-          "previous": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "description": {
           "value": "<p><strong>Graviton Attuned:</strong> Increase the damage to 3d8+10 and change the damage to bludgeoning. The shot has a range of 15 feet.</p><p><strong>Photon Attuned:</strong> On a critical hit, the target also takes 1d6 persistent fire damage.</p>",
@@ -756,9 +798,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!Knb8oNA0MAV2kxOt.GvoWNIfttfxW2PWg"
     },
@@ -786,11 +829,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -817,9 +860,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!Knb8oNA0MAV2kxOt.NtUg9xdgav3WA4Dd"
     },
@@ -849,11 +893,11 @@
           ]
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -880,9 +924,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!Knb8oNA0MAV2kxOt.xRi3j5CEdNRwJ15w"
     },
@@ -939,11 +984,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -965,9 +1010,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!Knb8oNA0MAV2kxOt.ywhHJCV6ZE0g7Gl9"
     }
@@ -976,9 +1022,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

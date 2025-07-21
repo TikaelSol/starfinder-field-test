@@ -20,8 +20,12 @@
     ],
     "slug": "resilient-soul",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -55,9 +59,12 @@
     "subfeatures": {
       "proficiencies": {
         "will": {
-          "rank": 3
+          "rank": 3,
+          "attribute": null
         }
-      }
+      },
+      "senses": {},
+      "suppressedFeatures": []
     }
   },
   "img": "icons/magic/symbols/arrowhead-green.webp",
@@ -69,9 +76,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "rqQI98KNlAc34i2B",
   "sort": 12300000,

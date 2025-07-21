@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You begin with a specialized toolkit called a custom rig. Your custom rig weighs 1 Bulk and counts as both a commercial repair toolkit plus any one of the following toolkits of your choice: a commercial hacking toolkit, a commercial infiltrator's toolkit, or a commercial maker's toolkit. You can use your custom rig with one hand if you're wearing it or two hands if you're holding it.</p><p>Whenever you purchase one of the listed toolkits, or a higher-grade version of one of the listed toolkits, you can spend 10 minutes integrating that toolkit into your custom rig. If you do, your custom rig gains the properties of the toolkit. This does not increase the Bulk of your custom rig. Your custom rig and any integrated toolkits can't be sold or used by another creature.</p>",
@@ -56,9 +60,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "Z2VZiwUlCKJdnvmH",
   "sort": 1800000,

@@ -4,8 +4,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You've constructed a sophisticated program of self-motivated code synchronized with your brain, which you can use to remotely control a complex device of your own design. This program and its linked device are collectively called an exocortex.</p><p>At 1st level, you choose your exocortex. The exocortexes presented in this book include the following: a drone, a network of mines, or a deployable turret. You can Modify your exocortex in unique ways.</p>",
@@ -72,9 +76,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "2AO7e2eJNxpeMAbi",
   "sort": 200000,

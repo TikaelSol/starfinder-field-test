@@ -22,12 +22,11 @@
     ],
     "slug": "effect-vitality-network",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
+      "version": 0.94,
       "previous": {
-        "schema": 0.87,
-        "foundry": "12.328",
-        "system": "6.1.1"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -58,10 +57,13 @@
     },
     "badge": {
       "type": "counter",
-      "value": 1
+      "value": 1,
+      "labels": null,
+      "loop": false
     },
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "img": "icons/magic/life/heart-area-circle-red-green.webp",
   "ownership": {
@@ -73,10 +75,11 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.8.5",
-    "coreVersion": "12.343",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "R0mn1iC3nYvDVKhd",
   "sort": 8900000,

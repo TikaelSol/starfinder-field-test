@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Armor you wear gains the bulwark trait. You become trained in heavy armor, or become an expert in heavy armor if you were already trained. Your Hellknight regalia grants you resistance equal to half your level when you wear it, determined by your chosen Hellknight order.</p>",
@@ -102,9 +106,10 @@
   "_stats": {
     "compendiumSource": "Item.DcAzGdxkDV4nYgpQ",
     "duplicateSource": "Item.DcAzGdxkDV4nYgpQ",
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "3SJtpZK58WKpC2SO",
   "_key": "!items!3SJtpZK58WKpC2SO"

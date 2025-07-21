@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You gain the Sign Language skill feat, even if you don't meet the feat's prerequisites. If a language you know has a tactile version, you also learn the tactile version of those languages. This means that you know the spoken, signed, and tactile languages associated with all languages you know.</p>",
@@ -66,9 +70,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!FzrDh0V32bxz6Sbq"
 }

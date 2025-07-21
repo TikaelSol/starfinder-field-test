@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>By jailbreaking the protections on a spellshape, you can apply it to a spell already modified by another spellshape. If your next action is to Jailbreak Spell, replace all jailbreak benefits of that spellshape with the following: </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you can also apply another technomancer spellshape you know to the effects of the spell, but you do not gain that spellshape's jailbreak benefit.</p>",
@@ -61,9 +65,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!MKgHjc8DEB2XsRa8"
 }

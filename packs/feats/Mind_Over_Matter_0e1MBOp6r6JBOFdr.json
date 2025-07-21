@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your telekinetic capabilities extend beyond personal levitation, allowing you to handle nearby objects with precision. Your telekinesis grants you the equivalent of two additional hands, following the rules for characters with more than two hands as detailed in Starfinder Player Core. However, each of the telekinetic hands can wield only items of 1 Bulk or less. The @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oW81CfM9ebxXnrw3]{Switch Hands} action gains the contemplative trait when you switch to or from your telekinetic hands.</p>",
@@ -76,9 +80,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "0e1MBOp6r6JBOFdr",
   "_key": "!items!0e1MBOp6r6JBOFdr"
