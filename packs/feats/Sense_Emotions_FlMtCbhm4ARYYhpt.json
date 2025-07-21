@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You can detect the emotions of others, though you lack the ability to sort out the complexities of these emotions. You gain emotion sense as an imprecise sense with a range of 30 feet. This means you can detect and determine the location of creatures that possess emotions. You gain a +2 circumstance bonus to Perception checks when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or undetected creatures within the range of your emotion sense who's under an emotion effect, such as rage, the frightened condition, or any spell with the emotion trait.</p>",
@@ -85,9 +89,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "FlMtCbhm4ARYYhpt",
   "_key": "!items!FlMtCbhm4ARYYhpt"

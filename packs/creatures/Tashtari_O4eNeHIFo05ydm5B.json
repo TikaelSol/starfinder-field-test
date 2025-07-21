@@ -75,7 +75,6 @@
     },
     "detectionModes": [],
     "randomImg": false,
-    "hexagonalShape": 0,
     "occludable": {
       "radius": 0
     },
@@ -90,7 +89,14 @@
         "scale": 1,
         "texture": null
       }
-    }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "name": "Tashtari",
   "type": "npc",
@@ -157,11 +163,11 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.932,
+      "version": 0.94,
       "previous": {
-        "schema": 0.853,
-        "foundry": "12.328",
-        "system": "6.1.1"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "abilities": {
@@ -245,18 +251,16 @@
         "rules": [],
         "slug": "low-light-vision",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.853,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
           "otherTags": [],
-          "value": [],
-          "rarity": "common"
+          "value": []
         },
         "publication": {
           "title": "Pathfinder Bestiary",
@@ -271,22 +275,11 @@
         "actions": {
           "value": null
         },
-        "deathNote": false,
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "weapon": {
-          "value": ""
-        }
+        "deathNote": false
       },
       "type": "action",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.fFu2sZz4KB01fVRc"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -298,9 +291,10 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.fFu2sZz4KB01fVRc",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "8vdko8Mt6A8UWy5q",
       "_key": "!actors.items!O4eNeHIFo05ydm5B.8vdko8Mt6A8UWy5q"
@@ -342,11 +336,11 @@
           "remaster": false
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         }
       },
@@ -362,9 +356,10 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!O4eNeHIFo05ydm5B.KcrFcSqRLEnFo5ee"
     },
@@ -379,18 +374,16 @@
         "rules": [],
         "slug": "knockdown",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.853,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
           "otherTags": [],
-          "value": [],
-          "rarity": "common"
+          "value": []
         },
         "publication": {
           "title": "Pathfinder Bestiary",
@@ -405,22 +398,11 @@
         "actions": {
           "value": 1
         },
-        "deathNote": false,
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        },
-        "weapon": {
-          "value": ""
-        }
+        "deathNote": false
       },
       "type": "action",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu"
-        }
+        "core": {}
       },
       "effects": [],
       "folder": null,
@@ -432,9 +414,10 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu",
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_id": "YrAxVK3MCLosuwB5",
       "_key": "!actors.items!O4eNeHIFo05ydm5B.YrAxVK3MCLosuwB5"
@@ -482,11 +465,11 @@
           "remaster": false
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         }
       },
@@ -502,9 +485,10 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!O4eNeHIFo05ydm5B.ylU2fHZcdGLYw3Wy"
     },
@@ -536,12 +520,11 @@
         ],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.853,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -564,13 +547,7 @@
         "actions": {
           "value": 1
         },
-        "deathNote": false,
-        "requirements": {
-          "value": ""
-        },
-        "trigger": {
-          "value": ""
-        }
+        "deathNote": false
       },
       "effects": [],
       "_id": "zsNsW3w6Ht7qRG2v",
@@ -584,29 +561,31 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "12.328",
+        "coreVersion": "13.346",
         "compendiumSource": null,
-        "duplicateSource": null
+        "duplicateSource": null,
+        "exportSource": null
       },
       "_key": "!actors.items!O4eNeHIFo05ydm5B.zsNsW3w6Ht7qRG2v"
     }
   ],
   "folder": null,
   "flags": {
-    "exportSource": {
-      "world": "starfinder-2e",
-      "system": "pf2e",
-      "coreVersion": "11.306",
-      "systemVersion": "5.2.3"
-    },
     "core": {}
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.1",
-    "coreVersion": "12.331",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "starfinder-2e",
+      "uuid": null,
+      "coreVersion": "11.306",
+      "systemId": "pf2e",
+      "systemVersion": "5.2.3"
+    }
   },
   "_id": "O4eNeHIFo05ydm5B",
   "sort": 13100000,

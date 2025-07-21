@@ -38,7 +38,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "type": "hazard",
   "folder": null,
@@ -99,16 +105,13 @@
   "system": {
     "saves": {
       "fortitude": {
-        "value": 0,
-        "saveDetail": ""
+        "value": 0
       },
       "reflex": {
-        "value": 0,
-        "saveDetail": ""
+        "value": 0
       },
       "will": {
-        "value": 0,
-        "saveDetail": ""
+        "value": 0
       }
     },
     "attributes": {
@@ -126,7 +129,10 @@
         "value": 10,
         "details": "<p>(trained)</p>"
       },
-      "emitsSound": "encounter"
+      "emitsSound": "encounter",
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
     },
     "details": {
       "isComplex": false,
@@ -144,7 +150,6 @@
         "remaster": true
       }
     },
-    "statusEffects": [],
     "traits": {
       "value": [
         "mechanical",
@@ -156,8 +161,12 @@
       }
     },
     "_migration": {
-      "version": 0.932,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     }
   },
   "_id": "sNAR04MX1KPpQl30",
@@ -187,11 +196,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -213,9 +222,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!sNAR04MX1KPpQl30.Epd6rszvqWAUeEQo"
     }
@@ -230,9 +240,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

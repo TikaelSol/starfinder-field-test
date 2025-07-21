@@ -15,9 +15,12 @@
     ],
     "slug": "nightvision-adaptation",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -50,22 +53,30 @@
     "location": null,
     "subfeatures": {
       "senses": {
-        "darkvision": {}
-      }
+        "darkvision": {
+          "range": null,
+          "special": {
+            "ancestry": false,
+            "llv": false,
+            "second": false
+          }
+        }
+      },
+      "proficiencies": {},
+      "suppressedFeatures": []
     }
   },
   "type": "feat",
   "_stats": {
     "compendiumSource": "Compendium.pf2e.feats-srd.Item.cixf1uAQF2Y3w1Qx",
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.3"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.cixf1uAQF2Y3w1Qx"
-    }
+    "core": {}
   },
   "effects": [],
   "folder": null,

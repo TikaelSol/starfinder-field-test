@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>While most astrazoans flock to communities in densely populated settlements, some choose to live among nature in the wilderness, forging their own destiny or even defending their paradise from the influence of others. You have only one ancestry you can select for Change Shape, but you can also use Change Shape to transform into an animal with the statistics of a 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{Pest Form}.</p>",
@@ -42,9 +46,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "fTJTN6C6aVLcbb0n",
   "_key": "!items!fTJTN6C6aVLcbb0n"

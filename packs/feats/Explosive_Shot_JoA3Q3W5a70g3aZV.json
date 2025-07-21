@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You've designed a nozzle that can be fitted onto single-target weapons, splitting the weapon's fire into dangerous new shapes. You gain the following new mod. </p><p><strong>Explosive Shot (non-area weapon)</strong>: The modded item deals 1 splash damage per weapon damage dice. This splash damage is the same damage type the modded item deals.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!JoA3Q3W5a70g3aZV"
 }

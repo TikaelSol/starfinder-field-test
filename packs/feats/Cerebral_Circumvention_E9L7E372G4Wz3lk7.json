@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> A Telepredicted creature uses an effect that requires a Reflex save or attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} you.</p><p><strong>Requirements</strong> You have a bonus against the target using Telepredict. </p><hr /><p>By reading cues and analyzing probability outcomes, you smoothly predicting your opponent's next move. You gain a +1 circumstance bonus to your Reflex save or Reflex DC against the triggering action. Increase this bonus to +2 if you've dealt mental damage to the target since the last time you used Telepredict.</p>",
@@ -82,9 +86,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "E9L7E372G4Wz3lk7",
   "_key": "!items!E9L7E372G4Wz3lk7"

@@ -38,7 +38,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "folder": null,
   "name": "Shimmerstone Mech (Easier)",
@@ -99,16 +105,13 @@
   "system": {
     "saves": {
       "fortitude": {
-        "value": 27,
-        "saveDetail": ""
+        "value": 27
       },
       "reflex": {
-        "value": 21,
-        "saveDetail": ""
+        "value": 21
       },
       "will": {
-        "value": 0,
-        "saveDetail": ""
+        "value": 0
       }
     },
     "attributes": {
@@ -143,7 +146,8 @@
           "value": 10,
           "exceptions": []
         }
-      ]
+      ],
+      "resistances": []
     },
     "details": {
       "isComplex": false,
@@ -161,7 +165,6 @@
         "remaster": true
       }
     },
-    "statusEffects": [],
     "traits": {
       "value": [
         "magical",
@@ -174,11 +177,11 @@
       }
     },
     "_migration": {
-      "version": 0.933,
+      "version": 0.94,
       "previous": {
-        "schema": 0.932,
-        "foundry": "12.331",
-        "system": "6.4.1"
+        "schema": 0.933,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     }
   },
@@ -208,11 +211,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.933,
+          "version": 0.94,
           "previous": {
-            "schema": 0.932,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.933,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -234,9 +237,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bL5bzOlw7dFoKNus.yi2L5KGTyOpX6a95"
     },
@@ -246,11 +250,11 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.933,
+          "version": 0.94,
           "previous": {
-            "schema": 0.932,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.933,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "description": {
@@ -297,9 +301,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bL5bzOlw7dFoKNus.mj6dON1IEtMiFbJL"
     },
@@ -309,11 +314,11 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.933,
+          "version": 0.94,
           "previous": {
-            "schema": 0.932,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.933,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "description": {
@@ -360,9 +365,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bL5bzOlw7dFoKNus.fzz9MAVMJMQtIOFg"
     },
@@ -390,11 +396,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.933,
+          "version": 0.94,
           "previous": {
-            "schema": 0.932,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.933,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -416,9 +422,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bL5bzOlw7dFoKNus.YLq9Ke0sTiGbGkaF"
     }
@@ -433,9 +440,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

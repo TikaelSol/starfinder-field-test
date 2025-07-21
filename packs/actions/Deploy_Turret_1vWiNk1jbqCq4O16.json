@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You deploy your turret into an unoccupied square within 30 feet and prime it to fire, or you collect your turret from an adjacent square and collapse it, returning it to your custom rig for storage. If your turret is reduced to 0 HP, you can collect and redeploy your turret as a 2-action activity to return it to full HP. You can Modify your turret when you are within reach of it, modding the turret as a weapon or using the following two new mods.</p><ul><li><strong>Pinpoint Shot (turret exocortex)</strong>: You upgrade your turret's targeting system. Increase the turret's damage by an amount equal to your Intelligence modifier.</li><li><strong>Shift Array (turret exocortex)</strong>: You tweak your turret's customizations. Change your turret's selected array.</li></ul>",
@@ -47,9 +51,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!1vWiNk1jbqCq4O16"
 }

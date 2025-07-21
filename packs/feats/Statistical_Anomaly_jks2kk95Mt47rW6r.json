@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You critically fail a saving throw or skill check.</p><hr /><p>It's unclear whether your luck is very good or very bad; more research may be necessary. Reroll the triggering check or save and use the second result. If the triggering skill check is for Delve Lore or the triggering saving throw is to avoid a trap's effects, you may reroll and use the better result instead.</p>",
@@ -66,9 +70,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!jks2kk95Mt47rW6r"
 }

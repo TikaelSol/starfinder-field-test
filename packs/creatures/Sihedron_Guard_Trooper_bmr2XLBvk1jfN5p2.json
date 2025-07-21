@@ -27,7 +27,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "name": "Sihedron Guard Trooper",
   "type": "npc",
@@ -147,8 +153,12 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "abilities": {
       "str": {
@@ -236,12 +246,12 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": null,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -273,9 +283,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bmr2XLBvk1jfN5p2.Bkpur61Vf3qVqgQP"
     },
@@ -292,12 +303,12 @@
         "rules": [],
         "slug": "shotalashu-armor",
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.932,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -376,9 +387,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.TjqRzpHBljeq1c7k",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "sort": 200000,
       "ownership": {
@@ -407,12 +419,12 @@
         ],
         "slug": "darkvision-visor",
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.932,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -479,9 +491,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.PQzhohvBbwZRzbWA",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "sort": 3700000,
       "ownership": {
@@ -505,12 +518,12 @@
         "rules": [],
         "slug": "aeon-rifle",
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.932,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -518,7 +531,6 @@
           "value": [
             "aeon",
             "caster",
-            "expend-1",
             "tech"
           ],
           "rarity": "common"
@@ -585,13 +597,11 @@
           "damageType": "fire",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
         "range": 60,
+        "expend": 1,
         "reload": {
           "value": "1"
         },
@@ -602,6 +612,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -622,9 +635,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.LGwsaJVECPGvJz0a",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "sort": 5600000,
       "ownership": {
@@ -646,9 +660,13 @@
         "rules": [],
         "slug": "aeon-stone-consumed",
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -714,9 +732,10 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.CVTbxCY85nLoHYuw",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
@@ -741,12 +760,12 @@
         "rules": [],
         "slug": "battery-commercial",
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.932,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -821,9 +840,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "folder": "GwujgNN7WkToI8vn",
       "sort": 8700000,
@@ -848,12 +868,12 @@
         "rules": [],
         "slug": "pulse-gauntlet",
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.932,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -929,13 +949,11 @@
           "damageType": "sonic",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
         "range": null,
+        "expend": null,
         "reload": {
           "value": null
         },
@@ -946,6 +964,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -966,9 +987,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.buQx1uSCCv1MVZSK",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "sort": 1500000,
       "ownership": {
@@ -991,12 +1013,12 @@
         "rules": [],
         "slug": "battery-commercial",
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.932,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -1071,9 +1093,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "folder": "GwujgNN7WkToI8vn",
       "sort": 8700000,
@@ -1109,11 +1132,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -1135,9 +1158,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bmr2XLBvk1jfN5p2.kiumUAg6ZhOj04eD"
     },
@@ -1178,11 +1202,11 @@
           "remaster": false
         },
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "attackEffects": {
@@ -1205,9 +1229,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bmr2XLBvk1jfN5p2.LYSVColUwAQQGz5e"
     },
@@ -1250,11 +1275,11 @@
           "remaster": false
         },
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "attackEffects": {
@@ -1277,9 +1302,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bmr2XLBvk1jfN5p2.ccMAiPB6Wnm8thYl"
     },
@@ -1322,11 +1348,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -1348,9 +1374,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bmr2XLBvk1jfN5p2.MoLCXH3LCkkZj6jn"
     },
@@ -1378,11 +1405,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -1404,9 +1431,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bmr2XLBvk1jfN5p2.Bs7NfaPkJzVQpYu2"
     },
@@ -1445,11 +1473,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.935,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.343",
-            "system": "6.12.1"
+            "schema": 0.935,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -1471,9 +1499,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.343",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.12.1"
+        "systemVersion": "6.12.1",
+        "exportSource": null
       },
       "_key": "!actors.items!bmr2XLBvk1jfN5p2.KekIavFAfuhwZNHP"
     }
@@ -1483,9 +1512,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "bmr2XLBvk1jfN5p2",
   "sort": 0,

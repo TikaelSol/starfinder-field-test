@@ -21,8 +21,12 @@
     ],
     "slug": "effect-shift-energy",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -62,11 +66,11 @@
         "electricity",
         "void",
         "sonic"
-      ],
-      "loop": false
+      ]
     },
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20planet%20in%20gas%20nebula.webp",
   "ownership": {
@@ -77,9 +81,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "Zm5egcFVJq0Nxpfj",
   "sort": 6900000,

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You offer an ally advice and encouragement, granting them the inspiration they need to push themselves further in the face of a challenge. During a combat encounter, select an ally within 60 feet. That ally gains a +2 circumstance bonus to their skill checks until the beginning of your next turn. That ally then becomes temporarily immune to your Skillful Encouragement for 1 hour. If you said this advice verbally, Skillful Encouragement gains the auditory trait. If you signed this advice, Skillful Encouragement gains the visual trait.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.TMarUs51Jg7v3g3f]{Effect: Skillful Encouragement}</p>",
@@ -62,9 +66,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "EFkWRLQwain42TFm",
   "_key": "!items!EFkWRLQwain42TFm"

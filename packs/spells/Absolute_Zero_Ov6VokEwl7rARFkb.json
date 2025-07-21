@@ -10,12 +10,12 @@
     "rules": [],
     "slug": "absolute-zero",
     "_migration": {
-      "version": 0.932,
+      "version": 0.94,
       "lastMigration": null,
       "previous": {
-        "schema": 0.926,
-        "foundry": "12.328",
-        "system": "6.0.4"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -98,9 +98,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "sort": 5000000,
   "ownership": {

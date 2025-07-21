@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You propel yourself up like a whale breaching the surface of the ocean, then crash back down with thunderous force. @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}. When you land, all opponents within 10 feet of you must succeed at a @Check[fortitude|against:class-spell] save against your class DC or spell DC, whichever is higher, or be knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><hr /><p><strong>Special</strong> If you have the Quick Jump feat, you can @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump} or @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} when using Breach.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "AytE84e6pU6Achc3",
   "_key": "!items!AytE84e6pU6Achc3"

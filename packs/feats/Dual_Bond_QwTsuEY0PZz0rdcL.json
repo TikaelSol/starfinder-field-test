@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>While some claim you're incapable of forming a partner bond as deep as other dragonkin can, it's undeniable that you have more flexibility and freedom when it comes to bonding. You can maintain any number of partner bonds at once. Your bonded partners don't automatically count as being bonded with one another.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "QwTsuEY0PZz0rdcL",
   "_key": "!items!QwTsuEY0PZz0rdcL"

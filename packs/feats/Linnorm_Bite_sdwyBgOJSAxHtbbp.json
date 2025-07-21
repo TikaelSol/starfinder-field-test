@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your ancestors swore allegiance to a linnorm long ago. Though your family is no longer bound to serve the creature, a bit of its influence remains in you, manifesting in particularly long and sharp teeth. You gain a jaws unarmed attack that deals @Damage[1d6[piercing]] damage. Your jaws are in the brawling group and have the finesse and unarmed traits.</p>",
@@ -80,9 +84,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "sdwyBgOJSAxHtbbp",
   "_key": "!items!sdwyBgOJSAxHtbbp"

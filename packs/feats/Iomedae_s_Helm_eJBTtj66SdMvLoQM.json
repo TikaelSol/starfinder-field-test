@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You touch an adjacent ally who is affected by a spell or other magical effect with the mental trait due to failing a Will save and has a duration of no longer than 1 minute. That ally can immediately attempt a Will save against the effect's DC, ending the condition on a success. This can't end the effect for any creatures other than your target ally. Regardless of the result of the save, your ally is temporarily immune to Iomedae's Helm for 10 minutes.</p>",
@@ -66,9 +70,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!eJBTtj66SdMvLoQM"
 }

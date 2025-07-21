@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You announce business projections to an ally to benefit them. Make a @Check[business-lore|dc:@self.level] or @Check[corporate-lore|dc:@self.level] check against a DC based on your level. Whether or not you're successful, the target becomes temporarily immune to According to My Calculations for 24 hours. The benefit lasts for 1 minute or until activated.</p><hr /><p><strong>Critical Success</strong> The target gains a +2 circumstance bonus on their next skill check or attack roll.</p><p><strong>Success</strong> The target gains a +1 circumstance bonus on their next skill check or attack roll.</p><p><strong>Critical Failure</strong> The target takes a –1 penalty to their next skill check or attack roll.</p>",
@@ -76,9 +80,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!IJvX7FJ40i84XPuR"
 }

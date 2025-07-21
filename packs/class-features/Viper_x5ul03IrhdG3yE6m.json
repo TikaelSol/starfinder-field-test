@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>This programming language was originally developed by engineers working for the Aspis Consortium to standardize the manufacturing of hybrid items, especially spell chips and spell gems. While this code was made to help install multilingual hybrid magic items into replica antiques to sell across the galaxy, it's since been implemented as a high-level, general purpose programming language thanks to its emphasis on code readability and multilinguistic compatibility.</p><p><strong>Spell Cache</strong></p><ul><li><strong>1st</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.74EAtV4JC9Cihtp7]</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.vTQvfYu2llKQedmY]</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.LQzlKbYjZSMFQawP]</li><li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR]</li><li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]</li><li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]</li><li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]</li><li><strong>8th</strong> @UUID[Compendium.pf2e.spells-srd.Item.CeSh8QcVnqP5OlLj]</li><li><strong>9th</strong> @UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]</li></ul><p><strong>Magic Hack</strong></p><ul><li><strong>initial:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.FSOwKLTmUObuNAo9]</li><li><strong>advanced:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.sWVKBEXnmtZkkaGO]</li><li><strong>greater:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.hVzdriP7OS26qQSD]</li></ul><p><strong>Spellshape</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.dej71l4Im3pGJCRf]</p><p><strong>Overclock Boost</strong> (spell gem or spell chip) You can hack other magic traditions. When you Overclock a spell gem or spell chip with spells from another tradition, you can Cast a Spell using that item as a spell of the arcane tradition using your spell DC and attack rolls as normal.</p><p><strong>Jailbreak Spellshape</strong> When you Jailbreak Spell using the Spell Circuit spellshape to Cast a Spell from a spell gem, you can draw the hybrid item as a free action and treat it as an electromag grenade with a level equal to or less than the level of the spell gem until the end of your next turn. For example, a 4th-rank spell gem is treated as an advanced grenade and a 6th-rank spell gem is treated as a superior electromag grenade. If the spell dealt damage, the damage of the electromag grenade uses one type of damage the spell dealt instead of electricity.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!x5ul03IrhdG3yE6m"
 }

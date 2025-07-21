@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You emit the reeking smell of rotting meat when you disgorge your stomach. While you can thoroughly mask the scent by shapeshifting to eat like other species, disgorging your stomach to intentionally emit this vile odor can come in handy when you are trying to dissuade predators, whether they are hungry beasts or murderous mobsters. You become trained in Deception and gain the @UUID[Compendium.pf2e.feats-srd.Item.HEBXaS656MZTiWFu]{Lengthy Diversion} skill feat as a bonus feat, even if you don't meet its prerequisites.</p>",
@@ -71,9 +75,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "CJbfmjcI3CalYa3m",
   "_key": "!items!CJbfmjcI3CalYa3m"

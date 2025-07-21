@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> A creature other than you within range of your thoughtsense becomes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{frightened}, or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{stupefied}, or takes @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{persistent mental damage}</p><hr /><p><strong>Effect</strong> You can attempt an extra flat check immediately to end any persistent mental damage effect you have, and you reduce the flat check DC to 10. You then gain temporary Hit Points equal to your level. These temporary Hit Points last 1 minute.</p>",
@@ -55,9 +59,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "wI0g2nRfu2d0YFAd",
   "_key": "!items!wI0g2nRfu2d0YFAd"

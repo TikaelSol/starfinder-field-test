@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirements</strong> wearing armor customized with Hellknight regalia.</p><hr /><p>Your armor unleashes a gout of hellfire in a @Template[type:cone|distance:30], dealing @Damage[(@actor.level)d6[@actor.flags.pf2e.hellknight.order-damage]|options:area-damage] damage per level of a type determined by your chosen Hellknight order (@Check[reflex|against:class-spell|basic|options:area-effect]); a creature takes @Damage[(@actor.level)d6[spirit]|options:area-damage]{spirit damage} instead if that would be more detrimental (as determined by the GM).</p>",
@@ -69,9 +73,10 @@
   "_stats": {
     "compendiumSource": "Item.WNQKzqXHxzIfjOvK",
     "duplicateSource": "Item.WNQKzqXHxzIfjOvK",
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "sKZJDPCrCehAC3Sq",
   "_key": "!items!sKZJDPCrCehAC3Sq"

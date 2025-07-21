@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You become an expert in Society and Thievery and gain a +1 circumstance bonus to Recall Knowledge checks and Delve Lore checks when using Investigate as your exploration activity.</p><p>You gain the Additional Lore general feat in Delve Lore, which you can use to Recall Knowledge about sites of archaeological significance, and about ancient history, relics, languages, and peoples. Upon gaining this skill, choose either Intelligence or Wisdom as the key attribute for your Delve Lore checks. This choice is permanent and can't be changed later.</p>",
@@ -141,9 +145,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!i5OwninARF668ud8"
 }

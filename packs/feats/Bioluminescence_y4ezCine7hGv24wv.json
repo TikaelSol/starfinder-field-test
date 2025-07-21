@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your eyes glow like bioluminescent lamps, and you have learned how to focus them into a directional beam. Your eyes shed light in a 30 foot line in any direction you're looking.</p><p>You can suppress or restore this light as a free action. In addition, while this light is active you can take the Point Out action to indicate a creature within the area of your bioluminescence without making any noise, in which case it loses the auditory and manipulate traits. Finally, after you use an action to Hide or @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, you can send predetermined signals with your lights to alert all allies you can see to your location as a free action.</p>",
@@ -92,9 +96,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "y4ezCine7hGv24wv",
   "_key": "!items!y4ezCine7hGv24wv"

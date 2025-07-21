@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Actions</strong> <span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p><hr /><p>Frequent backups prevent data loss. You regain one expended spell slot that is at least 2 ranks lower than your highest-rank spell slot and takes 1, 2, or 3 actions to cast. You then immediately cast a cached spell that can be cast using that slot. The number of actions required for Backup Spell is equal to the action cost of the spell cast. Being able to quickly program such a spell is mentally taxing, however. After Casting the Spell, you're @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 3}, and any tech gear you attempt to use is @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 3} until the end of your next turn.</p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, tech gear you attempt to use until the end of your next turn isn't glitching 3.</p>",
@@ -65,9 +69,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!xYlv0c6pCjL7xuzo"
 }

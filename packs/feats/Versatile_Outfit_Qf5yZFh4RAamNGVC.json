@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You are known for your astounding custom outfits and pride yourself on designing versatile and reconfigurable garments, allowing you to create nearly any look in a matter of moments. You can use the Crafting skill rather than Deception to Impersonate another person, and can do so in 1 minute rather than the usual 10 minutes. You don't need a disguise kit to Impersonate a specific person when using Crafting to do so, and a maker's toolkit grants a +1 item bonus to the check.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "Qf5yZFh4RAamNGVC",
   "_key": "!items!Qf5yZFh4RAamNGVC"

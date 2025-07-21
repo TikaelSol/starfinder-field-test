@@ -29,8 +29,12 @@
     ],
     "slug": "operatives-edge",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -64,9 +68,12 @@
     "subfeatures": {
       "proficiencies": {
         "perception": {
-          "rank": 3
+          "rank": 3,
+          "attribute": null
         }
-      }
+      },
+      "senses": {},
+      "suppressedFeatures": []
     }
   },
   "_id": "ZZhd7RuSCIsTy4bl",
@@ -81,9 +88,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!ZZhd7RuSCIsTy4bl"
 }

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>You unleash a flurry of synchronized explosions by activating two of your mines at once. You @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.S3iCDy8ppR8eXp8V]{Detonate Mine} twice. If a creature is in the area of both of these detonations, combine the damage for the purposes of calculating that creature's resistances and weaknesses.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!oXhgWmaT9YeEbsig"
 }

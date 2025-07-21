@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You're fascinated by the ancient ruins scattered across Lajok's surface and orbit. Whether you're a scrapper harvesting materials for reuse, an innovator looking for a unique technological wonder, or a scholar hoping to glean secrets of the past, you enter these ancient sites, heedless of the danger. You gain a +1 circumstance bonus to Perception checks to find hazards, to skill checks to disable hazards, to AC against attacks made by hazards, and to saves against hazards.</p>",
@@ -82,9 +86,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "HWcbrUti93ukXoqo",
   "_key": "!items!HWcbrUti93ukXoqo"

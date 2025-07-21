@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> You're adjacent to at least two of your allies. </p><hr /><p>You instinctively understand how your allies act and move, and use that knowledge in the heat of combat to adopt a defensive formation that better shields you from harm. You gain a +1 circumstance bonus to AC and Reflex saving throws. If one of these adjacent allies is your bonded partner, that bonded partner gains the same benefit that you do. This benefit lasts until you are no longer adjacent to at least two of your allies.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "xF4Vse5IwmWveqxI",
   "_key": "!items!xF4Vse5IwmWveqxI"

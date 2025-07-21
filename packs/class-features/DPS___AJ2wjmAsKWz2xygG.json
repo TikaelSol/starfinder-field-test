@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>DPS++ is the premier programming language for weapons, incorporating tactical commands, shortcuts, and innovations from programming languages found across the galaxy to cause maximum destruction. This incredible feat of computer science is responsible for the universal compatibility of weapon upgrades.</p><p><strong>Spell Cache</strong></p><ul><li><strong>1st</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.naP8amjLGSEARe9V]</li><li><strong>2nd</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ygjHoKJSmAViJHJq]</li><li><strong>3rd</strong> electrotether</li><li><strong>4th</strong> @UUID[Compendium.pf2e.spells-srd.Item.Y3G6Y6EDgCY0s3fq]</li><li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.oXeEbcUdgJGWHGEJ]</li><li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]</li><li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.AlbpWWN87yGegoAF]</li><li><strong>8th</strong> @UUID[Compendium.pf2e.spells-srd.Item.C2GYCH3TtUFqPfdX]</li><li><strong>9th</strong> @UUID[Compendium.pf2e.spells-srd.Item.4WS7HrFjwNvTn8T2]</li></ul><p><strong>Magic Hacks</strong></p><ul><li><strong>initial:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.JJtBe3xM4r7kyohg]</li><li><strong>advanced:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.iA5xYqLRCIOosF6h]</li><li><strong>greater:</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.BKe64JRvtCjGvcrB]</li></ul><p><strong>Spellshape</strong> @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.GsrKsGF06M5LDZWH]</p><p><strong>Overclock Boost</strong> (weapon) You reduce the circumstance bonus to AC your targets have from cover by an amount equal to half the rank of the spell you cast to overclock your gear (minimum 1). Reduce any penalties due to range by 1. You gain a circumstance bonus to weapon damage equal to the rank of the spell you cast to overclock your gear. If the spell dealt damage, this bonus damage is of the same type of damage the spell dealt, rather than the weapon's normal damage (if the spell dealt multiple types of damage, select one damage type from among those options).</p><p><strong>Jailbreak Spellshape</strong> When you Jailbreak Spell to apply the Signal Boost spellshape to a spell that deals damage, you gain an item bonus to damage equal to the base weapon die of your weapon to one target of the spell. Do not apply any other modifiers to the damage, including feats, attribute modifiers, weapon traits, and weapon upgrades.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!AJ2wjmAsKWz2xygG"
 }

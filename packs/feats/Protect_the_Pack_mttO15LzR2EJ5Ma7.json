@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> You're adjacent to an ally.</p><hr /><p>You're determined to protect your allies from harm—even if it hurts! Select one adjacent ally. Until the beginning of your next turn, you shield them with your body; any lesser cover you grant them is instead standard cover, though they can't use standard cover granted by you to Hide.</p>",
@@ -61,9 +65,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "mttO15LzR2EJ5Ma7",
   "_key": "!items!mttO15LzR2EJ5Ma7"

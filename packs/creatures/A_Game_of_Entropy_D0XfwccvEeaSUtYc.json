@@ -38,7 +38,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "type": "hazard",
   "folder": null,
@@ -99,16 +105,13 @@
   "system": {
     "saves": {
       "fortitude": {
-        "value": 0,
-        "saveDetail": ""
+        "value": 0
       },
       "reflex": {
-        "value": 0,
-        "saveDetail": ""
+        "value": 0
       },
       "will": {
-        "value": 0,
-        "saveDetail": ""
+        "value": 0
       }
     },
     "attributes": {
@@ -126,7 +129,10 @@
         "value": 30,
         "details": "<p>(master) to notice the hidden code on the back of the computer monitors indicating the room contains dangerous magical code.</p>"
       },
-      "emitsSound": "encounter"
+      "emitsSound": "encounter",
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
     },
     "details": {
       "isComplex": true,
@@ -144,7 +150,6 @@
         "remaster": true
       }
     },
-    "statusEffects": [],
     "traits": {
       "value": [
         "magical",
@@ -157,8 +162,12 @@
       }
     },
     "_migration": {
-      "version": 0.932,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     }
   },
   "_id": "D0XfwccvEeaSUtYc",
@@ -191,11 +200,11 @@
           ]
         },
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.331",
-            "system": "6.4.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "actions": {
@@ -217,9 +226,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.331",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.4.1"
+        "systemVersion": "6.4.1",
+        "exportSource": null
       },
       "_key": "!actors.items!D0XfwccvEeaSUtYc.gd0dY7ul0RzUWDxs"
     }
@@ -234,9 +244,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "ownership": {
     "default": 0,

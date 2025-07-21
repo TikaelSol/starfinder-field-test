@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once per day </p><hr /><p>Your brain can process complex calculations subconsciously and save the answers for when they're needed most. You gain 1 Focus Point. If you don't spend this Focus Point by the end of this turn, you lose it.</p>",
@@ -68,9 +72,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "rQsfFYEapefaGHOx",
   "_key": "!items!rQsfFYEapefaGHOx"

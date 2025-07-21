@@ -11,12 +11,11 @@
     "rules": [],
     "slug": "share-quantum-aura",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
+      "version": 0.94,
       "previous": {
-        "schema": null,
-        "foundry": "12.330",
-        "system": "6.1.2"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -54,6 +53,11 @@
     "frequency": {
       "max": 1,
       "per": "PT10M"
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
     }
   },
   "_id": "Bzc4dsAEdKMjz774",
@@ -62,9 +66,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "7.2.0",
+    "systemVersion": "7.2.3",
     "exportSource": null
   },
   "sort": 4400000,

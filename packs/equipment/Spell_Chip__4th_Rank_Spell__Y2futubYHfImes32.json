@@ -11,8 +11,13 @@
     "rules": [],
     "slug": "spell-chip-4th-rank-spell",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null
+      "version": 0.94,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -46,7 +51,8 @@
       }
     },
     "equipped": {
-      "carryType": "worn"
+      "carryType": "worn",
+      "handsHeld": 0
     },
     "containerId": null,
     "size": "med",
@@ -85,9 +91,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.2.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "Y2futubYHfImes32",
   "sort": 9800000,

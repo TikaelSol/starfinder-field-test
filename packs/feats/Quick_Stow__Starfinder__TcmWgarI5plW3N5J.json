@@ -10,9 +10,12 @@
     "rules": [],
     "slug": "quick-stow",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -50,20 +53,24 @@
     "frequency": {
       "max": 1,
       "per": "round"
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
     }
   },
   "type": "feat",
   "_stats": {
     "compendiumSource": "Compendium.pf2e.feats-srd.Item.LAArv2uv6TOkTzQO",
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.3"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.feats-srd.Item.LAArv2uv6TOkTzQO"
-    }
+    "core": {}
   },
   "effects": [],
   "folder": null,

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Cost</strong> the Price of the chosen item</p><hr /><p>You've traveled far and wide, bringing supplies and equipment from place to place and picking up interesting objects in your travels. In fact, you've got an interesting item right… here! You Interact to pull an item you hadn't previously declared that you purchased out of your pocket—this item must be any common item of half your level or less with a Bulk of 1 or less. It must be a piece of adventuring gear (from the table in Starfinder Player Core or other sources of adventuring gear) and can't be a weapon, armor, ammunition, magic item, pharmaceutical item, or other treasure.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "y0i2dBbVjtbYWm3U",
   "_key": "!items!y0i2dBbVjtbYWm3U"

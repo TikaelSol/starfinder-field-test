@@ -40,8 +40,12 @@
     ],
     "slug": "effect-aim",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -71,7 +75,8 @@
     },
     "badge": null,
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/orange%20target%20sign.webp",
   "folder": null,
@@ -83,9 +88,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "9grXj8ftRJnXpyxW",
   "sort": 6600000,

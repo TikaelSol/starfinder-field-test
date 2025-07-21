@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> A Telepredicted creature targets you with a mental effect.</p><p><strong>Requirements</strong> You have a bonus against the target using Telepredict. </p><hr /><p>You gain a +1 circumstance bonus to Will saving throws against the triggering effect. Increase this bonus to +2 if you've dealt mental damage to the target since the last time you used Telepredict. If you roll a critical success on the saving throw, the target takes @Damage[5d4[mental]] damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the end of your next turn.</p>",
@@ -82,9 +86,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "PbPCMls5szAKHXtr",
   "_key": "!items!PbPCMls5szAKHXtr"

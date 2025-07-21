@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You've created a magical shorthand for your favored spells that makes them easier to cast. You automatically add spells to your cache from your programming language as soon as you can cast spells of the appropriate rank. Cached spells in your spell database can be prepared normally during your daily preparations or you can Downloaded these Spells to overwrite and replace other spells you've already prepared so they can be cast using that spell slot. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.oHVC3U1F4MvRkrKk]{Download Spell} action.</p>",
@@ -63,9 +67,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!vC7Ux66pSXPMqWwm"
 }

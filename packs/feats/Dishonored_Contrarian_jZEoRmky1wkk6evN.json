@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>When the going gets tough, the tough fight tooth and nail to build a better life—literally. Your fellow vlakas might carry hope, dreams, and unending optimism in their hearts, but you've always found it harder to look on the bright side, and you've done some dubious things to get by. Whether you've lied, cheated, stolen, or taken some lives, you know that you did what it took to survive and thrive in a cold and callous galaxy. You become trained in one of the following skills of your choice: Deception, Intimidation, or Thievery. If you select Deception, you gain the @UUID[Compendium.pf2e.feats-srd.Item.HEBXaS656MZTiWFu]{Lengthy Diversion} skill feat. If you select Intimidation, you gain the @UUID[Compendium.pf2e.feats-srd.Item.gUqvezs2zzoTXFAI]{Group Coercion} skill feat. If you select Thievery, you gain the @UUID[Compendium.pf2e.feats-srd.Item.hVZbnsDuXihggylt]{Subtle Theft} skill feat.</p>",
@@ -108,9 +112,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "jZEoRmky1wkk6evN",
   "_key": "!items!jZEoRmky1wkk6evN"

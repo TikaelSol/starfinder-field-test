@@ -11,14 +11,18 @@
     "rules": [],
     "slug": "artillery-laser",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null
+      "version": 0.94,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
       "value": [
         "critical-flame",
-        "expend-5",
         "forceful",
         "razing",
         "tech"
@@ -87,13 +91,11 @@
       "damageType": "fire",
       "persistent": null
     },
-    "bonusDamage": {
-      "value": 0
-    },
     "splashDamage": {
       "value": 0
     },
     "range": 60,
+    "expend": 5,
     "reload": {
       "value": "1"
     },
@@ -104,6 +106,9 @@
     },
     "specific": null,
     "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
     "property1": {
       "value": "",
       "dice": 0,
@@ -125,9 +130,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "sort": 5300000,
   "ownership": {

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You learn how to install a rudimentary shield that temporarily blocks damage. You gain the following new mod.</p><p><strong>Flickering Shield (armor):</strong> The item produces a temporary shield that protects its wearer from harm. The creature wearing the modded armor gains temporary Hit Points equal to 5 + your Intelligence modifier and regains Hit Points equal to your Intelligence modifier for every round the shield is active. The flickering shield lasts for 1 minute or until dismissed. The modded item or exocortex then becomes temporarily immune to your flickering shield mod for 10 minutes.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!7V0knidIog2sbiQD"
 }

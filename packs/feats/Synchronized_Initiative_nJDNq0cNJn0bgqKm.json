@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> You and your bonded partner roll the same skill for initiative, but get different results. </p><hr /><p>You and your bonded partner act in utter synchronicity with one another, reacting to danger and entering battle as one. You and your bonded partner use the higher result between your initiative rolls, but use the lower Perception or skill modifier.</p>",
@@ -61,9 +65,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "nJDNq0cNJn0bgqKm",
   "_key": "!items!nJDNq0cNJn0bgqKm"

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> An ally within 60 feet fails a Will saving throw.</p><hr /><p>You shout or sign encouragement to an ally in their time of need, buoying their spirits and hardening their resolve. Your ally rerolls the triggering check but must use the new result, even if it's worse. If you shout, Buoy gains the auditory trait. If you sign, Buoy gains the visual trait.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "fRNNdUOhLQO1to7i",
   "_key": "!items!fRNNdUOhLQO1to7i"

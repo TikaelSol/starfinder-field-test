@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Choose an ancestry or heritage. You learn a new language available to that ancestry or heritage. You become trained in Society. If you're already trained in Society, you instead become trained in another skill of your choice. You also become trained in the Lore skill related to that specific ancestry or heritage, such as Android Lore or Ysoki Lore.</p><hr /><p><strong>Special</strong> You can select this feat multiple times, choosing a different ancestry or heritage each time.</p>",
@@ -71,9 +75,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "W5WkZTNWAh0cvxrz",
   "_key": "!items!W5WkZTNWAh0cvxrz"

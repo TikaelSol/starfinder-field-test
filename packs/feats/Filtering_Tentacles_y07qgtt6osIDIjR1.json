@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>The sensory tentacles covering the lower part of your face are sensitive enough to detect toxins. You gain a +1 circumstance bonus to saving throws against ingested or inhaled poisons.</p><hr /><p><strong>Special</strong> You can take this feat only at 1st level, and you can't retrain out of or into this feat.</p>",
@@ -76,9 +80,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "y07qgtt6osIDIjR1",
   "_key": "!items!y07qgtt6osIDIjR1"

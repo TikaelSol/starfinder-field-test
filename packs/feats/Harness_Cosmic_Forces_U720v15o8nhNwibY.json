@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You're among the most powerful of sarcesians and can harness the cosmic forces of the universe to create incredible stellar phenomena. Select one of the following spells, which you can cast once per day as a 7th-rank arcane innate spell: @UUID[Compendium.pf2e.spells-srd.Item.0jadeyQIItIuRgeH]{Eclipse Burst} or @UUID[Compendium.pf2e.spells-srd.Item.a3aQxCpoj1q1NQxC]{Sunburst}.</p>",
@@ -99,9 +103,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "U720v15o8nhNwibY",
   "_key": "!items!U720v15o8nhNwibY"

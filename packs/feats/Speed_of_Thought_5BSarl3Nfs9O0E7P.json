@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You have honed your telekinetic maneuverability, enabling greater bursts of speed. Increase your fly Speed by 5 feet. In addition, you gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.r1bUsyDwcwuN3MUG]{Telekinetic Sprint} action.</p><p></p>",
@@ -70,9 +74,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "5BSarl3Nfs9O0E7P",
   "_key": "!items!5BSarl3Nfs9O0E7P"

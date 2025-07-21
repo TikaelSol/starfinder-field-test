@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You know that it's more important to act wisely than it is to act quickly. When you take the time to consider a problem from all angles, you come up with an insightful revelation. You gain @UUID[Compendium.pf2e.spells-srd.Item.pkcOby5prOausy1k]{Read Omens} as a 4th-rank occult innate spell. You can cast this spell once per day.</p>",
@@ -83,9 +87,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "lPTZmZhjdHyxYpuz",
   "_key": "!items!lPTZmZhjdHyxYpuz"

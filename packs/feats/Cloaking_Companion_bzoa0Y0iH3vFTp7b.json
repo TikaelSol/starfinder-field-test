@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your drone or turret activates a rudimentary cloaking field, making it harder for enemies to pinpoint. Your drone or turret activates its specialized camouflage device and gains @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{concealment} until the beginning of your next turn.</p><hr /><p><strong>Level (+8)</strong> The concealment lasts for 1 minute.</p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!bzoa0Y0iH3vFTp7b"
 }

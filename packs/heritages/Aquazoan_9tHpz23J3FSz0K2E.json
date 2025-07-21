@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Astrazoans occupying aquatic worlds and communities learn how to integrate gills and fins into their forms and can even manifest these traits when imitating species that do not normally have them. You gain a swim Speed of 20 feet, and you gain the amphibious trait, enabling you to breathe in water and air.</p>",
@@ -55,9 +59,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!9tHpz23J3FSz0K2E"
 }

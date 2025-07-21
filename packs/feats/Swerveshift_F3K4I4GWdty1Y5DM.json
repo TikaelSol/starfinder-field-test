@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> A creature targets you with an attack.</p><p><strong>Requirements</strong> You are aware of the attack and are not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to the triggering attack. </p><hr /><p>You quickly Change Shape into a smaller size to avoid getting hit. You gain a circumstance bonus to AC, Fortitude DC, and Reflex DC against the triggering attack equal to the number of steps between your sizes when you Change Shape (+1 if you are one size smaller, +2 if you are two sizes smaller, and so on).</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "F3K4I4GWdty1Y5DM",
   "_key": "!items!F3K4I4GWdty1Y5DM"

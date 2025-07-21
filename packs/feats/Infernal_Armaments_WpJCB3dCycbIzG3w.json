@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>You infuse your weapons with the might of Hell. For the next minute, on your first weapon Strike each round, you gain a status bonus to damage equal to twice the number of weapon damage dice; this extra damage is determined by your chosen Hellknight order.</p>",
@@ -72,9 +76,10 @@
   "_stats": {
     "compendiumSource": "Item.02WZIGU57X7kVmNX",
     "duplicateSource": "Item.02WZIGU57X7kVmNX",
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "WpJCB3dCycbIzG3w",
   "_key": "!items!WpJCB3dCycbIzG3w"

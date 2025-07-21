@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> You are holding a grenade.</p><hr /><p>You deliver your spells with a bang. If your next action is to Cast a Spell with a burst effect that requires a Reflex save, the spell does not immediately take effect, but it instead is installed into the held grenade. Until the end of your next turn, any creatures caught in the Area Fire of the grenade are also affected by the installed spell; creatures do not make a separate Reflex save against the spell and instead use the same result they rolled against the grenade. </p><p><strong>Jailbreak</strong> If you use Jailbreak Spell to use this spellshape, you can install any spell into a grenade. In that case, creatures roll a separate saving throw against your spell DC if it's not a Reflex save. If you apply the effects of this spellshape to a spell with a basic Reflex save, you can use your spell DC instead of your class DC for the grenade.</p><p></p>",
@@ -97,9 +101,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!RsuSESM6qst4ArF0"
 }

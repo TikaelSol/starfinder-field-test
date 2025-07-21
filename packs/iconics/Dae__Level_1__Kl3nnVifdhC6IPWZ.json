@@ -38,7 +38,6 @@
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
-    "hexagonalShape": 0,
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
@@ -90,7 +89,14 @@
         "texture": null
       }
     },
-    "randomImg": false
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
   },
   "folder": "jC1yrU6f8coj7MZV",
   "name": "Dae (Level 1)",
@@ -180,8 +186,12 @@
       }
     },
     "_migration": {
-      "version": 0.932,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "abilities": null,
     "skills": {
@@ -241,12 +251,12 @@
         "rules": [],
         "slug": "pahtra",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.917,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -325,9 +335,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.ancestries.Item.zB9NEKvcjYO66lWj",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.2.0"
+        "systemVersion": "6.2.0",
+        "exportSource": null
       },
       "_id": "QxqaLYBMsvGKZfTr",
       "_key": "!actors.items!Kl3nnVifdhC6IPWZ.QxqaLYBMsvGKZfTr"
@@ -344,12 +355,11 @@
         "rules": [],
         "slug": "meyels-chosen-pahtra",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.917,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -381,9 +391,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.heritages.Item.nuMq4WG1IQoTEp1B",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "_id": "qCQFXxVT52bYlWi3",
       "_key": "!actors.items!Kl3nnVifdhC6IPWZ.qCQFXxVT52bYlWi3"
@@ -400,12 +411,12 @@
         "rules": [],
         "slug": "icon",
         "_migration": {
-          "version": 0.932,
+          "version": 0.94,
           "lastMigration": null,
           "previous": {
-            "schema": 0.917,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -468,9 +479,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.backgrounds.Item.UjmLbQJwgCbyVBE3",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.2.0"
+        "systemVersion": "6.2.0",
+        "exportSource": null
       },
       "_id": "YYYdryUjNIvYQwr3",
       "_key": "!actors.items!Kl3nnVifdhC6IPWZ.YYYdryUjNIvYQwr3"
@@ -487,12 +499,11 @@
         "rules": [],
         "slug": "sparkling-performance",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.925,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -532,6 +543,11 @@
         "selfEffect": {
           "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.civUyy7XNTF8E4Xv",
           "name": "Effect: Sparkling Performance"
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
         }
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
@@ -546,9 +562,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "_id": "zuSxtfquy4sxOSyS",
       "_key": "!actors.items!Kl3nnVifdhC6IPWZ.zuSxtfquy4sxOSyS"
@@ -566,14 +583,18 @@
         "rules": [],
         "slug": "semi-auto-pistol",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
           "value": [
-            "analog",
-            "expend-1"
+            "analog"
           ],
           "rarity": "common"
         },
@@ -639,13 +660,11 @@
           "damageType": "piercing",
           "persistent": null
         },
-        "bonusDamage": {
-          "value": 0
-        },
         "splashDamage": {
           "value": 0
         },
         "range": 60,
+        "expend": 1,
         "reload": {
           "value": "1"
         },
@@ -656,6 +675,9 @@
         },
         "specific": null,
         "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
         "property1": {
           "value": "",
           "dice": 0,
@@ -677,9 +699,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.sOl1WO2NFZ7bb2aF",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 700000,
       "ownership": {
@@ -702,8 +725,13 @@
         "rules": [],
         "slug": "magazine-semi-auto-pistol",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -774,16 +802,15 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/magazine%20light.webp",
       "folder": "GwujgNN7WkToI8vn",
       "flags": {
-        "core": {
-          "sourceId": "Actor.n9WGFRILpZTHCqPc.Item.8IVxd6jMs4jWzi7Z"
-        }
+        "core": {}
       },
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.tWFVW7j15qczONKh",
+        "compendiumSource": "Actor.n9WGFRILpZTHCqPc.Item.8IVxd6jMs4jWzi7Z",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 100000,
       "ownership": {
@@ -816,12 +843,11 @@
         ],
         "slug": "competitive-spirit",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": 0.917,
-            "foundry": "12.328",
-            "system": "6.1.1"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -857,6 +883,11 @@
         "frequency": {
           "max": 1,
           "per": "PT1H"
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
         }
       },
       "_id": "EGXJzkxXdA5BHqpC",
@@ -872,9 +903,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.feats.Item.fEJFcp29wh8BJ2Ea",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "_key": "!actors.items!Kl3nnVifdhC6IPWZ.EGXJzkxXdA5BHqpC"
     },
@@ -891,8 +923,12 @@
         "rules": [],
         "slug": "supernova",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -926,9 +962,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.actions.Item.jPy4UlsL5AlVwKYC",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 2300000,
       "ownership": {
@@ -952,12 +989,11 @@
         "rules": [],
         "slug": "stellar-rush",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null,
+          "version": 0.94,
           "previous": {
-            "schema": null,
-            "foundry": "12.328",
-            "system": "6.0.4"
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
           }
         },
         "traits": {
@@ -992,7 +1028,12 @@
         "prerequisites": {
           "value": []
         },
-        "location": "class-1"
+        "location": "class-1",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
       },
       "_id": "GjnfyTnbYrTvH47z",
       "effects": [],
@@ -1000,9 +1041,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.feats.Item.ynPBYXVBqiuIvc0D",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 24000000,
       "ownership": {
@@ -1025,8 +1067,13 @@
         "rules": [],
         "slug": "comm-unit",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1090,9 +1137,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.FCqL3rotjherLsg6",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 5100000,
       "ownership": {
@@ -1116,8 +1164,13 @@
         "rules": [],
         "slug": "hardlight-series",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1196,9 +1249,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.98ytq6q9eVBeVPtl",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 1300000,
       "ownership": {
@@ -1221,8 +1275,13 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": []
@@ -1252,9 +1311,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "_key": "!actors.items!Kl3nnVifdhC6IPWZ.Z3m2Zohu6JojT6Qf"
     },
@@ -1270,12 +1330,15 @@
         "rules": [],
         "slug": "solarian",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
-          "value": [],
           "rarity": "common"
         },
         "publication": {
@@ -1287,7 +1350,8 @@
         "keyAbility": {
           "value": [
             "str"
-          ]
+          ],
+          "selected": null
         },
         "items": {
           "iEPDk": {
@@ -1478,9 +1542,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.classes.Item.QM6hLbfrpnwZFQjk",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "_id": "pHXKv89c79REo3kD",
       "_key": "!actors.items!Kl3nnVifdhC6IPWZ.pHXKv89c79REo3kD"
@@ -1533,8 +1598,12 @@
         ],
         "slug": "stellar-attunement",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1564,7 +1633,12 @@
         "prerequisites": {
           "value": []
         },
-        "location": "pHXKv89c79REo3kD"
+        "location": "pHXKv89c79REo3kD",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/eclipse.webp",
       "flags": {
@@ -1584,9 +1658,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 5500000,
       "ownership": {
@@ -1625,8 +1700,12 @@
         ],
         "slug": "solar-manifestations",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1656,7 +1735,12 @@
         "prerequisites": {
           "value": []
         },
-        "location": "pHXKv89c79REo3kD"
+        "location": "pHXKv89c79REo3kD",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
       },
       "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
       "flags": {
@@ -1680,9 +1764,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 6000000,
       "ownership": {
@@ -1723,8 +1808,12 @@
         ],
         "slug": "solarian-arrangement",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1754,7 +1843,12 @@
         "prerequisites": {
           "value": []
         },
-        "location": "pHXKv89c79REo3kD"
+        "location": "pHXKv89c79REo3kD",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
       },
       "img": "icons/magic/light/explosion-star-large-orange-purple.webp",
       "flags": {
@@ -1770,9 +1864,10 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 5700000,
       "ownership": {
@@ -1795,8 +1890,12 @@
         "rules": [],
         "slug": "attune",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1826,9 +1925,7 @@
       },
       "img": "systems/pf2e/icons/actions/OneAction.webp",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.starfinder-field-test-for-pf2e.actions.Item.JLo2gJ2s0BXUKsLQ"
-        },
+        "core": {},
         "pf2e": {
           "grantedBy": {
             "id": "w7bpBD2WcpnyEL5z",
@@ -1837,11 +1934,12 @@
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.actions.Item.JLo2gJ2s0BXUKsLQ",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 1500000,
       "ownership": {
@@ -1864,8 +1962,12 @@
         "rules": [],
         "slug": "attunement-control",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1892,9 +1994,7 @@
       },
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.starfinder-field-test-for-pf2e.actions.Item.1EewWFSgMbYZKykO"
-        },
+        "core": {},
         "pf2e": {
           "grantedBy": {
             "id": "w7bpBD2WcpnyEL5z",
@@ -1903,11 +2003,12 @@
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.actions.Item.1EewWFSgMbYZKykO",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 1000000,
       "ownership": {
@@ -1975,8 +2076,12 @@
         ],
         "slug": "solar-shot",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2003,9 +2108,7 @@
       },
       "img": "systems/pf2e/icons/actions/OneAction.webp",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.starfinder-field-test-for-pf2e.actions.Item.0o7v0LwOjvvNJRCw"
-        },
+        "core": {},
         "pf2e": {
           "grantedBy": {
             "id": "oCPYQLlOaZzFrfrb",
@@ -2014,11 +2117,12 @@
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.actions.Item.0o7v0LwOjvvNJRCw",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 900000,
       "ownership": {
@@ -2051,8 +2155,12 @@
         ],
         "slug": "nimbus-surge",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2078,9 +2186,7 @@
       },
       "img": "systems/pf2e/icons/actions/Reaction.webp",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.starfinder-field-test-for-pf2e.actions.Item.fy5RQYfWhum3Bz9H"
-        },
+        "core": {},
         "pf2e": {
           "grantedBy": {
             "id": "oCPYQLlOaZzFrfrb",
@@ -2089,11 +2195,12 @@
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.actions.Item.fy5RQYfWhum3Bz9H",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 2200000,
       "ownership": {
@@ -2116,8 +2223,12 @@
         "rules": [],
         "slug": "re-forge-solar-weapon",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2144,9 +2255,7 @@
       },
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.starfinder-field-test-for-pf2e.actions.Item.7p3HC6xc2ui6fU3V"
-        },
+        "core": {},
         "pf2e": {
           "grantedBy": {
             "id": "oCPYQLlOaZzFrfrb",
@@ -2155,11 +2264,12 @@
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.actions.Item.7p3HC6xc2ui6fU3V",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 1100000,
       "ownership": {
@@ -2239,8 +2349,12 @@
         ],
         "slug": "radiant",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [
@@ -2272,13 +2386,16 @@
         "prerequisites": {
           "value": []
         },
-        "location": null
+        "location": null,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
       },
       "img": "icons/magic/light/explosion-star-glow-orange.webp",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.saCXcdMlmSXhhViU"
-        },
+        "core": {},
         "pf2e": {
           "grantedBy": {
             "id": "7BiDxfoIhIcbCWIb",
@@ -2293,11 +2410,12 @@
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.saCXcdMlmSXhhViU",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 6600000,
       "ownership": {
@@ -2320,8 +2438,12 @@
         "rules": [],
         "slug": "supernova",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2352,9 +2474,7 @@
       },
       "img": "systems/pf2e/icons/actions/TwoActions.webp",
       "flags": {
-        "core": {
-          "sourceId": "Compendium.starfinder-field-test-for-pf2e.actions.Item.jPy4UlsL5AlVwKYC"
-        },
+        "core": {},
         "pf2e": {
           "grantedBy": {
             "id": "FNRjAuxTrCvxbNol",
@@ -2363,11 +2483,12 @@
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.actions.Item.jPy4UlsL5AlVwKYC",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 2300000,
       "ownership": {
@@ -2390,8 +2511,13 @@
         "rules": [],
         "slug": "medpatch-commercial",
         "_migration": {
-          "version": 0.932,
-          "lastMigration": null
+          "version": 0.94,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.932,
+            "foundry": "13.346",
+            "system": "7.2.3"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -2466,9 +2592,10 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.epPPWPTc4W7EfUf2",
         "duplicateSource": null,
-        "coreVersion": "12.330",
+        "coreVersion": "13.346",
         "systemId": "pf2e",
-        "systemVersion": "6.1.3"
+        "systemVersion": "6.1.3",
+        "exportSource": null
       },
       "sort": 4800000,
       "ownership": {
@@ -2482,20 +2609,21 @@
   "flags": {
     "pf2e": {
       "freeCrafting": false
-    },
-    "exportSource": {
-      "world": "dev",
-      "system": "pf2e",
-      "coreVersion": "12.330",
-      "systemVersion": "6.1.3"
     }
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.330",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.2.0"
+    "systemVersion": "7.2.3",
+    "exportSource": {
+      "worldId": "dev",
+      "uuid": null,
+      "coreVersion": "12.330",
+      "systemId": "pf2e",
+      "systemVersion": "6.1.3"
+    }
   },
   "_id": "Kl3nnVifdhC6IPWZ",
   "sort": 0,

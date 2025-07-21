@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Years of careful attention to your look have given you a deep understanding of the interplay between color, texture, and light, and you know how to make your outfit catch anyone's eye. You gain @UUID[Compendium.pf2e.spells-srd.Item.RQjSQVZRG497cJhX]{Vibrant Pattern} as a 6th-rank primal innate spell that you can cast once per day. At 17th level, the spell increases to 8th rank.</p>",
@@ -83,9 +87,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "yldWiA3mhg4NAs4W",
   "_key": "!items!yldWiA3mhg4NAs4W"

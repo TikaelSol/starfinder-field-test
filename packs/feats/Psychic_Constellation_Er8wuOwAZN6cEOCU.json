@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You effortlessly juggle an assortment of gear with your telepathy, giving you the appearance of a solar cerebellum orbited by planetoid items. You gain a second set of telekinetic hands, per Mind Over Matter, granting a typical contemplative six hands total. While at least one of your telekinetic hands is empty, you can deflect incoming attacks, granting your fist attack the parry trait. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.fQJ8xyZH3Dch5xtN]{Eccentric Orbit} free action.</p>",
@@ -92,9 +96,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "Er8wuOwAZN6cEOCU",
   "_key": "!items!Er8wuOwAZN6cEOCU"

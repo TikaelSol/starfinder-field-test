@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>At 1st level, you select a programming language, which you use to understand magic and to store, manipulate, and hack your spells.</p><p><strong>Spell Cache:</strong> Your programming language grants you additional spells known; these bonus spells are your spell cache. You automatically add the 1st-rank spell listed in your programming language's spell cache to your spell database and your spell cache. As soon as you gain the ability to cast technomancer spells of a new rank, add the associated spell from your programming language's spell cache to your spell database and spell cache. You can use the Download Spell action to replace a prepared spell with a spell in your spell cache. </p><p><strong>Magic Hacks:</strong> Your programming language grants you a type of focus spell called a magic hack. </p><p><strong>Spellshapes:</strong> Your programming language grants you innovative ways to manipulate magic. You gain the listed spellshape feat at 1st level. </p><p><strong>Overclock Boost:</strong> Each programming language is associated with a specific type of item, noted in parentheses in the overclock boost entry. You can only Overclock Gear on items that match your programming language's item type. When you are holding, wearing, or wielding an overclocked item, or have an overclocked minion, you gain the benefits of the overclock boost. </p><p><strong>Jailbreak Spellshape:</strong> At 3rd level, when you Jailbreak Spell and choose to apply your programming language's preferred spellshape, you gain the additional benefit listed in the jailbreak spellshape entry in addition to its normal jailbreak bonus.</p>",
@@ -74,9 +78,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!cpmuQo7Q5NhRPBul"
 }

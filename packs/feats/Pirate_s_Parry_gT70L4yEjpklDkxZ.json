@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> An adjacent enemy attempts a melee Strike against you.</p><p><strong>Requirements</strong> You are wielding a gun and a melee weapon with the agile trait or a phase cutlass.</p><hr /><p>You parry the triggering Strike with your melee weapon, gaining a +2 circumstance bonus to your AC against the attack. If the triggering Strike is a critical failure, you may attempt a ranged Strike against the triggering creature. This ranged Strike does not trigger reactions from the target.</p>",
@@ -81,9 +85,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!gT70L4yEjpklDkxZ"
 }

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You've learned to grow additional eyes all over your body, enhancing your visual processing and the range of your eyesight. When you use Change Shape, you can choose to gain all-around vision until you change forms again. During this time, you take a –3 circumstance penalty to Deception checks and Deception DCs to Impersonate a different ancestry, unless the ancestry you are Impersonating normally has seven or more eyes.</p>",
@@ -84,9 +88,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "Logc2RRMGScxCMex",
   "_key": "!items!Logc2RRMGScxCMex"

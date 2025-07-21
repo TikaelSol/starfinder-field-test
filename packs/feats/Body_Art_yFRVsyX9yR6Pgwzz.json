@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your body is your canvas, and you've taken body modification to a whole new level. You gain an augmentation at no cost. The augmentation must be your level or lower. This augmentation doesn't count against the maximum number of augmentations you can implant, and each time you gain a new ancestry feat, you can upgrade this augmentation to a new augmentation of your level or lower at no cost, representing your continued exploration in body modification.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "yFRVsyX9yR6Pgwzz",
   "_key": "!items!yFRVsyX9yR6Pgwzz"

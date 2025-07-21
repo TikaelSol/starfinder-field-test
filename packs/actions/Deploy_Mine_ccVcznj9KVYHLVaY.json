@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Cost</strong> 1 mine</p><hr /><p>You deploy a mine, planting it in an adjacent square and priming it for detonation. You can increase the number of actions you spend Deploying a Mine to 2, to instead plant the mine in an occupied square within 30 feet. When you Deploy a Mine, you select whether it will deal fire damage or piercing damage when detonated. You can Modify one of your deployed mines at a range of 30 feet, modding the mine as if it were a grenade or with the following new mods.</p><ul><li><strong>Smart Mine (mine exocortex)</strong>: You program your mines with rudimentary virtual intelligence, allowing them to avoid damaging specific targets. Select one target within 60 feet. That target is excluded from the area of all mines you detonate. At 5th level, you can instead select two targets.</li><li><strong>Targeting Mine (mine exocortex)</strong>: Your mines' proximity sensors enable you to pinpoint creatures in range. Increase the mine's damage by an amount equal to your Intelligence modifier.</li></ul>",
@@ -47,9 +51,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!ccVcznj9KVYHLVaY"
 }

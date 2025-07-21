@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your linnorm heritage has begun to manifest more as you've become more powerful. Your jaws Strike deals an additional @Damage[1d6[cold]] damage. On a critical hit, the target is also @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of your next turn, unless it succeeds at a @Check[fortitude|against:class-spell] save against your class DC or spell DC, whichever is higher.</p>",
@@ -88,9 +92,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "EGuboukc6LrUd4vT",
   "_key": "!items!EGuboukc6LrUd4vT"

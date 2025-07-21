@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You were born and raised on a volatile world wracked by destructive storms and powerful winds. Learning to fly in such conditions has conditioned you into an exceptional aerialist. You gain a +2 circumstance bonus to Acrobatics checks to Maneuver in Flight and your fly Speed increases by 5 feet.</p>",
@@ -57,9 +61,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "ShGlcqeMXp7ZK0vC",
   "_key": "!items!ShGlcqeMXp7ZK0vC"

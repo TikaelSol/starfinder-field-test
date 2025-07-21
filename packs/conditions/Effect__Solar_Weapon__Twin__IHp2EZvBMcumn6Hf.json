@@ -406,8 +406,12 @@
     ],
     "slug": "effect-solar-weapon-twin",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -437,7 +441,8 @@
     },
     "badge": null,
     "context": null,
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/solar%20fist%20mirrored.webp",
   "folder": null,
@@ -445,20 +450,20 @@
     "default": 0,
     "CmdglLq38DpgHzdd": 3
   },
-  "flags": {
-    "exportSource": {
-      "world": "data-entry",
-      "system": "pf2e",
-      "coreVersion": "12.328",
-      "systemVersion": "6.1.1"
-    }
-  },
+  "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.8.5"
+    "systemVersion": "7.2.3",
+    "exportSource": {
+      "worldId": "data-entry",
+      "uuid": null,
+      "coreVersion": "12.328",
+      "systemId": "pf2e",
+      "systemVersion": "6.1.1"
+    }
   },
   "_id": "IHp2EZvBMcumn6Hf",
   "sort": 7600000,

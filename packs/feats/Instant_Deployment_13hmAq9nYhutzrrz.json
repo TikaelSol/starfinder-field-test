@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> You roll initiative.</p><hr /><p>You're always ready to unleash your exocortex. If you have a drone exocortex, your drone Strides. If you have a mine or turret exocortex, you can @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ccVcznj9KVYHLVaY]{Deploy Mine} or @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.1vWiNk1jbqCq4O16]{Deploy Turret}.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!13hmAq9nYhutzrrz"
 }

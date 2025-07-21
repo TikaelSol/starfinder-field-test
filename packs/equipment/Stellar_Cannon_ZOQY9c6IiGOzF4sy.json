@@ -10,15 +10,19 @@
     "rules": [],
     "slug": "stellar-cannon",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null
+      "version": 0.94,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
       "value": [
         "analog",
         "area-burst-10-ft",
-        "expend-1",
         "unwieldy"
       ],
       "rarity": "common"
@@ -85,13 +89,11 @@
       "damageType": "piercing",
       "persistent": null
     },
-    "bonusDamage": {
-      "value": 0
-    },
     "splashDamage": {
       "value": 0
     },
     "range": 50,
+    "expend": 1,
     "reload": {
       "value": "1"
     },
@@ -102,6 +104,9 @@
     },
     "specific": null,
     "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
     "property1": {
       "value": "",
       "dice": 0,
@@ -121,10 +126,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.1.2",
-    "coreVersion": "12.330",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": null
   },
   "_id": "ZOQY9c6IiGOzF4sy",
   "folder": "OoVQVkJhSjhIyN7a",

@@ -10,8 +10,13 @@
     "rules": [],
     "slug": "magazine-card-slinger",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null
+      "version": 0.94,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -87,9 +92,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.4.0"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "6SBMOr1uM8oMlg7y",
   "sort": 6200000,

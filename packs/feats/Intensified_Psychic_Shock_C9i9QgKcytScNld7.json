@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You focus your telepathic attacks further, broadcasting your psychic power with greater range and area. Your psychic shock unarmed attack gains the boost (1d4) trait. By spending 10 minutes in intense concentration, you can reconfigure your mind to apply one of the following benefits to your psychic shock. This benefit lasts until you reconfigure to another benefit.</p><ul><li><strong>Extended Shock:</strong> Increase the range increment of your psychic shock by 15 feet.</li><li><strong>Mind Crusher:</strong> Your psychic shock gains the fatal d8 trait.</li><li><strong>Peer Pressure:</strong> Your psychic shock gains the arc trait, but it deals mental damage rather than electricity damage.</li><li><strong>Psychic Wave:</strong> Your psychic shock gains the splash trait.</li></ul>",
@@ -151,9 +155,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "C9i9QgKcytScNld7",
   "_key": "!items!C9i9QgKcytScNld7"

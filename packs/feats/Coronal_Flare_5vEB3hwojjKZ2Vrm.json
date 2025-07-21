@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Ambient solar energy manifests in your attacks. You gain a solar strike unarmed attack that requires a free hand to use unless you have manifested energy wings. This is an agile, finesse, unarmed attack in the flame weapon group that deals @Damage[1d6[fire]] damage.</p>",
@@ -81,9 +85,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "5vEB3hwojjKZ2Vrm",
   "_key": "!items!5vEB3hwojjKZ2Vrm"

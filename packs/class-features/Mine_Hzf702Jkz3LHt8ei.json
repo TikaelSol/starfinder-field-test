@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>Your exocortex manages a network of mines. You can deploy these mines with the Deploy Mine action and activate them with the Detonate Mine action or reaction. Your mines are shielded and can't detonate from taking damage. The DC to Disable your mines is equal to your class DC. You can collect an adjacent, deployed, and undetonated mine as a single action, storing it alongside your other prepared mines in your custom rig.</p><p>During your daily preparations, you can create a number of mines up to 2 + your Intelligence modifier, which is also your maximum number of mines. If you're below your maximum number, you can craft new mines using your custom rig. For every 10 minutes you spend in exploration mode, you regain 2 mines; this doesn't prevent you from participating in other exploration activities. You can store all your mines in your custom rig, with no increase to its Bulk.</p><p>Though your mines are physical objects, they are destroyed if not used by the next time you make your daily preparations. They can't be duplicated or preserved in any way.</p>",
@@ -67,9 +71,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "Hzf702Jkz3LHt8ei",
   "sort": 400000,

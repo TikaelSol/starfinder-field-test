@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You're capable of surviving for a limited time in the void of space, suspending your respiration and shielding your body from its dangerous environmental effects. Whenever you enter a vacuum, you temporarily gain the cosmic trait. You have this trait for as long as you remain in a vacuum, up to a maximum of 1 hour. Creatures with the cosmic trait don't need to breathe while in space or a vacuum and are immune to the harmful environmental effects of being in space.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "f7JSHr8RVbebi9Cx",
   "_key": "!items!f7JSHr8RVbebi9Cx"

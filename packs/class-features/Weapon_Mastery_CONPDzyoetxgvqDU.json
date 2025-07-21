@@ -9,9 +9,12 @@
     "rules": [],
     "slug": "weapon-mastery",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "traits": {
       "otherTags": [],
@@ -43,29 +46,33 @@
     "subfeatures": {
       "proficiencies": {
         "martial": {
-          "rank": 3
+          "rank": 3,
+          "attribute": null
         },
         "simple": {
-          "rank": 3
+          "rank": 3,
+          "attribute": null
         },
         "unarmed": {
-          "rank": 3
+          "rank": 3,
+          "attribute": null
         }
-      }
+      },
+      "senses": {},
+      "suppressedFeatures": []
     }
   },
   "type": "feat",
   "_stats": {
     "compendiumSource": "Compendium.pf2e.classfeatures.Item.i6563IU7x4L9oRgC",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.1.2"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "flags": {
-    "core": {
-      "sourceId": "Compendium.pf2e.classfeatures.Item.i6563IU7x4L9oRgC"
-    }
+    "core": {}
   },
   "effects": [],
   "folder": null,

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You have a mystical connection to the powerful currents of Kalo-Mahoi and their interactions with the blooms, and you've learned to call upon them to wash powerful outsiders away through portals between planes. You gain @UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW]{Banishment} as an 8th-rank primal innate spell that you can cast once per day. You can cast the spell targeting up to 10 willing creatures, who treat the results of their Will save as two degrees of success lower.</p>",
@@ -83,9 +87,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "W5wOmOJ5Y242UFNT",
   "_key": "!items!W5wOmOJ5Y242UFNT"

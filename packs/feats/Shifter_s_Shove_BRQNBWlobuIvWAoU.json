@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You use the explosive momentum of shifting to help push a creature away from you. Change Shape into a larger size and @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}. You gain a circumstance bonus to your Athletics check to Shove equal to the number of steps between your sizes when you Change Shape (+1 if you are one size larger, +2 if you are two sizes larger, and so on).</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "BRQNBWlobuIvWAoU",
   "_key": "!items!BRQNBWlobuIvWAoU"

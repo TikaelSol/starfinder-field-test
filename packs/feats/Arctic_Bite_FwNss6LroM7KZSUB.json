@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>The freezing power of your bite becomes irresistible. The cold damage dealt by your jaws Strike increases to @Damage[2d6[untyped]] damage and ignores an amount of the target's cold resistance equal to your level. A creature's immunities are unaffected.</p>",
@@ -89,9 +93,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "FwNss6LroM7KZSUB",
   "_key": "!items!FwNss6LroM7KZSUB"

@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Requirements</strong> A creature within 30 feet has the frightened condition.</p><hr /><p>You snarl ferociously at a creature within 30 feet, menacing them with bared teeth. Increase the value of the target's frightened condition by 1. The target then becomes temporarily immune to your Menacing Snarl for 24 hours.</p><p>As long as the target is frightened, you gain a +1 circumstance bonus to melee Strikes against that creature, and damage dealt to the creature by your melee Strikes deals an additional @Damage[1[mental]] damage per damage die.</p>",
@@ -92,9 +96,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "eRn7kFIHTMCl5y6g",
   "_key": "!items!eRn7kFIHTMCl5y6g"

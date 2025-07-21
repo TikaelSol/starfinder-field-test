@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You descend from a remote tribe in Kalo-Mahoi's photic zone that developed a bioelectric defense against predators, perhaps due to the influence of a bloom or because of an ancient diet of electric rays. You can cast the @UUID[Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf] cantrip as a primal innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. If you cast this spell with only 1 target, you gain electricity resistance equal to half your level (minimum 1) until the end of your next turn.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.xQvyfiOh05xK2A5A]{Effect: Electric Kalo}</p>",
@@ -82,9 +86,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "ZAOKze0PTYPPbUua",
   "_key": "!items!ZAOKze0PTYPPbUua"

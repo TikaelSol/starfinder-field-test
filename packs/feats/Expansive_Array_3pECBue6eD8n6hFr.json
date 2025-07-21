@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You design additional custom arrays for your turret. Select two of the following arrays. Add the selected arrays to your list of available arrays.</p><ul><li>2d8 mental damage, range increment 60 feet, tech trait, mental weapon group</li><li>2d8 poison damage, range increment 60 feet, tech trait, dart weapon group</li><li>2d8 vitality damage, range increment 60 feet, tech trait, laser weapon group</li><li>2d8 void damage, range increment 60 feet, tech trait, void weapon group</li></ul><hr /><p><strong>Special</strong> You can take this feat a second time. When you do, you must select different arrays.</p>",
@@ -379,9 +383,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "7.2.1",
+    "systemVersion": "7.2.3",
     "exportSource": null
   },
   "_key": "!items!3pECBue6eD8n6hFr"

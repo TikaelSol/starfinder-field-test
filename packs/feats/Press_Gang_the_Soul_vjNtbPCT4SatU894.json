@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> You reduce an enemy to 0 Hit Points with a phase cutlass.</p><hr /><p>Your phase cutlass steals some of the enemy's vitality, press-ganging it into eternal servitude. As long as you are wielding a @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.vq4W4iN2SBH44gJW]{Phase Cutlass} with stolen vitality, you can cast @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.ahrdUKm1HXw7EyFw]{Wisp Ally} as a divine innate spell at will, heightened to a spell rank equal to half your level. You can only have active wisps up to the number of enemies you've press-ganged with your void cutlass. The first time each round you Strike with your phase cutlass, you immediately gain the effects of the Sustain a Spell action, which you can use only to extend the duration of and control a <em>wisp ally</em> spell cast using that phase cutlass.</p>",
@@ -66,9 +70,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!vjNtbPCT4SatU894"
 }

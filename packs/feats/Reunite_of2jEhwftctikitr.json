@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Requirements</strong> You and your bonded partner are on the same planet. </p><hr /><p>With a centering breath, you fill your mind with thoughts of your bonded partner and will yourself to their side. You teleport into an unoccupied space of your choice adjacent to your bonded partner. If there is no adjacent space available, you teleport into the closest unoccupied space.</p>",
@@ -68,9 +72,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "of2jEhwftctikitr",
   "_key": "!items!of2jEhwftctikitr"

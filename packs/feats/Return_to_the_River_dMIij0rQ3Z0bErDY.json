@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You have a soul-deep connection to the River Between. When you're in mortal peril, the River Between beckons you home and into its embrace. When you would die, you don't. Instead, you are encased in a cocoon of golden solar energy and disappear, teleporting across the galaxy to the River Between. [[/gmr 2d6 #days]]{2d6 days} later, this chrysalis hatches, and you emerge fully healed in a random location along the River Between in the Diaspora.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "dMIij0rQ3Z0bErDY",
   "_key": "!items!dMIij0rQ3Z0bErDY"

@@ -49,7 +49,8 @@
     "equipped": {
       "carryType": "worn",
       "invested": null,
-      "handsHeld": 0
+      "handsHeld": 0,
+      "inSlot": false
     },
     "containerId": null,
     "size": "med",
@@ -127,9 +128,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "7.2.0"
+    "systemVersion": "7.2.3"
   },
   "_id": "88rxNOd1iuR9IR9o",
   "sort": 0,

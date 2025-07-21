@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p>You have a knack for mentoring others. Whenever you successfully Aid an ally, you increase the circumstance bonus that you would grant them by +1, or by +2 on a critical success. Whenever an ally @UUID[Compendium.pf2e.actionspf2e.Item.tfa4Sh7wcxCEqL29]{Follows the Expert}, and the expert they choose to follow is you, the circumstance bonus they gain to their skill check based on your proficiency is increased by +1.</p>",
@@ -60,9 +64,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.343",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "4t81Su8o58GUoYtJ",
   "_key": "!items!4t81Su8o58GUoYtJ"

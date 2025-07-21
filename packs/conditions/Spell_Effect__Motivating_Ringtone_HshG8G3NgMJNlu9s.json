@@ -27,12 +27,11 @@
     ],
     "slug": "spell-effect-motivating-ringtone",
     "_migration": {
-      "version": 0.932,
-      "lastMigration": null,
+      "version": 0.94,
       "previous": {
-        "schema": 0.872,
-        "foundry": "12.328",
-        "system": "6.1.1"
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
       }
     },
     "traits": {
@@ -63,35 +62,27 @@
     },
     "badge": null,
     "context": null,
-    "schema": {
-      "version": 0.87,
-      "lastMigration": {
-        "version": {
-          "schema": null,
-          "foundry": "11.313",
-          "system": "5.6.2"
-        }
-      }
-    },
-    "unidentified": false
+    "unidentified": false,
+    "fromSpell": false
   },
   "_id": "HshG8G3NgMJNlu9s",
   "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
   "flags": {
-    "core": {},
-    "exportSource": {
-      "world": "starfinder-2e",
-      "system": "pf2e",
-      "coreVersion": "11.313",
-      "systemVersion": "5.6.2"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "6.6.2",
-    "coreVersion": "12.343",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
     "compendiumSource": null,
-    "duplicateSource": null
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "starfinder-2e",
+      "uuid": null,
+      "coreVersion": "11.313",
+      "systemId": "pf2e",
+      "systemVersion": "5.6.2"
+    }
   },
   "sort": 9400000,
   "ownership": {

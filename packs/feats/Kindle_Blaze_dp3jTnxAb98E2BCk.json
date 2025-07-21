@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> You take fire damage.</p><hr /><p>Be they solar rays or blazing flames, light and heat are a part of you. For 1 minute, you glow from within, shedding bright light in a 30-foot radius (and dim light to the next 30 feet). While you glow in this way, your body is flush with warmth—you treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on). You also gain a +1 circumstance bonus to saves against attacks, spells, and other effects that have the cold trait.</p>",
@@ -67,9 +71,10 @@
   "_stats": {
     "compendiumSource": "Item.FwNss6LroM7KZSUB",
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.12.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_id": "dp3jTnxAb98E2BCk",
   "_key": "!items!dp3jTnxAb98E2BCk"

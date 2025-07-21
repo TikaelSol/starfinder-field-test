@@ -5,8 +5,12 @@
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.935,
-      "previous": null
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
     },
     "description": {
       "value": "<p><strong>Trigger</strong> Your turn begins.</p><hr /><p> You fuse magic scripts available on the infosphere with your custom spell code, granting you access to spellshapes you don't normally know. Until the end of your turn, you gain a single spellshape feat from the technomancer class that has a level requirement of no more than half your level. You cannot apply the jailbreak benefit of that spellshape feat.</p><p></p>",
@@ -64,9 +68,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "7.2.3",
+    "exportSource": null
   },
   "_key": "!items!pUd3daPrihr4t6mO"
 }
