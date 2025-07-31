@@ -25,7 +25,7 @@ for (const pack of packFolders) {
 console.log("Build Packs Finished");
 
 // Copy files and folders to output
-const files = ["art", "assets", "fonts", "lang", "scripts", "styles", "templates", "module.json", "ORCLicense.md"];
+const files = ["art", "assets", "fonts", "lang", "scripts", "styles", "module.json", "ORCLicense.md"];
 for (const file of files) {
     await fs.cp(file, path.resolve(outDir, file), { recursive: true });
 }
