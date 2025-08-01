@@ -19,6 +19,17 @@
                     "minimum": "7.2.3"
                 }
             }
+        ],
+        "modules": [
+            {
+                "id": "sf2e-anachronism",
+                "type": "module",
+                "manifest": "https://github.com/TikaelSol/sf2e-anachronism/releases/latest/download/module.json",
+                "compatibility": {
+                    "minimum": "0.8",
+                    "verified": "0.8"
+                }
+            }
         ]
     },
     "description": "A module to implement the Starfinder 2nd Edition Playtest in the Pathfinder 2nd edition system for Foundry VTT.",
