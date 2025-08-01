@@ -1,7 +1,7 @@
 {
   "name": "Mechanic",
   "sorting": "a",
-  "folder": null,
+  "folder": "Bbq8imI8wv9BbfEJ",
   "type": "Item",
   "_id": "WVaOnnM64aLQG2Dx",
   "description": "",
@@ -11,9 +11,10 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "12.331",
+    "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "6.11.1"
+    "systemVersion": "6.11.1",
+    "exportSource": null
   },
   "_key": "!folders!WVaOnnM64aLQG2Dx"
 }
