@@ -21,7 +21,9 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "free-hand"
+      ],
       "rarity": "common"
     },
     "publication": {
@@ -72,7 +74,7 @@
       "misidentified": {}
     },
     "usage": {
-      "value": "worngloves"
+      "value": "held-in-one-hand"
     },
     "category": "martial",
     "group": "projectile",
@@ -130,7 +132,7 @@
     "exportSource": null,
     "coreVersion": "13.346",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.3.0"
   },
   "_id": "88rxNOd1iuR9IR9o",
   "sort": 0,
