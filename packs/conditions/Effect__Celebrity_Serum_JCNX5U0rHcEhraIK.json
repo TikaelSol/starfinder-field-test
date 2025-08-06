@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.YEuvWZhtsvTqJJo1]{Celebrity Serum}</p><p>You gain a +1 item bonus to Performance checks.</p>"
+      "value": "<p>Granted by @UUID[Compendium.sf2e-anachronism.equipment.Item.JgVv4m4sh9faVSDD]{Celebrity Serum}</p><p>You gain a +1 item bonus to Performance checks.</p>"
     },
     "rules": [],
     "slug": "effect-celebrity-serum",

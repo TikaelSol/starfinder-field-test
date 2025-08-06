@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.epPPWPTc4W7EfUf2]{Medpatch (Commercial)}, @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.acDATgrAmxjhfEFB]{Medpatch (Tactical)}, @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.ROnqVxG1z9wm6CBA]{Medpatch (Advanced)}, @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.DcTKWLfdYTL43Ks5]{Medpatch (Superior)}, @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.PkvcfbTHVMLlz2UO]{Medpatch (Elite)}, @UUID[Compendium.starfinder-field-test-for-pf2e.equipment.Item.KCH0gSUZwQtMLu9G]{Medpatch (Ultimate)}</p><p>You gain an item bonus against disease and poisons.</p>"
+      "value": "<p>Granted by @UUID[Compendium.sf2e-anachronism.equipment.Item.B0FiYMxy7iDiHh48]{Medpatch (Commercial)}, @UUID[Compendium.sf2e-anachronism.equipment.Item.HWHdAQArhRauTpm6]{Medpatch (Tactical)}, @UUID[Compendium.sf2e-anachronism.equipment.Item.55nSLw1aQ0K0rK2L]{Medpatch (Advanced)}, @UUID[Compendium.sf2e-anachronism.equipment.Item.6VDHl7xkSp8Sc8yy]{Medpatch (Superior)}, @UUID[Compendium.sf2e-anachronism.equipment.Item.KFjPEG7kw733splu]{Medpatch (Elite)}, @UUID[Compendium.sf2e-anachronism.equipment.Item.dJyYifMFfgbIwT3c]{Medpatch (Ultimate)}</p><p>You gain an item bonus against disease and poisons.</p>"
     },
     "rules": [
       {
@@ -22,7 +22,7 @@
                 ]
               }
             ],
-            "value": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.epPPWPTc4W7EfUf2"
+            "value": "Compendium.sf2e-anachronism.equipment.Item.B0FiYMxy7iDiHh48"
           },
           {
             "predicate": [
@@ -35,7 +35,7 @@
                 ]
               }
             ],
-            "value": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.acDATgrAmxjhfEFB"
+            "value": "Compendium.sf2e-anachronism.equipment.Item.HWHdAQArhRauTpm6"
           },
           {
             "predicate": [
@@ -48,7 +48,7 @@
                 ]
               }
             ],
-            "value": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.ROnqVxG1z9wm6CBA"
+            "value": "Compendium.sf2e-anachronism.equipment.Item.55nSLw1aQ0K0rK2L"
           },
           {
             "predicate": [
@@ -61,7 +61,7 @@
                 ]
               }
             ],
-            "value": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.DcTKWLfdYTL43Ks5"
+            "value": "Compendium.sf2e-anachronism.equipment.Item.6VDHl7xkSp8Sc8yy"
           },
           {
             "predicate": [
@@ -74,7 +74,7 @@
                 ]
               }
             ],
-            "value": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.PkvcfbTHVMLlz2UO"
+            "value": "Compendium.sf2e-anachronism.equipment.Item.KFjPEG7kw733splu"
           },
           {
             "predicate": [
@@ -87,7 +87,7 @@
                 ]
               }
             ],
-            "value": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.KCH0gSUZwQtMLu9G"
+            "value": "Compendium.sf2e-anachronism.equipment.Item.dJyYifMFfgbIwT3c"
           }
         ],
         "key": "ChoiceSet",

@@ -1061,7 +1061,7 @@
           "value": "reaction"
         },
         "description": {
-          "value": "<p><strong>Frequency</strong> once per year</p><p><strong>Trigger</strong> The Sihedron Guard specialist is reduced to 0 Hit Points, but not from an effect that leaves no remains (like @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.UAZ7jBf2zqR1CCe9])</p><hr /><p><strong>Effect</strong> The Sihedron Guard specialist restores @Damage[5d8[healing]] Hit Points and doesn't fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} or drop their equipment.</p>",
+          "value": "<p><strong>Frequency</strong> once per year</p><p><strong>Trigger</strong> The Sihedron Guard specialist is reduced to 0 Hit Points, but not from an effect that leaves no remains (like @UUID[Compendium.sf2e-anachronism.spells.Item.xS4bqHnbodCwjpqI])</p><hr /><p><strong>Effect</strong> The Sihedron Guard specialist restores @Damage[5d8[healing]] Hit Points and doesn't fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} or drop their equipment.</p>",
           "gm": ""
         },
         "publication": {
@@ -1471,7 +1471,7 @@
       "img": "icons/magic/water/beam-ice-impact.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.UAZ7jBf2zqR1CCe9",
+        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.xS4bqHnbodCwjpqI",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "pf2e",
@@ -1893,7 +1893,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.ygjHoKJSmAViJHJq",
+        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.GB1RVtoFPwyH1B9G",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "pf2e",
@@ -1978,7 +1978,7 @@
       "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.naP8amjLGSEARe9V",
+        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.SbBqa1HStMrV47fb",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "pf2e",

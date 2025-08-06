@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.hXcgSVdVJcA5cqnh]{Steel Yourselves!}</p><p>You gain Temporary Hit Points equal to the origin's Charisma modifier + half their level</p><p><strong>Lead by Example</strong> If you spend an action to Brace For Impact before the end of your turn, you and any ally who Braces for Impact before the start of your next turn also gain a +1 status bonus to saving throws against effects that deal damage.</p>"
+      "value": "<p>Granted by @UUID[Compendium.sf2e-anachronism.actions.Item.gZr207z8Q7AuH2RT]{Steel Yourselves!}</p><p>You gain Temporary Hit Points equal to the origin's Charisma modifier + half their level</p><p><strong>Lead by Example</strong> If you spend an action to Brace For Impact before the end of your turn, you and any ally who Braces for Impact before the start of your next turn also gain a +1 status bonus to saving throws against effects that deal damage.</p>"
     },
     "rules": [
       {

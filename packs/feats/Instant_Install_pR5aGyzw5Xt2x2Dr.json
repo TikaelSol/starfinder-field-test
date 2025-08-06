@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You've worked a few shortcuts into your custom rig, enabling you to install and uninstall upgrades swiftly. If you use your custom rig to @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.d4vJxq49lUb7fGXq]{Install Upgrade}, rather than a repair toolkit, you can Install Upgrade as a single action.</p>",
+      "value": "<p>You've worked a few shortcuts into your custom rig, enabling you to install and uninstall upgrades swiftly. If you use your custom rig to @UUID[Compendium.sf2e-anachronism.actions.Item.d4vJxq49lUb7fGXq]{Install Upgrade}, rather than a repair toolkit, you can Install Upgrade as a single action.</p>",
       "gm": ""
     },
     "publication": {

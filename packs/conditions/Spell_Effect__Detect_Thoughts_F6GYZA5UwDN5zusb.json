@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.tFsq726ZjUDAzML0]{Detect Thoughts}</p><p>You gain a +1 status bonus to Perception to Sense the target's Motives while the spell is sustained. A target who succeeds at its Will save prevents this.</p>"
+      "value": "<p>Granted by @UUID[Compendium.sf2e-anachronism.spells.Item.qOLMHvkAGsVYLhtn]{Detect Thoughts}</p><p>You gain a +1 status bonus to Perception to Sense the target's Motives while the spell is sustained. A target who succeeds at its Will save prevents this.</p>"
     },
     "rules": [
       {
