@@ -62,7 +62,7 @@
   },
   "_id": "D8fFdSKiKkog4ZHu",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20mechanical%20arm.webp",
-  "sort": 1100000,
+  "sort": 1600000,
   "ownership": {
     "default": 0,
     "qObU1d4eWFf9XwnO": 3
@@ -71,7 +71,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

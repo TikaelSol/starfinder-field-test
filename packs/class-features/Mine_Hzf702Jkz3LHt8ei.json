@@ -71,12 +71,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null
   },
   "_id": "Hzf702Jkz3LHt8ei",
-  "sort": 400000,
+  "sort": 900000,
   "_key": "!items!Hzf702Jkz3LHt8ei"
 }

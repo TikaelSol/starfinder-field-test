@@ -1,20 +1,19 @@
 {
-  "folder": "LhdfGVgPMQncD5yl",
-  "name": "Instant Mods",
+  "name": "Greater Weapon Specialization",
   "type": "feat",
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.94,
+      "version": 0.942,
       "previous": {
         "schema": 0.935,
-        "foundry": "13.346",
-        "system": "7.2.3"
+        "foundry": "13.347",
+        "system": "7.3.1"
       }
     },
     "description": {
-      "value": "<p>You can customize objects on the fly with barely a thought. You can Modify as a free action, rather than a single action.</p>",
-      "gm": ""
+      "gm": "",
+      "value": "<p>Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary.</p>"
     },
     "publication": {
       "title": "Starfinder Tech Class Playtest",
@@ -22,8 +21,17 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
-    "slug": "instant-mods",
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "mode": "multiply",
+        "relabel": "PF2E.GreaterWeaponSpecialization",
+        "selector": "strike-damage",
+        "slug": "weapon-specialization",
+        "value": 2
+      }
+    ],
+    "slug": "greater-weapon-specialization",
     "traits": {
       "otherTags": [],
       "value": [
@@ -32,7 +40,7 @@
       "rarity": "common"
     },
     "level": {
-      "value": 19
+      "value": 15
     },
     "category": "classfeature",
     "onlyLevel1": false,
@@ -53,21 +61,24 @@
     },
     "location": null
   },
-  "_id": "60qDEQYnu5hGFggp",
-  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/blue%20gizmo%20small.webp",
-  "sort": 1200000,
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "folder": "LhdfGVgPMQncD5yl",
   "ownership": {
     "default": 0,
-    "qObU1d4eWFf9XwnO": 3
+    "BN4nshl76HGKk3ro": 3
   },
-  "flags": {},
+  "flags": {
+    "core": {}
+  },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
+    "exportSource": null,
     "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3",
-    "exportSource": null
+    "systemVersion": "7.3.1"
   },
-  "_key": "!items!60qDEQYnu5hGFggp"
+  "_id": "6mAwHVmKY8TbtwsH",
+  "sort": 500000,
+  "_key": "!items!6mAwHVmKY8TbtwsH"
 }

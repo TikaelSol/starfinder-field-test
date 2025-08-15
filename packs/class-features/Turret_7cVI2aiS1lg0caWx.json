@@ -388,12 +388,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null
   },
   "_id": "7cVI2aiS1lg0caWx",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!items!7cVI2aiS1lg0caWx"
 }

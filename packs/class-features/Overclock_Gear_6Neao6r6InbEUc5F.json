@@ -31,7 +31,9 @@
     "slug": "overclock-gear",
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "technomancer"
+      ],
       "rarity": "common"
     },
     "level": {
@@ -58,7 +60,7 @@
   },
   "_id": "6Neao6r6InbEUc5F",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/cerulean%20circular%20sign.webp",
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "eUnac0oMbpEwem24": 3
@@ -67,9 +69,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3",
+    "systemVersion": "7.3.1",
     "exportSource": null
   },
   "_key": "!items!6Neao6r6InbEUc5F"

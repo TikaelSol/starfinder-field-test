@@ -26,7 +26,9 @@
     "slug": "defensive-measures",
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "technomancer"
+      ],
       "rarity": "common"
     },
     "level": {
@@ -58,7 +60,7 @@
   },
   "_id": "qBaMvVfnChlHHkHr",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20ancient%20armor.webp",
-  "sort": 0,
+  "sort": 1100000,
   "ownership": {
     "default": 0,
     "eUnac0oMbpEwem24": 3
@@ -67,9 +69,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3",
+    "systemVersion": "7.3.1",
     "exportSource": null
   },
   "_key": "!items!qBaMvVfnChlHHkHr"

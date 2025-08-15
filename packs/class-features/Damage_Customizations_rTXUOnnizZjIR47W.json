@@ -55,7 +55,7 @@
   },
   "_id": "rTXUOnnizZjIR47W",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20fist%20in%20the%20air.webp",
-  "sort": 1700000,
+  "sort": 2200000,
   "ownership": {
     "default": 0,
     "qObU1d4eWFf9XwnO": 3
@@ -64,7 +64,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null
