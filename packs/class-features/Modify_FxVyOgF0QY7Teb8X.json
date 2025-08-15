@@ -65,12 +65,12 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null
   },
   "_id": "FxVyOgF0QY7Teb8X",
-  "sort": 300000,
+  "sort": 800000,
   "_key": "!items!FxVyOgF0QY7Teb8X"
 }

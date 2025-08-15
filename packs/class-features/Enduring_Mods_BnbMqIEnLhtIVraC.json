@@ -53,7 +53,7 @@
   },
   "_id": "BnbMqIEnLhtIVraC",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/flexible%20circuit.webp",
-  "sort": 1000000,
+  "sort": 1500000,
   "ownership": {
     "default": 0,
     "qObU1d4eWFf9XwnO": 3
@@ -62,7 +62,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

@@ -52,29 +52,11 @@
         "name": "Jailbreak Spell",
         "level": 1
       },
-      "DnrpM": {
-        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.7MO6nSfr37iQKhZg",
-        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
-        "name": "Reflex Expertise",
-        "level": 5
-      },
-      "r1KmS": {
-        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.Og2I66ZrLKX6qLeE",
-        "img": "icons/sundries/books/book-backed-silver-gold.webp",
-        "name": "Expert Spellcaster",
-        "level": 7
-      },
       "OvpbA": {
         "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.SsgKClXrept6iOxE",
         "img": "systems/pf2e/icons/features/classes/magical-fortitude.webp",
         "name": "Magical Fortitude",
         "level": 9
-      },
-      "gJuqy": {
-        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.fyh1OjLRt3g9wUhW",
-        "img": "icons/creatures/eyes/human-single-blue.webp",
-        "name": "Perception Expertise",
-        "level": 11
       },
       "HvOFd": {
         "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.qBaMvVfnChlHHkHr",
@@ -94,12 +76,6 @@
         "name": "Weapon Expertise",
         "level": 11
       },
-      "LPbow": {
-        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.b1F4hLZ3AOCDpFlW",
-        "img": "icons/skills/trades/academics-book-study-purple.webp",
-        "name": "Master Spellcaster",
-        "level": 15
-      },
       "0Ae64": {
         "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.2LssJ7QH1IaGTIje",
         "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
@@ -110,12 +86,6 @@
         "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.NbkWZuYD74QclaHK",
         "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/crown%20insignia.webp",
         "name": "Administrator Privileges",
-        "level": 19
-      },
-      "UJrJY": {
-        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.mKEBgNc69U5X4ZcQ",
-        "img": "icons/sundries/books/book-open-purple.webp",
-        "name": "Legendary Spellcaster",
         "level": 19
       },
       "UpRgh": {
@@ -129,6 +99,36 @@
         "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20circle%20emblem.webp",
         "name": "Spell Cache",
         "level": 1
+      },
+      "cHvce": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.0RjHj4SbUriPz6SV",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Reflex Expertise",
+        "level": 5
+      },
+      "EKUEY": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.Sa16cGurWHcBhrCy",
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "name": "Expert Spellcaster",
+        "level": 7
+      },
+      "DoQNq": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.OyBLrOBDtfkm8Dsd",
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "name": "Perception Expertise",
+        "level": 11
+      },
+      "lSlPY": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.OD4IqS0EzXVvwLwj",
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "name": "Master Spellcaster",
+        "level": 15
+      },
+      "ruB2f": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.gGCCRsY0leWTCmJW",
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "name": "Legendary Spellcaster",
+        "level": 19
       }
     },
     "hp": 6,
@@ -234,9 +234,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3",
+    "systemVersion": "7.3.1",
     "exportSource": null
   },
   "_key": "!items!YNtABUYj2Vsm2xEa"

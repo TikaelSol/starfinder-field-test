@@ -45,7 +45,8 @@
             "ModularArcOrNonlethal": "Modular (Arc or Nonlethal)",
             "ModularCOrF": "Modular (C or F)",
             "ModularCOrVoid": "Modular (C or Void)",
-            "ModularSOrVoid": "Modular (S or Void)"
+            "ModularSOrVoid": "Modular (S or Void)",
+            "Technomancer": "Technomancer"
         }
     }
 }

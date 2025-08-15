@@ -55,7 +55,7 @@
   },
   "_id": "65ydOPj7iZX0FR4T",
   "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/cosmic%20eye.webp",
-  "sort": 800000,
+  "sort": 1300000,
   "ownership": {
     "default": 0,
     "qObU1d4eWFf9XwnO": 3
@@ -64,7 +64,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.347",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null
