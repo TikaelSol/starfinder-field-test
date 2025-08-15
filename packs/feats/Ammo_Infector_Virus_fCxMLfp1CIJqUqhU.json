@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You quickly program a worm into your ammo to infect tech worn by your target. Strike with a ranged weapon. If your Strike hits, you can attempt to @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.V0nHjdYpGGit2Eyk]{Combat Hack} the creature or an item the creature is holding or wielding.</p>",
+      "value": "<p>You quickly program a worm into your ammo to infect tech worn by your target. Strike with a ranged weapon. If your Strike hits, you can attempt to @UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]{Combat Hack} the creature or an item the creature is holding or wielding.</p>",
       "gm": ""
     },
     "publication": {

@@ -5,12 +5,12 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You're in a zero gravity (or similar) environment without a means of movement and float without support. You can't take move actions unless they specify they can be used in your current environment. At the end of your turn, you move 5 feet in the last direction you moved. You can take the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.FF5KgZHj345s2moq]{Push Off} action to change directions and the distance moved. Once you gain a means of moving in your environment, you lose this condition. Typically, a creature with the untethered condition in zero-g also gains the @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} conditions while untethered.</p>"
+      "value": "<p>You're in a zero gravity (or similar) environment without a means of movement and float without support. You can't take move actions unless they specify they can be used in your current environment. At the end of your turn, you move 5 feet in the last direction you moved. You can take the @UUID[Compendium.sf2e-anachronism.actions.Item.FF5KgZHj345s2moq]{Push Off} action to change directions and the distance moved. Once you gain a means of moving in your environment, you lose this condition. Typically, a creature with the untethered condition in zero-g also gains the @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} conditions while untethered.</p>"
     },
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.FF5KgZHj345s2moq"
+        "uuid": "Compendium.sf2e-anachronism.actions.Item.FF5KgZHj345s2moq"
       }
     ],
     "slug": "untethered",

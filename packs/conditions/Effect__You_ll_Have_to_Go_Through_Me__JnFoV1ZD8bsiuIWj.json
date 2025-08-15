@@ -6,12 +6,12 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.yBkdtiLtKv0yYU8L]{Living Shield} reaction.</p>"
+      "value": "<p>You gain the @UUID[Compendium.sf2e-anachronism.feats.Item.M8kAxAXWRRWMRTzT]{Living Shield} reaction.</p>"
     },
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.yBkdtiLtKv0yYU8L"
+        "uuid": "Compendium.sf2e-anachronism.feats.Item.M8kAxAXWRRWMRTzT"
       }
     ],
     "slug": "effect-youll-have-to-go-through-me",
