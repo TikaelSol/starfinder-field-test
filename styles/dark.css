@@ -427,20 +427,10 @@
                         color: var(--c-primary);
                     }
                 }
-                /* .shield-stats {
-          float: right;
-          position: relative;
-          bottom: 0;
-        }
-        .shield-max-status {
-          float: right;
-          position: relative;
-          top: 0;
-        } */
             }
         }
 
-        img.logo {
+        div.logo {
             display: none;
         }
     }
