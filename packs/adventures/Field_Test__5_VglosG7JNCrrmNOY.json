@@ -6865,7 +6865,7 @@
         }
       },
       "foreground": "modules/starfinder-field-test-for-pf2e/art/maps/data_center_200px_foreground.webp",
-      "thumb": "worlds/data/assets/scenes/Vi6GdEr0qPT6yyq3-thumb.webp",
+      "thumb": "modules/starfinder-field-test-for-pf2e/art/thumbs/data-center.webp",
       "weather": "",
       "environment": {
         "globalLight": {
@@ -9125,7 +9125,7 @@
         }
       },
       "foreground": "modules/starfinder-field-test-for-pf2e/art/maps/shopping_mall_200px_foreground.webp",
-      "thumb": "worlds/data/assets/scenes/G6Bv3mD6CoRu62Jd-thumb.webp",
+      "thumb": "modules/starfinder-field-test-for-pf2e/art/thumbs/shopping-mall.webp",
       "weather": "",
       "environment": {
         "globalLight": {
