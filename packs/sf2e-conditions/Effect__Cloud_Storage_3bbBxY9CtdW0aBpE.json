@@ -1,0 +1,79 @@
+{
+  "folder": null,
+  "name": "Effect: Cloud Storage",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Tracks your currently available memory bank</p>"
+    },
+    "rules": [
+      {
+        "itemType": "effect",
+        "key": "ItemAlteration",
+        "mode": "downgrade",
+        "property": "badge-max",
+        "value": "2*@actor.level"
+      }
+    ],
+    "slug": "effect-cloud-storage",
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "3bbBxY9CtdW0aBpE",
+  "sort": 8300000,
+  "_key": "!items!3bbBxY9CtdW0aBpE"
+}

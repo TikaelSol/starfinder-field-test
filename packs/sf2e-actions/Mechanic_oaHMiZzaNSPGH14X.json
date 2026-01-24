@@ -1,0 +1,19 @@
+{
+  "name": "Mechanic",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "oaHMiZzaNSPGH14X",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "sf2e",
+    "systemVersion": "6.11.1"
+  },
+  "_key": "!folders!oaHMiZzaNSPGH14X"
+}

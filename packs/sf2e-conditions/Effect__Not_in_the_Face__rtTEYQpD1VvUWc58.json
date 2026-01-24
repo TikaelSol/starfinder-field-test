@@ -1,0 +1,100 @@
+{
+  "name": "Effect: Not in the Face!",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The creature takes a circumstance penalty to attack and damage rolls against you.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.Check.Result.Degree.Check.criticalSuccess",
+            "value": -2
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.success",
+            "value": -1
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.failure",
+            "value": -1
+          }
+        ],
+        "prompt": "PF2E.SpecificRule.Prompt.DegreeOfSuccess",
+        "key": "ChoiceSet",
+        "flag": "modifier"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack",
+          "damage"
+        ],
+        "value": "@item.flags.sf2e.rulesSelections.modifier",
+        "type": "circumstance"
+      }
+    ],
+    "slug": "effect-not-in-the-face",
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/white%20flag%20of%20surrender.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "exportSource": null
+  },
+  "_id": "rtTEYQpD1VvUWc58",
+  "sort": 5700000,
+  "_key": "!items!rtTEYQpD1VvUWc58"
+}

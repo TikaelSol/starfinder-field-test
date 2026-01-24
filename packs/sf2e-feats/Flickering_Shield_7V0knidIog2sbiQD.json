@@ -1,0 +1,73 @@
+{
+  "folder": "WVaOnnM64aLQG2Dx",
+  "name": "Flickering Shield",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "description": {
+      "value": "<p>You learn how to install a rudimentary shield that temporarily blocks damage. You gain the following new mod.</p><p><strong>Flickering Shield (armor):</strong> The item produces a temporary shield that protects its wearer from harm. The creature wearing the modded armor gains temporary Hit Points equal to 5 + your Intelligence modifier and regains Hit Points equal to your Intelligence modifier for every round the shield is active. The flickering shield lasts for 1 minute or until dismissed. The modded item or exocortex then becomes temporarily immune to your flickering shield mod for 10 minutes.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "flickering-shield",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mechanic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "7V0knidIog2sbiQD",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "exportSource": null
+  },
+  "_key": "!items!7V0knidIog2sbiQD"
+}

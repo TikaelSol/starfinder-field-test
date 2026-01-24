@@ -1,0 +1,181 @@
+{
+  "folder": "5KwLUOxsnskzKUfv",
+  "name": "Maneuver Module",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.939,
+        "foundry": "13.345",
+        "system": "7.1.1"
+      }
+    },
+    "description": {
+      "value": "<p>Your robot companion gains a +1 circumstance bonus to two of the following actions of your choice: @UUID[Compendium.sf2e.actions.Item.Dt6B1slsBy8ipJu9]{Disarm}, @UUID[Compendium.sf2e.actions.Item.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.sf2e.actions.Item.lOE4yjUnETTdaf2T]{Reposition}, @UUID[Compendium.sf2e.actions.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.sf2e.actions.Item.ge56Lu1xXVFYUnLP]{Trip}. If your robot companion is superior, this bonus increases to +2. You can select this customization more than once, selecting different actions each time.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "PF2E.Actions.Disarm.Title",
+            "value": "disarm"
+          },
+          {
+            "label": "PF2E.Actions.Grapple.Title",
+            "value": "grapple"
+          },
+          {
+            "label": "PF2E.Actions.Reposition.Title",
+            "value": "reposition"
+          },
+          {
+            "label": "PF2E.Actions.Shove.Title",
+            "value": "shove"
+          },
+          {
+            "label": "PF2E.Actions.Trip.Title",
+            "value": "trip"
+          }
+        ],
+        "flag": "maneuverFirst",
+        "rollOption": "maneuver-first"
+      },
+      {
+        "adjustName": false,
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "PF2E.Actions.Disarm.Title",
+            "predicate": [
+              {
+                "not": "maneuver-first:disarm"
+              }
+            ],
+            "value": "disarm"
+          },
+          {
+            "label": "PF2E.Actions.Grapple.Title",
+            "predicate": [
+              {
+                "not": "maneuver-first:grapple"
+              }
+            ],
+            "value": "grapple"
+          },
+          {
+            "label": "PF2E.Actions.Reposition.Title",
+            "predicate": [
+              {
+                "not": "maneuver-first:reposition"
+              }
+            ],
+            "value": "reposition"
+          },
+          {
+            "label": "PF2E.Actions.Shove.Title",
+            "predicate": [
+              {
+                "not": "maneuver-first:shove"
+              }
+            ],
+            "value": "shove"
+          },
+          {
+            "label": "PF2E.Actions.Trip.Title",
+            "predicate": [
+              {
+                "not": "maneuver-first:trip"
+              }
+            ],
+            "value": "trip"
+          }
+        ],
+        "flag": "maneuverSecond",
+        "rollOption": "maneuver-second"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "slug": "maneuver-module-bonus",
+        "value": 1,
+        "predicate": [
+          {
+            "or": [
+              "action:{item|flags.sf2e.rulesSelections.maneuverFirst}",
+              "action:{item|flags.sf2e.rulesSelections.maneuverSecond}"
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "feature:superior-companion"
+        ],
+        "selector": "athletics",
+        "value": 2
+      }
+    ],
+    "slug": "maneuver-module",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      }
+    },
+    "location": null
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sf2e",
+    "systemVersion": "7.9.1"
+  },
+  "ownership": {
+    "default": 0,
+    "kFKtt3r5Xd5l6LFK": 3
+  },
+  "_id": "pivp1xXr93g7FNr8",
+  "sort": 0,
+  "_key": "!items!pivp1xXr93g7FNr8"
+}

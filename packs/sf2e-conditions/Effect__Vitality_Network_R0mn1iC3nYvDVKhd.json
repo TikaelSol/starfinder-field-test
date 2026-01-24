@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Effect: Vitality Network",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Tracks your currently available vitality network.</p><p>Your vitality network has a maximum capacity equal to @Damage[(6+(4*(@actor.level)))] Hit Points</p>"
+    },
+    "rules": [
+      {
+        "itemType": "effect",
+        "key": "ItemAlteration",
+        "mode": "downgrade",
+        "property": "badge-max",
+        "value": "6+4*@actor.level",
+        "predicate": [
+          "item:id:{item|id}"
+        ]
+      }
+    ],
+    "slug": "effect-vitality-network",
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": {
+      "type": "counter",
+      "value": 1,
+      "labels": null,
+      "loop": false
+    },
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/life/heart-area-circle-red-green.webp",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "R0mn1iC3nYvDVKhd",
+  "sort": 8900000,
+  "_key": "!items!R0mn1iC3nYvDVKhd"
+}

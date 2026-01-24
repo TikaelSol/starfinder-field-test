@@ -1,0 +1,82 @@
+{
+  "name": "Effect: Elemental Perfect Harmony",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain resistance to two elements chosen during the mystic's daily preparations.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "{item|origin.flags.sf2e.perfectHarmony.resistanceOne}",
+        "value": "floor(@item.origin.level/2)"
+      },
+      {
+        "key": "Resistance",
+        "type": "{item|origin.flags.sf2e.perfectHarmony.resistanceTwo}",
+        "value": "floor(@item.origin.level/2)"
+      }
+    ],
+    "slug": "effect-elemental-perfect-harmony",
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 19
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/green%20hazard%20sign.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "exportSource": null
+  },
+  "_id": "LbTZWiBVaY6Dz8zS",
+  "sort": 4800000,
+  "_key": "!items!LbTZWiBVaY6Dz8zS"
+}
