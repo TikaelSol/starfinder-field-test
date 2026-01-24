@@ -1,0 +1,89 @@
+{
+  "name": "Effect: Arcane Intuition",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a +1 circumstance bonus to counteract checks against spells and ongoing magic effects. If you are legendary in Arcana, you gain a +2 circumstance bonus instead.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "spell-attack",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "counteract"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "spell-attack",
+        "slug": "effect-arcane-intuition",
+        "mode": "add",
+        "value": 1,
+        "predicate": [
+          "skill:arcana:rank:4"
+        ]
+      }
+    ],
+    "slug": "effect-arcane-intuition",
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "_id": "by7OL6es9EPlnVXp",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "folder": null,
+  "sort": 9600000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!by7OL6es9EPlnVXp"
+}

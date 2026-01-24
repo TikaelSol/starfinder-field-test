@@ -1,0 +1,86 @@
+{
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/armor%20blue%20medium.webp",
+  "name": "Medium Armor Mastery",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Your skill with armor improves, helping you avoid more blows. Your proficiency ranks for light and medium armor, as well as for unarmored defense, increase to master.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 19
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Starfinder Tech Class Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {
+        "light": {
+          "rank": 3,
+          "attribute": null
+        },
+        "medium": {
+          "rank": 3,
+          "attribute": null
+        },
+        "unarmored": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "mechanic"
+      ],
+      "otherTags": []
+    },
+    "slug": "medium-armor-expertise",
+    "_migration": {
+      "version": 0.954,
+      "previous": {
+        "schema": 0.94,
+        "foundry": "13.351",
+        "system": "7.9.1"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "sf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "folder": "LhdfGVgPMQncD5yl",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_id": "YyGRwOHws5bpEuZO",
+  "sort": 0,
+  "_key": "!items!YyGRwOHws5bpEuZO"
+}

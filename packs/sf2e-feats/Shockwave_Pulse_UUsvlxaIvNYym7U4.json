@@ -1,0 +1,73 @@
+{
+  "folder": "WVaOnnM64aLQG2Dx",
+  "name": "Shockwave Pulse",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "description": {
+      "value": "<p>Your items can release a sudden pulse of force to topple enemies over. You gain the following new mod.</p><p><strong>Shockwave Pulse (grenade, weapon):</strong> The item releases a pulse of force upon use. If the item has the area trait, all creatures who fail their save against the item are additionally knocked @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}. Otherwise, a creature damaged by the item is knocked prone unless they succeed at a @Check[fortitude|against:mechanic] save against your class DC.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "shockwave-pulse",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mechanic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "UUsvlxaIvNYym7U4",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "exportSource": null
+  },
+  "_key": "!items!UUsvlxaIvNYym7U4"
+}

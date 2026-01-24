@@ -1,0 +1,87 @@
+{
+  "folder": null,
+  "name": "Spell Effect: Song of the Spheres",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by <em>@UUID[Compendium.starfinder-field-test-for-sf2e.spells.Item.L5xqxo9onL2zcMCe]{Song of the Spheres}</em></p>\n<hr />\n<p><strong>Critical Success</strong> As success, except the effect lasts 3 rounds.</p>\n<p><strong>Success</strong> You and all bonded allies gain a +1 status bonus to attack rolls and damage rolls for 1 round.</p>\n<p><strong>Failure</strong> As success, except this only affects you and one selected bonded ally within range.</p>\n<p><strong>Critical Failure</strong> The spell has no effect.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack",
+          "damage"
+        ],
+        "type": "status",
+        "value": 1
+      }
+    ],
+    "slug": "spell-effect-song-of-the-spheres",
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "coreVersion": "13.346",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "starfinder-2e",
+      "uuid": null,
+      "coreVersion": "11.313",
+      "systemId": "sf2e",
+      "systemVersion": "5.6.2"
+    }
+  },
+  "_id": "6gwYukkRVzjWQ9v8",
+  "sort": 8400000,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "_key": "!items!6gwYukkRVzjWQ9v8"
+}

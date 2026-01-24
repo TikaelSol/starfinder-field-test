@@ -1,0 +1,73 @@
+{
+  "folder": "WVaOnnM64aLQG2Dx",
+  "name": "Glitch Pulse",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "description": {
+      "value": "<p>Your devices can emit a disrupting pulse that causes tech to malfunction. You gain the following new mod.</p><p><strong>Glitch Pulse (exocortex or weapon):</strong> Strikes from the modded exocortex or weapon disrupt technology. On a hit, Strikes cause a random tech item held by the target to gain the @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 3} condition for 1 round. If the creature has the tech trait, the creature must attempt a @Check[fortitude|against:mechanic] save against your class DC.</p><hr /><p><strong>Critical Success</strong> The creature is immune to your glitch pulse for 24 hours.</p><p><strong>Success</strong> No effect.</p><p><strong>Failure</strong> The creature is glitching 3 for 1 round.</p><p><strong>Critical Failure</strong> The creature is glitching 3 for 1 minute.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "glitch-pulse",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mechanic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "SdRHO6w0IBAgBXdx",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "exportSource": null
+  },
+  "_key": "!items!SdRHO6w0IBAgBXdx"
+}

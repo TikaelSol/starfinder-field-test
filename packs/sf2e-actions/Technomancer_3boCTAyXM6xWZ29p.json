@@ -1,0 +1,19 @@
+{
+  "name": "Technomancer",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "3boCTAyXM6xWZ29p",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "sf2e",
+    "systemVersion": "6.11.1"
+  },
+  "_key": "!folders!3boCTAyXM6xWZ29p"
+}

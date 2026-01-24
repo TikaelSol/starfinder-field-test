@@ -165,6 +165,12 @@
         "img": "icons/skills/melee/hand-grip-sword-orange.webp",
         "name": "Greater Weapon Specialization",
         "level": 15
+      },
+      "JJKY5": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.YyGRwOHws5bpEuZO",
+        "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/armor%20blue%20medium.webp",
+        "name": "Medium Armor Mastery",
+        "level": 19
       }
     },
     "hp": 8,
@@ -272,9 +278,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.3.1",
+    "systemVersion": "7.9.1",
     "exportSource": null
   },
   "_id": "t3dP40GKWBCZ9jxh",

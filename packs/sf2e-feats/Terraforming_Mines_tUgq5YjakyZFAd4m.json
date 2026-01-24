@@ -1,0 +1,77 @@
+{
+  "folder": "WVaOnnM64aLQG2Dx",
+  "name": "Terraforming Mines",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "description": {
+      "value": "<p>You install artificial gravity fields into your mines that activate when they explode. When you @UUID[Compendium.starfinder-field-test-for-sf2e.actions.Item.ccVcznj9KVYHLVaY]{Deploy} a mine, choose one of the following effects.</p><p><strong>Big Bang</strong>: When your mines detonate, they push creatures 5 feet away from the mine in a random direction (10 feet plus knocked @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone} on a critical failure).</p><p><strong>Gravity Field</strong>: When your mines detonate, the area affected by the explosion becomes your choice of high gravity, low gravity, normal gravity, or zero gravity for 1 minute.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "terraforming-mines",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mechanic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Gravitic Mines"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "tUgq5YjakyZFAd4m",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "exportSource": null
+  },
+  "_key": "!items!tUgq5YjakyZFAd4m"
+}

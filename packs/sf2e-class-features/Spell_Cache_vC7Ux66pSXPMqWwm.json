@@ -1,0 +1,78 @@
+{
+  "folder": "VR2dEsNooGTwusIk",
+  "name": "Spell Cache",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "description": {
+      "value": "<p>You've created a magical shorthand for your favored spells that makes them easier to cast. You automatically add spells to your cache from your programming language as soon as you can cast spells of the appropriate rank. Cached spells in your spell database can be prepared normally during your daily preparations or you can Downloaded these Spells to overwrite and replace other spells you've already prepared so they can be cast using that spell slot. You gain the @UUID[Compendium.starfinder-field-test-for-sf2e.actions.Item.oHVC3U1F4MvRkrKk]{Download Spell} action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-sf2e.actions.Item.oHVC3U1F4MvRkrKk"
+      }
+    ],
+    "slug": "spell-cache",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "technomancer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "vC7Ux66pSXPMqWwm",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20circle%20emblem.webp",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "eUnac0oMbpEwem24": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "sf2e",
+    "systemVersion": "7.3.1",
+    "exportSource": null
+  },
+  "_key": "!items!vC7Ux66pSXPMqWwm"
+}

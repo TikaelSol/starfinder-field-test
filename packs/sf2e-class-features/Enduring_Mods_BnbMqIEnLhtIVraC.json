@@ -1,0 +1,71 @@
+{
+  "folder": "LhdfGVgPMQncD5yl",
+  "name": "Enduring Mods",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "description": {
+      "value": "<p>Your customizations are built to last. Each day, pick one mod you know to apply to an item during your daily preparations. This mod doesn't count against your limit. The selected mod lasts for 24 hours or until dismissed.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "enduring-mods",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "BnbMqIEnLhtIVraC",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/flexible%20circuit.webp",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "exportSource": null
+  },
+  "_key": "!items!BnbMqIEnLhtIVraC"
+}

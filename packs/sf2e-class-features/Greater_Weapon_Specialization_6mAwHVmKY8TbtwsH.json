@@ -1,0 +1,84 @@
+{
+  "name": "Greater Weapon Specialization",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.3.1"
+      }
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary.</p>"
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "mode": "multiply",
+        "relabel": "PF2E.GreaterWeaponSpecialization",
+        "selector": "strike-damage",
+        "slug": "weapon-specialization",
+        "value": 2
+      }
+    ],
+    "slug": "greater-weapon-specialization",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mechanic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "folder": "LhdfGVgPMQncD5yl",
+  "ownership": {
+    "default": 0,
+    "BN4nshl76HGKk3ro": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "sf2e",
+    "systemVersion": "7.3.1"
+  },
+  "_id": "6mAwHVmKY8TbtwsH",
+  "sort": 500000,
+  "_key": "!items!6mAwHVmKY8TbtwsH"
+}

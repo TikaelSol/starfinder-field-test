@@ -1,0 +1,214 @@
+{
+  "name": "Effect: Medpatch",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.sf2e-anachronism.equipment.Item.B0FiYMxy7iDiHh48]{Medpatch (Commercial)}, @UUID[Compendium.sf2e-anachronism.equipment.Item.HWHdAQArhRauTpm6]{Medpatch (Tactical)}, @UUID[Compendium.sf2e-anachronism.equipment.Item.55nSLw1aQ0K0rK2L]{Medpatch (Advanced)}, @UUID[Compendium.sf2e-anachronism.equipment.Item.6VDHl7xkSp8Sc8yy]{Medpatch (Superior)}, @UUID[Compendium.sf2e-anachronism.equipment.Item.KFjPEG7kw733splu]{Medpatch (Elite)}, @UUID[Compendium.sf2e-anachronism.equipment.Item.dJyYifMFfgbIwT3c]{Medpatch (Ultimate)}</p><p>You gain an item bonus against disease and poisons.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:medpatch-commercial",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.sf2e-anachronism.equipment.Item.B0FiYMxy7iDiHh48"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:medpatch-tactical",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.sf2e-anachronism.equipment.Item.HWHdAQArhRauTpm6"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:medpatch-advanced",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.sf2e-anachronism.equipment.Item.55nSLw1aQ0K0rK2L"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:medpatch-superior",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.sf2e-anachronism.equipment.Item.6VDHl7xkSp8Sc8yy"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:medpatch-elite",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.sf2e-anachronism.equipment.Item.KFjPEG7kw733splu"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:medpatch-ultimate",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.sf2e-anachronism.equipment.Item.dJyYifMFfgbIwT3c"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.EquipmentVariety",
+        "rollOption": "medpatch"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:disease",
+              "item:trait:poison"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "slug": "medpatch-bonus",
+        "type": "item",
+        "value": 1
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              "medpatch:medpatch-advanced",
+              "medpatch:medpatch-superior"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "slug": "medpatch-bonus",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              "medpatch:medpatch-elite"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "slug": "medpatch-bonus",
+        "value": 3
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "or": [
+              "medpatch:medpatch-ultimate"
+            ]
+          }
+        ],
+        "selector": "saving-throw",
+        "slug": "medpatch-bonus",
+        "value": 4
+      }
+    ],
+    "slug": "effect-medpatch",
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Starfinder Second Edition Playtest Rulebook",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 10,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/nj_912_b.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "HfiqVTKP7yuQgALu": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "exportSource": null
+  },
+  "_id": "5zI4ZyazPuowjhwJ",
+  "sort": 4400000,
+  "_key": "!items!5zI4ZyazPuowjhwJ"
+}

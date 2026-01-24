@@ -1,0 +1,80 @@
+{
+  "name": "Master Spellcaster",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.3.1"
+      }
+    },
+    "description": {
+      "gm": "",
+      "value": "<p>You command superlative spellcasting. Your proficiency ranks for spell attack modifier and spell DC increase to master.</p>"
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "master-spellcaster",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "technomancer"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/skills/trades/academics-book-study-purple.webp",
+  "folder": "VR2dEsNooGTwusIk",
+  "ownership": {
+    "default": 0,
+    "BN4nshl76HGKk3ro": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "sf2e",
+    "systemVersion": "7.3.1"
+  },
+  "_id": "OD4IqS0EzXVvwLwj",
+  "sort": 0,
+  "_key": "!items!OD4IqS0EzXVvwLwj"
+}

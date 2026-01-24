@@ -1,5 +1,14 @@
 {
     "SF2E": {
+        "SETTINGS": {
+            "Theme": {
+                "Dark": "Dark",
+                "HighContrast": "High Contrast",
+                "Light": "Light",
+                "Name": "Theme",
+                "None": "None"
+            }
+        },
         "SpecificRule": {
             "Technomancer": {
                 "BoomingBootloader": {
@@ -41,11 +50,6 @@
         "Trait": {
             "Mechanic": "Mechanic",
             "Midwife": "Midwife",
-            "Missile": "Missile",
-            "ModularArcOrNonlethal": "Modular (Arc or Nonlethal)",
-            "ModularCOrF": "Modular (C or F)",
-            "ModularCOrVoid": "Modular (C or Void)",
-            "ModularSOrVoid": "Modular (S or Void)",
             "Technomancer": "Technomancer"
         }
     }

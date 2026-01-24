@@ -1,756 +1,414 @@
 {
-    "id": "starfinder-field-test-for-pf2e",
-    "title": "Starfinder 2nd Edition Playtest for PF2e",
-    "url": "https://github.com/TikaelSol/starfinder-field-test",
-    "manifest": "https://github.com/TikaelSol/starfinder-field-test/releases/latest/download/module.json",
-    "download": "https://github.com/TikaelSol/starfinder-field-test/releases/latest/download/module.zip",
-    "version": "dev",
-    "compatibility": {
-        "minimum": "13",
-        "verified": "13"
-    },
-    "relationships": {
-        "systems": [
-            {
-                "id": "pf2e",
-                "type": "system",
-                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
-                "compatibility": {
-                    "minimum": "7.3"
-                }
-            }
-        ],
-        "modules": [
-            {
-                "id": "sf2e-anachronism",
-                "type": "module",
-                "manifest": "https://github.com/TikaelSol/sf2e-anachronism/releases/latest/download/module.json",
-                "compatibility": {
-                    "minimum": "0.9",
-                    "verified": "0.9"
-                }
-            }
-        ]
-    },
-    "description": "A module to implement the Starfinder 2nd Edition Playtest in the Pathfinder 2nd edition system for Foundry VTT.",
-    "authors": [
-        {
-            "name": "Ian Blackstone",
-            "discord": "Tikael",
-            "flags": {}
+  "id": "starfinder-field-test-for-pf2e",
+  "title": "Starfinder 2nd Edition Playtest for PF2e",
+  "url": "https://github.com/TikaelSol/starfinder-field-test",
+  "manifest": "https://github.com/TikaelSol/starfinder-field-test/releases/latest/download/module.json",
+  "download": "https://github.com/TikaelSol/starfinder-field-test/releases/latest/download/module.zip",
+  "version": "dev",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "7.3"
         }
-    ],
-    "esmodules": [
-        "scripts/anachronism-announcement.mjs",
-        "scripts/sf2e-playtest.mjs"
-    ],
-    "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json",
-            "flags": {}
+      },
+      {
+        "id": "sf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "0.0.3"
         }
+      }
     ],
-    "media": [
-        {
-            "type": "setup",
-            "caption": "Starfinder 2e",
-            "thumbnail": "modules/starfinder-field-test-for-pf2e/art/banner.webp"
+    "modules": [
+      {
+        "id": "sf2e-anachronism",
+        "type": "module",
+        "manifest": "https://github.com/TikaelSol/sf2e-anachronism/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "0.9",
+          "verified": "0.9"
         }
-    ],
-    "packs": [
-        {
-            "name": "adventures",
-            "label": "Adventures",
-            "path": "packs/adventures",
-            "type": "Adventure",
-            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_0.webp",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "pf2e",
-            "flags": {}
-        },
-        {
-            "name": "conditions",
-            "label": "Effects and Conditions",
-            "path": "packs/conditions",
-            "type": "Item",
-            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_1.webp",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "pf2e",
-            "flags": {}
-        },
-        {
-            "name": "creatures",
-            "label": "Creatures",
-            "path": "packs/creatures",
-            "type": "Actor",
-            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_2.webp",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "pf2e",
-            "flags": {}
-        },
-        {
-            "name": "sf2e-journals",
-            "label": "SF2e Journals",
-            "path": "packs/journals",
-            "type": "JournalEntry",
-            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_3.webp",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "pf2e",
-            "flags": {}
-        },
-        {
-            "name": "actions",
-            "label": "Actions",
-            "path": "packs/actions",
-            "type": "Item",
-            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_3.webp",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "pf2e",
-            "flags": {}
-        },
-        {
-            "name": "companions",
-            "label": "Companions",
-            "path": "packs/companions",
-            "type": "Item",
-            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_4.webp",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "pf2e",
-            "flags": {}
-        },
-        {
-            "name": "classes",
-            "label": "Classes",
-            "path": "packs/classes",
-            "type": "Item",
-            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_5.webp",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "pf2e",
-            "flags": {}
-        },
-        {
-            "name": "class-features",
-            "label": "Features",
-            "path": "packs/class-features",
-            "type": "Item",
-            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_6.webp",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "pf2e",
-            "flags": {}
-        },
-        {
-            "name": "feats",
-            "label": "Feats",
-            "path": "packs/feats",
-            "type": "Item",
-            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_7.webp",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "pf2e",
-            "flags": {}
-        },
-        {
-            "name": "equipment",
-            "label": "Equipment",
-            "path": "packs/equipment",
-            "type": "Item",
-            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_8.webp",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "pf2e",
-            "flags": {}
-        },
-        {
-            "name": "spells",
-            "label": "Spells",
-            "path": "packs/spells",
-            "type": "Item",
-            "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_9.webp",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "pf2e",
-            "flags": {}
-        }
-    ],
-    "packFolders": [
-        {
-            "name": "Starfinder 2e Playtest",
-            "color": "#2C4E69",
-            "sorting": "m",
-            "folders": [
-                {
-                    "name": "Effects & GM Tools",
-                    "sorting": "m",
-                    "color": "#B9519E",
-                    "packs": [
-                        "adventures",
-                        "conditions",
-                        "creatures",
-                        "sf2e-journals"
-                    ]
-                },
-                {
-                    "name": "Character Options",
-                    "sorting": "m",
-                    "color": "#9DD9E5",
-                    "packs": [
-                        "actions",
-                        "classes",
-                        "class-features",
-                        "feats",
-                        "equipment",
-                        "spells",
-                        "companions"
-                    ]
-                }
-            ]
-        }
-    ],
-    "flags": {
-        "starfinder-field-test-for-pf2e": {
-            "pf2e-homebrew": {
-                "skills": {
-                    "additional": {
-                        "computers": {
-                            "label": "SF2E.Skill.Computers",
-                            "attribute": "int"
-                        },
-                        "piloting": {
-                            "label": "SF2E.Skill.Piloting",
-                            "attribute": "dex"
-                        }
-                    }
-                },
-                "armorGroups": {
-                    "ceramic": "SF2E.Armor.Group.Ceramic",
-                    "polymer": "SF2E.Armor.Group.Polymer"
-                },
-                "baseArmors": {
-                    "abadarcorp-travel-suit": "SF2E.Armor.Base.AbadarcorpTravelSuit",
-                    "armored-coat": "SF2E.Armor.Base.ArmoredCoat",
-                    "carbon-skin": "SF2E.Armor.Base.CarbonSkin",
-                    "estex-suit": "SF2E.Armor.Base.EstexSuit",
-                    "hardlight-series": "SF2E.Armor.Base.HardlightSeries",
-                    "microcord-armor": "SF2E.Armor.Base.MicrocordArmor",
-                    "quilted-armor": "SF2E.Armor.Base.QuiltedArmor",
-                    "second-skin": "SF2E.Armor.Base.SecondSkin",
-                    "tempweave": "SF2E.Armor.Base.Tempweave",
-                    "defrex-hide": "SF2E.Armor.Base.DefrexHide",
-                    "freebooter-armor": "SF2E.Armor.Base.FreebooterArmor",
-                    "lattice-armor": "SF2E.Armor.Base.LatticeArmor",
-                    "shotalashu-armor": "SF2E.Armor.Base.ShotalashuArmor",
-                    "skyfire-armor": "SF2E.Armor.Base.SkyfireArmor",
-                    "swarmsuit": "SF2E.Armor.Base.Swarmsuit",
-                    "aegis-series": "SF2E.Armor.Base.AegisSeries",
-                    "defiance-series": "SF2E.Armor.Base.DefianceSeries",
-                    "hidden-soldier-armor": "SF2E.Armor.Base.HiddenSoldierArmor",
-                    "kyokor-plating": "SF2E.Armor.Base.KyokorPlating",
-                    "thinplate": "SF2E.Armor.Base.Thinplate",
-                    "veskarium-imperial-plate": "SF2E.Armor.Base.VeskariumImperialPlate"
-                },
-                "baseWeapons": {
-                    "baton": "SF2E.BaseWeapon.Baton",
-                    "battleglove": "SF2E.BaseWeapon.Battleglove",
-                    "bio-cannon": "SF2E.BaseWeapon.BioCannon",
-                    "knife": "SF2E.BaseWeapon.Knife",
-                    "puzzleblade": "SF2E.BaseWeapon.Puzzleblade",
-                    "shock-pad": "SF2E.BaseWeapon.ShockPad",
-                    "zero-knife": "SF2E.BaseWeapon.ZeroKnife",
-                    "aucturnite-chakram": "SF2E.BaseWeapon.AucturniteChakram",
-                    "battle-ribbon": "SF2E.BaseWeapon.BattleRibbon",
-                    "bone-scepter": "SF2E.BaseWeapon.BoneScepter",
-                    "cryopike": "SF2E.BaseWeapon.Cryopike",
-                    "doshko": "SF2E.BaseWeapon.Doshko",
-                    "dueling-sword": "SF2E.BaseWeapon.DuelingSword",
-                    "fangblade": "SF2E.BaseWeapon.Fangblade",
-                    "force-needle": "SF2E.BaseWeapon.ForceNeedle",
-                    "grindblade": "SF2E.BaseWeapon.Grindblade",
-                    "hammer": "SF2E.BaseWeapon.Hammer",
-                    "nano-edge-rapier": "SF2E.BaseWeapon.NanoEdgeRapier",
-                    "neural-lash": "SF2E.BaseWeapon.NeuralLash",
-                    "phase-cutlass": "SF2E.BaseWeapon.PhaseCutlass",
-                    "plasma-doshko": "SF2E.BaseWeapon.PlasmaDoshko",
-                    "plasma-sword": "SF2E.BaseWeapon.PlasmaSword",
-                    "polyglove": "SF2E.BaseWeapon.Polyglove",
-                    "pulse-gauntlet": "SF2E.BaseWeapon.PulseGauntlet",
-                    "shock-truncheon": "SF2E.BaseWeapon.ShockTruncheon",
-                    "shooting-starknife": "SF2E.BaseWeapon.ShootingStarknife",
-                    "singing-spear": "SF2E.BaseWeapon.SingingSpear",
-                    "tailblade": "SF2E.BaseWeapon.Tailblade",
-                    "talon": "SF2E.BaseWeapon.Talon",
-                    "disintegration-lash": "SF2E.BaseWeapon.DisintegrationLash",
-                    "painglaive": "SF2E.BaseWeapon.Painglaive",
-                    "skyfire-sword": "SF2E.BaseWeapon.SkyfireSword",
-                    "thermal-dynafan": "SF2E.BaseWeapon.ThermalDynafan",
-                    "acid-dart-rifle": "SF2E.BaseWeapon.AcidDartRifle",
-                    "arc-pistol": "SF2E.BaseWeapon.ArcPistol",
-                    "arc-rifle": "SF2E.BaseWeapon.ArcRifle",
-                    "autotarget-rifle": "SF2E.BaseWeapon.AutotargetRifle",
-                    "crossbolter": "SF2E.BaseWeapon.Crossbolter",
-                    "laser-pistol": "SF2E.BaseWeapon.LaserPistol",
-                    "laser-rifle": "SF2E.BaseWeapon.LaserRifle",
-                    "needler-pistol": "SF2E.BaseWeapon.NeedlerPistol",
-                    "pulsecaster-pistol": "SF2E.BaseWeapon.PulsecasterPistol",
-                    "reaction-breacher": "SF2E.BaseWeapon.ReactionBreacher",
-                    "scattergun": "SF2E.BaseWeapon.Scattergun",
-                    "seeker-rifle": "SF2E.BaseWeapon.SeekerRifle",
-                    "semi-auto-pistol": "SF2E.BaseWeapon.SemiAutoPistol",
-                    "sonic-rifle": "SF2E.BaseWeapon.SonicRifle",
-                    "zero-pistol": "SF2E.BaseWeapon.ZeroPistol",
-                    "arc-emitter": "SF2E.BaseWeapon.ArcEmitter",
-                    "assassin-rifle": "SF2E.BaseWeapon.AssassinRifle",
-                    "boom-pistol": "SF2E.BaseWeapon.BoomPistol",
-                    "breaching-gun": "SF2E.BaseWeapon.BreachingGun",
-                    "flamethrower": "SF2E.BaseWeapon.Flamethrower",
-                    "grenade-launcher": "SF2E.BaseWeapon.GrenadeLauncher",
-                    "injection-rifle": "SF2E.BaseWeapon.InjectionRifle",
-                    "machine-gun": "SF2E.BaseWeapon.MachineGun",
-                    "launcher": "SF2E.BaseWeapon.Launcher",
-                    "plasma-caster": "SF2E.BaseWeapon.PlasmaCaster",
-                    "rotolaser": "SF2E.BaseWeapon.Rotolaser",
-                    "shirren-eye-rifle": "SF2E.BaseWeapon.ShirrenEyeRifle",
-                    "singing-coil": "SF2E.BaseWeapon.SingingCoil",
-                    "stellar-cannon": "SF2E.BaseWeapon.StellarCannon",
-                    "zero-cannon": "SF2E.BaseWeapon.ZeroCannon",
-                    "aeon-rifle": "SF2E.BaseWeapon.AeonRifle",
-                    "artillery-laser": "SF2E.BaseWeapon.ArtilleryLaser",
-                    "card-slinger": "SF2E.BaseWeapon.CardSlinger",
-                    "gyrojet-pistol": "SF2E.BaseWeapon.GyrojetPistol",
-                    "magnetar-rifle": "SF2E.BaseWeapon.MagnetarRifle",
-                    "plasma-cannon": "SF2E.BaseWeapon.PlasmaCannon",
-                    "screamer": "SF2E.BaseWeapon.Screamer",
-                    "starfall-pistol": "SF2E.BaseWeapon.StarfallPistol",
-                    "streetsweeper": "SF2E.BaseWeapon.Streetsweeper",
-                    "missile-launcher": "SF2E.BaseWeapon.MissileLauncher"
-                },
-                "languages": {
-                    "brethedan": "SF2E.Language.Brethedan",
-                    "castrovelian": "SF2E.Language.Castrovelian",
-                    "diasporan": "SF2E.Language.Diasporan",
-                    "eoxian": "SF2E.Language.Eoxian",
-                    "kasatha": "SF2E.Language.Kasatha",
-                    "kothama": "SF2E.Language.Kothama",
-                    "kucharn": "SF2E.Language.Kucharn",
-                    "pact-common": "SF2E.Language.PactCommon",
-                    "pahtra": "SF2E.Language.Pahtra",
-                    "shirren": "SF2E.Language.Shirren",
-                    "triaxian": "SF2E.Language.Triaxian",
-                    "vercite": "SF2E.Language.Vercite",
-                    "vesk": "SF2E.Language.Vesk",
-                    "morandomandranan": "SF2E.Language.Morandomandranan"
-                },
-                "weaponGroups": {
-                    "corrosive": "SF2E.WeaponGroups.Corrosive",
-                    "cryo": "SF2E.WeaponGroups.Cryo",
-                    "flame": "SF2E.WeaponGroups.Flame",
-                    "grenade": "SF2E.WeaponGroups.Grenade",
-                    "laser": "SF2E.WeaponGroups.Laser",
-                    "mental": "SF2E.WeaponGroups.Mental",
-                    "missile": "SF2E.WeaponGroups.Missile",
-                    "plasma": "SF2E.WeaponGroups.Plasma",
-                    "poison": "SF2E.WeaponGroups.Poison",
-                    "projectile": "SF2E.WeaponGroups.Projectile",
-                    "shock": "SF2E.WeaponGroups.Shock",
-                    "sniper": "SF2E.WeaponGroups.Sniper",
-                    "sonic": "SF2E.WeaponGroups.Sonic"
-                },
-                "creatureTraits": {
-                    "astrazoan": "SF2E.Trait.Astrazoan",
-                    "barathu": "SF2E.Trait.Barathu",
-                    "borai": "SF2E.Trait.Borai",
-                    "cosmic": "SF2E.Trait.Cosmic",
-                    "contemplative": "SF2E.Trait.Contemplative",
-                    "dragonkin": "SF2E.Trait.Dragonkin",
-                    "drift": "SF2E.Trait.Drift",
-                    "jinsul": "SF2E.Trait.Jinsul",
-                    "kalo": "SF2E.Trait.Kalo",
-                    "kasatha": "SF2E.Trait.Kasatha",
-                    "kothama": "SF2E.Trait.Kothama",
-                    "kucharn": "SF2E.Trait.Kucharn",
-                    "lashunta": "SF2E.Trait.Lashunta",
-                    "midwife": "SF2E.Trait.Midwife",
-                    "pahtra": "SF2E.Trait.Pahtra",
-                    "prismeni": "SF2E.Trait.Prismeni",
-                    "robot": "SF2E.Trait.Robot",
-                    "sarcesian": "SF2E.Trait.Sarcesian",
-                    "shirren": "SF2E.Trait.Shirren",
-                    "skittermander": "SF2E.Trait.Skittermander",
-                    "tech": "SF2E.Trait.Tech",
-                    "vesk": "SF2E.Trait.Vesk",
-                    "vlaka": "SF2E.Trait.Vlaka"
-                },
-                "featTraits": {
-                    "anchoring": {
-                        "label": "SF2E.Trait.Anchoring",
-                        "description": "SF2E.TraitDescription.Anchoring"
-                    },
-                    "area": {
-                        "label": "SF2E.Trait.Area",
-                        "description": "SF2E.TraitDescription.Area"
-                    },
-                    "astrazoan": "SF2E.Trait.Astrazoan",
-                    "attuned": {
-                        "label": "SF2E.Trait.Attuned",
-                        "description": "SF2E.TraitDescription.Attuned"
-                    },
-                    "automatic": {
-                        "label": "SF2E.Trait.Automatic",
-                        "description": "SF2E.TraitDescription.Automatic"
-                    },
-                    "barathu": "SF2E.Trait.Barathu",
-                    "borai": "SF2E.Trait.Borai",
-                    "contemplative": "SF2E.Trait.Contemplative",
-                    "cycle": {
-                        "label": "SF2E.Trait.Cycle",
-                        "description": "SF2E.TraitDescription.Cycle"
-                    },
-                    "directive": {
-                        "label": "SF2E.Trait.Directive",
-                        "description": "SF2E.TraitDescription.Directive"
-                    },
-                    "disharmony": {
-                        "label": "SF2E.Trait.Disharmony",
-                        "description": "SF2E.TraitDescription.Disharmony"
-                    },
-                    "dragonkin": "SF2E.Trait.Dragonkin",
-                    "envoy": "SF2E.Trait.Envoy",
-                    "kalo": "SF2E.Trait.Kalo",
-                    "kasatha": "SF2E.Trait.Kasatha",
-                    "lashunta": "SF2E.Trait.Lashunta",
-                    "manifestation": {
-                        "label": "SF2E.Trait.Manifestation",
-                        "description": "SF2E.TraitDescription.Manifestation"
-                    },
-                    "mechanic":  "SF2E.Trait.Mechanic",
-                    "mystic": "SF2E.Trait.Mystic",
-                    "operative": "SF2E.Trait.Operative",
-                    "pahtra": "SF2E.Trait.Pahtra",
-                    "prismeni": "SF2E.Trait.Prismeni",
-                    "sarcesian": "SF2E.Trait.Sarcesian",
-                    "shirren": "SF2E.Trait.Shirren",
-                    "skittermander": "SF2E.Trait.Skittermander",
-                    "solarian": "SF2E.Trait.Solarian",
-                    "soldier": "SF2E.Trait.Soldier",
-                    "technomancer":  "SF2E.Trait.Technomancer",
-                    "transfer": {
-                        "label": "SF2E.Trait.Transfer",
-                        "description": "SF2E.TraitDescription.Transfer"
-                    },
-                    "traversal":  "SF2E.Trait.Traversal",
-                    "vesk": "SF2E.Trait.Vesk",
-                    "vlaka": "SF2E.Trait.Vlaka",
-                    "witchwarper": "SF2E.Trait.Witchwarper",
-                    "zone": {
-                        "label": "SF2E.Trait.Zone",
-                        "description": "SF2E.TraitDescription.Zone"
-                    }
-                },
-                "spellTraits": {
-                    "anchoring": {
-                        "label": "SF2E.Trait.Anchoring",
-                        "description": "SF2E.TraitDescription.Anchoring"
-                    },
-                    "gravity": "SF2E.Trait.Gravity",
-                    "mystic": "SF2E.Trait.Mystic",
-                    "technomancer":  "SF2E.Trait.Technomancer",
-                    "transfer": {
-                        "label": "SF2E.Trait.Transfer",
-                        "description": "SF2E.TraitDescription.Transfer"
-                    },
-                    "witchwarper": "SF2E.Trait.Witchwarper"
-                },
-                "equipmentTraits": {
-                    "analog": {
-                        "label": "SF2E.Trait.Analog",
-                        "description": "SF2E.TraitDescription.Analog"
-                    },
-                    "archaic": {
-                        "label": "SF2E.Trait.Archaic",
-                        "description": "SF2E.TraitDescription.Archaic"
-                    },
-                    "biotech": {
-                        "label": "SF2E.Trait.Biotech",
-                        "description": "SF2E.TraitDescription.Biotech"
-                    },
-                    "ceramic": "SF2E.Trait.Ceramic",
-                    "compact": {
-                        "label": "SF2E.Trait.Compact",
-                        "description": "SF2E.TraitDescription.Compact"
-                    },
-                    "exposed": {
-                        "label": "SF2E.Trait.Exposed",
-                        "description": "SF2E.TraitDescription.Exposed"
-                    },
-                    "grenade": {
-                        "label": "SF2E.Trait.Grenade",
-                        "description": "SF2E.TraitDescription.Grenade"
-                    },
-                    "installed": {
-                        "label": "SF2E.Trait.Installed",
-                        "description": "SF2E.TraitDescription.Installed"
-                    },
-                    "magitech": {
-                        "label": "SF2E.Trait.Magitech",
-                        "description": "SF2E.TraitDescription.Magitech"
-                    },
-                    "missile": {
-                        "label": "SF2E.Trait.Missile",
-                        "description": "SF2E.TraitDescription.Missile"
-                    },
-                    "nanite": "SF2E.Trait.Nanite",
-                    "polymer": "SF2E.Trait.Polymer",
-                    "retractable": {
-                        "label": "SF2E.Trait.Retractable",
-                        "description": "SF2E.TraitDescription.Retractable"
-                    },
-                    "serum": {
-                        "label": "SF2E.Trait.Serum",
-                        "description": "SF2E.TraitDescription.Serum"
-                    },
-                    "tech": {
-                        "label": "SF2E.Trait.Tech",
-                        "description": "SF2E.TraitDescription.Tech"
-                    }
-                },
-                "weaponTraits": {
-                    "aeon": {
-                        "label": "SF2E.Trait.Aeon",
-                        "description": "SF2E.TraitDescription.Aeon"
-                    },
-                    "analog": {
-                        "label": "SF2E.Trait.Analog",
-                        "description": "SF2E.TraitDescription.Analog"
-                    },
-                    "arc": {
-                        "label": "SF2E.Trait.Arc",
-                        "description": "SF2E.TraitDescription.Arc"
-                    },
-                    "archaic": {
-                        "label": "SF2E.Trait.Archaic",
-                        "description": "SF2E.TraitDescription.Archaic"
-                    },
-                    "area-burst-5-ft": {
-                        "label": "SF2E.Trait.AreaBurst5Ft",
-                        "description": "SF2E.TraitDescription.Area"
-                    },
-                    "area-burst-10-ft": {
-                        "label": "SF2E.Trait.AreaBurst10Ft",
-                        "description": "SF2E.TraitDescription.Area"
-                    },
-                    "area-burst-15-ft": {
-                        "label": "SF2E.Trait.AreaBurst15Ft",
-                        "description": "SF2E.TraitDescription.Area"
-                    },
-                    "area-burst-20-ft": {
-                        "label": "SF2E.Trait.AreaBurst20Ft",
-                        "description": "SF2E.TraitDescription.Area"
-                    },
-                    "area-burst-25-ft": {
-                        "label": "SF2E.Trait.AreaBurst25Ft",
-                        "description": "SF2E.TraitDescription.Area"
-                    },
-                    "area-burst-30-ft": {
-                        "label": "SF2E.Trait.AreaBurst30Ft",
-                        "description": "SF2E.TraitDescription.Area"
-                    },
-                    "area-cone": {
-                        "label": "SF2E.Trait.AreaCone",
-                        "description": "SF2E.TraitDescription.Area"
-                    },
-                    "area-line": {
-                        "label": "SF2E.Trait.AreaLine",
-                        "description": "SF2E.TraitDescription.Area"
-                    },
-                    "automatic": {
-                        "label": "SF2E.Trait.Automatic",
-                        "description": "SF2E.TraitDescription.Automatic"
-                    },
-                    "boost-1": {
-                        "label": "SF2E.Trait.Boost1",
-                        "description": "SF2E.TraitDescription.Boost"
-                    },
-                    "boost-1d4": {
-                        "label": "SF2E.Trait.Boost1d4",
-                        "description": "SF2E.TraitDescription.Boost"
-                    },
-                    "boost-1d10": {
-                        "label": "SF2E.Trait.Boost1d10",
-                        "description": "SF2E.TraitDescription.Boost"
-                    },
-                    "breakdown": {
-                        "label": "SF2E.Trait.Breakdown",
-                        "description": "SF2E.TraitDescription.Breakdown"
-                    },
-                    "caster": {
-                        "label": "SF2E.Trait.Caster",
-                        "description": "SF2E.TraitDescription.Caster"
-                    },
-                    "critical-brawling": {
-                        "label": "SF2E.Trait.CriticalBrawling",
-                        "description": "SF2E.TraitDescription.Critical"
-                    },
-                    "critical-corrosive": {
-                        "label": "SF2E.Trait.CriticalCorrosive",
-                        "description": "SF2E.TraitDescription.Critical"
-                    },
-                    "critical-cryo": {
-                        "label": "SF2E.Trait.CriticalCryo",
-                        "description": "SF2E.TraitDescription.Critical"
-                    },
-                    "critical-flame": {
-                        "label": "SF2E.Trait.CriticalFlame",
-                        "description": "SF2E.TraitDescription.Critical"
-                    },
-                    "critical-knife": {
-                        "label": "SF2E.Trait.CriticalKnife",
-                        "description": "SF2E.TraitDescription.Critical"
-                    },
-                    "critical-mental": {
-                        "label": "SF2E.Trait.CriticalMental",
-                        "description": "SF2E.TraitDescription.Critical"
-                    },
-                    "critical-plasma": {
-                        "label": "SF2E.Trait.CriticalPlasma",
-                        "description": "SF2E.TraitDescription.Critical"
-                    },
-                    "critical-shock": {
-                        "label": "SF2E.Trait.CriticalShock",
-                        "description": "SF2E.TraitDescription.Critical"
-                    },
-                    "critical-sonic": {
-                        "label": "SF2E.Trait.CriticalSonic",
-                        "description": "SF2E.TraitDescription.Critical"
-                    },
-                    "expend-1": {
-                        "label": "SF2E.Trait.Expend1",
-                        "description": "SF2E.TraitDescription.Expend"
-                    },
-                    "expend-2": {
-                        "label": "SF2E.Trait.Expend2",
-                        "description": "SF2E.TraitDescription.Expend"
-                    },
-                    "expend-5": {
-                        "label": "SF2E.Trait.Expend5",
-                        "description": "SF2E.TraitDescription.Expend"
-                    },
-                    "expend-10": {
-                        "label": "SF2E.Trait.Expend10",
-                        "description": "SF2E.TraitDescription.Expend"
-                    },
-                    "grenade": {
-                        "label": "SF2E.Trait.Grenade",
-                        "description": "SF2E.TraitDescription.Grenade"
-                    },
-                    "modular-arc-or-nonlethal": {
-                        "label": "SF2E.Trait.ModularArcOrNonlethal",
-                        "description": "PF2E.TraitDescriptionModular"
-                    },
-                    "modular-c-or-f": {
-                        "label": "SF2E.Trait.ModularCOrF",
-                        "description": "PF2E.TraitDescriptionModular"
-                    },
-                    "modular-c-or-void": {
-                        "label": "SF2E.Trait.ModularCOrVoid",
-                        "description": "PF2E.TraitDescriptionModular"
-                    },
-                    "modular-s-or-void": {
-                        "label": "SF2E.Trait.ModularSOrVoid",
-                        "description": "PF2E.TraitDescriptionModular"
-                    },
-                    "powered": {
-                        "label": "SF2E.Trait.Powered",
-                        "description": "SF2E.TraitDescription.Powered"
-                    },
-                    "professional-crafting": {
-                        "label": "SF2E.Trait.ProfessionalCrafting",
-                        "description": "SF2E.TraitDescription.Professional"
-                    },
-                    "professional-computers": {
-                        "label": "SF2E.Trait.ProfessionalComputers",
-                        "description": "SF2E.TraitDescription.Professional"
-                    },
-                    "professional-deception": {
-                        "label": "SF2E.Trait.ProfessionalDeception",
-                        "description": "SF2E.TraitDescription.Professional"
-                    },
-                    "professional-performance": {
-                        "label": "SF2E.Trait.ProfessionalPerformance",
-                        "description": "SF2E.TraitDescription.Professional"
-                    },
-                    "ranged-shove": {
-                        "label": "SF2E.Trait.RangedShove",
-                        "description": "SF2E.TraitDescription.RangedShove"
-                    },
-                    "tech": {
-                        "label": "SF2E.Trait.Tech",
-                        "description": "SF2E.TraitDescription.Tech"
-                    },
-                    "thought": {
-                        "label": "SF2E.Trait.Thought",
-                        "description": "SF2E.TraitDescription.Thought"
-                    },
-                    "tracking-1": {
-                        "label": "SF2E.Trait.Tracking1",
-                        "description": "SF2E.TraitDescription.Tracking"
-                    },
-                    "tracking-2": {
-                        "label": "SF2E.Trait.Tracking2",
-                        "description": "SF2E.TraitDescription.Tracking"
-                    },
-                    "tracking-3": {
-                        "label": "SF2E.Trait.Tracking3",
-                        "description": "SF2E.TraitDescription.Tracking"
-                    },
-                    "unwieldy": {
-                        "label": "SF2E.Trait.Unwieldy",
-                        "description": "SF2E.TraitDescription.Unwieldy"
-                    },
-                    "upgrade": {
-                        "label": "SF2E.Trait.Upgrade",
-                        "description": "SF2E.TraitDescription.Upgrade"
-                    },
-                    "barathu": "SF2E.Trait.Barathu",
-                    "borai": "SF2E.Trait.Borai",
-                    "kasatha": "SF2E.Trait.Kasatha",
-                    "pahtra": "SF2E.Trait.Pahtra",
-                    "prismeni": "SF2E.Trait.Prismeni",
-                    "shirren": "SF2E.Trait.Shirren",
-                    "skittermander": "SF2E.Trait.Skittermander",
-                    "vesk": "SF2E.Trait.Vesk"
-                }
-            }
-        }
+      }
+    ]
+  },
+  "description": "A module to implement the Starfinder 2nd Edition Playtest in the Pathfinder and Starfinder 2nd edition systems for Foundry VTT.",
+  "authors": [
+    {
+      "name": "Ian Blackstone",
+      "discord": "Tikael",
+      "flags": {}
     }
+  ],
+  "esmodules": [
+    "scripts/anachronism-announcement.mjs",
+    "scripts/sf2e-playtest.mjs"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "caption": "Starfinder 2e",
+      "thumbnail": "modules/starfinder-field-test-for-pf2e/art/banner.webp"
+    }
+  ],
+  "packs": [
+    {
+      "name": "adventures",
+      "label": "Adventures",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_0.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "conditions",
+      "label": "Effects and Conditions",
+      "path": "packs/conditions",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_1.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "creatures",
+      "label": "Creatures",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_2.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_3.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "actions",
+      "label": "Actions",
+      "path": "packs/actions",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_3.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "companions",
+      "label": "Companions",
+      "path": "packs/companions",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_4.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_5.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "class-features",
+      "label": "Features",
+      "path": "packs/class-features",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_6.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_7.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_8.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_9.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "sf2e-adventures",
+      "label": "Adventures",
+      "path": "packs/sf2e-adventures",
+      "type": "Adventure",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_0.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "sf2e",
+      "flags": {}
+    },
+    {
+      "name": "sf2e-conditions",
+      "label": "Effects and Conditions",
+      "path": "packs/sf2e-conditions",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_1.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "sf2e",
+      "flags": {}
+    },
+    {
+      "name": "sf2e-creatures",
+      "label": "Creatures",
+      "path": "packs/sf2e-creatures",
+      "type": "Actor",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_2.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "sf2e",
+      "flags": {}
+    },
+    {
+      "name": "sf2e-journals",
+      "label": "SF2e Journals",
+      "path": "packs/sf2e-journals",
+      "type": "JournalEntry",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/skitter_3.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "sf2e",
+      "flags": {}
+    },
+    {
+      "name": "sf2e-actions",
+      "label": "Actions",
+      "path": "packs/sf2e-actions",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_3.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "sf2e",
+      "flags": {}
+    },
+    {
+      "name": "sf2e-companions",
+      "label": "Companions",
+      "path": "packs/sf2e-companions",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_4.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "sf2e",
+      "flags": {}
+    },
+    {
+      "name": "sf2e-classes",
+      "label": "Classes",
+      "path": "packs/sf2e-classes",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_5.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "sf2e",
+      "flags": {}
+    },
+    {
+      "name": "sf2e-class-features",
+      "label": "Features",
+      "path": "packs/sf2e-class-features",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_6.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "sf2e",
+      "flags": {}
+    },
+    {
+      "name": "sf2e-feats",
+      "label": "Feats",
+      "path": "packs/sf2e-feats",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_7.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "sf2e",
+      "flags": {}
+    },
+    {
+      "name": "sf2e-equipment",
+      "label": "Equipment",
+      "path": "packs/sf2e-equipment",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_8.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "sf2e",
+      "flags": {}
+    },
+    {
+      "name": "sf2e-spells",
+      "label": "Spells",
+      "path": "packs/sf2e-spells",
+      "type": "Item",
+      "banner": "modules/starfinder-field-test-for-pf2e/art/tiles/cover_9.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "sf2e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Starfinder 2e Playtest",
+      "color": "#2C4E69",
+      "sorting": "m",
+      "folders": [
+        {
+          "name": "Effects & GM Tools",
+          "sorting": "m",
+          "color": "#B9519E",
+          "packs": [
+            "adventures",
+            "conditions",
+            "creatures",
+            "journals",
+            "sf2e-adventures",
+            "sf2e-conditions",
+            "sf2e-creatures",
+            "sf2e-journals"
+          ]
+        },
+        {
+          "name": "Character Options",
+          "sorting": "m",
+          "color": "#9DD9E5",
+          "packs": [
+            "actions",
+            "classes",
+            "class-features",
+            "feats",
+            "equipment",
+            "spells",
+            "companions",
+            "sf2e-actions",
+            "sf2e-classes",
+            "sf2e-class-features",
+            "sf2e-feats",
+            "sf2e-equipment",
+            "sf2e-spells",
+            "sf2e-companions"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "starfinder-field-test-for-pf2e": {
+      "pf2e-homebrew": {
+        "mechanic": "SF2E.Trait.Mechanic",
+        "technomancer": "SF2E.Trait.Technomancer"
+      },
+      "spellTraits": {
+        "technomancer": "SF2E.Trait.Technomancer"
+      }
+    }
+  }
 }

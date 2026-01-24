@@ -1,0 +1,73 @@
+{
+  "folder": "WVaOnnM64aLQG2Dx",
+  "name": "Cloaking Field",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.94,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.2.3"
+      }
+    },
+    "description": {
+      "value": "<p>You install a device that deploys static, smoke, or self populating holograms to create a cloaking field. You gain the following new mod.</p><p><strong>Cloaking Field (armor or exocortex):</strong> You customize the armor to emit a cloaking field in a @Template[type:emanation|distance:5]. All creatures within the cloaking field become @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{Concealed}, and those outside the area become concealed to those within. You (and your drone, if applicable) can see through the cloaking field unhindered.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Tech Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "cloaking-field",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mechanic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "gGbA3Kej7eSdLCmP",
+  "img": "modules/starfinder-field-test-for-pf2e/art/icons/feat.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qObU1d4eWFf9XwnO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "sf2e",
+    "systemVersion": "7.2.3",
+    "exportSource": null
+  },
+  "_key": "!items!gGbA3Kej7eSdLCmP"
+}
