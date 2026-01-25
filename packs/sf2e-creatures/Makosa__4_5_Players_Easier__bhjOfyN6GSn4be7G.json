@@ -1196,7 +1196,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.gLOelTMvex2OgBqV",
+        "compendiumSource": "Compendium.sf2e.spells.Item.gLOelTMvex2OgBqV",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2652,7 +2652,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.7WtiWJRYZhT6a9Ey",
+        "compendiumSource": "Compendium.sf2e.spells.Item.7WtiWJRYZhT6a9Ey",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

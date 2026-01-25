@@ -6,12 +6,12 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain the @UUID[Compendium.sf2e-anachronism.feats.Item.M8kAxAXWRRWMRTzT]{Living Shield} reaction.</p>"
+      "value": "<p>You gain the @UUID[Compendium.sf2e.feats.Item.M8kAxAXWRRWMRTzT]{Living Shield} reaction.</p>"
     },
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.sf2e-anachronism.feats.Item.M8kAxAXWRRWMRTzT"
+        "uuid": "Compendium.sf2e.feats.Item.M8kAxAXWRRWMRTzT"
       }
     ],
     "slug": "effect-youll-have-to-go-through-me",

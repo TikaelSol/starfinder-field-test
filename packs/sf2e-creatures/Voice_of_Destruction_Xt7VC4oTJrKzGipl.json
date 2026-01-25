@@ -1279,7 +1279,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.s6J1Q0e28Gb42epQ",
+        "compendiumSource": "Compendium.sf2e.spells.Item.s6J1Q0e28Gb42epQ",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2771,7 +2771,7 @@
       "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8",
+        "compendiumSource": "Compendium.sf2e.spells.Item.5ZZca1GGJs44OxC8",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2971,7 +2971,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.qOLMHvkAGsVYLhtn",
+        "compendiumSource": "Compendium.sf2e.spells.Item.qOLMHvkAGsVYLhtn",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
