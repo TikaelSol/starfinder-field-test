@@ -1462,7 +1462,7 @@
       "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.QpP30fcEl4NGjHwo",
+        "compendiumSource": "Compendium.sf2e.spells.Item.QpP30fcEl4NGjHwo",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
