@@ -300,7 +300,7 @@
         "rules": [
           {
             "key": "FlatModifier",
-            "label": "SF2E.Trait.Tracking1",
+            "label": "PF2E.TraitTracking1",
             "selector": "{item|id}-attack",
             "value": 1,
             "type": "item"
@@ -562,7 +562,7 @@
         "rules": [
           {
             "key": "FlatModifier",
-            "label": "SF2E.Trait.Tracking1",
+            "label": "PF2E.TraitTracking1",
             "selector": "{item|id}-attack",
             "value": 1,
             "type": "item"

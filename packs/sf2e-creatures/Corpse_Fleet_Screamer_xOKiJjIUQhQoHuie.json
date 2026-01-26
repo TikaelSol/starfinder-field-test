@@ -622,7 +622,7 @@
             "selector": "{item|id}-attack",
             "value": 1,
             "type": "item",
-            "label": "SF2E.Trait.Tracking"
+            "label": "PF2E.TraitTracking"
           }
         ],
         "slug": "screamer",

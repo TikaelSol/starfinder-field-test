@@ -643,7 +643,7 @@
             "selector": "{item|id}-attack",
             "value": 2,
             "type": "item",
-            "label": "SF2E.Trait.Tracking"
+            "label": "PF2E.TraitTracking"
           }
         ],
         "slug": "machine-gun",
