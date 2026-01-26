@@ -1450,7 +1450,7 @@
       "img": "icons/weapons/crossbows/crossbow-heavy-black.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.WBp42Hc05ISRIiMr",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.WBp42Hc05ISRIiMr",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1561,7 +1561,7 @@
       "img": "icons/equipment/chest/coat-leather-blue.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.WRw6hYSOdl2wlByk",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.WRw6hYSOdl2wlByk",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

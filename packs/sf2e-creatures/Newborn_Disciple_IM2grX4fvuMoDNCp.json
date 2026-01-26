@@ -991,7 +991,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1134,7 +1134,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/nj_708_b.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.Xlt3aGpMLg0LJUvn",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.Xlt3aGpMLg0LJUvn",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1279,7 +1279,7 @@
       "img": "systems/sf2e/icons/equipment/weapons/tamchal-chakram.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.kdEHv7Aw8k2hkyrl",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.kdEHv7Aw8k2hkyrl",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

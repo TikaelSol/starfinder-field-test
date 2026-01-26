@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You gain the @UUID[Compendium.starfinder-field-test-for-sf2e.actions.Item.EE07CnQmn8Xg4gkd]{Jailbreak Spell} action.</p>",
+      "value": "<p>You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.EE07CnQmn8Xg4gkd]{Jailbreak Spell} action.</p>",
       "gm": ""
     },
     "publication": {

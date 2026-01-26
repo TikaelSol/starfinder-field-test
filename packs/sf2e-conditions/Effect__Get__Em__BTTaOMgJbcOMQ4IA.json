@@ -45,7 +45,7 @@
         "selectors": [
           "damage"
         ],
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.conditions.Item.YJULfanyolMqCsFD",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.YJULfanyolMqCsFD",
         "predicate": [
           "get-em-lead:yes"
         ]

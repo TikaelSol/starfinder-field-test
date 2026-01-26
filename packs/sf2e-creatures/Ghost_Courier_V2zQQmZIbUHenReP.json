@@ -561,7 +561,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/teal%20sci-fi%20gun.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.7n6DAhPfxOTltumq",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.7n6DAhPfxOTltumq",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -709,7 +709,7 @@
       "img": "systems/sf2e/icons/equipment/weapons/starknife.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.3xy57nYq4vFY6orV",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.3xy57nYq4vFY6orV",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -818,7 +818,7 @@
       "img": "icons/equipment/back/mantle-collared-black.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.w27SAKP67PcGSim4",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.w27SAKP67PcGSim4",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -926,7 +926,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/syringe.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.wAxMDcZV5KiEwX0F",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.wAxMDcZV5KiEwX0F",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1034,7 +1034,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/nj_912_b.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.epPPWPTc4W7EfUf2",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.epPPWPTc4W7EfUf2",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1139,7 +1139,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

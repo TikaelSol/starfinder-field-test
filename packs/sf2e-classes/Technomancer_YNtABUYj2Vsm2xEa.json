@@ -35,97 +35,97 @@
     },
     "items": {
       "2VM2E": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.N7dlWNJFV8xoWZEI",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.N7dlWNJFV8xoWZEI",
         "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20convergence.webp",
         "name": "Technomancer Spellcasting",
         "level": 1
       },
       "j41Xz": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.6Neao6r6InbEUc5F",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.6Neao6r6InbEUc5F",
         "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/cerulean%20circular%20sign.webp",
         "name": "Overclock Gear",
         "level": 1
       },
       "v5nBF": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.o3p2SF4yrtS8n6m8",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.o3p2SF4yrtS8n6m8",
         "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/cerulean%20lightning%20streak.webp",
         "name": "Jailbreak Spell",
         "level": 1
       },
       "OvpbA": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.SsgKClXrept6iOxE",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.SsgKClXrept6iOxE",
         "img": "systems/sf2e/icons/features/classes/magical-fortitude.webp",
         "name": "Magical Fortitude",
         "level": 9
       },
       "HvOFd": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.qBaMvVfnChlHHkHr",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.qBaMvVfnChlHHkHr",
         "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20ancient%20armor.webp",
         "name": "Defensive Measures",
         "level": 13
       },
       "6A8YR": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.uPSzff7h3aRnoV6l",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.uPSzff7h3aRnoV6l",
         "img": "systems/sf2e/icons/features/classes/weapon-specialization.webp",
         "name": "Weapon Specialization",
         "level": 13
       },
       "li12a": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.XN7aWaTnW2zM7QPR",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.XN7aWaTnW2zM7QPR",
         "img": "icons/skills/melee/hand-grip-sword-red.webp",
         "name": "Weapon Expertise",
         "level": 11
       },
       "0Ae64": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.2LssJ7QH1IaGTIje",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.2LssJ7QH1IaGTIje",
         "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
         "name": "Prodigious Will",
         "level": 17
       },
       "1mKnJ": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.NbkWZuYD74QclaHK",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.NbkWZuYD74QclaHK",
         "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/crown%20insignia.webp",
         "name": "Administrator Privileges",
         "level": 19
       },
       "UpRgh": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.cpmuQo7Q5NhRPBul",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.cpmuQo7Q5NhRPBul",
         "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20circuit%20board%202.webp",
         "name": "Programming Languages",
         "level": 1
       },
       "hSkhp": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.vC7Ux66pSXPMqWwm",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.vC7Ux66pSXPMqWwm",
         "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20circle%20emblem.webp",
         "name": "Spell Cache",
         "level": 1
       },
       "cHvce": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.0RjHj4SbUriPz6SV",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.0RjHj4SbUriPz6SV",
         "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
         "name": "Reflex Expertise",
         "level": 5
       },
       "EKUEY": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.Sa16cGurWHcBhrCy",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.Sa16cGurWHcBhrCy",
         "img": "icons/sundries/books/book-backed-silver-gold.webp",
         "name": "Expert Spellcaster",
         "level": 7
       },
       "DoQNq": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.OyBLrOBDtfkm8Dsd",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.OyBLrOBDtfkm8Dsd",
         "img": "icons/creatures/eyes/human-single-blue.webp",
         "name": "Perception Expertise",
         "level": 11
       },
       "lSlPY": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.OD4IqS0EzXVvwLwj",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.OD4IqS0EzXVvwLwj",
         "img": "icons/skills/trades/academics-book-study-purple.webp",
         "name": "Master Spellcaster",
         "level": 15
       },
       "ruB2f": {
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.class-features.Item.gGCCRsY0leWTCmJW",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.gGCCRsY0leWTCmJW",
         "img": "icons/sundries/books/book-open-purple.webp",
         "name": "Legendary Spellcaster",
         "level": 19

@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You can unleash the true potential of your tech gear by powering it with raw magic energy. You gain the @UUID[Compendium.starfinder-field-test-for-sf2e.actions.Item.VMH34bRidGNubqYz]{Overclock Gear} action.</p>",
+      "value": "<p>You can unleash the true potential of your tech gear by powering it with raw magic energy. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.VMH34bRidGNubqYz]{Overclock Gear} action.</p>",
       "gm": ""
     },
     "publication": {
@@ -25,7 +25,7 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.actions.Item.VMH34bRidGNubqYz"
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.VMH34bRidGNubqYz"
       }
     ],
     "slug": "overclock-gear",

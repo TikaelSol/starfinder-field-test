@@ -478,7 +478,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/heavy%20gun%20chemical.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.7IV3ueL2q7jB0wg7",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.7IV3ueL2q7jB0wg7",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -630,7 +630,7 @@
       "img": "icons/weapons/guns/gun-pistol-flintlock-metal.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.oybCaKBLR34P9QfN",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.oybCaKBLR34P9QfN",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -739,7 +739,7 @@
       "img": "icons/equipment/back/mantle-collared-black.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.w27SAKP67PcGSim4",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.w27SAKP67PcGSim4",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -838,7 +838,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20energy%20thrusters.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.0s7ueohSBmTGVVgI",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.0s7ueohSBmTGVVgI",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1350,7 +1350,7 @@
       "folder": "GwujgNN7WkToI8vn",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.qafoMgEmGjymuHMY",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.qafoMgEmGjymuHMY",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1456,7 +1456,7 @@
       "folder": "GwujgNN7WkToI8vn",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.0yQOOAZ1d7H6cX89",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.0yQOOAZ1d7H6cX89",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

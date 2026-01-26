@@ -369,7 +369,7 @@
       "img": "icons/weapons/guns/gun-green.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.xbbjgyxVVf61NlWs",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.xbbjgyxVVf61NlWs",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -760,7 +760,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

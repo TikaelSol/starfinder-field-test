@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You've programmed your exocortex to deploy mines together to create a choke point. You @UUID[Compendium.starfinder-field-test-for-sf2e.actions.Item.ccVcznj9KVYHLVaY]{Deploy Mine} twice. Both mines must be within 30 feet of one another.</p>",
+      "value": "<p>You've programmed your exocortex to deploy mines together to create a choke point. You @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.ccVcznj9KVYHLVaY]{Deploy Mine} twice. Both mines must be within 30 feet of one another.</p>",
       "gm": ""
     },
     "publication": {

@@ -421,7 +421,7 @@
       "img": "icons/weapons/swords/sword-guard-red.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.rQYOrcyc5afRWGJz",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.rQYOrcyc5afRWGJz",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.345",
@@ -563,7 +563,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/pictol%20wrapped.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.sOl1WO2NFZ7bb2aF",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.sOl1WO2NFZ7bb2aF",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.345",
@@ -671,7 +671,7 @@
       "folder": "GwujgNN7WkToI8vn",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.tWFVW7j15qczONKh",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.tWFVW7j15qczONKh",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.345",
@@ -784,7 +784,7 @@
       "img": "icons/equipment/chest/breastplate-banded-leather-brown.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.thSjCkUM45oKyY3c",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.thSjCkUM45oKyY3c",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.345",
@@ -1251,7 +1251,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20third%20eye.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.PQzhohvBbwZRzbWA",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.PQzhohvBbwZRzbWA",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.345",

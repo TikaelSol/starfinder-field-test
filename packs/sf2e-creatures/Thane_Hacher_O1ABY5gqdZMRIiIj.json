@@ -1465,7 +1465,7 @@
       "img": "systems/sf2e/icons/equipment/weapons/tamchal-chakram.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.kdEHv7Aw8k2hkyrl",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.kdEHv7Aw8k2hkyrl",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1607,7 +1607,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/pictol%20wrapped.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.sOl1WO2NFZ7bb2aF",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.sOl1WO2NFZ7bb2aF",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1713,7 +1713,7 @@
       "folder": "GwujgNN7WkToI8vn",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.tWFVW7j15qczONKh",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.tWFVW7j15qczONKh",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

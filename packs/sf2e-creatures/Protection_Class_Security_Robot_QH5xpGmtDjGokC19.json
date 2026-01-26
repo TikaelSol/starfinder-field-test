@@ -604,7 +604,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/teal%20sci-fi%20gun.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.7n6DAhPfxOTltumq",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.7n6DAhPfxOTltumq",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

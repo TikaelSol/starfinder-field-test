@@ -357,7 +357,7 @@
       "img": "icons/weapons/swords/scimitar-guard-gold.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.vq4W4iN2SBH44gJW",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.vq4W4iN2SBH44gJW",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.345",
@@ -463,7 +463,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.345",
@@ -605,7 +605,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/nj_708_b.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.Xlt3aGpMLg0LJUvn",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.Xlt3aGpMLg0LJUvn",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.345",
@@ -718,7 +718,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/armor%20light%20metal.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.Vt0uY8idmN7sapv4",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.Vt0uY8idmN7sapv4",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.345",
@@ -826,7 +826,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/grenade%20hand.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.P1ZlvQaS76dFhs93",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.P1ZlvQaS76dFhs93",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.345",

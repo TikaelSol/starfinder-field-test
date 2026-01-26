@@ -25,7 +25,7 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.actions.Item.cMJvHMtzcdbA2stn",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.cMJvHMtzcdbA2stn",
         "predicate": [
           {
             "or": [
@@ -37,7 +37,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.actions.Item.VYzw8sB3V5w0FyOP",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.VYzw8sB3V5w0FyOP",
         "predicate": [
           "feature:drone"
         ]

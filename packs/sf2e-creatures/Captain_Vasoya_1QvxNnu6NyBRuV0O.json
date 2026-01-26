@@ -423,7 +423,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/nj_704_b.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.ueUgtt9OM3ay3yCT",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.ueUgtt9OM3ay3yCT",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -533,7 +533,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/armor%20blue%20heavy.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.IAad5pfNIV4ZHI2V",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.IAad5pfNIV4ZHI2V",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -688,7 +688,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20rocket%20thrusters.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.vIKSynUQaskzw43G",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.vIKSynUQaskzw43G",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -792,7 +792,7 @@
       "img": "icons/weapons/ammunition/bullets-cartridge-shell-gray.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.7P8DldsTekjQGQam",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.7P8DldsTekjQGQam",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -873,7 +873,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p>Captain Vasoya attempts Intimidate checks to @UUID[Compendium.sf2e.actions.Item.2u915NdUyQan6uKF]{Demoralize} each creature within 30 feet who is @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed}. She can also Demoralize any allies who are currently frightened or suppressed. If she succeeds, the ally loses that condition instead of gaining the frightened condition.</p>",
+          "value": "<p>Captain Vasoya attempts Intimidate checks to @UUID[Compendium.sf2e.actions.Item.2u915NdUyQan6uKF]{Demoralize} each creature within 30 feet who is @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.enA7BxAjBb7ns1iF]{Suppressed}. She can also Demoralize any allies who are currently frightened or suppressed. If she succeeds, the ally loses that condition instead of gaining the frightened condition.</p>",
           "gm": ""
         },
         "publication": {
@@ -1046,7 +1046,7 @@
           "value": "passive"
         },
         "description": {
-          "value": "<p>Any creature that fails its save against an Auto-Fire attack made by Captain Vasoya or who Vasoya hits with her doshko becomes @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of its next turn.</p>",
+          "value": "<p>Any creature that fails its save against an Auto-Fire attack made by Captain Vasoya or who Vasoya hits with her doshko becomes @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of its next turn.</p>",
           "gm": ""
         },
         "publication": {

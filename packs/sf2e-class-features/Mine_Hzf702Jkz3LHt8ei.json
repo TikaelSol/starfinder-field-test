@@ -25,11 +25,11 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.actions.Item.ccVcznj9KVYHLVaY"
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.ccVcznj9KVYHLVaY"
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.actions.Item.S3iCDy8ppR8eXp8V"
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.S3iCDy8ppR8eXp8V"
       }
     ],
     "slug": "mine",
