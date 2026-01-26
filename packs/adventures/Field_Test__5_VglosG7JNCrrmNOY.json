@@ -497,7 +497,7 @@
           "system": {
             "description": {
               "gm": "",
-              "value": "<p>After the soldier attempts a Strike against a target (regardless of success or failure), the next Strike one of the soldier's allies makes against the same target gains a +2 circumstance bonus to the attack roll. If a Strike with a bonus from coordinated fire hits, the target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of the attacking ally's next turn.</p>"
+              "value": "<p>After the soldier attempts a Strike against a target (regardless of success or failure), the next Strike one of the soldier's allies makes against the same target gains a +2 circumstance bonus to the attack roll. If a Strike with a bonus from coordinated fire hits, the target becomes @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of the attacking ally's next turn.</p>"
             },
             "rules": [],
             "slug": null,
@@ -611,7 +611,7 @@
           "system": {
             "description": {
               "gm": "",
-              "value": "<p>The soldier gains a +2 circumstance bonus to damage rolls against @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} targets.</p>"
+              "value": "<p>The soldier gains a +2 circumstance bonus to damage rolls against @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} targets.</p>"
             },
             "rules": [
               {

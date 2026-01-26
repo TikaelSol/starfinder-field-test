@@ -1042,7 +1042,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>You unleash a ray of entropy that rapidly and indiscriminately decays matter. Make a ranged spell attack.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes 10d8 void damage. If the target is technological, it takes 4d6 persistent acid damage and is @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} and @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Success</strong> The target takes 5d8 void damage. If the target is technological, it takes 2d6 persistent acid damage and is @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d8, and the persistent damage increases by 1d6.</p>"
+          "value": "<p>You unleash a ray of entropy that rapidly and indiscriminately decays matter. Make a ranged spell attack.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes 10d8 void damage. If the target is technological, it takes 4d6 persistent acid damage and is @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} and @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Success</strong> The target takes 5d8 void damage. If the target is technological, it takes 2d6 persistent acid damage and is @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d8, and the persistent damage increases by 1d6.</p>"
         },
         "rules": [],
         "slug": null,

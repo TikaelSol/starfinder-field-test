@@ -1202,7 +1202,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p>Commander Eiran selects an ally within 15 feet and instructs them how to aim against one target within 60 feet. Until the end of that ally's next turn, the next successful attack made with a melee or ranged weapon they wield deals an additional 2d4 precision damage against the target and reduces the target's cover bonus to AC by 1.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.n33jAVZDDWQ7ifvl]{Effect: Tactical Tutelage}</p>",
+          "value": "<p>Commander Eiran selects an ally within 15 feet and instructs them how to aim against one target within 60 feet. Until the end of that ally's next turn, the next successful attack made with a melee or ranged weapon they wield deals an additional 2d4 precision damage against the target and reduces the target's cover bonus to AC by 1.</p><p>@UUID[Compendium.sf2e.feat-effects.Item.n33jAVZDDWQ7ifvl]{Effect: Tactical Tutelage}</p>",
           "gm": ""
         },
         "publication": {
