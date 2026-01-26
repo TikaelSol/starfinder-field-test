@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You've become so accustomed to maintaining and manipulating your network of mines, you can activate them without a thought. You're permanently @UUID[Compendium.sf2e.conditions.Item.nlCjDvLMf2EkV2dl]{Quickened}. You can use your extra action to Command your drone, fire your turret, or @UUID[Compendium.starfinder-field-test-for-sf2e.actions.Item.S3iCDy8ppR8eXp8V]{Detonate Mine}.</p>",
+      "value": "<p>You've become so accustomed to maintaining and manipulating your network of mines, you can activate them without a thought. You're permanently @UUID[Compendium.sf2e.conditions.Item.nlCjDvLMf2EkV2dl]{Quickened}. You can use your extra action to Command your drone, fire your turret, or @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.S3iCDy8ppR8eXp8V]{Detonate Mine}.</p>",
       "gm": ""
     },
     "publication": {

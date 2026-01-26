@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You make sure your most important piece of gear is always on hand and authenticated using the unique signature of your spell database. During your daily preparations, you can lock an item compatible with your programming language so only you can use it. Other creatures can pick up, hold, stow, and carry the item, but it will not function unless they succeed at a @Check[computers|against:computers|rollerRole:target] check to Hack it equal to 10 + your Computers modifier. You gain the @UUID[Compendium.starfinder-field-test-for-sf2e.actions.Item.CDhVCtDy0aBJMchp]{Access Remote Gear} action.</p>",
+      "value": "<p>You make sure your most important piece of gear is always on hand and authenticated using the unique signature of your spell database. During your daily preparations, you can lock an item compatible with your programming language so only you can use it. Other creatures can pick up, hold, stow, and carry the item, but it will not function unless they succeed at a @Check[computers|against:computers|rollerRole:target] check to Hack it equal to 10 + your Computers modifier. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.CDhVCtDy0aBJMchp]{Access Remote Gear} action.</p>",
       "gm": ""
     },
     "publication": {
@@ -25,7 +25,7 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.actions.Item.CDhVCtDy0aBJMchp"
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.CDhVCtDy0aBJMchp"
       }
     ],
     "slug": "gear-authentication",

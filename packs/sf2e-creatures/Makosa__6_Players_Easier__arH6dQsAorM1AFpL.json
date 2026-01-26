@@ -524,7 +524,7 @@
           "value": "passive"
         },
         "description": {
-          "value": "<p>30 feet. Non-construct creatures entering or within the aura must attempt a @Check[will|dc:35] save. On a failure, the creature is @UUID[Compendium.sf2e.conditions.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round, then gains a +2 status bonus to damage rolls for 1 minute. On a success, the creature is temporarily immune to enraging presence for 24 hours.</p><p>@UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.YWckateVe6dqPs6M]{Effect: Enraging Presence}</p>",
+          "value": "<p>30 feet. Non-construct creatures entering or within the aura must attempt a @Check[will|dc:35] save. On a failure, the creature is @UUID[Compendium.sf2e.conditions.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round, then gains a +2 status bonus to damage rolls for 1 minute. On a success, the creature is temporarily immune to enraging presence for 24 hours.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.YWckateVe6dqPs6M]{Effect: Enraging Presence}</p>",
           "gm": ""
         },
         "publication": {
@@ -586,7 +586,7 @@
           "value": "passive"
         },
         "description": {
-          "value": "<p>Makosa has a vitality network they share with up to 10 bonded allies as though they were a mystic (they're currently bonded to the other shimmerstone robots in the room). This network can store a maximum of 75 Hit Points and begins combat full.</p><p>@UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.R0mn1iC3nYvDVKhd]{Effect: Vitality Network}</p>",
+          "value": "<p>Makosa has a vitality network they share with up to 10 bonded allies as though they were a mystic (they're currently bonded to the other shimmerstone robots in the room). This network can store a maximum of 75 Hit Points and begins combat full.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.R0mn1iC3nYvDVKhd]{Effect: Vitality Network}</p>",
           "gm": ""
         },
         "publication": {
@@ -708,7 +708,7 @@
         "core": {}
       },
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.conditions.Item.R0mn1iC3nYvDVKhd",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.R0mn1iC3nYvDVKhd",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -981,7 +981,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>You unleash a ray of entropy that rapidly and indiscriminately decays matter. Make a ranged spell attack.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes 10d8 void damage. If the target is technological, it takes 4d6 persistent acid damage and is @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} and @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Success</strong> The target takes 5d8 void damage. If the target is technological, it takes 2d6 persistent acid damage and is @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d8, and the persistent damage increases by 1d6.</p>"
+          "value": "<p>You unleash a ray of entropy that rapidly and indiscriminately decays matter. Make a ranged spell attack.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes 10d8 void damage. If the target is technological, it takes 4d6 persistent acid damage and is @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} and @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Success</strong> The target takes 5d8 void damage. If the target is technological, it takes 2d6 persistent acid damage and is @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d8, and the persistent damage increases by 1d6.</p>"
         },
         "rules": [],
         "slug": "entropy-strike",
@@ -1104,7 +1104,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.551Xcyo35ZCoS6WH",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.551Xcyo35ZCoS6WH",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1306,7 +1306,7 @@
       "img": "icons/magic/light/explosion-impact-purple.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.n33Jd5EBmVvnNL2O",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.n33Jd5EBmVvnNL2O",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1726,7 +1726,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.yr4HIfypJCxPrRGV",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.yr4HIfypJCxPrRGV",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1837,7 +1837,7 @@
       "img": "icons/magic/light/explosion-impact-purple.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.n33Jd5EBmVvnNL2O",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.n33Jd5EBmVvnNL2O",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2057,7 +2057,7 @@
       "img": "icons/magic/control/voodoo-doll-pain-damage-tan.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.7GPrc67AdaJFAFWm",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.7GPrc67AdaJFAFWm",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2259,7 +2259,7 @@
       "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.jn2xCGbOZn6idH0A",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.jn2xCGbOZn6idH0A",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2454,7 +2454,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.cU3H60fJk0yCc2Ua",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.cU3H60fJk0yCc2Ua",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -3123,7 +3123,7 @@
       "img": "icons/magic/control/voodoo-doll-pain-damage-green.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.zLecWRBA9TIn7dHV",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.zLecWRBA9TIn7dHV",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -4395,7 +4395,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.CLGyt6l3ESlOJm4l",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.CLGyt6l3ESlOJm4l",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -4551,7 +4551,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.ITK4ZWoYq5oSOTRM",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.ITK4ZWoYq5oSOTRM",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

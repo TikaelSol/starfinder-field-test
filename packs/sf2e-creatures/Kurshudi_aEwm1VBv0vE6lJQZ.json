@@ -871,7 +871,7 @@
       "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.jn2xCGbOZn6idH0A",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.jn2xCGbOZn6idH0A",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -960,7 +960,7 @@
       "img": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.MWguJ6RWEmmPBntb",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.MWguJ6RWEmmPBntb",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1574,7 +1574,7 @@
       "img": "icons/magic/movement/chevrons-down-yellow.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.cpsFSvTHVb9VTbK6",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.cpsFSvTHVb9VTbK6",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1742,7 +1742,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p><strong>Requirements</strong> The kurshudi's last action this round was an Area Fire with its rocket launcher</p><hr /><p><strong>Effect</strong> The kurshudi chooses one target affected by the Area Fire that failed its save. That target takes an additional @Damage[1d10[persistent,fire]] damage and becomes @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} as long as the persistent damage continues.</p>",
+          "value": "<p><strong>Requirements</strong> The kurshudi's last action this round was an Area Fire with its rocket launcher</p><hr /><p><strong>Effect</strong> The kurshudi chooses one target affected by the Area Fire that failed its save. That target takes an additional @Damage[1d10[persistent,fire]] damage and becomes @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} as long as the persistent damage continues.</p>",
           "gm": ""
         },
         "publication": {

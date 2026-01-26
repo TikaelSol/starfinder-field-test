@@ -372,7 +372,7 @@
       "img": "icons/weapons/guns/gun-topbarrel.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.LGwsaJVECPGvJz0a",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.LGwsaJVECPGvJz0a",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -473,7 +473,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/blue%20energy%20streak.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.Vyid3kqvnFB1KTet",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.Vyid3kqvnFB1KTet",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -578,7 +578,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/blue%20battery.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.NbZBvTjVNBaIYHCI",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.NbZBvTjVNBaIYHCI",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -688,7 +688,7 @@
       "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.XRZEHaueju0A2EMr",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.XRZEHaueju0A2EMr",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -792,7 +792,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20third%20eye.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.PQzhohvBbwZRzbWA",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.PQzhohvBbwZRzbWA",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1588,7 +1588,7 @@
       "img": "icons/magic/lightning/barrier-shield-orb-pink.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.3cJCpZtUy3Gd6TFP",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.3cJCpZtUy3Gd6TFP",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1611,7 +1611,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>You flood the area with electrical interference. You deal 8d8 electricity damage to all other creatures in the area. Each creature in the area must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and any items with the tech trait gain @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} for 1 minute or until the condition is removed.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and any items with the tech trait gain @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} for 1 minute or until the condition is removed</p>"
+          "value": "<p>You flood the area with electrical interference. You deal 8d8 electricity damage to all other creatures in the area. Each creature in the area must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and any items with the tech trait gain @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} for 1 minute or until the condition is removed.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and any items with the tech trait gain @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} for 1 minute or until the condition is removed</p>"
         },
         "rules": [],
         "slug": "overload-systems",
@@ -1694,7 +1694,7 @@
       "img": "icons/magic/lightning/orb-ball-blue.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.mYCwqoRRkCEjPIl8",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.mYCwqoRRkCEjPIl8",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1779,7 +1779,7 @@
       "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-purple-pink.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.FXIhLIMgi0QDTr3w",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.FXIhLIMgi0QDTr3w",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2082,7 +2082,7 @@
       "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.soIbLojIZyKRhyA8",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.soIbLojIZyKRhyA8",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2330,7 +2330,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.ITK4ZWoYq5oSOTRM",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.ITK4ZWoYq5oSOTRM",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2416,7 +2416,7 @@
       "img": "icons/weapons/ammunition/bullet-ice-blue.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.RH9ZY9BSIa38M1Hk",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.RH9ZY9BSIa38M1Hk",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

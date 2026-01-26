@@ -376,7 +376,7 @@
       "img": "icons/commodities/tech/conduit-transmission-red.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.W2tPhNcraKf1IrMI",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.W2tPhNcraKf1IrMI",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -485,7 +485,7 @@
       "img": "icons/equipment/chest/breastplate-banded-steel-studded.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.2v6SFf7pS3DRmwEc",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.2v6SFf7pS3DRmwEc",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -640,7 +640,7 @@
       "img": "icons/weapons/daggers/dagger-blue.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.xoah4GtzdJNQX2e0",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.xoah4GtzdJNQX2e0",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -745,7 +745,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/blue%20battery.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.NbZBvTjVNBaIYHCI",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.NbZBvTjVNBaIYHCI",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -845,7 +845,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20hex%20field.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.yvWr19Dg6H7n69ck",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.yvWr19Dg6H7n69ck",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -975,7 +975,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/yellow%20mutated%20hand.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.tXwmArbheDsgs63i",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.tXwmArbheDsgs63i",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1209,7 +1209,7 @@
           "value": "passive"
         },
         "description": {
-          "value": "<p>Sediya has a vitality network she shares with up to 10 bonded allies as though she were a mystic (she's currently bonded to the other Fangs of the Devourer in the room). This network can store a maximum of 50 Hit Points and begins combat full.</p><p>@UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.R0mn1iC3nYvDVKhd]{Effect: Vitality Network}</p>",
+          "value": "<p>Sediya has a vitality network she shares with up to 10 bonded allies as though she were a mystic (she's currently bonded to the other Fangs of the Devourer in the room). This network can store a maximum of 50 Hit Points and begins combat full.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.R0mn1iC3nYvDVKhd]{Effect: Vitality Network}</p>",
           "gm": ""
         },
         "publication": {
@@ -1334,7 +1334,7 @@
         "core": {}
       },
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.conditions.Item.R0mn1iC3nYvDVKhd",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.R0mn1iC3nYvDVKhd",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1573,7 +1573,7 @@
       "img": "icons/magic/light/explosion-impact-purple.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.n33Jd5EBmVvnNL2O",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.n33Jd5EBmVvnNL2O",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1685,7 +1685,7 @@
       "img": "icons/magic/lightning/bolt-beam-strike-blue.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.UunrWNPKVSuWuA5J",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.UunrWNPKVSuWuA5J",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1880,7 +1880,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.cU3H60fJk0yCc2Ua",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.cU3H60fJk0yCc2Ua",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1994,7 +1994,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>You cause the target comm unit to play a cosmically composed personal theme song specific to its owner. The creature who owns the target regains 1d8+4 Hit Points when you Cast the Spell and a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects for the duration, as long as the comm unit continues to play the ringtone. Creatures beginning their turn adjacent to an ally with an active ringtone gain the status bonus to Speeds and bonus to saves until the start of their next turn.</p><p>@UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.HshG8G3NgMJNlu9s]{Spell Effect: Motivating Ringtone}</p><hr /><p><strong>Heightened (+1)</strong> The amount of healing increases by 1d8+4.</p>"
+          "value": "<p>You cause the target comm unit to play a cosmically composed personal theme song specific to its owner. The creature who owns the target regains 1d8+4 Hit Points when you Cast the Spell and a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects for the duration, as long as the comm unit continues to play the ringtone. Creatures beginning their turn adjacent to an ally with an active ringtone gain the status bonus to Speeds and bonus to saves until the start of their next turn.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.HshG8G3NgMJNlu9s]{Spell Effect: Motivating Ringtone}</p><hr /><p><strong>Heightened (+1)</strong> The amount of healing increases by 1d8+4.</p>"
         },
         "rules": [],
         "slug": "motivating-ringtone",
@@ -2299,7 +2299,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.YK7tR3Rn9RF8rwag",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.YK7tR3Rn9RF8rwag",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2387,7 +2387,7 @@
       "img": "icons/magic/control/silhouette-hold-change-blue.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.qRKiadf7GqgxPDaN",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.qRKiadf7GqgxPDaN",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2473,7 +2473,7 @@
       "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-purple-pink.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.FXIhLIMgi0QDTr3w",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.FXIhLIMgi0QDTr3w",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2692,7 +2692,7 @@
       "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.soIbLojIZyKRhyA8",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.soIbLojIZyKRhyA8",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2890,7 +2890,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.CLGyt6l3ESlOJm4l",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.CLGyt6l3ESlOJm4l",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -3046,7 +3046,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.ITK4ZWoYq5oSOTRM",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.ITK4ZWoYq5oSOTRM",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -3276,7 +3276,7 @@
           "value": "passive"
         },
         "description": {
-          "value": "<p>When a creature fails a saving throw against a spell Sediya casts with the mental trait, it becomes @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{Sickened 1} and @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of its next turn as visions of the universe's entropic demise fill its mind.</p>",
+          "value": "<p>When a creature fails a saving throw against a spell Sediya casts with the mental trait, it becomes @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{Sickened 1} and @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of its next turn as visions of the universe's entropic demise fill its mind.</p>",
           "gm": ""
         },
         "publication": {

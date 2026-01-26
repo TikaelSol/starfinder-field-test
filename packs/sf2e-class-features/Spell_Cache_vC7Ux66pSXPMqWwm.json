@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You've created a magical shorthand for your favored spells that makes them easier to cast. You automatically add spells to your cache from your programming language as soon as you can cast spells of the appropriate rank. Cached spells in your spell database can be prepared normally during your daily preparations or you can Downloaded these Spells to overwrite and replace other spells you've already prepared so they can be cast using that spell slot. You gain the @UUID[Compendium.starfinder-field-test-for-sf2e.actions.Item.oHVC3U1F4MvRkrKk]{Download Spell} action.</p>",
+      "value": "<p>You've created a magical shorthand for your favored spells that makes them easier to cast. You automatically add spells to your cache from your programming language as soon as you can cast spells of the appropriate rank. Cached spells in your spell database can be prepared normally during your daily preparations or you can Downloaded these Spells to overwrite and replace other spells you've already prepared so they can be cast using that spell slot. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.oHVC3U1F4MvRkrKk]{Download Spell} action.</p>",
       "gm": ""
     },
     "publication": {
@@ -25,7 +25,7 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.actions.Item.oHVC3U1F4MvRkrKk"
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.oHVC3U1F4MvRkrKk"
       }
     ],
     "slug": "spell-cache",

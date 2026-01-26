@@ -368,7 +368,7 @@
       "img": "icons/commodities/tech/conduit-transmission-red.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.W2tPhNcraKf1IrMI",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.W2tPhNcraKf1IrMI",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -473,7 +473,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/blue%20battery.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.NbZBvTjVNBaIYHCI",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.NbZBvTjVNBaIYHCI",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -626,7 +626,7 @@
       "img": "systems/sf2e/icons/equipment/held-items/ivory-baton.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.HMaWUdb1F8EFthjG",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.HMaWUdb1F8EFthjG",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -745,7 +745,7 @@
       "img": "icons/equipment/back/mantle-collared-black.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.w27SAKP67PcGSim4",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.w27SAKP67PcGSim4",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1190,7 +1190,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.YK7tR3Rn9RF8rwag",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.YK7tR3Rn9RF8rwag",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1847,7 +1847,7 @@
       "img": "icons/magic/control/voodoo-doll-pain-damage-tan.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.7GPrc67AdaJFAFWm",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.7GPrc67AdaJFAFWm",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1938,7 +1938,7 @@
       "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.sUyKlISvDwTaJ8pg",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.sUyKlISvDwTaJ8pg",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2037,7 +2037,7 @@
       "img": "icons/magic/perception/orb-eye-scrying.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.mUJmBhVFEnVRruyt",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.mUJmBhVFEnVRruyt",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2347,7 +2347,7 @@
       "img": "icons/magic/unholy/beams-impact-pink.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.Yrn3lrjodiklt7l3",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.Yrn3lrjodiklt7l3",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2662,7 +2662,7 @@
       "img": "icons/magic/light/explosion-impact-purple.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.n33Jd5EBmVvnNL2O",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.n33Jd5EBmVvnNL2O",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2686,7 +2686,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>You cause the target comm unit to play a cosmically composed personal theme song specific to its owner. The creature who owns the target regains 1d8+4 Hit Points when you Cast the Spell and a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects for the duration, as long as the comm unit continues to play the ringtone. Creatures beginning their turn adjacent to an ally with an active ringtone gain the status bonus to Speeds and bonus to saves until the start of their next turn.</p><p>@UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.HshG8G3NgMJNlu9s]{Spell Effect: Motivating Ringtone}</p><hr /><p><strong>Heightened (+1)</strong> The amount of healing increases by 1d8+4.</p>"
+          "value": "<p>You cause the target comm unit to play a cosmically composed personal theme song specific to its owner. The creature who owns the target regains 1d8+4 Hit Points when you Cast the Spell and a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects for the duration, as long as the comm unit continues to play the ringtone. Creatures beginning their turn adjacent to an ally with an active ringtone gain the status bonus to Speeds and bonus to saves until the start of their next turn.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.HshG8G3NgMJNlu9s]{Spell Effect: Motivating Ringtone}</p><hr /><p><strong>Heightened (+1)</strong> The amount of healing increases by 1d8+4.</p>"
         },
         "rules": [],
         "slug": "motivating-ringtone",
@@ -2875,7 +2875,7 @@
       "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.soIbLojIZyKRhyA8",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.soIbLojIZyKRhyA8",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2897,7 +2897,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>You sense the surface thoughts of intelligent creatures around you. The amount of information revealed depends on how long you concentrate on an area or target. The spell can penetrate some barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of metal, a thin sheet of lead, or any force barrier blocks it. Creatures who are immune to mental effects are immune to detection by this spell.</p><p><span class=\"action-glyph\">1</span> You detect the presence or absence of thoughts from conscious creatures that have Intelligence attribute modifiers of –3 or higher.</p><p><span class=\"action-glyph\">2</span> You detect the number of thinking minds and whether or not the creatures are telepathic. Creatures with telepathy have louder thoughts than creature who don't have telepathy, and might be able to sense your intrusion, at the GM's discretion.</p><p><span class=\"action-glyph\">3</span> You gain a +1 status bonus to Perception to Sense the target's Motives while the spell is sustained. A target who succeeds at its Will save prevents this.</p><p>@UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.F6GYZA5UwDN5zusb]{Spell Effect: Detect Thoughts}</p><hr /><p><strong>Heightened (5th)</strong> You gain a +2 status bonus.</p><p><strong>Heightened (7th)</strong> You gain a +3 status bonus.</p>"
+          "value": "<p>You sense the surface thoughts of intelligent creatures around you. The amount of information revealed depends on how long you concentrate on an area or target. The spell can penetrate some barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of metal, a thin sheet of lead, or any force barrier blocks it. Creatures who are immune to mental effects are immune to detection by this spell.</p><p><span class=\"action-glyph\">1</span> You detect the presence or absence of thoughts from conscious creatures that have Intelligence attribute modifiers of –3 or higher.</p><p><span class=\"action-glyph\">2</span> You detect the number of thinking minds and whether or not the creatures are telepathic. Creatures with telepathy have louder thoughts than creature who don't have telepathy, and might be able to sense your intrusion, at the GM's discretion.</p><p><span class=\"action-glyph\">3</span> You gain a +1 status bonus to Perception to Sense the target's Motives while the spell is sustained. A target who succeeds at its Will save prevents this.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.F6GYZA5UwDN5zusb]{Spell Effect: Detect Thoughts}</p><hr /><p><strong>Heightened (5th)</strong> You gain a +2 status bonus.</p><p><strong>Heightened (7th)</strong> You gain a +3 status bonus.</p>"
         },
         "rules": [],
         "slug": "detect-thoughts",
@@ -3078,7 +3078,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.CLGyt6l3ESlOJm4l",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.CLGyt6l3ESlOJm4l",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -3234,7 +3234,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.ITK4ZWoYq5oSOTRM",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.ITK4ZWoYq5oSOTRM",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

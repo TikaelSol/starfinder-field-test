@@ -37,7 +37,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.companions.Item.pP88IFN21PD50k53",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-companions.Item.pP88IFN21PD50k53",
         "predicate": [
           {
             "not": "class:robot-companion"
@@ -102,13 +102,13 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.companions.Item.VHsk2zAVDC7CNg3r"
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-companions.Item.VHsk2zAVDC7CNg3r"
       },
       {
         "key": "ActiveEffectLike",
         "mode": "override",
         "path": "flags.sf2e.companionCompendia.advancedManeuver",
-        "value": "Compendium.starfinder-field-test-for-sf2e.companions.Item.RfJD9H7ogPQKU3Oh"
+        "value": "Compendium.starfinder-field-test-for-pf2e.sf2e-companions.Item.RfJD9H7ogPQKU3Oh"
       }
     ],
     "slug": "tank-chassis",

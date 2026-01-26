@@ -429,7 +429,7 @@
       "img": "icons/weapons/swords/sword-guard.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.KNEKYfzqS4Fqiqt1",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.KNEKYfzqS4Fqiqt1",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -539,7 +539,7 @@
       "img": "icons/equipment/chest/breastplate-layered-gilded-orange.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.XRZEHaueju0A2EMr",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.XRZEHaueju0A2EMr",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -643,7 +643,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20third%20eye.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.PQzhohvBbwZRzbWA",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.PQzhohvBbwZRzbWA",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -796,7 +796,7 @@
       "img": "icons/weapons/guns/gun-topbarrel.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.LGwsaJVECPGvJz0a",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.LGwsaJVECPGvJz0a",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -903,7 +903,7 @@
       "effects": [],
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.FKGLGOMEsVuX7LGd",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.FKGLGOMEsVuX7LGd",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1170,7 +1170,7 @@
         "category": "offensive",
         "deathNote": false,
         "selfEffect": {
-          "uuid": "Compendium.starfinder-field-test-for-sf2e.conditions.Item.Uwb0PSFXd4QGG9Q1",
+          "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.Uwb0PSFXd4QGG9Q1",
           "name": "Effect: Mobile Aim"
         }
       },
@@ -1202,7 +1202,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p>Commander Eiran selects an ally within 15 feet and instructs them how to aim against one target within 60 feet. Until the end of that ally's next turn, the next successful attack made with a melee or ranged weapon they wield deals an additional 2d4 precision damage against the target and reduces the target's cover bonus to AC by 1.</p><p>@UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.n33jAVZDDWQ7ifvl]{Effect: Tactical Tutelage}</p>",
+          "value": "<p>Commander Eiran selects an ally within 15 feet and instructs them how to aim against one target within 60 feet. Until the end of that ally's next turn, the next successful attack made with a melee or ranged weapon they wield deals an additional 2d4 precision damage against the target and reduces the target's cover bonus to AC by 1.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.n33jAVZDDWQ7ifvl]{Effect: Tactical Tutelage}</p>",
           "gm": ""
         },
         "publication": {

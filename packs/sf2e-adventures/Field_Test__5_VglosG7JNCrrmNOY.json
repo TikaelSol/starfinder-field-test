@@ -497,7 +497,7 @@
           "system": {
             "description": {
               "gm": "",
-              "value": "<p>After the soldier attempts a Strike against a target (regardless of success or failure), the next Strike one of the soldier's allies makes against the same target gains a +2 circumstance bonus to the attack roll. If a Strike with a bonus from coordinated fire hits, the target becomes @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of the attacking ally's next turn.</p>"
+              "value": "<p>After the soldier attempts a Strike against a target (regardless of success or failure), the next Strike one of the soldier's allies makes against the same target gains a +2 circumstance bonus to the attack roll. If a Strike with a bonus from coordinated fire hits, the target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of the attacking ally's next turn.</p>"
             },
             "rules": [],
             "slug": null,
@@ -611,7 +611,7 @@
           "system": {
             "description": {
               "gm": "",
-              "value": "<p>The soldier gains a +2 circumstance bonus to damage rolls against @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} targets.</p>"
+              "value": "<p>The soldier gains a +2 circumstance bonus to damage rolls against @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} targets.</p>"
             },
             "rules": [
               {
@@ -1136,7 +1136,7 @@
             "core": {}
           },
           "_stats": {
-            "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.NbZBvTjVNBaIYHCI",
+            "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.NbZBvTjVNBaIYHCI",
             "duplicateSource": null,
             "coreVersion": "13.346",
             "systemId": "sf2e",
@@ -1257,7 +1257,7 @@
         "core": {}
       },
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.creatures.Actor.nRc9uGablgRnBYsY",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-creatures.Actor.nRc9uGablgRnBYsY",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1724,7 +1724,7 @@
             "core": {}
           },
           "_stats": {
-            "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.xbbjgyxVVf61NlWs",
+            "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.xbbjgyxVVf61NlWs",
             "duplicateSource": null,
             "coreVersion": "13.346",
             "systemId": "sf2e",
@@ -1829,7 +1829,7 @@
             "core": {}
           },
           "_stats": {
-            "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
+            "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.z39jwp9Cl3O0QUrZ",
             "duplicateSource": null,
             "coreVersion": "13.346",
             "systemId": "sf2e",
@@ -2315,7 +2315,7 @@
         "core": {}
       },
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.creatures.Actor.qvADbXoMqt3BBYXv",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-creatures.Actor.qvADbXoMqt3BBYXv",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -2853,7 +2853,7 @@
         "core": {}
       },
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.creatures.Actor.iZSG7Xe7TGnIk4BY",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-creatures.Actor.iZSG7Xe7TGnIk4BY",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -3563,7 +3563,7 @@
         "core": {}
       },
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.creatures.Actor.UjEv4frwPcqO2xyi",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-creatures.Actor.UjEv4frwPcqO2xyi",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

@@ -546,7 +546,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/pictol%20snub.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.BYUc6pcKzuZMMQGb",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.BYUc6pcKzuZMMQGb",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -688,7 +688,7 @@
       "folder": "OoVQVkJhSjhIyN7a",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.mpcNkCf0K3es5uJc",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.mpcNkCf0K3es5uJc",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -797,7 +797,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/finp_275_b.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.fDkbtTBKrh5bfQ20",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.fDkbtTBKrh5bfQ20",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -902,7 +902,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1010,7 +1010,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/red%20fire%20furnace.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.VqNXyWsAc76gppgh",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.VqNXyWsAc76gppgh",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1118,7 +1118,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/rocket%20in%20mid%20flight.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.VQiQ9yMgAZ100bo2",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.VQiQ9yMgAZ100bo2",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1226,7 +1226,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/nj_912_b.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.epPPWPTc4W7EfUf2",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.epPPWPTc4W7EfUf2",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

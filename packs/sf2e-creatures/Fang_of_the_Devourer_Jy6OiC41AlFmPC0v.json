@@ -364,7 +364,7 @@
       "img": "icons/weapons/misc/whip-red-yellow.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.F6WAgIMjoocyMUtj",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.F6WAgIMjoocyMUtj",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -473,7 +473,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/finp_275_b.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.fDkbtTBKrh5bfQ20",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.fDkbtTBKrh5bfQ20",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -624,7 +624,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/nj_708_b.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.Xlt3aGpMLg0LJUvn",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.Xlt3aGpMLg0LJUvn",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -729,7 +729,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/blue%20battery.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.NbZBvTjVNBaIYHCI",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.NbZBvTjVNBaIYHCI",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1017,7 +1017,7 @@
         "category": "offensive",
         "deathNote": false,
         "selfEffect": {
-          "uuid": "Compendium.starfinder-field-test-for-sf2e.conditions.Item.mmT4wCspLVjiGnND",
+          "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.mmT4wCspLVjiGnND",
           "name": "Effect: Apocalypse Smite"
         }
       },

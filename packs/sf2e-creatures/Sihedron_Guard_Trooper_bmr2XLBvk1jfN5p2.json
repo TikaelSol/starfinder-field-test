@@ -385,7 +385,7 @@
       "img": "icons/equipment/chest/breastplate-sculpted-green.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.TjqRzpHBljeq1c7k",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.TjqRzpHBljeq1c7k",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -489,7 +489,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20third%20eye.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.PQzhohvBbwZRzbWA",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.PQzhohvBbwZRzbWA",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -633,7 +633,7 @@
       "img": "icons/weapons/guns/gun-topbarrel.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.LGwsaJVECPGvJz0a",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.LGwsaJVECPGvJz0a",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -838,7 +838,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -985,7 +985,7 @@
       "img": "icons/equipment/hand/gauntlet-armored-leather-grey.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.buQx1uSCCv1MVZSK",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.buQx1uSCCv1MVZSK",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1091,7 +1091,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1317,7 +1317,7 @@
           "value": "passive"
         },
         "description": {
-          "value": "<p>After the trooper attempts a Strike against a target (regardless of success or failure), the next Strike one of the trooper's allies makes against the same target gains a +2 circumstance bonus to the attack roll. If a Strike with a bonus from coordinated fire hits, the target becomes @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.enA7BxAjBb7ns1iF]{suppressed} until the end of the attacking ally's next turn.</p>",
+          "value": "<p>After the trooper attempts a Strike against a target (regardless of success or failure), the next Strike one of the trooper's allies makes against the same target gains a +2 circumstance bonus to the attack roll. If a Strike with a bonus from coordinated fire hits, the target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.enA7BxAjBb7ns1iF]{suppressed} until the end of the attacking ally's next turn.</p>",
           "gm": ""
         },
         "publication": {
@@ -1389,7 +1389,7 @@
           "value": "passive"
         },
         "description": {
-          "value": "<p>When the trooper makes a ranged Strike against a target with an AC bonus from lesser or standard cover, they reduce that AC bonus by 1 for that Strike.</p><p>@UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.fO2TefkI6oundpRm]{Effect: Sharpshooter}</p>",
+          "value": "<p>When the trooper makes a ranged Strike against a target with an AC bonus from lesser or standard cover, they reduce that AC bonus by 1 for that Strike.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.fO2TefkI6oundpRm]{Effect: Sharpshooter}</p>",
           "gm": ""
         },
         "publication": {

@@ -473,7 +473,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/rifle%20heavy%20stock.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.iVXp5YJmxysaYSJz",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.iVXp5YJmxysaYSJz",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -962,7 +962,7 @@
       "img": "icons/magic/earth/orb-stone-smoke-teal.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.spells.Item.NtlvrkW23KGGwjp6",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.NtlvrkW23KGGwjp6",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",

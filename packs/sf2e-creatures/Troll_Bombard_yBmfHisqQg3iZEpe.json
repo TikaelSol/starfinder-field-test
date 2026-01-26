@@ -394,7 +394,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/finp_275_b.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.fDkbtTBKrh5bfQ20",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.fDkbtTBKrh5bfQ20",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -502,7 +502,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/grenade%20hand.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.7JKCyVj41pamkNo6",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.7JKCyVj41pamkNo6",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -611,7 +611,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/grenade%20canister.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.Aj4TtlwVRqhUMaFe",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.Aj4TtlwVRqhUMaFe",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -763,7 +763,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/nj_704_b.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.ueUgtt9OM3ay3yCT",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.ueUgtt9OM3ay3yCT",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -862,7 +862,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/abilities/purple%20energy%20thrusters.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.0s7ueohSBmTGVVgI",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.0s7ueohSBmTGVVgI",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -968,7 +968,7 @@
       "folder": "GwujgNN7WkToI8vn",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.eIZRl7uImsG9IUyr",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.eIZRl7uImsG9IUyr",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -1678,7 +1678,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>Creatures who fail their save against a Troll Bombard's Area Fire become @UUID[Compendium.starfinder-field-test-for-sf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of the Troll Bombard's next turn.</p>"
+          "value": "<p>Creatures who fail their save against a Troll Bombard's Area Fire become @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of the Troll Bombard's next turn.</p>"
         },
         "rules": [],
         "slug": null,

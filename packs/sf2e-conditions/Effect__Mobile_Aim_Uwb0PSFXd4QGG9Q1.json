@@ -31,7 +31,7 @@
       },
       {
         "key": "EphemeralEffect",
-        "uuid": "Compendium.starfinder-field-test-for-sf2e.conditions.Item.B8kDmWVlRX1uJb1o",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.B8kDmWVlRX1uJb1o",
         "selectors": [
           "{item|flags.sf2e.rulesSelections.mobileAim}-attack-roll"
         ]

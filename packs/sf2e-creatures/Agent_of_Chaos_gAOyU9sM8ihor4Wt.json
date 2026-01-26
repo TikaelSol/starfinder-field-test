@@ -368,7 +368,7 @@
       "img": "icons/weapons/polearms/spear-simple-hooked-grey.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.jnvg0NRqshhK1uND",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.jnvg0NRqshhK1uND",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -487,7 +487,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/armor/finp_275_b.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.fDkbtTBKrh5bfQ20",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.fDkbtTBKrh5bfQ20",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
@@ -638,7 +638,7 @@
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/pictol%20wrapped.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.starfinder-field-test-for-sf2e.equipment.Item.sOl1WO2NFZ7bb2aF",
+        "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.sOl1WO2NFZ7bb2aF",
         "duplicateSource": null,
         "coreVersion": "13.346",
         "systemId": "sf2e",
