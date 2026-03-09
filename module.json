@@ -403,11 +403,13 @@
   "flags": {
     "starfinder-field-test-for-pf2e": {
       "pf2e-homebrew": {
-        "mechanic": "SF2E.Trait.Mechanic",
-        "technomancer": "SF2E.Trait.Technomancer"
-      },
-      "spellTraits": {
-        "technomancer": "SF2E.Trait.Technomancer"
+        "featTraits": {
+          "mechanic": "SF2E.Trait.Mechanic",
+          "technomancer": "SF2E.Trait.Technomancer"
+        },
+        "spellTraits": {
+          "technomancer": "SF2E.Trait.Technomancer"
+        }
       }
     }
   }
