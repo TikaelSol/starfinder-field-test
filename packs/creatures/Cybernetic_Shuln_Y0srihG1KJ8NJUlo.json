@@ -296,7 +296,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>Any time the shuln scores a critical hit with a melee Strike, one tech item worn or held by the target becomes @UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} for 2 rounds.</p>"
+          "value": "<p>Any time the shuln scores a critical hit with a melee Strike, one tech item worn or held by the target becomes @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} for 2 rounds.</p>"
         },
         "rules": [
           {

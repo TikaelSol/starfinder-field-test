@@ -622,7 +622,7 @@
             "selector": "{item|id}-attack",
             "value": 1,
             "type": "item",
-            "label": "SF2E.Trait.Tracking"
+            "label": "PF2E.TraitTracking"
           }
         ],
         "slug": "screamer",
@@ -950,7 +950,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>Creatures who fail their save against a screamer's Area Fire become @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of the Corpse Fleet screamer's next turn.</p>"
+          "value": "<p>Creatures who fail their save against a screamer's Area Fire become @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the start of the Corpse Fleet screamer's next turn.</p>"
         },
         "rules": [],
         "slug": null,

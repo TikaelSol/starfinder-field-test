@@ -1742,7 +1742,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p><strong>Requirements</strong> The kurshudi's last action this round was an Area Fire with its rocket launcher</p><hr /><p><strong>Effect</strong> The kurshudi chooses one target affected by the Area Fire that failed its save. That target takes an additional @Damage[1d10[persistent,fire]] damage and becomes @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} as long as the persistent damage continues.</p>",
+          "value": "<p><strong>Requirements</strong> The kurshudi's last action this round was an Area Fire with its rocket launcher</p><hr /><p><strong>Effect</strong> The kurshudi chooses one target affected by the Area Fire that failed its save. That target takes an additional @Damage[1d10[persistent,fire]] damage and becomes @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} as long as the persistent damage continues.</p>",
           "gm": ""
         },
         "publication": {

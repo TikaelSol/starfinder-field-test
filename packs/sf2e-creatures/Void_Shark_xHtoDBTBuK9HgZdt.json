@@ -554,7 +554,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>The shark Flies up to half its fly Speed, makes a tail Strike, and then Flies up to half its Speed further. On a hit the target gains the @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.z1ucw4CLwLqHoAp3]{Untethered} condition.</p>"
+          "value": "<p>The shark Flies up to half its fly Speed, makes a tail Strike, and then Flies up to half its Speed further. On a hit the target gains the @UUID[Compendium.sf2e.conditions.Item.z1ucw4CLwLqHoAp3]{Untethered} condition.</p>"
         },
         "rules": [],
         "slug": null,
