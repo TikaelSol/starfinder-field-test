@@ -18,7 +18,23 @@
       "license": "ORC",
       "remaster": true
     },
-    "rules": [],
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:luminary-platform"
+          ]
+        },
+        "flag": "platform",
+        "key": "ChoiceSet",
+        "prompt": "SF2E.SpecificRule.Luminary.Platform.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.platform}"
+      }
+    ],
     "slug": null,
     "traits": {
       "otherTags": [],
@@ -57,9 +73,9 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.360",
+    "coreVersion": "14.361",
     "systemId": "sf2e",
-    "systemVersion": "1.0.3",
+    "systemVersion": "1.1.2",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

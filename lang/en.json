@@ -11,6 +11,9 @@
         },
         "SpecificRule": {
             "Luminary": {
+                "Platform": {
+                    "Prompt": "Select a platform"
+                },
                 "Role": {
                     "action": {
                         "Description": "Creatures with this role gain a +5-status bonus to speed.",
