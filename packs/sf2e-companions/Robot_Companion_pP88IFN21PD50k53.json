@@ -75,20 +75,20 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.sf2e.disableABP",
+        "path": "flags.system.disableABP",
         "value": true,
         "priority": 10
       },
       {
         "key": "ActiveEffectLike",
         "mode": "add",
-        "path": "flags.sf2e.robotCompanion.electricityWeakness",
+        "path": "flags.system.robotCompanion.electricityWeakness",
         "value": "max(1,ceil(@actor.level/2))"
       },
       {
         "key": "Weakness",
         "type": "electricity",
-        "value": "@actor.flags.sf2e.robotCompanion.electricityWeakness"
+        "value": "@actor.flags.system.robotCompanion.electricityWeakness"
       }
     ],
     "slug": "robot-companion",

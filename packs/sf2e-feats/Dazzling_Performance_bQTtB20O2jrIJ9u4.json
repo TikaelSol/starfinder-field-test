@@ -1,0 +1,78 @@
+{
+  "type": "feat",
+  "name": "Dazzling Performance",
+  "folder": "fpu5KGQFcEmjzIj6",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "light",
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per turn</p><hr><p>Some talents shine so brightly that additional roles become a distraction. You become immune to your own roles until the start of your next turn. You [[/act perform]] and create sparkles of light that attempt to counteract a darkness effect using your Performance modifier as the counteract modifier. Compare the results of your Performance check to the Fortitude DC of one creature within the radius of your bright light.</p><hr><p><strong>Critical Success</strong> The creature is @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds.</p><p><strong>Success</strong> The creature is dazzled for 1 round.</p><p><strong>Failure</strong> The creature is unaffected.</p><hr><p><strong>Special</strong> Increase the radius of the light you shed with dazzling performance to 10-feet if you are expert, 20-feet if you are master, and 30-feet if you are legendary in Performance.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "turn"
+    }
+  },
+  "effects": [],
+  "_id": "bQTtB20O2jrIJ9u4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bQTtB20O2jrIJ9u4"
+}

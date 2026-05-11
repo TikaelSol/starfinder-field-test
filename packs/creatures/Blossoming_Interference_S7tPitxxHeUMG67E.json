@@ -29,12 +29,9 @@
       "src": "systems/pf2e/icons/default-icons/hazard.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Blossoming Interference",
@@ -146,7 +144,7 @@
       "disable": "<p>@Check[type:computers|dc:23] (trained) or @Check[type:crafting|dc:23] (trained) to scramble the <em>Bloom's</em> sensors, @Check[type:arcana|dc:23] (trained) or @Check[type:nature|dc:23] (trained) to manipulate the <em>Bloom's</em> magical or natural components, @Check[type:occultism|dc:20] (expert) to psychically bond with the <em>Bloom</em> and urge it to stop its assault (counts as two successes); three total successes are required to disable the trap</p>",
       "description": "<p>The <em>Bloom</em> acts to defend Sample 62, attacking with lashing vines and releasing biopods to heal the monster's wounds.</p>",
       "reset": "<p>Once Sample 62 is defeated, the hazard is disabled and doesn't reset.</p>",
-      "routine": "<p>(3 actions) The trap uses 3 actions, 2 actions to attack PCs on the hull with a vine Strikes (favoring anchored or stable targets over @UUID[Compendium.sf2e-anachronism.conditions.Item.z1ucw4CLwLqHoAp3]{Untethered} targets), and 1 action to bolster Sample 62 with a biopod</p>",
+      "routine": "<p>(3 actions) The trap uses 3 actions, 2 actions to attack PCs on the hull with a vine Strikes (favoring anchored or stable targets over @UUID[Compendium.pf2e.conditionitems.Item.z1ucw4CLwLqHoAp3]{Untethered} targets), and 1 action to bolster Sample 62 with a biopod</p>",
       "publication": {
         "title": "Starfinder Playtest Scenario #2: It Came from the Vast!",
         "authors": "",
@@ -226,7 +224,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -287,7 +285,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -349,7 +347,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -408,7 +406,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -426,7 +424,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

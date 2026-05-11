@@ -61,7 +61,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "{actor|flags.sf2e.companionCompendia.advancedManeuver}"
+        "uuid": "{actor|flags.system.companionCompendia.advancedManeuver}"
       }
     ],
     "slug": "graceful-robot-companion",

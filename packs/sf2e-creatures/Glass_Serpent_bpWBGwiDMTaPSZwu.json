@@ -29,9 +29,6 @@
       "src": "modules/starfinder-field-test-for-pf2e/art/npc-art/tokens/pz09500-25_glass_serpent-t_v2_1-5.webp",
       "scaleX": 1.5,
       "scaleY": 1.5,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -73,7 +70,7 @@
       "negative": false,
       "priority": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": false,
     "occludable": {
       "radius": 0
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Glass Serpent",
@@ -109,6 +107,13 @@
         "temp": 0,
         "max": 85,
         "details": ""
+      },
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
       },
       "speed": {
         "value": 45,
@@ -123,13 +128,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 21,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       }
     },
     "initiative": {
@@ -310,7 +308,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -367,7 +365,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -433,7 +431,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -498,7 +496,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -556,7 +554,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.bestiary-ability-glossary.Item.Tkd8sH4pwFIPzqTr",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -614,7 +612,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -674,7 +672,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.bestiary-ability-glossary.Item.uJSseLa57HZYSMUu",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -689,7 +687,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "sf2e",
     "systemVersion": "7.2.3",
     "exportSource": {

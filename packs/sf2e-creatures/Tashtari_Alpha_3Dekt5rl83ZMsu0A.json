@@ -18,9 +18,6 @@
       "src": "modules/starfinder-field-test-for-pf2e/art/npc-art/tokens/tashtari-t_v2_1-5-no-glow.webp",
       "scaleX": 1.5,
       "scaleY": 1.5,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -73,7 +70,7 @@
       "contrast": 0,
       "color": null
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": false,
     "occludable": {
       "radius": 0
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "name": "Tashtari Alpha",
   "type": "npc",
@@ -113,6 +111,13 @@
         "max": 75,
         "details": ""
       },
+      "ac": {
+        "value": 22,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 35,
         "otherSpeeds": [
@@ -122,13 +127,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 22,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       },
       "resistances": [
         {
@@ -294,7 +292,7 @@
       "_stats": {
         "systemId": "sf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": "Compendium.sf2e.bestiary-ability-glossary.Item.fFu2sZz4KB01fVRc",
         "duplicateSource": null,
         "exportSource": null
@@ -359,7 +357,7 @@
       "_stats": {
         "systemId": "sf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -417,7 +415,7 @@
       "_stats": {
         "systemId": "sf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": "Compendium.sf2e.bestiary-ability-glossary.Item.BCLvAx4Pz4MLa2pu",
         "duplicateSource": null,
         "exportSource": null
@@ -488,7 +486,7 @@
       "_stats": {
         "systemId": "sf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -564,7 +562,7 @@
       "_stats": {
         "systemId": "sf2e",
         "systemVersion": "5.3.0",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -623,7 +621,7 @@
       "_stats": {
         "systemId": "sf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -638,7 +636,7 @@
   "_stats": {
     "systemId": "sf2e",
     "systemVersion": "7.2.3",
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": {

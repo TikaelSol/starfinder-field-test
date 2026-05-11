@@ -1,0 +1,84 @@
+{
+  "type": "spell",
+  "name": "Soliloquy",
+  "folder": "Ngx1usOFMDEiIDoL",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The target begins to soliloquize to the audience about the current situation. Cast Role on the target, unless they are the lead actor. Once per turn, the creature can Perform their internal monologue to gain one of the following effects depending on their role.</p><ul><li><p><strong>Action</strong> (traversal) You gain a +10-foot status bonus to your Speed for 1 round, then Stride.</p></li><li><p><strong>Comedy</strong> (emotion, mental) A creature within 30 feet must attempt a Fortitude saving throw. On a failure, they begin laughing maniacally and become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} on a critical failure).</p></li><li><p><strong>Drama</strong> (emotion, mental) You plant the seeds of tension between you and another creature within 30 feet. The next time either of you would deal damage or restore Hit Points to the other, the damage or healing roll gains a status bonus equal to half your character level.</p></li><li><p><strong>Horror</strong> (emotion, fear, mental) A creature within 30 feet must attempt a Will save. On a failure they become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical failure). Unless it rolls a critical success, it cannot reduce its frightened value below 1 for 1 round.</p></li><li><p><strong>Irony</strong> Make a Strike, and if the Strike's damage would trigger any of its resistances, treat that resistance as weakness instead. The target becomes immune to this effect for 24 hours.</p></li><li><p><strong>Mythology</strong> Make a Strike. If you hit, the target must attempt a Will save. On a failure they become @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round (2 rounds on a critical failure).</p></li><li><p><strong>Romance</strong> (healing, mental) You soliloquize about another creature within 60 feet. The target creature regains a number of Hit Points equal to twice its level.</p></li><li><p><strong>Tragedy</strong> (emotion, mental) A creature within 30 feet must attempt a Will save. On a failure they start to cry and become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 2 rounds (or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} on a critical failure).</p></li><li><p><strong>Lead Actor</strong> Choose any options each time you Perform, even if it doesn't match your role.</p></li></ul><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.DfGcIUlj0sUS7Dlk]{Spell Effect: Soliloquy}</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "linguistic",
+        "luminary"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature with a spotlight"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "effects": [],
+  "_id": "eL2wXbjsNBTnAHXG",
+  "img": "icons/commodities/bones/skull-hollow-brown-red.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "1.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eL2wXbjsNBTnAHXG"
+}

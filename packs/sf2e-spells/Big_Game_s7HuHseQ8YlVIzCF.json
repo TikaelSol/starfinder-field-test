@@ -1,0 +1,110 @@
+{
+  "type": "spell",
+  "name": "Big Game",
+  "folder": "Ngx1usOFMDEiIDoL",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Area</strong> two 10-foot bursts</p><hr><p>You create a facsimile of a sports team that harry and hinder their opponents. These areas are difficult terrain. When you Sustain this spell, you can move the areas up to 20 feet in any direction, and creatures in the affected areas at the end of the movement take 4d6 bludgeoning damage with a basic Fortitude save. The star player is immune to the these effects.</p><hr><p><strong>Heightened (+1)</strong> Increase the damage by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": {
+      "value": 10,
+      "type": "burst"
+    },
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {
+      "DfBZfO13j1B9M63L": {
+        "formula": "4d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "DfBZfO13j1B9M63L": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "effects": [],
+  "_id": "s7HuHseQ8YlVIzCF",
+  "img": "icons/sundries/sports/football-soccer.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "sf2e",
+    "systemVersion": "1.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!s7HuHseQ8YlVIzCF"
+}

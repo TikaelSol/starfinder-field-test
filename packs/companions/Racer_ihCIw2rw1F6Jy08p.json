@@ -43,7 +43,7 @@
       },
       {
         "key": "FlatModifier",
-        "selector": "{item|flags.pf2e.rulesSelections.speed}",
+        "selector": "{item|flags.system.rulesSelections.speed}",
         "value": 10,
         "type": "status"
       },

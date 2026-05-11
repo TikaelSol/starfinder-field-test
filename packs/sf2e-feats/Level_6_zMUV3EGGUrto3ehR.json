@@ -1,0 +1,20 @@
+{
+  "name": "Level 6",
+  "folder": "Plfusj1vwfNpO3fK",
+  "type": "Item",
+  "_id": "zMUV3EGGUrto3ehR",
+  "description": "",
+  "sorting": "a",
+  "sort": 400000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!zMUV3EGGUrto3ehR"
+}

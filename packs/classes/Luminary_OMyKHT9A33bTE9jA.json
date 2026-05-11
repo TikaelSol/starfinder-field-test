@@ -1,0 +1,293 @@
+{
+  "name": "Luminary",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You manipulate and sculpt hardlight to take any shape you can imagine. You can use this ability to bring stories to life, or recreate past events. Your spotlight shines on allies and enemies both, bolstering or hindering them. All the while, you infuse magic into the stagecraft of your chosen platform to direct the stage of battle.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "items": {
+      "uS6f0": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.UCvmxDHFh7NA2SUZ",
+        "img": "icons/magic/light/beam-layered-teal.webp",
+        "name": "Spotlight",
+        "level": 1
+      },
+      "JPmF1": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.IoWwrQNTH9btcgq2",
+        "img": "icons/equipment/head/mask-carved-scream-tan.webp",
+        "name": "Roles",
+        "level": 1
+      },
+      "mnXrd": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.MOHc5OUwGHkMVi76",
+        "img": "icons/magic/defensive/shield-hex-red.webp",
+        "name": "Platform",
+        "level": 1
+      },
+      "YNkzv": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.yJpNPzG5e0SYGqVX",
+        "img": "icons/magic/defensive/shield-hex-gold.webp",
+        "name": "Stagecraft Spells",
+        "level": 1
+      },
+      "qVF4S": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.0a0jbhWfhSLOrrfy",
+        "img": "icons/magic/defensive/shield-hex-blue.webp",
+        "name": "Hardlight Props",
+        "level": 1
+      },
+      "nnaCo": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.k0UPgcJvMpRH7Xk9",
+        "img": "icons/magic/light/projectile-stars-blue.webp",
+        "name": "Star Maker",
+        "level": 3
+      },
+      "SlFSk": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.TcyFiYq4Pd6dJsIl",
+        "img": "systems/pf2e/icons/abilities/alien-mask.webp",
+        "name": "Perception Expertise",
+        "level": 5
+      },
+      "Kl3tI": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.K0q1hno623f8ljTA",
+        "img": "icons/weapons/guns/rifle-energy-purple.webp",
+        "name": "Weapon Expertise",
+        "level": 5
+      },
+      "ozc9Y": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.vgxb9zCsmHPGeIer",
+        "img": "systems/pf2e/icons/abilities/green-stock-market-chart.webp",
+        "name": "Fortitude Expertise",
+        "level": 7
+      },
+      "DJIXR": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.bij77uqIKDTj2yA6",
+        "img": "icons/magic/light/beam-rays-blue-large.webp",
+        "name": "Expert Luminary",
+        "level": 7
+      },
+      "rwf7e": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.CuWlilUgT1MCZcIT",
+        "img": "systems/pf2e/icons/abilities/blue-alien-energy-breath.webp",
+        "name": "Weapon Specialization",
+        "level": 7
+      },
+      "M9L2s": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.Pxp5srz5OPWWCKhp",
+        "img": "icons/magic/light/explosion-star-glow-blue.webp",
+        "name": "Luminary Expertise",
+        "level": 9
+      },
+      "Q8kge": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.f8UT8lynMREv9kav",
+        "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+        "name": "Galactic Superstar",
+        "level": 9
+      },
+      "uDk5Q": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.ii2Q0KF0dLTrDEYo",
+        "img": "systems/pf2e/icons/abilities/blue-target-2.webp",
+        "name": "Perception Mastery",
+        "level": 11
+      },
+      "QLCmE": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Q9psrvRDIjobxOqO",
+        "img": "systems/pf2e/icons/abilities/purple-energy-star.webp",
+        "name": "Resolve",
+        "level": 11
+      },
+      "BPFof": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.vt4e3FdwvI3hNkEf",
+        "img": "systems/pf2e/icons/equipment/armor/vest-blue-heavy.webp",
+        "name": "Armor Expertise",
+        "level": 13
+      },
+      "tch2t": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.oKtLeCj5t6HiSJyK",
+        "img": "icons/magic/movement/abstract-ribbons-red-orange.webp",
+        "name": "Improv Performer",
+        "level": 13
+      },
+      "PQQz6": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.VAwEU7gAry6nAJQt",
+        "img": "systems/pf2e/icons/abilities/blue-laser-beam-rifle.webp",
+        "name": "Weapon Mastery",
+        "level": 13
+      },
+      "Xyx5y": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.NeHbCZ99ss1XEESM",
+        "img": "systems/pf2e/icons/abilities/blue-alien-weapon.webp",
+        "name": "Greater Weapon Specialization",
+        "level": 15
+      },
+      "hhVQH": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.ckV4AMjqPv3a8i1J",
+        "img": "systems/pf2e/icons/abilities/blue-wing-insignia.webp",
+        "name": "Reflex Mastery",
+        "level": 15
+      },
+      "SbgDI": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.DZJ6ufkpyIqanf82",
+        "img": "systems/pf2e/icons/abilities/pink-energy-surrounding-orb.webp",
+        "name": "Greater Resolve",
+        "level": 17
+      },
+      "FydMp": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.bzZxqUzt5sjcbyZa",
+        "img": "systems/pf2e/icons/abilities/alien-eye.webp",
+        "name": "Incredible Senses",
+        "level": 17
+      },
+      "0MCVa": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.SUCKxHb6bUrW7Urm",
+        "img": "icons/magic/light/beam-red-orange.webp",
+        "name": "Luminary Mastery",
+        "level": 17
+      },
+      "X8x2j": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Gs1MRPZ3s3TXwEsX",
+        "img": "systems/pf2e/icons/equipment/armor/vest-green-medium.webp",
+        "name": "Armor Mastery",
+        "level": 19
+      },
+      "vdxQu": {
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.class-features.Item.ATkQQ2c0r1DhDWMx",
+        "img": "icons/magic/light/projectiles-salvo-blue.webp",
+        "name": "Triple Threat",
+        "level": 19
+      }
+    },
+    "keyAbility": {
+      "value": [
+        "cha"
+      ],
+      "selected": null
+    },
+    "hp": 8,
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 2,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "rank": 0,
+        "name": ""
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 1,
+      "heavy": 0
+    },
+    "spellcasting": 1,
+    "trainedSkills": {
+      "value": [
+        "performance"
+      ],
+      "additional": 5
+    },
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "_id": "OMyKHT9A33bTE9jA",
+  "img": "systems/pf2e/icons/default-icons/class.svg",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 200000,
+  "_key": "!items!OMyKHT9A33bTE9jA"
+}

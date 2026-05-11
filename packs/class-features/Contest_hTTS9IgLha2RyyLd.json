@@ -1,0 +1,78 @@
+{
+  "folder": "brSDv5cyqmRwtDQX",
+  "name": "Contest",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Whether it's a trivia contest, vidgame marathon, or a gladiatorial event, you know the most beloved contestants aren't always the ones who score the most points, but those that get the audience rooting for them by being grounded, personable, and a little witty. That said, you also know that success in a contest means having an impressive body of knowledge, and knowing how to apply it in the right situation.</p><p><strong>Platform Skill</strong> Society</p><p><strong>Hardlight Prop</strong> Your hardlight props are usually prizes or part of some game and can be held by other creatures without being destroyed.</p><p><strong>Bonus Feat</strong> You gain the Dark Sarcasm class feat.</p><p><strong>Stagecraft Spells</strong></p><ul><li><p><em>initial:</em> star contestant</p></li><li><p><em>advanced:</em> wheel of superstars</p></li><li><p><em>greater:</em> summon a friend</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.society.rank",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [
+        "luminary-platform"
+      ],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "hTTS9IgLha2RyyLd",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hTTS9IgLha2RyyLd"
+}

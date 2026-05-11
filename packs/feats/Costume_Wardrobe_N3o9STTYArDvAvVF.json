@@ -1,0 +1,73 @@
+{
+  "type": "feat",
+  "name": "Costume Wardrobe",
+  "folder": "NFcgKxmtQUsVswLV",
+  "img": "systems/pf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p>You keep a proverbial wardrobe of costumes ready to summon using your spotlight for just the perfect occasion, including protection against certain enemies. You gain the following role:</p><ul><li><p><strong>Costume:</strong> Creatures with this role gain resistance equal to 2 + your Charisma modifier to any one physical or energy damage type you specify when you used Cast a Role to assign the costume role. This increases to 4 + your Charisma modifier if you are expert in Performance, 6 + your Charisma modifier if you are master in Performance, and 8 + your Charisma modifier if you are Legendary in Performance.</p><p></p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "N3o9STTYArDvAvVF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!N3o9STTYArDvAvVF"
+}

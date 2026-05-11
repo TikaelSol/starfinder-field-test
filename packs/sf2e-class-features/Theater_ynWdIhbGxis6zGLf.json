@@ -1,0 +1,78 @@
+{
+  "folder": "brSDv5cyqmRwtDQX",
+  "name": "Theater",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Whether live theater, a broadcast production, or viral shorts on the infosphere, you know how to draw an audience into your narrative, whether it's a grounded historical piece or a fantastic voyage beyond their imagination.</p><p><strong>Platform Skill</strong> Deception</p><p><strong>Hardlight Prop</strong> Your hardlight props look real unless a creature uses the Seek action to attempt a Perception check against your Spellcasting DC. They still disappear if Interacted with or held by another creature.</p><p><strong>Bonus Feat</strong> You gain the Tragic Protagonist class feat.</p><p><strong>Stagecraft Spells</strong></p><ul><li><p><em>initial:</em> leading actor</p></li><li><p><em>advanced:</em> soliloquy</p></li><li><p><em>greater:</em> final confrontation</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.deception.rank",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [
+        "luminary-platform"
+      ],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/sf2e/icons/equipment/worn-items/other-worn-items/secret-keepers-mask.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ynWdIhbGxis6zGLf",
+  "_key": "!items!ynWdIhbGxis6zGLf"
+}

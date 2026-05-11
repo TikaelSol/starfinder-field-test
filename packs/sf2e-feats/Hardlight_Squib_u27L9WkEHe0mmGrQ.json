@@ -1,0 +1,73 @@
+{
+  "type": "feat",
+  "name": "Hardlight Squib",
+  "folder": "EWHgQOshuKC0JGbQ",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> A creature in the spotlight is critically hit by an attack.</p><hr><p>A tiny burst of hardlight shards causes the target to bleed profusely, often accompanied by a gush of extra fake blood to make the attack look even more devastating. The target takes persistent bleed damage equal to @Damage[(2*@actor.system.skills.performance.rank +@actor.system.abilities.cha.mod)[bleed]]{2 + your Charisma modifier}. This increases to 4 + your Charisma modifier if you are expert in Performance, 6 + your Charisma modifier if you are master in Performance, and 8 + your Charisma modifier if you are Legendary in Performance.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "u27L9WkEHe0mmGrQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!u27L9WkEHe0mmGrQ"
+}

@@ -1,0 +1,84 @@
+{
+  "type": "spell",
+  "name": "Sculpt Hardlight",
+  "folder": "Ngx1usOFMDEiIDoL",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create and shape a solid hardlight structure. You create one Large structures within range in unoccupied squares adjacent to another hardlight structure or a creature in your spotlight; each structure is 10 feet long, 10 feet wide, and 10 feet tall. There must be enough room for a structure in order to construct it. Each structure has AC 10 and is immune to critical hits and precision damage. It has Hardness 6, 30 Hit Points, and a BT of 15. The structure disappears as soon as is Hit Points becomes 0.</p><p>A hardlight structure can be designed to grant cover or lesser cover. Any checks involving the structure, such as a Climb check to scale a portion of it that is not designed to be climbed or an Athletics check to [[/act force-open]] a hardlight door, uses your spell DC, or 15 if the structure is broken.</p><hr><p><strong>Heightened (+1)</strong> You can create up to one additional structure. Increase all structure's Hardness by 2, Hit Points by 10, and BT by 5.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet, see below"
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "10 minutes",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "effects": [],
+  "_id": "3wgr7Q1LeuhuhswS",
+  "img": "icons/magic/defensive/shield-hex-blue.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "sf2e",
+    "systemVersion": "1.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!3wgr7Q1LeuhuhswS"
+}

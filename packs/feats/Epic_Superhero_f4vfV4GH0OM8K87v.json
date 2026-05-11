@@ -1,0 +1,96 @@
+{
+  "type": "feat",
+  "name": "Epic Superhero",
+  "folder": "zukRvD3MOUkv7Os2",
+  "img": "systems/pf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p>One of the easiest ways to propel your stardom is to associate yourself with power, whether you're playing a legendary hero from history or promoting your own modern myth. When you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.o8lqmFexiwcaLpu3]{Set the Spotlight} on yourself, you can @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ttL2TstfSqOyzCd2]{Cast a Role} to apply the epic role to yourself as a free action. As long as you are in a spotlight with the epic role, you can manifest hardlight effects as special attacks, gaining the SFX ranged unarmed attack that deals 1d4 bludgeoning damage with a range increment of 30 feet and the agile trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "range": {
+          "increment": 30
+        },
+        "traits": [
+          "agile",
+          "unarmed"
+        ],
+        "key": "Strike",
+        "slug": "sfx",
+        "label": "SF2E.SpecificRule.EpicSuperhero.SFX",
+        "predicate": [
+          "role:epic"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "f4vfV4GH0OM8K87v",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!f4vfV4GH0OM8K87v"
+}

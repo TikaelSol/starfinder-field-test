@@ -1,0 +1,85 @@
+{
+  "name": "Effect: Spotlight",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.361",
+        "system": "1.1.2"
+      }
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.o8lqmFexiwcaLpu3]{Set the Spotlight}</p><p>You are in the spotlight.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": 1.3,
+          "bright": 1,
+          "coloration": 101,
+          "color": "#e7b80d",
+          "animation": {
+            "intensity": 2,
+            "speed": 1
+          },
+          "luminosity": 0.4
+        }
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "WZTn5onQlTenBGi5",
+  "img": "icons/magic/light/beam-rays-orange-large.webp",
+  "folder": "X2qGhKfQNUcIuWtg",
+  "ownership": {
+    "default": 0,
+    "MDH2xC93qg8cjCcf": 3,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "1.1.2",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 300000,
+  "_key": "!items!WZTn5onQlTenBGi5"
+}

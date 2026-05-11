@@ -1,0 +1,88 @@
+{
+  "type": "spell",
+  "name": "Adoring Fans",
+  "folder": "Ngx1usOFMDEiIDoL",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A mob of hardlight avatars you've constructed to help promote someone appear and begin scrambling to celebrate, following the spotlighted creature. When the spotlight moves to a different creature, the crowd will immediately begin following and move to whoever has the spotlight. The crowd is considered difficult terrain to anyone other than you and the creature the crowd is following. Creatures without a spotlight can [[/act hide]] and [[/act sneak]] inside the crowd. The crowd is not dense enough to provide additional cover or concealment, and the spell is Dismissed if the creature in the spotlight takes any area damage.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aura",
+        "focus",
+        "linguistic",
+        "luminary",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "spotlight"
+    },
+    "area": {
+      "value": 10,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "10 minutes",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "effects": [],
+  "_id": "c2MMIwJtPB6brXhM",
+  "img": "icons/environment/people/group.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "sf2e",
+    "systemVersion": "1.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!c2MMIwJtPB6brXhM"
+}

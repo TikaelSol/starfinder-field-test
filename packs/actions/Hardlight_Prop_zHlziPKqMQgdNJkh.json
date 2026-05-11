@@ -1,0 +1,57 @@
+{
+  "folder": "P5JBCTpLcplt5Wx2",
+  "name": "Hardlight Prop",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You create a simple hardlight object somewhere within 30 feet. Hardlight props always have a bulk of L, can be no larger than a 5-foot cube, and are clearly crude and lacking detail if viewed from within 15 feet. Hardlight props are not worth any credits and lack any function of whatever item they resemble. The prop lasts 1 minute, or until any creature other than you attempts to hold or Interact with it. Each platform grants a different ability to your hardlight prop.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "luminary",
+        "occult"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "zHlziPKqMQgdNJkh",
+  "_key": "!items!zHlziPKqMQgdNJkh"
+}

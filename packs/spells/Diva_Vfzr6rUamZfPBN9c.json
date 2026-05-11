@@ -1,0 +1,102 @@
+{
+  "type": "spell",
+  "name": "Diva",
+  "folder": "Ngx1usOFMDEiIDoL",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You Set a Spotlight on the target that does not move. The creature gains the diva role for the duration of the spell, in addition to their normally assigned role.</p><p>The diva can [[/act perform]] once per turn to restore 1d4 Hit Points to a creature in a spotlight. This has the healing trait and a trait associated with the performance, usually auditory for singing and move for dancing.</p><hr><p><strong>Heightened (+1)</strong> The amount of healing increases by 1d4.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature without a spotlight"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "EF1EtUAFetFgh1SZ": {
+        "formula": "1d4",
+        "kinds": [
+          "healing"
+        ],
+        "type": "untyped",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "EF1EtUAFetFgh1SZ": "1d4"
+      },
+      "area": 0
+    }
+  },
+  "effects": [],
+  "_id": "Vfzr6rUamZfPBN9c",
+  "img": "icons/magic/life/heart-area-circle-red-green.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Vfzr6rUamZfPBN9c"
+}

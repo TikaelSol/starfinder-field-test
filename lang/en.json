@@ -10,6 +10,105 @@
             }
         },
         "SpecificRule": {
+            "Luminary": {
+                "Role": {
+                    "action": {
+                        "Description": "Creatures with this role gain a +5-status bonus to speed.",
+                        "Label": "Action"
+                    },
+                    "chiaroscuro": {
+                        "Addendum": {
+                            "Concealed": "You are no longer concealed",
+                            "Invisible": "If you're invisible, you become concealed instead."
+                        },
+                        "Description": "If the creature with this role was invisible, it becomes concealed instead. If the creature was already concealed for any other reason, it is no longer concealed.",
+                        "Label": "Chiaroscuro"
+                    },
+                    "comedy": {
+                        "Description": "Creatures with this role take a –1 status penalty to Reflex saves.",
+                        "Label": "Comedy"
+                    },
+                    "costume": {
+                        "Description": "Creatures with this role gain resistance equal to 2 + your Charisma modifier to any one physical or energy damage type you specify when you used Cast a Role to assign the costume role. This increases to 4 + your Charisma modifier if you are expert in Performance, 6 + your Charisma modifier if you are master in Performance, and 8 + your Charisma modifier if you are Legendary in Performance.",
+                        "Label": "Costume"
+                    },
+                    "diva": {
+                        "Description": "You can Perform once per turn to restore @Damage[(@item.level)[healing]|traits:healing] Hit Points to a creature in a spotlight. This has the healing trait and a trait associated with the performance, usually auditory for singing and move for dancing",
+                        "Label": "Diva"
+                    },
+                    "drama": {
+                        "Description": "Creatures with this role take a –1 status penalty to Will saves.",
+                        "Label": "Drama"
+                    },
+                    "epic": {
+                        "Description": "Creatures with this role who critically hit with the first Strike they make each round cause their target to become @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.",
+                        "Label": "Epic",
+                        "Note": "If this is your first critical hit with a Strike this round, your target becomes @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round."
+                    },
+                    "horror": {
+                        "Description": "Creatures with this role who critically hit with the first Strike they make each round causes their target to become @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}.",
+                        "Label": "Horror",
+                        "Note": "If this is your first critical hit with a Strike this round, your target becomes @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{Frightened 1}."
+                    },
+                    "irony": {
+                        "Description": "Creatures with this role takes a –2 status penalty to their highest unmodified saving throw and gain a +2 status bonus to their lowest unmodified saving throw.",
+                        "Label": "Irony",
+                        "Prompt": {
+                            "Highest": "Select your highest unmodified saving throw.",
+                            "Lowest": "Select your lowest unmodified saving throw."
+                        }
+                    },
+                    "leadActor": {
+                        "Description": "You gain a +1 status bonus to checks made for actions with the linguistic trait. You can Perform with the linguistic trait to pull a target into a scene for 2 rounds; All creatures pulled into the same scene are @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} to each other.",
+                        "Label": "Lead Actor"
+                    },
+                    "pressure": {
+                        "Description": "Creatures with this role, are off-guard to the first attack made against them each round. If the creature in the spotlight with this role rolls a critical success, they become immune to the effects of this role for 24 hours.",
+                        "Label": "Pressure",
+                        "ToggleLabel": "Pressure — Defending against first attack"
+                    },
+                    "romance": {
+                        "Description": "Creatures take a –1 status penalty to attack and damage rolls against creatures with this role.",
+                        "Label": "Romance"
+                    },
+                    "silent": {
+                        "Description": "Creatures with this role make no sound, preventing other creatures from noticing it using hearing alone. The creature gains resistance to sonic damage equal to 6 + your Charisma modifier, and gains a +2 status bonus to saving throw against effects with the auditory or sonic traits. If the target uses an auditory action, including speaking as a free action, they become immune to this role for 1 round.",
+                        "Label": "Silent"
+                    },
+                    "stagehand": {
+                        "Description": "Creatures with this role are invisible. If the creature uses a move action or takes damage, shimmers and ripples in the role make them hidden instead of undetected until the start of their next turn. If the creature uses a hostile action, the creature becomes immune to this role for 24 hours after that hostile action is completed.",
+                        "Label": "Stagehand",
+                        "Note": {
+                            "Damage": "If you take damage, shimmers and ripples in the role make you @UUID[Compendium.sf2e.conditions.Item.iU0fEDdBp3rXpTMC]{Hidden} instead of @UUID[Compendium.sf2e.conditions.Item.VRSef5y1LmL2Hkjf]{Undetected} until the start of your next turn. If you use a hostile action, you become immune to this role for 24 hours after that hostile action is completed.",
+                            "Move": "If you use a move action, shimmers and ripples in the role make you @UUID[Compendium.sf2e.conditions.Item.iU0fEDdBp3rXpTMC]{Hidden} instead of @UUID[Compendium.sf2e.conditions.Item.VRSef5y1LmL2Hkjf]{Undetected} until the start of your next turn. If you use a hostile action, you become immune to this role for 24 hours after that hostile action is completed."
+                        }
+                    },
+                    "starContestant": {
+                        "Description": "The star contestant can turn their bad luck into a thrilling turnabout. When the star contestant fails a check, it gains a +1 status bonus the next time it attempts the check.",
+                        "Label": "Star Contestant",
+                        "Note": "<p>When the you fail a check, you gain a +1 status bonus the next time you attempt the check.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.gaYFZ3CVdg2gMp1r]{Effect: Star Contestant Bonus}</p>",
+                        "ToggleLabel": "Star Contestant — Attempting failed check again"
+                    },
+                    "starPlayer": {
+                        "Description": "You gain 3 temporary Hit Points for the duration of the spell. The first time each round you target a creature with a Strike, the creature must succeed at a @Check[fortitude] save against the origin's Spell DC or is knocked @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}.",
+                        "Label": "Star Player",
+                        "Note": "The first time each round you target a creature with a Strike, the creature must succeed at a @Check[fortitude] save against the origin's Spell DC or is knocked @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}."
+                    },
+                    "tragedy": {
+                        "Description": "Creatures with this role take a –1 status penalty to Fortitude saves.",
+                        "Label": "Tragedy"
+                    },
+                    "trendsetter": {
+                        "Description": "You can Perform to strike a pose and force a creature within 30 feet to attempt a @Check[reflex] save against the origin's spell DC. On a failure, the creature becomes @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 2 rounds (@UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 2} on a critical failure), as the target becomes forcefully clad in holographic avant-garde fashion.",
+                        "Label": "Trendsetter"
+                    },
+                    "unlucky": {
+                        "Description": "When you Cast a Role with this role, verbally goad the creature into using an attack of your choice, such as jaws or laser pistol. Casting a Role this way gives it the auditory and linguistic traits. The first time each round the creature with this role attempts the chosen attack, they roll the attack roll twice and take the lower result. This is a misfortune effect. If the creature in the spotlight with this role hits with the attack, they become immune to the effects of this role for 24 hours.",
+                        "Label": "Unlucky",
+                        "ToggleLabel": "Unlucky — Using unlucky attack"
+                    }
+                }
+            },
             "Technomancer": {
                 "BoomingBootloader": {
                     "Jailbreak": "One creature of your choice within 10 feet of the creature you summoned must succeed at a Will save against your spell DC or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} (or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} on a critical failure)."
@@ -48,6 +147,7 @@
             }
         },
         "Trait": {
+            "Luminary": "Luminary",
             "Mechanic": "Mechanic",
             "Midwife": "Midwife",
             "Technomancer": "Technomancer"

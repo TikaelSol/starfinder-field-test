@@ -88,7 +88,7 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "path": "flags.system.companionCompendia.advancedManeuver",
         "value": "Compendium.starfinder-field-test-for-pf2e.companions.Item.FLOeCcf1xhwduJKR"
       }
     ],

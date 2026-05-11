@@ -1,0 +1,73 @@
+{
+  "type": "feat",
+  "name": "Quiet on the Set",
+  "folder": "NFcgKxmtQUsVswLV",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p>You understand that silence is often sets a more powerful tone, capturing the audience's attention and directing them to pay attention to the performer's body language. You gain the following new role.</p><ul><li><p><strong>Silent:</strong> Creatures with this role make no sound, preventing other creatures from noticing it using hearing alone. The creature gains resistance to sonic damage equal to 6 + your Charisma modifier, and gains a +2 status bonus to saving throw against effects with the auditory or sonic traits. If the target uses an auditory action, including speaking as a free action, they become immune to this role for 1 round.</p><p></p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "SDSpABHM0y4SSVXM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!SDSpABHM0y4SSVXM"
+}

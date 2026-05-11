@@ -225,7 +225,7 @@
   "_id": "YNtABUYj2Vsm2xEa",
   "img": "systems/sf2e/icons/default-icons/class.svg",
   "folder": null,
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "eUnac0oMbpEwem24": 3
@@ -234,7 +234,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "14.360",
     "systemId": "sf2e",
     "systemVersion": "7.3.1",
     "exportSource": null

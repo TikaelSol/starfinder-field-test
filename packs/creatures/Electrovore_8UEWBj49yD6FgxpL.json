@@ -18,12 +18,9 @@
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Electrovore",
@@ -110,6 +108,13 @@
         "max": 30,
         "details": ""
       },
+      "ac": {
+        "value": 17,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 20,
         "otherSpeeds": [
@@ -119,13 +124,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 17,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       },
       "immunities": [
         {
@@ -285,7 +283,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -349,7 +347,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -415,7 +413,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -428,7 +426,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>The electrovore unleashes a shockwave that deals @Damage[2d6[electricity]] damage to creatures in a @Template[type:emanation|distance:10] (@Check[type:reflex|dc:16] save). It can't use Sudden Discharge again for [[/br 1d4 #Recharge Sudden Discharge]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target takes half damage. Creatures and gear with the tech trait are @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}.</p><p><strong>Failure</strong> The target takes full damage. Creatures and gear with the tech trait are @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2}.</p><p><strong>Critical Failure</strong> The target takes double damage. Creatures and gear with the tech trait are @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 3}.</p>"
+          "value": "<p>The electrovore unleashes a shockwave that deals @Damage[2d6[electricity]] damage to creatures in a @Template[type:emanation|distance:10] (@Check[type:reflex|dc:16] save). It can't use Sudden Discharge again for [[/br 1d4 #Recharge Sudden Discharge]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target takes half damage. Creatures and gear with the tech trait are @UUID[Compendium.pf2e.conditionitems.Item.6A2QDy8wRGCVQsSd]{Glitching 1}.</p><p><strong>Failure</strong> The target takes full damage. Creatures and gear with the tech trait are @UUID[Compendium.pf2e.conditionitems.Item.6A2QDy8wRGCVQsSd]{Glitching 2}.</p><p><strong>Critical Failure</strong> The target takes double damage. Creatures and gear with the tech trait are @UUID[Compendium.pf2e.conditionitems.Item.6A2QDy8wRGCVQsSd]{Glitching 3}.</p>"
         },
         "rules": [],
         "slug": null,
@@ -474,7 +472,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -486,7 +484,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

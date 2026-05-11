@@ -1,0 +1,77 @@
+{
+  "type": "feat",
+  "name": "Clear the Frame",
+  "folder": "RE3JEpImOKZUl6K7",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 18
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Trigger</strong> A creature you're aware of critically succeeds on a Strike against you.</p><p><strong>Requirements</strong> You are in your spotlight.</p><hr><p>You overload your spotlight, parrying the attack before the light goes off. You Dismiss the spotlight you are under, and the result of the triggering Strike becomes a success instead of a critical success. If the triggering creature was also under a spotlight, you can Dismiss their spotlight and your own to make the attack a failure.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "effects": [],
+  "_id": "5BDhNUSNrAZ1GnTv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5BDhNUSNrAZ1GnTv"
+}

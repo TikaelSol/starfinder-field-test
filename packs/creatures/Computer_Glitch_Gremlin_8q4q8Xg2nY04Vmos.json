@@ -18,9 +18,6 @@
       "src": "modules/starfinder-field-test-for-pf2e/art/npc-art/tokens/computer_glitch_gremlin-t_v2.webp",
       "scaleX": 1.5,
       "scaleY": 1.5,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -73,7 +70,7 @@
       "contrast": 0,
       "color": null
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": false,
     "occludable": {
       "radius": 0
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "name": "Computer Glitch Gremlin",
   "type": "npc",
@@ -113,6 +111,13 @@
         "max": 8,
         "details": ""
       },
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 20,
         "otherSpeeds": [
@@ -122,13 +127,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 14,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       },
       "weaknesses": [
         {
@@ -311,7 +309,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -369,7 +367,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": "Compendium.world.starfinder-2e-bestiary-ability-glossary.Item.ptTZxiNqtUYtmxqd",
         "duplicateSource": null,
         "exportSource": null
@@ -431,7 +429,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": "Compendium.world.starfinder-2e-bestiary-ability-glossary.Item.3D7Pa17Ygasm9Yf6",
         "duplicateSource": null,
         "exportSource": null
@@ -446,7 +444,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>Creatures and items with the tech trait within a @Template[distance:20|type:emanation] of the glitch gremlin struggle to function reliably. Creatures with the tech trait, unattended items with the tech trait, or creatures holding equipment with the tech trait that start their turn in the aura must attempt a @Check[type:will|dc:16] save.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect and the creature or item is temporarily immune to the gremlin's glitch aura for 1 minute.</p>\n<p><strong>Success</strong> The creature or items are unaffected.</p>\n<p><strong>Failure</strong> The creature, item, or all the creature's held items become @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}.</p>\n<p><strong>Critical Failure</strong> The creature, item, or all the creature's held items become @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2}.</p>"
+          "value": "<p>Creatures and items with the tech trait within a @Template[distance:20|type:emanation] of the glitch gremlin struggle to function reliably. Creatures with the tech trait, unattended items with the tech trait, or creatures holding equipment with the tech trait that start their turn in the aura must attempt a @Check[type:will|dc:16] save.</p>\n<hr />\n<p><strong>Critical Success</strong> No effect and the creature or item is temporarily immune to the gremlin's glitch aura for 1 minute.</p>\n<p><strong>Success</strong> The creature or items are unaffected.</p>\n<p><strong>Failure</strong> The creature, item, or all the creature's held items become @UUID[Compendium.pf2e.conditionitems.Item.6A2QDy8wRGCVQsSd]{Glitching 1}.</p>\n<p><strong>Critical Failure</strong> The creature, item, or all the creature's held items become @UUID[Compendium.pf2e.conditionitems.Item.6A2QDy8wRGCVQsSd]{Glitching 2}.</p>"
         },
         "rules": [],
         "slug": null,
@@ -492,7 +490,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.3.0",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -558,7 +556,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -625,7 +623,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -762,7 +760,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -874,7 +872,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf",
         "duplicateSource": null,
         "exportSource": null
@@ -999,7 +997,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.zDJS8E66UI0himqV",
         "duplicateSource": null,
         "exportSource": null
@@ -1088,7 +1086,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI",
         "duplicateSource": null,
         "exportSource": null
@@ -1171,7 +1169,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -1252,7 +1250,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null
@@ -1310,8 +1308,8 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.2.3",
-        "coreVersion": "13.346",
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.fFu2sZz4KB01fVRc",
+        "coreVersion": "14.360",
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary.Item.fFu2sZz4KB01fVRc",
         "duplicateSource": null,
         "exportSource": null
       },
@@ -1326,7 +1324,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": {

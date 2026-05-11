@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>You are adept at learning and writing new code. You gain the @UUID[Compendium.pf2e.feats-srd.Item.v7Bt6hjmzYnLFLeG]{Magical Shorthand} skill feat without needing to meet its prerequisites. Further, when you roll a critical failure on your check to Learn a Spell, you get a failure instead.</p>",
+      "value": "<p>You are adept at learning and writing new code. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.feats.Item.brgFUH6vHVkSbyrX]{Magical Shorthand} skill feat without needing to meet its prerequisites. Further, when you roll a critical failure on your check to Learn a Spell, you get a failure instead.</p>",
       "gm": ""
     },
     "publication": {
@@ -69,9 +69,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3",
+    "systemVersion": "0.0.3",
     "exportSource": null
   },
   "_key": "!items!qGyNgs8gCbHefO8Q"

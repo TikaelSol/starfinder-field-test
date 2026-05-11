@@ -6,8 +6,8 @@
   "download": "https://github.com/TikaelSol/starfinder-field-test/releases/latest/download/module.zip",
   "version": "dev",
   "compatibility": {
-    "minimum": "13",
-    "verified": "13"
+    "minimum": "14",
+    "verified": "14"
   },
   "relationships": {
     "systems": [
@@ -16,7 +16,7 @@
         "type": "system",
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
-          "minimum": "7.3"
+          "minimum": "8.0"
         }
       },
       {
@@ -24,7 +24,7 @@
         "type": "system",
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
-          "minimum": "0.0.3"
+          "minimum": "1.0.0"
         }
       }
     ],
@@ -34,8 +34,8 @@
         "type": "module",
         "manifest": "https://github.com/TikaelSol/sf2e-anachronism/releases/latest/download/module.json",
         "compatibility": {
-          "minimum": "0.9",
-          "verified": "0.9"
+          "minimum": "2.0",
+          "verified": "2.0"
         }
       }
     ]
@@ -402,11 +402,18 @@
   "flags": {
     "starfinder-field-test-for-pf2e": {
       "pf2e-homebrew": {
+        "classTraits": {
+          "luminary": "SF2E.Trait.Luminary",
+          "mechanic": "SF2E.Trait.Mechanic",
+          "technomancer": "SF2E.Trait.Technomancer"
+        },
         "featTraits": {
+          "luminary": "SF2E.Trait.Luminary",
           "mechanic": "SF2E.Trait.Mechanic",
           "technomancer": "SF2E.Trait.Technomancer"
         },
         "spellTraits": {
+          "luminary": "SF2E.Trait.Luminary",
           "technomancer": "SF2E.Trait.Technomancer"
         }
       }

@@ -1,0 +1,74 @@
+{
+  "folder": "jWJTyN82IVwQMOnh",
+  "name": "Roles",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>A role is a special effect applied to a creature in your spotlight. You can assign different roles to specific creatures to help highlight specific themes they fill in your production. You begin play knowing the basic roles listed below. During your daily preparations, you can also assign specific roles to yourself and up to six specific allies. You can learn additional roles with feats. Stagecraft spells apply special roles that are assigned when the stagecraft spell is cast. You can also assign a role spontaneously using the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ttL2TstfSqOyzCd2]{Cast Role} action, which overrides any existing roles they have already been assigned.</p><hr><p>Visual effects that help highlight a character's role in a performance are called roles. The following roles are some of the most commonly recognized in popular media, but many luminaries change the visual details of their roles to more closely match their vision.</p><ul><li><p><strong>Action:</strong> Creatures with this role gain a +5-status bonus to speed.</p></li><li><p><strong>Comedy:</strong> Creatures with this role take a –1 status penalty to Reflex saves.</p></li><li><p><strong>Drama:</strong> Creatures with this role take a –1 status penalty to Will saves.</p></li><li><p><strong>Epic:</strong> Creatures with this role who critically hit with the first Strike they make each round cause their target to become @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p></li><li><p><strong>Horror:</strong> Creatures with this role who critically hit with the first Strike they make each round causes their target to become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p></li><li><p><strong>Irony:</strong> Creatures with this role takes a –2 status penalty to their highest unmodified saving throw and gain a +2 status bonus to their lowest unmodified saving throw.</p></li><li><p><strong>Romance:</strong> Creatures take a –1 status penalty to attack and damage rolls against creatures with this role.</p></li><li><p><strong>Tragedy:</strong> Creatures with this role take a –1 status penalty to Fortitude saves.</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.ttL2TstfSqOyzCd2"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/equipment/head/mask-carved-scream-tan.webp",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "1.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "IoWwrQNTH9btcgq2",
+  "_key": "!items!IoWwrQNTH9btcgq2"
+}

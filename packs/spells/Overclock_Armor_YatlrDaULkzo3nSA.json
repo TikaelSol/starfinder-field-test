@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You infuse your armor with magical energy to bolster your defense. You materialize a shimmering layer of energy encasing your armor that functions as a @UUID[Compendium.sf2e-anachronism.equipment.Item.2637b5l0hxitACkR]{superior force field}. You then become immune to overclock armor for 10 minutes.</p><hr /><p><strong>Heightened (7th)</strong> The energy functions as an @UUID[Compendium.sf2e-anachronism.equipment.Item.YZjmnoJD64oLMQ7q]{elite force field} instead.</p><p><strong>Heightened (9th)</strong> The energy functions as an @UUID[Compendium.sf2e-anachronism.equipment.Item.6hunzJ4gwfNT58vl]{ultimate force field} instead.</p>"
+      "value": "<p>You infuse your armor with magical energy to bolster your defense. You materialize a shimmering layer of energy encasing your armor that functions as a @UUID[Compendium.pf2e.equipment-srd.Item.2637b5l0hxitACkR]{superior force field}. You then become immune to overclock armor for 10 minutes.</p><hr /><p><strong>Heightened (7th)</strong> The energy functions as an @UUID[Compendium.pf2e.equipment-srd.Item.YZjmnoJD64oLMQ7q]{elite force field} instead.</p><p><strong>Heightened (9th)</strong> The energy functions as an @UUID[Compendium.pf2e.equipment-srd.Item.6hunzJ4gwfNT58vl]{ultimate force field} instead.</p>"
     },
     "rules": [],
     "slug": "overclock-armor",

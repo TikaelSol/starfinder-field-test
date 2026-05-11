@@ -1,0 +1,83 @@
+{
+  "type": "feat",
+  "name": "On the Air",
+  "folder": "zMUV3EGGUrto3ehR",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary",
+        "occult"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p>You can lift yourself with your headlight spotlight, either using a prop to look like you're on a hoverboard-like vehicle, spontaneously growing wings, or just soaring like a powerful spellcaster. As long as you are in your spotlight, you gain a Fly speed equal to your base speed and your base speed gains the hover trait. If you lose the spotlight you begin to fall at the start of your next turn unless your first action is to @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.o8lqmFexiwcaLpu3]{Set the Spotlight} on yourself.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "predicate": [
+          "self:effect:spotlight"
+        ],
+        "selector": "fly",
+        "value": "@actor.system.movement.speeds.land.value"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "genuX406eIHNw3Lw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!genuX406eIHNw3Lw"
+}

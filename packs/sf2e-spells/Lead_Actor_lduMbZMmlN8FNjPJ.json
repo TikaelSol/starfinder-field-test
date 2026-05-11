@@ -1,0 +1,83 @@
+{
+  "type": "spell",
+  "name": "Lead Actor",
+  "folder": "Ngx1usOFMDEiIDoL",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.o8lqmFexiwcaLpu3]{Set a Spotlight} on the target that does not move. The creature gains the lead actor role for the duration of the spell, in addition to their normally assigned role.</p><p>The lead actor gains a +1 status bonus to checks made for actions with the linguistic trait. The lead actor can @UUID[Compendium.sf2e.actions.Item.EEDElIyin4z60PXx]{Perform} with the linguistics trait to pull a target into a scene for 2 rounds; All creatures pulled into the same scene are @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} to each other.</p><hr><p><strong>Heightened (4th)</strong> The lead actor can pull an additional creature into their scene each time they Perform.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature without a spotlight"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "effects": [],
+  "_id": "lduMbZMmlN8FNjPJ",
+  "img": "icons/magic/light/circle-window-clock-blue.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "sf2e",
+    "systemVersion": "1.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!lduMbZMmlN8FNjPJ"
+}
