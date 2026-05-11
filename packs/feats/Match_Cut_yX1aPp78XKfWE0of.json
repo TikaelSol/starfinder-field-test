@@ -1,0 +1,73 @@
+{
+  "type": "feat",
+  "name": "Match Cut",
+  "folder": "fpu5KGQFcEmjzIj6",
+  "img": "systems/pf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p>You play out a fast-paced action sequence that highlights both participants. @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.o8lqmFexiwcaLpu3]{Set the Spotlight} on both yourself and another creature at the same time, and then Strike that creature. If you hit, the target loses the spotlight set by Match Cut; if you miss, you lose the spotlight set by Match Cut.</p><hr><p><strong>Special</strong> If you have a second spotlight created by a stagecraft spell when you use this feat, you may apply the effects of that spotlight to one of the two creatures, but after the attack resolves the remaining spotlight only applies the role that is normally assigned to them.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "yX1aPp78XKfWE0of",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yX1aPp78XKfWE0of"
+}

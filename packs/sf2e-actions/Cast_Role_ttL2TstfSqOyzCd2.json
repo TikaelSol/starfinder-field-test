@@ -1,0 +1,56 @@
+{
+  "folder": "P5JBCTpLcplt5Wx2",
+  "name": "Cast Role",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Assign a role you know to yourself or a specific creature you can observe. The creature gains the effect of the assigned role as long as it is in your spotlight.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.vYCY3uEYojvomVFi]{Effect: Role}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "luminary"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/sf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "sf2e",
+    "systemVersion": "1.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ttL2TstfSqOyzCd2",
+  "_key": "!items!ttL2TstfSqOyzCd2"
+}

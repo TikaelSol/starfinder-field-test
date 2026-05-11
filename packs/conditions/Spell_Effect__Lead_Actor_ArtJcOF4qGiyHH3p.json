@@ -1,0 +1,77 @@
+{
+  "folder": "X2qGhKfQNUcIuWtg",
+  "name": "Spell Effect: Lead Actor",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.lduMbZMmlN8FNjPJ]{Lead Actor}</p><p>You gain a +1 status bonus to actions with the linguistic trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "skill-check"
+        ],
+        "value": 1,
+        "type": "status",
+        "predicate": [
+          "item:trait:linguistic"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "ArtJcOF4qGiyHH3p",
+  "img": "icons/magic/light/circle-window-clock-blue.webp",
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "1.1.2",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 400000,
+  "_key": "!items!ArtJcOF4qGiyHH3p"
+}

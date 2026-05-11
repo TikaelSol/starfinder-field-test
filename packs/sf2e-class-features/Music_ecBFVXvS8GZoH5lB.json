@@ -1,0 +1,78 @@
+{
+  "folder": "brSDv5cyqmRwtDQX",
+  "name": "Music",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Music and magic have been inextricably linked since ancient times, and you continue the tradition of entwining those two resonant elements to inspire and astound audiences across the galaxy.</p><p><strong>Platform Skill</strong> Diplomacy</p><p><strong>Hardlight Prop</strong> Your hardlight props can create sound and function as an instrument.</p><p><strong>Bonus Feat</strong> You gain the Sparkling Performance class feat, ignoring its level prerequisite.</p><p><strong>Stagecraft Spells</strong></p><ul><li><p><em>initial:</em> diva</p></li><li><p><em>advanced:</em> starsong recital</p></li><li><p><em>greater:</em> grand crescendo</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.diplomacy.rank",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [
+        "luminary-platform"
+      ],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/sonic/bell-alarm-red-purple.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "ecBFVXvS8GZoH5lB",
+  "_key": "!items!ecBFVXvS8GZoH5lB"
+}

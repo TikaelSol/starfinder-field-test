@@ -1,0 +1,77 @@
+{
+  "type": "feat",
+  "name": "Cross-Platform Synergy",
+  "folder": "pTsQ05W1eZMR9Odz",
+  "img": "systems/pf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p>You've learned how to apply more of another platform's strengths to enhance your own performances. You learn the advanced stagecraft spell of the platform that grants training in the prerequisite platform skill.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "master in a platform skill for a platform that you've learned the initial epiphany for and that isn't your chosen platform."
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "fsiUxbPhac5VAWML",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!fsiUxbPhac5VAWML"
+}

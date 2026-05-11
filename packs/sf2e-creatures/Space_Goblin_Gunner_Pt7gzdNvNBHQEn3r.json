@@ -18,12 +18,9 @@
       "src": "systems/sf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Space Goblin Gunner",
@@ -110,17 +108,17 @@
         "max": 6,
         "details": ""
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 16,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       }
     },
     "initiative": {
@@ -277,7 +275,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -346,7 +344,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -403,7 +401,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -506,9 +504,11 @@
         },
         "range": 30,
         "expend": 1,
+        "ammo": null,
         "reload": {
           "value": "1"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -539,7 +539,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.OD87p5YQi7591pwW",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -636,15 +636,15 @@
         "usage": {
           "value": "other"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -746,15 +746,15 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/grenade%20canister.webp",
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.OL5KQFxrMrSm3us0",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -850,6 +850,7 @@
         "dexCap": 1,
         "checkPenalty": -2,
         "speedPenalty": -5,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -863,7 +864,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.fDkbtTBKrh5bfQ20",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -882,7 +883,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "sf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

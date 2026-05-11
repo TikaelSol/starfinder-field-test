@@ -29,12 +29,9 @@
       "src": "systems/sf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "type": "npc",
   "folder": null,
@@ -110,17 +108,17 @@
         "max": 190,
         "details": ""
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 28,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       }
     },
     "initiative": {
@@ -341,9 +339,11 @@
         },
         "range": 60,
         "expend": 1,
+        "ammo": null,
         "reload": {
           "value": "1"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -374,7 +374,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.LGwsaJVECPGvJz0a",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -475,7 +475,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.Vyid3kqvnFB1KTet",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -572,15 +572,15 @@
         "usage": {
           "value": "other"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/blue%20battery.webp",
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.NbZBvTjVNBaIYHCI",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -677,6 +677,7 @@
         "dexCap": 2,
         "checkPenalty": -2,
         "speedPenalty": -5,
+        "grade": null,
         "runes": {
           "potency": 1,
           "resilient": 1,
@@ -690,7 +691,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.XRZEHaueju0A2EMr",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -794,7 +795,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.PQzhohvBbwZRzbWA",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -891,7 +892,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.equipment.Item.3obTVPkQ5mGwXJat",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -987,7 +988,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1046,7 +1047,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1110,7 +1111,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1176,7 +1177,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1362,7 +1363,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1473,7 +1474,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.xS4bqHnbodCwjpqI",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1590,7 +1591,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.3cJCpZtUy3Gd6TFP",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1696,7 +1697,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.mYCwqoRRkCEjPIl8",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1781,7 +1782,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.FXIhLIMgi0QDTr3w",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1895,7 +1896,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.GB1RVtoFPwyH1B9G",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1980,7 +1981,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.SbBqa1HStMrV47fb",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2084,7 +2085,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.soIbLojIZyKRhyA8",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2174,7 +2175,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.gpzpAAAJ1Lza2JVl",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2332,7 +2333,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.ITK4ZWoYq5oSOTRM",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2418,7 +2419,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.RH9ZY9BSIa38M1Hk",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2481,7 +2482,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2555,7 +2556,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2567,7 +2568,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "sf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

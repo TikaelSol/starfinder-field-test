@@ -1,0 +1,58 @@
+{
+  "folder": "P5JBCTpLcplt5Wx2",
+  "name": "Set the Spotlight",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Activate and move your spotlight to follow a creature within 120 feet. If a creature in the spotlight targets or becomes the target of an attack or an activity that uses two or more actions, you can Set the Spotlight the spotlight to the other creature as a free action. The spotlight ends if the spotlight stays on the same creature from the start of its turn until the end of its next turn.</p><p>While spotlighted, a creature gains the effects of the role assigned to it.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.WZTn5onQlTenBGi5]{Effect: Spotlight}</p><hr><p><strong>Special</strong> In addition to the above usage, you can also Set the Spotlight as a free action when you roll initiative.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "light",
+        "luminary",
+        "occult"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "_id": "o8lqmFexiwcaLpu3",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "1.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!o8lqmFexiwcaLpu3"
+}

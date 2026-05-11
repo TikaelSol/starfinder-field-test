@@ -1,0 +1,86 @@
+{
+  "type": "spell",
+  "name": "Vogue Catwalk",
+  "folder": "Ngx1usOFMDEiIDoL",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When a spotlighted creature is in the area Casts a Spell, Performs, or Strikes, it can Stride up to half its Speed (this is a traversal effect) as a free action after the action resolves. If the creature is the trendsetter, they can Stride up to their speed instead. A creature can Stride in this way once per turn. A creature that moves outside of the area becomes @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": {
+      "value": 30,
+      "type": "line"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "effects": [],
+  "_id": "c9kQaXJETPouyN4U",
+  "img": "icons/magic/light/beam-explosion-pink-purple.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!c9kQaXJETPouyN4U"
+}

@@ -1,0 +1,75 @@
+{
+  "folder": "X2qGhKfQNUcIuWtg",
+  "name": "Spell Effect: Grand Slam",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.jmkfcrtEDx2DrzNH]{Grand Slam}</p><p>You gain a +2 status bonus to your next strike.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "strike-attack-roll"
+        ],
+        "value": 2,
+        "type": "status",
+        "removeAfterRoll": true
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/sundries/sports/baseball.webp",
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "sf2e",
+    "systemVersion": "1.1.2",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "bhw5P73WTea3xcjM",
+  "sort": 600000,
+  "_key": "!items!bhw5P73WTea3xcjM"
+}

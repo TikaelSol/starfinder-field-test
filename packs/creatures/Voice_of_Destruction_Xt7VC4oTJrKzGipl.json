@@ -29,12 +29,9 @@
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "type": "npc",
   "folder": null,
@@ -110,17 +108,17 @@
         "max": 115,
         "details": ""
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 24,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       }
     },
     "initiative": {
@@ -337,9 +335,11 @@
         },
         "range": 30,
         "expend": 2,
+        "ammo": null,
         "reload": {
           "value": "1"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -370,7 +370,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.W2tPhNcraKf1IrMI",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -467,15 +467,15 @@
         "usage": {
           "value": "other"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/blue%20battery.webp",
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.NbZBvTjVNBaIYHCI",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -595,9 +595,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": null
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -628,7 +630,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.HMaWUdb1F8EFthjG",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -724,6 +726,7 @@
         "dexCap": 4,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 1,
           "resilient": 1,
@@ -747,7 +750,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.w27SAKP67PcGSim4",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -824,7 +827,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -895,7 +898,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -952,7 +955,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1085,7 +1088,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1192,7 +1195,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.YK7tR3Rn9RF8rwag",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1279,9 +1282,9 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.s6J1Q0e28Gb42epQ",
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.s6J1Q0e28Gb42epQ",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1366,7 +1369,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1586,7 +1589,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1721,7 +1724,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.3x6eUCm17n6ROzUa",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1849,7 +1852,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.7GPrc67AdaJFAFWm",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1940,7 +1943,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.sUyKlISvDwTaJ8pg",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2039,7 +2042,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.mUJmBhVFEnVRruyt",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2150,7 +2153,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2235,7 +2238,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.d7Lwx6KAs47MtF0q",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2349,7 +2352,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.Yrn3lrjodiklt7l3",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2438,7 +2441,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2551,7 +2554,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2664,7 +2667,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.n33Jd5EBmVvnNL2O",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2686,7 +2689,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>You cause the target comm unit to play a cosmically composed personal theme song specific to its owner. The creature who owns the target regains 1d8+4 Hit Points when you Cast the Spell and a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects for the duration, as long as the comm unit continues to play the ringtone. Creatures beginning their turn adjacent to an ally with an active ringtone gain the status bonus to Speeds and bonus to saves until the start of their next turn.</p><p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.NmhqKZyMgQSHbyHj]{Spell Effect: Motivating Ringtone}</p><hr /><p><strong>Heightened (+1)</strong> The amount of healing increases by 1d8+4.</p>"
+          "value": "<p>You cause the target comm unit to play a cosmically composed personal theme song specific to its owner. The creature who owns the target regains 1d8+4 Hit Points when you Cast the Spell and a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects for the duration, as long as the comm unit continues to play the ringtone. Creatures beginning their turn adjacent to an ally with an active ringtone gain the status bonus to Speeds and bonus to saves until the start of their next turn.</p><p>@UUID[Compendium.pf2e.spell-effects.Item.NmhqKZyMgQSHbyHj]{Spell Effect: Motivating Ringtone}</p><hr /><p><strong>Heightened (+1)</strong> The amount of healing increases by 1d8+4.</p>"
         },
         "rules": [],
         "slug": "motivating-ringtone",
@@ -2771,9 +2774,9 @@
       "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8",
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.5ZZca1GGJs44OxC8",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2877,7 +2880,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.soIbLojIZyKRhyA8",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2971,9 +2974,9 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.qOLMHvkAGsVYLhtn",
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.qOLMHvkAGsVYLhtn",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -3080,7 +3083,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.CLGyt6l3ESlOJm4l",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -3236,7 +3239,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.ITK4ZWoYq5oSOTRM",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -3321,7 +3324,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -3392,7 +3395,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -3404,7 +3407,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

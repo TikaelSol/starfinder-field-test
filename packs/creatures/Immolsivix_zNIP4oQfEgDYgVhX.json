@@ -29,12 +29,9 @@
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "type": "npc",
   "folder": null,
@@ -110,17 +108,17 @@
         "max": 270,
         "details": ""
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 32,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       },
       "immunities": [
         {
@@ -309,7 +307,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -380,7 +378,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -437,7 +435,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -504,7 +502,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -576,7 +574,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -621,9 +619,9 @@
       },
       "type": "action",
       "_stats": {
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr",
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary.Item.Tkd8sH4pwFIPzqTr",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -691,7 +689,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -748,7 +746,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -763,7 +761,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p>The immolsivix makes a jaws melee Strike followed by two claw melee Strikes. The claw attacks happen simultaneously and must target the same creature, using the same multiple attack penalty for both attacks. The immolsivix can then Area Fire with its fungal bomb, but all creatures in the area gain a +2 circumstance bonus to their saves. A creature hit by any of the Strikes, or who fail their save against the Area Fire, becomes @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of their next turn.</p>",
+          "value": "<p>The immolsivix makes a jaws melee Strike followed by two claw melee Strikes. The claw attacks happen simultaneously and must target the same creature, using the same multiple attack penalty for both attacks. The immolsivix can then Area Fire with its fungal bomb, but all creatures in the area gain a +2 circumstance bonus to their saves. A creature hit by any of the Strikes, or who fail their save against the Area Fire, becomes @UUID[Compendium.pf2e.conditionitems.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of their next turn.</p>",
           "gm": ""
         },
         "publication": {
@@ -805,7 +803,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -817,7 +815,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

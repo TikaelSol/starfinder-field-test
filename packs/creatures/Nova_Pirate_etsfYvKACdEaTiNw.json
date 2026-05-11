@@ -22,12 +22,9 @@
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -78,7 +75,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -103,7 +100,8 @@
     "movementAction": null,
     "randomImg": false,
     "appendNumber": false,
-    "prependAdjective": false
+    "prependAdjective": false,
+    "depth": 1
   },
   "effects": [],
   "system": {
@@ -114,17 +112,17 @@
         "max": 8,
         "details": ""
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 14,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       }
     },
     "initiative": {
@@ -326,9 +324,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": null
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -360,7 +360,7 @@
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.vq4W4iN2SBH44gJW",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "7.2.0"
       },
@@ -457,8 +457,8 @@
         "usage": {
           "value": "other"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
       "flags": {},
@@ -466,7 +466,7 @@
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "7.2.0"
       },
@@ -574,9 +574,11 @@
         },
         "range": 40,
         "expend": 2,
+        "ammo": null,
         "reload": {
           "value": "1"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -608,7 +610,7 @@
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.Xlt3aGpMLg0LJUvn",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "7.2.0"
       },
@@ -707,6 +709,7 @@
         "dexCap": 3,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -721,7 +724,7 @@
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.Vt0uY8idmN7sapv4",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "7.2.0"
       },
@@ -742,7 +745,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi]{Area Fire}</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deals @Damage[1d8[piercing]] piercing damage in a @Template[type:burst|distance:5] with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save.</p><p><strong>Critical</strong> @Damage[1[persistent,bleed]] damage</p>"
+          "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.pf2e.actionspf2e.Item.oc0ZKnk5zD0GXqZi]{Area Fire}</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deals @Damage[1d8[piercing]] piercing damage in a @Template[type:burst|distance:5] with a @Check[type:reflex|dc:resolve(@actor.system.attributes.classDC.value)|basic:true] save.</p><p><strong>Critical</strong> @Damage[1[persistent,bleed]] damage</p>"
         },
         "rules": [],
         "slug": "frag-grenade-commercial",
@@ -820,8 +823,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/weapons/grenade%20hand.webp",
       "flags": {},
@@ -829,7 +832,7 @@
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.P1ZlvQaS76dFhs93",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "7.2.0"
       },
@@ -915,7 +918,7 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.5Ew82vBF9YfaiY9f",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "7.2.0"
       },
@@ -994,7 +997,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "7.2.0"
       },
@@ -1065,7 +1068,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "7.2.0"
       },
@@ -1122,7 +1125,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "7.2.0"
       },
@@ -1135,7 +1138,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3"
   },

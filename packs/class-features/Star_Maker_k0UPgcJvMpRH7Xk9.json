@@ -1,0 +1,80 @@
+{
+  "folder": "jWJTyN82IVwQMOnh",
+  "name": "Star Maker",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You have an eye for spotting and highlighting talent in your performances. You gain expert proficiency in Performance. You can @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.o8lqmFexiwcaLpu3]{Set a Spotlight} as an exploration activity, which remains on a willing creature for as long as you continue the exploration activity. If you Set the Spotlight on yourself when you roll initiative, you can use Performance for your initiative roll. You gain the @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.a4uaNvsXke7WPwJy]{Spotlight Focus} action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.actions.Item.a4uaNvsXke7WPwJy"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.performance.rank",
+        "value": 2
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/light/projectile-stars-blue.webp",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "k0UPgcJvMpRH7Xk9",
+  "_key": "!items!k0UPgcJvMpRH7Xk9"
+}

@@ -1,0 +1,77 @@
+{
+  "type": "feat",
+  "name": "Multiplatform Luminary",
+  "folder": "zMUV3EGGUrto3ehR",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p>You have considerable experience with multiple media platforms. You gain the initial stagecraft spell of a platform that grants training in the prerequisite platform skill.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "expert in a platform skill other than that of your chosen platform."
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "15wsBznluutjgIZ8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!15wsBznluutjgIZ8"
+}

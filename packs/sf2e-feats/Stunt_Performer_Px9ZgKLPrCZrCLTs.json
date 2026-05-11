@@ -1,0 +1,73 @@
+{
+  "type": "feat",
+  "name": "Stunt Performer",
+  "folder": "zukRvD3MOUkv7Os2",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p>Whether on film or the battlefield, the extra push of your hardlight magic is all you need to perform death defying stunts. When you @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.o8lqmFexiwcaLpu3]{Set the Spotlight} on yourself, you can @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.ttL2TstfSqOyzCd2]{Cast a Role} to apply the action role to yourself as a free action. As long as you are in a spotlight with the action role, you can use Performance in place of Athletics to [[/act high-jump skill=\"performance\"]] and [[/act long-jump skill=\"performance\"]] and in place of Acrobatics to [[/act grab-an-edge skill=\"performance\"]].</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "Px9ZgKLPrCZrCLTs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Px9ZgKLPrCZrCLTs"
+}

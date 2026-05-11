@@ -1,0 +1,78 @@
+{
+  "type": "feat",
+  "name": "Sponsored Ad Break",
+  "folder": "vChXRbnF0l8kxNlG",
+  "img": "systems/pf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "auditory",
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> twice per day</p><p><strong>Requirements</strong> You are livestreaming and have a free hand.</p><hr><p>You initiate an ad break, receiving a gift from a dedicated sponsor and consuming it on the air. A drone delivers a consumable item with an item level no higher than half your level and an Activation of one-action, and then leaves. Activate (if necessary) and consume the item. You can only receive ammunition, grenades, or spell gems by using Sponsored Ad Break as a three-action activity.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 2,
+      "per": "day"
+    }
+  },
+  "effects": [],
+  "_id": "qglN4jb7zUcW6rhg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!qglN4jb7zUcW6rhg"
+}

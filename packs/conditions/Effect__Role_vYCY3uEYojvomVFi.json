@@ -1,0 +1,648 @@
+{
+  "name": "Effect: Role",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.361",
+        "system": "1.1.2"
+      }
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ttL2TstfSqOyzCd2]{Cast Role}</p><p>You take on the effects of the chosen role.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.action.Label",
+            "value": "action"
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.chiaroscuro.Label",
+            "value": "chiaroscuro",
+            "predicate": [
+              "parent:origin:item:tag:trendsetter"
+            ]
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.comedy.Label",
+            "value": "comedy"
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.costume.Label",
+            "value": "costume",
+            "predicate": [
+              "parent:origin:item:tag:costume"
+            ]
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.diva.Label",
+            "value": "diva",
+            "predicate": [
+              "parent:origin:item:slug:diva"
+            ]
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.drama.Label",
+            "value": "drama"
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.epic.Label",
+            "value": "epic"
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.horror.Label",
+            "value": "horror"
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.irony.Label",
+            "value": "irony"
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.lead-actor.Label",
+            "value": "lead-actor",
+            "predicate": [
+              "parent:origin:item:slug:lead-actor"
+            ]
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.pressure.Label",
+            "value": "pressure",
+            "predicate": [
+              "parent:origin:item:tag:pressure"
+            ]
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.romance.Label",
+            "value": "romance"
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.silent.Label",
+            "value": "silent",
+            "predicate": [
+              "parent:origin:item:tag:silent"
+            ]
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.stagehand.Label",
+            "value": "stagehand",
+            "predicate": [
+              "parent:origin:item:tag:stagehand"
+            ]
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.star-contestant.Label",
+            "value": "star-contestant",
+            "predicate": [
+              "parent:origin:item:slug:star-contestant"
+            ]
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.star-player.Label",
+            "value": "star-player",
+            "predicate": [
+              "parent:origin:item:slug:star-player"
+            ]
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.tragedy.Label",
+            "value": "tragedy"
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.trendsetter.Label",
+            "value": "trendsetter",
+            "predicate": [
+              "parent:origin:item:slug:trendsetter"
+            ]
+          },
+          {
+            "label": "SF2E.SpecificRule.Luminary.Role.unlucky.Label",
+            "value": "unlucky",
+            "predicate": [
+              "parent:origin:item:tag:unlucky"
+            ]
+          }
+        ],
+        "rollOption": "role",
+        "flag": "role"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "land-speed"
+        ],
+        "value": 5,
+        "type": "status",
+        "predicate": [
+          "role:action",
+          "self:effect:spotlight"
+        ],
+        "slug": "role-action",
+        "label": "SF2E.SpecificRule.Luminary.Role.action.Label",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "reflex"
+        ],
+        "value": -1,
+        "type": "status",
+        "predicate": [
+          "role:comedy",
+          "self:effect:spotlight"
+        ],
+        "slug": "role-comedy",
+        "label": "SF2E.SpecificRule.Luminary.Role.comedy.Label",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "will"
+        ],
+        "value": -1,
+        "type": "status",
+        "predicate": [
+          "role:drama",
+          "self:effect:spotlight"
+        ],
+        "slug": "role-drama",
+        "label": "SF2E.SpecificRule.Luminary.Role.drama.Label",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "title": "SF2E.SpecificRule.Luminary.Role.epic.Label",
+        "selector": [
+          "strike-attack-roll"
+        ],
+        "text": "SF2E.SpecificRule.Luminary.Role.epic.Note",
+        "predicate": [
+          "role:epic",
+          "self:effect:spotlight"
+        ]
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "title": "SF2E.SpecificRule.Luminary.Role.horror.Label",
+        "selector": [
+          "strike-attack-roll"
+        ],
+        "text": "SF2E.SpecificRule.Luminary.Role.horror.Note",
+        "predicate": [
+          "role:horror",
+          "self:effect:spotlight"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "{actor|saves.baseHighest.slug}"
+        ],
+        "value": -2,
+        "type": "status",
+        "slug": "role-irony-penalty",
+        "predicate": [
+          "self:effect:spotlight",
+          "role:irony"
+        ],
+        "label": "SF2E.SpecificRule.Luminary.Role.irony.Label",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "{actor|saves.baseLowest.slug}"
+        ],
+        "value": 2,
+        "type": "status",
+        "slug": "role-irony-bonus",
+        "predicate": [
+          "self:effect:spotlight",
+          "role:irony"
+        ],
+        "label": "SF2E.SpecificRule.Luminary.Role.Irony.Label",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "EphemeralEffect",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.zO3F33hqz40RYmM7",
+        "predicate": [
+          "role:romance",
+          "self:effect:spotlight"
+        ],
+        "selectors": [
+          "attack-roll",
+          "damage-roll"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": -1,
+        "predicate": [
+          "role:tragedy",
+          "self:effect:spotlight"
+        ],
+        "selector": [
+          "fortitude"
+        ],
+        "type": "status",
+        "slug": "role-tragedy",
+        "hideIfDisabled": true,
+        "label": "SF2E.SpecificRule.Luminary.Role.tragedy.Label"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "itemType": "condition",
+        "predicate": [
+          "item:slug:invisible",
+          "role:chiaroscuro",
+          "self:effect:spotlight"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Luminary.Role.chiaroscuro.Addendum.Invisible"
+          }
+        ],
+        "label": "SF2E.SpecificRule.Luminary.Role.chiaroscuro.Label"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "itemType": "condition",
+        "predicate": [
+          "item:slug:concealed",
+          "role:chiaroscuro",
+          "self:effect:spotlight"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Luminary.Role.chiaroscuro.Addendum.Concealed"
+          }
+        ],
+        "label": "SF2E.SpecificRule.Luminary.Role.chiaroscuro.Label"
+      },
+      {
+        "key": "Note",
+        "text": "SF2E.SpecificRule.Luminary.Role.stagehand.Note.Damage",
+        "title": "SF2E.SpecificRule.Luminary.Role.Stagehand.Label",
+        "selector": [
+          "damage-received"
+        ],
+        "predicate": [
+          "role:stagehand",
+          "self:effect:spotlight"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "itemType": "action",
+        "predicate": [
+          "item:trait:move",
+          "role:stagehand",
+          "self:effect:spotlight"
+        ],
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Luminary.Role.stagehand.Note.Move"
+          }
+        ],
+        "label": "SF2E.SpecificRule.Luminary.Role.stagehand.Label"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "itemType": "feat",
+        "predicate": [
+          "item:trait:move",
+          "role:stagehand",
+          "self:effect:spotlight"
+        ],
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Luminary.Role.stagehand.Note.Move"
+          }
+        ],
+        "label": "SF2E.SpecificRule.Luminary.Role.stagehand.Label"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "itemType": "spell",
+        "predicate": [
+          "item:trait:move",
+          "role:stagehand",
+          "self:effect:spotlight"
+        ],
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Luminary.Role.stagehand.Note.Move"
+          }
+        ],
+        "label": "SF2E.SpecificRule.Luminary.Role.stagehand.Label"
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitForce",
+            "value": "force"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing"
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "value": "sonic"
+          },
+          {
+            "label": "PF2E.TraitVitality",
+            "value": "vitality"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "value": "void"
+          }
+        ],
+        "flag": "costumeDamage",
+        "predicate": [
+          "role:costume"
+        ],
+        "prompt": "PF2E.SpecificRule.Prompt.DamageType"
+      },
+      {
+        "key": "Resistance",
+        "type": "{item|flags.system.rulesSelections.costumeDamage}",
+        "value": "2*@item.origin.skills.performance.rank + @item.origin.abilities.cha.mod"
+      },
+      {
+        "key": "FlatModifier",
+        "slug": "role-silent",
+        "value": 2,
+        "type": "status",
+        "selector": [
+          "saving-throw"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "item:trait:auditory",
+              "item:trait:sonic"
+            ]
+          },
+          "role:silent",
+          "self:effect:spotlight"
+        ],
+        "label": "SF2E.SpecificRule.Luminary.Role.Silent.Label",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "Resistance",
+        "value": "6 + @item.origin.abilities.cha.mod",
+        "type": "sonic",
+        "predicate": [
+          "role:silent",
+          "self:effect:spotlight"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "toggleable": true,
+        "option": "pressure-off-guard",
+        "label": "SF2E.SpecificRule.Luminary.Role.pressure.ToggleLabel",
+        "predicate": [
+          "role:pressure"
+        ],
+        "disabledIf": [
+          {
+            "not": "self:effect:spotlight"
+          }
+        ],
+        "disabledValue": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg",
+        "inMemoryOnly": true,
+        "predicate": [
+          "pressure-off-guard"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "toggleable": true,
+        "option": "unlucky-attack",
+        "label": "SF2E.SpecificRule.Luminary.Role.unlucky.ToggleLabel",
+        "predicate": [
+          "role:unlucky"
+        ],
+        "disabledIf": [
+          {
+            "not": "self:effect:spotlight"
+          }
+        ],
+        "disabledValue": false
+      },
+      {
+        "key": "RollTwice",
+        "predicate": [
+          "unlucky-attack"
+        ],
+        "keep": "lower",
+        "selector": "attack"
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "check"
+        ],
+        "outcome": [
+          "criticalFailure",
+          "failure"
+        ],
+        "title": "SF2E.SpecificRule.Luminary.Role.star-contestant.Label",
+        "predicate": [
+          "self:effect:spotlight",
+          "role:star-contestant"
+        ],
+        "text": "SF2E.SpecificRule.Luminary.Role.star-contestant.Note"
+      },
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "self:effect:spotlight",
+          "role:star-contestant",
+          {
+            "gte": [
+              "parent:level",
+              6
+            ]
+          }
+        ],
+        "slug": "star-contestant-bonus",
+        "mode": "upgrade",
+        "value": 2,
+        "selector": "check"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "itemType": "action",
+        "predicate": [
+          "self:effect:spotlight",
+          "role:trendsetter"
+        ],
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Luminary.Role.trendsetter.Description"
+          }
+        ],
+        "label": "SF2E.SpecificRule.Luminary.Role.Trendsetter.Label"
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "itemId": "{item|id}",
+        "predicate": [
+          "self:effect:spotlight"
+        ],
+        "value": [
+          {
+            "text": "SF2E.SpecificRule.Luminary.Role.{item|flags.system.rulesSelections.role}.Description"
+          }
+        ],
+        "label": "SF2E.SpecificRule.Luminary.Role.{item|flags.system.rulesSelections.role}.Label"
+      },
+      {
+        "key": "TempHP",
+        "value": 3,
+        "predicate": [
+          "role:star-player"
+        ]
+      },
+      {
+        "key": "Note",
+        "title": "SF2E.SpecificRule.Luminary.Role.star-player.Label",
+        "selector": [
+          "strike-attack-roll"
+        ],
+        "text": "SF2E.SpecificRule.Luminary.Role.star-player.Note",
+        "predicate": [
+          "self:effect:spotlight",
+          "role:star-player"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "status",
+        "selector": [
+          "check"
+        ],
+        "predicate": [
+          "item:trait:linguistic",
+          "role:lead-actor",
+          "self:effect:spotlight"
+        ],
+        "label": "SF2E.SpecificRule.Luminary.Role.lead-actor.Label"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "vYCY3uEYojvomVFi",
+  "img": "icons/equipment/head/mask-carved-scream-tan.webp",
+  "folder": "X2qGhKfQNUcIuWtg",
+  "ownership": {
+    "default": 0,
+    "MDH2xC93qg8cjCcf": 3,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "1.1.2",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 100000,
+  "_key": "!items!vYCY3uEYojvomVFi"
+}

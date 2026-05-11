@@ -1,0 +1,88 @@
+{
+  "type": "spell",
+  "name": "Strut and Pose",
+  "folder": "Ngx1usOFMDEiIDoL",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The spotlight intensifies and any creature under it feels the urge to elegantly traverse the battlefield, unable to shake the feelings that failing to do so will trigger the magic flowing around them. The target must attempt a Will save, becoming immune to strut your stuff for 24 hours on a success. On a failure, the creature must strut its stuff.</p><p>The first time each turn the creature strutting its stuff while under a spotlight uses a move action, they must attempt a @Check[reflex|against:spell] save. If the creature under the spotlight ends its turn without moving, it becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p><hr><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The creature has a –10-foot status penalty to its Speed for the duration of the move action.</p><p><strong>Failure</strong> The creature has a –10-foot status penalty to its Speed for the duration of the rest of the turn.</p><p><strong>Critical Failure</strong> The move action is disrupted, and the creature becomes slowed 1 for 1 round.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 spotlighted creature"
+    },
+    "range": {
+      "value": "spotlight"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "effects": [],
+  "_id": "35djyzP0a1f5v8tp",
+  "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!35djyzP0a1f5v8tp"
+}

@@ -18,12 +18,9 @@
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "name": "Sihedron Guard Commander",
   "type": "npc",
@@ -113,17 +111,17 @@
         "max": 115,
         "details": ""
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 24,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       }
     },
     "initiative": {
@@ -295,7 +293,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -386,6 +384,7 @@
         "dexCap": 2,
         "checkPenalty": -2,
         "speedPenalty": -5,
+        "grade": null,
         "runes": {
           "potency": 1,
           "resilient": 1,
@@ -399,7 +398,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.TjqRzpHBljeq1c7k",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -503,7 +502,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.PQzhohvBbwZRzbWA",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -613,9 +612,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": null
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -646,7 +647,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.KNEKYfzqS4Fqiqt1",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -756,9 +757,11 @@
         },
         "range": 40,
         "expend": 2,
+        "ammo": null,
         "reload": {
           "value": "1"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -789,7 +792,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.drDeeEYaDHNOh1dX",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -887,15 +890,15 @@
         "usage": {
           "value": "other"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/blue%20battery.webp",
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.NbZBvTjVNBaIYHCI",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -949,9 +952,9 @@
       },
       "type": "action",
       "_stats": {
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc",
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary.Item.W7SbTykXrNwxDzJc",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -1029,7 +1032,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -1100,7 +1103,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -1161,7 +1164,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -1218,7 +1221,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -1233,7 +1236,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p>The commander issues an order for their allies to regroup. All Sihedron guard allies within 120 feet of the commander can use a reaction to Stride up to their Speed. Any Sihedron guards who end their movement adjacent to another Sihedron guard gain 5 temporary Hit Points that last 1 minute, or double that number of temporary Hit Points if they end their movement adjacent to the commander. The commander can't Rally the Troops again for [[/gmr 1d4 #Recharge Rally the Troops]]{1d4 rounds}.</p><p>@UUID[Compendium.sf2e-anachronism.bestiary-effects.Item.p2GrXbOJbv0OT4Zr]{Effect: Rally the Troops}</p>",
+          "value": "<p>The commander issues an order for their allies to regroup. All Sihedron guard allies within 120 feet of the commander can use a reaction to Stride up to their Speed. Any Sihedron guards who end their movement adjacent to another Sihedron guard gain 5 temporary Hit Points that last 1 minute, or double that number of temporary Hit Points if they end their movement adjacent to the commander. The commander can't Rally the Troops again for [[/gmr 1d4 #Recharge Rally the Troops]]{1d4 rounds}.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.p2GrXbOJbv0OT4Zr]{Effect: Rally the Troops}</p>",
           "gm": ""
         },
         "publication": {
@@ -1279,7 +1282,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -1294,7 +1297,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> The commander calls out an enemy within 60 feet then makes a Strike against that enemy, dealing an additional 1d6 precision damage on a hit. If the hit is successful, the commander changes the tide of the battle, inspiring their allies to greater feats of military prowess. All sihedron guards within 60 feet of the commander gain a +1 status bonus to attack and damage rolls until the beginning of the commander's next turn.</p><p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.ppKeWbPcSaVqD1Cj]{Effect: Tactical Strike}</p>",
+          "value": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> The commander calls out an enemy within 60 feet then makes a Strike against that enemy, dealing an additional 1d6 precision damage on a hit. If the hit is successful, the commander changes the tide of the battle, inspiring their allies to greater feats of military prowess. All sihedron guards within 60 feet of the commander gain a +1 status bonus to attack and damage rolls until the beginning of the commander's next turn.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.ppKeWbPcSaVqD1Cj]{Effect: Tactical Strike}</p>",
           "gm": ""
         },
         "publication": {
@@ -1359,7 +1362,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.12.1",
         "exportSource": null
@@ -1372,7 +1375,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

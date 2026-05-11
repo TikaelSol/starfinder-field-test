@@ -1,0 +1,81 @@
+{
+  "name": "Effect: Romance Penalty",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.955,
+        "foundry": "14.361",
+        "system": "1.1.2"
+      }
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-class-features.Item.IoWwrQNTH9btcgq2]{Roles}</p><p>You take a -1 status penalty to attack and damage rolls.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": -1,
+        "type": "status",
+        "selector": [
+          "attack-roll",
+          "damage-roll"
+        ],
+        "label": "SF2E.SpecificRule.Luminary.Role.Romance.Label"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "zO3F33hqz40RYmM7",
+  "img": "icons/magic/life/heart-shadow-red.webp",
+  "folder": "X2qGhKfQNUcIuWtg",
+  "ownership": {
+    "default": 0,
+    "MDH2xC93qg8cjCcf": 3,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "sf2e",
+    "systemVersion": "1.1.2",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 200000,
+  "_key": "!items!zO3F33hqz40RYmM7"
+}

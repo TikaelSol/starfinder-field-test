@@ -17,7 +17,7 @@
         "key": "ActiveEffectLike",
         "mode": "override",
         "path": "system.traits.size.value",
-        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+        "value": "{item|flags.system.rulesSelections.companionSize}"
       },
       {
         "adjustName": false,
@@ -107,7 +107,7 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.pf2e.companionCompendia.advancedManeuver",
+        "path": "flags.system.companionCompendia.advancedManeuver",
         "value": "Compendium.starfinder-field-test-for-pf2e.companions.Item.RfJD9H7ogPQKU3Oh"
       }
     ],

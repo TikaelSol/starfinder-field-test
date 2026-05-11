@@ -1,0 +1,74 @@
+{
+  "folder": "jWJTyN82IVwQMOnh",
+  "name": "Spotlight",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>A luminary uses occult magic to manifest and direct an ongoing magical hologram known in the industry as a spotlight. Each luminary controls a single spotlight that covers and highlights a creature with a variety of appearances, from a literal spotlight or glowing aura to a shower of rainbow-colored cherry blossoms. When a luminary @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.o8lqmFexiwcaLpu3]{Sets a Spotlight} or @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.ttL2TstfSqOyzCd2]{Casts a Role}, they can produce minor visual alterations to the environment, clothes, and equipment worn and held by the creature in the spotlight. Changes to a creature or its equipment only apply if the creature is willing.</p><p>A spotlight casts bright light in the space of the target. The spotlight does not counteract and is not counteracted by magical darkness effects. Unless you are using an ability, such as stagecraft spells that produce a second spotlight, only one creature can be in your spotlight at a time; if you Set a Spotlight on a second creature, any existing spotlight ends. Creatures can never have more than one spotlight from the same luminary unless you use a feat like Two-Point Lighting.</p><p>You gain Set the Spotlight.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.o8lqmFexiwcaLpu3"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "UCvmxDHFh7NA2SUZ",
+  "img": "icons/magic/light/beam-layered-teal.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UCvmxDHFh7NA2SUZ"
+}

@@ -1,0 +1,78 @@
+{
+  "folder": "brSDv5cyqmRwtDQX",
+  "name": "Sports",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Physical sports are one of the most popular forms of entertainment in the galaxy, and you know what makes a player into a superstar. After all, the fans don't always cheer for the player who scores the most points or has the best time, but for that special superstar who can hype up the crowd and make them feel like they are part of the action!</p><p><strong>Platform Skill</strong> Athletics</p><p><strong>Hardlight Props</strong> Your hardlight props can be used as improvised weapons that deal 1d4 bludgeoning damage with the thrown 20 ft. trait.</p><p><strong>Bonus Feat</strong> You gain the Stunt Performer class feat.</p><p><strong>Stagecraft Spells</strong></p><ul><li><p><em>initial:</em> star player</p></li><li><p><em>advanced:</em> big game</p></li><li><p><em>greater:</em> grand slam</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [
+        "luminary-platform"
+      ],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/sports/football-soccer.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "rdKJoXAR0DZUjR1e",
+  "_key": "!items!rdKJoXAR0DZUjR1e"
+}

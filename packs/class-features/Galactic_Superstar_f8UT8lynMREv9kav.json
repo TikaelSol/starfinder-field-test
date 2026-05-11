@@ -1,0 +1,69 @@
+{
+  "folder": "jWJTyN82IVwQMOnh",
+  "name": "Galactic Superstar",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Everyone knows who you are, even if they don't know why you're famous. You've become a galactic superstar and know how to use that star power to your advantage. As long as you are in your own spotlight, your first Strike on each of your turns gains a status bonus to its damage roll equal to your Charisma modifier.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "luminary"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "f8UT8lynMREv9kav",
+  "_key": "!items!f8UT8lynMREv9kav"
+}

@@ -29,12 +29,9 @@
       "src": "systems/sf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "type": "npc",
   "folder": null,
@@ -110,6 +108,13 @@
         "max": 255,
         "details": ""
       },
+      "ac": {
+        "value": 35,
+        "details": ""
+      },
+      "allSaves": {
+        "value": "+1 status to all saves vs. magic"
+      },
       "speed": {
         "value": 40,
         "otherSpeeds": [
@@ -119,13 +124,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 35,
-        "details": ""
-      },
-      "allSaves": {
-        "value": "+1 status to all saves vs. magic"
       },
       "immunities": [
         {
@@ -321,7 +319,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.bestiary-ability-glossary.Item.kquBnQ0kObZztnBc",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -394,7 +392,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -461,7 +459,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -518,7 +516,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -651,7 +649,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -729,7 +727,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.69L70wKfGDY66Mk9",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -850,7 +848,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-spells.Item.GNbPLs7S7RetVuPy",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -942,7 +940,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.8kJbiBEjMWG4VUjs",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1055,7 +1053,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.r7ihOgKv19eJQnik",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1149,7 +1147,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.8Umt1AzYfFbC4fui",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1246,7 +1244,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.VlNcjmYyu95vOUe8",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1335,7 +1333,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.uqlxMQQeSGWEVjki",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1401,7 +1399,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1458,7 +1456,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1470,7 +1468,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "sf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

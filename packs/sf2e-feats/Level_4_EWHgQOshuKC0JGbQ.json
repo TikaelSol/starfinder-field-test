@@ -1,0 +1,20 @@
+{
+  "name": "Level 4",
+  "folder": "Plfusj1vwfNpO3fK",
+  "type": "Item",
+  "_id": "EWHgQOshuKC0JGbQ",
+  "description": "",
+  "sorting": "a",
+  "sort": 300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!EWHgQOshuKC0JGbQ"
+}

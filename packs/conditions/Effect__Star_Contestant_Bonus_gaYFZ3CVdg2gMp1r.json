@@ -1,0 +1,86 @@
+{
+  "folder": "X2qGhKfQNUcIuWtg",
+  "name": "Effect: Star Contestant Bonus",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.JeNddn3wX35XDWdO]{Star Contestant}</p><p>You gain a status bonus to a check.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "star-contestant-check",
+        "label": "SF2E.SpecificRule.Luminary.Role.StarContestant.ToggleLabel",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "status",
+        "predicate": [
+          "star-contestant-check"
+        ],
+        "selector": [
+          "check"
+        ],
+        "removeAfterRoll": "if-enabled",
+        "slug": "star-contestant-bonus"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "gaYFZ3CVdg2gMp1r",
+  "img": "icons/magic/light/beams-strike-blue.webp",
+  "ownership": {
+    "default": 0,
+    "MDH2xC93qg8cjCcf": 3,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "1.1.2",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 500000,
+  "_key": "!items!gaYFZ3CVdg2gMp1r"
+}

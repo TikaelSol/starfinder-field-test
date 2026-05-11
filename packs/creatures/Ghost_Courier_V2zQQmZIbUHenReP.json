@@ -18,12 +18,9 @@
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Ghost Courier",
@@ -110,17 +108,17 @@
         "max": 9,
         "details": ""
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 14,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       }
     },
     "initiative": {
@@ -289,7 +287,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -359,7 +357,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -428,7 +426,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -530,9 +528,11 @@
         },
         "range": 100,
         "expend": 2,
+        "ammo": null,
         "reload": {
           "value": "1"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -563,7 +563,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.7n6DAhPfxOTltumq",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -678,9 +678,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": null
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -711,7 +713,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.3xy57nYq4vFY6orV",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -807,6 +809,7 @@
         "dexCap": 4,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -820,7 +823,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.w27SAKP67PcGSim4",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -920,15 +923,15 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/syringe.webp",
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.wAxMDcZV5KiEwX0F",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -1028,15 +1031,15 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/nj_912_b.webp",
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.epPPWPTc4W7EfUf2",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -1133,15 +1136,15 @@
         "usage": {
           "value": "other"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -1161,7 +1164,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

@@ -29,12 +29,9 @@
       "src": "systems/sf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Armed Defrex",
@@ -110,17 +108,17 @@
         "max": 188,
         "details": ""
       },
-      "speed": {
-        "value": 40,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 30,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 40,
+        "otherSpeeds": [],
+        "details": ""
       },
       "resistances": [
         {
@@ -339,9 +337,11 @@
         },
         "range": 100,
         "expend": 2,
+        "ammo": null,
         "reload": {
           "value": "1"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -372,7 +372,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.7n6DAhPfxOTltumq",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -449,7 +449,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -506,7 +506,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -554,7 +554,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.bestiary-ability-glossary.Item.N1kstYbHScxgUQtN",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -627,7 +627,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -694,7 +694,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -742,7 +742,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.bestiary-ability-glossary.Item.Tkd8sH4pwFIPzqTr",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -810,7 +810,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -867,7 +867,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.4.0",
         "exportSource": null
@@ -934,7 +934,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -991,7 +991,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -1003,7 +1003,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "sf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

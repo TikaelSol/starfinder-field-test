@@ -29,12 +29,9 @@
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "type": "npc",
   "folder": null,
@@ -110,17 +108,17 @@
         "max": 190,
         "details": ""
       },
-      "speed": {
-        "value": 20,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 27,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [],
+        "details": ""
       }
     },
     "initiative": {
@@ -280,7 +278,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -392,9 +390,11 @@
         },
         "range": 40,
         "expend": 1,
+        "ammo": null,
         "reload": {
           "value": "2"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -425,7 +425,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.ueUgtt9OM3ay3yCT",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -522,6 +522,7 @@
         "dexCap": 0,
         "checkPenalty": -3,
         "speedPenalty": -10,
+        "grade": null,
         "runes": {
           "potency": 1,
           "resilient": 1,
@@ -535,7 +536,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.IAad5pfNIV4ZHI2V",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -657,9 +658,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": null
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -690,7 +693,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.vIKSynUQaskzw43G",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -786,15 +789,15 @@
         "usage": {
           "value": "other"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "icons/weapons/ammunition/bullets-cartridge-shell-gray.webp",
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.7P8DldsTekjQGQam",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -858,7 +861,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -873,7 +876,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p>Captain Vasoya attempts Intimidate checks to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} each creature within 30 feet who is @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed}. She can also Demoralize any allies who are currently frightened or suppressed. If she succeeds, the ally loses that condition instead of gaining the frightened condition.</p>",
+          "value": "<p>Captain Vasoya attempts Intimidate checks to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} each creature within 30 feet who is @UUID[Compendium.pf2e.conditionitems.Item.enA7BxAjBb7ns1iF]{Suppressed}. She can also Demoralize any allies who are currently frightened or suppressed. If she succeeds, the ally loses that condition instead of gaining the frightened condition.</p>",
           "gm": ""
         },
         "publication": {
@@ -917,7 +920,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -974,7 +977,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1031,7 +1034,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1046,7 +1049,7 @@
           "value": "passive"
         },
         "description": {
-          "value": "<p>Any creature that fails its save against an Auto-Fire attack made by Captain Vasoya or who Vasoya hits with her doshko becomes @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of its next turn.</p>",
+          "value": "<p>Any creature that fails its save against an Auto-Fire attack made by Captain Vasoya or who Vasoya hits with her doshko becomes @UUID[Compendium.pf2e.conditionitems.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of its next turn.</p>",
           "gm": ""
         },
         "publication": {
@@ -1088,7 +1091,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1158,7 +1161,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1231,7 +1234,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1243,7 +1246,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

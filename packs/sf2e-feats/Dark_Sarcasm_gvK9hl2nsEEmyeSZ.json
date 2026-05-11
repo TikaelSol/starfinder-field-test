@@ -1,0 +1,73 @@
+{
+  "type": "feat",
+  "name": "Dark Sarcasm",
+  "folder": "zukRvD3MOUkv7Os2",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p>Quickly fading numbers and vague images help highlight the calculating nature of an ironic character on an otherwise dangerous battlefield. When you @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.o8lqmFexiwcaLpu3]{Set the Spotlight} on yourself, you can @UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-actions.Item.ttL2TstfSqOyzCd2]{Cast a Role} to apply the irony role to yourself as a free action. As long as you are in the spotlight with the irony role, you can use Performance to @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo] on any creature whom you've already assigned the irony role (even if they are not currently in the spotlight).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "gvK9hl2nsEEmyeSZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!gvK9hl2nsEEmyeSZ"
+}

@@ -1,0 +1,74 @@
+{
+  "type": "feat",
+  "name": "The World is a Stage",
+  "folder": "ZLIT2fYZgpACPXnD",
+  "img": "systems/pf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary",
+        "occult"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p>The world is a stage, and reality itself is at the beck and call of your vision. Once per day, you can cast any occult spell of 8th-rank or lower as an innate spell. The spell must be common or one to which you otherwise have access to, and it costs as many actions as it would typically take to cast.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "pMryLVVCn7nylLnA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pMryLVVCn7nylLnA"
+}

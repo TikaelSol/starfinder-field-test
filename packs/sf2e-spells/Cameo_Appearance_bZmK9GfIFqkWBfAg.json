@@ -1,0 +1,84 @@
+{
+  "type": "spell",
+  "name": "Cameo Appearance",
+  "folder": "Ngx1usOFMDEiIDoL",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You summon a special guest to help fight you, then Cast a Role and Set the Spotlight on your special gust. This functions as @UUID[Compendium.sf2e.spells.Item.f8SBoXiXQjlCKqly], except the creature is a hardlight construct instead of an illusion so creatures cannot disbelieve your special guest. Your special guest deals force damage instead of mental damage, but resistances and weaknesses still apply based on the type of damage the hardlight construct appears to deal. You can always use your Performance skill to mimic a specific creature with your special guest.</p><hr><p><strong>Heightened (+1)</strong> As <em>illusory creature</em>.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "effects": [],
+  "_id": "bZmK9GfIFqkWBfAg",
+  "img": "icons/creatures/magical/humanoid-silhouette-glowing-pink.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "sf2e",
+    "systemVersion": "1.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bZmK9GfIFqkWBfAg"
+}

@@ -29,12 +29,9 @@
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Void Shark",
@@ -109,6 +107,13 @@
         "temp": 0,
         "max": 160,
         "details": ""
+      },
+      "ac": {
+        "value": 25,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
       },
       "speed": {
         "value": 0,
@@ -123,13 +128,6 @@
           }
         ],
         "details": "fly in zero gravity only"
-      },
-      "ac": {
-        "value": 25,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       },
       "resistances": [
         {
@@ -294,7 +292,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -360,7 +358,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -427,7 +425,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -473,9 +471,9 @@
       },
       "type": "action",
       "_stats": {
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.i18TlebMzwONyPhI",
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary.Item.i18TlebMzwONyPhI",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -530,9 +528,9 @@
       },
       "type": "action",
       "_stats": {
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl",
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary.Item.t6cx9FOODmeZQNYl",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -554,7 +552,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>The shark Flies up to half its fly Speed, makes a tail Strike, and then Flies up to half its Speed further. On a hit the target gains the @UUID[Compendium.sf2e-anachronism.conditions.Item.z1ucw4CLwLqHoAp3]{Untethered} condition.</p>"
+          "value": "<p>The shark Flies up to half its fly Speed, makes a tail Strike, and then Flies up to half its Speed further. On a hit the target gains the @UUID[Compendium.pf2e.conditionitems.Item.z1ucw4CLwLqHoAp3]{Untethered} condition.</p>"
         },
         "rules": [],
         "slug": null,
@@ -598,7 +596,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -655,7 +653,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -703,9 +701,9 @@
       },
       "type": "action",
       "_stats": {
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu",
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary.Item.uJSseLa57HZYSMUu",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -726,7 +724,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

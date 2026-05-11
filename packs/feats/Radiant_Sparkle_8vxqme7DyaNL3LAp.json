@@ -1,0 +1,73 @@
+{
+  "type": "feat",
+  "name": "Radiant Sparkle",
+  "folder": "zukRvD3MOUkv7Os2",
+  "img": "systems/pf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p>You adjust the appearance of the target's clothes, make-up, and hair in addition to using effects like soft lighting, sparkles, or even less-than-subtle visual effects like rose-petals or bubbles to help highlight their appeal. When you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.o8lqmFexiwcaLpu3]{Set the Spotlight} on yourself, you can @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ttL2TstfSqOyzCd2]{Cast a Role} to apply the romance role to yourself as a free action. As long as you are in a spotlight with a romantic role, you can use Performance in place of Diplomacy to [[/act request skill=performance]].</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "8vxqme7DyaNL3LAp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8vxqme7DyaNL3LAp"
+}

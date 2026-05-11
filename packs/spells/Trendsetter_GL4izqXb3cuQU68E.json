@@ -1,0 +1,88 @@
+{
+  "type": "spell",
+  "name": "Trendsetter",
+  "folder": "Ngx1usOFMDEiIDoL",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You Set a Spotlight on the target that does not move. The creature gains the trendsetter role for the duration of the spell, in addition to their normally assigned role.</p><p>The trendsetter can [[/act perform]] to strike a pose and force a creature within 30 feet to attempt a Reflex save against your spell DC. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 2 rounds (@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} on a critical failure), as the target becomes forcefully clad in holographic avant-garde fashion.</p><hr><p><strong>Heightened (3rd)</strong> The trendsetter can target an additional creature that is under a spotlight.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature without a spotlight"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "effects": [],
+  "_id": "GL4izqXb3cuQU68E",
+  "img": "icons/magic/light/beam-red-orange.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!GL4izqXb3cuQU68E"
+}

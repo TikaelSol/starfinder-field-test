@@ -1,0 +1,77 @@
+{
+  "folder": "X2qGhKfQNUcIuWtg",
+  "name": "Spell Effect: Soliloquy (Action)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.starfinder-field-test-for-pf2e.spells.Item.eL2wXbjsNBTnAHXG]{Soliloquy}</p><p>You gain a +10-foot status bonus to your Speed.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "land-speed"
+        ],
+        "value": 10,
+        "type": "status",
+        "predicate": [
+          "item:trait:linguistic"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/commodities/bones/skull-hollow-brown-red.webp",
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "1.1.2",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "sqIez9ZhQpXM82DF",
+  "sort": 700000,
+  "_key": "!items!sqIez9ZhQpXM82DF"
+}

@@ -36,7 +36,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "{item|flags.sf2e.rulesSelections.programmingLanguage}"
+        "uuid": "{item|flags.system.rulesSelections.programmingLanguage}"
       }
     ],
     "slug": "programming-languages",

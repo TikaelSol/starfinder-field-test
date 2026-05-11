@@ -29,12 +29,9 @@
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "type": "npc",
   "folder": null,
@@ -110,17 +108,17 @@
         "max": 145,
         "details": ""
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 31,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       },
       "resistances": [
         {
@@ -345,9 +343,11 @@
         },
         "range": 30,
         "expend": 2,
+        "ammo": null,
         "reload": {
           "value": "1"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -378,7 +378,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.W2tPhNcraKf1IrMI",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -474,6 +474,7 @@
         "dexCap": 3,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 1,
           "resilient": 1,
@@ -487,7 +488,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.2v6SFf7pS3DRmwEc",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -609,9 +610,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": null
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -642,7 +645,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.xoah4GtzdJNQX2e0",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -739,15 +742,15 @@
         "usage": {
           "value": "other"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/blue%20battery.webp",
       "flags": {},
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.NbZBvTjVNBaIYHCI",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -847,7 +850,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.yvWr19Dg6H7n69ck",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -898,7 +901,7 @@
           },
           {
             "key": "Resistance",
-            "type": "{item|flags.pf2e.rulesSelections.resistance}",
+            "type": "{item|flags.system.rulesSelections.resistance}",
             "value": 5
           }
         ],
@@ -977,7 +980,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.tXwmArbheDsgs63i",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1055,7 +1058,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1126,7 +1129,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1194,7 +1197,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1251,7 +1254,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1336,7 +1339,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.R0mn1iC3nYvDVKhd",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1471,7 +1474,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1575,7 +1578,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.n33Jd5EBmVvnNL2O",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1687,7 +1690,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.UunrWNPKVSuWuA5J",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1774,7 +1777,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1882,7 +1885,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.cU3H60fJk0yCc2Ua",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1970,7 +1973,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.RCbLd7dfquHnuvrZ",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -1994,7 +1997,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>You cause the target comm unit to play a cosmically composed personal theme song specific to its owner. The creature who owns the target regains 1d8+4 Hit Points when you Cast the Spell and a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects for the duration, as long as the comm unit continues to play the ringtone. Creatures beginning their turn adjacent to an ally with an active ringtone gain the status bonus to Speeds and bonus to saves until the start of their next turn.</p><p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.NmhqKZyMgQSHbyHj]{Spell Effect: Motivating Ringtone}</p><hr /><p><strong>Heightened (+1)</strong> The amount of healing increases by 1d8+4.</p>"
+          "value": "<p>You cause the target comm unit to play a cosmically composed personal theme song specific to its owner. The creature who owns the target regains 1d8+4 Hit Points when you Cast the Spell and a +5-foot status bonus to all Speeds and a +1 status bonus to saves against fear effects for the duration, as long as the comm unit continues to play the ringtone. Creatures beginning their turn adjacent to an ally with an active ringtone gain the status bonus to Speeds and bonus to saves until the start of their next turn.</p><p>@UUID[Compendium.pf2e.spell-effects.Item.NmhqKZyMgQSHbyHj]{Spell Effect: Motivating Ringtone}</p><hr /><p><strong>Heightened (+1)</strong> The amount of healing increases by 1d8+4.</p>"
         },
         "rules": [],
         "slug": "motivating-ringtone",
@@ -2079,9 +2082,9 @@
       "img": "icons/magic/sonic/projectile-sound-rings-wave.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8",
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.5ZZca1GGJs44OxC8",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2185,7 +2188,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2301,7 +2304,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.YK7tR3Rn9RF8rwag",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2389,7 +2392,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.qRKiadf7GqgxPDaN",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2475,7 +2478,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.FXIhLIMgi0QDTr3w",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2588,9 +2591,9 @@
       "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.sf2e-anachronism.spells.Item.QpP30fcEl4NGjHwo",
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.QpP30fcEl4NGjHwo",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2694,7 +2697,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.soIbLojIZyKRhyA8",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2783,7 +2786,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -2892,7 +2895,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.CLGyt6l3ESlOJm4l",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -3048,7 +3051,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.spells.Item.ITK4ZWoYq5oSOTRM",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -3133,7 +3136,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -3204,7 +3207,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -3261,7 +3264,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -3276,7 +3279,7 @@
           "value": "passive"
         },
         "description": {
-          "value": "<p>When a creature fails a saving throw against a spell Sediya casts with the mental trait, it becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} and @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of its next turn as visions of the universe's entropic demise fill its mind.</p>",
+          "value": "<p>When a creature fails a saving throw against a spell Sediya casts with the mental trait, it becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} and @UUID[Compendium.pf2e.conditionitems.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of its next turn as visions of the universe's entropic demise fill its mind.</p>",
           "gm": ""
         },
         "publication": {
@@ -3333,7 +3336,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -3345,7 +3348,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

@@ -1,0 +1,73 @@
+{
+  "type": "feat",
+  "name": "Jump Scare",
+  "folder": "EAZ0ze8ssQFJrBpH",
+  "img": "systems/pf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> A creature is in your spotlight</p><hr><p>You immediately manifest a hologram horror that appears in front of your foe with no warning. You attempt to [[/act demoralize]] the target in your spotlight, using Performance instead of Intimidation and ignoring the usual range of 30 feet. This check doesn't take a penalty if the target doesn't share a language with you.</p><hr><p><strong>Special</strong> If you or the target has the horror or pressure roles, you can Demoralize the target even if they are temporarily immune to your attempts to Demoralize them.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "d49mzz2FjuGUHxxf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!d49mzz2FjuGUHxxf"
+}

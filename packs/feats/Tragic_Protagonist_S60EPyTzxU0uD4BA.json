@@ -1,0 +1,80 @@
+{
+  "type": "feat",
+  "name": "Tragic Protagonist",
+  "folder": "zukRvD3MOUkv7Os2",
+  "img": "systems/pf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p>Using environmental effects like rain and lightning helps set a tone and highlight a character's weakness leading to their inevitably fall. When you @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.o8lqmFexiwcaLpu3]{Set the Spotlight} on yourself, you can @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.ttL2TstfSqOyzCd2]{Cast a Role} to apply the tragedy role to yourself as a free action. As long as you are in a spotlight with the tragic role, you do not take the role's status penalty and you can use Performance instead of Deception to [[/act feint skill=performance]], even if you are untrained in Deception.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "selector": "fortitude",
+        "suppress": true,
+        "slug": "role-tragedy"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "_id": "S60EPyTzxU0uD4BA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!S60EPyTzxU0uD4BA"
+}

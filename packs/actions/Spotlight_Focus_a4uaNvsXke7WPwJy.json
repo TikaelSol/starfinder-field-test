@@ -1,0 +1,56 @@
+{
+  "folder": "P5JBCTpLcplt5Wx2",
+  "name": "Spotlight Focus",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> A creature begins its turn without the spotlight.</p><hr><p>You @UUID[Compendium.starfinder-field-test-for-pf2e.actions.Item.o8lqmFexiwcaLpu3]{Set the Spotlight} on the triggering creature, highlighting the new star of the scene.</p><hr><p><strong>Special</strong> You can Set the Spotlight of an ongoing stagecraft spell with Spotlight Focus, moving it from one creature to another.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Luminary Class Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "luminary",
+        "occult"
+      ]
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "a4uaNvsXke7WPwJy",
+  "_key": "!items!a4uaNvsXke7WPwJy"
+}

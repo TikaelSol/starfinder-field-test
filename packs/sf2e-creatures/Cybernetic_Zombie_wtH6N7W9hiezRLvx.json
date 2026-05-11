@@ -29,9 +29,6 @@
       "src": "modules/starfinder-field-test-for-pf2e/art/npc-art/tokens/pzo9500-25_cybernetic_zombie-t_v2_1-5.webp",
       "scaleX": 1.5,
       "scaleY": 1.5,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -73,7 +70,7 @@
       "negative": false,
       "priority": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": false,
     "occludable": {
       "radius": 0
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Cybernetic Zombie",
@@ -110,17 +108,17 @@
         "max": 40,
         "details": "void healing"
       },
-      "speed": {
-        "value": 20,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 15,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [],
+        "details": ""
       },
       "immunities": [
         {
@@ -321,7 +319,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -378,7 +376,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -440,7 +438,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -505,7 +503,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -519,7 +517,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "sf2e",
     "systemVersion": "7.2.3",
     "exportSource": {

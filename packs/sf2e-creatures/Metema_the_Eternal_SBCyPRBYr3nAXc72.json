@@ -18,12 +18,9 @@
       "src": "systems/sf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Metema the Eternal",
@@ -110,6 +108,13 @@
         "max": 45,
         "details": "fast healing 5, void healing"
       },
+      "ac": {
+        "value": 21,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 25,
         "otherSpeeds": [
@@ -119,13 +124,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 21,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       },
       "immunities": [
         {
@@ -345,7 +343,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.equipment.Item.qCEOZ6109Yo34tRx",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -444,8 +442,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "_id": "nXn4eOZ8ZrVUgxBH",
       "img": "icons/consumables/potions/vial-cork-red.webp",
@@ -459,7 +457,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -528,7 +526,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -583,7 +581,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.bestiary-ability-glossary.Item.TTCw5NusiSSkJU1x",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -666,7 +664,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.bestiary-ability-glossary.Item.fJSNOw4zHGbIm4bZ",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -741,7 +739,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -801,7 +799,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -863,7 +861,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -922,7 +920,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1055,7 +1053,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1140,7 +1138,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.OsOhx3TGIZ7AhD0P",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1211,7 +1209,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1299,14 +1297,14 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": "bolts",
-        "spell": null
+        "spell": null,
+        "stackGroup": "bolts"
       },
       "type": "consumable",
       "_stats": {
         "compendiumSource": "Compendium.sf2e.equipment.Item.AITVZmakiu3RgfKo",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1419,9 +1417,11 @@
         },
         "range": 100,
         "expend": 1,
+        "ammo": null,
         "reload": {
           "value": "1"
         },
+        "grade": null,
         "runes": {
           "potency": 1,
           "striking": 0,
@@ -1452,7 +1452,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.WBp42Hc05ISRIiMr",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -1550,6 +1550,7 @@
         "dexCap": 4,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -1563,7 +1564,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.sf2e-equipment.Item.WRw6hYSOdl2wlByk",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -1582,7 +1583,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "sf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

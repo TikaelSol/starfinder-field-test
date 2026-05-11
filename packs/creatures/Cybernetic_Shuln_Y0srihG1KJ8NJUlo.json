@@ -23,12 +23,9 @@
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -67,7 +64,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "_id": "Y0srihG1KJ8NJUlo",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
@@ -152,7 +150,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -217,7 +215,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -274,9 +272,9 @@
       },
       "type": "action",
       "_stats": {
-        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW",
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary.Item.j2wsK6IsW5yMW1jW",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -296,7 +294,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>Any time the shuln scores a critical hit with a melee Strike, one tech item worn or held by the target becomes @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} for 2 rounds.</p>"
+          "value": "<p>Any time the shuln scores a critical hit with a melee Strike, one tech item worn or held by the target becomes @UUID[Compendium.pf2e.conditionitems.Item.6A2QDy8wRGCVQsSd]{Glitching 1} for 2 rounds.</p>"
         },
         "rules": [
           {
@@ -342,7 +340,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -401,7 +399,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -457,7 +455,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -520,7 +518,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.3.1",
         "exportSource": null
@@ -537,6 +535,13 @@
         "max": 175,
         "details": ""
       },
+      "ac": {
+        "value": 31,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 40,
         "otherSpeeds": [
@@ -546,13 +551,6 @@
           }
         ],
         "details": "unstoppable burrow"
-      },
-      "ac": {
-        "value": 31,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       },
       "resistances": [
         {
@@ -680,7 +678,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

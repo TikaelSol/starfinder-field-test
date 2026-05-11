@@ -1,0 +1,81 @@
+{
+  "type": "feat",
+  "name": "Hot Set",
+  "folder": "SY1s1NqhWv7xscGn",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "concentrate",
+        "fire",
+        "luminary",
+        "manipulate",
+        "occult"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr><p>You overload your spotlight with enough energy to sear not only your star actor, but the set around them. Each creature in a @Template[type:burst|distance:20] around a creature within 60 feet that's under your spotlight takes @Damage[((floor(@actor.level/4)+6)d6)[fire]|options:area-damage] damage with a @Check[reflex|against:class-spell|basic] save against your spell DC. The flames melt and ignite the surface of the area, making it hazardous terrain for 1 minute. A creature that moves through this hazardous terrain takes @Damage[(floor(@actor.level/4))[fire]|options:area-damage] damage for every square of the area it moves into. The targeted creature loses the spotlight. At level 16 and 20, the initial damage increases by 1d6 and the hazardous terrain damage increases by 1.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "effects": [],
+  "_id": "HaYNDNnJiZtFFxFO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HaYNDNnJiZtFFxFO"
+}

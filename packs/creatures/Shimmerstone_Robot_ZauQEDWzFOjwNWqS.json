@@ -29,12 +29,9 @@
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Shimmerstone Robot",
@@ -110,6 +108,13 @@
         "max": 180,
         "details": ""
       },
+      "ac": {
+        "value": 34,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 25,
         "otherSpeeds": [
@@ -119,13 +124,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 34,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       },
       "weaknesses": [
         {
@@ -289,7 +287,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -346,7 +344,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -413,7 +411,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -470,7 +468,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -485,7 +483,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p>The shimmerstone robot emits a disrupting pulse in a @Template[type:emanation|distance:20]. All tech creatures and objects in the area become @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} unless they succeed at a @Check[will|dc:30] save.</p>",
+          "value": "<p>The shimmerstone robot emits a disrupting pulse in a @Template[type:emanation|distance:20]. All tech creatures and objects in the area become @UUID[Compendium.pf2e.conditionitems.Item.6A2QDy8wRGCVQsSd]{Glitching 2} unless they succeed at a @Check[will|dc:30] save.</p>",
           "gm": ""
         },
         "publication": {
@@ -527,7 +525,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -588,7 +586,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.4.1",
         "exportSource": null
@@ -600,7 +598,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

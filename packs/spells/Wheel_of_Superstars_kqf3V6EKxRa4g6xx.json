@@ -1,0 +1,86 @@
+{
+  "type": "spell",
+  "name": "Wheel of Superstars",
+  "folder": "Ngx1usOFMDEiIDoL",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create a large holographic spinning wheel flat on the ground with various strips of text written on it. A creature can Interact to spin the wheel once per turn. The creature rolls [[/r 1d6]], creating an effect depending on the result. The star contestant rolls 1d6 twice chooses one of the two results.</p><ol><li><p><strong>Penalty</strong> The creature takes a –1 status penalty to all checks for the duration of the spell, or until it spins the wheel again. If a creature with this penalty spins the wheel and gets penalty again, increase the penalty by 1.</p></li><li><p><strong>Free Slot</strong> (fortune) The creature can reroll one of its checks made before the end of its next turn, but must use the second result.</p></li><li><p><strong>Fireworks</strong> The wheel deals @Damage[4d8[fire]|options:area-damage] damage to all creatures in a @Template[type:cone|distance:30] originating from you, with a @Check[reflex|against:spell|basic] save against your spell DC. The creature who spun the wheel chooses the position of the cone.</p></li><li><p><strong>Sponsor's Boon</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for the duration of the spell, or until it spins the wheel again. It can use the extra action each round for only move actions or to Interact to spin the wheel.</p></li><li><p><strong>Extra Life</strong> (healing) The creature gains @Damage[4d8[healing]|options:area-damage] Hit Points. If this healing would exceed the creature's missing Hit Points, the remaining healing is granted as temporary Hit Points that last for 1 round.</p></li><li><p><strong>Jackpot</strong> The creature gains a +1 status bonus to all checks for the duration of the spell. If a creature with this effect spins the wheel and gets the jackpot again, that creature chooses any outcome on the wheel instead.</p></li></ol><hr><p><strong>Heightened (+1)</strong> Increase the damage and healing by 1d8.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "luminary"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Luminary Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet from a spotlight"
+    },
+    "area": {
+      "value": 15,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "effects": [],
+  "_id": "kqf3V6EKxRa4g6xx",
+  "img": "icons/sundries/gaming/dice-pair-white-green.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "pf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kqf3V6EKxRa4g6xx"
+}

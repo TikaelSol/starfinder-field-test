@@ -112,8 +112,8 @@
         "predicate": [
           {
             "or": [
-              "action:{item|flags.pf2e.rulesSelections.maneuverFirst}",
-              "action:{item|flags.pf2e.rulesSelections.maneuverSecond}"
+              "action:{item|flags.system.rulesSelections.maneuverFirst}",
+              "action:{item|flags.system.rulesSelections.maneuverSecond}"
             ]
           }
         ],

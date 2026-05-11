@@ -1,0 +1,78 @@
+{
+  "type": "feat",
+  "name": "Prismatic Reflect",
+  "folder": "SY1s1NqhWv7xscGn",
+  "img": "systems/sf2e/icons/default-icons/feats-sf2e.webp",
+  "system": {
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "traits": {
+      "value": [
+        "light",
+        "luminary"
+      ],
+      "otherTags": [],
+      "rarity": "common"
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Trigger</strong> You are the target of an energy ranged weapon attack</p><p><strong>Requirements</strong> You're aware of the attack, are not @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} to it, and are in your spotlight.</p><hr><p>Your spotlight hardens into a prism moments before the attack hits. You gain a +4 circumstance bonus to AC against the triggering attack. If the attack misses, make a ranged Strike that deals @Damage[(floor(@actor.level/2))d6[untyped]] damage of the same type as the triggering attack with a range of 120 feet. This damage increases by an additional die at level 14 and every 2 levels thereafter.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Luminary Playtest",
+      "authors": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": null,
+        "foundry": "14.360",
+        "system": "1.0.3"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "effects": [],
+  "_id": "XZVqls0kVg0uxOxP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "K0HPaQyrlZOXoULG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.360",
+    "systemId": "sf2e",
+    "systemVersion": "1.0.3",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XZVqls0kVg0uxOxP"
+}

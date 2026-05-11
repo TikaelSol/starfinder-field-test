@@ -18,12 +18,9 @@
       "src": "systems/sf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Amnieka Midwife",
@@ -110,6 +108,13 @@
         "max": 82,
         "details": "regeneration 12 (deactivated by mental or holy)"
       },
+      "ac": {
+        "value": 23,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 0,
         "otherSpeeds": [
@@ -119,13 +124,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 23,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       }
     },
     "initiative": {
@@ -279,7 +277,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -334,7 +332,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -391,7 +389,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -449,7 +447,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.bestiary-ability-glossary.Item.lR9R5Vld8Eu2Dha5",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -530,7 +528,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -587,7 +585,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -647,7 +645,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -718,7 +716,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -782,7 +780,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -915,7 +913,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1027,7 +1025,7 @@
       "_stats": {
         "compendiumSource": "Item.YK7tR3Rn9RF8rwag",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1173,7 +1171,7 @@
       "_stats": {
         "compendiumSource": "Item.551Xcyo35ZCoS6WH",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1264,7 +1262,7 @@
       "_stats": {
         "compendiumSource": "Item.sUyKlISvDwTaJ8pg",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1344,7 +1342,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.mrDi3v933gsmnw25",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1464,7 +1462,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.QpP30fcEl4NGjHwo",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1566,7 +1564,7 @@
       "_stats": {
         "compendiumSource": "Item.tFsq726ZjUDAzML0",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1673,7 +1671,7 @@
       "_stats": {
         "compendiumSource": "Item.CLGyt6l3ESlOJm4l",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1722,7 +1720,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.bestiary-ability-glossary.Item.kakyXBG5WA8c6Zfd",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1790,7 +1788,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1850,7 +1848,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1959,7 +1957,7 @@
       "_stats": {
         "compendiumSource": "Item.n33Jd5EBmVvnNL2O",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1972,7 +1970,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "sf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

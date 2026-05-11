@@ -18,12 +18,9 @@
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Skorresh",
@@ -114,6 +112,13 @@
         "max": 32,
         "details": ""
       },
+      "ac": {
+        "value": 17,
+        "details": "19 with shell raised"
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 30,
         "otherSpeeds": [
@@ -123,13 +128,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 17,
-        "details": "19 with shell raised"
-      },
-      "allSaves": {
-        "value": ""
       }
     },
     "initiative": {
@@ -235,7 +233,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>The skorresh is afraid of other creatures that stand up to it. Creatures attempting to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a skorresh don't take the –4 circumstance penalty caused by lacking a shared language. Whenever the skorresh gains the frightened condition, it additionally becomes @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} for as long as it is frightened.</p>"
+          "value": "<p>The skorresh is afraid of other creatures that stand up to it. Creatures attempting to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a skorresh don't take the –4 circumstance penalty caused by lacking a shared language. Whenever the skorresh gains the frightened condition, it additionally becomes @UUID[Compendium.pf2e.conditionitems.Item.enA7BxAjBb7ns1iF]{Suppressed} for as long as it is frightened.</p>"
         },
         "rules": [],
         "slug": null,
@@ -279,7 +277,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -345,7 +343,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -407,7 +405,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -472,7 +470,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -551,6 +549,7 @@
           "misidentified": {}
         },
         "acBonus": 2,
+        "grade": null,
         "runes": {
           "reinforcing": 0
         },
@@ -569,7 +568,7 @@
       "_stats": {
         "compendiumSource": "Item.44nfZR3BAPrcnOmS",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -614,7 +613,7 @@
         },
         "deathNote": false,
         "selfEffect": {
-          "uuid": "Compendium.pf2e.equipment-effects.Item.2YgXoHvJfrDHucMr",
+          "uuid": "Compendium.pf2e.equipment-srd-effects.Item.2YgXoHvJfrDHucMr",
           "name": "Effect: Raise a Shield"
         }
       },
@@ -631,7 +630,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -644,7 +643,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>The skorresh opens its folded shell, like a pair of wings, in an intimidating display. The skorresh Raises its Protective Shell, then creatures within 90 feet must attempt a @Check[type:will|dc:18] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected and is and temporarily immune to Shell Display for 1 minute.</p><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} and @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} for 1 round.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} and suppressed for 2 rounds.</p>"
+          "value": "<p>The skorresh opens its folded shell, like a pair of wings, in an intimidating display. The skorresh Raises its Protective Shell, then creatures within 90 feet must attempt a @Check[type:will|dc:18] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected and is and temporarily immune to Shell Display for 1 minute.</p><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} and @UUID[Compendium.pf2e.conditionitems.Item.enA7BxAjBb7ns1iF]{Suppressed} for 1 round.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} and suppressed for 2 rounds.</p>"
         },
         "rules": [],
         "slug": null,
@@ -693,7 +692,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -705,7 +704,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

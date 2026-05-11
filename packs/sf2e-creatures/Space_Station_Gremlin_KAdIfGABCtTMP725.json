@@ -18,12 +18,9 @@
       "src": "systems/sf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Space Station Gremlin",
@@ -110,6 +108,13 @@
         "max": 8,
         "details": ""
       },
+      "ac": {
+        "value": 14,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 20,
         "otherSpeeds": [
@@ -119,13 +124,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 14,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       },
       "weaknesses": [
         {
@@ -316,7 +314,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -383,7 +381,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -516,7 +514,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -593,7 +591,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.XXqE1eY3w3z6xJCB",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -705,7 +703,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.kBhaPuzLUSwS6vVf",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -795,7 +793,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -898,7 +896,7 @@
       "_stats": {
         "compendiumSource": "Item.vWHkSGsb0aPuj3BE",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -985,7 +983,7 @@
       "_stats": {
         "compendiumSource": "Item.RVjoH9RfxymDM1Lv",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1096,7 +1094,7 @@
       "_stats": {
         "compendiumSource": "Item.sdSqIbyyzILPGxpF",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1154,7 +1152,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1214,7 +1212,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1296,7 +1294,7 @@
       "_stats": {
         "compendiumSource": "Compendium.sf2e.spells.Item.2oH5IufzdESuYxat",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "sf2e",
         "systemVersion": "6.0.4",
         "exportSource": null
@@ -1319,7 +1317,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "sf2e",
     "systemVersion": "7.2.3",
     "exportSource": null

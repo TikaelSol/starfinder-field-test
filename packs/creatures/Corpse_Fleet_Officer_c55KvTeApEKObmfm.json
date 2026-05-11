@@ -29,9 +29,6 @@
       "src": "modules/starfinder-field-test-for-pf2e/art/npc-art/tokens/bone_trooper_captain-t_v2_1-5.webp",
       "scaleX": 1.5,
       "scaleY": 1.5,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -73,7 +70,7 @@
       "negative": false,
       "priority": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": false,
     "occludable": {
       "radius": 0
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": null,
   "name": "Corpse Fleet Officer",
@@ -110,17 +108,17 @@
         "max": 55,
         "details": "void healing"
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 21,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       },
       "immunities": [
         {
@@ -328,7 +326,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -383,7 +381,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -442,7 +440,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -500,7 +498,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -571,7 +569,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -641,7 +639,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -698,7 +696,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -743,7 +741,7 @@
             "key": "DamageDice",
             "selector": "strike-damage",
             "dieSize": "d4",
-            "diceNumber": "{item|flags.pf2e.rulesSelections.leadSalvo}"
+            "diceNumber": "{item|flags.system.rulesSelections.leadSalvo}"
           }
         ],
         "slug": "lead-salvo",
@@ -787,7 +785,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -846,7 +844,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -947,9 +945,11 @@
         },
         "range": 40,
         "expend": 1,
+        "ammo": null,
         "reload": {
           "value": "1"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -982,7 +982,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.xbbjgyxVVf61NlWs",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -1078,8 +1078,8 @@
         "usage": {
           "value": "other"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "img": "modules/starfinder-field-test-for-pf2e/art/icons/equipment/other/green%20battery.webp",
       "flags": {
@@ -1088,7 +1088,7 @@
       "_stats": {
         "compendiumSource": "Compendium.starfinder-field-test-for-pf2e.equipment.Item.z39jwp9Cl3O0QUrZ",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.2.1",
         "exportSource": null
@@ -1193,9 +1193,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": null
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -1233,7 +1235,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -1317,6 +1319,7 @@
         "dexCap": 5,
         "checkPenalty": 0,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -1337,7 +1340,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.360",
         "systemId": "pf2e",
         "systemVersion": "6.1.1",
         "exportSource": null
@@ -1349,7 +1352,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.360",
     "systemId": "pf2e",
     "systemVersion": "7.2.3",
     "exportSource": {
