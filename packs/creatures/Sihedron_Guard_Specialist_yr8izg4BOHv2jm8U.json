@@ -1062,7 +1062,7 @@
           "value": "reaction"
         },
         "description": {
-          "value": "<p><strong>Frequency</strong> once per year</p><p><strong>Trigger</strong> The Sihedron Guard specialist is reduced to 0 Hit Points, but not from an effect that leaves no remains (like @UUID[Compendium.pf2e.spells-srd.Item.xS4bqHnbodCwjpqI])</p><hr /><p><strong>Effect</strong> The Sihedron Guard specialist restores @Damage[5d8[healing]] Hit Points and doesn't fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} or drop their equipment.</p>",
+          "value": "<p><strong>Frequency</strong> once per year</p><p><strong>Trigger</strong> The Sihedron Guard specialist is reduced to 0 Hit Points, but not from an effect that leaves no remains (like @UUID[Compendium.sf2e.spells.Item.xS4bqHnbodCwjpqI])</p><hr /><p><strong>Effect</strong> The Sihedron Guard specialist restores @Damage[5d8[healing]] Hit Points and doesn't fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} or drop their equipment.</p>",
           "gm": ""
         },
         "publication": {
@@ -1472,7 +1472,7 @@
       "img": "icons/magic/water/beam-ice-impact.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.pf2e.spells-srd.Item.xS4bqHnbodCwjpqI",
+        "compendiumSource": "Compendium.sf2e.spells.Item.xS4bqHnbodCwjpqI",
         "duplicateSource": null,
         "coreVersion": "14.360",
         "systemId": "pf2e",
@@ -1612,7 +1612,7 @@
       "system": {
         "description": {
           "gm": "",
-          "value": "<p>You flood the area with electrical interference. You deal 8d8 electricity damage to all other creatures in the area. Each creature in the area must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and any items with the tech trait gain @UUID[Compendium.pf2e.conditionitems.Item.6A2QDy8wRGCVQsSd]{Glitching 1} for 1 minute or until the condition is removed.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and any items with the tech trait gain @UUID[Compendium.pf2e.conditionitems.Item.6A2QDy8wRGCVQsSd]{Glitching 2} for 1 minute or until the condition is removed</p>"
+          "value": "<p>You flood the area with electrical interference. You deal 8d8 electricity damage to all other creatures in the area. Each creature in the area must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and any items with the tech trait gain @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} for 1 minute or until the condition is removed.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and any items with the tech trait gain @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} for 1 minute or until the condition is removed</p>"
         },
         "rules": [],
         "slug": "overload-systems",
@@ -1894,7 +1894,7 @@
       "folder": null,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.pf2e.spells-srd.Item.GB1RVtoFPwyH1B9G",
+        "compendiumSource": "Compendium.sf2e.spells.Item.GB1RVtoFPwyH1B9G",
         "duplicateSource": null,
         "coreVersion": "14.360",
         "systemId": "pf2e",
@@ -1979,7 +1979,7 @@
       "img": "icons/weapons/polearms/spear-flared-silver-pink.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.pf2e.spells-srd.Item.SbBqa1HStMrV47fb",
+        "compendiumSource": "Compendium.sf2e.spells.Item.SbBqa1HStMrV47fb",
         "duplicateSource": null,
         "coreVersion": "14.360",
         "systemId": "pf2e",
