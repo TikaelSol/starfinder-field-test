@@ -30,7 +30,7 @@
           "attack-roll",
           "damage-roll"
         ],
-        "label": "SF2E.SpecificRule.Luminary.Role.Romance.Label"
+        "label": "SF2E.SpecificRule.Luminary.Role.romance.Label"
       }
     ],
     "slug": null,

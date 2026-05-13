@@ -43,7 +43,7 @@
         ],
         "key": "Strike",
         "slug": "sfx",
-        "label": "SF2E.SpecificRule.EpicSuperhero.SFX",
+        "label": "SF2E.SpecificRule.Luminary.EpicSuperhero.SFX",
         "predicate": [
           "role:epic"
         ]
