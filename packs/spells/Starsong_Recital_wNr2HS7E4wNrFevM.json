@@ -8,7 +8,7 @@
       "value": "<p>A hardlight musician manifests above the battlefield, their music tugging at the heartstrings of everyone around them. If you are the prima donna, the emanation's radius is doubled. Attempt a single Performance check against the Will DC of each enemy in the area. No matter the outcome, the creature becomes immune to Starsong Recital for 24 hours.</p><hr><p><strong>Critical Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the musician for 1 minute (even if it moves). A fascinated creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to creatures that aren't under a spotlighted, and must either Step or Stride toward the musician as their first action. The condition ends if you use a hostile action against the target, but not if a creature uses a hostile action against its allies.</p><p><strong>Success</strong> As critical success, but at the end of each round the fascinated creature can attempt a Will save, ending the effect on a success.</p><p><strong>Failure</strong> As success, but the effect lasts for 1 round.</p><hr><p><strong>Heightened (6th)</strong> Increase emanation radius to 30 feet.</p><p><strong>Heightened (9th)</strong> Increase emanation radius to 120 feet.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "starsong-recital",
     "_migration": {
       "version": 0.955,
       "lastMigration": null,

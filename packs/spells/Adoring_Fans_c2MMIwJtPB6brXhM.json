@@ -8,7 +8,7 @@
       "value": "<p>A mob of hardlight avatars you've constructed to help promote someone appear and begin scrambling to celebrate, following the spotlighted creature. When the spotlight moves to a different creature, the crowd will immediately begin following and move to whoever has the spotlight. The crowd is considered difficult terrain to anyone other than you and the creature the crowd is following. Creatures without a spotlight can [[/act hide]] and [[/act sneak]] inside the crowd. The crowd is not dense enough to provide additional cover or concealment, and the spell is Dismissed if the creature in the spotlight takes any area damage.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "adoring-fans",
     "_migration": {
       "version": 0.955,
       "lastMigration": null,

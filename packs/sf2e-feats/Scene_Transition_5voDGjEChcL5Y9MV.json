@@ -27,7 +27,7 @@
       "authors": ""
     },
     "rules": [],
-    "slug": null,
+    "slug": "scene-transition",
     "_migration": {
       "version": 0.955,
       "previous": {

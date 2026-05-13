@@ -8,7 +8,7 @@
       "value": "<p>You summon a special guest to help fight you, then Cast a Role and Set the Spotlight on your special gust. This functions as @UUID[Compendium.pf2e.spells-srd.Item.f8SBoXiXQjlCKqly], except the creature is a hardlight construct instead of an illusion so creatures cannot disbelieve your special guest. Your special guest deals force damage instead of mental damage, but resistances and weaknesses still apply based on the type of damage the hardlight construct appears to deal. You can always use your Performance skill to mimic a specific creature with your special guest.</p><hr><p><strong>Heightened (+1)</strong> As <em>illusory creature</em>.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "cameo-appearance",
     "_migration": {
       "version": 0.955,
       "lastMigration": null,

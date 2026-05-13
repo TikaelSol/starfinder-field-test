@@ -26,7 +26,7 @@
       "authors": ""
     },
     "rules": [],
-    "slug": null,
+    "slug": "two-point-lighting",
     "_migration": {
       "version": 0.955,
       "previous": {
