@@ -8,7 +8,7 @@
       "value": "<p>You Set a Spotlight on the target that does not move. The creature gains the star player role for the duration of the spell, in addition to their normally assigned role.</p><p>The star player gains 3 temporary Hit Points for the duration of the spell. The first time each round the star player targets a creature with a Strike, the creature must succeed at a Fortitude save against your Spell DC or is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "star-player",
     "_migration": {
       "version": 0.955,
       "lastMigration": null,

@@ -600,7 +600,7 @@
         "label": "SF2E.SpecificRule.Luminary.Role.leadActor.Label"
       }
     ],
-    "slug": null,
+    "slug": "effect-role",
     "traits": {
       "otherTags": [],
       "value": []

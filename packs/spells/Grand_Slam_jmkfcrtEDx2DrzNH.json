@@ -8,7 +8,7 @@
       "value": "<p>A player takes center stage, prepared to bring the game to an end. The target Strikes as a reaction with a +2 status bonus. If the target is the star player, it can make the Strike as a free action instead. If the target misses, it can reroll its attack without the status bonus (this is a fortune effect). If the target hits (even if it rerolled), they can [[/act demoralize]] or Stride as a free action (this Stride has the traversal trait).</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.bhw5P73WTea3xcjM]{Spell Effect: Grand Slam}</p><hr><p><strong>Heightened (9th)</strong> The status bonus is +3.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "grand-slam",
     "_migration": {
       "version": 0.955,
       "lastMigration": null,

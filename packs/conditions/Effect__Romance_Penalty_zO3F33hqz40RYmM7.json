@@ -33,7 +33,7 @@
         "label": "SF2E.SpecificRule.Luminary.Role.romance.Label"
       }
     ],
-    "slug": null,
+    "slug": "effect-romance-penalty",
     "traits": {
       "otherTags": [],
       "value": []

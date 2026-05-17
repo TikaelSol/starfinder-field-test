@@ -8,7 +8,7 @@
       "value": "<p><strong>Trigger</strong> You fail (but not critically fail) a check.</p><p><strong>Requirements</strong> You are in your spotlight and within 30 feet of an ally.</p><hr><p>You quickly call on a hardlight facsimile of your ally to help you. Reroll the triggering check with a +2 status bonus.</p><hr><p><strong>Special</strong> If you are the star contestant, this spell's trigger is \"You fail or critically fail a check\".</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "summon-a-friend",
     "_migration": {
       "version": 0.955,
       "lastMigration": null,

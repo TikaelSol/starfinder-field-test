@@ -8,7 +8,7 @@
       "value": "<p>The targets face off in the climactic confrontation between the story's hero and villain. The affected creatures have a +2 status bonus to AC and saves against effects that do not originate from each other, and a –2 status penalty to checks and to the DCs of their effects made against a creature that isn't the target of this spell.</p><p>If one of the affected creatures is the lead actor, creatures that are in the same scene as it, as described in lead actor, count as being part of this final confrontation, and creatures in the final confrontation count as being in the lead actor's scene.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "final-confrontation",
     "_migration": {
       "version": 0.955,
       "lastMigration": null,

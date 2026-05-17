@@ -8,7 +8,7 @@
       "value": "<p>You Set a Spotlight on the target that does not move. The creature gains the trendsetter role for the duration of the spell, in addition to their normally assigned role.</p><p>The trendsetter can [[/act perform]] to strike a pose and force a creature within 30 feet to attempt a Reflex save against your spell DC. On a failure, the creature becomes @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 2 rounds (@UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{Clumsy 2} on a critical failure), as the target becomes forcefully clad in holographic avant-garde fashion.</p><hr><p><strong>Heightened (3rd)</strong> The trendsetter can target an additional creature that is under a spotlight.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "trendsetter",
     "_migration": {
       "version": 0.955,
       "lastMigration": null,

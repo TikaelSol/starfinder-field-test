@@ -35,7 +35,7 @@
         "uuid": "{item|flags.system.rulesSelections.platform}"
       }
     ],
-    "slug": null,
+    "slug": "platform",
     "traits": {
       "otherTags": [],
       "value": [

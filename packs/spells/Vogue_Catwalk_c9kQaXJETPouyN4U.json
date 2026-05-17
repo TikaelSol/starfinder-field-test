@@ -8,7 +8,7 @@
       "value": "<p>When a spotlighted creature is in the area Casts a Spell, Performs, or Strikes, it can Stride up to half its Speed (this is a traversal effect) as a free action after the action resolves. If the creature is the trendsetter, they can Stride up to their speed instead. A creature can Stride in this way once per turn. A creature that moves outside of the area becomes @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "vogue-catwalk",
     "_migration": {
       "version": 0.955,
       "lastMigration": null,

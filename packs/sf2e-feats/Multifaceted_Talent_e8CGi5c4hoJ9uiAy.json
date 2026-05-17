@@ -63,7 +63,7 @@
         "uuid": "{item|flags.system.rulesSelections.featTwo}"
       }
     ],
-    "slug": null,
+    "slug": "multifaceted-talent",
     "_migration": {
       "version": 0.955,
       "previous": {

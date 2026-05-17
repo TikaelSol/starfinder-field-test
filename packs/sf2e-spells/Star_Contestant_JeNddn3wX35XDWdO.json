@@ -8,7 +8,7 @@
       "value": "<p>You Set a Spotlight on the target that does not move. The creature gains the star contestant role for the duration of the spell, in addition to their normally assigned role.</p><p>The star contestant can turn their bad luck into a thrilling turnabout. When the star contestant fails a check, it gains a +1 status bonus the next time it attempts the check.</p><hr><p><strong>Heightened (6th)</strong> Increase the status bonus to a +2.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "star-contestant",
     "_migration": {
       "version": 0.955,
       "lastMigration": null,

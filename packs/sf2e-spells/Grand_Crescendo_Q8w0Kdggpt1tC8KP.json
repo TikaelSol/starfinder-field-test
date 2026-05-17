@@ -8,7 +8,7 @@
       "value": "<p>The performance reaches its zenith and the song reaches its triumphant finale. Each enemy in the area takes 6d8 sonic damage with a basic Will saving throw, and each ally in the area gains temporary Hit Points equal to half that amount that last for 1 round.</p><hr><p><strong>Heightened (+1)</strong> The damage is increased by 1d8.</p>"
     },
     "rules": [],
-    "slug": null,
+    "slug": "grand-crescendo",
     "_migration": {
       "version": 0.955,
       "lastMigration": null,

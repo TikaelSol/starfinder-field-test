@@ -30,7 +30,7 @@
       "authors": ""
     },
     "rules": [],
-    "slug": null,
+    "slug": "wipe-transition",
     "_migration": {
       "version": 0.955,
       "previous": {
