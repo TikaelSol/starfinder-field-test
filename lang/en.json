@@ -11,6 +11,9 @@
         },
         "SpecificRule": {
             "Luminary": {
+                "EpicSuperhero": {
+                    "SFX": "SFX"
+                },
                 "Platform": {
                     "Prompt": "Select a platform"
                 },

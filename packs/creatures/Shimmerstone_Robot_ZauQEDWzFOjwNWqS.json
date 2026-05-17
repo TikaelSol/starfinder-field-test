@@ -483,7 +483,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p>The shimmerstone robot emits a disrupting pulse in a @Template[type:emanation|distance:20]. All tech creatures and objects in the area become @UUID[Compendium.pf2e.conditionitems.Item.6A2QDy8wRGCVQsSd]{Glitching 2} unless they succeed at a @Check[will|dc:30] save.</p>",
+          "value": "<p>The shimmerstone robot emits a disrupting pulse in a @Template[type:emanation|distance:20]. All tech creatures and objects in the area become @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} unless they succeed at a @Check[will|dc:30] save.</p>",
           "gm": ""
         },
         "publication": {

@@ -2591,7 +2591,7 @@
       "img": "icons/magic/sonic/scream-wail-shout-teal.webp",
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.pf2e.spells-srd.Item.QpP30fcEl4NGjHwo",
+        "compendiumSource": "Compendium.sf2e.spells.Item.QpP30fcEl4NGjHwo",
         "duplicateSource": null,
         "coreVersion": "14.360",
         "systemId": "pf2e",
@@ -3279,7 +3279,7 @@
           "value": "passive"
         },
         "description": {
-          "value": "<p>When a creature fails a saving throw against a spell Sediya casts with the mental trait, it becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} and @UUID[Compendium.pf2e.conditionitems.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of its next turn as visions of the universe's entropic demise fill its mind.</p>",
+          "value": "<p>When a creature fails a saving throw against a spell Sediya casts with the mental trait, it becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} and @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of its next turn as visions of the universe's entropic demise fill its mind.</p>",
           "gm": ""
         },
         "publication": {

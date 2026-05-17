@@ -71,7 +71,7 @@
             "value": "irony"
           },
           {
-            "label": "SF2E.SpecificRule.Luminary.Role.lead-actor.Label",
+            "label": "SF2E.SpecificRule.Luminary.Role.leadActor.Label",
             "value": "lead-actor",
             "predicate": [
               "parent:origin:item:slug:lead-actor"
@@ -103,14 +103,14 @@
             ]
           },
           {
-            "label": "SF2E.SpecificRule.Luminary.Role.star-contestant.Label",
+            "label": "SF2E.SpecificRule.Luminary.Role.starContestant.Label",
             "value": "star-contestant",
             "predicate": [
               "parent:origin:item:slug:star-contestant"
             ]
           },
           {
-            "label": "SF2E.SpecificRule.Luminary.Role.star-player.Label",
+            "label": "SF2E.SpecificRule.Luminary.Role.starPlayer.Label",
             "value": "star-player",
             "predicate": [
               "parent:origin:item:slug:star-player"
@@ -240,7 +240,7 @@
           "self:effect:spotlight",
           "role:irony"
         ],
-        "label": "SF2E.SpecificRule.Luminary.Role.Irony.Label",
+        "label": "SF2E.SpecificRule.Luminary.Role.irony.Label",
         "hideIfDisabled": true
       },
       {
@@ -307,7 +307,7 @@
       {
         "key": "Note",
         "text": "SF2E.SpecificRule.Luminary.Role.stagehand.Note.Damage",
-        "title": "SF2E.SpecificRule.Luminary.Role.Stagehand.Label",
+        "title": "SF2E.SpecificRule.Luminary.Role.stagehand.Label",
         "selector": [
           "damage-received"
         ],
@@ -444,7 +444,7 @@
           "role:silent",
           "self:effect:spotlight"
         ],
-        "label": "SF2E.SpecificRule.Luminary.Role.Silent.Label",
+        "label": "SF2E.SpecificRule.Luminary.Role.silent.Label",
         "hideIfDisabled": true
       },
       {
@@ -511,12 +511,12 @@
           "criticalFailure",
           "failure"
         ],
-        "title": "SF2E.SpecificRule.Luminary.Role.star-contestant.Label",
+        "title": "SF2E.SpecificRule.Luminary.Role.starContestant.Label",
         "predicate": [
           "self:effect:spotlight",
           "role:star-contestant"
         ],
-        "text": "SF2E.SpecificRule.Luminary.Role.star-contestant.Note"
+        "text": "SF2E.SpecificRule.Luminary.Role.starContestant.Note"
       },
       {
         "key": "AdjustModifier",
@@ -549,7 +549,7 @@
             "text": "SF2E.SpecificRule.Luminary.Role.trendsetter.Description"
           }
         ],
-        "label": "SF2E.SpecificRule.Luminary.Role.Trendsetter.Label"
+        "label": "SF2E.SpecificRule.Luminary.Role.trendsetter.Label"
       },
       {
         "key": "ItemAlteration",
@@ -575,11 +575,11 @@
       },
       {
         "key": "Note",
-        "title": "SF2E.SpecificRule.Luminary.Role.star-player.Label",
+        "title": "SF2E.SpecificRule.Luminary.Role.starPlayer.Label",
         "selector": [
           "strike-attack-roll"
         ],
-        "text": "SF2E.SpecificRule.Luminary.Role.star-player.Note",
+        "text": "SF2E.SpecificRule.Luminary.Role.starPlayer.Note",
         "predicate": [
           "self:effect:spotlight",
           "role:star-player"
@@ -597,7 +597,7 @@
           "role:lead-actor",
           "self:effect:spotlight"
         ],
-        "label": "SF2E.SpecificRule.Luminary.Role.lead-actor.Label"
+        "label": "SF2E.SpecificRule.Luminary.Role.leadActor.Label"
       }
     ],
     "slug": null,

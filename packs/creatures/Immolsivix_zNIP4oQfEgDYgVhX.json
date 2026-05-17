@@ -761,7 +761,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p>The immolsivix makes a jaws melee Strike followed by two claw melee Strikes. The claw attacks happen simultaneously and must target the same creature, using the same multiple attack penalty for both attacks. The immolsivix can then Area Fire with its fungal bomb, but all creatures in the area gain a +2 circumstance bonus to their saves. A creature hit by any of the Strikes, or who fail their save against the Area Fire, becomes @UUID[Compendium.pf2e.conditionitems.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of their next turn.</p>",
+          "value": "<p>The immolsivix makes a jaws melee Strike followed by two claw melee Strikes. The claw attacks happen simultaneously and must target the same creature, using the same multiple attack penalty for both attacks. The immolsivix can then Area Fire with its fungal bomb, but all creatures in the area gain a +2 circumstance bonus to their saves. A creature hit by any of the Strikes, or who fail their save against the Area Fire, becomes @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{Suppressed} until the end of their next turn.</p>",
           "gm": ""
         },
         "publication": {
