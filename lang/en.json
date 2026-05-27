@@ -64,7 +64,7 @@
                             "Lowest": "Select your lowest unmodified saving throw."
                         }
                     },
-                    "leadActor": {
+                    "lead-actor": {
                         "Description": "You gain a +1 status bonus to checks made for actions with the linguistic trait. You can Perform with the linguistic trait to pull a target into a scene for 2 rounds; All creatures pulled into the same scene are @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{Off-Guard} to each other.",
                         "Label": "Lead Actor"
                     },
@@ -89,13 +89,13 @@
                             "Move": "If you use a move action, shimmers and ripples in the role make you @UUID[Compendium.sf2e.conditions.Item.iU0fEDdBp3rXpTMC]{Hidden} instead of @UUID[Compendium.sf2e.conditions.Item.VRSef5y1LmL2Hkjf]{Undetected} until the start of your next turn. If you use a hostile action, you become immune to this role for 24 hours after that hostile action is completed."
                         }
                     },
-                    "starContestant": {
+                    "star-contestant": {
                         "Description": "The star contestant can turn their bad luck into a thrilling turnabout. When the star contestant fails a check, it gains a +1 status bonus the next time it attempts the check.",
                         "Label": "Star Contestant",
                         "Note": "<p>When the you fail a check, you gain a +1 status bonus the next time you attempt the check.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.sf2e-conditions.Item.gaYFZ3CVdg2gMp1r]{Effect: Star Contestant Bonus}</p>",
                         "ToggleLabel": "Star Contestant — Attempting failed check again"
                     },
-                    "starPlayer": {
+                    "star-player": {
                         "Description": "You gain 3 temporary Hit Points for the duration of the spell. The first time each round you target a creature with a Strike, the creature must succeed at a @Check[fortitude] save against the origin's Spell DC or is knocked @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}.",
                         "Label": "Star Player",
                         "Note": "The first time each round you target a creature with a Strike, the creature must succeed at a @Check[fortitude] save against the origin's Spell DC or is knocked @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{Prone}."

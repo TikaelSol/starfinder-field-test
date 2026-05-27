@@ -25,7 +25,18 @@
       "title": "Luminary Playtest",
       "authors": ""
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "other-tags",
+        "itemType": "action",
+        "predicate": [
+          "item:slug:cast-role"
+        ],
+        "value": "stagehand"
+      }
+    ],
     "slug": "chroma-key-stagehand",
     "_migration": {
       "version": 0.955,
@@ -62,9 +73,9 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.360",
+    "coreVersion": "14.363",
     "systemId": "sf2e",
-    "systemVersion": "1.0.3",
+    "systemVersion": "1.1.2",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

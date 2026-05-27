@@ -25,7 +25,18 @@
       "title": "Luminary Playtest",
       "authors": ""
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "other-tags",
+        "itemType": "action",
+        "predicate": [
+          "item:slug:cast-role"
+        ],
+        "value": "silent"
+      }
+    ],
     "slug": "quiet-on-the-set",
     "_migration": {
       "version": 0.955,

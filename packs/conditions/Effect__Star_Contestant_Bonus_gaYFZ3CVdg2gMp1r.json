@@ -22,7 +22,7 @@
       {
         "key": "RollOption",
         "option": "star-contestant-check",
-        "label": "SF2E.SpecificRule.Luminary.Role.starContestant.ToggleLabel",
+        "label": "SF2E.SpecificRule.Luminary.Role.star-contestant.ToggleLabel",
         "toggleable": true
       },
       {

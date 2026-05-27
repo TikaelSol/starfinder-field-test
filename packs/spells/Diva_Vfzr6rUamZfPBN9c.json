@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You Set a Spotlight on the target that does not move. The creature gains the diva role for the duration of the spell, in addition to their normally assigned role.</p><p>The diva can [[/act perform]] once per turn to restore 1d4 Hit Points to a creature in a spotlight. This has the healing trait and a trait associated with the performance, usually auditory for singing and move for dancing.</p><hr><p><strong>Heightened (+1)</strong> The amount of healing increases by 1d4.</p>"
+      "value": "<p>You Set a Spotlight on the target that does not move. The creature gains the diva role for the duration of the spell, in addition to their normally assigned role.</p><p>The diva can [[/act perform]] once per turn to restore 1d4 Hit Points to a creature in a spotlight. This has the healing trait and a trait associated with the performance, usually auditory for singing and move for dancing.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.WZTn5onQlTenBGi5]{Effect: Spotlight}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.vYCY3uEYojvomVFi]{Effect: Role}</p><hr><p><strong>Heightened (+1)</strong> The amount of healing increases by 1d4.</p>"
     },
     "rules": [],
     "slug": "diva",
@@ -91,9 +91,9 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.360",
+    "coreVersion": "14.362",
     "systemId": "pf2e",
-    "systemVersion": "1.0.3",
+    "systemVersion": "8.1.2",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

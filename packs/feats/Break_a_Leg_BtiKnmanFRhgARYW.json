@@ -25,7 +25,18 @@
       "title": "Luminary Playtest",
       "authors": ""
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "other-tags",
+        "itemType": "action",
+        "predicate": [
+          "item:slug:cast-role"
+        ],
+        "value": "unlucky"
+      }
+    ],
     "slug": "break-a-leg",
     "_migration": {
       "version": 0.955,
