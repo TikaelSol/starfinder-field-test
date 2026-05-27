@@ -244,6 +244,7 @@
         "hideIfDisabled": true
       },
       {
+        "affects": "origin",
         "key": "EphemeralEffect",
         "uuid": "Compendium.starfinder-field-test-for-pf2e.conditions.Item.zO3F33hqz40RYmM7",
         "predicate": [
