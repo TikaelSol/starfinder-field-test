@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You Set a Spotlight on the target that does not move. The creature gains the star contestant role for the duration of the spell, in addition to their normally assigned role.</p><p>The star contestant can turn their bad luck into a thrilling turnabout. When the star contestant fails a check, it gains a +1 status bonus the next time it attempts the check.</p><hr><p><strong>Heightened (6th)</strong> Increase the status bonus to a +2.</p>"
+      "value": "<p>You Set a Spotlight on the target that does not move. The creature gains the star contestant role for the duration of the spell, in addition to their normally assigned role.</p><p>The star contestant can turn their bad luck into a thrilling turnabout. When the star contestant fails a check, it gains a +1 status bonus the next time it attempts the check.</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.WZTn5onQlTenBGi5]{Effect: Spotlight}</p><p>@UUID[Compendium.starfinder-field-test-for-pf2e.conditions.Item.vYCY3uEYojvomVFi]{Effect: Role}</p><hr><p><strong>Heightened (6th)</strong> Increase the status bonus to a +2.</p>"
     },
     "rules": [],
     "slug": "star-contestant",
@@ -72,9 +72,9 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "14.360",
+    "coreVersion": "14.362",
     "systemId": "pf2e",
-    "systemVersion": "1.0.3",
+    "systemVersion": "8.1.2",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

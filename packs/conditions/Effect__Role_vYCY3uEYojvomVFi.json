@@ -424,7 +424,11 @@
       {
         "key": "Resistance",
         "type": "{item|flags.system.rulesSelections.costumeDamage}",
-        "value": "2*@item.origin.skills.performance.rank + @item.origin.abilities.cha.mod"
+        "value": "2*@item.origin.skills.performance.rank + @item.origin.abilities.cha.mod",
+        "predicate": [
+          "role:costume",
+          "self:effect:spotlight"
+        ]
       },
       {
         "key": "FlatModifier",
@@ -570,6 +574,7 @@
         "key": "TempHP",
         "value": 3,
         "predicate": [
+          "self:effect:spotlight",
           "role:star-player"
         ]
       },
@@ -597,7 +602,8 @@
           "role:lead-actor",
           "self:effect:spotlight"
         ],
-        "label": "SF2E.SpecificRule.Luminary.Role.leadActor.Label"
+        "label": "SF2E.SpecificRule.Luminary.Role.lead-actor.Label",
+        "hideIfDisabled": true
       }
     ],
     "slug": "effect-role",
