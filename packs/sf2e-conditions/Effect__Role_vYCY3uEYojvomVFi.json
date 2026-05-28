@@ -71,7 +71,7 @@
             "value": "irony"
           },
           {
-            "label": "SF2E.SpecificRule.Luminary.Role.leadActor.Label",
+            "label": "SF2E.SpecificRule.Luminary.Role.lead-actor.Label",
             "value": "lead-actor",
             "predicate": [
               "parent:origin:item:slug:lead-actor"
@@ -103,14 +103,14 @@
             ]
           },
           {
-            "label": "SF2E.SpecificRule.Luminary.Role.starContestant.Label",
+            "label": "SF2E.SpecificRule.Luminary.Role.star-contestant.Label",
             "value": "star-contestant",
             "predicate": [
               "parent:origin:item:slug:star-contestant"
             ]
           },
           {
-            "label": "SF2E.SpecificRule.Luminary.Role.starPlayer.Label",
+            "label": "SF2E.SpecificRule.Luminary.Role.star-player.Label",
             "value": "star-player",
             "predicate": [
               "parent:origin:item:slug:star-player"
@@ -516,12 +516,12 @@
           "criticalFailure",
           "failure"
         ],
-        "title": "SF2E.SpecificRule.Luminary.Role.starContestant.Label",
+        "title": "SF2E.SpecificRule.Luminary.Role.star-contestant.Label",
         "predicate": [
           "self:effect:spotlight",
           "role:star-contestant"
         ],
-        "text": "SF2E.SpecificRule.Luminary.Role.starContestant.Note"
+        "text": "SF2E.SpecificRule.Luminary.Role.star-contestant.Note"
       },
       {
         "key": "AdjustModifier",
@@ -581,11 +581,11 @@
       },
       {
         "key": "Note",
-        "title": "SF2E.SpecificRule.Luminary.Role.starPlayer.Label",
+        "title": "SF2E.SpecificRule.Luminary.Role.star-player.Label",
         "selector": [
           "strike-attack-roll"
         ],
-        "text": "SF2E.SpecificRule.Luminary.Role.starPlayer.Note",
+        "text": "SF2E.SpecificRule.Luminary.Role.star-player.Note",
         "predicate": [
           "self:effect:spotlight",
           "role:star-player"
