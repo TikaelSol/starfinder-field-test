@@ -381,19 +381,19 @@
           "color": "#9DD9E5",
           "packs": [
             "actions",
+            "companions",
             "classes",
             "class-features",
             "feats",
             "equipment",
             "spells",
-            "companions",
             "sf2e-actions",
+            "sf2e-companions"
             "sf2e-classes",
             "sf2e-class-features",
             "sf2e-feats",
             "sf2e-equipment",
-            "sf2e-spells",
-            "sf2e-companions"
+            "sf2e-spells"
           ]
         }
       ]
