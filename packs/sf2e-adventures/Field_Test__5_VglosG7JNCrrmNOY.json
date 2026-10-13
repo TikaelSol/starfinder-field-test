@@ -6955,7 +6955,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.369",
         "systemId": "sf2e",
         "systemVersion": "6.2.1",
         "exportSource": {
@@ -7033,8 +7033,7 @@
             "bottom": 0
           },
           "fog": {
-            "src": null,
-            "tint": "#ffffff"
+            "src": null
           },
           "textures": {
             "anchorX": 0.5,
@@ -9315,7 +9314,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "14.360",
+        "coreVersion": "14.369",
         "systemId": "sf2e",
         "systemVersion": "6.2.1",
         "exportSource": {
@@ -9393,8 +9392,7 @@
             "bottom": 0
           },
           "fog": {
-            "src": null,
-            "tint": "#ffffff"
+            "src": null
           },
           "textures": {
             "anchorX": 0.5,
@@ -9471,7 +9469,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "14.360",
+    "coreVersion": "14.369",
     "systemId": "sf2e",
     "systemVersion": "6.1.1",
     "exportSource": null
